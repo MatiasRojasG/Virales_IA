@@ -1,0 +1,126 @@
+{
+ "text": "El escáner cambió píxeles al azar: tinta por papel, y papel por tinta. Mirando píxel a píxel, no hay cómo saber cuál está mal.",
+ "voice": "es-CL-LorenzoNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.091666,
+   "end": 0.206249
+  },
+  {
+   "text": "escáner",
+   "start": 0.20625,
+   "end": 0.51875
+  },
+  {
+   "text": "cambió",
+   "start": 0.570833,
+   "end": 0.810416
+  },
+  {
+   "text": "píxeles",
+   "start": 0.883333,
+   "end": 1.237499
+  },
+  {
+   "text": "al",
+   "start": 1.2375,
+   "end": 1.310416
+  },
+  {
+   "text": "azar",
+   "start": 1.310416,
+   "end": 1.581249
+  },
+  {
+   "text": "tinta",
+   "start": 1.820833,
+   "end": 2.008333
+  },
+  {
+   "text": "por",
+   "start": 2.060416,
+   "end": 2.154166
+  },
+  {
+   "text": "papel",
+   "start": 2.20625,
+   "end": 2.477083
+  },
+  {
+   "text": "y",
+   "start": 2.622916,
+   "end": 2.674999
+  },
+  {
+   "text": "papel",
+   "start": 2.7375,
+   "end": 2.945833
+  },
+  {
+   "text": "por",
+   "start": 3.008333,
+   "end": 3.081249
+  },
+  {
+   "text": "tinta",
+   "start": 3.154166,
+   "end": 3.445832
+  },
+  {
+   "text": "Mirando",
+   "start": 4.177083,
+   "end": 4.510416
+  },
+  {
+   "text": "píxel",
+   "start": 4.583333,
+   "end": 4.802083
+  },
+  {
+   "text": "a",
+   "start": 4.802083,
+   "end": 4.8437489
+  },
+  {
+   "text": "píxel",
+   "start": 4.90625,
+   "end": 5.229166
+  },
+  {
+   "text": "no",
+   "start": 5.416666,
+   "end": 5.552082
+  },
+  {
+   "text": "hay",
+   "start": 5.552083,
+   "end": 5.624999
+  },
+  {
+   "text": "cómo",
+   "start": 5.677083,
+   "end": 5.822916
+  },
+  {
+   "text": "saber",
+   "start": 5.833333,
+   "end": 6.072916
+  },
+  {
+   "text": "cuál",
+   "start": 6.135416,
+   "end": 6.270832
+  },
+  {
+   "text": "está",
+   "start": 6.270833,
+   "end": 6.458333
+  },
+  {
+   "text": "mal",
+   "start": 6.479166,
+   "end": 6.677082
+  }
+ ]
+}

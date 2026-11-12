@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+episodes/*/build/parts/
+episodes/*/build/stills/
+episodes/*/build/mix.wav

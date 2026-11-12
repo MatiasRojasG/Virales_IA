@@ -1,0 +1,266 @@
+1
+00:00:00,192 --> 00:00:01,504
+Al escanear este
+documento,
+
+2
+00:00:01,504 --> 00:00:02,879
+el 15% de sus píxeles
+
+3
+00:00:02,879 --> 00:00:04,058
+se invirtió.
+
+4
+00:00:04,121 --> 00:00:05,902
+Ningún lector automático
+puede leerlo...
+
+5
+00:00:05,902 --> 00:00:07,779
+pero una sola
+idea lo arregla.
+
+6
+00:00:08,220 --> 00:00:09,949
+El escáner cambió
+píxeles al azar:
+
+7
+00:00:09,949 --> 00:00:10,751
+tinta por papel,
+
+8
+00:00:10,751 --> 00:00:12,274
+y papel por tinta.
+
+9
+00:00:12,305 --> 00:00:13,545
+Mirando píxel a píxel,
+
+10
+00:00:13,545 --> 00:00:14,399
+no hay cómo saber cuál
+
+11
+00:00:14,399 --> 00:00:15,505
+está mal.
+
+12
+00:00:15,886 --> 00:00:17,188
+Pero los píxeles
+vecinos tienden
+
+13
+00:00:17,188 --> 00:00:18,690
+a compartir color.
+
+14
+00:00:18,732 --> 00:00:19,898
+Un punto negro aislado,
+
+15
+00:00:19,898 --> 00:00:20,867
+en medio del papel,
+
+16
+00:00:20,867 --> 00:00:22,452
+casi seguro es ruido.
+
+17
+00:00:22,856 --> 00:00:24,324
+Esa relación no
+tiene dirección:
+
+18
+00:00:24,324 --> 00:00:26,264
+ningún píxel causa al otro.
+
+19
+00:00:26,295 --> 00:00:27,326
+Así que usamos un grafo
+
+20
+00:00:27,326 --> 00:00:29,004
+no dirigido, una
+red de Markov:
+
+21
+00:00:29,004 --> 00:00:29,920
+cada píxel unido a sus
+
+22
+00:00:29,920 --> 00:00:30,962
+cuatro vecinos, y a lo
+
+23
+00:00:30,962 --> 00:00:32,318
+que vio el escáner.
+
+24
+00:00:32,706 --> 00:00:34,070
+Cada píxel escucha
+dos voces:
+
+25
+00:00:34,070 --> 00:00:35,529
+el sensor, con peso α,
+
+26
+00:00:35,529 --> 00:00:36,310
+y sus vecinos,
+
+27
+00:00:36,310 --> 00:00:37,676
+con peso β.
+
+28
+00:00:37,718 --> 00:00:38,885
+Si la suma es positiva,
+
+29
+00:00:38,885 --> 00:00:40,043
+es tinta.
+
+30
+00:00:40,083 --> 00:00:40,989
+Si es negativa,
+
+31
+00:00:40,989 --> 00:00:41,981
+papel.
+
+32
+00:00:42,388 --> 00:00:43,419
+Nuestro punto aislado:
+
+33
+00:00:43,419 --> 00:00:44,502
+el sensor dice tinta,
+
+34
+00:00:44,502 --> 00:00:46,411
++0,87.
+
+35
+00:00:46,463 --> 00:00:47,952
+Sus cuatro vecinos
+dicen papel:
+
+36
+00:00:47,952 --> 00:00:49,694
+−4,8.
+
+37
+00:00:49,723 --> 00:00:50,494
+Gana el papel...
+
+38
+00:00:50,494 --> 00:00:52,142
+y el ruido desaparece.
+
+39
+00:00:52,574 --> 00:00:53,699
+Aplicamos la regla a todos
+
+40
+00:00:53,699 --> 00:00:55,680
+los píxeles, y repetimos.
+
+41
+00:00:55,753 --> 00:00:56,836
+Pasada tras pasada,
+
+42
+00:00:56,836 --> 00:00:58,401
+el ruido se disuelve.
+
+43
+00:00:58,472 --> 00:00:59,617
+Es la idea de ICM:
+
+44
+00:00:59,617 --> 00:01:01,640
+modos condicionales
+iterados.
+
+45
+00:01:02,114 --> 00:01:02,853
+En la clase,
+
+46
+00:01:02,853 --> 00:01:03,749
+el error bajó del 15%
+
+47
+00:01:03,749 --> 00:01:05,624
+al 2,5%, y el lector
+
+48
+00:01:05,624 --> 00:01:06,916
+pasó de reconocer el 42%
+
+49
+00:01:06,916 --> 00:01:09,418
+al 94% de los caracteres.
+
+50
+00:01:09,828 --> 00:01:11,078
+En mi recreación
+en Python:
+
+51
+00:01:11,078 --> 00:01:12,651
+error de 2,6%,
+
+52
+00:01:12,651 --> 00:01:13,828
+y el lector pasó de nada...
+
+53
+00:01:13,828 --> 00:01:15,673
+a un 91%.
+
+54
+00:01:16,054 --> 00:01:17,085
+La mayoría de los errores
+
+55
+00:01:17,085 --> 00:01:17,824
+que quedan están en los
+
+56
+00:01:17,824 --> 00:01:18,814
+bordes de las letras,
+
+57
+00:01:18,814 --> 00:01:20,618
+donde las dos
+voces compiten.
+
+58
+00:01:21,008 --> 00:01:22,289
+La misma idea
+delimita tumores
+
+59
+00:01:22,289 --> 00:01:23,904
+en resonancias,
+o clasifica suelos
+
+60
+00:01:23,904 --> 00:01:25,301
+desde satélites.
+
+61
+00:01:25,364 --> 00:01:26,333
+Próximo episodio:
+
+62
+00:01:26,333 --> 00:01:27,072
+por qué aquí no sirven
+
+63
+00:01:27,072 --> 00:01:28,995
+las flechas de una
+red bayesiana.

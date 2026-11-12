@@ -1,0 +1,141 @@
+{
+ "text": "Cada píxel escucha dos voces: el sensor, con peso alfa, y sus vecinos, con peso beta. Si la suma es positiva, es tinta. Si es negativa, papel.",
+ "voice": "es-CL-LorenzoNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.091666,
+   "end": 0.258332
+  },
+  {
+   "text": "píxel",
+   "start": 0.33125,
+   "end": 0.560416
+  },
+  {
+   "text": "escucha",
+   "start": 0.560416,
+   "end": 0.852082
+  },
+  {
+   "text": "dos",
+   "start": 0.872916,
+   "end": 0.997916
+  },
+  {
+   "text": "voces",
+   "start": 1.029166,
+   "end": 1.320832
+  },
+  {
+   "text": "el",
+   "start": 1.45625,
+   "end": 1.560416
+  },
+  {
+   "text": "sensor",
+   "start": 1.560416,
+   "end": 1.893749
+  },
+  {
+   "text": "con",
+   "start": 2.102083,
+   "end": 2.258333
+  },
+  {
+   "text": "peso",
+   "start": 2.279166,
+   "end": 2.477082
+  },
+  {
+   "text": "alfa",
+   "start": 2.477083,
+   "end": 2.747916
+  },
+  {
+   "text": "y",
+   "start": 2.914583,
+   "end": 2.977083
+  },
+  {
+   "text": "sus",
+   "start": 2.997916,
+   "end": 3.133332
+  },
+  {
+   "text": "vecinos",
+   "start": 3.164583,
+   "end": 3.549999
+  },
+  {
+   "text": "con",
+   "start": 3.695833,
+   "end": 3.862499
+  },
+  {
+   "text": "peso",
+   "start": 3.883333,
+   "end": 4.070833
+  },
+  {
+   "text": "beta",
+   "start": 4.102083,
+   "end": 4.362499
+  },
+  {
+   "text": "Si",
+   "start": 5.104166,
+   "end": 5.249999
+  },
+  {
+   "text": "la",
+   "start": 5.28125,
+   "end": 5.354166
+  },
+  {
+   "text": "suma",
+   "start": 5.364583,
+   "end": 5.572916
+  },
+  {
+   "text": "es",
+   "start": 5.583333,
+   "end": 5.635416
+  },
+  {
+   "text": "positiva",
+   "start": 5.6875,
+   "end": 6.125
+  },
+  {
+   "text": "es",
+   "start": 6.270833,
+   "end": 6.374999
+  },
+  {
+   "text": "tinta",
+   "start": 6.427083,
+   "end": 6.729166
+  },
+  {
+   "text": "Si",
+   "start": 7.46875,
+   "end": 7.635416
+  },
+  {
+   "text": "es",
+   "start": 7.65625,
+   "end": 7.739583
+  },
+  {
+   "text": "negativa",
+   "start": 7.760416,
+   "end": 8.197916
+  },
+  {
+   "text": "papel",
+   "start": 8.375,
+   "end": 8.666666
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "text": "Al escanear este documento, el quince por ciento de sus píxeles se invirtió. Ningún lector automático puede leerlo... pero una sola idea lo arregla.",
+ "voice": "es-CL-LorenzoNeural",
+ "words": [
+  {
+   "text": "Al",
+   "start": 0.091666,
+   "end": 0.216666
+  },
+  {
+   "text": "escanear",
+   "start": 0.216666,
+   "end": 0.570832
+  },
+  {
+   "text": "este",
+   "start": 0.570833,
+   "end": 0.737499
+  },
+  {
+   "text": "documento",
+   "start": 0.76875,
+   "end": 1.20625
+  },
+  {
+   "text": "el",
+   "start": 1.404166,
+   "end": 1.508332
+  },
+  {
+   "text": "quince",
+   "start": 1.560416,
+   "end": 1.758332
+  },
+  {
+   "text": "por",
+   "start": 1.820833,
+   "end": 1.904166
+  },
+  {
+   "text": "ciento",
+   "start": 1.914583,
+   "end": 2.164583
+  },
+  {
+   "text": "de",
+   "start": 2.185416,
+   "end": 2.247916
+  },
+  {
+   "text": "sus",
+   "start": 2.258333,
+   "end": 2.393749
+  },
+  {
+   "text": "píxeles",
+   "start": 2.466666,
+   "end": 2.779166
+  },
+  {
+   "text": "se",
+   "start": 2.779166,
+   "end": 2.862499
+  },
+  {
+   "text": "invirtió",
+   "start": 2.883333,
+   "end": 3.258333
+  },
+  {
+   "text": "Ningún",
+   "start": 4.020833,
+   "end": 4.322916
+  },
+  {
+   "text": "lector",
+   "start": 4.322916,
+   "end": 4.552082
+  },
+  {
+   "text": "automático",
+   "start": 4.552083,
+   "end": 5.041666
+  },
+  {
+   "text": "puede",
+   "start": 5.114583,
+   "end": 5.260416
+  },
+  {
+   "text": "leerlo",
+   "start": 5.28125,
+   "end": 5.583333
+  },
+  {
+   "text": "pero",
+   "start": 5.802083,
+   "end": 5.927083
+  },
+  {
+   "text": "una",
+   "start": 5.9375,
+   "end": 6.083333
+  },
+  {
+   "text": "sola",
+   "start": 6.083333,
+   "end": 6.302083
+  },
+  {
+   "text": "idea",
+   "start": 6.333333,
+   "end": 6.531249
+  },
+  {
+   "text": "lo",
+   "start": 6.541666,
+   "end": 6.614582
+  },
+  {
+   "text": "arregla",
+   "start": 6.625,
+   "end": 6.979166
+  }
+ ]
+}

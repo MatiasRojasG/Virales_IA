@@ -1,0 +1,131 @@
+{
+ "text": "La misma idea delimita tumores en resonancias, o clasifica suelos desde satélites. Próximo episodio: por qué aquí no sirven las flechas de una red bayesiana.",
+ "voice": "es-CL-LorenzoNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.091666,
+   "end": 0.195832
+  },
+  {
+   "text": "misma",
+   "start": 0.216666,
+   "end": 0.424999
+  },
+  {
+   "text": "idea",
+   "start": 0.45625,
+   "end": 0.633333
+  },
+  {
+   "text": "delimita",
+   "start": 0.64375,
+   "end": 1.008333
+  },
+  {
+   "text": "tumores",
+   "start": 1.060416,
+   "end": 1.372916
+  },
+  {
+   "text": "en",
+   "start": 1.372916,
+   "end": 1.445832
+  },
+  {
+   "text": "resonancias",
+   "start": 1.445833,
+   "end": 1.987499
+  },
+  {
+   "text": "o",
+   "start": 2.14375,
+   "end": 2.195833
+  },
+  {
+   "text": "clasifica",
+   "start": 2.2375,
+   "end": 2.64375
+  },
+  {
+   "text": "suelos",
+   "start": 2.654166,
+   "end": 2.945832
+  },
+  {
+   "text": "desde",
+   "start": 2.9875,
+   "end": 3.14375
+  },
+  {
+   "text": "satélites",
+   "start": 3.164583,
+   "end": 3.685416
+  },
+  {
+   "text": "Próximo",
+   "start": 4.447916,
+   "end": 4.749999
+  },
+  {
+   "text": "episodio",
+   "start": 4.760416,
+   "end": 5.187499
+  },
+  {
+   "text": "por",
+   "start": 5.416666,
+   "end": 5.499999
+  },
+  {
+   "text": "qué",
+   "start": 5.552083,
+   "end": 5.583333
+  },
+  {
+   "text": "aquí",
+   "start": 5.583333,
+   "end": 5.760416
+  },
+  {
+   "text": "no",
+   "start": 5.791666,
+   "end": 5.864582
+  },
+  {
+   "text": "sirven",
+   "start": 5.885416,
+   "end": 6.135416
+  },
+  {
+   "text": "las",
+   "start": 6.15625,
+   "end": 6.260416
+  },
+  {
+   "text": "flechas",
+   "start": 6.28125,
+   "end": 6.5625
+  },
+  {
+   "text": "de",
+   "start": 6.604166,
+   "end": 6.666666
+  },
+  {
+   "text": "una",
+   "start": 6.677083,
+   "end": 6.833333
+  },
+  {
+   "text": "red",
+   "start": 6.84375,
+   "end": 6.979166
+  },
+  {
+   "text": "bayesiana",
+   "start": 7.020833,
+   "end": 7.479166
+  }
+ ]
+}
