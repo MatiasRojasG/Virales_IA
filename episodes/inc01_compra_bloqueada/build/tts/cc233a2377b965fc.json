@@ -1,0 +1,46 @@
+{
+ "text": "pero también se equivoca con cuatro compras normales.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "también",
+   "start": 0.283041,
+   "end": 0.600832
+  },
+  {
+   "text": "se",
+   "start": 0.611458,
+   "end": 0.696208
+  },
+  {
+   "text": "equivoca",
+   "start": 0.706791,
+   "end": 1.130499
+  },
+  {
+   "text": "con",
+   "start": 1.141083,
+   "end": 1.310583
+  },
+  {
+   "text": "cuatro",
+   "start": 1.321166,
+   "end": 1.585999
+  },
+  {
+   "text": "compras",
+   "start": 1.596625,
+   "end": 1.935625
+  },
+  {
+   "text": "normales",
+   "start": 1.946166,
+   "end": 2.507624
+  }
+ ]
+}

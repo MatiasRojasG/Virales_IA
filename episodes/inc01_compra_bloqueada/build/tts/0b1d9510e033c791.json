@@ -1,0 +1,51 @@
+{
+ "text": "Eso significa que el fraude es muy poco frecuente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Eso",
+   "start": 0.092375,
+   "end": 0.30425
+  },
+  {
+   "text": "significa",
+   "start": 0.314833,
+   "end": 0.855083
+  },
+  {
+   "text": "que",
+   "start": 0.865666,
+   "end": 0.982207
+  },
+  {
+   "text": "el",
+   "start": 0.992791,
+   "end": 1.077541
+  },
+  {
+   "text": "fraude",
+   "start": 1.088125,
+   "end": 1.405916
+  },
+  {
+   "text": "es",
+   "start": 1.416541,
+   "end": 1.554249
+  },
+  {
+   "text": "muy",
+   "start": 1.564833,
+   "end": 1.723749
+  },
+  {
+   "text": "poco",
+   "start": 1.734333,
+   "end": 1.999166
+  },
+  {
+   "text": "frecuente",
+   "start": 2.00975,
+   "end": 2.497041
+  }
+ ]
+}

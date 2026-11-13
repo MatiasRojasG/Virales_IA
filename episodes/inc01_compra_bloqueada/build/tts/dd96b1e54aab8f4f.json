@@ -1,0 +1,46 @@
+{
+ "text": "¿Por qué cree que alguien te está robando?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "qué",
+   "start": 0.240666,
+   "end": 0.346582
+  },
+  {
+   "text": "cree",
+   "start": 0.357208,
+   "end": 0.537291
+  },
+  {
+   "text": "que",
+   "start": 0.547875,
+   "end": 0.675
+  },
+  {
+   "text": "alguien",
+   "start": 0.685583,
+   "end": 0.982208
+  },
+  {
+   "text": "te",
+   "start": 0.992791,
+   "end": 1.066957
+  },
+  {
+   "text": "está",
+   "start": 1.077541,
+   "end": 1.278832
+  },
+  {
+   "text": "robando",
+   "start": 1.289416,
+   "end": 1.755499
+  }
+ ]
+}

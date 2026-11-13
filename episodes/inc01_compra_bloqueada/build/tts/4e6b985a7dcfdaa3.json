@@ -1,0 +1,41 @@
+{
+ "text": "En total, marca cinco compras como sospechosas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "total",
+   "start": 0.261875,
+   "end": 0.611458
+  },
+  {
+   "text": "marca",
+   "start": 0.918625,
+   "end": 1.183458
+  },
+  {
+   "text": "cinco",
+   "start": 1.194083,
+   "end": 1.522458
+  },
+  {
+   "text": "compras",
+   "start": 1.533041,
+   "end": 1.872041
+  },
+  {
+   "text": "como",
+   "start": 1.882625,
+   "end": 2.062708
+  },
+  {
+   "text": "sospechosas",
+   "start": 2.073291,
+   "end": 2.835999
+  }
+ ]
+}

@@ -1,29 +1,26 @@
-[hook] (  0.1s –   7.3s)
-Estás de viaje, pagas un café... y tu banco bloquea la tarjeta. ¿Cómo pudo equivocarse un sistema tan sofisticado?
+[hook] (  0.1s –  10.1s)
+Estás de vacaciones. Entras a una cafetería, pides un café... pero cuando intentas pagar, tu banco bloquea la tarjeta. ¿Por qué cree que alguien te está robando?
 
-[intuicion] (  7.3s –  18.1s)
-Imagina un detector que atrapa 99 de cada 100 fraudes... y que solo se equivoca con 5 de cada 100 compras normales. Si te marcó a ti, parece obvio: casi seguro era fraude.
+[contexto] ( 10.1s –  20.6s)
+Tu banco utiliza sistemas que buscan compras sospechosas. Por ejemplo, pagar de repente en otro país puede parecer extraño. Pero una compra sospechosa no significa que sea un fraude.
 
-[dificultad] ( 18.1s –  22.3s)
-Pero falta un dato que casi nadie pregunta: ¿qué tan común es el fraude?
+[ejemplo] ( 20.6s –  29.9s)
+Imagina que tenemos cien compras. Noventa y nueve son normales. Y solo una es fraudulenta. Eso significa que el fraude es muy poco frecuente.
 
-[simulacion] ( 22.3s –  34.8s)
-Pensemos en mil compras, y supongamos que solo diez son fraude. El detector atrapa a las diez. Pero de las novecientas noventa normales, se equivoca con cinco de cada cien: unas 49 también hacen sonar la alarma.
+[detector] ( 29.9s –  40.0s)
+Ahora imaginemos un detector que identifica correctamente ese fraude... pero también se equivoca con cuatro compras normales. En total, marca cinco compras como sospechosas.
 
-[descubrir] ( 34.8s –  41.5s)
-Ahora mira solo las alarmas. De cincuenta y nueve, apenas diez eran fraude. Una de cada seis.
+[descubrimiento] ( 40.0s –  48.8s)
+Aquí viene lo interesante. De esas cinco compras sospechosas, solo una era realmente un fraude. Es decir, apenas el veinte por ciento.
 
-[porque] ( 41.5s –  49.4s)
-El detector no es malo: las compras normales son muchísimas más, y un error pequeño sobre un grupo enorme suma más alarmas que el fraude real.
+[explicacion] ( 48.8s –  58.7s)
+¿Cómo puede pasar esto? Porque el fraude es tan poco común que incluso unos pocos errores generan muchas falsas alertas. Y aquí aparece una idea fundamental de la probabilidad.
 
-[bayes] ( 49.4s –  62.0s)
-Esa cuenta tiene nombre: regla de Bayes. Arriba, las alarmas que sí son fraude. Abajo, todas las alarmas. Y el dato que lo cambia todo es la tasa base: qué tan raro es el fraude desde el principio.
+[bayes] ( 58.7s –  75.0s)
+Se llama regla de Bayes. Y nos ayuda a responder una pregunta: Si una compra fue marcada como sospechosa, ¿qué probabilidad hay de que realmente sea un fraude? Para responder, combinamos dos cosas: Qué tan frecuente es el fraude normalmente... y qué tan confiable es nuestro detector.
 
-[solucion] ( 62.0s –  75.5s)
-¿Entonces cómo se decide bien? Sumando evidencia. Ese uno de cada seis es el nuevo punto de partida. Si una segunda señal, que se equivoca por su cuenta, también suena... la probabilidad salta a cerca de ocho de cada diez.
+[tasa_base] ( 75.0s –  89.5s)
+La primera tiene un nombre: tasa base. Es simplemente la probabilidad que teníamos antes de recibir la alerta. En nuestro ejemplo, era una compra fraudulenta de cada cien. Después de la alerta, esa probabilidad cambia: ahora es una de cada cinco.
 
-[usos] ( 75.5s –  83.5s)
-La misma cuenta explica por qué un examen médico positivo no siempre significa estar enfermo... y por qué las alarmas de una fábrica suenan tanto en falso.
-
-[cierre] ( 83.5s –  90.1s)
-Así que si un día te bloquean un café en el extranjero: no es que el detector sea malo. Es que el fraude es raro.
+[cierre] ( 89.5s – 100.7s)
+Por eso, una alerta no es una prueba de fraude. Es una nueva pista que debemos interpretar considerando qué tan raro era el fraude desde el principio. Y eso es exactamente lo que nos permite hacer Bayes.

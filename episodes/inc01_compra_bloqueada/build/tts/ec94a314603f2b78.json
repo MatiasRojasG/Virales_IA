@@ -1,0 +1,56 @@
+{
+ "text": "Noventa y nueve son normales. Y solo una es fraudulenta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Noventa",
+   "start": 0.092375,
+   "end": 0.441958
+  },
+  {
+   "text": "y",
+   "start": 0.452541,
+   "end": 0.484332
+  },
+  {
+   "text": "nueve",
+   "start": 0.494916,
+   "end": 0.727957
+  },
+  {
+   "text": "son",
+   "start": 0.738541,
+   "end": 0.929207
+  },
+  {
+   "text": "normales",
+   "start": 0.939833,
+   "end": 1.501291
+  },
+  {
+   "text": "Y",
+   "start": 2.224583,
+   "end": 2.330499
+  },
+  {
+   "text": "solo",
+   "start": 2.341083,
+   "end": 2.605916
+  },
+  {
+   "text": "una",
+   "start": 2.616541,
+   "end": 2.817832
+  },
+  {
+   "text": "es",
+   "start": 2.828375,
+   "end": 2.934291
+  },
+  {
+   "text": "fraudulenta",
+   "start": 2.944916,
+   "end": 3.569916
+  }
+ ]
+}

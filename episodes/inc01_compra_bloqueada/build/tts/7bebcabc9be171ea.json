@@ -1,0 +1,46 @@
+{
+ "text": "Tu banco utiliza sistemas que buscan compras sospechosas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "banco",
+   "start": 0.208916,
+   "end": 0.452541
+  },
+  {
+   "text": "utiliza",
+   "start": 0.463125,
+   "end": 0.865666
+  },
+  {
+   "text": "sistemas",
+   "start": 0.876291,
+   "end": 1.352999
+  },
+  {
+   "text": "que",
+   "start": 1.363541,
+   "end": 1.469457
+  },
+  {
+   "text": "buscan",
+   "start": 1.480083,
+   "end": 1.819083
+  },
+  {
+   "text": "compras",
+   "start": 1.829666,
+   "end": 2.136874
+  },
+  {
+   "text": "sospechosas",
+   "start": 2.147458,
+   "end": 2.888999
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "La primera tiene un nombre: tasa base.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "primera",
+   "start": 0.251291,
+   "end": 0.590291
+  },
+  {
+   "text": "tiene",
+   "start": 0.600833,
+   "end": 0.844458
+  },
+  {
+   "text": "un",
+   "start": 0.855083,
+   "end": 0.960999
+  },
+  {
+   "text": "nombre",
+   "start": 0.971625,
+   "end": 1.289416
+  },
+  {
+   "text": "tasa",
+   "start": 1.564833,
+   "end": 1.808458
+  },
+  {
+   "text": "base",
+   "start": 1.819083,
+   "end": 2.147458
+  }
+ ]
+}

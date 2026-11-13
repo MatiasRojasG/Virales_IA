@@ -1,0 +1,31 @@
+{
+ "text": "Se llama regla de Bayes.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "llama",
+   "start": 0.293625,
+   "end": 0.547875
+  },
+  {
+   "text": "regla",
+   "start": 0.558458,
+   "end": 0.833874
+  },
+  {
+   "text": "de",
+   "start": 0.8445,
+   "end": 0.92925
+  },
+  {
+   "text": "Bayes",
+   "start": 0.939833,
+   "end": 1.299999
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "De esas cinco compras sospechosas, solo una era realmente un fraude.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "esas",
+   "start": 0.261875,
+   "end": 0.484333
+  },
+  {
+   "text": "cinco",
+   "start": 0.494916,
+   "end": 0.759749
+  },
+  {
+   "text": "compras",
+   "start": 0.770333,
+   "end": 1.066958
+  },
+  {
+   "text": "sospechosas",
+   "start": 1.077541,
+   "end": 1.713124
+  },
+  {
+   "text": "solo",
+   "start": 1.935583,
+   "end": 2.210999
+  },
+  {
+   "text": "una",
+   "start": 2.221625,
+   "end": 2.46525
+  },
+  {
+   "text": "era",
+   "start": 2.475833,
+   "end": 2.634749
+  },
+  {
+   "text": "realmente",
+   "start": 2.645333,
+   "end": 3.153791
+  },
+  {
+   "text": "un",
+   "start": 3.164416,
+   "end": 3.280957
+  },
+  {
+   "text": "fraude",
+   "start": 3.291541,
+   "end": 3.672916
+  }
+ ]
+}

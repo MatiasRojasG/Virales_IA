@@ -1,0 +1,91 @@
+{
+ "text": "Es una nueva pista que debemos interpretar considerando qué tan raro era el fraude desde el principio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "una",
+   "start": 0.261875,
+   "end": 0.389
+  },
+  {
+   "text": "nueva",
+   "start": 0.399583,
+   "end": 0.643208
+  },
+  {
+   "text": "pista",
+   "start": 0.653833,
+   "end": 0.971624
+  },
+  {
+   "text": "que",
+   "start": 0.982208,
+   "end": 1.088124
+  },
+  {
+   "text": "debemos",
+   "start": 1.098708,
+   "end": 1.437708
+  },
+  {
+   "text": "interpretar",
+   "start": 1.448291,
+   "end": 1.977957
+  },
+  {
+   "text": "considerando",
+   "start": 1.988541,
+   "end": 2.560582
+  },
+  {
+   "text": "qué",
+   "start": 2.571166,
+   "end": 2.687707
+  },
+  {
+   "text": "tan",
+   "start": 2.698291,
+   "end": 2.888957
+  },
+  {
+   "text": "raro",
+   "start": 2.899583,
+   "end": 3.164416
+  },
+  {
+   "text": "era",
+   "start": 3.175,
+   "end": 3.312708
+  },
+  {
+   "text": "el",
+   "start": 3.323291,
+   "end": 3.397457
+  },
+  {
+   "text": "fraude",
+   "start": 3.408041,
+   "end": 3.725832
+  },
+  {
+   "text": "desde",
+   "start": 3.736458,
+   "end": 3.980083
+  },
+  {
+   "text": "el",
+   "start": 3.990666,
+   "end": 4.064832
+  },
+  {
+   "text": "principio",
+   "start": 4.075416,
+   "end": 4.583874
+  }
+ ]
+}

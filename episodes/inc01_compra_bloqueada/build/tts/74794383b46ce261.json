@@ -1,0 +1,51 @@
+{
+ "text": "Ahora imaginemos un detector que identifica correctamente ese fraude...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ahora",
+   "start": 0.092375,
+   "end": 0.357208
+  },
+  {
+   "text": "imaginemos",
+   "start": 0.367791,
+   "end": 0.918624
+  },
+  {
+   "text": "un",
+   "start": 0.92925,
+   "end": 1.014
+  },
+  {
+   "text": "detector",
+   "start": 1.024583,
+   "end": 1.437708
+  },
+  {
+   "text": "que",
+   "start": 1.448291,
+   "end": 1.533041
+  },
+  {
+   "text": "identifica",
+   "start": 1.543625,
+   "end": 2.105083
+  },
+  {
+   "text": "correctamente",
+   "start": 2.115666,
+   "end": 2.793624
+  },
+  {
+   "text": "ese",
+   "start": 2.80425,
+   "end": 2.984333
+  },
+  {
+   "text": "fraude",
+   "start": 2.994916,
+   "end": 3.355082
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Para responder, combinamos dos cosas:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "responder",
+   "start": 0.30425,
+   "end": 0.812708
+  },
+  {
+   "text": "combinamos",
+   "start": 1.024583,
+   "end": 1.564833
+  },
+  {
+   "text": "dos",
+   "start": 1.575416,
+   "end": 1.755499
+  },
+  {
+   "text": "cosas",
+   "start": 1.766083,
+   "end": 2.253374
+  }
+ ]
+}

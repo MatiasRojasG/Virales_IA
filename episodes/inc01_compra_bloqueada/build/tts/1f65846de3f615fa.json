@@ -1,0 +1,41 @@
+{
+ "text": "Qué tan frecuente es el fraude normalmente...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Qué",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "tan",
+   "start": 0.2195,
+   "end": 0.378416
+  },
+  {
+   "text": "frecuente",
+   "start": 0.389,
+   "end": 0.812708
+  },
+  {
+   "text": "es",
+   "start": 0.823291,
+   "end": 0.939832
+  },
+  {
+   "text": "el",
+   "start": 0.950416,
+   "end": 1.035166
+  },
+  {
+   "text": "fraude",
+   "start": 1.04575,
+   "end": 1.33175
+  },
+  {
+   "text": "normalmente",
+   "start": 1.342375,
+   "end": 1.988541
+  }
+ ]
+}

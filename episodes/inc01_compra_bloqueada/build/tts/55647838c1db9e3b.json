@@ -1,0 +1,41 @@
+{
+ "text": "Y nos ayuda a responder una pregunta:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.187708
+  },
+  {
+   "text": "nos",
+   "start": 0.198291,
+   "end": 0.357207
+  },
+  {
+   "text": "ayuda",
+   "start": 0.367791,
+   "end": 0.653791
+  },
+  {
+   "text": "a",
+   "start": 0.664416,
+   "end": 0.685582
+  },
+  {
+   "text": "responder",
+   "start": 0.696166,
+   "end": 1.162249
+  },
+  {
+   "text": "una",
+   "start": 1.172875,
+   "end": 1.310583
+  },
+  {
+   "text": "pregunta",
+   "start": 1.321166,
+   "end": 1.797874
+  }
+ ]
+}

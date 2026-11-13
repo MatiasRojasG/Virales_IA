@@ -1,0 +1,56 @@
+{
+ "text": "Pero una compra sospechosa no significa que sea un fraude.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "una",
+   "start": 0.272458,
+   "end": 0.441958
+  },
+  {
+   "text": "compra",
+   "start": 0.452541,
+   "end": 0.727957
+  },
+  {
+   "text": "sospechosa",
+   "start": 0.738541,
+   "end": 1.289374
+  },
+  {
+   "text": "no",
+   "start": 1.3,
+   "end": 1.448291
+  },
+  {
+   "text": "significa",
+   "start": 1.458916,
+   "end": 2.020374
+  },
+  {
+   "text": "que",
+   "start": 2.030916,
+   "end": 2.147457
+  },
+  {
+   "text": "sea",
+   "start": 2.158041,
+   "end": 2.401666
+  },
+  {
+   "text": "un",
+   "start": 2.412291,
+   "end": 2.518207
+  },
+  {
+   "text": "fraude",
+   "start": 2.528833,
+   "end": 2.899583
+  }
+ ]
+}

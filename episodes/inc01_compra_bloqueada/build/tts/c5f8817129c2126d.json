@@ -1,0 +1,86 @@
+{
+ "text": "Porque el fraude es tan poco común que incluso unos pocos errores generan muchas falsas alertas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Porque",
+   "start": 0.092375,
+   "end": 0.325416
+  },
+  {
+   "text": "el",
+   "start": 0.336,
+   "end": 0.42075
+  },
+  {
+   "text": "fraude",
+   "start": 0.431375,
+   "end": 0.738583
+  },
+  {
+   "text": "es",
+   "start": 0.749166,
+   "end": 0.855082
+  },
+  {
+   "text": "tan",
+   "start": 0.865666,
+   "end": 1.013957
+  },
+  {
+   "text": "poco",
+   "start": 1.024583,
+   "end": 1.278833
+  },
+  {
+   "text": "común",
+   "start": 1.289416,
+   "end": 1.575416
+  },
+  {
+   "text": "que",
+   "start": 1.586,
+   "end": 1.681333
+  },
+  {
+   "text": "incluso",
+   "start": 1.691958,
+   "end": 2.083916
+  },
+  {
+   "text": "unos",
+   "start": 2.0945,
+   "end": 2.359333
+  },
+  {
+   "text": "pocos",
+   "start": 2.369916,
+   "end": 2.666541
+  },
+  {
+   "text": "errores",
+   "start": 2.677125,
+   "end": 3.026708
+  },
+  {
+   "text": "generan",
+   "start": 3.037291,
+   "end": 3.397457
+  },
+  {
+   "text": "muchas",
+   "start": 3.408041,
+   "end": 3.747041
+  },
+  {
+   "text": "falsas",
+   "start": 3.757625,
+   "end": 4.117791
+  },
+  {
+   "text": "alertas",
+   "start": 4.128375,
+   "end": 4.647458
+  }
+ ]
+}

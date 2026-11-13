@@ -1,0 +1,41 @@
+{
+ "text": "y qué tan confiable es nuestro detector.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "qué",
+   "start": 0.2195,
+   "end": 0.336041
+  },
+  {
+   "text": "tan",
+   "start": 0.346625,
+   "end": 0.494916
+  },
+  {
+   "text": "confiable",
+   "start": 0.5055,
+   "end": 0.982208
+  },
+  {
+   "text": "es",
+   "start": 0.992791,
+   "end": 1.130499
+  },
+  {
+   "text": "nuestro",
+   "start": 1.141083,
+   "end": 1.395333
+  },
+  {
+   "text": "detector",
+   "start": 1.405916,
+   "end": 1.935582
+  }
+ ]
+}

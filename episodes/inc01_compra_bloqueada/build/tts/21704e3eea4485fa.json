@@ -1,0 +1,56 @@
+{
+ "text": "Estás de vacaciones. Entras a una cafetería, pides un café...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Estás",
+   "start": 0.092375,
+   "end": 0.42075
+  },
+  {
+   "text": "de",
+   "start": 0.431375,
+   "end": 0.484333
+  },
+  {
+   "text": "vacaciones",
+   "start": 0.494916,
+   "end": 1.162291
+  },
+  {
+   "text": "Entras",
+   "start": 1.885583,
+   "end": 2.235166
+  },
+  {
+   "text": "a",
+   "start": 2.24575,
+   "end": 2.288125
+  },
+  {
+   "text": "una",
+   "start": 2.298708,
+   "end": 2.457624
+  },
+  {
+   "text": "cafetería",
+   "start": 2.468208,
+   "end": 3.040249
+  },
+  {
+   "text": "pides",
+   "start": 3.283916,
+   "end": 3.569916
+  },
+  {
+   "text": "un",
+   "start": 3.5805,
+   "end": 3.675833
+  },
+  {
+   "text": "café",
+   "start": 3.686458,
+   "end": 4.036041
+  }
+ ]
+}

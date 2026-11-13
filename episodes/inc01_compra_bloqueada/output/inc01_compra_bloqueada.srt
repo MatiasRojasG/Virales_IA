@@ -1,305 +1,319 @@
 1
-00:00:00,150 --> 00:00:01,135
-Estás de viaje,
+00:00:00,150 --> 00:00:01,920
+Estás de vacaciones.
 
 2
-00:00:01,135 --> 00:00:02,229
-pagas un café...
+00:00:01,943 --> 00:00:03,342
+Entras a una cafetería,
 
 3
-00:00:02,229 --> 00:00:03,108
-y tu banco bloquea
+00:00:03,342 --> 00:00:04,484
+pides un café...
 
 4
-00:00:03,108 --> 00:00:04,342
-la tarjeta.
+00:00:04,484 --> 00:00:05,829
+pero cuando
+intentas pagar,
 
 5
-00:00:04,342 --> 00:00:05,390
-¿Cómo pudo
-equivocarse un
+00:00:05,829 --> 00:00:07,822
+tu banco bloquea
+la tarjeta.
 
 6
-00:00:05,390 --> 00:00:07,320
-sistema tan sofisticado?
+00:00:07,822 --> 00:00:08,415
+¿Por qué cree que
 
 7
-00:00:07,320 --> 00:00:08,432
-Imagina un detector que
+00:00:08,415 --> 00:00:10,175
+alguien te está robando?
 
 8
-00:00:08,432 --> 00:00:09,703
-atrapa 99 de cada
+00:00:10,175 --> 00:00:11,446
+Tu banco utiliza sistemas
 
 9
-00:00:09,703 --> 00:00:10,735
-100 fraudes...
+00:00:11,446 --> 00:00:13,362
+que buscan compras
+sospechosas.
 
 10
-00:00:10,735 --> 00:00:11,328
-y que solo se
+00:00:13,362 --> 00:00:14,506
+Por ejemplo, pagar de
 
 11
-00:00:11,328 --> 00:00:12,324
-equivoca con 5 de
+00:00:14,506 --> 00:00:15,533
+repente en otro país
 
 12
-00:00:12,324 --> 00:00:14,304
-cada 100 compras
-normales.
+00:00:15,533 --> 00:00:17,125
+puede parecer extraño.
 
 13
-00:00:14,304 --> 00:00:15,417
-Si te marcó a ti,
+00:00:17,125 --> 00:00:18,333
+Pero una compra
+sospechosa
 
 14
-00:00:15,417 --> 00:00:16,338
-parece obvio:
+00:00:18,333 --> 00:00:19,445
+no significa que sea
 
 15
-00:00:16,338 --> 00:00:18,165
-casi seguro era fraude.
+00:00:19,445 --> 00:00:20,622
+un fraude.
 
 16
-00:00:18,165 --> 00:00:19,002
-Pero falta un dato
+00:00:20,622 --> 00:00:22,775
+Imagina que tenemos
+cien compras.
 
 17
-00:00:19,002 --> 00:00:20,496
-que casi nadie pregunta:
+00:00:22,775 --> 00:00:24,884
+Noventa y nueve
+son normales.
 
 18
-00:00:20,496 --> 00:00:21,227
-¿qué tan común es
+00:00:24,908 --> 00:00:26,943
+Y solo una es
+fraudulenta.
 
 19
-00:00:21,227 --> 00:00:22,394
-el fraude?
+00:00:26,943 --> 00:00:27,939
+Eso significa que el
 
 20
-00:00:22,394 --> 00:00:23,739
-Pensemos en
-mil compras,
+00:00:27,939 --> 00:00:29,938
+fraude es muy
+poco frecuente.
 
 21
-00:00:23,739 --> 00:00:24,746
-y supongamos que solo
+00:00:29,938 --> 00:00:31,293
+Ahora imaginemos
+un detector
 
 22
-00:00:24,746 --> 00:00:26,069
-diez son fraude.
+00:00:31,293 --> 00:00:32,840
+que identifica
+correctamente ese
 
 23
-00:00:26,069 --> 00:00:27,055
-El detector atrapa a
+00:00:32,840 --> 00:00:33,590
+fraude...
 
 24
-00:00:27,055 --> 00:00:28,074
-las diez.
+00:00:33,590 --> 00:00:34,639
+pero también se equivoca
 
 25
-00:00:28,074 --> 00:00:29,017
-Pero de las novecientas
+00:00:34,639 --> 00:00:36,696
+con cuatro
+compras normales.
 
 26
-00:00:29,017 --> 00:00:30,564
-noventa normales,
-se equivoca
+00:00:36,696 --> 00:00:38,136
+En total, marca cinco
 
 27
-00:00:30,564 --> 00:00:31,998
-con cinco de cada cien:
+00:00:38,136 --> 00:00:40,029
+compras como
+sospechosas.
 
 28
-00:00:31,998 --> 00:00:33,385
-unas 49 también hacen
+00:00:40,029 --> 00:00:41,780
+Aquí viene lo interesante.
 
 29
-00:00:33,385 --> 00:00:34,870
-sonar la alarma.
+00:00:41,780 --> 00:00:43,623
+De esas cinco
+compras sospechosas,
 
 30
-00:00:34,870 --> 00:00:36,893
-Ahora mira solo
-las alarmas.
+00:00:43,623 --> 00:00:44,852
+solo una era realmente
 
 31
-00:00:36,893 --> 00:00:37,963
-De cincuenta y nueve,
+00:00:44,852 --> 00:00:46,050
+un fraude.
 
 32
-00:00:37,963 --> 00:00:39,603
-apenas diez eran fraude.
+00:00:46,050 --> 00:00:47,258
+Es decir, apenas el
 
 33
-00:00:39,603 --> 00:00:41,501
-Una de cada seis.
+00:00:47,258 --> 00:00:48,742
+veinte por ciento.
 
 34
-00:00:41,541 --> 00:00:42,982
-El detector no es malo:
+00:00:48,832 --> 00:00:50,196
+¿Cómo puede pasar esto?
 
 35
-00:00:42,982 --> 00:00:44,030
-las compras normales son
+00:00:50,196 --> 00:00:50,970
+Porque el fraude es
 
 36
-00:00:44,030 --> 00:00:45,475
-muchísimas más, y un
+00:00:50,970 --> 00:00:51,796
+tan poco común que
 
 37
-00:00:45,475 --> 00:00:46,481
-error pequeño sobre un
+00:00:51,796 --> 00:00:53,141
+incluso unos
+pocos errores
 
 38
-00:00:46,481 --> 00:00:47,572
-grupo enorme suma más
+00:00:53,141 --> 00:00:55,441
+generan muchas
+falsas alertas.
 
 39
-00:00:47,572 --> 00:00:49,494
-alarmas que
-el fraude real.
+00:00:55,441 --> 00:00:56,395
+Y aquí aparece una
 
 40
-00:00:49,494 --> 00:00:50,850
-Esa cuenta tiene nombre:
+00:00:56,395 --> 00:00:58,701
+idea fundamental
+de la probabilidad.
 
 41
-00:00:50,850 --> 00:00:52,050
-regla de Bayes.
+00:00:58,701 --> 00:01:00,399
+Se llama regla de Bayes.
 
 42
-00:00:52,050 --> 00:00:53,406
-Arriba, las alarmas que
+00:01:00,399 --> 00:01:01,002
+Y nos ayuda a
 
 43
-00:00:53,406 --> 00:00:54,847
-sí son fraude.
+00:01:01,002 --> 00:01:02,494
+responder una pregunta:
 
 44
-00:00:54,871 --> 00:00:57,031
-Abajo, todas las alarmas.
+00:01:02,494 --> 00:01:03,299
+Si una compra fue
 
 45
-00:00:57,031 --> 00:00:57,646
-Y el dato que
+00:01:03,299 --> 00:01:04,782
+marcada como
+sospechosa,
 
 46
-00:00:57,646 --> 00:00:58,472
-lo cambia todo es
+00:01:04,782 --> 00:01:05,704
+¿qué probabilidad hay de
 
 47
-00:00:58,472 --> 00:00:59,362
-la tasa base:
+00:01:05,704 --> 00:01:07,792
+que realmente
+sea un fraude?
 
 48
-00:00:59,362 --> 00:01:00,061
-qué tan raro es
+00:01:07,792 --> 00:01:10,343
+Para responder,
+combinamos dos cosas:
 
 49
-00:01:00,061 --> 00:01:02,012
+00:01:10,343 --> 00:01:11,201
+Qué tan frecuente es
+
+50
+00:01:11,201 --> 00:01:12,629
+el fraude normalmente...
+
+51
+00:01:12,629 --> 00:01:13,530
+y qué tan confiable
+
+52
+00:01:13,530 --> 00:01:15,063
+es nuestro detector.
+
+53
+00:01:15,063 --> 00:01:16,535
+La primera tiene
+un nombre:
+
+54
+00:01:16,535 --> 00:01:17,608
+tasa base.
+
+55
+00:01:17,608 --> 00:01:18,985
+Es simplemente
+la probabilidad
+
+56
+00:01:18,985 --> 00:01:19,959
+que teníamos antes de
+
+57
+00:01:19,959 --> 00:01:21,492
+recibir la alerta.
+
+58
+00:01:21,492 --> 00:01:22,509
+En nuestro ejemplo,
+
+59
+00:01:22,509 --> 00:01:23,717
+era una compra
+fraudulenta
+
+60
+00:01:23,717 --> 00:01:24,985
+de cada cien.
+
+61
+00:01:24,985 --> 00:01:26,160
+Después de la alerta,
+
+62
+00:01:26,160 --> 00:01:27,527
+esa probabilidad cambia:
+
+63
+00:01:27,527 --> 00:01:28,226
+ahora es una de
+
+64
+00:01:28,226 --> 00:01:29,552
+cada cinco.
+
+65
+00:01:29,552 --> 00:01:30,781
+Por eso, una alerta
+
+66
+00:01:30,781 --> 00:01:31,501
+no es una prueba
+
+67
+00:01:31,501 --> 00:01:32,478
+de fraude.
+
+68
+00:01:32,478 --> 00:01:33,368
+Es una nueva pista
+
+69
+00:01:33,368 --> 00:01:34,957
+que debemos interpretar
+considerando
+
+70
+00:01:34,957 --> 00:01:35,709
+qué tan raro era
+
+71
+00:01:35,709 --> 00:01:37,560
 el fraude desde
 el principio.
 
-50
-00:01:02,012 --> 00:01:04,163
-¿Entonces cómo
-se decide bien?
-
-51
-00:01:04,186 --> 00:01:05,640
-Sumando evidencia.
-
-52
-00:01:05,640 --> 00:01:06,435
-Ese uno de cada
-
-53
-00:01:06,435 --> 00:01:07,240
-seis es el nuevo
-
-54
-00:01:07,240 --> 00:01:08,538
-punto de partida.
-
-55
-00:01:08,538 --> 00:01:09,862
-Si una segunda señal,
-
-56
-00:01:09,862 --> 00:01:10,646
-que se equivoca por
-
-57
-00:01:10,646 --> 00:01:12,301
-su cuenta,
-también suena...
-
-58
-00:01:12,301 --> 00:01:13,477
-la probabilidad salta a
-
-59
-00:01:13,477 --> 00:01:14,293
-cerca de ocho de
-
-60
-00:01:14,293 --> 00:01:15,597
-cada diez.
-
-61
-00:01:15,597 --> 00:01:16,709
-La misma cuenta explica
-
-62
-00:01:16,709 --> 00:01:17,483
-por qué un examen
-
-63
-00:01:17,483 --> 00:01:18,818
-médico positivo
-no siempre
-
-64
-00:01:18,818 --> 00:01:20,283
-significa estar enfermo...
-
-65
-00:01:20,283 --> 00:01:20,834
-y por qué las
-
-66
-00:01:20,834 --> 00:01:21,872
-alarmas de una fábrica
-
-67
-00:01:21,872 --> 00:01:23,593
-suenan tanto en falso.
-
-68
-00:01:23,593 --> 00:01:24,228
-Así que si un
-
-69
-00:01:24,228 --> 00:01:25,012
-día te bloquean un
-
-70
-00:01:25,012 --> 00:01:26,412
-café en el extranjero:
-
-71
-00:01:26,412 --> 00:01:26,941
-no es que el
-
 72
-00:01:26,941 --> 00:01:28,203
-detector sea malo.
+00:01:37,560 --> 00:01:38,672
+Y eso es exactamente
 
 73
-00:01:28,203 --> 00:01:29,128
-Es que el fraude
+00:01:38,672 --> 00:01:39,361
+lo que nos permite
 
 74
-00:01:29,128 --> 00:01:30,261
-es raro.
+00:01:39,361 --> 00:01:40,543
+hacer Bayes.

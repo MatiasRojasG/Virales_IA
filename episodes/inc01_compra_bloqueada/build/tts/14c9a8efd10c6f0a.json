@@ -1,0 +1,61 @@
+{
+ "text": "Es simplemente la probabilidad que teníamos antes de recibir la alerta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "simplemente",
+   "start": 0.251291,
+   "end": 0.770374
+  },
+  {
+   "text": "la",
+   "start": 0.780916,
+   "end": 0.865666
+  },
+  {
+   "text": "probabilidad",
+   "start": 0.876291,
+   "end": 1.458916
+  },
+  {
+   "text": "que",
+   "start": 1.4695,
+   "end": 1.586041
+  },
+  {
+   "text": "teníamos",
+   "start": 1.596625,
+   "end": 2.073333
+  },
+  {
+   "text": "antes",
+   "start": 2.083916,
+   "end": 2.359332
+  },
+  {
+   "text": "de",
+   "start": 2.369916,
+   "end": 2.433457
+  },
+  {
+   "text": "recibir",
+   "start": 2.444083,
+   "end": 2.857208
+  },
+  {
+   "text": "la",
+   "start": 2.867791,
+   "end": 2.952541
+  },
+  {
+   "text": "alerta",
+   "start": 2.963125,
+   "end": 3.386833
+  }
+ ]
+}

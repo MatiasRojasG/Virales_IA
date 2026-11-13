@@ -1,0 +1,26 @@
+{
+ "text": "¿Cómo puede pasar esto?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "puede",
+   "start": 0.30425,
+   "end": 0.505541
+  },
+  {
+   "text": "pasar",
+   "start": 0.516083,
+   "end": 0.780916
+  },
+  {
+   "text": "esto",
+   "start": 0.791541,
+   "end": 1.066957
+  }
+ ]
+}

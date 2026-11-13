@@ -1,0 +1,56 @@
+{
+ "text": "En nuestro ejemplo, era una compra fraudulenta de cada cien.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "nuestro",
+   "start": 0.2195,
+   "end": 0.452541
+  },
+  {
+   "text": "ejemplo",
+   "start": 0.463125,
+   "end": 0.855083
+  },
+  {
+   "text": "era",
+   "start": 1.109333,
+   "end": 1.278833
+  },
+  {
+   "text": "una",
+   "start": 1.289416,
+   "end": 1.458916
+  },
+  {
+   "text": "compra",
+   "start": 1.4695,
+   "end": 1.776708
+  },
+  {
+   "text": "fraudulenta",
+   "start": 1.787291,
+   "end": 2.306374
+  },
+  {
+   "text": "de",
+   "start": 2.316958,
+   "end": 2.422874
+  },
+  {
+   "text": "cada",
+   "start": 2.433458,
+   "end": 2.666499
+  },
+  {
+   "text": "cien",
+   "start": 2.677125,
+   "end": 2.994916
+  }
+ ]
+}

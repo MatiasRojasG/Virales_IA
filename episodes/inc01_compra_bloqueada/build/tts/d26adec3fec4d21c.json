@@ -1,0 +1,56 @@
+{
+ "text": "Y eso es exactamente lo que nos permite hacer Bayes.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "eso",
+   "start": 0.261875,
+   "end": 0.452541
+  },
+  {
+   "text": "es",
+   "start": 0.463125,
+   "end": 0.569041
+  },
+  {
+   "text": "exactamente",
+   "start": 0.579666,
+   "end": 1.194082
+  },
+  {
+   "text": "lo",
+   "start": 1.204666,
+   "end": 1.289416
+  },
+  {
+   "text": "que",
+   "start": 1.3,
+   "end": 1.38475
+  },
+  {
+   "text": "nos",
+   "start": 1.395333,
+   "end": 1.533041
+  },
+  {
+   "text": "permite",
+   "start": 1.543625,
+   "end": 1.882625
+  },
+  {
+   "text": "hacer",
+   "start": 1.893208,
+   "end": 2.115666
+  },
+  {
+   "text": "Bayes",
+   "start": 2.126291,
+   "end": 2.475874
+  }
+ ]
+}

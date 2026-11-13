@@ -1,6 +1,6 @@
 # Incertidumbre · EP 01 — ¿Por qué tu banco bloqueó tu café?
 
-**Video:** `output/inc01_compra_bloqueada.mp4`: 1080×1920, 60 fps, H.264 + AAC, **90,7 s**, −15,2 LUFS, pico −1 dBFS.
+**Video (v2, guion simplificado):** `output/inc01_compra_bloqueada.mp4`: 1080×1920, 60 fps, H.264 + AAC, **101,3 s**, −14,3 LUFS, pico −1 dBFS.
 Se verificó lo siguiente:
 - No hay saltos de un solo cuadro.
 - Los subtítulos van 60 ms antes de la voz.
@@ -21,7 +21,29 @@ Clase base: *Incertidumbre, independencia condicional y el lenguaje de los grafo
 | 06 | El médico que no necesita saber la estación | 63 números contra 17 | Conjunta, marginal y condicional; factorización con un DAG |
 | 07 | El mapa de qué informa a qué | Una planta con cientos de sensores | Grafos dirigidos y no dirigidos, caminos, cliques |
 
-## Cadena causal del EP 01
+## v2: guion simplificado (sin cálculos)
+
+El guion lo escribió el autor, con ajustes mínimos de prosodia: tono algo más alto en las preguntas y palabras clave resaltadas.
+
+- **El ejemplo.** De 100 compras, 99 son normales y 1 es fraude. El detector encuentra el fraude y se equivoca con 4 normales, así que marca 5 como sospechosas. Solo 1 de esas 5 es fraude: 20 %.
+- **Las cuentas son exactas**, sin valores esperados. Que se equivoque con 4 de 99 equivale a ≈ 4 % de error.
+- **Tasa base.** Antes de la alerta es 1 de 100; después, 1 de 5. Así se explica Bayes como combinar «qué tan frecuente es el fraude» con «qué tan confiable es el detector», sin fórmula.
+- **Cómo se ve:**
+  1. Celular bloqueado.
+  2. Lista de compras del banco con escáner; la del café en Lisboa queda «sospechosa», con un mapa Santiago → Lisboa.
+  3. «sospechosa ≠ fraude».
+  4. 100 puntos con 1 violeta.
+  5. El detector marca 5.
+  6. Las 5 en fila: «falsa alerta» ×4 y «fraude», con «1 de 5 = 20 %».
+  7. 1 fraude frente a 99 normales, con barras 1 vs. 4.
+  8. «REGLA DE BAYES»: la pregunta y dos ingredientes (frecuencia y confiabilidad).
+  9. «TASA BASE»: antes 1 de 100 → alerta → después 1 de 5, con medidor de 1 % a 20 %.
+  10. Vuelta al celular: «una alerta es una pista, no una prueba». El último cuadro empalma con el primero.
+- **Aclaración.** En pantalla, durante todo el ejemplo, aparece «Ejemplo hipotético simplificado · no son datos reales de un banco».
+
+## Cadena causal de la v1 (referencia)
+
+
 
 | Pregunta que deja la escena | Respuesta | Concepto |
 |---|---|---|

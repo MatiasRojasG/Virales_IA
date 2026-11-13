@@ -1,0 +1,26 @@
+{
+ "text": "Aquí viene lo interesante.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Aquí",
+   "start": 0.092375,
+   "end": 0.378375
+  },
+  {
+   "text": "viene",
+   "start": 0.389,
+   "end": 0.632625
+  },
+  {
+   "text": "lo",
+   "start": 0.643208,
+   "end": 0.706749
+  },
+  {
+   "text": "interesante",
+   "start": 0.717375,
+   "end": 1.352958
+  }
+ ]
+}

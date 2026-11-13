@@ -1,0 +1,61 @@
+{
+ "text": "Por ejemplo, pagar de repente en otro país puede parecer extraño.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "ejemplo",
+   "start": 0.230083,
+   "end": 0.632624
+  },
+  {
+   "text": "pagar",
+   "start": 0.865666,
+   "end": 1.130499
+  },
+  {
+   "text": "de",
+   "start": 1.141083,
+   "end": 1.225833
+  },
+  {
+   "text": "repente",
+   "start": 1.236458,
+   "end": 1.617833
+  },
+  {
+   "text": "en",
+   "start": 1.628375,
+   "end": 1.702541
+  },
+  {
+   "text": "otro",
+   "start": 1.713125,
+   "end": 1.914416
+  },
+  {
+   "text": "país",
+   "start": 1.925,
+   "end": 2.253375
+  },
+  {
+   "text": "puede",
+   "start": 2.264,
+   "end": 2.486458
+  },
+  {
+   "text": "parecer",
+   "start": 2.497041,
+   "end": 2.867791
+  },
+  {
+   "text": "extraño",
+   "start": 2.878375,
+   "end": 3.365666
+  }
+ ]
+}

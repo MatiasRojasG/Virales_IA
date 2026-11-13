@@ -1,0 +1,31 @@
+{
+ "text": "Imagina que tenemos cien compras.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.092375,
+   "end": 0.579666
+  },
+  {
+   "text": "que",
+   "start": 0.59025,
+   "end": 0.717375
+  },
+  {
+   "text": "tenemos",
+   "start": 0.727958,
+   "end": 1.045749
+  },
+  {
+   "text": "cien",
+   "start": 1.056375,
+   "end": 1.236458
+  },
+  {
+   "text": "compras",
+   "start": 1.247041,
+   "end": 1.755499
+  }
+ ]
+}

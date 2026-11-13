@@ -1,0 +1,51 @@
+{
+ "text": "pero cuando intentas pagar, tu banco bloquea la tarjeta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "cuando",
+   "start": 0.283041,
+   "end": 0.463124
+  },
+  {
+   "text": "intentas",
+   "start": 0.473708,
+   "end": 0.865666
+  },
+  {
+   "text": "pagar",
+   "start": 0.876291,
+   "end": 1.204666
+  },
+  {
+   "text": "tu",
+   "start": 1.437708,
+   "end": 1.533041
+  },
+  {
+   "text": "banco",
+   "start": 1.543625,
+   "end": 1.808458
+  },
+  {
+   "text": "bloquea",
+   "start": 1.819083,
+   "end": 2.147458
+  },
+  {
+   "text": "la",
+   "start": 2.158041,
+   "end": 2.253374
+  },
+  {
+   "text": "tarjeta",
+   "start": 2.264,
+   "end": 2.740708
+  }
+ ]
+}

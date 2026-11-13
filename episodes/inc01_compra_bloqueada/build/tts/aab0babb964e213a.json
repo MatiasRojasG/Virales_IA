@@ -1,0 +1,71 @@
+{
+ "text": "Después de la alerta, esa probabilidad cambia: ahora es una de cada cinco.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Después",
+   "start": 0.092375,
+   "end": 0.463125
+  },
+  {
+   "text": "de",
+   "start": 0.473708,
+   "end": 0.537249
+  },
+  {
+   "text": "la",
+   "start": 0.547875,
+   "end": 0.622041
+  },
+  {
+   "text": "alerta",
+   "start": 0.632625,
+   "end": 1.035166
+  },
+  {
+   "text": "esa",
+   "start": 1.268208,
+   "end": 1.480083
+  },
+  {
+   "text": "probabilidad",
+   "start": 1.490666,
+   "end": 2.062707
+  },
+  {
+   "text": "cambia",
+   "start": 2.073291,
+   "end": 2.412291
+  },
+  {
+   "text": "ahora",
+   "start": 2.63475,
+   "end": 2.931375
+  },
+  {
+   "text": "es",
+   "start": 2.941958,
+   "end": 3.058499
+  },
+  {
+   "text": "una",
+   "start": 3.069083,
+   "end": 3.206791
+  },
+  {
+   "text": "de",
+   "start": 3.217375,
+   "end": 3.323291
+  },
+  {
+   "text": "cada",
+   "start": 3.333916,
+   "end": 3.566957
+  },
+  {
+   "text": "cinco",
+   "start": 3.577541,
+   "end": 3.969499
+  }
+ ]
+}
