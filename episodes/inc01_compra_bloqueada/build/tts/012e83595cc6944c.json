@@ -1,0 +1,66 @@
+{
+ "text": "Si una segunda señal, que se equivoca por su cuenta, también suena...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "una",
+   "start": 0.30425,
+   "end": 0.452541
+  },
+  {
+   "text": "segunda",
+   "start": 0.463125,
+   "end": 0.802125
+  },
+  {
+   "text": "señal",
+   "start": 0.812708,
+   "end": 1.194083
+  },
+  {
+   "text": "que",
+   "start": 1.416541,
+   "end": 1.511874
+  },
+  {
+   "text": "se",
+   "start": 1.522458,
+   "end": 1.628374
+  },
+  {
+   "text": "equivoca",
+   "start": 1.639,
+   "end": 2.052125
+  },
+  {
+   "text": "por",
+   "start": 2.062708,
+   "end": 2.189833
+  },
+  {
+   "text": "su",
+   "start": 2.200416,
+   "end": 2.295749
+  },
+  {
+   "text": "cuenta",
+   "start": 2.306375,
+   "end": 2.655958
+  },
+  {
+   "text": "también",
+   "start": 2.846625,
+   "end": 3.175
+  },
+  {
+   "text": "suena",
+   "start": 3.185583,
+   "end": 3.545749
+  }
+ ]
+}

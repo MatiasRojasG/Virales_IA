@@ -1,0 +1,36 @@
+{
+ "text": "¿qué tan común es el fraude?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "qué",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "tan",
+   "start": 0.2195,
+   "end": 0.367791
+  },
+  {
+   "text": "común",
+   "start": 0.378375,
+   "end": 0.685583
+  },
+  {
+   "text": "es",
+   "start": 0.696166,
+   "end": 0.812707
+  },
+  {
+   "text": "el",
+   "start": 0.823291,
+   "end": 0.908041
+  },
+  {
+   "text": "fraude",
+   "start": 0.918625,
+   "end": 1.3
+  }
+ ]
+}

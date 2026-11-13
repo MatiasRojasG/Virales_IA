@@ -1,0 +1,41 @@
+{
+ "text": "¿Entonces cómo se decide bien? Sumando evidencia.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.092375,
+   "end": 0.59025
+  },
+  {
+   "text": "cómo",
+   "start": 0.600833,
+   "end": 0.812708
+  },
+  {
+   "text": "se",
+   "start": 0.823291,
+   "end": 0.929207
+  },
+  {
+   "text": "decide",
+   "start": 0.939833,
+   "end": 1.257624
+  },
+  {
+   "text": "bien",
+   "start": 1.268208,
+   "end": 1.543624
+  },
+  {
+   "text": "Sumando",
+   "start": 2.266958,
+   "end": 2.701291
+  },
+  {
+   "text": "evidencia",
+   "start": 2.711875,
+   "end": 3.230958
+  }
+ ]
+}

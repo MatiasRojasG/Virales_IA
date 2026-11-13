@@ -1,0 +1,106 @@
+{
+ "text": "Y el dato que lo cambia todo es la tasa base: qué tan raro es el fraude desde el principio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "el",
+   "start": 0.251291,
+   "end": 0.346624
+  },
+  {
+   "text": "dato",
+   "start": 0.357208,
+   "end": 0.600833
+  },
+  {
+   "text": "que",
+   "start": 0.611458,
+   "end": 0.696208
+  },
+  {
+   "text": "lo",
+   "start": 0.706791,
+   "end": 0.791541
+  },
+  {
+   "text": "cambia",
+   "start": 0.802125,
+   "end": 1.09875
+  },
+  {
+   "text": "todo",
+   "start": 1.109333,
+   "end": 1.384749
+  },
+  {
+   "text": "es",
+   "start": 1.395333,
+   "end": 1.522458
+  },
+  {
+   "text": "la",
+   "start": 1.533041,
+   "end": 1.617791
+  },
+  {
+   "text": "tasa",
+   "start": 1.628375,
+   "end": 1.872
+  },
+  {
+   "text": "base",
+   "start": 1.882625,
+   "end": 2.17925
+  },
+  {
+   "text": "qué",
+   "start": 2.422875,
+   "end": 2.539416
+  },
+  {
+   "text": "tan",
+   "start": 2.55,
+   "end": 2.751291
+  },
+  {
+   "text": "raro",
+   "start": 2.761875,
+   "end": 2.994916
+  },
+  {
+   "text": "es",
+   "start": 3.0055,
+   "end": 3.111416
+  },
+  {
+   "text": "el",
+   "start": 3.122041,
+   "end": 3.206791
+  },
+  {
+   "text": "fraude",
+   "start": 3.217375,
+   "end": 3.514
+  },
+  {
+   "text": "desde",
+   "start": 3.524583,
+   "end": 3.768208
+  },
+  {
+   "text": "el",
+   "start": 3.778833,
+   "end": 3.852999
+  },
+  {
+   "text": "principio",
+   "start": 3.863541,
+   "end": 4.382624
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "no es que el detector sea malo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "no",
+   "start": 0.092375,
+   "end": 0.30425
+  },
+  {
+   "text": "es",
+   "start": 0.314833,
+   "end": 0.441958
+  },
+  {
+   "text": "que",
+   "start": 0.452541,
+   "end": 0.537291
+  },
+  {
+   "text": "el",
+   "start": 0.547875,
+   "end": 0.611416
+  },
+  {
+   "text": "detector",
+   "start": 0.622041,
+   "end": 1.035166
+  },
+  {
+   "text": "sea",
+   "start": 1.04575,
+   "end": 1.236416
+  },
+  {
+   "text": "malo",
+   "start": 1.247041,
+   "end": 1.543666
+  }
+ ]
+}

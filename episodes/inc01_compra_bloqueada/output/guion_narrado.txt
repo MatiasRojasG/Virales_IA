@@ -1,0 +1,29 @@
+[hook] (  0.1s –   7.3s)
+Estás de viaje, pagas un café... y tu banco bloquea la tarjeta. ¿Cómo pudo equivocarse un sistema tan sofisticado?
+
+[intuicion] (  7.3s –  18.1s)
+Imagina un detector que atrapa 99 de cada 100 fraudes... y que solo se equivoca con 5 de cada 100 compras normales. Si te marcó a ti, parece obvio: casi seguro era fraude.
+
+[dificultad] ( 18.1s –  22.3s)
+Pero falta un dato que casi nadie pregunta: ¿qué tan común es el fraude?
+
+[simulacion] ( 22.3s –  34.8s)
+Pensemos en mil compras, y supongamos que solo diez son fraude. El detector atrapa a las diez. Pero de las novecientas noventa normales, se equivoca con cinco de cada cien: unas 49 también hacen sonar la alarma.
+
+[descubrir] ( 34.8s –  41.5s)
+Ahora mira solo las alarmas. De cincuenta y nueve, apenas diez eran fraude. Una de cada seis.
+
+[porque] ( 41.5s –  49.4s)
+El detector no es malo: las compras normales son muchísimas más, y un error pequeño sobre un grupo enorme suma más alarmas que el fraude real.
+
+[bayes] ( 49.4s –  62.0s)
+Esa cuenta tiene nombre: regla de Bayes. Arriba, las alarmas que sí son fraude. Abajo, todas las alarmas. Y el dato que lo cambia todo es la tasa base: qué tan raro es el fraude desde el principio.
+
+[solucion] ( 62.0s –  75.5s)
+¿Entonces cómo se decide bien? Sumando evidencia. Ese uno de cada seis es el nuevo punto de partida. Si una segunda señal, que se equivoca por su cuenta, también suena... la probabilidad salta a cerca de ocho de cada diez.
+
+[usos] ( 75.5s –  83.5s)
+La misma cuenta explica por qué un examen médico positivo no siempre significa estar enfermo... y por qué las alarmas de una fábrica suenan tanto en falso.
+
+[cierre] ( 83.5s –  90.1s)
+Así que si un día te bloquean un café en el extranjero: no es que el detector sea malo. Es que el fraude es raro.

@@ -1,0 +1,41 @@
+{
+ "text": "¿Cómo pudo equivocarse un sistema tan sofisticado?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "pudo",
+   "start": 0.30425,
+   "end": 0.484333
+  },
+  {
+   "text": "equivocarse",
+   "start": 0.494916,
+   "end": 1.024582
+  },
+  {
+   "text": "un",
+   "start": 1.035166,
+   "end": 1.130499
+  },
+  {
+   "text": "sistema",
+   "start": 1.141083,
+   "end": 1.511833
+  },
+  {
+   "text": "tan",
+   "start": 1.522458,
+   "end": 1.702541
+  },
+  {
+   "text": "sofisticado",
+   "start": 1.713125,
+   "end": 2.3805
+  }
+ ]
+}

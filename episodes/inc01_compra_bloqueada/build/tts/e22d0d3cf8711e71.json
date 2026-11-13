@@ -1,0 +1,46 @@
+{
+ "text": "Es que las compras normales son muchísimas más,",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "que",
+   "start": 0.261875,
+   "end": 0.346625
+  },
+  {
+   "text": "las",
+   "start": 0.357208,
+   "end": 0.484333
+  },
+  {
+   "text": "compras",
+   "start": 0.494916,
+   "end": 0.812707
+  },
+  {
+   "text": "normales",
+   "start": 0.823291,
+   "end": 1.236416
+  },
+  {
+   "text": "son",
+   "start": 1.247041,
+   "end": 1.384749
+  },
+  {
+   "text": "muchísimas",
+   "start": 1.395333,
+   "end": 1.935583
+  },
+  {
+   "text": "más",
+   "start": 1.946166,
+   "end": 2.285166
+  }
+ ]
+}

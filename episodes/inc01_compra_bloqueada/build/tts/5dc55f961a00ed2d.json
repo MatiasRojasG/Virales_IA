@@ -1,0 +1,71 @@
+{
+ "text": "Ese uno de cada seis pasa a ser el nuevo punto de partida.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "uno",
+   "start": 0.346625,
+   "end": 0.526708
+  },
+  {
+   "text": "de",
+   "start": 0.537291,
+   "end": 0.632624
+  },
+  {
+   "text": "cada",
+   "start": 0.643208,
+   "end": 0.876249
+  },
+  {
+   "text": "seis",
+   "start": 0.886875,
+   "end": 1.162291
+  },
+  {
+   "text": "pasa",
+   "start": 1.172875,
+   "end": 1.4695
+  },
+  {
+   "text": "a",
+   "start": 1.480083,
+   "end": 1.522458
+  },
+  {
+   "text": "ser",
+   "start": 1.533041,
+   "end": 1.723707
+  },
+  {
+   "text": "el",
+   "start": 1.734333,
+   "end": 1.840249
+  },
+  {
+   "text": "nuevo",
+   "start": 1.850833,
+   "end": 2.105083
+  },
+  {
+   "text": "punto",
+   "start": 2.115666,
+   "end": 2.412291
+  },
+  {
+   "text": "de",
+   "start": 2.422875,
+   "end": 2.507625
+  },
+  {
+   "text": "partida",
+   "start": 2.518208,
+   "end": 2.984291
+  }
+ ]
+}

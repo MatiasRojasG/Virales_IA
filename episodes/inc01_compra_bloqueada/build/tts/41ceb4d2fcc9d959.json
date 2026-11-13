@@ -1,0 +1,41 @@
+{
+ "text": "unas 49 también hacen sonar la alarma.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "unas",
+   "start": 0.092375,
+   "end": 0.325416
+  },
+  {
+   "text": "49",
+   "start": 0.336,
+   "end": 0.897458
+  },
+  {
+   "text": "también",
+   "start": 0.908041,
+   "end": 1.236416
+  },
+  {
+   "text": "hacen",
+   "start": 1.247041,
+   "end": 1.469499
+  },
+  {
+   "text": "sonar",
+   "start": 1.480083,
+   "end": 1.776708
+  },
+  {
+   "text": "la",
+   "start": 1.787291,
+   "end": 1.861457
+  },
+  {
+   "text": "alarma",
+   "start": 1.872041,
+   "end": 2.274582
+  }
+ ]
+}

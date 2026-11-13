@@ -1,0 +1,36 @@
+{
+ "text": "El detector atrapa a las diez.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "detector",
+   "start": 0.251291,
+   "end": 0.643249
+  },
+  {
+   "text": "atrapa",
+   "start": 0.653833,
+   "end": 1.035208
+  },
+  {
+   "text": "a",
+   "start": 1.04575,
+   "end": 1.066916
+  },
+  {
+   "text": "las",
+   "start": 1.077541,
+   "end": 1.247041
+  },
+  {
+   "text": "diez",
+   "start": 1.257625,
+   "end": 1.607208
+  }
+ ]
+}

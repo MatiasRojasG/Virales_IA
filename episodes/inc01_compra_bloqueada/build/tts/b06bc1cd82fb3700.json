@@ -1,0 +1,46 @@
+{
+ "text": "Pero falta un dato que casi nadie pregunta:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "falta",
+   "start": 0.283041,
+   "end": 0.547874
+  },
+  {
+   "text": "un",
+   "start": 0.558458,
+   "end": 0.664374
+  },
+  {
+   "text": "dato",
+   "start": 0.675,
+   "end": 0.918625
+  },
+  {
+   "text": "que",
+   "start": 0.92925,
+   "end": 1.045791
+  },
+  {
+   "text": "casi",
+   "start": 1.056375,
+   "end": 1.331791
+  },
+  {
+   "text": "nadie",
+   "start": 1.342375,
+   "end": 1.617791
+  },
+  {
+   "text": "pregunta",
+   "start": 1.628375,
+   "end": 2.083875
+  }
+ ]
+}

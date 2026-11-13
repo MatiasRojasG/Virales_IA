@@ -1,0 +1,36 @@
+{
+ "text": "Es que el fraude es raro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.102083,
+   "end": 0.323458
+  },
+  {
+   "text": "que",
+   "start": 0.336458,
+   "end": 0.453666
+  },
+  {
+   "text": "el",
+   "start": 0.466666,
+   "end": 0.583874
+  },
+  {
+   "text": "fraude",
+   "start": 0.596875,
+   "end": 1.013541
+  },
+  {
+   "text": "es",
+   "start": 1.026583,
+   "end": 1.195874
+  },
+  {
+   "text": "raro",
+   "start": 1.208875,
+   "end": 1.560458
+  }
+ ]
+}

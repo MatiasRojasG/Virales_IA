@@ -1,0 +1,61 @@
+{
+ "text": "Arriba, las alarmas que sí son fraude. Abajo, todas las alarmas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Arriba",
+   "start": 0.092375,
+   "end": 0.526708
+  },
+  {
+   "text": "las",
+   "start": 0.802125,
+   "end": 0.939833
+  },
+  {
+   "text": "alarmas",
+   "start": 0.950416,
+   "end": 1.331791
+  },
+  {
+   "text": "que",
+   "start": 1.342375,
+   "end": 1.437708
+  },
+  {
+   "text": "sí",
+   "start": 1.448291,
+   "end": 1.596582
+  },
+  {
+   "text": "son",
+   "start": 1.607208,
+   "end": 1.808499
+  },
+  {
+   "text": "fraude",
+   "start": 1.819083,
+   "end": 2.189833
+  },
+  {
+   "text": "Abajo",
+   "start": 2.913125,
+   "end": 3.368625
+  },
+  {
+   "text": "todas",
+   "start": 3.591083,
+   "end": 3.866499
+  },
+  {
+   "text": "las",
+   "start": 3.877125,
+   "end": 4.00425
+  },
+  {
+   "text": "alarmas",
+   "start": 4.014833,
+   "end": 4.533916
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "El detector no es malo: las compras normales son muchísimas más,",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "detector",
+   "start": 0.251291,
+   "end": 0.685624
+  },
+  {
+   "text": "no",
+   "start": 0.696166,
+   "end": 0.833874
+  },
+  {
+   "text": "es",
+   "start": 0.8445,
+   "end": 0.971625
+  },
+  {
+   "text": "malo",
+   "start": 0.982208,
+   "end": 1.257624
+  },
+  {
+   "text": "las",
+   "start": 1.533041,
+   "end": 1.660166
+  },
+  {
+   "text": "compras",
+   "start": 1.67075,
+   "end": 1.988541
+  },
+  {
+   "text": "normales",
+   "start": 1.999166,
+   "end": 2.412291
+  },
+  {
+   "text": "son",
+   "start": 2.422875,
+   "end": 2.571166
+  },
+  {
+   "text": "muchísimas",
+   "start": 2.581791,
+   "end": 3.122041
+  },
+  {
+   "text": "más",
+   "start": 3.132625,
+   "end": 3.482208
+  }
+ ]
+}

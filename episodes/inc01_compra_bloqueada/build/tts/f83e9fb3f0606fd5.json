@@ -1,0 +1,56 @@
+{
+ "text": "la probabilidad salta a cerca de ocho de cada diez.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "la",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "probabilidad",
+   "start": 0.240666,
+   "end": 0.812707
+  },
+  {
+   "text": "salta",
+   "start": 0.823291,
+   "end": 1.194041
+  },
+  {
+   "text": "a",
+   "start": 1.204666,
+   "end": 1.257624
+  },
+  {
+   "text": "cerca",
+   "start": 1.268208,
+   "end": 1.585999
+  },
+  {
+   "text": "de",
+   "start": 1.596625,
+   "end": 1.713166
+  },
+  {
+   "text": "ocho",
+   "start": 1.723708,
+   "end": 1.967333
+  },
+  {
+   "text": "de",
+   "start": 1.977958,
+   "end": 2.073291
+  },
+  {
+   "text": "cada",
+   "start": 2.083916,
+   "end": 2.306374
+  },
+  {
+   "text": "diez",
+   "start": 2.316958,
+   "end": 2.698333
+  }
+ ]
+}

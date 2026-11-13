@@ -1,0 +1,31 @@
+{
+ "text": "El detector no es malo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "detector",
+   "start": 0.261875,
+   "end": 0.706791
+  },
+  {
+   "text": "no",
+   "start": 0.717375,
+   "end": 0.876291
+  },
+  {
+   "text": "es",
+   "start": 0.886875,
+   "end": 1.014
+  },
+  {
+   "text": "malo",
+   "start": 1.024583,
+   "end": 1.321208
+  }
+ ]
+}

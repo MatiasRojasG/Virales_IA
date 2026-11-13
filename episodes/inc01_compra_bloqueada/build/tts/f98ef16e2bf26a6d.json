@@ -1,0 +1,46 @@
+{
+ "text": "De cincuenta y nueve, apenas diez eran fraude.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "cincuenta",
+   "start": 0.2195,
+   "end": 0.611458
+  },
+  {
+   "text": "y",
+   "start": 0.622041,
+   "end": 0.653832
+  },
+  {
+   "text": "nueve",
+   "start": 0.664416,
+   "end": 0.961041
+  },
+  {
+   "text": "apenas",
+   "start": 1.162291,
+   "end": 1.585999
+  },
+  {
+   "text": "diez",
+   "start": 1.596625,
+   "end": 1.829666
+  },
+  {
+   "text": "eran",
+   "start": 1.84025,
+   "end": 2.041541
+  },
+  {
+   "text": "fraude",
+   "start": 2.052125,
+   "end": 2.412291
+  }
+ ]
+}

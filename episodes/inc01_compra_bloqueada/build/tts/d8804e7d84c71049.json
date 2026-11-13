@@ -1,0 +1,61 @@
+{
+ "text": "y que solo se equivoca con 5 de cada 100 compras normales.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "que",
+   "start": 0.2195,
+   "end": 0.325416
+  },
+  {
+   "text": "solo",
+   "start": 0.336,
+   "end": 0.569041
+  },
+  {
+   "text": "se",
+   "start": 0.579666,
+   "end": 0.674999
+  },
+  {
+   "text": "equivoca",
+   "start": 0.685583,
+   "end": 1.109291
+  },
+  {
+   "text": "con",
+   "start": 1.119916,
+   "end": 1.268207
+  },
+  {
+   "text": "5",
+   "start": 1.278833,
+   "end": 1.564833
+  },
+  {
+   "text": "de",
+   "start": 1.575416,
+   "end": 1.670749
+  },
+  {
+   "text": "cada",
+   "start": 1.681375,
+   "end": 1.925
+  },
+  {
+   "text": "100 compras",
+   "start": 1.935583,
+   "end": 2.539416
+  },
+  {
+   "text": "normales",
+   "start": 2.55,
+   "end": 3.122041
+  }
+ ]
+}

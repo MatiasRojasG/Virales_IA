@@ -1,0 +1,305 @@
+1
+00:00:00,150 --> 00:00:01,135
+Estás de viaje,
+
+2
+00:00:01,135 --> 00:00:02,229
+pagas un café...
+
+3
+00:00:02,229 --> 00:00:03,108
+y tu banco bloquea
+
+4
+00:00:03,108 --> 00:00:04,342
+la tarjeta.
+
+5
+00:00:04,342 --> 00:00:05,390
+¿Cómo pudo
+equivocarse un
+
+6
+00:00:05,390 --> 00:00:07,320
+sistema tan sofisticado?
+
+7
+00:00:07,320 --> 00:00:08,432
+Imagina un detector que
+
+8
+00:00:08,432 --> 00:00:09,703
+atrapa 99 de cada
+
+9
+00:00:09,703 --> 00:00:10,735
+100 fraudes...
+
+10
+00:00:10,735 --> 00:00:11,328
+y que solo se
+
+11
+00:00:11,328 --> 00:00:12,324
+equivoca con 5 de
+
+12
+00:00:12,324 --> 00:00:14,304
+cada 100 compras
+normales.
+
+13
+00:00:14,304 --> 00:00:15,417
+Si te marcó a ti,
+
+14
+00:00:15,417 --> 00:00:16,338
+parece obvio:
+
+15
+00:00:16,338 --> 00:00:18,165
+casi seguro era fraude.
+
+16
+00:00:18,165 --> 00:00:19,002
+Pero falta un dato
+
+17
+00:00:19,002 --> 00:00:20,496
+que casi nadie pregunta:
+
+18
+00:00:20,496 --> 00:00:21,227
+¿qué tan común es
+
+19
+00:00:21,227 --> 00:00:22,394
+el fraude?
+
+20
+00:00:22,394 --> 00:00:23,739
+Pensemos en
+mil compras,
+
+21
+00:00:23,739 --> 00:00:24,746
+y supongamos que solo
+
+22
+00:00:24,746 --> 00:00:26,069
+diez son fraude.
+
+23
+00:00:26,069 --> 00:00:27,055
+El detector atrapa a
+
+24
+00:00:27,055 --> 00:00:28,074
+las diez.
+
+25
+00:00:28,074 --> 00:00:29,017
+Pero de las novecientas
+
+26
+00:00:29,017 --> 00:00:30,564
+noventa normales,
+se equivoca
+
+27
+00:00:30,564 --> 00:00:31,998
+con cinco de cada cien:
+
+28
+00:00:31,998 --> 00:00:33,385
+unas 49 también hacen
+
+29
+00:00:33,385 --> 00:00:34,870
+sonar la alarma.
+
+30
+00:00:34,870 --> 00:00:36,893
+Ahora mira solo
+las alarmas.
+
+31
+00:00:36,893 --> 00:00:37,963
+De cincuenta y nueve,
+
+32
+00:00:37,963 --> 00:00:39,603
+apenas diez eran fraude.
+
+33
+00:00:39,603 --> 00:00:41,501
+Una de cada seis.
+
+34
+00:00:41,541 --> 00:00:42,982
+El detector no es malo:
+
+35
+00:00:42,982 --> 00:00:44,030
+las compras normales son
+
+36
+00:00:44,030 --> 00:00:45,475
+muchísimas más, y un
+
+37
+00:00:45,475 --> 00:00:46,481
+error pequeño sobre un
+
+38
+00:00:46,481 --> 00:00:47,572
+grupo enorme suma más
+
+39
+00:00:47,572 --> 00:00:49,494
+alarmas que
+el fraude real.
+
+40
+00:00:49,494 --> 00:00:50,850
+Esa cuenta tiene nombre:
+
+41
+00:00:50,850 --> 00:00:52,050
+regla de Bayes.
+
+42
+00:00:52,050 --> 00:00:53,406
+Arriba, las alarmas que
+
+43
+00:00:53,406 --> 00:00:54,847
+sí son fraude.
+
+44
+00:00:54,871 --> 00:00:57,031
+Abajo, todas las alarmas.
+
+45
+00:00:57,031 --> 00:00:57,646
+Y el dato que
+
+46
+00:00:57,646 --> 00:00:58,472
+lo cambia todo es
+
+47
+00:00:58,472 --> 00:00:59,362
+la tasa base:
+
+48
+00:00:59,362 --> 00:01:00,061
+qué tan raro es
+
+49
+00:01:00,061 --> 00:01:02,012
+el fraude desde
+el principio.
+
+50
+00:01:02,012 --> 00:01:04,163
+¿Entonces cómo
+se decide bien?
+
+51
+00:01:04,186 --> 00:01:05,640
+Sumando evidencia.
+
+52
+00:01:05,640 --> 00:01:06,435
+Ese uno de cada
+
+53
+00:01:06,435 --> 00:01:07,240
+seis es el nuevo
+
+54
+00:01:07,240 --> 00:01:08,538
+punto de partida.
+
+55
+00:01:08,538 --> 00:01:09,862
+Si una segunda señal,
+
+56
+00:01:09,862 --> 00:01:10,646
+que se equivoca por
+
+57
+00:01:10,646 --> 00:01:12,301
+su cuenta,
+también suena...
+
+58
+00:01:12,301 --> 00:01:13,477
+la probabilidad salta a
+
+59
+00:01:13,477 --> 00:01:14,293
+cerca de ocho de
+
+60
+00:01:14,293 --> 00:01:15,597
+cada diez.
+
+61
+00:01:15,597 --> 00:01:16,709
+La misma cuenta explica
+
+62
+00:01:16,709 --> 00:01:17,483
+por qué un examen
+
+63
+00:01:17,483 --> 00:01:18,818
+médico positivo
+no siempre
+
+64
+00:01:18,818 --> 00:01:20,283
+significa estar enfermo...
+
+65
+00:01:20,283 --> 00:01:20,834
+y por qué las
+
+66
+00:01:20,834 --> 00:01:21,872
+alarmas de una fábrica
+
+67
+00:01:21,872 --> 00:01:23,593
+suenan tanto en falso.
+
+68
+00:01:23,593 --> 00:01:24,228
+Así que si un
+
+69
+00:01:24,228 --> 00:01:25,012
+día te bloquean un
+
+70
+00:01:25,012 --> 00:01:26,412
+café en el extranjero:
+
+71
+00:01:26,412 --> 00:01:26,941
+no es que el
+
+72
+00:01:26,941 --> 00:01:28,203
+detector sea malo.
+
+73
+00:01:28,203 --> 00:01:29,128
+Es que el fraude
+
+74
+00:01:29,128 --> 00:01:30,261
+es raro.

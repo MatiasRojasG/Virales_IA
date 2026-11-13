@@ -1,0 +1,71 @@
+{
+ "text": "Pero de las novecientas noventa normales, se equivoca con cinco de cada cien:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "de",
+   "start": 0.272458,
+   "end": 0.367791
+  },
+  {
+   "text": "las",
+   "start": 0.378375,
+   "end": 0.516083
+  },
+  {
+   "text": "novecientas",
+   "start": 0.526708,
+   "end": 1.024583
+  },
+  {
+   "text": "noventa",
+   "start": 1.035166,
+   "end": 1.342374
+  },
+  {
+   "text": "normales",
+   "start": 1.352958,
+   "end": 1.819041
+  },
+  {
+   "text": "se",
+   "start": 2.00975,
+   "end": 2.147458
+  },
+  {
+   "text": "equivoca",
+   "start": 2.158041,
+   "end": 2.571166
+  },
+  {
+   "text": "con",
+   "start": 2.581791,
+   "end": 2.761874
+  },
+  {
+   "text": "cinco",
+   "start": 2.772458,
+   "end": 3.058458
+  },
+  {
+   "text": "de",
+   "start": 3.069083,
+   "end": 3.164416
+  },
+  {
+   "text": "cada",
+   "start": 3.175,
+   "end": 3.408041
+  },
+  {
+   "text": "cien",
+   "start": 3.418625,
+   "end": 3.725833
+  }
+ ]
+}

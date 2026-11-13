@@ -1,0 +1,61 @@
+{
+ "text": "Ese uno de cada seis es el nuevo punto de partida.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "uno",
+   "start": 0.346625,
+   "end": 0.526708
+  },
+  {
+   "text": "de",
+   "start": 0.537291,
+   "end": 0.632624
+  },
+  {
+   "text": "cada",
+   "start": 0.643208,
+   "end": 0.876249
+  },
+  {
+   "text": "seis",
+   "start": 0.886875,
+   "end": 1.1835
+  },
+  {
+   "text": "es",
+   "start": 1.194083,
+   "end": 1.321208
+  },
+  {
+   "text": "el",
+   "start": 1.331791,
+   "end": 1.427124
+  },
+  {
+   "text": "nuevo",
+   "start": 1.437708,
+   "end": 1.681333
+  },
+  {
+   "text": "punto",
+   "start": 1.691958,
+   "end": 1.977958
+  },
+  {
+   "text": "de",
+   "start": 1.988541,
+   "end": 2.073291
+  },
+  {
+   "text": "partida",
+   "start": 2.083916,
+   "end": 2.549999
+  }
+ ]
+}

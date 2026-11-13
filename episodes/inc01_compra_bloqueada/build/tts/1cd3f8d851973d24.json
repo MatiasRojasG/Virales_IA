@@ -1,0 +1,81 @@
+{
+ "text": "La misma cuenta explica por qué un examen médico positivo no siempre significa estar enfermo...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "misma",
+   "start": 0.230083,
+   "end": 0.516083
+  },
+  {
+   "text": "cuenta",
+   "start": 0.526708,
+   "end": 0.791541
+  },
+  {
+   "text": "explica",
+   "start": 0.802125,
+   "end": 1.194083
+  },
+  {
+   "text": "por",
+   "start": 1.204666,
+   "end": 1.363582
+  },
+  {
+   "text": "qué",
+   "start": 1.374166,
+   "end": 1.480082
+  },
+  {
+   "text": "un",
+   "start": 1.490666,
+   "end": 1.596582
+  },
+  {
+   "text": "examen",
+   "start": 1.607208,
+   "end": 1.967374
+  },
+  {
+   "text": "médico",
+   "start": 1.977958,
+   "end": 2.306333
+  },
+  {
+   "text": "positivo",
+   "start": 2.316958,
+   "end": 2.793666
+  },
+  {
+   "text": "no",
+   "start": 2.80425,
+   "end": 2.97375
+  },
+  {
+   "text": "siempre",
+   "start": 2.984333,
+   "end": 3.302124
+  },
+  {
+   "text": "significa",
+   "start": 3.312708,
+   "end": 3.821166
+  },
+  {
+   "text": "estar",
+   "start": 3.831791,
+   "end": 4.054249
+  },
+  {
+   "text": "enfermo",
+   "start": 4.064833,
+   "end": 4.488541
+  }
+ ]
+}

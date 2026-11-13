@@ -1,0 +1,26 @@
+{
+ "text": "Una de cada seis.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.102083,
+   "end": 0.323458
+  },
+  {
+   "text": "de",
+   "start": 0.336458,
+   "end": 0.466666
+  },
+  {
+   "text": "cada",
+   "start": 0.479708,
+   "end": 0.766166
+  },
+  {
+   "text": "seis",
+   "start": 0.779166,
+   "end": 1.299999
+  }
+ ]
+}

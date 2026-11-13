@@ -1,0 +1,61 @@
+{
+ "text": "Si te marcó a ti, parece obvio: casi seguro era fraude.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.30425
+  },
+  {
+   "text": "te",
+   "start": 0.314833,
+   "end": 0.399583
+  },
+  {
+   "text": "marcó",
+   "start": 0.410166,
+   "end": 0.696166
+  },
+  {
+   "text": "a",
+   "start": 0.706791,
+   "end": 0.749166
+  },
+  {
+   "text": "ti",
+   "start": 0.75975,
+   "end": 0.982208
+  },
+  {
+   "text": "parece",
+   "start": 1.204666,
+   "end": 1.533041
+  },
+  {
+   "text": "obvio",
+   "start": 1.543625,
+   "end": 1.882625
+  },
+  {
+   "text": "casi",
+   "start": 2.126291,
+   "end": 2.380541
+  },
+  {
+   "text": "seguro",
+   "start": 2.391083,
+   "end": 2.772458
+  },
+  {
+   "text": "era",
+   "start": 2.783041,
+   "end": 2.931332
+  },
+  {
+   "text": "fraude",
+   "start": 2.941958,
+   "end": 3.312708
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "text": "y por qué las alarmas de una fábrica suenan tanto en falso.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "por",
+   "start": 0.208916,
+   "end": 0.367832
+  },
+  {
+   "text": "qué",
+   "start": 0.378375,
+   "end": 0.484291
+  },
+  {
+   "text": "las",
+   "start": 0.494916,
+   "end": 0.632624
+  },
+  {
+   "text": "alarmas",
+   "start": 0.643208,
+   "end": 1.013958
+  },
+  {
+   "text": "de",
+   "start": 1.024583,
+   "end": 1.088124
+  },
+  {
+   "text": "una",
+   "start": 1.098708,
+   "end": 1.278791
+  },
+  {
+   "text": "fábrica",
+   "start": 1.289416,
+   "end": 1.670791
+  },
+  {
+   "text": "suenan",
+   "start": 1.681375,
+   "end": 2.020375
+  },
+  {
+   "text": "tanto",
+   "start": 2.030916,
+   "end": 2.285166
+  },
+  {
+   "text": "en",
+   "start": 2.29575,
+   "end": 2.369916
+  },
+  {
+   "text": "falso",
+   "start": 2.3805,
+   "end": 2.761875
+  }
+ ]
+}

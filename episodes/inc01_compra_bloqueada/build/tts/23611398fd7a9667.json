@@ -1,0 +1,66 @@
+{
+ "text": "Así que si un día te bloquean un café en el extranjero:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "que",
+   "start": 0.357208,
+   "end": 0.452541
+  },
+  {
+   "text": "si",
+   "start": 0.463125,
+   "end": 0.59025
+  },
+  {
+   "text": "un",
+   "start": 0.600833,
+   "end": 0.717374
+  },
+  {
+   "text": "día",
+   "start": 0.727958,
+   "end": 0.918624
+  },
+  {
+   "text": "te",
+   "start": 0.92925,
+   "end": 1.024583
+  },
+  {
+   "text": "bloquean",
+   "start": 1.035166,
+   "end": 1.395332
+  },
+  {
+   "text": "un",
+   "start": 1.405916,
+   "end": 1.501249
+  },
+  {
+   "text": "café",
+   "start": 1.511875,
+   "end": 1.776708
+  },
+  {
+   "text": "en",
+   "start": 1.787291,
+   "end": 1.882624
+  },
+  {
+   "text": "el",
+   "start": 1.893208,
+   "end": 1.988541
+  },
+  {
+   "text": "extranjero",
+   "start": 1.999166,
+   "end": 2.571207
+  }
+ ]
+}

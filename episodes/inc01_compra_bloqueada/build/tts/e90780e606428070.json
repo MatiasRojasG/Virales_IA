@@ -1,0 +1,56 @@
+{
+ "text": "Imagina un detector que atrapa 99 de cada 100 fraudes...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.092375,
+   "end": 0.558458
+  },
+  {
+   "text": "un",
+   "start": 0.569083,
+   "end": 0.664416
+  },
+  {
+   "text": "detector",
+   "start": 0.675,
+   "end": 1.088125
+  },
+  {
+   "text": "que",
+   "start": 1.098708,
+   "end": 1.194041
+  },
+  {
+   "text": "atrapa",
+   "start": 1.204666,
+   "end": 1.501291
+  },
+  {
+   "text": "99",
+   "start": 1.511875,
+   "end": 2.0944989
+  },
+  {
+   "text": "de",
+   "start": 2.105083,
+   "end": 2.210999
+  },
+  {
+   "text": "cada",
+   "start": 2.221625,
+   "end": 2.46525
+  },
+  {
+   "text": "100",
+   "start": 2.475833,
+   "end": 2.719458
+  },
+  {
+   "text": "fraudes",
+   "start": 2.730083,
+   "end": 3.217374
+  }
+ ]
+}

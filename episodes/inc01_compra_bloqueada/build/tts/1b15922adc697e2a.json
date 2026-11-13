@@ -1,0 +1,36 @@
+{
+ "text": "y tu banco bloquea la tarjeta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "tu",
+   "start": 0.2195,
+   "end": 0.325416
+  },
+  {
+   "text": "banco",
+   "start": 0.336,
+   "end": 0.611416
+  },
+  {
+   "text": "bloquea",
+   "start": 0.622041,
+   "end": 0.961041
+  },
+  {
+   "text": "la",
+   "start": 0.971625,
+   "end": 1.066958
+  },
+  {
+   "text": "tarjeta",
+   "start": 1.077541,
+   "end": 1.564832
+  }
+ ]
+}

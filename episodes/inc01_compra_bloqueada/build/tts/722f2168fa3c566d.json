@@ -1,0 +1,31 @@
+{
+ "text": "Ahora mira solo las alarmas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ahora",
+   "start": 0.092375,
+   "end": 0.378375
+  },
+  {
+   "text": "mira",
+   "start": 0.389,
+   "end": 0.622041
+  },
+  {
+   "text": "solo",
+   "start": 0.632625,
+   "end": 0.886875
+  },
+  {
+   "text": "las",
+   "start": 0.897458,
+   "end": 1.045749
+  },
+  {
+   "text": "alarmas",
+   "start": 1.056375,
+   "end": 1.575458
+  }
+ ]
+}

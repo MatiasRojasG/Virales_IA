@@ -17,7 +17,7 @@ def hex2rgb(h):
 
 BG = hex2rgb("#090D18")
 BG2 = hex2rgb("#111A2E")
-WHITE = (1.0, 1.0, 1.0)
+WHITE = hex2rgb("#F5F7FA")
 GRAY = hex2rgb("#8A94AD")
 DIM = hex2rgb("#3A4560")
 CYAN = hex2rgb("#00D9FF")

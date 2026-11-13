@@ -1,0 +1,81 @@
+{
+ "text": "y un error pequeño sobre un grupo enorme suma más alarmas que el fraude real.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "un",
+   "start": 0.2195,
+   "end": 0.336041
+  },
+  {
+   "text": "error",
+   "start": 0.346625,
+   "end": 0.59025
+  },
+  {
+   "text": "pequeño",
+   "start": 0.600833,
+   "end": 0.971583
+  },
+  {
+   "text": "sobre",
+   "start": 0.982208,
+   "end": 1.236458
+  },
+  {
+   "text": "un",
+   "start": 1.247041,
+   "end": 1.342374
+  },
+  {
+   "text": "grupo",
+   "start": 1.352958,
+   "end": 1.585999
+  },
+  {
+   "text": "enorme",
+   "start": 1.596625,
+   "end": 1.925
+  },
+  {
+   "text": "suma",
+   "start": 1.935583,
+   "end": 2.200416
+  },
+  {
+   "text": "más",
+   "start": 2.211,
+   "end": 2.433458
+  },
+  {
+   "text": "alarmas",
+   "start": 2.444083,
+   "end": 2.836041
+  },
+  {
+   "text": "que",
+   "start": 2.846625,
+   "end": 2.952541
+  },
+  {
+   "text": "el",
+   "start": 2.963125,
+   "end": 3.047875
+  },
+  {
+   "text": "fraude",
+   "start": 3.058458,
+   "end": 3.365666
+  },
+  {
+   "text": "real",
+   "start": 3.376291,
+   "end": 3.725874
+  }
+ ]
+}

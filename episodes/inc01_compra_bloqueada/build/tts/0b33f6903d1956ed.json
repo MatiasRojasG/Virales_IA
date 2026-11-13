@@ -1,0 +1,76 @@
+{
+ "text": "Pero de las novecientas noventa compras normales, se equivoca con el cinco por ciento:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "de",
+   "start": 0.272458,
+   "end": 0.367791
+  },
+  {
+   "text": "las",
+   "start": 0.378375,
+   "end": 0.526666
+  },
+  {
+   "text": "novecientas",
+   "start": 0.537291,
+   "end": 1.045749
+  },
+  {
+   "text": "noventa",
+   "start": 1.056375,
+   "end": 1.38475
+  },
+  {
+   "text": "compras",
+   "start": 1.395333,
+   "end": 1.744916
+  },
+  {
+   "text": "normales",
+   "start": 1.7555,
+   "end": 2.211
+  },
+  {
+   "text": "se",
+   "start": 2.401708,
+   "end": 2.560624
+  },
+  {
+   "text": "equivoca",
+   "start": 2.571166,
+   "end": 3.005499
+  },
+  {
+   "text": "con",
+   "start": 3.016083,
+   "end": 3.174999
+  },
+  {
+   "text": "el",
+   "start": 3.185583,
+   "end": 3.280916
+  },
+  {
+   "text": "cinco",
+   "start": 3.291541,
+   "end": 3.609332
+  },
+  {
+   "text": "por",
+   "start": 3.619916,
+   "end": 3.768207
+  },
+  {
+   "text": "ciento",
+   "start": 3.778833,
+   "end": 4.160208
+  }
+ ]
+}
