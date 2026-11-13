@@ -1,0 +1,26 @@
+{
+ "text": "Pongámoslo en una balanza.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pongámoslo",
+   "start": 0.092375,
+   "end": 0.622041
+  },
+  {
+   "text": "en",
+   "start": 0.632625,
+   "end": 0.717375
+  },
+  {
+   "text": "una",
+   "start": 0.727958,
+   "end": 0.865666
+  },
+  {
+   "text": "balanza",
+   "start": 0.876291,
+   "end": 1.352999
+  }
+ ]
+}

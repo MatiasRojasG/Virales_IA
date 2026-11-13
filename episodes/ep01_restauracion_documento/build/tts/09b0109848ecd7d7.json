@@ -1,0 +1,51 @@
+{
+ "text": "Hacemos lo mismo con todos los puntos, y repetimos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Hacemos",
+   "start": 0.092375,
+   "end": 0.5055
+  },
+  {
+   "text": "lo",
+   "start": 0.516083,
+   "end": 0.579624
+  },
+  {
+   "text": "mismo",
+   "start": 0.59025,
+   "end": 0.886875
+  },
+  {
+   "text": "con",
+   "start": 0.897458,
+   "end": 1.077541
+  },
+  {
+   "text": "todos",
+   "start": 1.088125,
+   "end": 1.38475
+  },
+  {
+   "text": "los",
+   "start": 1.395333,
+   "end": 1.522458
+  },
+  {
+   "text": "puntos",
+   "start": 1.533041,
+   "end": 1.946166
+  },
+  {
+   "text": "y",
+   "start": 2.136875,
+   "end": 2.221625
+  },
+  {
+   "text": "repetimos",
+   "start": 2.232208,
+   "end": 2.878374
+  }
+ ]
+}

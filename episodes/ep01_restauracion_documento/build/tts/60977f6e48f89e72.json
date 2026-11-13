@@ -1,0 +1,66 @@
+{
+ "text": "Al escanearlo, el quince por ciento de los puntos salió al revés:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Al",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "escanearlo",
+   "start": 0.261875,
+   "end": 0.823333
+  },
+  {
+   "text": "el",
+   "start": 1.066958,
+   "end": 1.215249
+  },
+  {
+   "text": "quince",
+   "start": 1.225833,
+   "end": 1.533041
+  },
+  {
+   "text": "por",
+   "start": 1.543625,
+   "end": 1.691916
+  },
+  {
+   "text": "ciento",
+   "start": 1.702541,
+   "end": 1.999166
+  },
+  {
+   "text": "de",
+   "start": 2.00975,
+   "end": 2.0945
+  },
+  {
+   "text": "los",
+   "start": 2.105083,
+   "end": 2.263999
+  },
+  {
+   "text": "puntos",
+   "start": 2.274583,
+   "end": 2.581791
+  },
+  {
+   "text": "salió",
+   "start": 2.592375,
+   "end": 2.857208
+  },
+  {
+   "text": "al",
+   "start": 2.867791,
+   "end": 2.952541
+  },
+  {
+   "text": "revés",
+   "start": 2.963125,
+   "end": 3.408041
+  }
+ ]
+}

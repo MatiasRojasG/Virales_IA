@@ -1,0 +1,66 @@
+{
+ "text": "La misma idea delimita tumores en resonancias, o mapea bosques desde satélites.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "misma",
+   "start": 0.240666,
+   "end": 0.547874
+  },
+  {
+   "text": "idea",
+   "start": 0.558458,
+   "end": 0.812708
+  },
+  {
+   "text": "delimita",
+   "start": 0.823291,
+   "end": 1.246999
+  },
+  {
+   "text": "tumores",
+   "start": 1.257625,
+   "end": 1.67075
+  },
+  {
+   "text": "en",
+   "start": 1.681375,
+   "end": 1.766125
+  },
+  {
+   "text": "resonancias",
+   "start": 1.776708,
+   "end": 2.391124
+  },
+  {
+   "text": "o",
+   "start": 2.581791,
+   "end": 2.624166
+  },
+  {
+   "text": "mapea",
+   "start": 2.63475,
+   "end": 2.963125
+  },
+  {
+   "text": "bosques",
+   "start": 2.973708,
+   "end": 3.344458
+  },
+  {
+   "text": "desde",
+   "start": 3.355083,
+   "end": 3.556374
+  },
+  {
+   "text": "satélites",
+   "start": 3.566958,
+   "end": 4.244916
+  }
+ ]
+}

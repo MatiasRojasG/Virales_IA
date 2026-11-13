@@ -1,0 +1,26 @@
+{
+ "text": "Mira un solo punto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Mira",
+   "start": 0.102083,
+   "end": 0.453666
+  },
+  {
+   "text": "un",
+   "start": 0.466666,
+   "end": 0.609916
+  },
+  {
+   "text": "solo",
+   "start": 0.622916,
+   "end": 0.909374
+  },
+  {
+   "text": "punto",
+   "start": 0.922416,
+   "end": 1.378166
+  }
+ ]
+}

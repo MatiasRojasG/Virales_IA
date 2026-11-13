@@ -1,0 +1,21 @@
+{
+ "text": "lo deja así.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "lo",
+   "start": 0.102083,
+   "end": 0.271374
+  },
+  {
+   "text": "deja",
+   "start": 0.284375,
+   "end": 0.583875
+  },
+  {
+   "text": "así",
+   "start": 0.596875,
+   "end": 0.948458
+  }
+ ]
+}

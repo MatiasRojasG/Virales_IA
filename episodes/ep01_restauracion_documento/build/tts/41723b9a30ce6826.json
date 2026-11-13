@@ -1,0 +1,26 @@
+{
+ "text": "una red de Markov.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "una",
+   "start": 0.102083,
+   "end": 0.375541
+  },
+  {
+   "text": "red",
+   "start": 0.388541,
+   "end": 0.609916
+  },
+  {
+   "text": "de",
+   "start": 0.622916,
+   "end": 0.714082
+  },
+  {
+   "text": "Markov",
+   "start": 0.727083,
+   "end": 1.169791
+  }
+ ]
+}

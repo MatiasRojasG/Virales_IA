@@ -1,0 +1,61 @@
+{
+ "text": "Cuánto pesa cada voz lo regulan dos perillas: alfa y beta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cuánto",
+   "start": 0.092375,
+   "end": 0.367791
+  },
+  {
+   "text": "pesa",
+   "start": 0.378375,
+   "end": 0.643208
+  },
+  {
+   "text": "cada",
+   "start": 0.653833,
+   "end": 0.865708
+  },
+  {
+   "text": "voz",
+   "start": 0.876291,
+   "end": 1.088166
+  },
+  {
+   "text": "lo",
+   "start": 1.098708,
+   "end": 1.162249
+  },
+  {
+   "text": "regulan",
+   "start": 1.172875,
+   "end": 1.543625
+  },
+  {
+   "text": "dos",
+   "start": 1.55425,
+   "end": 1.734333
+  },
+  {
+   "text": "perillas",
+   "start": 1.744916,
+   "end": 2.221624
+  },
+  {
+   "text": "alfa",
+   "start": 2.412291,
+   "end": 2.677124
+  },
+  {
+   "text": "y",
+   "start": 2.687708,
+   "end": 2.751249
+  },
+  {
+   "text": "beta",
+   "start": 2.761875,
+   "end": 3.100875
+  }
+ ]
+}

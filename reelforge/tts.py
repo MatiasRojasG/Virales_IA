@@ -9,7 +9,8 @@ from pathlib import Path
 import numpy as np
 
 SR = 48000
-VOICE = "es-CL-LorenzoNeural"     # alternativa femenina: es-CL-CatalinaNeural
+VOICE = "es-MX-JorgeNeural"       # latinoamericano neutro; alternativas: es-CL-LorenzoNeural, es-PE-AlexNeural
+RATE = "+18%"
 
 
 async def _synth(text, voice, rate, pitch, mp3_path):
@@ -36,7 +37,7 @@ def decode(path, sr=SR) -> np.ndarray:
     return np.frombuffer(out, np.float32).copy()
 
 
-def synthesize(text, cache_dir, voice=VOICE, rate="+8%", pitch="+0Hz", retries=4):
+def synthesize(text, cache_dir, voice=VOICE, rate=RATE, pitch="+0Hz", retries=4):
     """Devuelve (audio float32 mono 48 kHz, lista de palabras con start/end en s)."""
     cache_dir = Path(cache_dir); cache_dir.mkdir(parents=True, exist_ok=True)
     h = hashlib.sha1(f"{voice}|{rate}|{pitch}|{text}".encode()).hexdigest()[:16]

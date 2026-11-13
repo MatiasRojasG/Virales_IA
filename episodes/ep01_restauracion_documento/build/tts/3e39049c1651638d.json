@@ -1,0 +1,31 @@
+{
+ "text": "la tinta viene en trazos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "la",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "tinta",
+   "start": 0.251291,
+   "end": 0.537291
+  },
+  {
+   "text": "viene",
+   "start": 0.547875,
+   "end": 0.7915
+  },
+  {
+   "text": "en",
+   "start": 0.802125,
+   "end": 0.886875
+  },
+  {
+   "text": "trazos",
+   "start": 0.897458,
+   "end": 1.374166
+  }
+ ]
+}

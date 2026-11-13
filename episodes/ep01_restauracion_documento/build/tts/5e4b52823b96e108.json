@@ -1,0 +1,31 @@
+{
+ "text": "¿Está bien, o está mal?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Está",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "bien",
+   "start": 0.346625,
+   "end": 0.600875
+  },
+  {
+   "text": "o",
+   "start": 0.812708,
+   "end": 0.855083
+  },
+  {
+   "text": "está",
+   "start": 0.865666,
+   "end": 1.056332
+  },
+  {
+   "text": "mal",
+   "start": 1.066958,
+   "end": 1.363583
+  }
+ ]
+}

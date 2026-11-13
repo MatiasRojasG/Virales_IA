@@ -183,13 +183,15 @@ class P:
             self.c.drawString(s, cx, y, f, paint(rgb, a)); cx += f.measureText(s)
         return total
 
-    def pill(self, s, x, y, size=34, rgb=C.CYAN, a=1.0, face=C.FONT_BOLD, fill_a=0.14, pad=(22, 12)):
-        """Etiqueta tipo chip centrada en (x, y)."""
+    def pill(self, s, x, y, size=34, rgb=C.CYAN, a=1.0, face=C.FONT_BOLD, fill_a=0.14, pad=(22, 12), bg=True):
+        """Etiqueta tipo chip centrada en (x, y). bg: respaldo oscuro (legible sobre fondos claros)."""
         if a <= 0: return
         f = font(size, face)
         w = f.measureText(s)
         x0, x1 = x - w / 2 - pad[0], x + w / 2 + pad[0]
         y0, y1 = y - size * 0.5 - pad[1], y + size * 0.5 + pad[1]
+        if bg:
+            self.rect(x0, y0, x1, y1, C.BG, 0.88 * a, radius=(y1 - y0) / 2)
         self.rect(x0, y0, x1, y1, rgb, fill_a * a, radius=(y1 - y0) / 2)
         self.rect(x0, y0, x1, y1, rgb, 0.65 * a, stroke=2.5, radius=(y1 - y0) / 2)
         self.c.drawString(s, x - w / 2, y + size * 0.36, f, paint(rgb, a))
@@ -220,3 +222,59 @@ class P:
 def frame_surface():
     arr = np.zeros((C.H, C.W, 4), np.uint8)
     return arr, skia.Surface(arr)
+
+
+# ---------------------------------------------------------------- extras cinematográficos
+CUBIC = skia.SamplingOptions(skia.CubicResampler.Mitchell())
+_small = {}
+
+
+def _small_surface(scale):
+    """Superficies reducidas (por proceso) para desenfoques baratos."""
+    key = scale
+    if key not in _small:
+        w, h = int(C.W * scale), int(C.H * scale)
+        _small[key] = (skia.Surface(w, h), skia.Surface(w, h))
+    return _small[key]
+
+
+def draw_blurred(Pmain, draw_fn, sigma, alpha=1.0, scale=0.25):
+    """Dibuja draw_fn(P) desenfocado con sigma (px de pantalla).
+    Se renderiza a 1/4 de resolución, se desenfoca allí y se escala con filtro lineal."""
+    if sigma < 0.6:
+        if alpha >= 0.999:
+            draw_fn(Pmain)
+        else:
+            with Pmain.layer(alpha):
+                draw_fn(Pmain)
+        return
+    s1, s2 = _small_surface(scale)
+    c1 = s1.getCanvas(); c1.clear(skia.ColorTRANSPARENT)
+    c1.save(); c1.scale(scale, scale); draw_fn(P(c1)); c1.restore()
+    img = s1.makeImageSnapshot()
+    c2 = s2.getCanvas(); c2.clear(skia.ColorTRANSPARENT)
+    bp = skia.Paint(); bp.setImageFilter(skia.ImageFilters.Blur(sigma * scale, sigma * scale))
+    c2.drawImage(img, 0, 0, LINEAR, bp)
+    img2 = s2.makeImageSnapshot()
+    p = skia.Paint(); p.setAlphaf(clamp(alpha))
+    Pmain.c.drawImageRect(img2, skia.Rect(0, 0, C.W, C.H), LINEAR, p)
+
+
+def vignette(Pp, strength=0.55):
+    sh = skia.GradientShader.MakeRadial(
+        (C.W / 2, C.H * 0.45), C.H * 0.75,
+        [color4(C.BG, 0.0), color4(C.BG, 0.0), color4((0, 0, 0), strength)], [0.0, 0.55, 1.0])
+    Pp.c.drawPaint(skia.Paint(Shader=sh))
+
+
+def vband(Pp, y0, y1, a0, a1, rgb=C.BG):
+    """Banda con degradado vertical (legibilidad de subtítulos / cabecera)."""
+    sh = skia.GradientShader.MakeLinear([(0, y0), (0, y1)], [color4(rgb, a0), color4(rgb, a1)])
+    Pp.c.drawRect(skia.Rect(0, y0, C.W, y1), skia.Paint(Shader=sh))
+
+
+def spring(u, freq=9.0, damp=5.5):
+    """Respuesta de resorte amortiguado 0→1 con leve rebote."""
+    import math as _m
+    if u <= 0: return 0.0
+    return 1 - _m.exp(-damp * u) * _m.cos(freq * u)

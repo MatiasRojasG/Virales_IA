@@ -1,0 +1,91 @@
+{
+ "text": "En la clase, el lector automático pasó de entender el cuarenta y dos por ciento del texto...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "la",
+   "start": 0.261875,
+   "end": 0.336041
+  },
+  {
+   "text": "clase",
+   "start": 0.346625,
+   "end": 0.696208
+  },
+  {
+   "text": "el",
+   "start": 0.971625,
+   "end": 1.088166
+  },
+  {
+   "text": "lector",
+   "start": 1.098708,
+   "end": 1.374124
+  },
+  {
+   "text": "automático",
+   "start": 1.38475,
+   "end": 1.935583
+  },
+  {
+   "text": "pasó",
+   "start": 1.946166,
+   "end": 2.200416
+  },
+  {
+   "text": "de",
+   "start": 2.211,
+   "end": 2.285166
+  },
+  {
+   "text": "entender",
+   "start": 2.29575,
+   "end": 2.698291
+  },
+  {
+   "text": "el",
+   "start": 2.708916,
+   "end": 2.804249
+  },
+  {
+   "text": "cuarenta",
+   "start": 2.814833,
+   "end": 3.111458
+  },
+  {
+   "text": "y",
+   "start": 3.122041,
+   "end": 3.164416
+  },
+  {
+   "text": "dos",
+   "start": 3.175,
+   "end": 3.386875
+  },
+  {
+   "text": "por",
+   "start": 3.397458,
+   "end": 3.545749
+  },
+  {
+   "text": "ciento",
+   "start": 3.556375,
+   "end": 3.853
+  },
+  {
+   "text": "del",
+   "start": 3.863541,
+   "end": 4.011832
+  },
+  {
+   "text": "texto",
+   "start": 4.022458,
+   "end": 4.403833
+  }
+ ]
+}

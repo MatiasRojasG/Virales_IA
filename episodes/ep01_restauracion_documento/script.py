@@ -1,65 +1,83 @@
-"""Guion narrado del Episodio 1 — "El documento ilegible".
+"""Guion narrado del Episodio 1 (v2) — «¿Puedes leer esto?» · Detrás del Algoritmo.
+
+Arco: problema cotidiano → curiosidad → intuición → descubrimiento → explicación → resultado.
+El porqué va antes del cómo; los términos técnicos ("red de Markov", α, β) aparecen solo
+cuando el espectador ya entiende la idea que nombran.
 
 Sintaxis: *clave* = resaltado cyan · mostrar|pronunciar (guiones bajos = espacios).
-Cada beat es un bloque de narración; las escenas se sincronizan con sus palabras.
+Cada Ph es una frase con su propia prosodia (rate, pitch) y la pausa que la sigue.
 """
-from reelforge.timeline import Beat
+from reelforge.timeline import Beat, Ph
 
 EPISODE = {
     "num": 1,
     "slug": "ep01_restauracion_documento",
-    "title": "El documento ilegible",
-    "tag": "EP 01 · REDES DE MARKOV",
-    "next": "EP 02 · Redes sin flechas",
+    "title": "¿Puedes leer esto?",
+    "tag": "DETRÁS DEL ALGORITMO · EP 01",
+    "next": "Próximo: redes sin flechas",
 }
 
+Q = "+5Hz"        # leve subida de tono para preguntas y sorpresa
+SLOW = "-4%"      # frases de énfasis
+
 BEATS = [
-    Beat("hook",
-         "Al escanear este documento, el *15%|quince_por_ciento* de sus píxeles se invirtió. "
-         "Ningún lector automático puede leerlo... pero *una sola idea* lo arregla.",
-         pause=0.3),
-    Beat("problema",
-         "El escáner cambió píxeles al azar: tinta por papel, y papel por tinta. "
-         "Mirando *píxel a píxel*, no hay cómo saber cuál está mal.",
-         pause=0.25),
-    Beat("idea",
-         "Pero los *píxeles vecinos* tienden a compartir color. "
-         "Un punto negro aislado, en medio del papel, casi seguro es *ruido*.",
-         pause=0.25),
-    Beat("grafo",
-         "Esa relación no tiene dirección: ningún píxel *causa* al otro. "
-         "Así que usamos un *grafo no dirigido*, una *red de Markov*: "
-         "cada píxel unido a sus cuatro vecinos, y a lo que vio el escáner.",
-         pause=0.25),
-    Beat("voces",
-         "Cada píxel escucha dos voces: el *sensor*, con peso *α|alfa*, "
-         "y sus *vecinos*, con peso *β|beta*. "
-         "Si la suma es positiva, es tinta. Si es negativa, papel.",
-         pause=0.25),
-    Beat("ejemplo",
-         "Nuestro punto aislado: el sensor dice tinta, *+0,87|más_cero_coma_ochenta_y_siete*. "
-         "Sus cuatro vecinos dicen papel: *−4,8|menos_cuatro_coma_ocho*. "
-         "Gana el papel... y el ruido desaparece.",
-         pause=0.25),
-    Beat("iterar",
-         "Aplicamos la regla a todos los píxeles, y repetimos. "
-         "Pasada tras pasada, el ruido se disuelve. "
-         "Es la idea de *ICM*: modos condicionales iterados.",
-         pause=0.3),
-    Beat("resultado",
-         "En la clase, el error bajó del *15%|quince* al *2,5%|dos_coma_cinco_por_ciento*, "
-         "y el lector pasó de reconocer el *42%|cuarenta_y_dos* al *94%|noventa_y_cuatro_por_ciento* de los caracteres.",
-         pause=0.25),
-    Beat("recreacion",
-         "En mi recreación en Python: error de *2,6%|dos_coma_seis_por_ciento*, "
-         "y el lector pasó de nada... a un *91%|noventa_y_uno_por_ciento*.",
-         pause=0.25),
-    Beat("bordes",
-         "La mayoría de los errores que quedan están en los *bordes* de las letras, "
-         "donde las dos voces compiten.",
-         pause=0.25),
-    Beat("cierre",
-         "La misma idea delimita tumores en resonancias, o clasifica suelos desde satélites. "
-         "Próximo episodio: por qué aquí *no sirven* las flechas de una red bayesiana.",
-         pause=0.2),
+    # 1 · HOOK: problema + resultado prometido (open loop)
+    Beat("hook", [
+        Ph("¿Puedes leer *esto*?", pause=0.45, pitch=Q),
+        Ph("Una máquina, tampoco.", pause=0.45),
+        Ph("Pero una idea sorprendentemente *simple*...", pause=0.12),
+        Ph("lo deja *así*.", pause=0.75, rate=SLOW),
+    ]),
+    # 2 · PROBLEMA cotidiano
+    Beat("problema", [
+        Ph("Al escanearlo, el *15%|quince_por_ciento* de los puntos salió *al revés*:", pause=0.15),
+        Ph("tinta que se volvió papel...", pause=0.08),
+        Ph("y papel que se volvió tinta.", pause=0.5),
+    ]),
+    # 3 · CURIOSIDAD
+    Beat("curiosidad", [
+        Ph("Mira *un solo punto*.", pause=0.3, rate=SLOW),
+        Ph("¿Está bien, o está mal?", pause=0.35, pitch=Q),
+        Ph("Solo, es *imposible* saberlo.", pause=0.45),
+    ]),
+    # 4 · INTUICIÓN (con analogía)
+    Beat("intuicion", [
+        Ph("Pero tú lo sabrías al instante, porque miras *alrededor*.", pause=0.3),
+        Ph("Un punto negro solito en medio del papel es casi seguro una *mancha*:", pause=0.1),
+        Ph("la tinta viene en *trazos*.", pause=0.35),
+        Ph("Como adivinar una palabra que no escuchaste bien... por las de *al lado*.", pause=0.45),
+    ]),
+    # 5 · DESCUBRIMIENTO: recién aquí aparece el nombre técnico
+    Beat("descubrimiento", [
+        Ph("Esa es la idea: cada punto le pregunta a sus *vecinos*.", pause=0.25),
+        Ph("Así se forma una red *sin flechas*, porque nadie manda sobre nadie:", pause=0.12),
+        Ph("una *red de Markov*.", pause=0.45, rate=SLOW),
+    ]),
+    # 6 · EXPLICACIÓN: la balanza
+    Beat("balanza", [
+        Ph("Pongámoslo en una *balanza*.", pause=0.25),
+        Ph("El escáner dice: *negro*.", pause=0.25),
+        Ph("Pero cuatro vecinos dicen: *blanco*.", pause=0.3),
+        Ph("Ellos pesan más...", pause=0.1),
+        Ph("y el punto *se corrige*.", pause=0.4),
+        Ph("Cuánto pesa cada voz lo regulan dos perillas: *alfa* y *beta*.", pause=0.45),
+    ]),
+    # 7 · TODO EL DOCUMENTO
+    Beat("iterar", [
+        Ph("Hacemos lo mismo con todos los puntos, y *repetimos*.", pause=0.25),
+        Ph("Pasada tras pasada, las manchas se *desvanecen*.", pause=0.55),
+    ]),
+    # 8 · RESULTADO (cierre del open loop)
+    Beat("resultado", [
+        Ph("¿El resultado?", pause=0.35, pitch=Q),
+        Ph("En la clase, el lector automático pasó de entender el *42%|cuarenta_y_dos_por_ciento* del texto...", pause=0.1),
+        Ph("al *94*.", pause=0.5, rate=SLOW),
+        Ph("En mi recreación en Python: de nada, a un *91%|noventa_y_uno_por_ciento*.", pause=0.45),
+    ]),
+    # 9 · CIERRE + puente al próximo episodio
+    Beat("cierre", [
+        Ph("La misma idea delimita *tumores* en resonancias, o mapea *bosques* desde satélites.", pause=0.35),
+        Ph("¿Y por qué aquí no sirven las *flechas*?", pause=0.2, pitch=Q),
+        Ph("En el próximo episodio.", pause=0.2),
+    ]),
 ]

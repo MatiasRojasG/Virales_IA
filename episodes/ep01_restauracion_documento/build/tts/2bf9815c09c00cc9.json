@@ -1,0 +1,21 @@
+{
+ "text": "Ellos pesan más...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ellos",
+   "start": 0.092375,
+   "end": 0.399583
+  },
+  {
+   "text": "pesan",
+   "start": 0.410166,
+   "end": 0.706791
+  },
+  {
+   "text": "más",
+   "start": 0.717375,
+   "end": 1.088125
+  }
+ ]
+}

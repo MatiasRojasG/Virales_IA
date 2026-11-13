@@ -1,0 +1,51 @@
+{
+ "text": "Pero tú lo sabrías al instante, porque miras alrededor.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "tú",
+   "start": 0.283041,
+   "end": 0.399582
+  },
+  {
+   "text": "lo",
+   "start": 0.410166,
+   "end": 0.484332
+  },
+  {
+   "text": "sabrías",
+   "start": 0.494916,
+   "end": 0.908041
+  },
+  {
+   "text": "al",
+   "start": 0.918625,
+   "end": 0.992791
+  },
+  {
+   "text": "instante",
+   "start": 1.003375,
+   "end": 1.511833
+  },
+  {
+   "text": "porque",
+   "start": 1.702541,
+   "end": 1.946166
+  },
+  {
+   "text": "miras",
+   "start": 1.956791,
+   "end": 2.274582
+  },
+  {
+   "text": "alrededor",
+   "start": 2.285166,
+   "end": 2.825416
+  }
+ ]
+}

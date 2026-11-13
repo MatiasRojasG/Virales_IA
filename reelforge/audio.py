@@ -26,8 +26,11 @@ def _env(n, att, rel):
     return e
 
 
-def music(duration, bpm=96, seed=3):
-    """Pad ambiental + bajo + arpegio suave. Progresión Am–F–C–G (estéreo)."""
+def music(duration, bpm=96, seed=3, arp_from=0.0, pulse=None, quiet=None):
+    """Pad ambiental + bajo + arpegio suave. Progresión Am–F–C–G (estéreo).
+    arp_from: segundo en que entra el arpegio (la historia "despega").
+    pulse: (t0, t1) tramo con pulso grave suave (clímax).
+    quiet: lista de (t0, t1) donde la música baja (respiro / suspenso)."""
     n = int(duration * SR)
     t = np.arange(n) / SR
     out = np.zeros((n, 2))
@@ -56,7 +59,7 @@ def music(duration, bpm=96, seed=3):
     out = _lowpass(out, 1800)
     # arpegio "pluck" en corcheas
     step = beat / 2
-    k = 0
+    k = int(np.ceil(arp_from / step))
     while k * step < duration:
         b = int(k * step / bar)
         ch = prog[b % 4]
@@ -68,6 +71,21 @@ def music(duration, bpm=96, seed=3):
         pan = 0.35 + 0.3 * ((k * 3) % 5) / 4
         out[i0:i0 + L, 0] += pl * (1 - pan); out[i0:i0 + L, 1] += pl * pan
         k += 1
+    if pulse:
+        t0, t1 = pulse
+        kb = int(np.ceil(t0 / beat))
+        while kb * beat < min(t1, duration):
+            i0 = int(kb * beat * SR); L = min(int(0.35 * SR), n - i0)
+            tt = np.arange(L) / SR
+            f = 55 + 40 * np.exp(-tt * 30)
+            y = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 9) * 0.10
+            out[i0:i0 + L] += y[:, None]
+            kb += 1
+    if quiet:
+        g = np.ones(n)
+        for q0, q1 in quiet:
+            g -= 0.6 * np.clip(np.minimum((t - q0) / 0.6, (q1 - t) / 0.6), 0, 1)
+        out *= g[:, None]
     # fade in/out
     out *= _env(n, 1.5, 2.5)[:, None]
     return out.astype(np.float32)
@@ -121,16 +139,32 @@ def sfx_tick():
     return sfx_pop(2400, 0.04) * 0.6
 
 
-SFX = {"whoosh": sfx_whoosh, "whoosh_down": lambda: sfx_whoosh(up=False), "pop": sfx_pop,
+def sfx_rewind(dur=0.55):
+    """Rebobinado: barrido descendente + 'cinta' que frena."""
+    t = np.arange(int(dur * SR)) / SR
+    f = 1800 * np.exp(-t * 4) + 120
+    tone = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.25
+    y = (sfx_whoosh(dur, up=False)[:len(t)] * 2 + tone * np.exp(-t * 3)) * np.sin(np.pi * t / dur)
+    return (y * 0.6).astype(np.float32)
+
+
+def sfx_swell(dur=1.6):
+    t = np.arange(int(dur * SR)) / SR
+    y = sum(np.sin(2 * np.pi * _midi(m) * t) for m in (57, 64, 69, 76)) / 4
+    env = np.sin(np.pi * t / dur) ** 2
+    return (_lowpass(y * env, 2500) * 0.18).astype(np.float32)
+
+
+SFX = {"rewind": sfx_rewind, "swell": sfx_swell,"whoosh": sfx_whoosh, "whoosh_down": lambda: sfx_whoosh(up=False), "pop": sfx_pop,
        "ding": sfx_ding, "riser": sfx_riser, "thump": sfx_thump, "tick": sfx_tick,
        "pop_low": lambda: sfx_pop(520)}
 
 
-def mix(voice, duration, cues, music_gain_db=-17, duck_db=-9, out_wav=None):
+def mix(voice, duration, cues, music_gain_db=-17, duck_db=-9, out_wav=None, music_kw=None):
     """voice: mono float32; cues: lista de (t, nombre_sfx, ganancia)."""
     n = int(duration * SR)
     v = np.zeros(n, np.float32); v[:min(n, len(voice))] = voice[:n]
-    mus = music(duration)
+    mus = music(duration, **(music_kw or {}))
     # ducking: envolvente de la voz suavizada
     env = np.abs(v)
     win = int(0.25 * SR)

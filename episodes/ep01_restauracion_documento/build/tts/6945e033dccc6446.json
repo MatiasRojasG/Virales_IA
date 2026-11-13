@@ -1,0 +1,61 @@
+{
+ "text": "Esa es la idea: cada punto le pregunta a sus vecinos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Esa",
+   "start": 0.092375,
+   "end": 0.378375
+  },
+  {
+   "text": "es",
+   "start": 0.389,
+   "end": 0.505541
+  },
+  {
+   "text": "la",
+   "start": 0.516083,
+   "end": 0.590249
+  },
+  {
+   "text": "idea",
+   "start": 0.600833,
+   "end": 0.918624
+  },
+  {
+   "text": "cada",
+   "start": 1.183458,
+   "end": 1.395333
+  },
+  {
+   "text": "punto",
+   "start": 1.405916,
+   "end": 1.681332
+  },
+  {
+   "text": "le",
+   "start": 1.691958,
+   "end": 1.776708
+  },
+  {
+   "text": "pregunta",
+   "start": 1.787291,
+   "end": 2.200416
+  },
+  {
+   "text": "a",
+   "start": 2.211,
+   "end": 2.242791
+  },
+  {
+   "text": "sus",
+   "start": 2.253375,
+   "end": 2.422875
+  },
+  {
+   "text": "vecinos",
+   "start": 2.433458,
+   "end": 2.984291
+  }
+ ]
+}

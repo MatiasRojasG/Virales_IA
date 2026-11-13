@@ -1,0 +1,26 @@
+{
+ "text": "Solo, es imposible saberlo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Solo",
+   "start": 0.092375,
+   "end": 0.5055
+  },
+  {
+   "text": "es",
+   "start": 0.727958,
+   "end": 0.886874
+  },
+  {
+   "text": "imposible",
+   "start": 0.897458,
+   "end": 1.352958
+  },
+  {
+   "text": "saberlo",
+   "start": 1.363541,
+   "end": 1.819041
+  }
+ ]
+}

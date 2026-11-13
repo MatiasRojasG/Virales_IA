@@ -45,8 +45,9 @@ def main():
 
     if args.stills:
         sd = BUILD / "stills"; sd.mkdir(parents=True, exist_ok=True)
+        for f in sd.glob("*.png"): f.unlink()
         for b in BEATS:
-            for frac in (0.3, 0.75):
+            for frac in (0.2, 0.5, 0.8):
                 tt = b.start + frac * b.dur
                 R.render_still(scenes.draw_frame, tt, sd / f"{b.id}_{int(frac*100)}.png")
         print("stills en", sd); return
@@ -54,7 +55,7 @@ def main():
     slug = EPISODE["slug"]
     # audio
     wav = BUILD / "mix.wav"
-    AU.mix(tl.voice_track(), tl.duration, scenes.sfx_cues(tl), out_wav=wav)
+    AU.mix(tl.voice_track(), tl.duration, scenes.sfx_cues(tl), out_wav=wav, music_kw=scenes.music_kw(tl))
     # subtítulos y guion
     (OUT / f"{slug}.srt").write_text(tl.srt(scenes.CHUNKS), encoding="utf-8")
     (OUT / "guion_narrado.txt").write_text(tl.script_text(), encoding="utf-8")

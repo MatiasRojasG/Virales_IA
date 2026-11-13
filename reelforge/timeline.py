@@ -26,9 +26,19 @@ class Token:
 
 
 @dataclass
+class Ph:
+    """Frase con prosodia propia: se sintetiza aparte, se recortan sus silencios
+    y se separa de la siguiente por una pausa diseñada (`pause`, en s)."""
+    text: str
+    pause: float = 0.22
+    rate: str | None = None      # p.ej. "-6%" para frases de énfasis
+    pitch: str | None = None     # p.ej. "+6Hz" para preguntas/sorpresa
+
+
+@dataclass
 class Beat:
     id: str
-    text: str
+    text: object                 # str o lista de Ph
     pause: float = 0.30          # silencio después del beat (s)
     rate: str | None = None      # velocidad específica (p.ej. "+0%")
     # se completan al construir
@@ -96,20 +106,32 @@ def _align(tokens, words, offset):
 
 
 class Timeline:
-    def __init__(self, beats, cache_dir, voice=TTS.VOICE, rate="+20%", lead_in=0.1, tail=0.6):
+    def __init__(self, beats, cache_dir, voice=TTS.VOICE, rate=TTS.RATE, lead_in=0.1, tail=0.6):
         self.beats = beats
-        self.sr = TTS.SR
+        self.sr = sr = TTS.SR
         t = lead_in
         for b in beats:
-            b.tokens = parse(b.text, b.id)
-            say = " ".join(tk.say for tk in b.tokens)
-            audio, words = TTS.synthesize(say, cache_dir, voice=voice, rate=b.rate or rate)
-            b.audio = audio
-            b.start = t
-            _align(b.tokens, words, t)
-            speech_end = max([w["end"] for w in words], default=len(audio) / self.sr)
-            b.dur = max(len(audio) / self.sr, speech_end) + b.pause
-            t += b.dur
+            phrases = b.text if isinstance(b.text, (list, tuple)) else [Ph(b.text, pause=b.pause)]
+            b.start, b.tokens, b.segments = t, [], []
+            for ph in phrases:
+                toks = parse(ph.text, b.id)
+                say = " ".join(tk.say for tk in toks)
+                audio, words = TTS.synthesize(say, cache_dir, voice=voice, rate=ph.rate or b.rate or rate,
+                                              pitch=ph.pitch or "+0Hz")
+                if words:   # recorta el silencio que agrega el TTS antes y después
+                    s0 = max(0.0, words[0]["start"] - 0.05)
+                    s1 = min(len(audio) / sr, words[-1]["end"] + 0.14)
+                else:
+                    s0, s1 = 0.0, len(audio) / sr
+                seg = audio[int(s0 * sr):int(s1 * sr)].copy()
+                fi, fo = int(0.008 * sr), int(0.05 * sr)
+                seg[:fi] *= np.linspace(0, 1, fi); seg[-fo:] *= np.linspace(1, 0, fo)
+                _align(toks, words, t - s0)
+                b.segments.append((t, seg))
+                b.tokens += toks
+                t += len(seg) / sr + ph.pause
+            b.audio = np.concatenate([sg for _, sg in b.segments])
+            b.dur = t - b.start
         self.duration = t + tail
         self.tokens = [tk for b in beats for tk in b.tokens]
         self.by_id = {b.id: b for b in beats}
@@ -133,9 +155,10 @@ class Timeline:
         n = int(self.duration * self.sr) + 1
         out = np.zeros(n, np.float32)
         for b in self.beats:
-            i = int(b.start * self.sr)
-            seg = b.audio[: max(0, n - i)]
-            out[i:i + len(seg)] += seg
+            for st, sg in b.segments:
+                i = int(st * self.sr)
+                seg = sg[: max(0, n - i)]
+                out[i:i + len(seg)] += seg
         return out
 
     # ------- subtítulos -------

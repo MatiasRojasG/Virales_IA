@@ -1,0 +1,26 @@
+{
+ "text": "El escáner dice: negro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "escáner",
+   "start": 0.251291,
+   "end": 0.664416
+  },
+  {
+   "text": "dice",
+   "start": 0.675,
+   "end": 0.961
+  },
+  {
+   "text": "negro",
+   "start": 1.21525,
+   "end": 1.564833
+  }
+ ]
+}

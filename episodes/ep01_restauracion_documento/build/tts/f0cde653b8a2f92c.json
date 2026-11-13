@@ -1,0 +1,31 @@
+{
+ "text": "Pero cuatro vecinos dicen: blanco.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "cuatro",
+   "start": 0.283041,
+   "end": 0.537291
+  },
+  {
+   "text": "vecinos",
+   "start": 0.547875,
+   "end": 0.92925
+  },
+  {
+   "text": "dicen",
+   "start": 0.939833,
+   "end": 1.247041
+  },
+  {
+   "text": "blanco",
+   "start": 1.522458,
+   "end": 1.893208
+  }
+ ]
+}

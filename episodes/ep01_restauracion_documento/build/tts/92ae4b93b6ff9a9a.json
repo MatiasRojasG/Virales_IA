@@ -1,0 +1,31 @@
+{
+ "text": "Pero una idea sorprendentemente simple...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "una",
+   "start": 0.272458,
+   "end": 0.431374
+  },
+  {
+   "text": "idea",
+   "start": 0.441958,
+   "end": 0.674999
+  },
+  {
+   "text": "sorprendentemente",
+   "start": 0.685583,
+   "end": 1.533041
+  },
+  {
+   "text": "simple",
+   "start": 1.543625,
+   "end": 1.925
+  }
+ ]
+}

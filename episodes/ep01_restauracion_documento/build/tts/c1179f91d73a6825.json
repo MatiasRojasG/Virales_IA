@@ -1,0 +1,71 @@
+{
+ "text": "Como adivinar una palabra que no escuchaste bien... por las de al lado.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Como",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "adivinar",
+   "start": 0.30425,
+   "end": 0.664416
+  },
+  {
+   "text": "una",
+   "start": 0.675,
+   "end": 0.823291
+  },
+  {
+   "text": "palabra",
+   "start": 0.833916,
+   "end": 1.183499
+  },
+  {
+   "text": "que",
+   "start": 1.194083,
+   "end": 1.310624
+  },
+  {
+   "text": "no",
+   "start": 1.321166,
+   "end": 1.427082
+  },
+  {
+   "text": "escuchaste",
+   "start": 1.437708,
+   "end": 1.903791
+  },
+  {
+   "text": "bien",
+   "start": 1.914416,
+   "end": 2.147457
+  },
+  {
+   "text": "por",
+   "start": 2.327541,
+   "end": 2.475832
+  },
+  {
+   "text": "las",
+   "start": 2.486458,
+   "end": 2.624166
+  },
+  {
+   "text": "de",
+   "start": 2.63475,
+   "end": 2.698291
+  },
+  {
+   "text": "al",
+   "start": 2.708916,
+   "end": 2.793666
+  },
+  {
+   "text": "lado",
+   "start": 2.80425,
+   "end": 3.111458
+  }
+ ]
+}

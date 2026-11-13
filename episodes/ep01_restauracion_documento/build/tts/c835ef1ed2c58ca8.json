@@ -1,0 +1,71 @@
+{
+ "text": "Un punto negro solito en medio del papel es casi seguro una mancha:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "punto",
+   "start": 0.251291,
+   "end": 0.516124
+  },
+  {
+   "text": "negro",
+   "start": 0.526708,
+   "end": 0.791541
+  },
+  {
+   "text": "solito",
+   "start": 0.802125,
+   "end": 1.141125
+  },
+  {
+   "text": "en",
+   "start": 1.151708,
+   "end": 1.225874
+  },
+  {
+   "text": "medio",
+   "start": 1.236458,
+   "end": 1.490708
+  },
+  {
+   "text": "del",
+   "start": 1.501291,
+   "end": 1.638999
+  },
+  {
+   "text": "papel",
+   "start": 1.649583,
+   "end": 1.946208
+  },
+  {
+   "text": "es",
+   "start": 1.956791,
+   "end": 2.073332
+  },
+  {
+   "text": "casi",
+   "start": 2.083916,
+   "end": 2.338166
+  },
+  {
+   "text": "seguro",
+   "start": 2.348708,
+   "end": 2.708874
+  },
+  {
+   "text": "una",
+   "start": 2.7195,
+   "end": 2.910166
+  },
+  {
+   "text": "mancha",
+   "start": 2.92075,
+   "end": 3.323291
+  }
+ ]
+}

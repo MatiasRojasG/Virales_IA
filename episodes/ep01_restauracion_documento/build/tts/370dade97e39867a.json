@@ -1,0 +1,46 @@
+{
+ "text": "¿Y por qué aquí no sirven las flechas?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "por",
+   "start": 0.208916,
+   "end": 0.367832
+  },
+  {
+   "text": "qué",
+   "start": 0.378375,
+   "end": 0.484291
+  },
+  {
+   "text": "aquí",
+   "start": 0.494916,
+   "end": 0.674999
+  },
+  {
+   "text": "no",
+   "start": 0.685583,
+   "end": 0.791499
+  },
+  {
+   "text": "sirven",
+   "start": 0.802125,
+   "end": 1.141125
+  },
+  {
+   "text": "las",
+   "start": 1.151708,
+   "end": 1.268249
+  },
+  {
+   "text": "flechas",
+   "start": 1.278833,
+   "end": 1.766124
+  }
+ ]
+}

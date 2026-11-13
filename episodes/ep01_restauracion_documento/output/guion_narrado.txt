@@ -1,32 +1,26 @@
-[hook] (  0.1s –   8.1s)
-Al escanear este documento, el 15% de sus píxeles se invirtió. Ningún lector automático puede leerlo... pero una sola idea lo arregla.
+[hook] (  0.1s –   7.5s)
+¿Puedes leer esto? Una máquina, tampoco. Pero una idea sorprendentemente simple... lo deja así.
 
-[problema] (  8.1s –  15.8s)
-El escáner cambió píxeles al azar: tinta por papel, y papel por tinta. Mirando píxel a píxel, no hay cómo saber cuál está mal.
+[problema] (  7.5s –  14.7s)
+Al escanearlo, el 15% de los puntos salió al revés: tinta que se volvió papel... y papel que se volvió tinta.
 
-[idea] ( 15.8s –  22.8s)
-Pero los píxeles vecinos tienden a compartir color. Un punto negro aislado, en medio del papel, casi seguro es ruido.
+[curiosidad] ( 14.7s –  20.6s)
+Mira un solo punto. ¿Está bien, o está mal? Solo, es imposible saberlo.
 
-[grafo] ( 22.8s –  32.6s)
-Esa relación no tiene dirección: ningún píxel causa al otro. Así que usamos un grafo no dirigido, una red de Markov: cada píxel unido a sus cuatro vecinos, y a lo que vio el escáner.
+[intuicion] ( 20.6s –  32.8s)
+Pero tú lo sabrías al instante, porque miras alrededor. Un punto negro solito en medio del papel es casi seguro una mancha: la tinta viene en trazos. Como adivinar una palabra que no escuchaste bien... por las de al lado.
 
-[voces] ( 32.6s –  42.3s)
-Cada píxel escucha dos voces: el sensor, con peso α, y sus vecinos, con peso β. Si la suma es positiva, es tinta. Si es negativa, papel.
+[descubrimiento] ( 32.8s –  41.4s)
+Esa es la idea: cada punto le pregunta a sus vecinos. Así se forma una red sin flechas, porque nadie manda sobre nadie: una red de Markov.
 
-[ejemplo] ( 42.3s –  52.5s)
-Nuestro punto aislado: el sensor dice tinta, +0,87. Sus cuatro vecinos dicen papel: −4,8. Gana el papel... y el ruido desaparece.
+[balanza] ( 41.4s –  53.9s)
+Pongámoslo en una balanza. El escáner dice: negro. Pero cuatro vecinos dicen: blanco. Ellos pesan más... y el punto se corrige. Cuánto pesa cada voz lo regulan dos perillas: alfa y beta.
 
-[iterar] ( 52.5s –  62.0s)
-Aplicamos la regla a todos los píxeles, y repetimos. Pasada tras pasada, el ruido se disuelve. Es la idea de ICM: modos condicionales iterados.
+[iterar] ( 53.9s –  60.3s)
+Hacemos lo mismo con todos los puntos, y repetimos. Pasada tras pasada, las manchas se desvanecen.
 
-[resultado] ( 62.0s –  69.7s)
-En la clase, el error bajó del 15% al 2,5%, y el lector pasó de reconocer el 42% al 94% de los caracteres.
+[resultado] ( 60.3s –  72.2s)
+¿El resultado? En la clase, el lector automático pasó de entender el 42% del texto... al 94. En mi recreación en Python: de nada, a un 91%.
 
-[recreacion] ( 69.7s –  76.0s)
-En mi recreación en Python: error de 2,6%, y el lector pasó de nada... a un 91%.
-
-[bordes] ( 76.0s –  80.9s)
-La mayoría de los errores que quedan están en los bordes de las letras, donde las dos voces compiten.
-
-[cierre] ( 80.9s –  89.4s)
-La misma idea delimita tumores en resonancias, o clasifica suelos desde satélites. Próximo episodio: por qué aquí no sirven las flechas de una red bayesiana.
+[cierre] ( 72.2s –  80.5s)
+La misma idea delimita tumores en resonancias, o mapea bosques desde satélites. ¿Y por qué aquí no sirven las flechas? En el próximo episodio.

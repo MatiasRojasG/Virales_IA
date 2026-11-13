@@ -1,0 +1,26 @@
+{
+ "text": "En el próximo episodio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "el",
+   "start": 0.240666,
+   "end": 0.346582
+  },
+  {
+   "text": "próximo",
+   "start": 0.357208,
+   "end": 0.727958
+  },
+  {
+   "text": "episodio",
+   "start": 0.738541,
+   "end": 1.246999
+  }
+ ]
+}

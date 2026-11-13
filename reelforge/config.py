@@ -4,7 +4,8 @@ import skia
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 
-W, H, FPS = 1080, 1920, 30
+W, H, FPS = 1080, 1920, 60
+BRAND = "DETRÁS DEL ALGORITMO"
 
 # Zonas seguras para Reels/TikTok/Shorts (px). Arriba: barra de pestañas;
 # abajo: descripción y botones; derecha: columna de acciones.
@@ -20,7 +21,7 @@ WHITE = (1.0, 1.0, 1.0)
 GRAY = hex2rgb("#8A94AD")
 DIM = hex2rgb("#3A4560")
 CYAN = hex2rgb("#00D9FF")
-VIOLET = hex2rgb("#9B6BFF")
+VIOLET = hex2rgb("#9B5CFF")
 PINK = hex2rgb("#FF4D8D")       # errores / alertas (uso mínimo)
 GREEN = hex2rgb("#3DF5A7")      # éxito (uso mínimo)
 PAPER = hex2rgb("#E9EEF7")

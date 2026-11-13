@@ -1,0 +1,31 @@
+{
+ "text": "tinta que se volvió papel...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "tinta",
+   "start": 0.092375,
+   "end": 0.357208
+  },
+  {
+   "text": "que",
+   "start": 0.367791,
+   "end": 0.463124
+  },
+  {
+   "text": "se",
+   "start": 0.473708,
+   "end": 0.579624
+  },
+  {
+   "text": "volvió",
+   "start": 0.59025,
+   "end": 0.886875
+  },
+  {
+   "text": "papel",
+   "start": 0.897458,
+   "end": 1.257624
+  }
+ ]
+}

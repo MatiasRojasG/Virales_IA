@@ -1,0 +1,66 @@
+{
+ "text": "Así se forma una red sin flechas, porque nadie manda sobre nadie:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "se",
+   "start": 0.357208,
+   "end": 0.473749
+  },
+  {
+   "text": "forma",
+   "start": 0.484333,
+   "end": 0.759749
+  },
+  {
+   "text": "una",
+   "start": 0.770333,
+   "end": 0.950416
+  },
+  {
+   "text": "red",
+   "start": 0.961,
+   "end": 1.141083
+  },
+  {
+   "text": "sin",
+   "start": 1.151708,
+   "end": 1.331791
+  },
+  {
+   "text": "flechas",
+   "start": 1.342375,
+   "end": 1.766083
+  },
+  {
+   "text": "porque",
+   "start": 1.956791,
+   "end": 2.189832
+  },
+  {
+   "text": "nadie",
+   "start": 2.200416,
+   "end": 2.454666
+  },
+  {
+   "text": "manda",
+   "start": 2.46525,
+   "end": 2.730083
+  },
+  {
+   "text": "sobre",
+   "start": 2.740666,
+   "end": 2.984291
+  },
+  {
+   "text": "nadie",
+   "start": 2.994916,
+   "end": 3.333916
+  }
+ ]
+}

@@ -1,14 +1,16 @@
-# Virales_IA — clases de IA convertidas en reels educativos
+# Virales_IA — Detrás del Algoritmo
 
-Sistema reutilizable que transforma una clase (PDF) en videos verticales animados (1080×1920, 30 fps, H.264)
-con narración neuronal en español de Chile, subtítulos karaoke sincronizados por palabra, ecuaciones
+Clases de IA convertidas en reels educativos.
+
+Sistema reutilizable que transforma una clase (PDF) en videos verticales animados (1080×1920, 60 fps, H.264)
+con narración neuronal en español latinoamericano, subtítulos karaoke sincronizados por palabra, ecuaciones
 vectoriales, simulaciones reales en Python, música procedural libre de derechos y efectos de sonido.
 
 **Serie actual:** Modelos gráficos no dirigidos / Redes de Markov (EPG4003, 12-nov-2026) — ver [`docs/plan_serie.md`](docs/plan_serie.md).
 
 | Episodio | Estado | Video |
 |---|---|---|
-| 01 · El documento ilegible | ✅ | [`episodes/ep01_restauracion_documento/output/`](episodes/ep01_restauracion_documento/) |
+| 01 · ¿Puedes leer esto? (v2) | ✅ | [`episodes/ep01_restauracion_documento/output/`](episodes/ep01_restauracion_documento/) |
 | 02–10 | guion pendiente | — |
 
 ## Uso
@@ -43,13 +45,14 @@ render.py: 4 procesos en paralelo → ffmpeg H.264  ◄── audio.py: música 
 Decisiones técnicas:
 - **skia en vez de Manim**: no hay LaTeX en el entorno y skia dibuja ~3 ms/cuadro con antialiasing, glow y
   tipografía Inter; las ecuaciones se obtienen del mathtext de matplotlib como trazos vectoriales.
-- **Edge TTS** (gratuito) con voz `es-CL-LorenzoNeural` (alternativa: `es-CL-CatalinaNeural`). Entrega
+- **Edge TTS** (gratuito) con voz `es-MX-JorgeNeural`, sintetizada **frase por frase** (`Ph` en `timeline.py`):
+  se recortan los silencios del TTS y se insertan pausas diseñadas; cada frase puede llevar su propio ritmo y tono. Entrega
   marcas de tiempo por palabra, así que no hace falta Whisper para sincronizar subtítulos ni animaciones.
   Las voces quedan en caché en `build/tts/`, por lo que re-renderizar no requiere red.
 - **Música y efectos sintetizados** con NumPy: sin problemas de licencia.
 - Tipografías incluidas en `assets/fonts` (Inter, JetBrains Mono, Liberation Serif — licencia OFL).
 
 ## Identidad visual
-Fondo `#090D18` · texto blanco · cyan `#00D9FF` (destacados) · violeta `#9B6BFF` (conexiones / vecinos) ·
-rosado `#FF4D8D` solo para errores. Zonas seguras: contenido entre y = 240 y 1300, subtítulos en y ≈ 1390,
+Fondo `#090D18` · texto blanco · cyan `#00D9FF` (destacados) · violeta `#9B5CFF` (conexiones / vecinos) ·
+rosado `#FF4D8D` solo para errores. Acabado: viñeta, profundidad de campo (desenfoque a ¼ de resolución) y cámara con zoom geométrico. Zonas seguras: contenido entre y = 240 y 1300, subtítulos en y ≈ 1390,
 margen derecho libre para los botones de la plataforma.

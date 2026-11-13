@@ -1,0 +1,21 @@
+{
+ "text": "¿Puedes leer esto?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Puedes",
+   "start": 0.092375,
+   "end": 0.410166
+  },
+  {
+   "text": "leer",
+   "start": 0.42075,
+   "end": 0.632625
+  },
+  {
+   "text": "esto",
+   "start": 0.643208,
+   "end": 0.929208
+  }
+ ]
+}

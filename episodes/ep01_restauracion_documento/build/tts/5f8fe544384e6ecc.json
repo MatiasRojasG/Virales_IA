@@ -1,0 +1,31 @@
+{
+ "text": "y el punto se corrige.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "el",
+   "start": 0.230083,
+   "end": 0.335999
+  },
+  {
+   "text": "punto",
+   "start": 0.346625,
+   "end": 0.622041
+  },
+  {
+   "text": "se",
+   "start": 0.632625,
+   "end": 0.738541
+  },
+  {
+   "text": "corrige",
+   "start": 0.749166,
+   "end": 1.194082
+  }
+ ]
+}

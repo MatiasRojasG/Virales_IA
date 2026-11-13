@@ -1,0 +1,76 @@
+{
+ "text": "En mi recreación en Python: de nada, a un noventa y uno por ciento.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "mi",
+   "start": 0.251291,
+   "end": 0.357207
+  },
+  {
+   "text": "recreación",
+   "start": 0.367791,
+   "end": 0.833874
+  },
+  {
+   "text": "en",
+   "start": 0.8445,
+   "end": 0.939833
+  },
+  {
+   "text": "Python",
+   "start": 0.950416,
+   "end": 1.384749
+  },
+  {
+   "text": "de",
+   "start": 1.617791,
+   "end": 1.691957
+  },
+  {
+   "text": "nada",
+   "start": 1.702541,
+   "end": 1.999166
+  },
+  {
+   "text": "a",
+   "start": 2.211,
+   "end": 2.29575
+  },
+  {
+   "text": "un",
+   "start": 2.306375,
+   "end": 2.422916
+  },
+  {
+   "text": "noventa",
+   "start": 2.433458,
+   "end": 2.740666
+  },
+  {
+   "text": "y",
+   "start": 2.751291,
+   "end": 2.814832
+  },
+  {
+   "text": "uno",
+   "start": 2.825416,
+   "end": 2.984332
+  },
+  {
+   "text": "por",
+   "start": 2.994916,
+   "end": 3.143207
+  },
+  {
+   "text": "ciento",
+   "start": 3.153833,
+   "end": 3.535208
+  }
+ ]
+}

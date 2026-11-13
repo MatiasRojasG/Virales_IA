@@ -1,0 +1,36 @@
+{
+ "text": "y papel que se volvió tinta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "papel",
+   "start": 0.208916,
+   "end": 0.537291
+  },
+  {
+   "text": "que",
+   "start": 0.547875,
+   "end": 0.632625
+  },
+  {
+   "text": "se",
+   "start": 0.643208,
+   "end": 0.749124
+  },
+  {
+   "text": "volvió",
+   "start": 0.75975,
+   "end": 1.066958
+  },
+  {
+   "text": "tinta",
+   "start": 1.077541,
+   "end": 1.458916
+  }
+ ]
+}

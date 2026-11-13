@@ -1,0 +1,21 @@
+{
+ "text": "Una máquina, tampoco.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "máquina",
+   "start": 0.293625,
+   "end": 0.727958
+  },
+  {
+   "text": "tampoco",
+   "start": 0.971625,
+   "end": 1.458916
+  }
+ ]
+}

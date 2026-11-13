@@ -1,266 +1,243 @@
 1
-00:00:00,192 --> 00:00:01,504
-Al escanear este
-documento,
+00:00:00,150 --> 00:00:01,627
+¿Puedes leer esto?
 
 2
-00:00:01,504 --> 00:00:02,879
-el 15% de sus píxeles
+00:00:01,627 --> 00:00:03,633
+Una máquina, tampoco.
 
 3
-00:00:02,879 --> 00:00:04,058
-se invirtió.
+00:00:03,633 --> 00:00:05,085
+Pero una idea
+sorprendentemente
 
 4
-00:00:04,121 --> 00:00:05,902
-Ningún lector automático
-puede leerlo...
+00:00:05,085 --> 00:00:05,776
+simple...
 
 5
-00:00:05,902 --> 00:00:07,779
-pero una sola
-idea lo arregla.
+00:00:05,776 --> 00:00:07,322
+lo deja así.
 
 6
-00:00:08,220 --> 00:00:09,949
-El escáner cambió
-píxeles al azar:
+00:00:07,562 --> 00:00:09,480
+Al escanearlo, el 15%
 
 7
-00:00:09,949 --> 00:00:10,751
-tinta por papel,
+00:00:09,480 --> 00:00:10,338
+de los puntos salió
 
 8
-00:00:10,751 --> 00:00:12,274
-y papel por tinta.
+00:00:10,338 --> 00:00:11,218
+al revés:
 
 9
-00:00:12,305 --> 00:00:13,545
-Mirando píxel a píxel,
+00:00:11,218 --> 00:00:12,653
+tinta que se volvió papel...
 
 10
-00:00:13,545 --> 00:00:14,399
-no hay cómo saber cuál
+00:00:12,653 --> 00:00:13,321
+y papel que se
 
 11
-00:00:14,399 --> 00:00:15,505
-está mal.
+00:00:13,321 --> 00:00:14,710
+volvió tinta.
 
 12
-00:00:15,886 --> 00:00:17,188
-Pero los píxeles
-vecinos tienden
+00:00:14,710 --> 00:00:16,476
+Mira un solo punto.
 
 13
-00:00:17,188 --> 00:00:18,690
-a compartir color.
+00:00:16,476 --> 00:00:18,287
+¿Está bien, o está mal?
 
 14
-00:00:18,732 --> 00:00:19,898
-Un punto negro aislado,
+00:00:18,287 --> 00:00:20,654
+Solo, es imposible saberlo.
 
 15
-00:00:19,898 --> 00:00:20,867
-en medio del papel,
+00:00:20,654 --> 00:00:21,480
+Pero tú lo sabrías
 
 16
-00:00:20,867 --> 00:00:22,452
-casi seguro es ruido.
+00:00:21,480 --> 00:00:23,877
+al instante, porque
+miras alrededor.
 
 17
-00:00:22,856 --> 00:00:24,324
-Esa relación no
-tiene dirección:
+00:00:23,877 --> 00:00:24,936
+Un punto negro solito
 
 18
-00:00:24,324 --> 00:00:26,264
-ningún píxel causa al otro.
+00:00:24,936 --> 00:00:25,741
+en medio del papel
 
 19
-00:00:26,295 --> 00:00:27,326
-Así que usamos un grafo
+00:00:25,741 --> 00:00:27,398
+es casi seguro
+una mancha:
 
 20
-00:00:27,326 --> 00:00:29,004
-no dirigido, una
-red de Markov:
+00:00:27,398 --> 00:00:29,220
+la tinta viene en trazos.
 
 21
-00:00:29,004 --> 00:00:29,920
-cada píxel unido a sus
+00:00:29,220 --> 00:00:30,321
+Como adivinar una palabra
 
 22
-00:00:29,920 --> 00:00:30,962
-cuatro vecinos, y a lo
+00:00:30,321 --> 00:00:31,455
+que no escuchaste bien...
 
 23
-00:00:30,962 --> 00:00:32,318
-que vio el escáner.
+00:00:31,455 --> 00:00:32,879
+por las de al lado.
 
 24
-00:00:32,706 --> 00:00:34,070
-Cada píxel escucha
-dos voces:
+00:00:32,879 --> 00:00:33,970
+Esa es la idea:
 
 25
-00:00:34,070 --> 00:00:35,529
-el sensor, con peso α,
+00:00:33,970 --> 00:00:34,997
+cada punto le pregunta
 
 26
-00:00:35,529 --> 00:00:36,310
-y sus vecinos,
+00:00:34,997 --> 00:00:36,211
+a sus vecinos.
 
 27
-00:00:36,310 --> 00:00:37,676
-con peso β.
+00:00:36,211 --> 00:00:37,079
+Así se forma una
 
 28
-00:00:37,718 --> 00:00:38,885
-Si la suma es positiva,
+00:00:37,079 --> 00:00:38,075
+red sin flechas,
 
 29
-00:00:38,885 --> 00:00:40,043
-es tinta.
+00:00:38,075 --> 00:00:39,762
+porque nadie
+manda sobre nadie:
 
 30
-00:00:40,083 --> 00:00:40,989
-Si es negativa,
+00:00:39,762 --> 00:00:41,470
+una red de Markov.
 
 31
-00:00:40,989 --> 00:00:41,981
-papel.
+00:00:41,470 --> 00:00:43,170
+Pongámoslo en
+una balanza.
 
 32
-00:00:42,388 --> 00:00:43,419
-Nuestro punto aislado:
+00:00:43,170 --> 00:00:44,293
+El escáner dice:
 
 33
-00:00:43,419 --> 00:00:44,502
-el sensor dice tinta,
+00:00:44,293 --> 00:00:45,083
+negro.
 
 34
-00:00:44,502 --> 00:00:46,411
-+0,87.
+00:00:45,083 --> 00:00:46,513
+Pero cuatro vecinos dicen:
 
 35
-00:00:46,463 --> 00:00:47,952
-Sus cuatro vecinos
-dicen papel:
+00:00:46,513 --> 00:00:47,374
+blanco.
 
 36
-00:00:47,952 --> 00:00:49,694
-−4,8.
+00:00:47,374 --> 00:00:48,659
+Ellos pesan más...
 
 37
-00:00:49,723 --> 00:00:50,494
-Gana el papel...
+00:00:48,659 --> 00:00:50,351
+y el punto se corrige.
 
 38
-00:00:50,494 --> 00:00:52,142
-y el ruido desaparece.
+00:00:50,351 --> 00:00:51,358
+Cuánto pesa cada voz
 
 39
-00:00:52,574 --> 00:00:53,699
-Aplicamos la regla a todos
+00:00:51,358 --> 00:00:52,671
+lo regulan dos perillas:
 
 40
-00:00:53,699 --> 00:00:55,680
-los píxeles, y repetimos.
+00:00:52,671 --> 00:00:54,000
+alfa y beta.
 
 41
-00:00:55,753 --> 00:00:56,836
-Pasada tras pasada,
+00:00:54,000 --> 00:00:54,995
+Hacemos lo mismo con
 
 42
-00:00:56,836 --> 00:00:58,401
-el ruido se disuelve.
+00:00:54,995 --> 00:00:56,044
+todos los puntos,
 
 43
-00:00:58,472 --> 00:00:59,617
-Es la idea de ICM:
+00:00:56,044 --> 00:00:57,226
+y repetimos.
 
 44
-00:00:59,617 --> 00:01:01,640
-modos condicionales
-iterados.
+00:00:57,226 --> 00:00:58,444
+Pasada tras pasada,
 
 45
-00:01:02,114 --> 00:01:02,853
-En la clase,
+00:00:58,444 --> 00:01:00,341
+las manchas se
+desvanecen.
 
 46
-00:01:02,853 --> 00:01:03,749
-el error bajó del 15%
+00:01:00,381 --> 00:01:01,715
+¿El resultado?
 
 47
-00:01:03,749 --> 00:01:05,624
-al 2,5%, y el lector
+00:01:01,715 --> 00:01:02,595
+En la clase,
 
 48
-00:01:05,624 --> 00:01:06,916
-pasó de reconocer el 42%
+00:01:02,595 --> 00:01:03,834
+el lector automático pasó
 
 49
-00:01:06,916 --> 00:01:09,418
-al 94% de los caracteres.
+00:01:03,834 --> 00:01:05,487
+de entender el 42%
 
 50
-00:01:09,828 --> 00:01:11,078
+00:01:05,487 --> 00:01:06,317
+del texto...
+
+51
+00:01:06,317 --> 00:01:08,127
+al 94.
+
+52
+00:01:08,127 --> 00:01:09,652
 En mi recreación
 en Python:
 
-51
-00:01:11,078 --> 00:01:12,651
-error de 2,6%,
-
-52
-00:01:12,651 --> 00:01:13,828
-y el lector pasó de nada...
-
 53
-00:01:13,828 --> 00:01:15,673
-a un 91%.
+00:01:09,652 --> 00:01:12,210
+de nada, a un 91%.
 
 54
-00:01:16,054 --> 00:01:17,085
-La mayoría de los errores
+00:01:12,210 --> 00:01:13,375
+La misma idea delimita
 
 55
-00:01:17,085 --> 00:01:17,824
-que quedan están en los
+00:01:13,375 --> 00:01:14,699
+tumores en resonancias,
 
 56
-00:01:17,824 --> 00:01:18,814
-bordes de las letras,
-
-57
-00:01:18,814 --> 00:01:20,618
-donde las dos
-voces compiten.
-
-58
-00:01:21,008 --> 00:01:22,289
-La misma idea
-delimita tumores
-
-59
-00:01:22,289 --> 00:01:23,904
-en resonancias,
-o clasifica suelos
-
-60
-00:01:23,904 --> 00:01:25,301
+00:01:14,699 --> 00:01:16,902
+o mapea bosques
 desde satélites.
 
-61
-00:01:25,364 --> 00:01:26,333
-Próximo episodio:
+57
+00:01:16,902 --> 00:01:17,495
+¿Y por qué aquí
 
-62
-00:01:26,333 --> 00:01:27,072
-por qué aquí no sirven
+58
+00:01:17,495 --> 00:01:18,966
+no sirven las flechas?
 
-63
-00:01:27,072 --> 00:01:28,995
-las flechas de una
-red bayesiana.
+59
+00:01:18,966 --> 00:01:20,720
+En el próximo episodio.

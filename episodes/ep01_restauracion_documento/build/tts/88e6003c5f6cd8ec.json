@@ -1,0 +1,41 @@
+{
+ "text": "Pasada tras pasada, las manchas se desvanecen.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pasada",
+   "start": 0.092375,
+   "end": 0.452541
+  },
+  {
+   "text": "tras",
+   "start": 0.463125,
+   "end": 0.653791
+  },
+  {
+   "text": "pasada",
+   "start": 0.664416,
+   "end": 1.045791
+  },
+  {
+   "text": "las",
+   "start": 1.310583,
+   "end": 1.448291
+  },
+  {
+   "text": "manchas",
+   "start": 1.458916,
+   "end": 1.787291
+  },
+  {
+   "text": "se",
+   "start": 1.797875,
+   "end": 1.882625
+  },
+  {
+   "text": "desvanecen",
+   "start": 1.893208,
+   "end": 2.507624
+  }
+ ]
+}
