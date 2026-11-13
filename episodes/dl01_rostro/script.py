@@ -22,7 +22,7 @@ EPISODE = {
     "num": 1,
     "slug": "dl01_rostro",
     "title": "¿Cómo sabe tu celular que eres tú?",
-    "tag": "DETRÁS DEL ALGORITMO · DEEP LEARNING 01",
+    "tag": "DETRÁS DEL ALGORITMO · DEEP LEARNING",
 }
 
 Q = "+5Hz"
