@@ -1,0 +1,76 @@
+{
+ "text": "uno lo tira hacia lo que vio la cámara, y otros hacia sus vecinos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "uno",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "lo",
+   "start": 0.30425,
+   "end": 0.399583
+  },
+  {
+   "text": "tira",
+   "start": 0.410166,
+   "end": 0.685582
+  },
+  {
+   "text": "hacia",
+   "start": 0.696166,
+   "end": 0.886832
+  },
+  {
+   "text": "lo",
+   "start": 0.897458,
+   "end": 0.982208
+  },
+  {
+   "text": "que",
+   "start": 0.992791,
+   "end": 1.088124
+  },
+  {
+   "text": "vio",
+   "start": 1.098708,
+   "end": 1.236416
+  },
+  {
+   "text": "la",
+   "start": 1.247041,
+   "end": 1.321207
+  },
+  {
+   "text": "cámara",
+   "start": 1.331791,
+   "end": 1.713166
+  },
+  {
+   "text": "y",
+   "start": 1.946166,
+   "end": 2.052082
+  },
+  {
+   "text": "otros",
+   "start": 2.062708,
+   "end": 2.348708
+  },
+  {
+   "text": "hacia",
+   "start": 2.359333,
+   "end": 2.539416
+  },
+  {
+   "text": "sus",
+   "start": 2.55,
+   "end": 2.7195
+  },
+  {
+   "text": "vecinos",
+   "start": 2.730083,
+   "end": 3.270333
+  }
+ ]
+}

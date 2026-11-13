@@ -1,0 +1,96 @@
+{
+ "text": "y esa foto, la de menor tensión, es la explicación más probable de lo que vio la cámara.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "esa",
+   "start": 0.272458,
+   "end": 0.463124
+  },
+  {
+   "text": "foto",
+   "start": 0.473708,
+   "end": 0.780916
+  },
+  {
+   "text": "la",
+   "start": 1.04575,
+   "end": 1.098708
+  },
+  {
+   "text": "de",
+   "start": 1.109333,
+   "end": 1.194083
+  },
+  {
+   "text": "menor",
+   "start": 1.204666,
+   "end": 1.469499
+  },
+  {
+   "text": "tensión",
+   "start": 1.480083,
+   "end": 1.882624
+  },
+  {
+   "text": "es",
+   "start": 2.158041,
+   "end": 2.274582
+  },
+  {
+   "text": "la",
+   "start": 2.285166,
+   "end": 2.338124
+  },
+  {
+   "text": "explicación",
+   "start": 2.348708,
+   "end": 2.941916
+  },
+  {
+   "text": "más",
+   "start": 2.952541,
+   "end": 3.143207
+  },
+  {
+   "text": "probable",
+   "start": 3.153833,
+   "end": 3.513999
+  },
+  {
+   "text": "de",
+   "start": 3.524583,
+   "end": 3.630499
+  },
+  {
+   "text": "lo",
+   "start": 3.641083,
+   "end": 3.725833
+  },
+  {
+   "text": "que",
+   "start": 3.736458,
+   "end": 3.842374
+  },
+  {
+   "text": "vio",
+   "start": 3.852958,
+   "end": 4.011874
+  },
+  {
+   "text": "la",
+   "start": 4.022458,
+   "end": 4.117791
+  },
+  {
+   "text": "cámara",
+   "start": 4.128375,
+   "end": 4.530916
+  }
+ ]
+}

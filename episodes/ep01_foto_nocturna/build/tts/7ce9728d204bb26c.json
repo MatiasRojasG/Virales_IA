@@ -1,0 +1,36 @@
+{
+ "text": "Imagina cada punto atado con resortes:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.092375,
+   "end": 0.569083
+  },
+  {
+   "text": "cada",
+   "start": 0.579666,
+   "end": 0.812707
+  },
+  {
+   "text": "punto",
+   "start": 0.823291,
+   "end": 1.066916
+  },
+  {
+   "text": "atado",
+   "start": 1.077541,
+   "end": 1.352957
+  },
+  {
+   "text": "con",
+   "start": 1.363541,
+   "end": 1.501249
+  },
+  {
+   "text": "resortes",
+   "start": 1.511875,
+   "end": 2.0945
+  }
+ ]
+}

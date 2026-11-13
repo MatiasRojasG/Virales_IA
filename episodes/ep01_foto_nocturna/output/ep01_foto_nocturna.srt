@@ -1,0 +1,280 @@
+1
+00:00:00,150 --> 00:00:01,655
+Tomas una foto
+de noche...
+
+2
+00:00:01,655 --> 00:00:02,513
+y sale así:
+
+3
+00:00:02,513 --> 00:00:04,036
+llena de granitos.
+
+4
+00:00:04,036 --> 00:00:04,841
+Pero tu celular te
+
+5
+00:00:04,841 --> 00:00:06,190
+muestra esta.
+
+6
+00:00:06,190 --> 00:00:06,911
+¿De dónde sacó lo
+
+7
+00:00:06,911 --> 00:00:08,532
+que la cámara no vio?
+
+8
+00:00:08,572 --> 00:00:09,515
+Con poca luz,
+
+9
+00:00:09,515 --> 00:00:10,278
+a cada punto del
+
+10
+00:00:10,278 --> 00:00:11,390
+sensor le llegan apenas
+
+11
+00:00:11,390 --> 00:00:12,644
+unas gotas de luz...
+
+12
+00:00:12,644 --> 00:00:13,952
+y al azar.
+
+13
+00:00:13,952 --> 00:00:14,990
+Por eso, un muro
+
+14
+00:00:14,990 --> 00:00:16,679
+parejo sale moteado.
+
+15
+00:00:16,679 --> 00:00:18,088
+Y mirando un solo punto,
+
+16
+00:00:18,088 --> 00:00:18,808
+no hay cómo saber
+
+17
+00:00:18,808 --> 00:00:20,029
+si brilla de verdad...
+
+18
+00:00:20,029 --> 00:00:21,612
+o es puro ruido.
+
+19
+00:00:21,612 --> 00:00:22,248
+Pero lo que está
+
+20
+00:00:22,248 --> 00:00:23,885
+al lado suele parecerse.
+
+21
+00:00:23,885 --> 00:00:24,828
+Así que cada punto
+
+22
+00:00:24,828 --> 00:00:25,950
+puede corregirse
+mirando a
+
+23
+00:00:25,950 --> 00:00:27,311
+sus vecinos.
+
+24
+00:00:27,311 --> 00:00:28,995
+Aunque, si solo
+promedias,
+
+25
+00:00:28,995 --> 00:00:30,630
+también se borran
+los bordes...
+
+26
+00:00:30,630 --> 00:00:31,393
+y el letrero se
+
+27
+00:00:31,393 --> 00:00:32,888
+vuelve ilegible.
+
+28
+00:00:32,888 --> 00:00:34,159
+Imagina cada punto atado
+
+29
+00:00:34,159 --> 00:00:35,230
+con resortes:
+
+30
+00:00:35,230 --> 00:00:36,035
+uno lo tira hacia
+
+31
+00:00:36,035 --> 00:00:37,084
+lo que vio la cámara,
+
+32
+00:00:37,084 --> 00:00:38,948
+y otros hacia sus vecinos.
+
+33
+00:00:38,948 --> 00:00:39,743
+Si un vecino es
+
+34
+00:00:39,743 --> 00:00:41,374
+demasiado
+distinto, seguro es
+
+35
+00:00:41,374 --> 00:00:42,268
+otro objeto:
+
+36
+00:00:42,268 --> 00:00:44,076
+ese resorte se suelta.
+
+37
+00:00:44,076 --> 00:00:44,955
+Cada punto se queda
+
+38
+00:00:44,955 --> 00:00:46,484
+donde la tensión
+es mínima...
+
+39
+00:00:46,484 --> 00:00:47,437
+y esa foto,
+
+40
+00:00:47,437 --> 00:00:48,549
+la de menor tensión,
+
+41
+00:00:48,549 --> 00:00:49,545
+es la explicación más
+
+42
+00:00:49,545 --> 00:00:50,244
+probable de lo que
+
+43
+00:00:50,244 --> 00:00:51,612
+vio la cámara.
+
+44
+00:00:51,612 --> 00:00:52,121
+¿Y por qué no
+
+45
+00:00:52,121 --> 00:00:53,744
+calcularla de una vez?
+
+46
+00:00:53,744 --> 00:00:54,772
+Cada punto puede tomar
+
+47
+00:00:54,772 --> 00:00:55,810
+cientos de brillos,
+
+48
+00:00:55,810 --> 00:00:56,636
+y una foto tiene
+
+49
+00:00:56,636 --> 00:00:58,166
+doce millones de puntos:
+
+50
+00:00:58,166 --> 00:00:59,310
+hay más fotos posibles
+
+51
+00:00:59,310 --> 00:01:01,097
+que átomos en
+el universo.
+
+52
+00:01:01,097 --> 00:01:02,029
+Así que cada punto
+
+53
+00:01:02,029 --> 00:01:03,099
+se acomoda mirando solo
+
+54
+00:01:03,099 --> 00:01:04,141
+a sus vecinos...
+
+55
+00:01:04,141 --> 00:01:05,647
+y repetimos.
+
+56
+00:01:05,647 --> 00:01:06,611
+Puntos que se influyen
+
+57
+00:01:06,611 --> 00:01:07,808
+sin que ninguno mande:
+
+58
+00:01:07,808 --> 00:01:08,496
+eso es una red
+
+59
+00:01:08,496 --> 00:01:09,470
+de Markov.
+
+60
+00:01:09,470 --> 00:01:10,604
+Tu celular usa versiones
+
+61
+00:01:10,604 --> 00:01:11,949
+mucho más sofisticadas,
+
+62
+00:01:11,949 --> 00:01:12,606
+pero la idea de
+
+63
+00:01:12,606 --> 00:01:13,668
+fondo es esta:
+
+64
+00:01:13,668 --> 00:01:15,465
+un punto se
+entiende mejor...
+
+65
+00:01:15,465 --> 00:01:17,418
+mirando a su alrededor.
+
+66
+00:01:17,418 --> 00:01:18,223
+Con la misma idea
+
+67
+00:01:18,223 --> 00:01:20,234
+se rescata un
+documento ilegible.
+
+68
+00:01:20,234 --> 00:01:22,042
+Eso, en el próximo.

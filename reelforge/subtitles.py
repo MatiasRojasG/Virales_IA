@@ -10,7 +10,8 @@ LINE_H = 84
 
 
 def measure(s):
-    return font(SIZE, FACE).measureText(s)
+    f = font(SIZE, FACE)
+    return f.measureText(s) + f.measureText(" ") * 0.5 * s.count(" ")
 
 
 def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
@@ -23,7 +24,7 @@ def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
     a_in = out_cubic(u_in) * a_global
     nl = len(ch["lines"])
     y0 = y - (nl - 1) * LINE_H / 2
-    sp = f.measureText(" ")
+    sp = f.measureText(" ") * 1.5          # espacio generoso: la palabra activa crece sin pisar a la vecina
     cv = P.c
     cv.save(); cv.translate(C.W / 2, y); cv.scale(s_in, s_in); cv.translate(-C.W / 2, -y)
     for li, (i0, i1) in enumerate(ch["lines"]):
@@ -39,7 +40,7 @@ def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
             alpha = (1.0 if spoken else 0.42) * a_in
             pop = 1.0
             if current:
-                pop = 1.0 + 0.08 * (1 - clamp((t - w.start) / 0.25))
+                pop = 1.0 + 0.04 * (1 - clamp((t - w.start) / 0.25))
             cx = x + ww / 2
             cv.save(); cv.translate(cx, yy - SIZE * 0.35); cv.scale(pop, pop); cv.translate(-cx, -(yy - SIZE * 0.35))
             # contorno oscuro + sombra para legibilidad sobre cualquier fondo

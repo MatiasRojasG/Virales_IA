@@ -1,0 +1,26 @@
+{
+ "text": "ese resorte se suelta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "ese",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "resorte",
+   "start": 0.346625,
+   "end": 0.75975
+  },
+  {
+   "text": "se",
+   "start": 0.770333,
+   "end": 0.876249
+  },
+  {
+   "text": "suelta",
+   "start": 0.886875,
+   "end": 1.310583
+  }
+ ]
+}

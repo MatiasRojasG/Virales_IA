@@ -1,0 +1,21 @@
+{
+ "text": "y al azar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.102083,
+   "end": 0.271374
+  },
+  {
+   "text": "al",
+   "start": 0.284375,
+   "end": 0.414583
+  },
+  {
+   "text": "azar",
+   "start": 0.427625,
+   "end": 0.870333
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Tomas una foto de noche...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tomas",
+   "start": 0.092375,
+   "end": 0.378375
+  },
+  {
+   "text": "una",
+   "start": 0.389,
+   "end": 0.547916
+  },
+  {
+   "text": "foto",
+   "start": 0.558458,
+   "end": 0.812708
+  },
+  {
+   "text": "de",
+   "start": 0.823291,
+   "end": 0.897457
+  },
+  {
+   "text": "noche",
+   "start": 0.908041,
+   "end": 1.257624
+  }
+ ]
+}

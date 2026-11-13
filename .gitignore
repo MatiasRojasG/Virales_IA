@@ -3,3 +3,4 @@ __pycache__/
 episodes/*/build/parts/
 episodes/*/build/stills/
 episodes/*/build/mix.wav
+episodes/ep01_foto_nocturna/build/experiment/arrays.npz

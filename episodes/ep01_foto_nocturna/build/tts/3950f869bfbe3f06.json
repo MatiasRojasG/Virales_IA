@@ -1,0 +1,76 @@
+{
+ "text": "Tu celular usa versiones mucho más sofisticadas, pero la idea de fondo es esta:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "celular",
+   "start": 0.208916,
+   "end": 0.569082
+  },
+  {
+   "text": "usa",
+   "start": 0.579666,
+   "end": 0.738582
+  },
+  {
+   "text": "versiones",
+   "start": 0.749166,
+   "end": 1.215249
+  },
+  {
+   "text": "mucho",
+   "start": 1.225833,
+   "end": 1.480083
+  },
+  {
+   "text": "más",
+   "start": 1.490666,
+   "end": 1.649582
+  },
+  {
+   "text": "sofisticadas",
+   "start": 1.660166,
+   "end": 2.359332
+  },
+  {
+   "text": "pero",
+   "start": 2.571166,
+   "end": 2.740666
+  },
+  {
+   "text": "la",
+   "start": 2.751291,
+   "end": 2.857207
+  },
+  {
+   "text": "idea",
+   "start": 2.867791,
+   "end": 3.100832
+  },
+  {
+   "text": "de",
+   "start": 3.111458,
+   "end": 3.217374
+  },
+  {
+   "text": "fondo",
+   "start": 3.227958,
+   "end": 3.524583
+  },
+  {
+   "text": "es",
+   "start": 3.535166,
+   "end": 3.662291
+  },
+  {
+   "text": "esta",
+   "start": 3.672875,
+   "end": 3.980083
+  }
+ ]
+}

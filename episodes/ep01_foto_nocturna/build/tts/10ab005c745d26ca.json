@@ -1,0 +1,81 @@
+{
+ "text": "Cada punto puede tomar cientos de brillos, y una foto tiene doce millones de puntos:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "punto",
+   "start": 0.325416,
+   "end": 0.611416
+  },
+  {
+   "text": "puede",
+   "start": 0.622041,
+   "end": 0.844499
+  },
+  {
+   "text": "tomar",
+   "start": 0.855083,
+   "end": 1.109333
+  },
+  {
+   "text": "cientos",
+   "start": 1.119916,
+   "end": 1.448291
+  },
+  {
+   "text": "de",
+   "start": 1.458916,
+   "end": 1.522457
+  },
+  {
+   "text": "brillos",
+   "start": 1.533041,
+   "end": 1.924999
+  },
+  {
+   "text": "y",
+   "start": 2.158041,
+   "end": 2.242791
+  },
+  {
+   "text": "una",
+   "start": 2.253375,
+   "end": 2.433458
+  },
+  {
+   "text": "foto",
+   "start": 2.444083,
+   "end": 2.719499
+  },
+  {
+   "text": "tiene",
+   "start": 2.730083,
+   "end": 2.973708
+  },
+  {
+   "text": "doce",
+   "start": 2.984333,
+   "end": 3.249166
+  },
+  {
+   "text": "millones",
+   "start": 3.25975,
+   "end": 3.641125
+  },
+  {
+   "text": "de",
+   "start": 3.651708,
+   "end": 3.725874
+  },
+  {
+   "text": "puntos",
+   "start": 3.736458,
+   "end": 4.223749
+  }
+ ]
+}

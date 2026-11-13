@@ -1,0 +1,51 @@
+{
+ "text": "un punto se entiende mejor... mirando a su alrededor.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "un",
+   "start": 0.102083,
+   "end": 0.284374
+  },
+  {
+   "text": "punto",
+   "start": 0.297416,
+   "end": 0.635957
+  },
+  {
+   "text": "se",
+   "start": 0.648958,
+   "end": 0.766166
+  },
+  {
+   "text": "entiende",
+   "start": 0.779166,
+   "end": 1.208874
+  },
+  {
+   "text": "mejor",
+   "start": 1.221875,
+   "end": 1.5995
+  },
+  {
+   "text": "mirando",
+   "start": 1.898958,
+   "end": 2.289583
+  },
+  {
+   "text": "a",
+   "start": 2.302625,
+   "end": 2.328666
+  },
+  {
+   "text": "su",
+   "start": 2.341666,
+   "end": 2.471874
+  },
+  {
+   "text": "alrededor",
+   "start": 2.484916,
+   "end": 3.161999
+  }
+ ]
+}

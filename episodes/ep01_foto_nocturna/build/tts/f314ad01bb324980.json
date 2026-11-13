@@ -1,0 +1,51 @@
+{
+ "text": "hay más fotos posibles que átomos en el universo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "hay",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "más",
+   "start": 0.261875,
+   "end": 0.441958
+  },
+  {
+   "text": "fotos",
+   "start": 0.452541,
+   "end": 0.759749
+  },
+  {
+   "text": "posibles",
+   "start": 0.770333,
+   "end": 1.225833
+  },
+  {
+   "text": "que",
+   "start": 1.236458,
+   "end": 1.363583
+  },
+  {
+   "text": "átomos",
+   "start": 1.374166,
+   "end": 1.734332
+  },
+  {
+   "text": "en",
+   "start": 1.744916,
+   "end": 1.829666
+  },
+  {
+   "text": "el",
+   "start": 1.84025,
+   "end": 1.935583
+  },
+  {
+   "text": "universo",
+   "start": 1.946166,
+   "end": 2.433457
+  }
+ ]
+}

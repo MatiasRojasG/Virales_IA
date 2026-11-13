@@ -6,11 +6,14 @@ Sistema reutilizable que transforma una clase (PDF) en videos verticales animado
 con narración neuronal en español latinoamericano, subtítulos karaoke sincronizados por palabra, ecuaciones
 vectoriales, simulaciones reales en Python, música procedural libre de derechos y efectos de sonido.
 
+**Enfoque:** no explicamos la clase; usamos la clase para explicar el mundo (ver `docs/plan_serie.md`).
+
 **Serie actual:** Modelos gráficos no dirigidos / Redes de Markov (EPG4003, 12-nov-2026) — ver [`docs/plan_serie.md`](docs/plan_serie.md).
 
 | Episodio | Estado | Video |
 |---|---|---|
-| 01 · ¿Puedes leer esto? (v2) | ✅ | [`episodes/ep01_restauracion_documento/output/`](episodes/ep01_restauracion_documento/) |
+| 01 · ¿Cómo limpia tu celular una foto nocturna? | ✅ | [`episodes/ep01_foto_nocturna/output/`](episodes/ep01_foto_nocturna/) |
+| 02 · El documento ilegible | borrador v2 (antes del cambio de enfoque) | [`episodes/ep01_restauracion_documento/output/`](episodes/ep01_restauracion_documento/) |
 | 02–10 | guion pendiente | — |
 
 ## Uso
@@ -19,8 +22,8 @@ vectoriales, simulaciones reales en Python, música procedural libre de derechos
 sudo apt-get install -y ffmpeg libegl1 libgl1 tesseract-ocr tesseract-ocr-spa
 pip install -r requirements.txt
 
-python episodes/ep01_restauracion_documento/build.py --stills   # cuadros de control (rápido)
-python episodes/ep01_restauracion_documento/build.py            # MP4 + SRT + guion + portada
+python episodes/ep01_foto_nocturna/build.py --stills   # cuadros de control (rápido)
+python episodes/ep01_foto_nocturna/build.py            # MP4 + SRT + guion + portada
 ```
 
 Un episodio nuevo: `cp -r episodes/_plantilla episodes/ep02_redes_sin_flechas`, editar `script.py`

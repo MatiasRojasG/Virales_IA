@@ -1,0 +1,26 @@
+{
+ "text": "Eso, en el próximo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Eso",
+   "start": 0.092375,
+   "end": 0.431375
+  },
+  {
+   "text": "en",
+   "start": 0.611458,
+   "end": 0.727999
+  },
+  {
+   "text": "el",
+   "start": 0.738541,
+   "end": 0.844457
+  },
+  {
+   "text": "próximo",
+   "start": 0.855083,
+   "end": 1.299999
+  }
+ ]
+}

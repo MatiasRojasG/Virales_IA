@@ -1,0 +1,61 @@
+{
+ "text": "Así que cada punto se acomoda mirando solo a sus vecinos...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "que",
+   "start": 0.357208,
+   "end": 0.473749
+  },
+  {
+   "text": "cada",
+   "start": 0.484333,
+   "end": 0.717374
+  },
+  {
+   "text": "punto",
+   "start": 0.727958,
+   "end": 1.013958
+  },
+  {
+   "text": "se",
+   "start": 1.024583,
+   "end": 1.119916
+  },
+  {
+   "text": "acomoda",
+   "start": 1.1305,
+   "end": 1.4695
+  },
+  {
+   "text": "mirando",
+   "start": 1.480083,
+   "end": 1.829666
+  },
+  {
+   "text": "solo",
+   "start": 1.84025,
+   "end": 2.083875
+  },
+  {
+   "text": "a",
+   "start": 2.0945,
+   "end": 2.115666
+  },
+  {
+   "text": "sus",
+   "start": 2.126291,
+   "end": 2.295791
+  },
+  {
+   "text": "vecinos",
+   "start": 2.306375,
+   "end": 2.846625
+  }
+ ]
+}

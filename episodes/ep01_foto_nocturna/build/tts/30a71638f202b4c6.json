@@ -1,0 +1,71 @@
+{
+ "text": "Y mirando un solo punto, no hay cómo saber si brilla de verdad...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "mirando",
+   "start": 0.208916,
+   "end": 0.537291
+  },
+  {
+   "text": "un",
+   "start": 0.547875,
+   "end": 0.653791
+  },
+  {
+   "text": "solo",
+   "start": 0.664416,
+   "end": 0.886874
+  },
+  {
+   "text": "punto",
+   "start": 0.897458,
+   "end": 1.236458
+  },
+  {
+   "text": "no",
+   "start": 1.501291,
+   "end": 1.617832
+  },
+  {
+   "text": "hay",
+   "start": 1.628375,
+   "end": 1.713125
+  },
+  {
+   "text": "cómo",
+   "start": 1.723708,
+   "end": 1.924999
+  },
+  {
+   "text": "saber",
+   "start": 1.935583,
+   "end": 2.210999
+  },
+  {
+   "text": "si",
+   "start": 2.221625,
+   "end": 2.338166
+  },
+  {
+   "text": "brilla",
+   "start": 2.348708,
+   "end": 2.602958
+  },
+  {
+   "text": "de",
+   "start": 2.613541,
+   "end": 2.698291
+  },
+  {
+   "text": "verdad",
+   "start": 2.708916,
+   "end": 3.132624
+  }
+ ]
+}

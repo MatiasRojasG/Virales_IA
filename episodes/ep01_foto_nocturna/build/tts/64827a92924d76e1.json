@@ -1,0 +1,46 @@
+{
+ "text": "¿Y por qué no calcularla de una vez?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "por",
+   "start": 0.208916,
+   "end": 0.367832
+  },
+  {
+   "text": "qué",
+   "start": 0.378375,
+   "end": 0.473708
+  },
+  {
+   "text": "no",
+   "start": 0.484333,
+   "end": 0.590249
+  },
+  {
+   "text": "calcularla",
+   "start": 0.600833,
+   "end": 1.088124
+  },
+  {
+   "text": "de",
+   "start": 1.098708,
+   "end": 1.204624
+  },
+  {
+   "text": "una",
+   "start": 1.21525,
+   "end": 1.38475
+  },
+  {
+   "text": "vez",
+   "start": 1.395333,
+   "end": 1.734333
+  }
+ ]
+}

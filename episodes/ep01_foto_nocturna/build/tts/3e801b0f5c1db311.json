@@ -1,0 +1,81 @@
+{
+ "text": "Con poca luz, a cada punto del sensor le llegan apenas unas gotas de luz...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "poca",
+   "start": 0.293625,
+   "end": 0.526666
+  },
+  {
+   "text": "luz",
+   "start": 0.537291,
+   "end": 0.823291
+  },
+  {
+   "text": "a",
+   "start": 1.035166,
+   "end": 1.119916
+  },
+  {
+   "text": "cada",
+   "start": 1.1305,
+   "end": 1.363541
+  },
+  {
+   "text": "punto",
+   "start": 1.374166,
+   "end": 1.649582
+  },
+  {
+   "text": "del",
+   "start": 1.660166,
+   "end": 1.787291
+  },
+  {
+   "text": "sensor",
+   "start": 1.797875,
+   "end": 2.168625
+  },
+  {
+   "text": "le",
+   "start": 2.17925,
+   "end": 2.242791
+  },
+  {
+   "text": "llegan",
+   "start": 2.253375,
+   "end": 2.539375
+  },
+  {
+   "text": "apenas",
+   "start": 2.55,
+   "end": 2.899583
+  },
+  {
+   "text": "unas",
+   "start": 2.910166,
+   "end": 3.143207
+  },
+  {
+   "text": "gotas",
+   "start": 3.153833,
+   "end": 3.450458
+  },
+  {
+   "text": "de",
+   "start": 3.461,
+   "end": 3.524541
+  },
+  {
+   "text": "luz",
+   "start": 3.535166,
+   "end": 3.874166
+  }
+ ]
+}

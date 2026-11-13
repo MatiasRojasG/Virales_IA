@@ -18,7 +18,28 @@ Sistemas sin flechas (píxeles, sensores, mallas)
                                              └─ Restauración: 15 % ruido → 2,5 %, OCR 42 % → 94 %
 ```
 
-## Orden pedagógico y episodios
+## Enfoque de la serie (desde la v3)
+
+**No explicamos la clase: usamos la clase para explicar el mundo.** Cada episodio parte de un
+problema cotidiano y llega a las ideas de la clase como consecuencia lógica. Los términos técnicos
+se nombran solo después de haber sido entendidos.
+
+| # | Pregunta del mundo real | Ideas de la clase que la responden | Estado |
+|---|---|---|---|
+| 01 | ¿Cómo limpia tu celular una foto nocturna? | Vecinos simétricos, factores de datos y suavidad, energía ↔ probabilidad, explosión combinatoria, actualización local (ICM), compromiso de β | ✅ `episodes/ep01_foto_nocturna` |
+| 02 | ¿Cómo se rescata un documento ilegible para que un lector automático lo entienda? | Etiquetas binarias, modelo de Ising (α, β), ICM, OCR 42 % → 94 % | borrador v2 en `episodes/ep01_restauracion_documento` (hay que adaptarlo al nuevo enfoque y al número 02) |
+| 03 | ¿Por qué un rumor entre cuatro amigos no se puede dibujar con flechas? | Ejemplo de 4 estudiantes, A⊥C\|{B,D}, colisionadores, límites de los DAG | pendiente |
+| 04 | ¿Cómo «puntúa» una app de citas qué tan compatibles son dos personas? | Factores como afinidad no normalizada, tablas φ, producto de factores | pendiente |
+| 05 | ¿Por qué el pronóstico del tiempo no puede revisar todos los futuros posibles? | Constante Z, 2ⁿ términos, cuello de botella, métodos aproximados | pendiente |
+| 06 | ¿Por qué tres amigos juntos no son la suma de tres parejas? | Límites de los factores por pares, interacciones de orden 3, cliques | pendiente |
+| 07 | ¿Qué necesitas saber de tu vecino para predecir tu cuenta de luz? | Separación, independencia condicional, manta de Markov | pendiente |
+| 08 | ¿Por qué los sistemas «buscan» el estado de menor energía? | Forma de energía, MAP = minimizar costo, Z se cancela | pendiente |
+
+---
+
+## Plan original (v1, por orden de la clase; se conserva como referencia)
+
+
 
 El episodio 1 abre con el resultado más sorprendente (restauración + OCR) como «tráiler» de la serie;
 desde el 2 se construye la teoría en orden, y el 9–10 vuelve al experimento con todo el detalle formal.

@@ -1,0 +1,26 @@
+[hook] (  0.1s –   8.5s)
+Tomas una foto de noche... y sale así: llena de granitos. Pero tu celular te muestra esta. ¿De dónde sacó lo que la cámara no vio?
+
+[luz] (  8.5s –  16.6s)
+Con poca luz, a cada punto del sensor le llegan apenas unas gotas de luz... y al azar. Por eso, un muro parejo sale moteado.
+
+[dificil] ( 16.6s –  21.6s)
+Y mirando un solo punto, no hay cómo saber si brilla de verdad... o es puro ruido.
+
+[vecinos] ( 21.6s –  27.3s)
+Pero lo que está al lado suele parecerse. Así que cada punto puede corregirse mirando a sus vecinos.
+
+[exceso] ( 27.3s –  32.8s)
+Aunque, si solo promedias, también se borran los bordes... y el letrero se vuelve ilegible.
+
+[resortes] ( 32.8s –  51.6s)
+Imagina cada punto atado con resortes: uno lo tira hacia lo que vio la cámara, y otros hacia sus vecinos. Si un vecino es demasiado distinto, seguro es otro objeto: ese resorte se suelta. Cada punto se queda donde la tensión es mínima... y esa foto, la de menor tensión, es la explicación más probable de lo que vio la cámara.
+
+[calculo] ( 51.6s –  65.6s)
+¿Y por qué no calcularla de una vez? Cada punto puede tomar cientos de brillos, y una foto tiene doce millones de puntos: hay más fotos posibles que átomos en el universo. Así que cada punto se acomoda mirando solo a sus vecinos... y repetimos.
+
+[revelacion] ( 65.6s –  77.4s)
+Puntos que se influyen sin que ninguno mande: eso es una red de Markov. Tu celular usa versiones mucho más sofisticadas, pero la idea de fondo es esta: un punto se entiende mejor... mirando a su alrededor.
+
+[puente] ( 77.4s –  81.8s)
+Con la misma idea se rescata un documento ilegible. Eso, en el próximo.

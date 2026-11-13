@@ -1,0 +1,51 @@
+{
+ "text": "Con la misma idea se rescata un documento ilegible.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "la",
+   "start": 0.251291,
+   "end": 0.314832
+  },
+  {
+   "text": "misma",
+   "start": 0.325416,
+   "end": 0.622041
+  },
+  {
+   "text": "idea",
+   "start": 0.632625,
+   "end": 0.886875
+  },
+  {
+   "text": "se",
+   "start": 0.897458,
+   "end": 1.024583
+  },
+  {
+   "text": "rescata",
+   "start": 1.035166,
+   "end": 1.448291
+  },
+  {
+   "text": "un",
+   "start": 1.458916,
+   "end": 1.564832
+  },
+  {
+   "text": "documento",
+   "start": 1.575416,
+   "end": 2.020332
+  },
+  {
+   "text": "ilegible",
+   "start": 2.030916,
+   "end": 2.518207
+  }
+ ]
+}

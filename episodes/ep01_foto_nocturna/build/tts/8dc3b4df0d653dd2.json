@@ -1,0 +1,36 @@
+{
+ "text": "y sale así: llena de granitos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "sale",
+   "start": 0.208916,
+   "end": 0.463166
+  },
+  {
+   "text": "así",
+   "start": 0.473708,
+   "end": 0.717333
+  },
+  {
+   "text": "llena",
+   "start": 0.950416,
+   "end": 1.172874
+  },
+  {
+   "text": "de",
+   "start": 1.183458,
+   "end": 1.278791
+  },
+  {
+   "text": "granitos",
+   "start": 1.289416,
+   "end": 1.882624
+  }
+ ]
+}
