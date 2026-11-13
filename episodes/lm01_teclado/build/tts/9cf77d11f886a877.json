@@ -1,0 +1,76 @@
+{
+ "text": "Piensa en el mapa de tu ciudad: para ubicar tu casa bastan dos números.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Piensa",
+   "start": 0.094625,
+   "end": 0.418291
+  },
+  {
+   "text": "en",
+   "start": 0.429458,
+   "end": 0.507583
+  },
+  {
+   "text": "el",
+   "start": 0.51875,
+   "end": 0.619208
+  },
+  {
+   "text": "mapa",
+   "start": 0.630375,
+   "end": 0.875916
+  },
+  {
+   "text": "de",
+   "start": 0.887041,
+   "end": 0.998666
+  },
+  {
+   "text": "tu",
+   "start": 1.009833,
+   "end": 1.110291
+  },
+  {
+   "text": "ciudad",
+   "start": 1.121416,
+   "end": 1.489707
+  },
+  {
+   "text": "para",
+   "start": 1.73525,
+   "end": 1.913833
+  },
+  {
+   "text": "ubicar",
+   "start": 1.925,
+   "end": 2.282125
+  },
+  {
+   "text": "tu",
+   "start": 2.293291,
+   "end": 2.404916
+  },
+  {
+   "text": "casa",
+   "start": 2.416083,
+   "end": 2.695083
+  },
+  {
+   "text": "bastan",
+   "start": 2.70625,
+   "end": 3.085708
+  },
+  {
+   "text": "dos",
+   "start": 3.096875,
+   "end": 3.308916
+  },
+  {
+   "text": "números",
+   "start": 3.320083,
+   "end": 3.833458
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "Las que más se parecen reciben más probabilidad...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.094625,
+   "end": 0.2955
+  },
+  {
+   "text": "que",
+   "start": 0.306708,
+   "end": 0.407166
+  },
+  {
+   "text": "más",
+   "start": 0.418291,
+   "end": 0.585707
+  },
+  {
+   "text": "se",
+   "start": 0.596875,
+   "end": 0.686166
+  },
+  {
+   "text": "parecen",
+   "start": 0.697333,
+   "end": 1.087958
+  },
+  {
+   "text": "reciben",
+   "start": 1.099125,
+   "end": 1.52325
+  },
+  {
+   "text": "más",
+   "start": 1.534375,
+   "end": 1.757583
+  },
+  {
+   "text": "probabilidad",
+   "start": 1.76875,
+   "end": 2.483041
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "text": "El mapa que viste los aplana a dos, para que podamos mirarlos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.094625,
+   "end": 0.262041
+  },
+  {
+   "text": "mapa",
+   "start": 0.273208,
+   "end": 0.529916
+  },
+  {
+   "text": "que",
+   "start": 0.541083,
+   "end": 0.641541
+  },
+  {
+   "text": "viste",
+   "start": 0.652666,
+   "end": 0.942832
+  },
+  {
+   "text": "los",
+   "start": 0.954,
+   "end": 1.099083
+  },
+  {
+   "text": "aplana",
+   "start": 1.11025,
+   "end": 1.489708
+  },
+  {
+   "text": "a",
+   "start": 1.500875,
+   "end": 1.5232079
+  },
+  {
+   "text": "dos",
+   "start": 1.534375,
+   "end": 1.846875
+  },
+  {
+   "text": "para",
+   "start": 2.058916,
+   "end": 2.248666
+  },
+  {
+   "text": "que",
+   "start": 2.259833,
+   "end": 2.382583
+  },
+  {
+   "text": "podamos",
+   "start": 2.39375,
+   "end": 2.806708
+  },
+  {
+   "text": "mirarlos",
+   "start": 2.817875,
+   "end": 3.409375
+  }
+ ]
+}

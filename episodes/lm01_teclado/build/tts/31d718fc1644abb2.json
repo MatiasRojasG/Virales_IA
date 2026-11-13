@@ -1,0 +1,41 @@
+{
+ "text": "café y té se parecen casi uno.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "café",
+   "start": 0.103208,
+   "end": 0.502124
+  },
+  {
+   "text": "y",
+   "start": 0.515416,
+   "end": 0.621791
+  },
+  {
+   "text": "té",
+   "start": 0.635125,
+   "end": 0.7415
+  },
+  {
+   "text": "se",
+   "start": 0.754791,
+   "end": 0.901082
+  },
+  {
+   "text": "parecen",
+   "start": 0.914375,
+   "end": 1.393083
+  },
+  {
+   "text": "casi",
+   "start": 1.406375,
+   "end": 1.778708
+  },
+  {
+   "text": "uno",
+   "start": 1.792041,
+   "end": 2.137791
+  }
+ ]
+}

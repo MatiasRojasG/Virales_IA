@@ -1,0 +1,31 @@
+{
+ "text": "y esas son las sugerencias.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.094625,
+   "end": 0.273208
+  },
+  {
+   "text": "esas",
+   "start": 0.284375,
+   "end": 0.529916
+  },
+  {
+   "text": "son",
+   "start": 0.541083,
+   "end": 0.686166
+  },
+  {
+   "text": "las",
+   "start": 0.697333,
+   "end": 0.797791
+  },
+  {
+   "text": "sugerencias",
+   "start": 0.808916,
+   "end": 1.523207
+  }
+ ]
+}

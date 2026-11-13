@@ -1,0 +1,26 @@
+{
+ "text": "¿Recuerdas el interruptor encendido?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Recuerdas",
+   "start": 0.094625,
+   "end": 0.608
+  },
+  {
+   "text": "el",
+   "start": 0.619208,
+   "end": 0.697333
+  },
+  {
+   "text": "interruptor",
+   "start": 0.7085,
+   "end": 1.233041
+  },
+  {
+   "text": "encendido",
+   "start": 1.244208,
+   "end": 1.824583
+  }
+ ]
+}

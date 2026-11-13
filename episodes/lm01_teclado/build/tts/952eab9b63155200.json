@@ -1,0 +1,66 @@
+{
+ "text": "Una lista de números que dice dónde está algo se llama vector.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.094625,
+   "end": 0.284375
+  },
+  {
+   "text": "lista",
+   "start": 0.295541,
+   "end": 0.574541
+  },
+  {
+   "text": "de",
+   "start": 0.585708,
+   "end": 0.674999
+  },
+  {
+   "text": "números",
+   "start": 0.686166,
+   "end": 1.076791
+  },
+  {
+   "text": "que",
+   "start": 1.087958,
+   "end": 1.177249
+  },
+  {
+   "text": "dice",
+   "start": 1.188375,
+   "end": 1.467375
+  },
+  {
+   "text": "dónde",
+   "start": 1.478583,
+   "end": 1.701791
+  },
+  {
+   "text": "está",
+   "start": 1.712958,
+   "end": 1.980833
+  },
+  {
+   "text": "algo",
+   "start": 1.991958,
+   "end": 2.203999
+  },
+  {
+   "text": "se",
+   "start": 2.215166,
+   "end": 2.337916
+  },
+  {
+   "text": "llama",
+   "start": 2.349125,
+   "end": 2.605833
+  },
+  {
+   "text": "vector",
+   "start": 2.616958,
+   "end": 3.074541
+  }
+ ]
+}

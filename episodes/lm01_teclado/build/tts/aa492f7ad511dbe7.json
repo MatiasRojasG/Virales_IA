@@ -1,0 +1,66 @@
+{
+ "text": "Si dos vectores apuntan hacia el mismo lado, las palabras se parecen.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.094625,
+   "end": 0.317833
+  },
+  {
+   "text": "dos",
+   "start": 0.329,
+   "end": 0.51875
+  },
+  {
+   "text": "vectores",
+   "start": 0.529916,
+   "end": 0.954041
+  },
+  {
+   "text": "apuntan",
+   "start": 0.965166,
+   "end": 1.378124
+  },
+  {
+   "text": "hacia",
+   "start": 1.389291,
+   "end": 1.579041
+  },
+  {
+   "text": "el",
+   "start": 1.590166,
+   "end": 1.657124
+  },
+  {
+   "text": "mismo",
+   "start": 1.668291,
+   "end": 1.958457
+  },
+  {
+   "text": "lado",
+   "start": 1.969625,
+   "end": 2.248625
+  },
+  {
+   "text": "las",
+   "start": 2.505375,
+   "end": 2.650458
+  },
+  {
+   "text": "palabras",
+   "start": 2.661625,
+   "end": 3.05225
+  },
+  {
+   "text": "se",
+   "start": 3.063375,
+   "end": 3.152666
+  },
+  {
+   "text": "parecen",
+   "start": 3.163833,
+   "end": 3.654916
+  }
+ ]
+}

@@ -103,7 +103,12 @@ def main():
     # vecinos más cercanos (coseno) de «café» y «perro»
     En = E / np.linalg.norm(E, axis=1, keepdims=True)
     nn = {w: [vocab[i] for i in np.argsort(-(En @ En[idx[w]]))[1:5]] for w in ("café", "perro", "pan", "parque")}
-    res = dict(vec_cafe=E[idx["café"]].tolist(), vocab_size=V, n_sentences=len(sents), dim=d, window=m, losses=losses, keyboard=top,
+    show = ["café", "té", "mate", "perro", "gato", "pan", "queso", "parque", "me", "tomé", "un"]
+    cand = ["café", "té", "mate", "perro", "pan", "parque"]
+    sc = {w: float(h @ U[idx[w]]) for w in cand}
+    res = dict(rows={w: E[idx[w]].tolist() for w in show}, ctx_avg=h.tolist(),
+               kb_scores=sc, kb_probs={w: float(pr[idx[w]]) for w in cand},
+               vec_cafe=E[idx["café"]].tolist(), vocab_size=V, n_sentences=len(sents), dim=d, window=m, losses=losses, keyboard=top,
                neighbors=nn, focus=focus, cats=[k for k, ws in CAT.items() for _ in ws], snaps=P,
                sim_cafe_te=float(En[idx["café"]] @ En[idx["té"]]), sim_cafe_perro=float(En[idx["café"]] @ En[idx["perro"]]))
     (OUT / "results.json").write_text(json.dumps(res, indent=1, ensure_ascii=False))

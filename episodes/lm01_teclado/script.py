@@ -61,9 +61,41 @@ BEATS = [
     Beat("nombre", [
         Ph("Ese lugar aprendido se llama *embedding*.", pause=0.6),
     ]),
+    # ¿Qué es ese «lugar»? → vector
+    Beat("vector", [
+        Ph("Pero... ¿qué es exactamente ese lugar?", pause=0.6, pitch=Q),
+        Ph("Piensa en el mapa de tu ciudad: para ubicar tu casa bastan dos números.", pause=0.25),
+        Ph("Cuánto hacia el este... y cuánto hacia el norte.", pause=0.5, rate=SLOW),
+        Ph("Una lista de números que dice dónde está algo se llama *vector*.", pause=0.7),
+        Ph("El embedding de una palabra es eso: un vector.", pause=0.3),
+        Ph("Solo que no tiene dos números... sino *dieciséis*.", pause=0.5, rate=SLOW),
+        Ph("Nadie decide qué significa cada uno: los ajusta el juego, error tras error.", pause=0.4),
+        Ph("El mapa que viste los aplana a dos, para que podamos mirarlos.", pause=0.6),
+    ]),
+    # ¿Dónde viven? → tabla de embeddings (one-hot × matriz = elegir una fila)
+    Beat("tabla", [
+        Ph("Todos esos vectores viven en una *tabla*: una fila por cada palabra.", pause=0.4),
+        Ph("¿Recuerdas el interruptor encendido?", pause=0.4, pitch=Q),
+        Ph("Sirve justamente para eso: el interruptor de *café* saca la fila de café.", pause=0.7),
+    ]),
+    # ¿Cómo se lee? → comparar direcciones
+    Beat("leer", [
+        Ph("¿Y cómo se lee un vector?", pause=0.4, pitch=Q),
+        Ph("No número por número... sino *comparándolo* con otros.", pause=0.4),
+        Ph("Si dos vectores apuntan hacia el mismo lado, las palabras se parecen.", pause=0.4),
+        Ph("En una escala de cero a uno:", pause=0.3),
+        Ph("café y té se parecen *casi uno*.", pause=0.5, rate=SLOW),
+        Ph("Café y perro, apenas *cero coma dos*.", pause=0.8, rate=SLOW),
+    ]),
+    # ¿Cómo adivina? → promedio del contexto, parecido con cada palabra, probabilidades
+    Beat("prediccion", [
+        Ph("Y así adivina tu teclado:", pause=0.4),
+        Ph("junta los vectores de «me», «tomé» y «un»...", pause=0.3),
+        Ph("y compara el resultado con el vector de *cada* palabra que conoce.", pause=0.4),
+        Ph("Las que más se parecen reciben más *probabilidad*...", pause=0.4),
+        Ph("y esas son las sugerencias.", pause=0.8),
+    ]),
     Beat("cierre", [
-        Ph("Entonces, cuando escribes «me tomé un»...", pause=0.5),
-        Ph("el modelo busca qué palabras suelen ir ahí, y todas viven en el mismo barrio.", pause=0.6),
         Ph("Tu teclado no sabe qué es el café.", pause=0.4),
         Ph("Sabe con qué palabras *anda*.", pause=0.6, rate=SLOW),
     ]),

@@ -1,0 +1,41 @@
+{
+ "text": "En una escala de cero a uno:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.094625,
+   "end": 0.250875
+  },
+  {
+   "text": "una",
+   "start": 0.262041,
+   "end": 0.384791
+  },
+  {
+   "text": "escala",
+   "start": 0.396,
+   "end": 0.719666
+  },
+  {
+   "text": "de",
+   "start": 0.730791,
+   "end": 0.831249
+  },
+  {
+   "text": "cero",
+   "start": 0.842416,
+   "end": 1.099124
+  },
+  {
+   "text": "a",
+   "start": 1.11025,
+   "end": 1.14375
+  },
+  {
+   "text": "uno",
+   "start": 1.154916,
+   "end": 1.478582
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "¿Y cómo se lee un vector?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.094625,
+   "end": 0.217375
+  },
+  {
+   "text": "cómo",
+   "start": 0.228583,
+   "end": 0.462958
+  },
+  {
+   "text": "se",
+   "start": 0.474125,
+   "end": 0.596875
+  },
+  {
+   "text": "lee",
+   "start": 0.608041,
+   "end": 0.797791
+  },
+  {
+   "text": "un",
+   "start": 0.808916,
+   "end": 0.909374
+  },
+  {
+   "text": "vector",
+   "start": 0.920541,
+   "end": 1.366957
+  }
+ ]
+}

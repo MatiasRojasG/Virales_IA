@@ -1,0 +1,66 @@
+{
+ "text": "Todos esos vectores viven en una tabla: una fila por cada palabra.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Todos",
+   "start": 0.094625,
+   "end": 0.384791
+  },
+  {
+   "text": "esos",
+   "start": 0.396,
+   "end": 0.630375
+  },
+  {
+   "text": "vectores",
+   "start": 0.6415,
+   "end": 1.054458
+  },
+  {
+   "text": "viven",
+   "start": 1.065625,
+   "end": 1.322333
+  },
+  {
+   "text": "en",
+   "start": 1.3335,
+   "end": 1.433958
+  },
+  {
+   "text": "una",
+   "start": 1.445083,
+   "end": 1.601333
+  },
+  {
+   "text": "tabla",
+   "start": 1.6125,
+   "end": 1.925
+  },
+  {
+   "text": "una",
+   "start": 2.204,
+   "end": 2.36025
+  },
+  {
+   "text": "fila",
+   "start": 2.371416,
+   "end": 2.650416
+  },
+  {
+   "text": "por",
+   "start": 2.661625,
+   "end": 2.829041
+  },
+  {
+   "text": "cada",
+   "start": 2.840166,
+   "end": 3.085707
+  },
+  {
+   "text": "palabra",
+   "start": 3.096875,
+   "end": 3.532125
+  }
+ ]
+}

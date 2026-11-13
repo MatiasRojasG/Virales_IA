@@ -1,0 +1,41 @@
+{
+ "text": "Café y perro, apenas cero coma dos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Café",
+   "start": 0.103208,
+   "end": 0.462249
+  },
+  {
+   "text": "y",
+   "start": 0.475541,
+   "end": 0.568624
+  },
+  {
+   "text": "perro",
+   "start": 0.581916,
+   "end": 0.994166
+  },
+  {
+   "text": "apenas",
+   "start": 1.246791,
+   "end": 1.712207
+  },
+  {
+   "text": "cero",
+   "start": 1.725541,
+   "end": 2.004791
+  },
+  {
+   "text": "coma",
+   "start": 2.018083,
+   "end": 2.270749
+  },
+  {
+   "text": "dos",
+   "start": 2.284041,
+   "end": 2.709582
+  }
+ ]
+}

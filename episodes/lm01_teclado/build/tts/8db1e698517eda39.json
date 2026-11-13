@@ -1,0 +1,36 @@
+{
+ "text": "Pero... ¿qué es exactamente ese lugar?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.094625,
+   "end": 0.3625
+  },
+  {
+   "text": "qué",
+   "start": 0.619208,
+   "end": 0.741958
+  },
+  {
+   "text": "es",
+   "start": 0.753125,
+   "end": 0.887041
+  },
+  {
+   "text": "exactamente",
+   "start": 0.898208,
+   "end": 1.612499
+  },
+  {
+   "text": "ese",
+   "start": 1.623666,
+   "end": 1.802249
+  },
+  {
+   "text": "lugar",
+   "start": 1.813375,
+   "end": 2.181666
+  }
+ ]
+}

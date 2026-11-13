@@ -1,0 +1,66 @@
+{
+ "text": "y compara el resultado con el vector de cada palabra que conoce.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.094625,
+   "end": 0.20625
+  },
+  {
+   "text": "compara",
+   "start": 0.217416,
+   "end": 0.608041
+  },
+  {
+   "text": "el",
+   "start": 0.619208,
+   "end": 0.686166
+  },
+  {
+   "text": "resultado",
+   "start": 0.697333,
+   "end": 1.210708
+  },
+  {
+   "text": "con",
+   "start": 1.221875,
+   "end": 1.366958
+  },
+  {
+   "text": "el",
+   "start": 1.378125,
+   "end": 1.467416
+  },
+  {
+   "text": "vector",
+   "start": 1.478583,
+   "end": 1.791083
+  },
+  {
+   "text": "de",
+   "start": 1.80225,
+   "end": 1.891541
+  },
+  {
+   "text": "cada",
+   "start": 1.902666,
+   "end": 2.159374
+  },
+  {
+   "text": "palabra",
+   "start": 2.170541,
+   "end": 2.561166
+  },
+  {
+   "text": "que",
+   "start": 2.572333,
+   "end": 2.695083
+  },
+  {
+   "text": "conoce",
+   "start": 2.70625,
+   "end": 3.175
+  }
+ ]
+}

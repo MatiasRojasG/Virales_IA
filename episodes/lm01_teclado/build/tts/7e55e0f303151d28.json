@@ -1,0 +1,51 @@
+{
+ "text": "El embedding de una palabra es eso: un vector.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.094625,
+   "end": 0.250875
+  },
+  {
+   "text": "embedding",
+   "start": 0.262041,
+   "end": 0.674999
+  },
+  {
+   "text": "de",
+   "start": 0.686166,
+   "end": 0.786624
+  },
+  {
+   "text": "una",
+   "start": 0.79775,
+   "end": 0.9875
+  },
+  {
+   "text": "palabra",
+   "start": 0.998666,
+   "end": 1.400457
+  },
+  {
+   "text": "es",
+   "start": 1.411625,
+   "end": 1.545541
+  },
+  {
+   "text": "eso",
+   "start": 1.556708,
+   "end": 1.846874
+  },
+  {
+   "text": "un",
+   "start": 2.058916,
+   "end": 2.181666
+  },
+  {
+   "text": "vector",
+   "start": 2.192875,
+   "end": 2.650458
+  }
+ ]
+}

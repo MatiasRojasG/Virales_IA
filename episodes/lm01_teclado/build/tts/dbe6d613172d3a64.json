@@ -1,0 +1,71 @@
+{
+ "text": "Nadie decide qué significa cada uno: los ajusta el juego, error tras error.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Nadie",
+   "start": 0.094625,
+   "end": 0.418291
+  },
+  {
+   "text": "decide",
+   "start": 0.429458,
+   "end": 0.808916
+  },
+  {
+   "text": "qué",
+   "start": 0.820083,
+   "end": 0.920541
+  },
+  {
+   "text": "significa",
+   "start": 0.931708,
+   "end": 1.500916
+  },
+  {
+   "text": "cada",
+   "start": 1.512041,
+   "end": 1.768749
+  },
+  {
+   "text": "uno",
+   "start": 1.779916,
+   "end": 2.081249
+  },
+  {
+   "text": "los",
+   "start": 2.36025,
+   "end": 2.483
+  },
+  {
+   "text": "ajusta",
+   "start": 2.494208,
+   "end": 2.829041
+  },
+  {
+   "text": "el",
+   "start": 2.840166,
+   "end": 2.884791
+  },
+  {
+   "text": "juego",
+   "start": 2.896,
+   "end": 3.242
+  },
+  {
+   "text": "error",
+   "start": 3.442875,
+   "end": 3.777708
+  },
+  {
+   "text": "tras",
+   "start": 3.788833,
+   "end": 3.989708
+  },
+  {
+   "text": "error",
+   "start": 4.000875,
+   "end": 4.358
+  }
+ ]
+}

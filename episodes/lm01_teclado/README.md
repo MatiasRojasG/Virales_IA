@@ -1,11 +1,29 @@
 # ¿Cómo adivina tu teclado la palabra que viene? (metadato interno: modelos de lenguaje, ep. 1)
 
-**Video:** `output/lm01_teclado.mp4`: 1080×1920, 60 fps, 93,6 s, −14,6 LUFS, pico −1 dBFS. Sin títulos ni banners.
+**Video (v2, con más materia):** `output/lm01_teclado.mp4`: 1080×1920, 60 fps, **159 s**, −14,3 LUFS, pico −1 dBFS. Sin títulos ni banners.
 
 **Ritmo (regla de narración cinematográfica):**
 - Voz a +12 %, más pausada que la de los episodios anteriores: 2,88 palabras/s al hablar y 2,45 palabras/s con las pausas.
 - Pausas de 0,2 a 1,0 s (media 0,55 s). 15 pausas de ≥ 0,6 s, ubicadas antes y después de las revelaciones.
 - Sin saltos ni pantallas vacías (medido cuadro a cuadro). Subtítulos 60 ms antes de la voz.
+
+## v2: explicación del embedding paso a paso
+
+Después de «ese lugar se llama embedding», cada pregunta abre la siguiente:
+
+1. **¿Qué es ese lugar?**
+   - Un **vector**: en el mapa de tu ciudad, la casa está en (3, 2) = 3 al este y 2 al norte. Una lista de números que dice dónde está algo.
+   - El de «café» tiene **16 números reales**: −0,5 −2,0 −1,4 1,2 2,2 …
+   - Nadie los elige: el juego los ajusta (se ve cómo se acomodan). El mapa los aplana a 2.
+2. **¿Dónde viven?** En la **tabla de embeddings**, una fila por palabra (valores reales). El interruptor de «café» (one-hot) **elige su fila**, que es la idea de la clase «one-hot × matriz = elegir una fila».
+3. **¿Cómo se lee un vector?** No número por número (se tacha), sino **comparando hacia dónde apunta**.
+   - Flechas con los ángulos reales: el ángulo sale del coseno entre vectores.
+   - En la escala de 0 a 1, café–té da **0,998** y café–perro **0,21**.
+4. **¿Cómo adivina el teclado?**
+   - Junta (promedia) los vectores reales de «me», «tomé» y «un».
+   - Calcula un **puntaje** con cada palabra: mate 9,7 · té 9,6 · café 9,5 · perro 2,8 · pan 0,3 · parque −0,2.
+   - Lo convierte en **probabilidades**: mate 19 % · té 18 % · café 16 % · resto ≈ 0 %. El resto se reparte entre chocolate y jugo.
+   - En pantalla se aclara que el modelo usa un segundo vector por palabra para esta comparación (los vectores de salida).
 
 ## Serie propuesta (PDF «Modelos de lenguaje»)
 

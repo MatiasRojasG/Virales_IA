@@ -1,0 +1,46 @@
+{
+ "text": "No número por número... sino comparándolo con otros.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.094625,
+   "end": 0.262041
+  },
+  {
+   "text": "número",
+   "start": 0.273208,
+   "end": 0.585708
+  },
+  {
+   "text": "por",
+   "start": 0.596875,
+   "end": 0.764291
+  },
+  {
+   "text": "número",
+   "start": 0.775458,
+   "end": 1.154916
+  },
+  {
+   "text": "sino",
+   "start": 1.389291,
+   "end": 1.634832
+  },
+  {
+   "text": "comparándolo",
+   "start": 1.646,
+   "end": 2.271
+  },
+  {
+   "text": "con",
+   "start": 2.282125,
+   "end": 2.438375
+  },
+  {
+   "text": "otros",
+   "start": 2.449541,
+   "end": 2.895957
+  }
+ ]
+}

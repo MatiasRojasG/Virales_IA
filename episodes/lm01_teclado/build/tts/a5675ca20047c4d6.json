@@ -1,0 +1,46 @@
+{
+ "text": "junta los vectores de «me», «tomé» y «un»...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "junta",
+   "start": 0.094625,
+   "end": 0.407125
+  },
+  {
+   "text": "los",
+   "start": 0.418291,
+   "end": 0.574541
+  },
+  {
+   "text": "vectores",
+   "start": 0.585708,
+   "end": 1.009833
+  },
+  {
+   "text": "de",
+   "start": 1.021,
+   "end": 1.166083
+  },
+  {
+   "text": "me",
+   "start": 1.42275,
+   "end": 1.623625
+  },
+  {
+   "text": "tomé",
+   "start": 1.858041,
+   "end": 2.159374
+  },
+  {
+   "text": "y",
+   "start": 2.382583,
+   "end": 2.516499
+  },
+  {
+   "text": "un",
+   "start": 2.717416,
+   "end": 2.962957
+  }
+ ]
+}

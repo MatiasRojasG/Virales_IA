@@ -1,0 +1,46 @@
+{
+ "text": "Solo que no tiene dos números... sino dieciséis.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Solo",
+   "start": 0.103208,
+   "end": 0.488833
+  },
+  {
+   "text": "que",
+   "start": 0.502125,
+   "end": 0.621791
+  },
+  {
+   "text": "no",
+   "start": 0.635125,
+   "end": 0.808
+  },
+  {
+   "text": "tiene",
+   "start": 0.821291,
+   "end": 1.087249
+  },
+  {
+   "text": "dos",
+   "start": 1.100541,
+   "end": 1.339916
+  },
+  {
+   "text": "números",
+   "start": 1.353208,
+   "end": 1.845249
+  },
+  {
+   "text": "sino",
+   "start": 2.111166,
+   "end": 2.456916
+  },
+  {
+   "text": "dieciséis",
+   "start": 2.470208,
+   "end": 3.268083
+  }
+ ]
+}

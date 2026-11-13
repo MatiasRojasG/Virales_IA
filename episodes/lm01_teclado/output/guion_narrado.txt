@@ -19,5 +19,17 @@ Después de miles de intentos... las palabras se ordenan solas. Las bebidas, jun
 [nombre] ( 77.7s –  80.3s)
 Ese lugar aprendido se llama embedding.
 
-[cierre] ( 80.3s –  93.0s)
-Entonces, cuando escribes «me tomé un»... el modelo busca qué palabras suelen ir ahí, y todas viven en el mismo barrio. Tu teclado no sabe qué es el café. Sabe con qué palabras anda.
+[vector] ( 80.3s – 110.4s)
+Pero... ¿qué es exactamente ese lugar? Piensa en el mapa de tu ciudad: para ubicar tu casa bastan dos números. Cuánto hacia el este... y cuánto hacia el norte. Una lista de números que dice dónde está algo se llama vector. El embedding de una palabra es eso: un vector. Solo que no tiene dos números... sino dieciséis. Nadie decide qué significa cada uno: los ajusta el juego, error tras error. El mapa que viste los aplana a dos, para que podamos mirarlos.
+
+[tabla] (110.4s – 121.6s)
+Todos esos vectores viven en una tabla: una fila por cada palabra. ¿Recuerdas el interruptor encendido? Sirve justamente para eso: el interruptor de café saca la fila de café.
+
+[leer] (121.6s – 139.2s)
+¿Y cómo se lee un vector? No número por número... sino comparándolo con otros. Si dos vectores apuntan hacia el mismo lado, las palabras se parecen. En una escala de cero a uno: café y té se parecen casi uno. Café y perro, apenas cero coma dos.
+
+[prediccion] (139.2s – 153.6s)
+Y así adivina tu teclado: junta los vectores de «me», «tomé» y «un»... y compara el resultado con el vector de cada palabra que conoce. Las que más se parecen reciben más probabilidad... y esas son las sugerencias.
+
+[cierre] (153.6s – 158.4s)
+Tu teclado no sabe qué es el café. Sabe con qué palabras anda.

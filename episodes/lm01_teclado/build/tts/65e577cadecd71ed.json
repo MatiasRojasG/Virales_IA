@@ -1,0 +1,51 @@
+{
+ "text": "Cuánto hacia el este... y cuánto hacia el norte.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cuánto",
+   "start": 0.103208,
+   "end": 0.422374
+  },
+  {
+   "text": "hacia",
+   "start": 0.435625,
+   "end": 0.675
+  },
+  {
+   "text": "el",
+   "start": 0.688291,
+   "end": 0.794666
+  },
+  {
+   "text": "este",
+   "start": 0.807958,
+   "end": 1.153708
+  },
+  {
+   "text": "y",
+   "start": 1.419666,
+   "end": 1.512749
+  },
+  {
+   "text": "cuánto",
+   "start": 1.526083,
+   "end": 1.871833
+  },
+  {
+   "text": "hacia",
+   "start": 1.885125,
+   "end": 2.1245
+  },
+  {
+   "text": "el",
+   "start": 2.13775,
+   "end": 2.217541
+  },
+  {
+   "text": "norte",
+   "start": 2.230833,
+   "end": 2.696249
+  }
+ ]
+}

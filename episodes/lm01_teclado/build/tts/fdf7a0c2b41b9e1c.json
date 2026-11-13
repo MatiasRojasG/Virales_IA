@@ -1,0 +1,31 @@
+{
+ "text": "Y así adivina tu teclado:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.094625,
+   "end": 0.228541
+  },
+  {
+   "text": "así",
+   "start": 0.23975,
+   "end": 0.474125
+  },
+  {
+   "text": "adivina",
+   "start": 0.48525,
+   "end": 0.864708
+  },
+  {
+   "text": "tu",
+   "start": 0.875875,
+   "end": 0.9875
+  },
+  {
+   "text": "teclado",
+   "start": 0.998666,
+   "end": 1.456249
+  }
+ ]
+}

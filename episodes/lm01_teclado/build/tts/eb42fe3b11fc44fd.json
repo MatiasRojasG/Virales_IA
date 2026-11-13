@@ -1,0 +1,71 @@
+{
+ "text": "Sirve justamente para eso: el interruptor de café saca la fila de café.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Sirve",
+   "start": 0.094625,
+   "end": 0.474083
+  },
+  {
+   "text": "justamente",
+   "start": 0.48525,
+   "end": 1.032125
+  },
+  {
+   "text": "para",
+   "start": 1.043291,
+   "end": 1.299999
+  },
+  {
+   "text": "eso",
+   "start": 1.311166,
+   "end": 1.579041
+  },
+  {
+   "text": "el",
+   "start": 1.835708,
+   "end": 1.969624
+  },
+  {
+   "text": "interruptor",
+   "start": 1.980791,
+   "end": 2.505332
+  },
+  {
+   "text": "de",
+   "start": 2.5165,
+   "end": 2.594625
+  },
+  {
+   "text": "café",
+   "start": 2.605791,
+   "end": 2.884791
+  },
+  {
+   "text": "saca",
+   "start": 2.896,
+   "end": 3.197333
+  },
+  {
+   "text": "la",
+   "start": 3.2085,
+   "end": 3.308958
+  },
+  {
+   "text": "fila",
+   "start": 3.320083,
+   "end": 3.554458
+  },
+  {
+   "text": "de",
+   "start": 3.565625,
+   "end": 3.666083
+  },
+  {
+   "text": "café",
+   "start": 3.67725,
+   "end": 4.056708
+  }
+ ]
+}
