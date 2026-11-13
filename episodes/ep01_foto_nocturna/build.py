@@ -28,13 +28,13 @@ def load_data():
     z = np.load(exp / "arrays.npz")
     d = {k: z[k] for k in z.files}
     d["res"] = json.loads((exp / "results.json").read_text())
-    # documento del próximo episodio (para el puente final)
+    # documento restaurado (mosaico «dónde más se usa»)
     doc = HERE.parent / "ep01_restauracion_documento" / "build" / "experiment" / "arrays.npz"
     if doc.exists():
-        obs = np.load(doc)["obs"]
-        d["doc"] = obs
-        g = np.where(obs[..., None] == 1, [11, 16, 32], [233, 238, 247]).astype(np.uint8)
-        d["doc_rgba"] = np.dstack([g, np.full(obs.shape, 255, np.uint8)])
+        zd = np.load(doc)
+        for key, arr in (("doc_noisy", zd["obs"]), ("doc_clean", zd["hist"][-1])):
+            g = np.where(arr[..., None] == 1, [11, 16, 32], [233, 238, 247]).astype(np.uint8)
+            d[key] = np.dstack([g, np.full(arr.shape, 255, np.uint8)])
     return d
 
 

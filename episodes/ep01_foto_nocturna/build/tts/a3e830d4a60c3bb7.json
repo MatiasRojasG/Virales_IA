@@ -1,0 +1,61 @@
+{
+ "text": "Pero si un vecino es demasiado distinto, seguro es otro objeto:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "si",
+   "start": 0.272458,
+   "end": 0.399583
+  },
+  {
+   "text": "un",
+   "start": 0.410166,
+   "end": 0.505499
+  },
+  {
+   "text": "vecino",
+   "start": 0.516083,
+   "end": 0.865666
+  },
+  {
+   "text": "es",
+   "start": 0.876291,
+   "end": 0.971624
+  },
+  {
+   "text": "demasiado",
+   "start": 0.982208,
+   "end": 1.384749
+  },
+  {
+   "text": "distinto",
+   "start": 1.395333,
+   "end": 1.861416
+  },
+  {
+   "text": "seguro",
+   "start": 2.0945,
+   "end": 2.475875
+  },
+  {
+   "text": "es",
+   "start": 2.486458,
+   "end": 2.613583
+  },
+  {
+   "text": "otro",
+   "start": 2.624166,
+   "end": 2.793666
+  },
+  {
+   "text": "objeto",
+   "start": 2.80425,
+   "end": 3.227958
+  }
+ ]
+}

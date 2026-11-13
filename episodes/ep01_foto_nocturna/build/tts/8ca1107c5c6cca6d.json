@@ -1,0 +1,46 @@
+{
+ "text": "y clasifica bosques y ciudades en imágenes satelitales.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "clasifica",
+   "start": 0.2195,
+   "end": 0.706791
+  },
+  {
+   "text": "bosques",
+   "start": 0.717375,
+   "end": 1.066958
+  },
+  {
+   "text": "y",
+   "start": 1.077541,
+   "end": 1.119916
+  },
+  {
+   "text": "ciudades",
+   "start": 1.1305,
+   "end": 1.564833
+  },
+  {
+   "text": "en",
+   "start": 1.575416,
+   "end": 1.670749
+  },
+  {
+   "text": "imágenes",
+   "start": 1.681375,
+   "end": 2.115708
+  },
+  {
+   "text": "satelitales",
+   "start": 2.126291,
+   "end": 2.867832
+  }
+ ]
+}

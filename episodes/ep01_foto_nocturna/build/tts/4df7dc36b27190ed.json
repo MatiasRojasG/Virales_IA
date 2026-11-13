@@ -1,0 +1,21 @@
+{
+ "text": "de sus vecinos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "de",
+   "start": 0.102083,
+   "end": 0.258333
+  },
+  {
+   "text": "sus",
+   "start": 0.271375,
+   "end": 0.49275
+  },
+  {
+   "text": "vecinos",
+   "start": 0.50575,
+   "end": 1.182833
+  }
+ ]
+}

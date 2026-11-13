@@ -1,0 +1,56 @@
+{
+ "text": "La bolita se queda donde las dos fuerzas se equilibran.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "bolita",
+   "start": 0.2195,
+   "end": 0.547875
+  },
+  {
+   "text": "se",
+   "start": 0.558458,
+   "end": 0.685583
+  },
+  {
+   "text": "queda",
+   "start": 0.696166,
+   "end": 0.908041
+  },
+  {
+   "text": "donde",
+   "start": 0.918625,
+   "end": 1.151666
+  },
+  {
+   "text": "las",
+   "start": 1.162291,
+   "end": 1.310582
+  },
+  {
+   "text": "dos",
+   "start": 1.321166,
+   "end": 1.480082
+  },
+  {
+   "text": "fuerzas",
+   "start": 1.490666,
+   "end": 1.861416
+  },
+  {
+   "text": "se",
+   "start": 1.872041,
+   "end": 1.946207
+  },
+  {
+   "text": "equilibran",
+   "start": 1.956791,
+   "end": 2.497041
+  }
+ ]
+}

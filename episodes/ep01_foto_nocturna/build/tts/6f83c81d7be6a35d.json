@@ -1,0 +1,86 @@
+{
+ "text": "Así que ahora ya sabes de dónde sacó tu celular lo que la cámara no vio...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.092375,
+   "end": 0.357208
+  },
+  {
+   "text": "que",
+   "start": 0.367791,
+   "end": 0.463124
+  },
+  {
+   "text": "ahora",
+   "start": 0.473708,
+   "end": 0.696166
+  },
+  {
+   "text": "ya",
+   "start": 0.706791,
+   "end": 0.833916
+  },
+  {
+   "text": "sabes",
+   "start": 0.8445,
+   "end": 1.141125
+  },
+  {
+   "text": "de",
+   "start": 1.151708,
+   "end": 1.215249
+  },
+  {
+   "text": "dónde",
+   "start": 1.225833,
+   "end": 1.437708
+  },
+  {
+   "text": "sacó",
+   "start": 1.448291,
+   "end": 1.713124
+  },
+  {
+   "text": "tu",
+   "start": 1.723708,
+   "end": 1.819041
+  },
+  {
+   "text": "celular",
+   "start": 1.829666,
+   "end": 2.221624
+  },
+  {
+   "text": "lo",
+   "start": 2.232208,
+   "end": 2.316958
+  },
+  {
+   "text": "que",
+   "start": 2.327541,
+   "end": 2.433457
+  },
+  {
+   "text": "la",
+   "start": 2.444083,
+   "end": 2.528833
+  },
+  {
+   "text": "cámara",
+   "start": 2.539416,
+   "end": 2.867791
+  },
+  {
+   "text": "no",
+   "start": 2.878375,
+   "end": 3.016083
+  },
+  {
+   "text": "vio",
+   "start": 3.026708,
+   "end": 3.270333
+  }
+ ]
+}

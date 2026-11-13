@@ -1,0 +1,26 @@
+{
+ "text": "Tu cámara vio esto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "cámara",
+   "start": 0.208916,
+   "end": 0.516124
+  },
+  {
+   "text": "vio",
+   "start": 0.526708,
+   "end": 0.717374
+  },
+  {
+   "text": "esto",
+   "start": 0.727958,
+   "end": 1.024583
+  }
+ ]
+}

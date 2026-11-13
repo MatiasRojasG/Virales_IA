@@ -1,0 +1,66 @@
+{
+ "text": "Tu celular usa versiones más sofisticadas, pero el fondo es el mismo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.092375,
+   "end": 0.187708
+  },
+  {
+   "text": "celular",
+   "start": 0.198291,
+   "end": 0.569041
+  },
+  {
+   "text": "usa",
+   "start": 0.579666,
+   "end": 0.738582
+  },
+  {
+   "text": "versiones",
+   "start": 0.749166,
+   "end": 1.204666
+  },
+  {
+   "text": "más",
+   "start": 1.21525,
+   "end": 1.363541
+  },
+  {
+   "text": "sofisticadas",
+   "start": 1.374166,
+   "end": 2.083916
+  },
+  {
+   "text": "pero",
+   "start": 2.285166,
+   "end": 2.444082
+  },
+  {
+   "text": "el",
+   "start": 2.454666,
+   "end": 2.528832
+  },
+  {
+   "text": "fondo",
+   "start": 2.539416,
+   "end": 2.825416
+  },
+  {
+   "text": "es",
+   "start": 2.836,
+   "end": 2.952541
+  },
+  {
+   "text": "el",
+   "start": 2.963125,
+   "end": 3.058458
+  },
+  {
+   "text": "mismo",
+   "start": 3.069083,
+   "end": 3.418666
+  }
+ ]
+}

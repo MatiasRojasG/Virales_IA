@@ -1,0 +1,36 @@
+{
+ "text": "Ahora, una fila entera del letrero.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ahora",
+   "start": 0.092375,
+   "end": 0.463125
+  },
+  {
+   "text": "una",
+   "start": 0.738541,
+   "end": 0.886832
+  },
+  {
+   "text": "fila",
+   "start": 0.897458,
+   "end": 1.119916
+  },
+  {
+   "text": "entera",
+   "start": 1.1305,
+   "end": 1.437708
+  },
+  {
+   "text": "del",
+   "start": 1.448291,
+   "end": 1.575416
+  },
+  {
+   "text": "letrero",
+   "start": 1.586,
+   "end": 2.009708
+  }
+ ]
+}

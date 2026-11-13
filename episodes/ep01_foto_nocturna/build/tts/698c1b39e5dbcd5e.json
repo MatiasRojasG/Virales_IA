@@ -1,0 +1,91 @@
+{
+ "text": "Un resorte la amarra a lo que midió la cámara: si se aleja, la tira de vuelta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "resorte",
+   "start": 0.240666,
+   "end": 0.643207
+  },
+  {
+   "text": "la",
+   "start": 0.653833,
+   "end": 0.749166
+  },
+  {
+   "text": "amarra",
+   "start": 0.75975,
+   "end": 1.066958
+  },
+  {
+   "text": "a",
+   "start": 1.077541,
+   "end": 1.098707
+  },
+  {
+   "text": "lo",
+   "start": 1.109333,
+   "end": 1.215249
+  },
+  {
+   "text": "que",
+   "start": 1.225833,
+   "end": 1.310583
+  },
+  {
+   "text": "midió",
+   "start": 1.321166,
+   "end": 1.575416
+  },
+  {
+   "text": "la",
+   "start": 1.586,
+   "end": 1.67075
+  },
+  {
+   "text": "cámara",
+   "start": 1.681375,
+   "end": 2.06275
+  },
+  {
+   "text": "si",
+   "start": 2.29575,
+   "end": 2.412291
+  },
+  {
+   "text": "se",
+   "start": 2.422875,
+   "end": 2.528791
+  },
+  {
+   "text": "aleja",
+   "start": 2.539416,
+   "end": 2.867791
+  },
+  {
+   "text": "la",
+   "start": 3.132625,
+   "end": 3.217375
+  },
+  {
+   "text": "tira",
+   "start": 3.227958,
+   "end": 3.460999
+  },
+  {
+   "text": "de",
+   "start": 3.471625,
+   "end": 3.556375
+  },
+  {
+   "text": "vuelta",
+   "start": 3.566958,
+   "end": 3.948333
+  }
+ ]
+}

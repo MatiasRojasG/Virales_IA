@@ -1,0 +1,56 @@
+{
+ "text": "La misma idea rescata documentos escaneados, delimita tumores en resonancias...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "misma",
+   "start": 0.240666,
+   "end": 0.537291
+  },
+  {
+   "text": "idea",
+   "start": 0.547875,
+   "end": 0.780916
+  },
+  {
+   "text": "rescata",
+   "start": 0.791541,
+   "end": 1.162291
+  },
+  {
+   "text": "documentos",
+   "start": 1.172875,
+   "end": 1.691958
+  },
+  {
+   "text": "escaneados",
+   "start": 1.702541,
+   "end": 2.274582
+  },
+  {
+   "text": "delimita",
+   "start": 2.497041,
+   "end": 2.910166
+  },
+  {
+   "text": "tumores",
+   "start": 2.92075,
+   "end": 3.344458
+  },
+  {
+   "text": "en",
+   "start": 3.355083,
+   "end": 3.439833
+  },
+  {
+   "text": "resonancias",
+   "start": 3.450416,
+   "end": 4.160166
+  }
+ ]
+}

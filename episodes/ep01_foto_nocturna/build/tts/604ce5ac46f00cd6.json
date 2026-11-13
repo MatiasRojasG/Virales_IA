@@ -1,0 +1,56 @@
+{
+ "text": "Si todos los resortes tiran igual, los bordes se aplanan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "todos",
+   "start": 0.325416,
+   "end": 0.643207
+  },
+  {
+   "text": "los",
+   "start": 0.653833,
+   "end": 0.780958
+  },
+  {
+   "text": "resortes",
+   "start": 0.791541,
+   "end": 1.247041
+  },
+  {
+   "text": "tiran",
+   "start": 1.257625,
+   "end": 1.490666
+  },
+  {
+   "text": "igual",
+   "start": 1.501291,
+   "end": 1.797916
+  },
+  {
+   "text": "los",
+   "start": 2.062708,
+   "end": 2.189833
+  },
+  {
+   "text": "bordes",
+   "start": 2.200416,
+   "end": 2.497041
+  },
+  {
+   "text": "se",
+   "start": 2.507625,
+   "end": 2.571166
+  },
+  {
+   "text": "aplanan",
+   "start": 2.581791,
+   "end": 3.026707
+  }
+ ]
+}

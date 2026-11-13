@@ -1,0 +1,91 @@
+{
+ "text": "La foto con menos tensión total es la explicación más probable de lo que vio la cámara.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "foto",
+   "start": 0.251291,
+   "end": 0.484332
+  },
+  {
+   "text": "con",
+   "start": 0.494916,
+   "end": 0.632624
+  },
+  {
+   "text": "menos",
+   "start": 0.643208,
+   "end": 0.908041
+  },
+  {
+   "text": "tensión",
+   "start": 0.918625,
+   "end": 1.257625
+  },
+  {
+   "text": "total",
+   "start": 1.268208,
+   "end": 1.585999
+  },
+  {
+   "text": "es",
+   "start": 1.596625,
+   "end": 1.702541
+  },
+  {
+   "text": "la",
+   "start": 1.713125,
+   "end": 1.766083
+  },
+  {
+   "text": "explicación",
+   "start": 1.776708,
+   "end": 2.327541
+  },
+  {
+   "text": "más",
+   "start": 2.338125,
+   "end": 2.528791
+  },
+  {
+   "text": "probable",
+   "start": 2.539416,
+   "end": 2.899582
+  },
+  {
+   "text": "de",
+   "start": 2.910166,
+   "end": 3.016082
+  },
+  {
+   "text": "lo",
+   "start": 3.026708,
+   "end": 3.111458
+  },
+  {
+   "text": "que",
+   "start": 3.122041,
+   "end": 3.227957
+  },
+  {
+   "text": "vio",
+   "start": 3.238541,
+   "end": 3.397457
+  },
+  {
+   "text": "la",
+   "start": 3.408041,
+   "end": 3.503374
+  },
+  {
+   "text": "cámara",
+   "start": 3.514,
+   "end": 3.916541
+  }
+ ]
+}

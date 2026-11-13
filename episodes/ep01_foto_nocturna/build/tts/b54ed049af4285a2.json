@@ -1,0 +1,76 @@
+{
+ "text": "Otros resortes la unen a sus vecinos: si es distinta a ellos, la acercan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Otros",
+   "start": 0.092375,
+   "end": 0.399583
+  },
+  {
+   "text": "resortes",
+   "start": 0.410166,
+   "end": 0.886874
+  },
+  {
+   "text": "la",
+   "start": 0.897458,
+   "end": 0.982208
+  },
+  {
+   "text": "unen",
+   "start": 0.992791,
+   "end": 1.236416
+  },
+  {
+   "text": "a",
+   "start": 1.247041,
+   "end": 1.278832
+  },
+  {
+   "text": "sus",
+   "start": 1.289416,
+   "end": 1.448332
+  },
+  {
+   "text": "vecinos",
+   "start": 1.458916,
+   "end": 1.893249
+  },
+  {
+   "text": "si",
+   "start": 2.105083,
+   "end": 2.285166
+  },
+  {
+   "text": "es",
+   "start": 2.29575,
+   "end": 2.401666
+  },
+  {
+   "text": "distinta",
+   "start": 2.412291,
+   "end": 2.888999
+  },
+  {
+   "text": "a",
+   "start": 2.899583,
+   "end": 3.005499
+  },
+  {
+   "text": "ellos",
+   "start": 3.016083,
+   "end": 3.355083
+  },
+  {
+   "text": "la",
+   "start": 3.566958,
+   "end": 3.662291
+  },
+  {
+   "text": "acercan",
+   "start": 3.672875,
+   "end": 4.160166
+  }
+ ]
+}

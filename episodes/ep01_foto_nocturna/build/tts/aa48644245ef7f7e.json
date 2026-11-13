@@ -1,0 +1,81 @@
+{
+ "text": "En una fila del letrero, si todos los resortes tiran igual, los bordes se aplanan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "una",
+   "start": 0.251291,
+   "end": 0.399582
+  },
+  {
+   "text": "fila",
+   "start": 0.410166,
+   "end": 0.632624
+  },
+  {
+   "text": "del",
+   "start": 0.643208,
+   "end": 0.770333
+  },
+  {
+   "text": "letrero",
+   "start": 0.780916,
+   "end": 1.183457
+  },
+  {
+   "text": "si",
+   "start": 1.427125,
+   "end": 1.564833
+  },
+  {
+   "text": "todos",
+   "start": 1.575416,
+   "end": 1.893207
+  },
+  {
+   "text": "los",
+   "start": 1.903833,
+   "end": 2.030958
+  },
+  {
+   "text": "resortes",
+   "start": 2.041541,
+   "end": 2.497041
+  },
+  {
+   "text": "tiran",
+   "start": 2.507625,
+   "end": 2.740666
+  },
+  {
+   "text": "igual",
+   "start": 2.751291,
+   "end": 3.058499
+  },
+  {
+   "text": "los",
+   "start": 3.323291,
+   "end": 3.450416
+  },
+  {
+   "text": "bordes",
+   "start": 3.461,
+   "end": 3.757625
+  },
+  {
+   "text": "se",
+   "start": 3.768208,
+   "end": 3.831749
+  },
+  {
+   "text": "aplanan",
+   "start": 3.842375,
+   "end": 4.287291
+  }
+ ]
+}

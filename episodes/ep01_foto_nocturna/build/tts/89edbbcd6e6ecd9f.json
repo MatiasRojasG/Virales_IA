@@ -1,0 +1,106 @@
+{
+ "text": "Con cientos de brillos por punto y doce millones de puntos, hay más fotos posibles que átomos en el universo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "cientos",
+   "start": 0.283041,
+   "end": 0.600832
+  },
+  {
+   "text": "de",
+   "start": 0.611458,
+   "end": 0.674999
+  },
+  {
+   "text": "brillos",
+   "start": 0.685583,
+   "end": 1.024583
+  },
+  {
+   "text": "por",
+   "start": 1.035166,
+   "end": 1.204666
+  },
+  {
+   "text": "punto",
+   "start": 1.21525,
+   "end": 1.490666
+  },
+  {
+   "text": "y",
+   "start": 1.501291,
+   "end": 1.543666
+  },
+  {
+   "text": "doce",
+   "start": 1.55425,
+   "end": 1.8085
+  },
+  {
+   "text": "millones",
+   "start": 1.819083,
+   "end": 2.189833
+  },
+  {
+   "text": "de",
+   "start": 2.200416,
+   "end": 2.274582
+  },
+  {
+   "text": "puntos",
+   "start": 2.285166,
+   "end": 2.708874
+  },
+  {
+   "text": "hay",
+   "start": 2.92075,
+   "end": 3.047875
+  },
+  {
+   "text": "más",
+   "start": 3.058458,
+   "end": 3.238541
+  },
+  {
+   "text": "fotos",
+   "start": 3.249166,
+   "end": 3.545791
+  },
+  {
+   "text": "posibles",
+   "start": 3.556375,
+   "end": 3.990708
+  },
+  {
+   "text": "que",
+   "start": 4.001291,
+   "end": 4.128416
+  },
+  {
+   "text": "átomos",
+   "start": 4.139,
+   "end": 4.499166
+  },
+  {
+   "text": "en",
+   "start": 4.50975,
+   "end": 4.5945
+  },
+  {
+   "text": "el",
+   "start": 4.605083,
+   "end": 4.700416
+  },
+  {
+   "text": "universo",
+   "start": 4.711,
+   "end": 5.198291
+  }
+ ]
+}

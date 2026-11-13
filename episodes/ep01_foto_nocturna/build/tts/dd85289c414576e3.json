@@ -1,0 +1,31 @@
+{
+ "text": "Y los resortes tienen fórmula:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "los",
+   "start": 0.208916,
+   "end": 0.367832
+  },
+  {
+   "text": "resortes",
+   "start": 0.378375,
+   "end": 0.855083
+  },
+  {
+   "text": "tienen",
+   "start": 0.865666,
+   "end": 1.141082
+  },
+  {
+   "text": "fórmula",
+   "start": 1.151708,
+   "end": 1.596624
+  }
+ ]
+}

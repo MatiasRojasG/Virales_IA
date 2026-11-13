@@ -75,12 +75,12 @@ def visible(cs):
 def photo_layers(t):
     """(base, [(clave, clip)]) en coordenadas de la foto."""
     c = CUE
-    if t < c["flash"]:
-        return "dark", []
+    if t >= c["loop0"]:                       # empalme con el primer cuadro
+        return "noisy", []
     if t < c["reveal0"]:
         return "noisy", []
     if t < c["rw0"]:
-        u = in_out_cubic((t - c["reveal0"]) / 1.0)
+        u = in_out_cubic((t - c["reveal0"]) / 0.9)
         return "noisy", [("good", ("rect", -1, -1, PW + 1, lerp(-1, PH + 1, u)))]
     if t < c["rw1"]:
         u = 1 - in_cubic((t - c["rw0"]) / (c["rw1"] - c["rw0"]))
@@ -241,17 +241,29 @@ def spotlight(P, t, cs):
     P.c.drawCircle(x, y, r, paint(C.CYAN, 0.35, stroke=3))
 
 
+def headline(P, t, line1, line2, col2, a, s=1.0):
+    if a <= 0: return
+    vband(P, 300, 470, 0.0, 0.75 * a); P.rect(0, 470, C.W, 580, C.BG, 0.75 * a); vband(P, 580, 680, 0.75 * a, 0.0)
+    size1 = min(92, 92 * 960 / max(1, P.text_width(line1, 92, C.FONT_BLACK)))
+    with P.transform(0, 0, s, cx=540, cy=470):
+        P.text(line1, 540, 440, size1, C.WHITE, a, face=C.FONT_BLACK)
+        P.text(line2, 540, 560, 118, col2, a, face=C.FONT_BLACK, glow=0.6)
+
+
 def screen_labels(P, t, cs):
     c = CUE
-    # hook
-    a = window(t, c["granitos"] - 0.1, c["reveal0"] + 0.2, 0.3, 0.3)
-    P.pill("FOTO REAL DEL SENSOR", 540, 330, 32, C.PINK, a)
-    a = window(t, c["reveal0"] + 0.3, c["rw0"] + 0.1, 0.3, 0.3)
-    P.pill("LO QUE MUESTRA EL CELULAR", 540, 330, 32, C.CYAN, a)
+    # hook: titular presente desde el cuadro 0 (sin fundido de entrada)
+    a1 = 1 - prog(t, c["reveal0"] - 0.15, c["reveal0"] + 0.05)
+    headline(P, t, "TU CÁMARA VIO", "ESTO", C.PINK, a1, 1.0 + 0.12 * (1 - out_back(prog(t, 0, 0.35))))
+    a2 = window(t, c["reveal0"], c["novio"] - 0.1, 0.15, 0.3)
+    headline(P, t, "TU CELULAR TE MOSTRÓ", "ESTO", C.CYAN, a2, 0.9 + 0.1 * out_back(prog(t, c["reveal0"], c["reveal0"] + 0.35)))
     aq = window(t, c["novio"] - 0.2, c["luz0"] + 0.4, 0.3, 0.3)
     if aq > 0:
-        P.text("?", 540, 1180, 210, C.CYAN, out_back(prog(t, c["novio"] - 0.2, c["novio"] + 0.3)) * aq,
+        P.text("?", 540, 520, 210, C.CYAN, out_back(prog(t, c["novio"] - 0.2, c["novio"] + 0.3)) * aq,
                face=C.FONT_BLACK, glow=0.8)
+    # empalme final: el mismo titular que abre el video
+    al = prog(t, c["loop0"], c["loop0"] + 0.25)
+    headline(P, t, "TU CÁMARA VIO", "ESTO", C.PINK, al)
     # gotas
     a = window(t, c["gotas"], c["moteado"] + 0.3, 0.3, 0.3)
     P.pill("cada número = gotas de luz que llegaron", 540, 360, 32, C.WHITE, a, fill_a=0.08)
@@ -271,10 +283,10 @@ def screen_labels(P, t, cs):
         v = lerp(n0, D["avg9_count"], prog(t, c["corr"], c["corr"] + 0.8, in_out_cubic))
         P.pill(f"{n0} gotas  →  promedio del vecindario: {fmt(v, 1)}", 540, 1270, 30, C.VIOLET, a)
     # letrero ilegible
-    a = window(t, c["bordes"], c["res0"] + 0.4, 0.3, 0.4)
+    a = window(t, c["bordes"], c["b0"] + 0.4, 0.3, 0.4)
     P.pill("ILEGIBLE", 540, 1180, 40, C.PINK, out_back(prog(t, c["ilegible"] - 0.2, c["ilegible"] + 0.3)) * a)
     P.text("el muro quedó limpio... y los bordes también se fueron", 540, 360, 30, C.GRAY,
-           window(t, c["bordes"] - 0.2, c["res0"] + 0.3, 0.3, 0.3), face=C.FONT_MED)
+           window(t, c["bordes"] - 0.2, c["b0"] + 0.3, 0.3, 0.3), face=C.FONT_MED)
 
 
 def zigzag(P, x0, y0, x1, y1, rgb, a, w=3, coils=6, amp=12):
@@ -305,10 +317,10 @@ def chain_state(t):
     """Posiciones de las cuentas y pesos de los resortes entre vecinos en el tiempo t."""
     c = CUE
     A, B = D["chainA"], D["chainB"]
-    if t < c["sp_vec"]:
+    if t < c["sp_flat"]:
         return A[0], np.ones(len(A[0]) - 1)
     if t < c["suelta"]:
-        k = int(clamp((t - c["sp_vec"]) / 2.6) * (len(A) - 1))
+        k = int(clamp((t - c["sp_flat"]) / 2.4) * (len(A) - 1))
         return A[k], np.ones(len(A[0]) - 1)
     u = clamp((t - c["suelta"]) / 2.6)
     k = int(out_cubic(u) * (len(B) - 1))
@@ -337,14 +349,14 @@ def resortes(P, t, cs):
         P.line(CH_X0 - 40, CH_Y0 + 40, CH_X1 + 40, CH_Y0 + 40, C.DIM, 1, w=3)
         P.text("brillo", CH_X0 - 50, CH_Y1 - 30, 28, C.GRAY, 1, face=C.FONT_MED, align="left")
         P.text("una fila de puntos del letrero →", CH_X1 + 40, CH_Y0 + 92, 28, C.GRAY, 1, face=C.FONT_MED, align="right")
-        al = prog(t, c["sp_cam"] - 0.2, c["sp_cam"] + 0.3)
+        al = prog(t, c["sp0"] + 0.3, c["sp0"] + 0.8)
         P.rich([("■ ", C.CYAN), ("lo que vio la cámara     ", C.GRAY), ("● ", C.WHITE), ("punto corregido", C.GRAY)],
                540, CH_Y1 - 70, 30, al, face=C.FONT_MED)
         # de dónde salen: fila resaltada en la foto
         sx0, sy_ = to_screen(cs, RX0, ROW + .5); sx1, _ = to_screen(cs, RX1 + 1, ROW + .5)
         P.rect(sx0, sy_ - 8, sx1, sy_ + 8, C.CYAN, 0.6 * (1 - rise))
-        a_cam = prog(t, c["sp_cam"] - 0.2, c["sp_cam"] + 0.3)
-        a_vec = prog(t, c["sp_vec"] - 0.2, c["sp_vec"] + 0.3)
+        a_cam = prog(t, c["sp0"] + 0.5, c["sp0"] + 1.0)
+        a_vec = prog(t, c["sp0"] + 0.7, c["sp0"] + 1.2)
         for i in range(n):
             bx = lerp(lerp(sx0, sx1, i / (n - 1)), xs[i], rise)
             by = lerp(sy_, chain_y(x[i]), rise)
@@ -432,12 +444,183 @@ def hud_iter(P, t):
     P.pill(f"pasada {lv[k]}", 540, 330, 40, C.WHITE, a, fill_a=0.08)
 
 
-def revelacion(P, t, cs):
+# ---------- una sola bolita: cada resorte por separado
+BX, BXL, BXR = 540, 290, 790
+
+
+def arrow_v(P, x, y0, y1, rgb, a, w=7, head=22):
+    if a <= 0 or abs(y1 - y0) < 6: return
+    P.arrow(x, y0, x, y1, rgb, a, w=w, head=min(head, abs(y1 - y0) * 0.8))
+
+
+def bolita(P, t):
     c = CUE
-    # deslizador antes / después en la pantalla del celular
-    us = window(t, c["cel"] - 0.1, c["puente0"] + 0.2, 0.6, 0.4)
+    a = window(t, c["b0"], c["sp0"] + 0.2, 0.5, 0.5)
+    if a <= 0: return
+    yc, n1, n2, beta = D["b_cam"], D["b_n1"], D["b_n2"], D["chain_beta"]
+    xeq = (yc + beta * (n1 + n2)) / (1 + 2 * beta)
+    # posición de la bolita
+    v = yc
+    # 1) arrastre y regreso (resorte de la cámara)
+    td = c["b_aleja"]
+    if td - 0.3 <= t < c["b_vec"]:
+        drag = -0.30 * smooth(prog(t, td - 0.3, td + 0.25))
+        if t > td + 0.55:
+            drag = -0.30 * (1 - spring(t - (td + 0.55)) )
+        v = yc + drag
+    # 2) los vecinos la acercan hasta el equilibrio
+    if t >= c["b_acerca"]:
+        u = spring((t - c["b_acerca"]) * 0.9, freq=6, damp=4)
+        v = lerp(yc, xeq, u)
+    with P.layer(a):
+        # eje de brillo
+        P.arrow(150, chain_y(0) + 30, 150, chain_y(1) - 30, C.GRAY, 1, w=4, head=20)
+        P.text("más brillante", 175, chain_y(1) - 10, 28, C.GRAY, 1, face=C.FONT_MED, align="left")
+        P.text("más oscuro", 175, chain_y(0) + 20, 28, C.GRAY, 1, face=C.FONT_MED, align="left")
+        by = chain_y(v)
+        # resorte a la cámara
+        ac = prog(t, c["b_cam_t"] - 0.2, c["b_cam_t"] + 0.3)
+        if ac > 0:
+            gy = chain_y(yc)
+            P.rect(BX - 22, gy - 22, BX + 22, gy + 22, C.CYAN, ac, stroke=4, radius=4)
+            P.text("lo que midió la cámara", BX + 50, gy + 10, 30, C.CYAN, ac, face=C.FONT_SEMI, align="left")
+            if abs(by - gy) > 6:
+                zigzag(P, BX, by, BX, gy, C.CYAN, ac, w=4, coils=5, amp=16)
+                # fuerza del resorte de la cámara (hacia el marcador)
+                arrow_v(P, BX - 70, by, by + (gy - by) * 0.75, C.CYAN, ac)
+        # vecinos
+        av = prog(t, c["b_vec"] - 0.2, c["b_vec"] + 0.4)
+        if av > 0:
+            for xn, vn in ((BXL, n1), (BXR, n2)):
+                ny = chain_y(vn)
+                zigzag(P, BX, by, xn, ny, C.VIOLET, av, w=4, coils=5, amp=14)
+                P.circle(xn, ny, 34, (0.35, 0.33, 0.36), av)
+                P.circle(xn, ny, 34, C.VIOLET, av, stroke=4)
+                P.text("vecino", xn, ny + 76, 30, C.VIOLET, av, face=C.FONT_SEMI)
+            if t >= c["b_acerca"] - 0.2:
+                pull = (by - chain_y((n1 + n2) / 2))
+                arrow_v(P, BX + 70, by, by - pull * 0.6, C.VIOLET, av)
+        # la bolita
+        col = lerp_c((0.85, 0.82, 0.78), (0.35, 0.33, 0.36), clamp((yc - v) / max(1e-3, yc - xeq)))
+        P.circle(BX, by, 40, col, 1)
+        P.circle(BX, by, 40, C.WHITE, 1, stroke=4)
+        P.text("un punto", BX, by - 60, 30, C.WHITE, prog(t, c["b0"], c["b0"] + 0.4) * (1 - prog(t, c["b_cam_t"], c["b_cam_t"] + 0.3)),
+               face=C.FONT_SEMI)
+        # equilibrio
+        ae = prog(t, c["b_eq"] - 0.2, c["b_eq"] + 0.3)
+        P.pill("fuerzas equilibradas", 540, 420, 38, C.WHITE, out_back(ae), fill_a=0.08)
+
+
+# ---------- la idea completa: fórmula ↔ resortes
+EQ = {}
+
+
+def eqs():
+    if not EQ:
+        from reelforge.mathtex import Equation
+        EQ["E"] = Equation([r"E(x)", "=", (r"\sum_i (x_i - y_i)^2", C.CYAN), "+",
+                            (r"\beta \sum_{i \sim j} \rho(x_i - x_j)", C.VIOLET)])
+        EQ["P"] = Equation([r"P(x \mid y)", r"\propto", (r"e^{-E(x)}", C.WHITE)])
+        EQ["F"] = Equation([r"=", (r"\prod_i \phi_i(x_i, y_i)", C.CYAN), (r"\prod_{i \sim j} \psi_{ij}(x_i, x_j)", C.VIOLET)])
+    return EQ
+
+
+def formula(P, t):
+    c = CUE
+    a = window(t, c["f_form"] - 0.2, c["u0"] + 0.2, 0.5, 0.5)
+    if a <= 0: return
+    E = eqs()
+    with P.layer(a):
+        size = min(78, 950 / (E["E"].width / 100))
+        pp = [prog(t, c["f_form"] - 0.1, c["f_form"] + 0.4, lambda v: v)] * 2 \
+            + [prog(t, c["f_obs"] - 0.6, c["f_obs"], lambda v: v)] \
+            + [prog(t, c["f_dif"] - 0.6, c["f_dif"], lambda v: v)] * 2
+        gc = pulse(t, c["f_obs"] - 0.3, 1.2); gv = pulse(t, c["f_dif"] - 0.3, 1.2)
+        E["E"].draw(P, 540, 640, size=size, part_prog=pp, glow={2: gc, 4: gv})
+        # cada término con su resorte
+        for i, col, lab, tt in ((2, C.CYAN, "resorte a la cámara", c["f_obs"]), (4, C.VIOLET, "resortes entre vecinos", c["f_dif"])):
+            al = prog(t, tt - 0.4, tt + 0.1)
+            if al <= 0: continue
+            x, y = E["E"].part_center(i, 540, 640, size)
+            zigzag(P, x - 60, y + 95, x + 60, y + 95, col, al, w=4, coils=5, amp=12)
+            P.circle(x - 60, y + 95, 10, col, al); P.circle(x + 60, y + 95, 10, C.WHITE, al)
+            P.text(lab, x, y + 150, 30, col, al, face=C.FONT_SEMI)
+            P.text("datos" if i == 2 else "suavidad", x, y + 186, 26, C.GRAY, al, face=C.FONT_MED)
+        ae = prog(t, c["f_en"] - 0.3, c["f_en"] + 0.2)
+        P.text("energía = tensión total de todos los resortes", 540, 520, 32, C.WHITE, ae, face=C.FONT_SEMI)
+        ap = prog(t, c["f_prob"] - 0.6, c["f_prob"])
+        E["P"].draw(P, 540, 960, size=82, reveal=ap)
+        P.text("menos energía  →  foto más probable", 540, 1060, 32, C.CYAN, prog(t, c["f_prob"], c["f_prob"] + 0.4), face=C.FONT_SEMI)
+        af = prog(t, c["f_prob"] + 0.8, c["f_prob"] + 1.4)
+        if af > 0:
+            E["F"].draw(P, 540, 1140, size=54, reveal=af)
+            P.text("en la clase: factores φ (datos) y ψ (vecinos), multiplicados", 540, 1268, 26, C.GRAY, af, face=C.FONT_MED)
+
+
+# ---------- dónde más se usa
+def tile_card(P, cx, cy, a):
+    P.rect(cx - 150, cy - 150, cx + 150, cy + 150, (0, 0, 0), 0.5 * a, radius=26, blur=22)
+    P.rect(cx - 150, cy - 150, cx + 150, cy + 150, C.BG2, a, radius=26)
+    P.rect(cx - 150, cy - 150, cx + 150, cy + 150, C.WHITE, 0.15 * a, stroke=2, radius=26)
+
+
+def label_map(P, cx, cy, noisy, clean, u, cols, a, size=260):
+    n = noisy.shape[0]
+    s = size / n
+    x0, y0 = cx - size / 2, cy - size / 2
+    wave = u * (n * 1.5)
+    for r in range(n):
+        for col in range(n):
+            lab = clean[r, col] if (r + col) * 0.75 < wave else noisy[r, col]
+            P.rect(x0 + col * s, y0 + r * s, x0 + (col + 1) * s + 0.6, y0 + (r + 1) * s + 0.6, cols[lab], a)
+
+
+def usos(P, t):
+    c = CUE
+    a = window(t, c["u0"] - 0.1, c["cierre0"] + 0.3, 0.5, 0.5)
+    if a <= 0: return
+    tiles = [(540, 560, c["u_doc"], "Documentos escaneados", "doc"),
+             (540, 900, c["u_tum"], "Resonancias", "mri"),
+             (540, 1240, c["u_sat"], "Satélites", "sat")]
+    with P.layer(a):
+        for k, (cx, cy, ts, lab, kind) in enumerate(tiles):
+            ak = prog(t, ts - 0.3, ts + 0.2)
+            if ak <= 0: continue
+            s_ = 0.85 + 0.15 * out_back(prog(t, ts - 0.3, ts + 0.3))
+            u = prog(t, ts + 0.2, ts + 1.6, in_out_cubic)
+            xc = 330
+            with P.transform(0, 0, s_, cx=xc, cy=cy):
+                if kind == "doc":
+                    w_, h_ = 300, 300 * D["doc_noisy"].shape[0] / D["doc_noisy"].shape[1]
+                    P.rect(xc - 160, cy - h_ / 2 - 12, xc + 160, cy + h_ / 2 + 12, C.PAPER, ak, radius=14)
+                    im_n = image("docn", D["doc_noisy"]); im_c = image("docc", D["doc_clean"])
+                    pp = skia.Paint(); pp.setAlphaf(ak)
+                    P.c.drawImageRect(im_n, skia.Rect(xc - 150, cy - h_ / 2, xc + 150, cy + h_ / 2), CUBIC, pp)
+                    P.c.save(); P.c.clipRect(skia.Rect(xc - 150, cy - h_ / 2, xc - 150 + 300 * u, cy + h_ / 2))
+                    P.c.drawImageRect(im_c, skia.Rect(xc - 150, cy - h_ / 2, xc + 150, cy + h_ / 2), CUBIC, pp)
+                    P.c.restore()
+                else:
+                    noisy, clean = D[kind]
+                    cols = ([(0.16, 0.19, 0.27), (0.62, 0.66, 0.74), C.PINK] if kind == "mri"
+                            else [C.GREEN, (0.85, 0.75, 0.3), (0.2, 0.45, 0.9), C.GRAY])
+                    tile_card(P, xc, cy, ak)
+                    label_map(P, xc, cy, noisy, clean, u, cols, ak)
+            P.text(lab, 540, cy - 10, 40, C.WHITE, ak, face=C.FONT_BOLD, align="left")
+            sub = {"doc": "puntos: tinta o papel", "mri": "puntos: tejido sano o lesión",
+                   "sat": "puntos: bosque, cultivo, ciudad o agua"}[kind]
+            P.text(sub, 540, cy + 36, 28, C.GRAY, ak, face=C.FONT_MED, align="left")
+        P.text("Ilustración simplificada: los celulares reales combinan", 540, 330, 26, C.GRAY,
+               prog(t, c["u0"] + 0.5, c["u0"] + 1.0), face=C.FONT_MED)
+        P.text("varias tomas y redes neuronales, con esta misma idea de fondo.", 540, 362, 26, C.GRAY,
+               prog(t, c["u0"] + 0.5, c["u0"] + 1.0), face=C.FONT_MED)
+
+
+def cierre(P, t, cs):
+    c = CUE
+    # deslizador antes / después en el celular mientras se responde la pregunta inicial
+    us = window(t, c["cierre0"] + 0.6, c["vec_end"] + 0.2, 0.6, 0.4)
     if us > 0:
-        xsl = PW * (0.5 + 0.32 * math.sin((t - c["cel"]) * 1.4))
+        xsl = PW * (0.5 + 0.32 * math.sin((t - c["cierre0"]) * 1.4))
         x_s, y_t = to_screen(cs, xsl, 0); _, y_b = to_screen(cs, xsl, PH)
         xl, _ = to_screen(cs, 0, 0)
         cx, cy, z, sy = cs
@@ -448,28 +631,6 @@ def revelacion(P, t, cs):
             P.c.restore()
             P.line(x_s, y_t, x_s, y_b, C.CYAN, 1, w=5, glow=True)
             P.glow_circle(x_s, (y_t + y_b) / 2, 16, C.CYAN, 1)
-    a = window(t, c["markov"] - 0.1, c["cel"] + 0.2, 0.3, 0.4)
-    P.pill("RED DE MARKOV", 540, 330, 44, C.VIOLET, out_back(prog(t, c["markov"] - 0.1, c["markov"] + 0.3)) * a)
-    a = prog(t, c["cel"], c["cel"] + 0.5) * (1 - prog(t, c["puente0"], c["puente0"] + 0.4))
-    P.text("Ilustración simplificada: los celulares reales", 540, 336, 26, C.GRAY, a, face=C.FONT_MED)
-    P.text("combinan varias tomas y redes neuronales.", 540, 368, 26, C.GRAY, a, face=C.FONT_MED)
-
-
-def puente(P, t):
-    c = CUE
-    a = prog(t, c["puente0"], c["puente0"] + 0.6)
-    if a <= 0: return
-    doc = D.get("doc")
-    if doc is not None:
-        h, w = doc.shape
-        dw = 900; dh = dw * h / w
-        s = 0.9 + 0.1 * out_back(a)
-        with P.transform(0, 0, s, cx=540, cy=760):
-            P.rect(90 - 14, 760 - dh / 2 - 14, 990 + 14, 760 + dh / 2 + 14, C.PAPER, a, radius=18)
-            im = image("doc", D["doc_rgba"])
-            pp = skia.Paint(); pp.setAlphaf(a)
-            P.c.drawImageRect(im, skia.Rect(90, 760 - dh / 2, 990, 760 + dh / 2), CUBIC, pp)
-    P.pill(EP["next"].upper(), 540, 1080, 36, C.CYAN, prog(t, c["proximo"] - 0.2, c["proximo"] + 0.3))
 
 
 # =============================================================== composición
@@ -503,31 +664,44 @@ def setup(tl, data, episode):
     es = [chain_energy(v, None) for v in A + B]
     D["E_max"], D["E_min"] = max(es), min(es)
 
+    # bolita: el punto protagonista (8 gotas) y sus vecinos izquierdo/derecho, en brillo
+    lum = lambda p: float(np.dot(p, [0.299, 0.587, 0.114]))
+    D["b_cam"] = lum(noisy[WY, WX])
+    nbm = (sum(lum(noisy[WY + dy, WX + dx]) for dy in (-1, 0, 1) for dx in (-1, 0, 1)) - D["b_cam"]) / 8
+    D["b_n1"] = D["b_n2"] = nbm           # el vecindario promedio (ver "promedio del vecindario")
+    D["mri"], D["sat"] = mini_maps()
+
     c = {}
-    c["flash"] = 0.35
-    c["granitos"] = T("hook", "granitos"); c["reveal0"] = T("hook", "esta")
-    c["novio"] = T("hook", "vio"); c["rw1"] = T("luz") + 0.1; c["rw0"] = c["rw1"] - 0.5
+    c["flash"] = -10.0                         # sin destello: el video abre ya dentro de la foto
+    c["esto2"] = T("hook", "esto", 1); c["reveal0"] = c["esto2"] - 0.25
+    c["novio"] = T("hook", "vio", 1); c["rw1"] = T("luz") + 0.1; c["rw0"] = c["rw1"] - 0.5
     c["luz0"] = T("luz"); c["gotas"] = T("luz", "gotas"); c["moteado"] = T("luz", "moteado")
     c["dif0"] = T("dificil"); c["solo"] = T("dificil", "solo"); c["verdad"] = T("dificil", "verdad")
     c["ruido"] = T("dificil", "ruido")
     c["lado"] = T("vecinos", "lado"); c["corr"] = T("vecinos", "corregirse")
     c["avg0"] = T("vecinos", "vecinos", end=True) + 0.1
-    c["bordes"] = T("exceso", "bordes"); c["ilegible"] = T("exceso", "ilegible"); c["res0"] = T("resortes")
-    c["sp0"] = T("resortes"); c["sp_cam"] = T("resortes", "cámara"); c["sp_vec"] = T("resortes", "vecinos")
+    c["bordes"] = T("exceso", "bordes"); c["ilegible"] = T("exceso", "ilegible")
+    c["b0"] = T("bolita"); c["b_cam_t"] = T("bolita", "midió"); c["b_aleja"] = T("bolita", "aleja")
+    c["b_vec"] = T("bolita", "vecinos"); c["b_acerca"] = T("bolita", "acercan"); c["b_eq"] = T("bolita", "equilibran")
+    c["sp0"] = T("resortes"); c["sp_flat"] = T("resortes", "igual")
     c["suelta"] = T("resortes", "suelta"); c["tension"] = T("resortes", "tensión")
     c["probable"] = T("resortes", "probable")
     c["calc0"] = T("calculo"); c["brillos"] = T("calculo", "brillos"); c["millones"] = T("calculo", "doce")
     c["atomos"] = T("calculo", "átomos"); c["it0"] = T("calculo", "acomoda"); c["it_dt"] = 0.62
-    c["markov"] = T("revelacion", "Markov"); c["cel"] = T("revelacion", "celular")
-    c["alrededor"] = T("revelacion", "alrededor")
-    c["puente0"] = T("puente"); c["proximo"] = T("puente", "próximo")
+    c["markov"] = T("formula", "Markov"); c["f_form"] = T("formula", "fórmula")
+    c["f_obs"] = T("formula", "observado"); c["f_dif"] = T("formula", "diferencias")
+    c["f_en"] = T("formula", "energía"); c["f_prob"] = T("formula", "probable")
+    c["u0"] = T("usos"); c["u_doc"] = T("usos", "documentos"); c["u_tum"] = T("usos", "tumores")
+    c["u_sat"] = T("usos", "bosques")
+    c["cierre0"] = T("cierre"); c["vec_end"] = T("cierre", "vecinos", end=True)
+    c["loop0"] = c["vec_end"] + 0.35
     CUE = c
 
-    # visibilidad del celular
-    def phone_a(t):
-        return 1 - prog(t, c["granitos"] - 0.2, c["granitos"] + 0.8) + prog(t, c["markov"] + 0.6, c["cel"] + 0.2)
-    D["phone_a"] = lambda t: clamp(phone_a(t))
+    # visibilidad del celular: al preguntar y al responder
+    D["phone_a"] = lambda t: clamp(window(t, c["novio"] - 0.5, c["gotas"] - 0.3, 0.6, 0.8)
+                                   + window(t, c["cierre0"], c["vec_end"] + 0.1, 0.8, 0.4))
 
+    HOOKS = state(180, 445, 4.4, 880)            # primer cuadro: el letrero con ruido
     PHONE = state(PW / 2, PH / 2 + 25, 1.25, 840)
     PHOTO = state(PW / 2, PH / 2, 3.0, 960)
     WALL = state(WX + .5, WY + .5, 115, 900)
@@ -538,17 +712,18 @@ def setup(tl, data, episode):
     SIGN_DOF = state(180, 437, 5.2, 820)
     REV = state(PW / 2, PH / 2 + 25, 1.2, 870)
     KEYS = [
-        (0.0, PHONE), (c["granitos"] - 0.2, PHONE), (c["granitos"] + 1.0, PHOTO),
-        (c["luz0"] + 0.2, PHOTO), (c["gotas"] - 0.1, WALL),
+        (0.0, HOOKS), (c["novio"] - 0.5, HOOKS), (c["novio"] + 0.8, PHONE),
+        (c["luz0"] + 0.3, PHONE), (c["gotas"] - 0.1, WALL),
         (c["moteado"] - 0.3, WALL), (c["moteado"] + 0.9, WALL_OUT),
         (c["solo"] - 0.4, WALL_OUT), (c["solo"] + 0.8, ONE),
         (c["lado"] - 0.3, ONE), (c["lado"] + 0.8, NB),
         (c["avg0"] - 0.3, NB), (c["avg0"] + 2.2, PHOTO),
         (c["bordes"] - 0.2, PHOTO), (c["ilegible"] + 0.2, SIGN),
-        (c["sp0"], SIGN), (c["sp0"] + 1.2, SIGN_DOF),
+        (c["b0"], SIGN), (c["b0"] + 1.2, SIGN_DOF),
         (c["calc0"], SIGN_DOF), (c["it0"] - 0.6, PHOTO),
-        (c["markov"] + 0.6, PHOTO), (c["cel"] + 0.2, REV),
-        (tl.duration + 1, REV),
+        (c["cierre0"], PHOTO), (c["cierre0"] + 1.0, REV),
+        (c["vec_end"] - 0.7, REV), (c["loop0"], HOOKS),
+        (tl.duration + 1, HOOKS),
     ]
     CHUNKS = tl.chunks(SUB.measure, max_words=4)
 
@@ -558,19 +733,22 @@ def draw_frame(P, t):
     P.background(t, accent=0.3 * prog(t, c["markov"], c["markov"] + 1))
     cs = cam(t)
     blur = 0.0
-    blur = max(blur, 18 * window(t, c["sp0"] + 0.2, c["it0"] - 0.3, 0.8, 0.6))
-    blur = max(blur, 16 * prog(t, c["puente0"], c["puente0"] + 0.5))
-    wa = 1 - 0.75 * prog(t, c["puente0"], c["puente0"] + 0.5)
-    draw_blurred(P, lambda q: draw_world(q, t, cs), blur, alpha=wa)
+    blur = max(blur, 18 * window(t, c["b0"] + 0.2, c["it0"] - 0.3, 0.8, 0.6))
+    blur = max(blur, 18 * window(t, c["f_form"] - 0.3, c["cierre0"] + 0.4, 0.7, 0.7))
+    draw_blurred(P, lambda q: draw_world(q, t, cs), blur)
     dim = 0.72 * blur / 18
     if dim > 0: P.rect(0, 0, C.W, C.H, C.BG, dim)
     spotlight(P, t, cs)
     screen_labels(P, t, cs)
+    bolita(P, t)
     resortes(P, t, cs)
     combinaciones(P, t)
     hud_iter(P, t)
-    revelacion(P, t, cs)
-    puente(P, t)
+    a_mk = window(t, c["markov"] - 0.1, c["f_form"], 0.3, 0.3)
+    P.pill("RED DE MARKOV", 540, 360, 44, C.VIOLET, out_back(prog(t, c["markov"] - 0.1, c["markov"] + 0.3)) * a_mk)
+    formula(P, t)
+    usos(P, t)
+    cierre(P, t, cs)
     vignette(P, 0.45)
     vband(P, 0, 330, 0.85, 0.0)
     vband(P, 1230, C.H, 0.0, 0.9)
@@ -578,6 +756,34 @@ def draw_frame(P, t):
     P.text(EP["tag"], C.SAFE_LEFT + 34, 273, 28, C.WHITE, 0.85, face=C.FONT_BOLD, align="left", tracking=2)
     SUB.draw(P, CHUNKS, t)
     P.rect(0, C.H - 8, C.W * t / TL.duration, C.H, C.CYAN, 0.8)
+
+
+def mini_maps():
+    """Mapas de etiquetas con ruido y su versión suavizada (votación de vecinos)."""
+    rng = np.random.default_rng(5)
+    n = 26
+    yy, xx = np.mgrid[0:n, 0:n]
+    head = ((xx - 12.5) ** 2 + (yy - 12.5) ** 2) < 11.5 ** 2
+    tumor = ((xx - 15) ** 2 / 16 + (yy - 10) ** 2 / 10) < 1
+    mri = np.where(tumor, 2, np.where(head, 1, 0))
+    from scipy.ndimage import gaussian_filter
+    f = np.stack([gaussian_filter(rng.standard_normal((n, n)), 3) for _ in range(4)])
+    sat = f.argmax(0)
+
+    def noisy_clean(lab, k, p=0.2):
+        nz = lab.copy()
+        m = rng.random(lab.shape) < p
+        nz[m] = rng.integers(0, k, m.sum())
+        cur = nz.copy()
+        for _ in range(6):
+            votes = np.zeros((k,) + lab.shape)
+            for cc in range(k):
+                e = (cur == cc).astype(float)
+                P_ = np.pad(e, 1)
+                votes[cc] = 0.9 * (nz == cc) + P_[:-2, 1:-1] + P_[2:, 1:-1] + P_[1:-1, :-2] + P_[1:-1, 2:]
+            cur = votes.argmax(0)
+        return nz, cur
+    return noisy_clean(mri, 3), noisy_clean(sat, 4)
 
 
 def draw_cover(P, t=3.0):
@@ -602,17 +808,20 @@ def draw_cover(P, t=3.0):
 
 def sfx_cues(tl):
     c = CUE
-    cues = [(0.0, "swell", 0.5), (c["flash"] - 0.1, "thump", 0.9), (c["flash"] - 0.05, "tick", 1.0),
-            (c["granitos"], "whoosh", 0.5), (c["reveal0"] - 0.2, "riser", 0.5), (c["reveal0"] + 0.9, "ding", 0.8),
-            (c["rw0"], "rewind", 0.9), (c["gotas"] - 0.2, "whoosh", 0.6),
+    cues = [(0.0, "thump", 0.9), (0.0, "swell", 0.5),
+            (c["reveal0"] - 0.3, "riser", 0.5), (c["reveal0"] + 0.6, "ding", 0.8),
+            (c["novio"] - 0.4, "whoosh", 0.5), (c["rw0"], "rewind", 0.9), (c["gotas"] - 0.2, "whoosh", 0.6),
             (c["solo"] - 0.3, "whoosh", 0.5), (c["ruido"], "pop_low", 0.5),
             (c["lado"], "pop", 0.5), (c["corr"], "pop", 0.5), (c["avg0"], "whoosh_down", 0.5),
-            (c["ilegible"], "pop_low", 0.7), (c["sp0"], "whoosh", 0.5), (c["sp_cam"], "pop", 0.4),
-            (c["sp_vec"], "pop", 0.4), (c["suelta"], "pop_low", 0.7), (c["suelta"] + 0.15, "pop", 0.5),
+            (c["ilegible"], "pop_low", 0.7), (c["b0"], "whoosh", 0.5), (c["b_cam_t"], "pop", 0.5),
+            (c["b_aleja"] + 0.55, "pop_low", 0.5), (c["b_vec"], "pop", 0.5), (c["b_eq"], "ding", 0.5),
+            (c["sp0"], "whoosh", 0.4), (c["suelta"], "pop_low", 0.7), (c["suelta"] + 0.15, "pop", 0.5),
             (c["probable"], "ding", 0.6), (c["millones"], "riser", 0.4), (c["atomos"], "thump", 0.6),
-            (c["it0"] - 0.4, "whoosh_down", 0.5), (c["markov"], "swell", 0.8), (c["alrededor"], "ding", 0.6),
-            (c["puente0"], "whoosh", 0.5)]
-    # gotas de luz: ticks suaves y aleatorios
+            (c["it0"] - 0.4, "whoosh_down", 0.5), (c["markov"], "swell", 0.8),
+            (c["f_form"] - 0.3, "whoosh", 0.5), (c["f_obs"] - 0.3, "pop", 0.5), (c["f_dif"] - 0.3, "pop", 0.5),
+            (c["f_prob"], "ding", 0.6), (c["u0"], "whoosh", 0.5), (c["u_doc"], "pop", 0.5),
+            (c["u_tum"], "pop", 0.5), (c["u_sat"], "pop", 0.5), (c["cierre0"], "swell", 0.7),
+            (c["vec_end"] - 0.3, "ding", 0.8), (c["loop0"], "rewind", 0.6)]
     rng = np.random.default_rng(2)
     for tt in np.sort(c["gotas"] + rng.random(18) * 2.6):
         cues.append((float(tt), "tick", 0.25))
@@ -622,5 +831,5 @@ def sfx_cues(tl):
 
 def music_kw(tl):
     c = CUE
-    return {"arp_from": c["sp0"], "pulse": (c["it0"], c["puente0"]),
+    return {"arp_from": c["b0"], "pulse": (c["it0"], c["u0"]),
             "quiet": [(c["dif0"] - 0.3, c["lado"])]}

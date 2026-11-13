@@ -1,9 +1,10 @@
 # EP 01 — ¿Cómo limpia tu celular una foto nocturna? · Detrás del Algoritmo
 
-**Video:** `output/ep01_foto_nocturna.mp4`: 1080×1920, 60 fps, H.264 + AAC 48 kHz, **82,4 s**, −14,8 LUFS, pico −1 dBFS.
+**Video:** `output/ep01_foto_nocturna.mp4`: 1080×1920, 60 fps, H.264 + AAC 48 kHz, **105,8 s**, −14,0 LUFS, pico −1 dBFS.
 Se verificó lo siguiente:
 - No hay saltos de un solo cuadro.
-- Los subtítulos van 60 ms antes de la voz.
+- Los subtítulos van 50 ms antes de la voz.
+- El último cuadro empalma con el primero (loop).
 - El 95 % de la voz cae dentro de las palabras marcadas.
 
 | Archivo | Contenido |
@@ -82,16 +83,34 @@ No se explica la clase. La clase explica algo del mundo: **¿cómo puede una fot
 
 **Portada:** `output/portada.png`, con el celular partido en dos (sensor / resultado) y el titular «¿CÓMO LIMPIA TU CELULAR UNA FOTO DE NOCHE?».
 
-## Storyboard
+## Cambios de la v4
 
-| t (s) | Bloque | Lo que ocurre en pantalla |
-|---|---|---|
-| 0–8,5 | Hook | Celular, disparo con destello y foto granulada. La versión limpia se revela con un barrido y luego se rebobina; queda un «?». |
-| 8,5–16,6 | Luz | La cámara entra al muro. Caen gotas de luz en cada punto, con su conteo (0, 1, 5, 8…), y el muro parejo queda moteado. |
-| 16,6–21,6 | Difícil | Spotlight sobre un punto con 8 gotas: «¿brillo real?» / «¿ruido?». |
-| 21,6–27,3 | Vecinos | El foco se abre a 8 vecinos y el punto adopta el promedio (8 → 2,9). Una onda aplica el promedio a toda la foto. |
-| 27,3–32,8 | Exceso | El muro queda limpio, pero el letrero queda borroso y aparece «ILEGIBLE». |
-| 32,8–51,6 | Resortes | Una fila del letrero se convierte en cuentas con resortes. Primero se aplana; luego los resortes entre objetos distintos se sueltan (rosado) y los bordes vuelven. Se ven la barra de tensión y la de probabilidad. |
-| 51,6–65,6 | Cálculo | 1 punto equivale a 256 brillos; se cuentan 12 000 000 puntos; fotos posibles vs. átomos. La foto se limpia pasada a pasada. |
-| 65,6–77,4 | Revelación | Retícula «RED DE MARKOV». Se vuelve al celular con un deslizador antes/después y la aclaración en pantalla. |
-| 77,4–82,4 | Puente | El documento ilegible y «Próximo: el documento ilegible». |
+- **Primer segundo.** El video abre ya dentro de la foto con ruido, con el letrero en primer plano y el titular «TU CÁMARA VIO ESTO» presente desde el cuadro 0. En el segundo 3 la limpieza se revela con «TU CELULAR TE MOSTRÓ ESTO».
+- **Resortes explicados paso a paso** (bloque «bolita»):
+  1. Un punto es una bolita: más arriba, más brillante.
+  2. Un resorte cyan la amarra a lo que midió la cámara. Se la aleja y el resorte la devuelve, con una flecha de fuerza.
+  3. Aparecen dos vecinos con resortes violeta que la acercan.
+  4. La bolita se detiene donde las dos fuerzas se equilibran.
+
+  Recién entonces aparece la fila entera del letrero (aplanado, resortes sueltos y letras que vuelven).
+- **Idea completa en lugar de «eso, en el próximo»:**
+  - **Red de Markov.**
+  - **La fórmula leída como resortes.** E(x) = Σ(xᵢ − yᵢ)² (resorte a la cámara, datos) + β Σ ρ(xᵢ − xⱼ) (resortes entre vecinos, suavidad). La energía es la tensión total, y P(x | y) ∝ e^(−E) significa menos energía, foto más probable. Luego se iguala a la forma de la clase, ∏ φᵢ · ∏ ψᵢⱼ.
+  - **Dónde más se usa.** Documentos escaneados (con el documento real restaurado), resonancias y satélites, cada uno limpiándose en vivo con su significado de «punto». La aclaración sobre los celulares queda en pantalla.
+- **Cierre en loop.** «Así que ahora ya sabes de dónde sacó tu celular lo que la cámara no vio… de sus vecinos». La cámara vuelve al letrero con ruido y al mismo titular del primer cuadro.
+
+## Storyboard (v4)
+
+| Bloque | Lo que ocurre en pantalla |
+|---|---|
+| Hook (0–5,9 s) | Letrero con ruido y «TU CÁMARA VIO ESTO» desde el cuadro 0. Barrido cyan con «TU CELULAR TE MOSTRÓ ESTO». La cámara se aleja al celular y aparece un «?», luego se rebobina. |
+| Luz | La cámara entra al muro y caen gotas de luz, con su conteo en cada punto. El muro parejo queda moteado. |
+| Difícil | Spotlight sobre el punto con 8 gotas: «¿brillo real?» / «¿ruido?». |
+| Vecinos | Aparecen los 8 vecinos y el punto toma el promedio (8 → 2,9). Una onda promedia toda la foto. |
+| Exceso | El letrero queda «ILEGIBLE». |
+| Bolita | Una bolita en el eje de brillo, con su resorte a la cámara (se aleja y vuelve) y sus resortes a los vecinos. Termina en «fuerzas equilibradas». |
+| Resortes | Fila real del letrero: primero se aplana, después los resortes se sueltan y vuelven los bordes. Barras de tensión y de probabilidad. |
+| Cálculo | 256 brillos × 12 millones de puntos, frente a los átomos del universo. La foto se limpia pasada a pasada. |
+| Fórmula | «RED DE MARKOV». Cada término de la energía aparece con su resorte, luego P ∝ e^(−E) y ∏ φ · ∏ ψ. |
+| Usos | Documentos, resonancias y satélites limpiándose, más la aclaración sobre los celulares. |
+| Cierre | El celular con antes/después. «…de sus vecinos». Se vuelve al letrero con ruido y «TU CÁMARA VIO ESTO» (loop). |

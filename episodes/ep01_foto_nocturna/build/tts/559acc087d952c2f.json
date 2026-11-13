@@ -1,0 +1,51 @@
+{
+ "text": "los de los vecinos, cuánto te diferencias de ellos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "los",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "de",
+   "start": 0.283041,
+   "end": 0.346582
+  },
+  {
+   "text": "los",
+   "start": 0.357208,
+   "end": 0.473749
+  },
+  {
+   "text": "vecinos",
+   "start": 0.484333,
+   "end": 0.939833
+  },
+  {
+   "text": "cuánto",
+   "start": 1.151708,
+   "end": 1.416541
+  },
+  {
+   "text": "te",
+   "start": 1.427125,
+   "end": 1.511875
+  },
+  {
+   "text": "diferencias",
+   "start": 1.522458,
+   "end": 2.052124
+  },
+  {
+   "text": "de",
+   "start": 2.062708,
+   "end": 2.200416
+  },
+  {
+   "text": "ellos",
+   "start": 2.211,
+   "end": 2.592375
+  }
+ ]
+}

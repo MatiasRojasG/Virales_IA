@@ -1,0 +1,76 @@
+{
+ "text": "De noche, a cada punto del sensor le llegan apenas unas gotas de luz...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "noche",
+   "start": 0.230083,
+   "end": 0.590249
+  },
+  {
+   "text": "a",
+   "start": 0.791541,
+   "end": 0.886874
+  },
+  {
+   "text": "cada",
+   "start": 0.897458,
+   "end": 1.130499
+  },
+  {
+   "text": "punto",
+   "start": 1.141083,
+   "end": 1.416499
+  },
+  {
+   "text": "del",
+   "start": 1.427125,
+   "end": 1.55425
+  },
+  {
+   "text": "sensor",
+   "start": 1.564833,
+   "end": 1.935583
+  },
+  {
+   "text": "le",
+   "start": 1.946166,
+   "end": 2.009707
+  },
+  {
+   "text": "llegan",
+   "start": 2.020333,
+   "end": 2.316958
+  },
+  {
+   "text": "apenas",
+   "start": 2.327541,
+   "end": 2.687707
+  },
+  {
+   "text": "unas",
+   "start": 2.698291,
+   "end": 2.931332
+  },
+  {
+   "text": "gotas",
+   "start": 2.941958,
+   "end": 3.238583
+  },
+  {
+   "text": "de",
+   "start": 3.249166,
+   "end": 3.312707
+  },
+  {
+   "text": "luz",
+   "start": 3.323291,
+   "end": 3.672874
+  }
+ ]
+}

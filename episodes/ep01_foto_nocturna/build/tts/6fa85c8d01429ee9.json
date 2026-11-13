@@ -1,0 +1,61 @@
+{
+ "text": "el de la cámara mide cuánto te alejas de lo observado;",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "el",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "de",
+   "start": 0.261875,
+   "end": 0.336041
+  },
+  {
+   "text": "la",
+   "start": 0.346625,
+   "end": 0.431375
+  },
+  {
+   "text": "cámara",
+   "start": 0.441958,
+   "end": 0.749166
+  },
+  {
+   "text": "mide",
+   "start": 0.75975,
+   "end": 1.003375
+  },
+  {
+   "text": "cuánto",
+   "start": 1.014,
+   "end": 1.331791
+  },
+  {
+   "text": "te",
+   "start": 1.342375,
+   "end": 1.416541
+  },
+  {
+   "text": "alejas",
+   "start": 1.427125,
+   "end": 1.766125
+  },
+  {
+   "text": "de",
+   "start": 1.776708,
+   "end": 1.840249
+  },
+  {
+   "text": "lo",
+   "start": 1.850833,
+   "end": 1.914374
+  },
+  {
+   "text": "observado",
+   "start": 1.925,
+   "end": 2.475833
+  }
+ ]
+}
