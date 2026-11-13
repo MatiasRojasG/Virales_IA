@@ -16,7 +16,7 @@ from reelforge.ease import (clamp, lerp, lerp_c, prog, window, pulse, out_cubic,
 TL = None; D = {}; EP = {}; CHUNKS = []; KEYS = []; CUE = {}
 
 PW, PH = 360, 640                 # foto (px)
-WX, WY = 19, 566                  # punto protagonista sobre el muro (6 gotas; vecinos ≈ 1)
+WX, WY = 204, 572                 # punto protagonista sobre el muro (7 gotas; vecinos ≈ 1)
 ROW, RX0, RX1 = 438, 108, 141     # fila del letrero para los resortes
 PHOTONS = 12
 

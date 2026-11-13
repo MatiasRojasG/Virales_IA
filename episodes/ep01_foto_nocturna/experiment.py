@@ -56,21 +56,42 @@ def scene(scale=3, out=1):
         for yy in range(Y0 + 30 * scale // 3, int(h * 0.62), 26 * scale // 3 * 2):
             for xx in range(X0 + 12 * scale // 3 * 2, X1 - 20, 22 * scale // 3 * 2):
                 if rng.random() < 0.45:
-                    d.rectangle([xx, yy, xx + 9 * scale, yy + 13 * scale], fill=(255, 196, 110))
+                    d.rectangle([xx, yy, xx + 9 * scale, yy + 13 * scale], fill=(255, 196, 110), outline=(120, 90, 50), width=max(1, scale // 2))
+                    d.line([(xx + 4.5 * scale, yy), (xx + 4.5 * scale, yy + 13 * scale)], fill=(150, 110, 60), width=max(1, scale // 3))
                 else:
                     d.rectangle([xx, yy, xx + 9 * scale, yy + 13 * scale], fill=(18, 20, 30))
-    # fachada baja con muro parejo (zona para mostrar el ruido)
+    # fachada baja: muro de ladrillo (textura fina que la restauración debe conservar)
     d.rectangle([0, int(h * 0.62), w, h], fill=(70, 62, 66))
+    bh, bw = int(h * 0.012), int(w * 0.07)
+    for r_, yy in enumerate(range(int(h * 0.62), int(h * 0.90), bh)):
+        d.line([(0, yy), (w, yy)], fill=(56, 49, 53), width=max(1, scale // 2))
+        off = (bw // 2) * (r_ % 2)
+        for xx in range(-off, w, bw):
+            d.line([(xx, yy), (xx, yy + bh)], fill=(56, 49, 53), width=max(1, scale // 2))
     # tienda con letrero luminoso
     sx0, sy0, sx1, sy1 = int(w * 0.10), int(h * 0.655), int(w * 0.90), int(h * 0.715)
-    d.rounded_rectangle([sx0, sy0, sx1, sy1], radius=8 * scale, fill=(12, 30, 34))
+    d.rounded_rectangle([sx0, sy0, sx1, sy1], radius=8 * scale, fill=(12, 30, 34), outline=(90, 110, 115), width=2 * scale)
     f = ImageFont.truetype(str(ROOT / "assets/fonts/Inter-Black.otf"), 25 * scale)
     txt = "FARMACIA"
     tw = d.textlength(txt, font=f)
     d.text(((sx0 + sx1) / 2 - tw / 2, sy0 + 3 * scale), txt, font=f, fill=(120, 255, 200))
-    # vitrina y puerta
-    d.rectangle([int(w * 0.12), int(h * 0.75), int(w * 0.55), int(h * 0.86)], fill=(150, 175, 160))
-    d.rectangle([int(w * 0.62), int(h * 0.75), int(w * 0.82), int(h * 0.90)], fill=(25, 22, 26))
+    # vitrina (con marco, divisiones y repisas con productos) y puerta (con paneles y manilla)
+    vx0, vy0, vx1, vy1 = int(w * 0.12), int(h * 0.75), int(w * 0.55), int(h * 0.86)
+    d.rectangle([vx0, vy0, vx1, vy1], fill=(150, 175, 160), outline=(40, 44, 48), width=3 * scale)
+    for k in (1, 2):
+        xm = vx0 + (vx1 - vx0) * k // 3
+        d.line([(xm, vy0), (xm, vy1)], fill=(40, 44, 48), width=2 * scale)
+    for k in (1, 2):
+        ys = vy0 + (vy1 - vy0) * k // 3
+        d.line([(vx0, ys), (vx1, ys)], fill=(95, 110, 104), width=scale)
+        for j in range(9):
+            px = vx0 + int((vx1 - vx0) * (0.05 + 0.105 * j))
+            col = [(210, 90, 90), (90, 140, 220), (240, 240, 240), (230, 190, 80)][j % 4]
+            d.rectangle([px, ys - int(h * 0.022), px + int(w * 0.022), ys], fill=col)
+    dx0, dy0, dx1, dy1 = int(w * 0.62), int(h * 0.75), int(w * 0.82), int(h * 0.90)
+    d.rectangle([dx0, dy0, dx1, dy1], fill=(25, 22, 26), outline=(60, 56, 62), width=2 * scale)
+    d.rectangle([dx0 + 3 * scale, dy0 + 3 * scale, dx1 - 3 * scale, dy0 + int((dy1 - dy0) * 0.45)], outline=(55, 52, 58), width=scale)
+    d.rectangle([dx1 - 7 * scale, (dy0 + dy1) // 2, dx1 - 4 * scale, (dy0 + dy1) // 2 + 6 * scale], fill=(170, 160, 120))
     # vereda / calle
     d.rectangle([0, int(h * 0.90), w, h], fill=(36, 36, 44))
     for k in range(6):
@@ -82,8 +103,8 @@ def scene(scale=3, out=1):
     img = img.resize((W * out, H * out), Image.LANCZOS)
     a = np.asarray(img).astype(np.float32) / 255
     # halos de luz
-    glow = Image.fromarray((np.clip(a - 0.55, 0, 1) * 2 * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(9 * out))
-    a = np.clip(a + np.asarray(glow).astype(np.float32) / 255 * 0.55, 0, 1)
+    glow = Image.fromarray((np.clip(a - 0.55, 0, 1) * 2 * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(6 * out))
+    a = np.clip(a + np.asarray(glow).astype(np.float32) / 255 * 0.3, 0, 1)
     return a
 
 
@@ -106,26 +127,26 @@ def shoot(clean, photons=PHOTONS, seed=SEED, return_counts=False):
 
 def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2, guide=None):
     """Minimiza E por actualizaciones locales simultáneas sobre un vecindario de (2R+1)²
-    (peso espacial gaussiano). delta=None → ρ cuadrática (resortes que nunca se sueltan);
-    con delta, el peso cae si los vecinos son muy distintos (resorte que se suelta)."""
+    (peso espacial gaussiano). delta=None → ρ cuadrática (resortes que nunca se sueltan).
+    Con delta, el resorte entre dos vecinos se afloja si sus COLORES son muy distintos
+    (distancia RGB medida sobre una guía: mediana 3×3 del estado actual, o una guía dada)."""
+    from scipy.ndimage import median_filter
     x = y.copy(); hist = {}; H, W, _ = y.shape
     offs = [(dy, dx, np.exp(-(dy * dy + dx * dx) / (2 * sig * sig)))
             for dy in range(-R, R + 1) for dx in range(-R, R + 1) if (dy, dx) != (0, 0)]
     for it in range(1, iters + 1):
         P = np.pad(x, ((R, R), (R, R), (0, 0)), mode="edge")
-        # «qué tan distinto es el vecino» se mide sobre una guía con mediana 3×3 (respeta bordes):
-        # así un punto suelto (ruido) no puede soltar sus propios resortes y protegerse.
-        from scipy.ndimage import median_filter
-        L = median_filter(x.mean(2), size=3) if guide is None else guide
-        LP = np.pad(L, R, mode="edge")
+        if delta is not None:
+            G = guide if guide is not None else median_filter(x, size=(3, 3, 1))
+            GP = np.pad(G, ((R, R), (R, R), (0, 0)), mode="edge")
         num = y.copy(); den = np.ones((H, W, 1), np.float32)
         for dy, dx, ws in offs:
             nb = P[R + dy:R + dy + H, R + dx:R + dx + W]
             if delta is None:
                 w = np.full((H, W, 1), ws, np.float32)
             else:
-                d = (L - LP[R + dy:R + dy + H, R + dx:R + dx + W])[..., None]
-                w = ws / (1.0 + (d / delta) ** 2)
+                d2 = ((G - GP[R + dy:R + dy + H, R + dx:R + dx + W]) ** 2).mean(2, keepdims=True)
+                w = ws / (1.0 + d2 / delta ** 2)
             num += beta * w * nb; den += beta * w
         x = num / den
         if it in keep: hist[it] = x.copy()
@@ -139,24 +160,27 @@ def sharpen(x, radius=1.4, amount=0.6):
     return np.clip(x + amount * (x - blur), 0, 1).astype(np.float32)
 
 
-HD_KEEP = (1, 2, 3, 4, 6, 9, 13, 20, 40)
+HD_KEEP = (1, 2, 3, 4, 6, 9, 13, 20, 25)
+PHOTONS_HD = 9        # en HD cada punto es 1/9 del área del punto de baja resolución, con más fotones por punto
+                      # se ajusta para que el grano se vea parecido en pantalla y la restauración preserve texturas finas
 
 
 def main_hd():
     """Versión a resolución completa (1080×1920) para todo lo que se ve como foto entera."""
     out = OUT / "hd"; out.mkdir(parents=True, exist_ok=True)
     clean = scene(out=3)
-    noisy = shoot(clean, PHOTONS, seed=SEED)
+    noisy = shoot(clean, PHOTONS_HD, seed=SEED)
     # 1.ª pasada: resortes con guía de mediana. 2.ª pasada: los resortes se sueltan según la
     # 1.ª restauración (ya limpia), así solo se sueltan en bordes reales y no en el ruido.
-    g1, _ = mrf(noisy, 10.0, 0.05, 40, R=3, sig=2.5)
-    good, hist = mrf(noisy, 14.0, 0.02, 40, keep=HD_KEEP, R=3, sig=2.5, guide=g1.mean(2))
+    g1, _ = mrf(noisy, 6.0, 0.045, 25, R=2, sig=1.5)
+    good, hist = mrf(noisy, 8.0, 0.022, 25, keep=HD_KEEP, R=2, sig=1.5, guide=g1)
     blur, _ = mrf(noisy, 8.0, None, 60, R=3, sig=2.0)
     save8 = lambda a, n: Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)).save(out / n)
-    save8(noisy, "noisy.png"); save8(clean, "clean.png"); save8(sharpen(good), "good.png"); save8(blur, "blur.png")
+    shp = lambda v: sharpen(v, 1.0, 0.5)
+    save8(noisy, "noisy.png"); save8(clean, "clean.png"); save8(shp(good), "good.png"); save8(blur, "blur.png")
     for k, v in hist.items():
-        save8(sharpen(v), f"it{k}.png")
-    r = {"psnr_noisy_hd": psnr(noisy, clean), "psnr_good_hd": psnr(sharpen(good), clean),
+        save8(shp(v), f"it{k}.png")
+    r = {"photons_hd": PHOTONS_HD, "psnr_noisy_hd": psnr(noisy, clean), "psnr_good_hd": psnr(shp(good), clean),
          "psnr_good_hd_sin_realce": psnr(good, clean), "psnr_blur_hd": psnr(blur, clean)}
     (out / "results_hd.json").write_text(json.dumps(r, indent=2)); print(r)
 

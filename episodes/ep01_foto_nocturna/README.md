@@ -17,6 +17,16 @@ Se verificó lo siguiente:
 | `scenes.py` | Toma continua: celular → muro → punto → vecinos → resortes → combinaciones → pasadas |
 | `experiment.py` | Escena nocturna, simulación de fotones y restauración con campo de Markov |
 
+## v7: bordes y texturas definidos
+
+- **Escena con texturas reales**: muro de ladrillo, placa del letrero con marco, vitrina con divisiones y repisas con productos de colores, puerta con panel y manilla, y ventanas con marco. El resplandor de las luces es más contenido.
+- **Resortes por color**: el resorte entre vecinos se suelta según la distancia de color RGB, no solo de brillo. La placa verde oscura y la pared gris tienen brillo parecido pero color distinto: antes se mezclaban y ahora se separan.
+- **Vecindario más fino.** Dos pasadas de 5×5 (σ = 1,5):
+  - 1.ª pasada: β = 6, δ = 0,045.
+  - 2.ª pasada: β = 8, δ = 0,022, guiada por la 1.ª restauración.
+  - 25 pasadas cada una, más un realce leve.
+- **Sensor HD con 9 fotones por punto blanco.** PSNR HD: con ruido 16,1 dB → restaurada **26,8 dB**.
+
 ## v6: foto restaurada en HD
 
 - **Resolución completa.** La escena, el ruido y la restauración se calculan a **1080×1920** (antes 360×640 ampliado ×3): ese era el origen de la imagen borrosa. La versión de baja resolución se mantiene solo para los acercamientos al muro, donde se necesitan píxeles grandes y conteos de gotas.

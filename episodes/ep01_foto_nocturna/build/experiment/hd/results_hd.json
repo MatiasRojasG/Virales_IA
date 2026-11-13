@@ -1,6 +1,7 @@
 {
-  "psnr_noisy_hd": 14.41175651550293,
-  "psnr_good_hd": 25.343772888183594,
-  "psnr_good_hd_sin_realce": 25.835132598876953,
-  "psnr_blur_hd": 19.539485931396484
+  "photons_hd": 9,
+  "psnr_noisy_hd": 16.136369705200195,
+  "psnr_good_hd": 26.761566162109375,
+  "psnr_good_hd_sin_realce": 27.581989288330078,
+  "psnr_blur_hd": 19.65692710876465
 }
