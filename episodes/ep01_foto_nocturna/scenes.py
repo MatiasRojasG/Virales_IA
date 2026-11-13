@@ -103,10 +103,21 @@ def photo_layers(t):
     return "noisy", []
 
 
+HD_MAP = {"noisy": "noisy", "good": "good", "blur": "blur", "clean": "clean", "it20": "good"}
+
+
 def draw_img(P, key, z, a=1.0):
+    """Foto entera → versión HD real (1080×1920); al acercarse → versión de píxeles grandes."""
     im = image(key, D["rgba"][key])
+    hk = HD_MAP.get(key, key if key.startswith("it") else None)
+    hd_a = 1 - prog(z, 4.5, 7.0, smooth) if hk and hk in D.get("hd", {}) else 0.0
     na = prog(z, 7, 13, smooth)
     p = skia.Paint(); p.setAlphaf(a)
+    if hd_a > 0:
+        ph = skia.Paint(); ph.setAlphaf(a)
+        P.c.drawImageRect(image("hd_" + hk, D["hd"][hk]), skia.Rect(0, 0, PW, PH), CUBIC, ph)
+        if hd_a >= 0.999: return
+        p.setAlphaf(a * (1 - hd_a))
     if na < 1: P.c.drawImageRect(im, skia.Rect(0, 0, PW, PH), CUBIC, p)
     if na > 0:
         p2 = skia.Paint(); p2.setAlphaf(a * na)
@@ -245,8 +256,8 @@ def headline(P, t, line1, line2, col2, a, s=1.0):
     """Rótulo breve sobre la imagen (no es un título): qué estamos viendo."""
     if a <= 0: return
     txt = {"TU CÁMARA VIO": "lo que vio la cámara", "TU CELULAR TE MOSTRÓ": "lo que te mostró el celular"}.get(line1, line1)
-    with P.transform(0, 0, s, cx=540, cy=470):
-        P.pill(txt, 540, 470, 40, col2, a)
+    with P.transform(0, 0, s, cx=540, cy=330):
+        P.pill(txt, 540, 330, 40, col2, a)
 
 
 def screen_labels(P, t, cs):
@@ -699,9 +710,9 @@ def setup(tl, data, episode):
     D["phone_a"] = lambda t: clamp(window(t, c["novio"] - 0.5, c["gotas"] - 0.3, 0.6, 0.8)
                                    + window(t, c["cierre0"], c["vec_end"] + 0.1, 0.8, 0.4))
 
-    HOOKS = state(180, 445, 4.4, 880)            # primer cuadro: el letrero con ruido
+    HOOKS = state(PW / 2, PH / 2, 3.0, 810)      # foto entera en HD; subida para que letrero y vitrina queden sobre los subtítulos
     PHONE = state(PW / 2, PH / 2 + 25, 1.25, 840)
-    PHOTO = state(PW / 2, PH / 2, 3.0, 960)
+    PHOTO = state(PW / 2, PH / 2, 3.0, 810)
     WALL = state(WX + .5, WY + .5, 115, 900)
     WALL_OUT = state(WX + .5, WY + .5, 40, 900)
     ONE = state(WX + .5, WY + .5, 170, 900)

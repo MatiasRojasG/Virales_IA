@@ -8,3 +8,4 @@ episodes/dl01_rostro/build/experiment/*.npz
 episodes/arq01_dropout/build/parts/
 episodes/arq01_dropout/build/experiment/*.npz
 episodes/lm01_teclado/build/parts/
+episodes/ep01_foto_nocturna/build/experiment/hd/it*.png

@@ -28,6 +28,12 @@ def load_data():
     z = np.load(exp / "arrays.npz")
     d = {k: z[k] for k in z.files}
     d["res"] = json.loads((exp / "results.json").read_text())
+    # versión HD (1080×1920) de todo lo que se ve como foto entera
+    hd = exp / "hd"
+    if not (hd / "good.png").exists():
+        experiment.main_hd()
+    from PIL import Image
+    d["hd"] = {f.stem: np.asarray(Image.open(f).convert("RGBA")) for f in hd.glob("*.png")}
     # documento restaurado (mosaico «dónde más se usa»)
     doc = HERE.parent / "ep01_restauracion_documento" / "build" / "experiment" / "arrays.npz"
     if doc.exists():

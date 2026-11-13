@@ -28,7 +28,9 @@ PHOTONS = 6           # fotones que recibe un punto blanco puro (muy poca luz)
 SEED = 3
 
 
-def scene(scale=3):
+def scene(scale=3, out=1):
+    """Escena nocturna. Se dibuja a W·scale y se entrega a W·out (out=3 → 1080×1920, HD)."""
+    scale = max(scale, out * 2)
     w, h = W * scale, H * scale
     rng = np.random.default_rng(1)
     img = Image.new("RGB", (w, h))
@@ -39,8 +41,8 @@ def scene(scale=3):
         c = (int(10 + 30 * u), int(14 + 20 * u), int(40 + 45 * u))
         d.line([(0, y), (w, y)], fill=c)
     for _ in range(70):
-        x, y = rng.integers(0, w), rng.integers(0, int(h * 0.35))
-        r = rng.integers(2, 5); d.ellipse([x - r, y - r, x + r, y + r], fill=(200, 210, 255))
+        x, y = rng.random() * w, rng.random() * h * 0.35
+        r = (2 + 3 * rng.random()) * scale / 3; d.ellipse([x - r, y - r, x + r, y + r], fill=(200, 210, 255))
     # luna
     mx, my, mr = int(w * 0.76), int(h * 0.12), int(w * 0.075)
     d.ellipse([mx - mr, my - mr, mx + mr, my + mr], fill=(245, 240, 215))
@@ -77,10 +79,10 @@ def scene(scale=3):
     lx = int(w * 0.92)
     d.rectangle([lx - 3 * scale, int(h * 0.50), lx + 3 * scale, h], fill=(20, 20, 26))
     d.ellipse([lx - 12 * scale, int(h * 0.49) - 12 * scale, lx + 12 * scale, int(h * 0.49) + 12 * scale], fill=(255, 225, 150))
-    img = img.resize((W, H), Image.LANCZOS)
+    img = img.resize((W * out, H * out), Image.LANCZOS)
     a = np.asarray(img).astype(np.float32) / 255
     # halos de luz
-    glow = Image.fromarray((np.clip(a - 0.55, 0, 1) * 2 * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(9))
+    glow = Image.fromarray((np.clip(a - 0.55, 0, 1) * 2 * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(9 * out))
     a = np.clip(a + np.asarray(glow).astype(np.float32) / 255 * 0.55, 0, 1)
     return a
 
@@ -102,7 +104,7 @@ def shoot(clean, photons=PHOTONS, seed=SEED, return_counts=False):
     return (noisy, counts) if return_counts else noisy
 
 
-def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2):
+def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2, guide=None):
     """Minimiza E por actualizaciones locales simultáneas sobre un vecindario de (2R+1)²
     (peso espacial gaussiano). delta=None → ρ cuadrática (resortes que nunca se sueltan);
     con delta, el peso cae si los vecinos son muy distintos (resorte que se suelta)."""
@@ -114,7 +116,7 @@ def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2):
         # «qué tan distinto es el vecino» se mide sobre una guía con mediana 3×3 (respeta bordes):
         # así un punto suelto (ruido) no puede soltar sus propios resortes y protegerse.
         from scipy.ndimage import median_filter
-        L = median_filter(x.mean(2), size=3)
+        L = median_filter(x.mean(2), size=3) if guide is None else guide
         LP = np.pad(L, R, mode="edge")
         num = y.copy(); den = np.ones((H, W, 1), np.float32)
         for dy, dx, ws in offs:
@@ -128,6 +130,35 @@ def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2):
         x = num / den
         if it in keep: hist[it] = x.copy()
     return x, hist
+
+
+def sharpen(x, radius=1.4, amount=0.6):
+    """Realce leve de bordes (máscara de desenfoque) sobre el resultado, como el paso final de un celular."""
+    from scipy.ndimage import gaussian_filter
+    blur = np.stack([gaussian_filter(x[..., k], radius) for k in range(3)], -1)
+    return np.clip(x + amount * (x - blur), 0, 1).astype(np.float32)
+
+
+HD_KEEP = (1, 2, 3, 4, 6, 9, 13, 20, 40)
+
+
+def main_hd():
+    """Versión a resolución completa (1080×1920) para todo lo que se ve como foto entera."""
+    out = OUT / "hd"; out.mkdir(parents=True, exist_ok=True)
+    clean = scene(out=3)
+    noisy = shoot(clean, PHOTONS, seed=SEED)
+    # 1.ª pasada: resortes con guía de mediana. 2.ª pasada: los resortes se sueltan según la
+    # 1.ª restauración (ya limpia), así solo se sueltan en bordes reales y no en el ruido.
+    g1, _ = mrf(noisy, 10.0, 0.05, 40, R=3, sig=2.5)
+    good, hist = mrf(noisy, 14.0, 0.02, 40, keep=HD_KEEP, R=3, sig=2.5, guide=g1.mean(2))
+    blur, _ = mrf(noisy, 8.0, None, 60, R=3, sig=2.0)
+    save8 = lambda a, n: Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)).save(out / n)
+    save8(noisy, "noisy.png"); save8(clean, "clean.png"); save8(sharpen(good), "good.png"); save8(blur, "blur.png")
+    for k, v in hist.items():
+        save8(sharpen(v), f"it{k}.png")
+    r = {"psnr_noisy_hd": psnr(noisy, clean), "psnr_good_hd": psnr(sharpen(good), clean),
+         "psnr_good_hd_sin_realce": psnr(good, clean), "psnr_blur_hd": psnr(blur, clean)}
+    (out / "results_hd.json").write_text(json.dumps(r, indent=2)); print(r)
 
 
 def energy(x, y, beta, delta):
@@ -176,3 +207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    main_hd()

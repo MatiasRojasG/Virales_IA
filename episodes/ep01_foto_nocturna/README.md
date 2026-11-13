@@ -17,6 +17,16 @@ Se verificó lo siguiente:
 | `scenes.py` | Toma continua: celular → muro → punto → vecinos → resortes → combinaciones → pasadas |
 | `experiment.py` | Escena nocturna, simulación de fotones y restauración con campo de Markov |
 
+## v6: foto restaurada en HD
+
+- **Resolución completa.** La escena, el ruido y la restauración se calculan a **1080×1920** (antes 360×640 ampliado ×3): ese era el origen de la imagen borrosa. La versión de baja resolución se mantiene solo para los acercamientos al muro, donde se necesitan píxeles grandes y conteos de gotas.
+- **Restauración HD** (`main_hd()` en `experiment.py`):
+  - **1.ª pasada.** Campo de Markov con vecindario de 7×7 (peso gaussiano σ = 2,5), β = 10, δ = 0,05 y 40 pasadas. Los resortes se sueltan según una guía con mediana.
+  - **2.ª pasada.** β = 14, δ = 0,02 y 40 pasadas. Los resortes se sueltan según la 1.ª restauración, ya limpia, así que solo se sueltan en bordes reales.
+  - **Realce leve de bordes** al final (máscara de desenfoque), como el último paso de un celular.
+  - **PSNR HD:** con ruido 14,4 dB → restaurada **25,3 dB** (25,8 dB sin el realce).
+- **Encuadre.** La foto entera se muestra a resolución nativa y levemente subida, para que el letrero y la vitrina queden sobre los subtítulos. Los rótulos «lo que vio la cámara» / «lo que te mostró el celular» van en el cielo.
+
 ## v5: reglas de ritmo y más contraste visual
 
 - **Duración y ritmo:** 84,4 s (antes 105,8). Voz a +10 % (3,2 palabras/s al hablar), con pausas largas en las revelaciones. Sin títulos ni etiquetas superiores: el titular del inicio pasó a ser un rótulo sobre la imagen («lo que vio la cámara» / «lo que te mostró el celular»).
