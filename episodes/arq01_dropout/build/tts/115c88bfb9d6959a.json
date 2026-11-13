@@ -1,0 +1,41 @@
+{
+ "text": "Al usar la red, se encienden todas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Al",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "usar",
+   "start": 0.272458,
+   "end": 0.526708
+  },
+  {
+   "text": "la",
+   "start": 0.537291,
+   "end": 0.622041
+  },
+  {
+   "text": "red",
+   "start": 0.632625,
+   "end": 0.87625
+  },
+  {
+   "text": "se",
+   "start": 1.066958,
+   "end": 1.194083
+  },
+  {
+   "text": "encienden",
+   "start": 1.204666,
+   "end": 1.670749
+  },
+  {
+   "text": "todas",
+   "start": 1.681375,
+   "end": 2.147458
+  }
+ ]
+}

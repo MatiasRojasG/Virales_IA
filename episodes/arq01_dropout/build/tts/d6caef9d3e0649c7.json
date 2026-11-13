@@ -1,0 +1,66 @@
+{
+ "text": "Perfecta en la práctica, peor en la prueba real. Se llama sobreajuste.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Perfecta",
+   "start": 0.092375,
+   "end": 0.516083
+  },
+  {
+   "text": "en",
+   "start": 0.526708,
+   "end": 0.590249
+  },
+  {
+   "text": "la",
+   "start": 0.600833,
+   "end": 0.674999
+  },
+  {
+   "text": "práctica",
+   "start": 0.685583,
+   "end": 1.151666
+  },
+  {
+   "text": "peor",
+   "start": 1.374166,
+   "end": 1.607207
+  },
+  {
+   "text": "en",
+   "start": 1.617791,
+   "end": 1.702541
+  },
+  {
+   "text": "la",
+   "start": 1.713125,
+   "end": 1.797875
+  },
+  {
+   "text": "prueba",
+   "start": 1.808458,
+   "end": 2.083874
+  },
+  {
+   "text": "real",
+   "start": 2.0945,
+   "end": 2.444083
+  },
+  {
+   "text": "Se",
+   "start": 3.167375,
+   "end": 3.358041
+  },
+  {
+   "text": "llama",
+   "start": 3.368625,
+   "end": 3.622875
+  },
+  {
+   "text": "sobreajuste",
+   "start": 3.633458,
+   "end": 4.279624
+  }
+ ]
+}

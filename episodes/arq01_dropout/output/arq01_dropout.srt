@@ -1,0 +1,296 @@
+1
+00:00:00,150 --> 00:00:01,146
+Un estudiante se aprende
+
+2
+00:00:01,146 --> 00:00:02,110
+de memoria todas las
+
+3
+00:00:02,110 --> 00:00:03,535
+pruebas anteriores.
+
+4
+00:00:03,535 --> 00:00:04,467
+En la práctica,
+
+5
+00:00:04,467 --> 00:00:05,985
+saca nota perfecta.
+
+6
+00:00:05,985 --> 00:00:07,086
+En la prueba real...
+
+7
+00:00:07,086 --> 00:00:08,253
+reprueba.
+
+8
+00:00:08,253 --> 00:00:09,408
+A las redes neuronales
+
+9
+00:00:09,408 --> 00:00:11,281
+les pasa exactamente
+lo mismo.
+
+10
+00:00:11,281 --> 00:00:11,800
+Y una de las
+
+11
+00:00:11,800 --> 00:00:13,124
+soluciones
+suena absurda:
+
+12
+00:00:13,124 --> 00:00:15,159
+apagar neuronas al azar.
+
+13
+00:00:15,159 --> 00:00:16,028
+Pongamos a una red
+
+14
+00:00:16,028 --> 00:00:16,833
+a predecir si va
+
+15
+00:00:16,833 --> 00:00:17,892
+a llover, mirando la
+
+16
+00:00:17,892 --> 00:00:18,750
+humedad y la presión
+
+17
+00:00:18,750 --> 00:00:19,614
+del aire.
+
+18
+00:00:19,614 --> 00:00:20,366
+Cada punto es un
+
+19
+00:00:20,366 --> 00:00:21,320
+día del pasado:
+
+20
+00:00:21,320 --> 00:00:22,443
+celeste si llovió,
+
+21
+00:00:22,443 --> 00:00:23,613
+violeta si no.
+
+22
+00:00:23,613 --> 00:00:24,768
+Pero hay días raros:
+
+23
+00:00:24,768 --> 00:00:26,817
+llovió cuando nada
+lo anunciaba.
+
+24
+00:00:26,817 --> 00:00:27,696
+Una red grande puede
+
+25
+00:00:27,696 --> 00:00:28,883
+acertar casi todos los
+
+26
+00:00:28,883 --> 00:00:30,017
+días que ya vio.
+
+27
+00:00:30,017 --> 00:00:31,067
+¿Cómo?
+
+28
+00:00:31,090 --> 00:00:32,510
+Dibujando islas
+alrededor de
+
+29
+00:00:32,510 --> 00:00:33,505
+cada día raro:
+
+30
+00:00:33,505 --> 00:00:34,670
+los memoriza.
+
+31
+00:00:34,670 --> 00:00:36,175
+Pero cuando llegan
+días nuevos,
+
+32
+00:00:36,175 --> 00:00:37,607
+se equivoca más.
+
+33
+00:00:37,607 --> 00:00:39,133
+Casi perfecta
+en la práctica,
+
+34
+00:00:39,133 --> 00:00:40,882
+peor en la prueba real.
+
+35
+00:00:40,905 --> 00:00:42,707
+Se llama sobreajuste.
+
+36
+00:00:42,707 --> 00:00:43,733
+¿Por qué pasa?
+
+37
+00:00:43,733 --> 00:00:44,379
+Porque la red es
+
+38
+00:00:44,379 --> 00:00:45,332
+tan flexible que puede
+
+39
+00:00:45,332 --> 00:00:46,747
+aprender hasta el ruido.
+
+40
+00:00:46,747 --> 00:00:48,304
+Algunas neuronas
+se especializan
+
+41
+00:00:48,304 --> 00:00:49,851
+en recordar casos
+puntuales...
+
+42
+00:00:49,851 --> 00:00:50,444
+y las demás se
+
+43
+00:00:50,444 --> 00:00:51,952
+apoyan en ellas.
+
+44
+00:00:51,952 --> 00:00:52,715
+La idea:
+
+45
+00:00:52,715 --> 00:00:54,664
+mientras entrena,
+en cada paso,
+
+46
+00:00:54,664 --> 00:00:55,628
+apagamos al azar la
+
+47
+00:00:55,628 --> 00:00:57,252
+mitad de las neuronas.
+
+48
+00:00:57,252 --> 00:00:58,354
+Ninguna puede
+contar con
+
+49
+00:00:58,354 --> 00:00:59,449
+que otra esté ahí...
+
+50
+00:00:59,449 --> 00:01:00,275
+así que cada una
+
+51
+00:01:00,275 --> 00:01:01,207
+tiene que aprender algo
+
+52
+00:01:01,207 --> 00:01:02,650
+útil por sí misma.
+
+53
+00:01:02,650 --> 00:01:03,540
+Como un equipo donde
+
+54
+00:01:03,540 --> 00:01:04,759
+cualquiera puede faltar:
+
+55
+00:01:04,759 --> 00:01:05,828
+todos tienen
+que entender
+
+56
+00:01:05,828 --> 00:01:06,837
+el trabajo.
+
+57
+00:01:06,837 --> 00:01:08,686
+Se llama dropout.
+
+58
+00:01:08,686 --> 00:01:09,661
+Al usar la red,
+
+59
+00:01:09,661 --> 00:01:11,131
+se encienden todas.
+
+60
+00:01:11,131 --> 00:01:12,000
+Y la frontera queda
+
+61
+00:01:12,000 --> 00:01:12,710
+más simple:
+
+62
+00:01:12,710 --> 00:01:13,388
+ya no persigue a
+
+63
+00:01:13,388 --> 00:01:14,672
+cada día raro.
+
+64
+00:01:14,672 --> 00:01:15,774
+Acierta un poco menos
+
+65
+00:01:15,774 --> 00:01:16,982
+en los días conocidos...
+
+66
+00:01:16,982 --> 00:01:17,617
+pero más en los
+
+67
+00:01:17,617 --> 00:01:19,006
+días nuevos.
+
+68
+00:01:19,006 --> 00:01:20,649
+Igual que con
+el estudiante:
+
+69
+00:01:20,649 --> 00:01:21,470
+no se trata de
+
+70
+00:01:21,470 --> 00:01:22,928
+memorizar las pruebas...
+
+71
+00:01:22,928 --> 00:01:25,195
+sino de entender
+la materia.

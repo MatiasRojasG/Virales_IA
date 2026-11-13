@@ -2,7 +2,7 @@
 
 Cada punto es un día simulado: (humedad, presión) → ¿llovió? La regla verdadera es una curva
 suave, pero el 15 % de los días tiene la etiqueta invertida («días raros»).
-Se entrenan dos MLP idénticos (2 → 256 → 256 → 1, ReLU, Adam, lote completo):
+Se entrenan dos MLP idénticos (2 → 256 → 256 → 1, ReLU, Adam lr=1e-3, lote completo, 2.000 pasos, 300 días):
   - sin dropout
   - con dropout p = 0,5 en ambas capas ocultas (solo durante el entrenamiento; al predecir
     se usan todas las neuronas, con la escala estándar de «inverted dropout»).
@@ -50,7 +50,7 @@ def forward(W, b, X, p_drop=0.0, rng=None):
     return out[:, 0], acts, masks
 
 
-def train(X, y, p_drop, seed, epochs=4000, lr=3e-3, snaps=(), width=256):
+def train(X, y, p_drop, seed, epochs=2000, lr=1e-3, snaps=(), width=256):
     rng = np.random.default_rng(seed)
     W, b = init(rng, (2, width, width, 1))
     params = W + b
@@ -86,10 +86,10 @@ def acc(model, X, y):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     rows = []
-    snaps = (1, 25, 100, 300, 800, 1600, 4000)
+    snaps = (1, 25, 100, 250, 500, 1000, 2000)
     for seed in range(5):
         rng = np.random.default_rng(100 + seed)
-        Xtr, ytr, ftr = make(150, rng)
+        Xtr, ytr, ftr = make(300, rng)
         Xte, yte, _ = make(5000, rng)
         A, la, ha = train(Xtr, ytr, 0.0, seed, snaps=snaps if seed == 0 else ())
         B, lb, hb = train(Xtr, ytr, 0.5, seed, snaps=snaps if seed == 0 else ())
@@ -101,10 +101,13 @@ def main():
             np.savez_compressed(OUT / "arrays.npz", Xtr=Xtr, ytr=ytr, ftr=ftr,
                                 **{f"A{k}": v for k, v in ha.items()}, **{f"B{k}": v for k, v in hb.items()},
                                 la=np.array(la), lb=np.array(lb),
+                                Xte=Xte[:220], yte=yte[:220],
+                                okA=(forward(*A, Xte[:220])[0] > 0.5) == yte[:220],
+                                okB=(forward(*B, Xte[:220])[0] > 0.5) == yte[:220],
                                 true=true_rule(np.stack([g.ravel() for g in np.meshgrid(np.linspace(-1, 1, 140), np.linspace(-1, 1, 140))], 1)).reshape(140, 140))
             demo = r
     mean = {k: float(np.mean([r[k] for r in rows])) for k in rows[0] if k != "seed"}
-    res = dict(demo_seed0=demo, mean_5_seeds=mean, runs=rows, noise=NOISE, n_train=150, n_test=5000)
+    res = dict(demo_seed0=demo, mean_5_seeds=mean, runs=rows, noise=NOISE, n_train=300, n_test=5000)
     (OUT / "results.json").write_text(json.dumps(res, indent=2))
     print("media:", {k: round(v, 3) for k, v in mean.items()})
 

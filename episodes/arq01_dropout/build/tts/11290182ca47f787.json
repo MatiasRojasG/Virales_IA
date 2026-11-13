@@ -1,0 +1,36 @@
+{
+ "text": "En la práctica, saca nota perfecta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "la",
+   "start": 0.251291,
+   "end": 0.325457
+  },
+  {
+   "text": "práctica",
+   "start": 0.336,
+   "end": 0.802083
+  },
+  {
+   "text": "saca",
+   "start": 1.024583,
+   "end": 1.278833
+  },
+  {
+   "text": "nota",
+   "start": 1.289416,
+   "end": 1.554249
+  },
+  {
+   "text": "perfecta",
+   "start": 1.564833,
+   "end": 2.052124
+  }
+ ]
+}

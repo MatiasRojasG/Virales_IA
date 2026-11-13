@@ -1,0 +1,21 @@
+{
+ "text": "Se llama dropout.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.102083,
+   "end": 0.336458
+  },
+  {
+   "text": "llama",
+   "start": 0.3495,
+   "end": 0.675041
+  },
+  {
+   "text": "dropout",
+   "start": 0.688041,
+   "end": 1.260957
+  }
+ ]
+}

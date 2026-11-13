@@ -1,0 +1,66 @@
+{
+ "text": "así que cada una tiene que aprender algo útil por sí misma.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "así",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "que",
+   "start": 0.357208,
+   "end": 0.473749
+  },
+  {
+   "text": "cada",
+   "start": 0.484333,
+   "end": 0.727958
+  },
+  {
+   "text": "una",
+   "start": 0.738541,
+   "end": 0.908041
+  },
+  {
+   "text": "tiene",
+   "start": 0.918625,
+   "end": 1.151666
+  },
+  {
+   "text": "que",
+   "start": 1.162291,
+   "end": 1.247041
+  },
+  {
+   "text": "aprender",
+   "start": 1.257625,
+   "end": 1.628375
+  },
+  {
+   "text": "algo",
+   "start": 1.639,
+   "end": 1.840291
+  },
+  {
+   "text": "útil",
+   "start": 1.850833,
+   "end": 2.126249
+  },
+  {
+   "text": "por",
+   "start": 2.136875,
+   "end": 2.285166
+  },
+  {
+   "text": "sí",
+   "start": 2.29575,
+   "end": 2.433458
+  },
+  {
+   "text": "misma",
+   "start": 2.444083,
+   "end": 2.804249
+  }
+ ]
+}

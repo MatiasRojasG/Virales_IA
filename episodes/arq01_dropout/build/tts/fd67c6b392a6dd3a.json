@@ -1,0 +1,61 @@
+{
+ "text": "Y una de las soluciones suena absurda: apagar neuronas al azar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "una",
+   "start": 0.230083,
+   "end": 0.388999
+  },
+  {
+   "text": "de",
+   "start": 0.399583,
+   "end": 0.494916
+  },
+  {
+   "text": "las",
+   "start": 0.5055,
+   "end": 0.600833
+  },
+  {
+   "text": "soluciones",
+   "start": 0.611458,
+   "end": 1.066958
+  },
+  {
+   "text": "suena",
+   "start": 1.077541,
+   "end": 1.268207
+  },
+  {
+   "text": "absurda",
+   "start": 1.278833,
+   "end": 1.713166
+  },
+  {
+   "text": "apagar",
+   "start": 1.935583,
+   "end": 2.338124
+  },
+  {
+   "text": "neuronas",
+   "start": 2.348708,
+   "end": 2.825416
+  },
+  {
+   "text": "al",
+   "start": 2.836,
+   "end": 2.931333
+  },
+  {
+   "text": "azar",
+   "start": 2.941958,
+   "end": 3.280958
+  }
+ ]
+}

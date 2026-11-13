@@ -1,0 +1,23 @@
+[hook] (  0.1s –   8.2s)
+Un estudiante se aprende de memoria todas las pruebas anteriores. En la práctica, saca nota perfecta. En la prueba real... reprueba.
+
+[puente] (  8.2s –  15.1s)
+A las redes neuronales les pasa exactamente lo mismo. Y una de las soluciones suena absurda: apagar neuronas al azar.
+
+[datos] ( 15.1s –  26.8s)
+Pongamos a una red a predecir si va a llover, mirando la humedad y la presión del aire. Cada punto es un día del pasado: celeste si llovió, violeta si no. Pero hay días raros: llovió cuando nada lo anunciaba.
+
+[memoriza] ( 26.8s –  42.7s)
+Una red grande puede acertar casi todos los días que ya vio. ¿Cómo? Dibujando islas alrededor de cada día raro: los memoriza. Pero cuando llegan días nuevos, se equivoca más. Casi perfecta en la práctica, peor en la prueba real. Se llama sobreajuste.
+
+[porque] ( 42.7s –  51.9s)
+¿Por qué pasa? Porque la red es tan flexible que puede aprender hasta el ruido. Algunas neuronas se especializan en recordar casos puntuales... y las demás se apoyan en ellas.
+
+[dropout] ( 51.9s –  68.6s)
+La idea: mientras entrena, en cada paso, apagamos al azar la mitad de las neuronas. Ninguna puede contar con que otra esté ahí... así que cada una tiene que aprender algo útil por sí misma. Como un equipo donde cualquiera puede faltar: todos tienen que entender el trabajo. Se llama dropout.
+
+[resultado] ( 68.6s –  79.0s)
+Al usar la red, se encienden todas. Y la frontera queda más simple: ya no persigue a cada día raro. Acierta un poco menos en los días conocidos... pero más en los días nuevos.
+
+[cierre] ( 79.0s –  85.0s)
+Igual que con el estudiante: no se trata de memorizar las pruebas... sino de entender la materia.

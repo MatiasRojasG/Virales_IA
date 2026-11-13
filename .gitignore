@@ -5,4 +5,5 @@ episodes/*/build/stills/
 episodes/*/build/mix.wav
 episodes/ep01_foto_nocturna/build/experiment/arrays.npz
 episodes/dl01_rostro/build/experiment/*.npz
-episodes/arq01_dropout/build/
+episodes/arq01_dropout/build/parts/
+episodes/arq01_dropout/build/experiment/*.npz

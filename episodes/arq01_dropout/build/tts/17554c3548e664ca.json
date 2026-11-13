@@ -1,0 +1,71 @@
+{
+ "text": "Cada punto es un día del pasado: celeste si llovió, violeta si no.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "punto",
+   "start": 0.325416,
+   "end": 0.611416
+  },
+  {
+   "text": "es",
+   "start": 0.622041,
+   "end": 0.727957
+  },
+  {
+   "text": "un",
+   "start": 0.738541,
+   "end": 0.833874
+  },
+  {
+   "text": "día",
+   "start": 0.8445,
+   "end": 1.003416
+  },
+  {
+   "text": "del",
+   "start": 1.014,
+   "end": 1.162291
+  },
+  {
+   "text": "pasado",
+   "start": 1.172875,
+   "end": 1.564833
+  },
+  {
+   "text": "celeste",
+   "start": 1.797875,
+   "end": 2.211
+  },
+  {
+   "text": "si",
+   "start": 2.221625,
+   "end": 2.338166
+  },
+  {
+   "text": "llovió",
+   "start": 2.348708,
+   "end": 2.687708
+  },
+  {
+   "text": "violeta",
+   "start": 2.92075,
+   "end": 3.25975
+  },
+  {
+   "text": "si",
+   "start": 3.270333,
+   "end": 3.397458
+  },
+  {
+   "text": "no.",
+   "start": 3.408041,
+   "end": 3.651666
+  }
+ ]
+}

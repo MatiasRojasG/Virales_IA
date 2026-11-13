@@ -1,0 +1,66 @@
+{
+ "text": "Una red grande puede acertar casi todos los días que ya vio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "red",
+   "start": 0.283041,
+   "end": 0.452541
+  },
+  {
+   "text": "grande",
+   "start": 0.463125,
+   "end": 0.75975
+  },
+  {
+   "text": "puede",
+   "start": 0.770333,
+   "end": 0.960999
+  },
+  {
+   "text": "acertar",
+   "start": 0.971625,
+   "end": 1.374166
+  },
+  {
+   "text": "casi",
+   "start": 1.38475,
+   "end": 1.681375
+  },
+  {
+   "text": "todos",
+   "start": 1.691958,
+   "end": 2.009749
+  },
+  {
+   "text": "los",
+   "start": 2.020333,
+   "end": 2.147458
+  },
+  {
+   "text": "días",
+   "start": 2.158041,
+   "end": 2.433457
+  },
+  {
+   "text": "que",
+   "start": 2.444083,
+   "end": 2.539416
+  },
+  {
+   "text": "ya",
+   "start": 2.55,
+   "end": 2.687708
+  },
+  {
+   "text": "vio",
+   "start": 2.698291,
+   "end": 2.952541
+  }
+ ]
+}

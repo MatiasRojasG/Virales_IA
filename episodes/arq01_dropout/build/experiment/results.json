@@ -1,0 +1,62 @@
+{
+  "demo_seed0": {
+    "seed": 0,
+    "train_nodrop": 0.9833333333333333,
+    "test_nodrop": 0.786,
+    "train_drop": 0.9,
+    "test_drop": 0.8354,
+    "test_bayes": 0.8536
+  },
+  "mean_5_seeds": {
+    "train_nodrop": 0.9573333333333333,
+    "test_nodrop": 0.775,
+    "train_drop": 0.8620000000000001,
+    "test_drop": 0.8250800000000001,
+    "test_bayes": 0.84772
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "train_nodrop": 0.9833333333333333,
+      "test_nodrop": 0.786,
+      "train_drop": 0.9,
+      "test_drop": 0.8354,
+      "test_bayes": 0.8536
+    },
+    {
+      "seed": 1,
+      "train_nodrop": 0.98,
+      "test_nodrop": 0.7874,
+      "train_drop": 0.8766666666666667,
+      "test_drop": 0.8246,
+      "test_bayes": 0.845
+    },
+    {
+      "seed": 2,
+      "train_nodrop": 0.96,
+      "test_nodrop": 0.7432,
+      "train_drop": 0.8666666666666667,
+      "test_drop": 0.8044,
+      "test_bayes": 0.8506
+    },
+    {
+      "seed": 3,
+      "train_nodrop": 0.9166666666666666,
+      "test_nodrop": 0.7894,
+      "train_drop": 0.8333333333333334,
+      "test_drop": 0.8382,
+      "test_bayes": 0.845
+    },
+    {
+      "seed": 4,
+      "train_nodrop": 0.9466666666666667,
+      "test_nodrop": 0.769,
+      "train_drop": 0.8333333333333334,
+      "test_drop": 0.8228,
+      "test_bayes": 0.8444
+    }
+  ],
+  "noise": 0.15,
+  "n_train": 300,
+  "n_test": 5000
+}

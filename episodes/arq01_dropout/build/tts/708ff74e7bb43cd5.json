@@ -1,0 +1,56 @@
+{
+ "text": "Un estudiante se aprende de memoria todas las pruebas anteriores.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "estudiante",
+   "start": 0.208916,
+   "end": 0.685624
+  },
+  {
+   "text": "se",
+   "start": 0.696166,
+   "end": 0.780916
+  },
+  {
+   "text": "aprende",
+   "start": 0.791541,
+   "end": 1.077541
+  },
+  {
+   "text": "de",
+   "start": 1.088125,
+   "end": 1.162291
+  },
+  {
+   "text": "memoria",
+   "start": 1.172875,
+   "end": 1.564833
+  },
+  {
+   "text": "todas",
+   "start": 1.575416,
+   "end": 1.903791
+  },
+  {
+   "text": "las",
+   "start": 1.914416,
+   "end": 2.041541
+  },
+  {
+   "text": "pruebas",
+   "start": 2.052125,
+   "end": 2.391125
+  },
+  {
+   "text": "anteriores",
+   "start": 2.401708,
+   "end": 3.037291
+  }
+ ]
+}

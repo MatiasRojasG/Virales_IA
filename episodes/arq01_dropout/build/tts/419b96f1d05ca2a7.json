@@ -1,0 +1,66 @@
+{
+ "text": "no se trata de memorizar las pruebas... sino de entender la materia.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "no",
+   "start": 0.102083,
+   "end": 0.297416
+  },
+  {
+   "text": "se",
+   "start": 0.310416,
+   "end": 0.466666
+  },
+  {
+   "text": "trata",
+   "start": 0.479708,
+   "end": 0.792208
+  },
+  {
+   "text": "de",
+   "start": 0.805208,
+   "end": 0.909374
+  },
+  {
+   "text": "memorizar",
+   "start": 0.922416,
+   "end": 1.495332
+  },
+  {
+   "text": "las",
+   "start": 1.508333,
+   "end": 1.690624
+  },
+  {
+   "text": "pruebas",
+   "start": 1.703666,
+   "end": 2.146374
+  },
+  {
+   "text": "sino",
+   "start": 2.38075,
+   "end": 2.732333
+  },
+  {
+   "text": "de",
+   "start": 2.745333,
+   "end": 2.849499
+  },
+  {
+   "text": "entender",
+   "start": 2.8625,
+   "end": 3.370333
+  },
+  {
+   "text": "la",
+   "start": 3.383333,
+   "end": 3.474499
+  },
+  {
+   "text": "materia",
+   "start": 3.4875,
+   "end": 4.047416
+  }
+ ]
+}

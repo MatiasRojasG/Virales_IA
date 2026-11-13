@@ -1,0 +1,81 @@
+{
+ "text": "Algunas neuronas se especializan en recordar casos puntuales... y las demás se apoyan en ellas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Algunas",
+   "start": 0.092375,
+   "end": 0.516083
+  },
+  {
+   "text": "neuronas",
+   "start": 0.526708,
+   "end": 0.929249
+  },
+  {
+   "text": "se",
+   "start": 0.939833,
+   "end": 1.003374
+  },
+  {
+   "text": "especializan",
+   "start": 1.014,
+   "end": 1.639
+  },
+  {
+   "text": "en",
+   "start": 1.649583,
+   "end": 1.734333
+  },
+  {
+   "text": "recordar",
+   "start": 1.744916,
+   "end": 2.168624
+  },
+  {
+   "text": "casos",
+   "start": 2.17925,
+   "end": 2.486458
+  },
+  {
+   "text": "puntuales",
+   "start": 2.497041,
+   "end": 2.984332
+  },
+  {
+   "text": "y",
+   "start": 3.196166,
+   "end": 3.270332
+  },
+  {
+   "text": "las",
+   "start": 3.280916,
+   "end": 3.439832
+  },
+  {
+   "text": "demás",
+   "start": 3.450416,
+   "end": 3.694041
+  },
+  {
+   "text": "se",
+   "start": 3.704666,
+   "end": 3.778832
+  },
+  {
+   "text": "apoyan",
+   "start": 3.789416,
+   "end": 4.138999
+  },
+  {
+   "text": "en",
+   "start": 4.149583,
+   "end": 4.244916
+  },
+  {
+   "text": "ellas",
+   "start": 4.2555,
+   "end": 4.658041
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "text": "Pero hay días raros: llovió cuando nada lo anunciaba.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "hay",
+   "start": 0.325416,
+   "end": 0.431332
+  },
+  {
+   "text": "días",
+   "start": 0.441958,
+   "end": 0.706791
+  },
+  {
+   "text": "raros",
+   "start": 0.717375,
+   "end": 1.04575
+  },
+  {
+   "text": "llovió",
+   "start": 1.247041,
+   "end": 1.533041
+  },
+  {
+   "text": "cuando",
+   "start": 1.543625,
+   "end": 1.776666
+  },
+  {
+   "text": "nada",
+   "start": 1.787291,
+   "end": 2.030916
+  },
+  {
+   "text": "lo",
+   "start": 2.041541,
+   "end": 2.115707
+  },
+  {
+   "text": "anunciaba",
+   "start": 2.126291,
+   "end": 2.655957
+  }
+ ]
+}

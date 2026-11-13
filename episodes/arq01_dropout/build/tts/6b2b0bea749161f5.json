@@ -1,0 +1,71 @@
+{
+ "text": "Y la frontera queda más simple: ya no persigue a cada día raro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "la",
+   "start": 0.208916,
+   "end": 0.325457
+  },
+  {
+   "text": "frontera",
+   "start": 0.336,
+   "end": 0.727958
+  },
+  {
+   "text": "queda",
+   "start": 0.738541,
+   "end": 0.950416
+  },
+  {
+   "text": "más",
+   "start": 0.961,
+   "end": 1.109291
+  },
+  {
+   "text": "simple",
+   "start": 1.119916,
+   "end": 1.437707
+  },
+  {
+   "text": "ya",
+   "start": 1.67075,
+   "end": 1.766083
+  },
+  {
+   "text": "no",
+   "start": 1.776708,
+   "end": 1.882624
+  },
+  {
+   "text": "persigue",
+   "start": 1.893208,
+   "end": 2.285166
+  },
+  {
+   "text": "a",
+   "start": 2.29575,
+   "end": 2.338125
+  },
+  {
+   "text": "cada",
+   "start": 2.348708,
+   "end": 2.571166
+  },
+  {
+   "text": "día",
+   "start": 2.581791,
+   "end": 2.804249
+  },
+  {
+   "text": "raro",
+   "start": 2.814833,
+   "end": 3.143208
+  }
+ ]
+}

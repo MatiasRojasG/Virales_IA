@@ -1,0 +1,21 @@
+{
+ "text": "¿Por qué pasa?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "qué",
+   "start": 0.251291,
+   "end": 0.357207
+  },
+  {
+   "text": "pasa",
+   "start": 0.367791,
+   "end": 0.727957
+  }
+ ]
+}

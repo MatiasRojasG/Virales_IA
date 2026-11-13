@@ -1,0 +1,31 @@
+{
+ "text": "Igual que con el estudiante:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Igual",
+   "start": 0.092375,
+   "end": 0.42075
+  },
+  {
+   "text": "que",
+   "start": 0.431375,
+   "end": 0.537291
+  },
+  {
+   "text": "con",
+   "start": 0.547875,
+   "end": 0.696166
+  },
+  {
+   "text": "el",
+   "start": 0.706791,
+   "end": 0.791541
+  },
+  {
+   "text": "estudiante",
+   "start": 0.802125,
+   "end": 1.395333
+  }
+ ]
+}

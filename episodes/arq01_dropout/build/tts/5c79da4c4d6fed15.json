@@ -1,0 +1,96 @@
+{
+ "text": "Pongamos a una red a predecir si va a llover, mirando la humedad y la presión del aire.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pongamos",
+   "start": 0.092375,
+   "end": 0.516083
+  },
+  {
+   "text": "a",
+   "start": 0.526708,
+   "end": 0.569083
+  },
+  {
+   "text": "una",
+   "start": 0.579666,
+   "end": 0.759749
+  },
+  {
+   "text": "red",
+   "start": 0.770333,
+   "end": 0.950416
+  },
+  {
+   "text": "a",
+   "start": 0.961,
+   "end": 1.013958
+  },
+  {
+   "text": "predecir",
+   "start": 1.024583,
+   "end": 1.458916
+  },
+  {
+   "text": "si",
+   "start": 1.4695,
+   "end": 1.596625
+  },
+  {
+   "text": "va",
+   "start": 1.607208,
+   "end": 1.755499
+  },
+  {
+   "text": "a",
+   "start": 1.766083,
+   "end": 1.808458
+  },
+  {
+   "text": "llover",
+   "start": 1.819083,
+   "end": 2.115708
+  },
+  {
+   "text": "mirando",
+   "start": 2.3805,
+   "end": 2.7195
+  },
+  {
+   "text": "la",
+   "start": 2.730083,
+   "end": 2.814833
+  },
+  {
+   "text": "humedad",
+   "start": 2.825416,
+   "end": 3.153791
+  },
+  {
+   "text": "y",
+   "start": 3.164416,
+   "end": 3.206791
+  },
+  {
+   "text": "la",
+   "start": 3.217375,
+   "end": 3.323291
+  },
+  {
+   "text": "presión",
+   "start": 3.333916,
+   "end": 3.672916
+  },
+  {
+   "text": "del",
+   "start": 3.683458,
+   "end": 3.810583
+  },
+  {
+   "text": "aire",
+   "start": 3.821166,
+   "end": 4.107166
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "text": "La idea: mientras entrena, en cada paso, apagamos al azar la mitad de las neuronas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "idea",
+   "start": 0.251291,
+   "end": 0.590291
+  },
+  {
+   "text": "mientras",
+   "start": 0.855083,
+   "end": 1.183458
+  },
+  {
+   "text": "entrena",
+   "start": 1.194083,
+   "end": 1.628416
+  },
+  {
+   "text": "en",
+   "start": 1.829666,
+   "end": 1.977957
+  },
+  {
+   "text": "cada",
+   "start": 1.988541,
+   "end": 2.221582
+  },
+  {
+   "text": "paso",
+   "start": 2.232208,
+   "end": 2.571208
+  },
+  {
+   "text": "apagamos",
+   "start": 2.80425,
+   "end": 3.302125
+  },
+  {
+   "text": "al",
+   "start": 3.312708,
+   "end": 3.408041
+  },
+  {
+   "text": "azar",
+   "start": 3.418625,
+   "end": 3.672875
+  },
+  {
+   "text": "la",
+   "start": 3.683458,
+   "end": 3.757624
+  },
+  {
+   "text": "mitad",
+   "start": 3.768208,
+   "end": 4.064833
+  },
+  {
+   "text": "de",
+   "start": 4.075416,
+   "end": 4.149582
+  },
+  {
+   "text": "las",
+   "start": 4.160166,
+   "end": 4.308457
+  },
+  {
+   "text": "neuronas",
+   "start": 4.319083,
+   "end": 4.901708
+  }
+ ]
+}

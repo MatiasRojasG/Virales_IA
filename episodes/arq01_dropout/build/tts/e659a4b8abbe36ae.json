@@ -1,0 +1,76 @@
+{
+ "text": "Acierta un poco menos en los días conocidos... pero más en los días nuevos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Acierta",
+   "start": 0.092375,
+   "end": 0.516083
+  },
+  {
+   "text": "un",
+   "start": 0.526708,
+   "end": 0.632624
+  },
+  {
+   "text": "poco",
+   "start": 0.643208,
+   "end": 0.865666
+  },
+  {
+   "text": "menos",
+   "start": 0.876291,
+   "end": 1.183499
+  },
+  {
+   "text": "en",
+   "start": 1.194083,
+   "end": 1.257624
+  },
+  {
+   "text": "los",
+   "start": 1.268208,
+   "end": 1.395333
+  },
+  {
+   "text": "días",
+   "start": 1.405916,
+   "end": 1.628374
+  },
+  {
+   "text": "conocidos",
+   "start": 1.639,
+   "end": 2.189833
+  },
+  {
+   "text": "pero",
+   "start": 2.401708,
+   "end": 2.571208
+  },
+  {
+   "text": "más",
+   "start": 2.581791,
+   "end": 2.793666
+  },
+  {
+   "text": "en",
+   "start": 2.80425,
+   "end": 2.878416
+  },
+  {
+   "text": "los",
+   "start": 2.889,
+   "end": 3.026708
+  },
+  {
+   "text": "días",
+   "start": 3.037291,
+   "end": 3.291541
+  },
+  {
+   "text": "nuevos",
+   "start": 3.302125,
+   "end": 3.736458
+  }
+ ]
+}

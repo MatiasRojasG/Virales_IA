@@ -1,0 +1,71 @@
+{
+ "text": "Como un equipo donde cualquiera puede faltar: todos tienen que entender el trabajo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Como",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "un",
+   "start": 0.30425,
+   "end": 0.431375
+  },
+  {
+   "text": "equipo",
+   "start": 0.441958,
+   "end": 0.759749
+  },
+  {
+   "text": "donde",
+   "start": 0.770333,
+   "end": 0.971624
+  },
+  {
+   "text": "cualquiera",
+   "start": 0.982208,
+   "end": 1.342374
+  },
+  {
+   "text": "puede",
+   "start": 1.352958,
+   "end": 1.564833
+  },
+  {
+   "text": "faltar",
+   "start": 1.575416,
+   "end": 1.956791
+  },
+  {
+   "text": "todos",
+   "start": 2.200416,
+   "end": 2.475832
+  },
+  {
+   "text": "tienen",
+   "start": 2.486458,
+   "end": 2.740708
+  },
+  {
+   "text": "que",
+   "start": 2.751291,
+   "end": 2.846624
+  },
+  {
+   "text": "entender",
+   "start": 2.857208,
+   "end": 3.259749
+  },
+  {
+   "text": "el",
+   "start": 3.270333,
+   "end": 3.355083
+  },
+  {
+   "text": "trabajo",
+   "start": 3.365666,
+   "end": 3.789374
+  }
+ ]
+}

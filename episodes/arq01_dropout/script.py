@@ -43,10 +43,10 @@ BEATS = [
         Ph("Pero hay días *raros*: llovió cuando nada lo anunciaba.", pause=0.45),
     ]),
     Beat("memoriza", [
-        Ph("Una red grande puede acertar *todos* los días que ya vio.", pause=0.15),
+        Ph("Una red grande puede acertar *casi todos* los días que ya vio.", pause=0.15),
         Ph("¿Cómo? Dibujando *islas* alrededor de cada día raro: los memoriza.", pause=0.35),
         Ph("Pero cuando llegan días *nuevos*, se equivoca más.", pause=0.3),
-        Ph("Perfecta en la práctica, peor en la prueba real. Se llama *sobreajuste*.", pause=0.5),
+        Ph("Casi perfecta en la práctica, peor en la prueba real. Se llama *sobreajuste*.", pause=0.5),
     ]),
     Beat("porque", [
         Ph("¿Por qué pasa?", pause=0.2, pitch=Q),

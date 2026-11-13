@@ -1,0 +1,51 @@
+{
+ "text": "A las redes neuronales les pasa exactamente lo mismo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "A",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "las",
+   "start": 0.208916,
+   "end": 0.388999
+  },
+  {
+   "text": "redes",
+   "start": 0.399583,
+   "end": 0.664416
+  },
+  {
+   "text": "neuronales",
+   "start": 0.675,
+   "end": 1.236458
+  },
+  {
+   "text": "les",
+   "start": 1.247041,
+   "end": 1.384749
+  },
+  {
+   "text": "pasa",
+   "start": 1.395333,
+   "end": 1.628374
+  },
+  {
+   "text": "exactamente",
+   "start": 1.639,
+   "end": 2.285166
+  },
+  {
+   "text": "lo",
+   "start": 2.29575,
+   "end": 2.3805
+  },
+  {
+   "text": "mismo",
+   "start": 2.391083,
+   "end": 2.730083
+  }
+ ]
+}

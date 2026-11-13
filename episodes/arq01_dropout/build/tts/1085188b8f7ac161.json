@@ -1,0 +1,46 @@
+{
+ "text": "Ninguna puede contar con que otra esté ahí...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ninguna",
+   "start": 0.092375,
+   "end": 0.463125
+  },
+  {
+   "text": "puede",
+   "start": 0.473708,
+   "end": 0.664374
+  },
+  {
+   "text": "contar",
+   "start": 0.675,
+   "end": 1.014
+  },
+  {
+   "text": "con",
+   "start": 1.024583,
+   "end": 1.183499
+  },
+  {
+   "text": "que",
+   "start": 1.194083,
+   "end": 1.310624
+  },
+  {
+   "text": "otra",
+   "start": 1.321166,
+   "end": 1.522457
+  },
+  {
+   "text": "esté",
+   "start": 1.533041,
+   "end": 1.734332
+  },
+  {
+   "text": "ahí",
+   "start": 1.744916,
+   "end": 1.999166
+  }
+ ]
+}

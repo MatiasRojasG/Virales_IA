@@ -1,0 +1,31 @@
+{
+ "text": "En la prueba real... reprueba.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.261875
+  },
+  {
+   "text": "la",
+   "start": 0.272458,
+   "end": 0.357208
+  },
+  {
+   "text": "prueba",
+   "start": 0.367791,
+   "end": 0.632624
+  },
+  {
+   "text": "real",
+   "start": 0.643208,
+   "end": 0.950416
+  },
+  {
+   "text": "reprueba",
+   "start": 1.194083,
+   "end": 1.670791
+  }
+ ]
+}

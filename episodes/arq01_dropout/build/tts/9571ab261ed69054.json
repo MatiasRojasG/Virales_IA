@@ -1,0 +1,46 @@
+{
+ "text": "Pero cuando llegan días nuevos, se equivoca más.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "cuando",
+   "start": 0.283041,
+   "end": 0.516082
+  },
+  {
+   "text": "llegan",
+   "start": 0.526708,
+   "end": 0.823333
+  },
+  {
+   "text": "días",
+   "start": 0.833916,
+   "end": 1.077541
+  },
+  {
+   "text": "nuevos",
+   "start": 1.088125,
+   "end": 1.4165
+  },
+  {
+   "text": "se",
+   "start": 1.596625,
+   "end": 1.755541
+  },
+  {
+   "text": "equivoca",
+   "start": 1.766083,
+   "end": 2.168624
+  },
+  {
+   "text": "más",
+   "start": 2.17925,
+   "end": 2.539416
+  }
+ ]
+}

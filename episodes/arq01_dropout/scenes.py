@@ -52,9 +52,10 @@ def pruebas(P, t):
     if a > 0:
         # práctica: perfecta desde el cuadro 0
         n_ok = 6
-        marks = [True if t > 0.15 + 0.12 * k else None for k in range(n_ok)]
-        exam(P, 300 if t > c["real"] - 0.4 else 540, 860, a, 1.0 if t < c["real"] - 0.4 else 0.85, marks,
-             "10 / 10" if t > 0.9 else "", C.CYAN, "práctica")
+        marks = [True if t >= 0.08 * k else None for k in range(n_ok)]
+        mvp = prog(t, c["real"] - 0.5, c["real"] + 0.3, in_out_cubic)
+        exam(P, lerp(540, 300, mvp), 860, a, lerp(1.0, 0.85, mvp), marks,
+             "10 / 10" if t > 0.5 else "", C.CYAN, "práctica")
         ar = prog(t, c["real"] - 0.4, c["real"] + 0.2)
         if ar > 0:
             mr = [k in (1, 4) if t > c["reprueba"] - 0.2 + 0.1 * k else None for k in range(6)]
@@ -214,7 +215,7 @@ def setup(tl, data, episode):
     c["real"] = T("hook", "real"); c["reprueba"] = T("hook", "reprueba")
     c["pu0"] = T("puente"); c["apagar"] = T("puente", "apagar")
     c["da0"] = T("datos"); c["da_pts"] = T("datos", "punto"); c["raros"] = T("datos", "raros")
-    c["todos"] = T("memoriza", "todos"); c["islas"] = T("memoriza", "islas"); c["nuevos"] = T("memoriza", "nuevos")
+    c["todos"] = T("memoriza", "casi"); c["islas"] = T("memoriza", "islas"); c["nuevos"] = T("memoriza", "nuevos")
     c["sobre"] = T("memoriza", "sobreajuste")
     c["por0"] = T("porque"); c["especial"] = T("porque", "especializan"); c["apoyan"] = T("porque", "apoyan")
     c["porq_end"] = T("porque")
