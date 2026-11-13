@@ -1,0 +1,91 @@
+{
+ "text": "Y cada vez que se equivoca, mueve un poco esos lugares, para acertar mejor la próxima vez.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.094625,
+   "end": 0.217375
+  },
+  {
+   "text": "cada",
+   "start": 0.228583,
+   "end": 0.451791
+  },
+  {
+   "text": "vez",
+   "start": 0.462958,
+   "end": 0.663833
+  },
+  {
+   "text": "que",
+   "start": 0.675,
+   "end": 0.764291
+  },
+  {
+   "text": "se",
+   "start": 0.775458,
+   "end": 0.875916
+  },
+  {
+   "text": "equivoca",
+   "start": 0.887041,
+   "end": 1.366957
+  },
+  {
+   "text": "mueve",
+   "start": 1.679458,
+   "end": 1.880333
+  },
+  {
+   "text": "un",
+   "start": 1.8915,
+   "end": 2.01425
+  },
+  {
+   "text": "poco",
+   "start": 2.025458,
+   "end": 2.293333
+  },
+  {
+   "text": "esos",
+   "start": 2.304458,
+   "end": 2.549999
+  },
+  {
+   "text": "lugares",
+   "start": 2.561166,
+   "end": 3.007582
+  },
+  {
+   "text": "para",
+   "start": 3.2085,
+   "end": 3.375916
+  },
+  {
+   "text": "acertar",
+   "start": 3.387041,
+   "end": 3.799999
+  },
+  {
+   "text": "mejor",
+   "start": 3.811166,
+   "end": 4.112499
+  },
+  {
+   "text": "la",
+   "start": 4.123666,
+   "end": 4.212957
+  },
+  {
+   "text": "próxima",
+   "start": 4.224125,
+   "end": 4.625916
+  },
+  {
+   "text": "vez",
+   "start": 4.637041,
+   "end": 5.005332
+  }
+ ]
+}

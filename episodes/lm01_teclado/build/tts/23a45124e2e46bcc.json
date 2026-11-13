@@ -1,0 +1,26 @@
+{
+ "text": "Dime con quién andas...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Dime",
+   "start": 0.103208,
+   "end": 0.475541
+  },
+  {
+   "text": "con",
+   "start": 0.488833,
+   "end": 0.674999
+  },
+  {
+   "text": "quién",
+   "start": 0.688291,
+   "end": 0.927666
+  },
+  {
+   "text": "andas",
+   "start": 0.940958,
+   "end": 1.459583
+  }
+ ]
+}

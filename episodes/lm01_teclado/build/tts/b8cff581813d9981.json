@@ -1,0 +1,51 @@
+{
+ "text": "Así, café y té son tan distintos entre sí...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.103208,
+   "end": 0.555333
+  },
+  {
+   "text": "café",
+   "start": 0.847875,
+   "end": 1.220208
+  },
+  {
+   "text": "y",
+   "start": 1.2335,
+   "end": 1.339875
+  },
+  {
+   "text": "té",
+   "start": 1.353208,
+   "end": 1.472874
+  },
+  {
+   "text": "son",
+   "start": 1.486166,
+   "end": 1.738832
+  },
+  {
+   "text": "tan",
+   "start": 1.752125,
+   "end": 1.938291
+  },
+  {
+   "text": "distintos",
+   "start": 1.951583,
+   "end": 2.549999
+  },
+  {
+   "text": "entre",
+   "start": 2.563291,
+   "end": 2.815957
+  },
+  {
+   "text": "sí",
+   "start": 2.82925,
+   "end": 3.121791
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+[hook] (  0.1s –   9.9s)
+Escribes: «me tomé un»... y antes de que termines, tu teclado ya sugiere: café, té, mate. ¿Cómo sabe qué palabra viene?
+
+[simbolos] (  9.9s –  23.1s)
+Para un computador, una palabra no significa nada. Es solo un símbolo: un interruptor encendido, en una fila de miles. Así, café y té son tan distintos entre sí... como café y perro.
+
+[conflicto] ( 23.1s –  27.4s)
+Y si no sabe qué palabras se parecen... no tiene cómo adivinar.
+
+[intuicion] ( 27.4s –  39.6s)
+Pero piensa cómo lo sabes tú. Café y té aparecen rodeados de las mismas palabras: tomé, pedí, caliente. Dime con quién andas... y te diré quién eres.
+
+[juego] ( 39.6s –  59.1s)
+Esa es la idea. Le damos a la máquina miles de frases, y le proponemos un juego: mirar las palabras anteriores... y adivinar la siguiente. Cada palabra recibe un lugar en un mapa. Al principio, al azar. Y cada vez que se equivoca, mueve un poco esos lugares, para acertar mejor la próxima vez.
+
+[revelacion] ( 59.1s –  77.7s)
+Después de miles de intentos... las palabras se ordenan solas. Las bebidas, juntas. Los animales, juntos. Las comidas. Los lugares. Nadie le dijo qué era un animal. Lo descubrió por las palabras que lo rodean.
+
+[nombre] ( 77.7s –  80.3s)
+Ese lugar aprendido se llama embedding.
+
+[cierre] ( 80.3s –  93.0s)
+Entonces, cuando escribes «me tomé un»... el modelo busca qué palabras suelen ir ahí, y todas viven en el mismo barrio. Tu teclado no sabe qué es el café. Sabe con qué palabras anda.

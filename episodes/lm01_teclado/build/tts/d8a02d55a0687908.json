@@ -1,0 +1,31 @@
+{
+ "text": "¿Cómo sabe qué palabra viene?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "sabe",
+   "start": 0.293625,
+   "end": 0.53725
+  },
+  {
+   "text": "qué",
+   "start": 0.547875,
+   "end": 0.653791
+  },
+  {
+   "text": "palabra",
+   "start": 0.664416,
+   "end": 0.982207
+  },
+  {
+   "text": "viene",
+   "start": 0.992791,
+   "end": 1.331791
+  }
+ ]
+}

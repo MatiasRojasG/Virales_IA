@@ -1,0 +1,26 @@
+{
+ "text": "no tiene cómo adivinar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "no",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "tiene",
+   "start": 0.283041,
+   "end": 0.526666
+  },
+  {
+   "text": "cómo",
+   "start": 0.537291,
+   "end": 0.727957
+  },
+  {
+   "text": "adivinar",
+   "start": 0.738541,
+   "end": 1.225832
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "Ese lugar aprendido se llama embedding.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "lugar",
+   "start": 0.325416,
+   "end": 0.569041
+  },
+  {
+   "text": "aprendido",
+   "start": 0.579666,
+   "end": 1.013999
+  },
+  {
+   "text": "se",
+   "start": 1.024583,
+   "end": 1.130499
+  },
+  {
+   "text": "llama",
+   "start": 1.141083,
+   "end": 1.374124
+  },
+  {
+   "text": "embedding",
+   "start": 1.38475,
+   "end": 1.882625
+  }
+ ]
+}

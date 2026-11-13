@@ -1,0 +1,56 @@
+{
+ "text": "Las bebidas, juntas. Los animales, juntos. Las comidas. Los lugares.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "bebidas",
+   "start": 0.30425,
+   "end": 0.75975
+  },
+  {
+   "text": "juntas",
+   "start": 0.982208,
+   "end": 1.501291
+  },
+  {
+   "text": "Los",
+   "start": 2.224583,
+   "end": 2.404666
+  },
+  {
+   "text": "animales",
+   "start": 2.41525,
+   "end": 2.9555
+  },
+  {
+   "text": "juntos",
+   "start": 3.177958,
+   "end": 3.686416
+  },
+  {
+   "text": "Las",
+   "start": 4.417375,
+   "end": 4.597458
+  },
+  {
+   "text": "comidas",
+   "start": 4.608041,
+   "end": 5.158874
+  },
+  {
+   "text": "Los",
+   "start": 5.889833,
+   "end": 6.091124
+  },
+  {
+   "text": "lugares",
+   "start": 6.101708,
+   "end": 6.620791
+  }
+ ]
+}

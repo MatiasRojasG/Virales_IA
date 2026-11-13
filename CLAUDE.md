@@ -50,3 +50,32 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 ## Control de calidad después del render
 - Hoja de cuadros clave sin solapamientos, sin «saltos aislados» (diferencia entre cuadros), desfase subtítulos–voz < 100 ms, −14 a −16 LUFS y pico −1 dBFS.
 - Commit y push a la rama de trabajo. Entregar MP4, SRT, guion, portada y código.
+
+## Narrativa y ritmo cinematográfico (regla permanente)
+- **Contexto antes del problema.** Ningún dato, porcentaje, fórmula o término sin explicación previa. Cada frase nace de la anterior. El espectador siempre sabe qué ocurre, por qué importa y qué intentamos descubrir. Sin saltos ni cambios repentinos de tema.
+- **Escribir para ser escuchado.**
+  - Usar comas, preguntas, «…» y silencios intencionales. Alternar frases cortas y largas.
+  - Nunca recitar números ni explicaciones complejas rápido (frases con cifras van con `rate` más lento).
+  - Pausas orientativas (`Ph.pause`), adaptadas al ritmo y sin aplicarlas mecánicamente:
+
+    | Momento | Pausa |
+    |---|---|
+    | Coma | 0,15–0,3 s |
+    | Fin de idea | 0,3–0,5 s |
+    | Antes de una revelación | 0,5–0,9 s |
+    | Después de un descubrimiento | 0,6–1,2 s |
+
+- **Arco emocional.** Curiosidad → expectativa → conflicto → suspenso → revelación → comprensión → satisfacción.
+  - Pequeñas preguntas que se resuelven de a poco, con anticipación antes de cada resultado.
+  - Sin suspenso artificial, exagerado ni repetido. El descubrimiento debe sentirse merecido y lógico.
+- **Sincronía.**
+  - La animación sigue a la voz y no revela una respuesta antes de que la narración la prepare.
+  - En las pausas importantes, mantener movimiento visual con significado.
+  - Transiciones, música y SFX caen sobre las revelaciones.
+  - Dar tiempo para observar antes de avanzar. El montaje se ajusta a la voz, no al revés.
+- **Validación antes del render final.**
+  - Revisar la narración completa: ritmo en palabras por segundo, mapa de pausas y que no suene apresurada.
+  - Comprobar el contexto de cada concepto y que cada pausa aporte comprensión o emoción.
+  - Eliminar redundancias y suspenso forzado.
+  - Límite práctico: no puedo escuchar el audio. Lo verifico con métricas (pausas, velocidad, cobertura) y se lo indico al usuario.
+- **Principio.** No explicar mucha información rápido: que el espectador sienta curiosidad, descubra algo y lo comprenda.

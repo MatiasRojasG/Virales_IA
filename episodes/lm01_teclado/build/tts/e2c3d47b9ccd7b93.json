@@ -1,0 +1,36 @@
+{
+ "text": "Entonces, cuando escribes «me tomé un»...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.092375,
+   "end": 0.696208
+  },
+  {
+   "text": "cuando",
+   "start": 0.886875,
+   "end": 1.077541
+  },
+  {
+   "text": "escribes",
+   "start": 1.088125,
+   "end": 1.586
+  },
+  {
+   "text": "me",
+   "start": 1.787291,
+   "end": 1.893207
+  },
+  {
+   "text": "tomé",
+   "start": 1.903833,
+   "end": 2.136874
+  },
+  {
+   "text": "un",
+   "start": 2.147458,
+   "end": 2.412291
+  }
+ ]
+}

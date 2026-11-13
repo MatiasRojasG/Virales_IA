@@ -1,0 +1,46 @@
+{
+ "text": "Tu teclado no sabe qué es el café.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.094625,
+   "end": 0.20625
+  },
+  {
+   "text": "teclado",
+   "start": 0.217416,
+   "end": 0.585707
+  },
+  {
+   "text": "no",
+   "start": 0.596875,
+   "end": 0.741958
+  },
+  {
+   "text": "sabe",
+   "start": 0.753125,
+   "end": 1.032125
+  },
+  {
+   "text": "qué",
+   "start": 1.043291,
+   "end": 1.199541
+  },
+  {
+   "text": "es",
+   "start": 1.210708,
+   "end": 1.344624
+  },
+  {
+   "text": "el",
+   "start": 1.355791,
+   "end": 1.445082
+  },
+  {
+   "text": "café",
+   "start": 1.45625,
+   "end": 1.835708
+  }
+ ]
+}

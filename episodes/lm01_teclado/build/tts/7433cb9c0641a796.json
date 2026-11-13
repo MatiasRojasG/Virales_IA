@@ -1,0 +1,46 @@
+{
+ "text": "Lo descubrió por las palabras que lo rodean.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Lo",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "descubrió",
+   "start": 0.2195,
+   "end": 0.685583
+  },
+  {
+   "text": "por",
+   "start": 0.696166,
+   "end": 0.844457
+  },
+  {
+   "text": "las",
+   "start": 0.855083,
+   "end": 0.982208
+  },
+  {
+   "text": "palabras",
+   "start": 0.992791,
+   "end": 1.395332
+  },
+  {
+   "text": "que",
+   "start": 1.405916,
+   "end": 1.501249
+  },
+  {
+   "text": "lo",
+   "start": 1.511875,
+   "end": 1.596625
+  },
+  {
+   "text": "rodean",
+   "start": 1.607208,
+   "end": 2.030916
+  }
+ ]
+}

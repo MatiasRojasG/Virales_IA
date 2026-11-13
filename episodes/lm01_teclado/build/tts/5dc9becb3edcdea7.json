@@ -1,0 +1,71 @@
+{
+ "text": "Le damos a la máquina miles de frases, y le proponemos un juego:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Le",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "damos",
+   "start": 0.240666,
+   "end": 0.505499
+  },
+  {
+   "text": "a",
+   "start": 0.516083,
+   "end": 0.558458
+  },
+  {
+   "text": "la",
+   "start": 0.569083,
+   "end": 0.643249
+  },
+  {
+   "text": "máquina",
+   "start": 0.653833,
+   "end": 1.013999
+  },
+  {
+   "text": "miles",
+   "start": 1.024583,
+   "end": 1.310583
+  },
+  {
+   "text": "de",
+   "start": 1.321166,
+   "end": 1.384707
+  },
+  {
+   "text": "frases",
+   "start": 1.395333,
+   "end": 1.808458
+  },
+  {
+   "text": "y",
+   "start": 1.999166,
+   "end": 2.062707
+  },
+  {
+   "text": "le",
+   "start": 2.073291,
+   "end": 2.179207
+  },
+  {
+   "text": "proponemos",
+   "start": 2.189833,
+   "end": 2.708916
+  },
+  {
+   "text": "un",
+   "start": 2.7195,
+   "end": 2.836041
+  },
+  {
+   "text": "juego",
+   "start": 2.846625,
+   "end": 3.196208
+  }
+ ]
+}

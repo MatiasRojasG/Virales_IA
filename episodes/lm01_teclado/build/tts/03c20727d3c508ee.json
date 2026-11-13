@@ -1,0 +1,66 @@
+{
+ "text": "y antes de que termines, tu teclado ya sugiere: café, té, mate.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "antes",
+   "start": 0.261875,
+   "end": 0.537291
+  },
+  {
+   "text": "de",
+   "start": 0.547875,
+   "end": 0.622041
+  },
+  {
+   "text": "que",
+   "start": 0.632625,
+   "end": 0.738541
+  },
+  {
+   "text": "termines",
+   "start": 0.749166,
+   "end": 1.236457
+  },
+  {
+   "text": "tu",
+   "start": 1.437708,
+   "end": 1.543624
+  },
+  {
+   "text": "teclado",
+   "start": 1.55425,
+   "end": 1.925
+  },
+  {
+   "text": "ya",
+   "start": 1.935583,
+   "end": 2.062708
+  },
+  {
+   "text": "sugiere",
+   "start": 2.073291,
+   "end": 2.507624
+  },
+  {
+   "text": "café",
+   "start": 2.751291,
+   "end": 3.079666
+  },
+  {
+   "text": "té",
+   "start": 3.333916,
+   "end": 3.524582
+  },
+  {
+   "text": "mate",
+   "start": 3.778833,
+   "end": 4.117833
+  }
+ ]
+}

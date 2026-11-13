@@ -1,0 +1,46 @@
+{
+ "text": "Para un computador, una palabra no significa nada.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "un",
+   "start": 0.293625,
+   "end": 0.378375
+  },
+  {
+   "text": "computador",
+   "start": 0.389,
+   "end": 0.908083
+  },
+  {
+   "text": "una",
+   "start": 1.141083,
+   "end": 1.268208
+  },
+  {
+   "text": "palabra",
+   "start": 1.278833,
+   "end": 1.638999
+  },
+  {
+   "text": "no",
+   "start": 1.649583,
+   "end": 1.808499
+  },
+  {
+   "text": "significa",
+   "start": 1.819083,
+   "end": 2.369916
+  },
+  {
+   "text": "nada",
+   "start": 2.3805,
+   "end": 2.7195
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "Escribes: «me tomé un»...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Escribes",
+   "start": 0.092375,
+   "end": 0.685583
+  },
+  {
+   "text": "me",
+   "start": 0.918625,
+   "end": 1.024541
+  },
+  {
+   "text": "tomé",
+   "start": 1.035166,
+   "end": 1.268207
+  },
+  {
+   "text": "un",
+   "start": 1.278833,
+   "end": 1.543666
+  }
+ ]
+}

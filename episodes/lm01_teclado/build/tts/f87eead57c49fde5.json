@@ -1,0 +1,46 @@
+{
+ "text": "mirar las palabras anteriores... y adivinar la siguiente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "mirar",
+   "start": 0.092375,
+   "end": 0.410166
+  },
+  {
+   "text": "las",
+   "start": 0.42075,
+   "end": 0.558458
+  },
+  {
+   "text": "palabras",
+   "start": 0.569083,
+   "end": 0.971624
+  },
+  {
+   "text": "anteriores",
+   "start": 0.982208,
+   "end": 1.554249
+  },
+  {
+   "text": "y",
+   "start": 1.744916,
+   "end": 1.829666
+  },
+  {
+   "text": "adivinar",
+   "start": 1.84025,
+   "end": 2.263958
+  },
+  {
+   "text": "la",
+   "start": 2.274583,
+   "end": 2.348749
+  },
+  {
+   "text": "siguiente",
+   "start": 2.359333,
+   "end": 2.867791
+  }
+ ]
+}

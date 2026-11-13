@@ -1,0 +1,31 @@
+{
+ "text": "las palabras se ordenan solas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "las",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "palabras",
+   "start": 0.293625,
+   "end": 0.664375
+  },
+  {
+   "text": "se",
+   "start": 0.675,
+   "end": 0.749166
+  },
+  {
+   "text": "ordenan",
+   "start": 0.75975,
+   "end": 1.109333
+  },
+  {
+   "text": "solas",
+   "start": 1.119916,
+   "end": 1.575416
+  }
+ ]
+}

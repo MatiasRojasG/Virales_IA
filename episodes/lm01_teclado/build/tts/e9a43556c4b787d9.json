@@ -1,0 +1,31 @@
+{
+ "text": "Sabe con qué palabras anda.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Sabe",
+   "start": 0.103208,
+   "end": 0.488833
+  },
+  {
+   "text": "con",
+   "start": 0.502125,
+   "end": 0.688291
+  },
+  {
+   "text": "qué",
+   "start": 0.701583,
+   "end": 0.834541
+  },
+  {
+   "text": "palabras",
+   "start": 0.847875,
+   "end": 1.379791
+  },
+  {
+   "text": "anda",
+   "start": 1.393083,
+   "end": 1.778708
+  }
+ ]
+}

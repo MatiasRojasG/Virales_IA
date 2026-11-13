@@ -1,0 +1,31 @@
+{
+ "text": "y te diré quién eres.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.103208,
+   "end": 0.262791
+  },
+  {
+   "text": "te",
+   "start": 0.276083,
+   "end": 0.395749
+  },
+  {
+   "text": "diré",
+   "start": 0.409041,
+   "end": 0.701582
+  },
+  {
+   "text": "quién",
+   "start": 0.714875,
+   "end": 0.980833
+  },
+  {
+   "text": "eres",
+   "start": 0.994166,
+   "end": 1.499499
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "Esa es la idea.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Esa",
+   "start": 0.092375,
+   "end": 0.399583
+  },
+  {
+   "text": "es",
+   "start": 0.410166,
+   "end": 0.537291
+  },
+  {
+   "text": "la",
+   "start": 0.547875,
+   "end": 0.632625
+  },
+  {
+   "text": "idea",
+   "start": 0.643208,
+   "end": 0.992791
+  }
+ ]
+}

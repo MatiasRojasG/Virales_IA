@@ -1,0 +1,66 @@
+{
+ "text": "Es solo un símbolo: un interruptor encendido, en una fila de miles.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "solo",
+   "start": 0.240666,
+   "end": 0.410166
+  },
+  {
+   "text": "un",
+   "start": 0.42075,
+   "end": 0.526666
+  },
+  {
+   "text": "símbolo",
+   "start": 0.537291,
+   "end": 0.929249
+  },
+  {
+   "text": "un",
+   "start": 1.162291,
+   "end": 1.257624
+  },
+  {
+   "text": "interruptor",
+   "start": 1.268208,
+   "end": 1.755499
+  },
+  {
+   "text": "encendido",
+   "start": 1.766083,
+   "end": 2.295749
+  },
+  {
+   "text": "en",
+   "start": 2.46525,
+   "end": 2.592375
+  },
+  {
+   "text": "una",
+   "start": 2.602958,
+   "end": 2.772458
+  },
+  {
+   "text": "fila",
+   "start": 2.783041,
+   "end": 3.005499
+  },
+  {
+   "text": "de",
+   "start": 3.016083,
+   "end": 3.100833
+  },
+  {
+   "text": "miles",
+   "start": 3.111458,
+   "end": 3.556374
+  }
+ ]
+}

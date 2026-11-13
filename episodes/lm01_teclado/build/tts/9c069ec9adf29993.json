@@ -1,0 +1,41 @@
+{
+ "text": "Nadie le dijo qué era un animal.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Nadie",
+   "start": 0.094625,
+   "end": 0.418291
+  },
+  {
+   "text": "le",
+   "start": 0.429458,
+   "end": 0.507583
+  },
+  {
+   "text": "dijo",
+   "start": 0.51875,
+   "end": 0.808916
+  },
+  {
+   "text": "qué",
+   "start": 0.820083,
+   "end": 0.976333
+  },
+  {
+   "text": "era",
+   "start": 0.9875,
+   "end": 1.154916
+  },
+  {
+   "text": "un",
+   "start": 1.166083,
+   "end": 1.299999
+  },
+  {
+   "text": "animal",
+   "start": 1.311166,
+   "end": 1.735291
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Después de miles de intentos...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Después",
+   "start": 0.103208,
+   "end": 0.581916
+  },
+  {
+   "text": "de",
+   "start": 0.595208,
+   "end": 0.674999
+  },
+  {
+   "text": "miles",
+   "start": 0.688291,
+   "end": 1.060624
+  },
+  {
+   "text": "de",
+   "start": 1.073916,
+   "end": 1.153707
+  },
+  {
+   "text": "intentos",
+   "start": 1.167041,
+   "end": 1.898416
+  }
+ ]
+}

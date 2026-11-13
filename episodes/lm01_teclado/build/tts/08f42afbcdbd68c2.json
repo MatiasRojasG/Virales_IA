@@ -1,0 +1,66 @@
+{
+ "text": "Cada palabra recibe un lugar en un mapa. Al principio, al azar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.092375,
+   "end": 0.314833
+  },
+  {
+   "text": "palabra",
+   "start": 0.325416,
+   "end": 0.674999
+  },
+  {
+   "text": "recibe",
+   "start": 0.685583,
+   "end": 1.045749
+  },
+  {
+   "text": "un",
+   "start": 1.056375,
+   "end": 1.141125
+  },
+  {
+   "text": "lugar",
+   "start": 1.151708,
+   "end": 1.395333
+  },
+  {
+   "text": "en",
+   "start": 1.405916,
+   "end": 1.490666
+  },
+  {
+   "text": "un",
+   "start": 1.501291,
+   "end": 1.607207
+  },
+  {
+   "text": "mapa",
+   "start": 1.617791,
+   "end": 1.956791
+  },
+  {
+   "text": "Al",
+   "start": 2.680083,
+   "end": 2.849583
+  },
+  {
+   "text": "principio",
+   "start": 2.860166,
+   "end": 3.421624
+  },
+  {
+   "text": "al",
+   "start": 3.622875,
+   "end": 3.760583
+  },
+  {
+   "text": "azar",
+   "start": 3.771166,
+   "end": 4.131332
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "text": "Café y té aparecen rodeados de las mismas palabras:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Café",
+   "start": 0.092375,
+   "end": 0.389
+  },
+  {
+   "text": "y",
+   "start": 0.399583,
+   "end": 0.484333
+  },
+  {
+   "text": "té",
+   "start": 0.494916,
+   "end": 0.569082
+  },
+  {
+   "text": "aparecen",
+   "start": 0.579666,
+   "end": 0.992791
+  },
+  {
+   "text": "rodeados",
+   "start": 1.003375,
+   "end": 1.395333
+  },
+  {
+   "text": "de",
+   "start": 1.405916,
+   "end": 1.469457
+  },
+  {
+   "text": "las",
+   "start": 1.480083,
+   "end": 1.638999
+  },
+  {
+   "text": "mismas",
+   "start": 1.649583,
+   "end": 1.977958
+  },
+  {
+   "text": "palabras",
+   "start": 1.988541,
+   "end": 2.518207
+  }
+ ]
+}

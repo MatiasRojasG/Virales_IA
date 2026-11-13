@@ -1,0 +1,21 @@
+{
+ "text": "tomé, pedí, caliente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "tomé",
+   "start": 0.103208,
+   "end": 0.502124
+  },
+  {
+   "text": "pedí",
+   "start": 0.834583,
+   "end": 1.220208
+  },
+  {
+   "text": "caliente",
+   "start": 1.565958,
+   "end": 2.177666
+  }
+ ]
+}

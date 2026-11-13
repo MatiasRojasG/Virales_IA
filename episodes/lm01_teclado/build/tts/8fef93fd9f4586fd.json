@@ -1,0 +1,81 @@
+{
+ "text": "el modelo busca qué palabras suelen ir ahí, y todas viven en el mismo barrio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "el",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "modelo",
+   "start": 0.251291,
+   "end": 0.558499
+  },
+  {
+   "text": "busca",
+   "start": 0.569083,
+   "end": 0.844499
+  },
+  {
+   "text": "qué",
+   "start": 0.855083,
+   "end": 0.960999
+  },
+  {
+   "text": "palabras",
+   "start": 0.971625,
+   "end": 1.353
+  },
+  {
+   "text": "suelen",
+   "start": 1.363541,
+   "end": 1.649541
+  },
+  {
+   "text": "ir",
+   "start": 1.660166,
+   "end": 1.787291
+  },
+  {
+   "text": "ahí",
+   "start": 1.797875,
+   "end": 2.020333
+  },
+  {
+   "text": "y",
+   "start": 2.264,
+   "end": 2.338166
+  },
+  {
+   "text": "todas",
+   "start": 2.348708,
+   "end": 2.687708
+  },
+  {
+   "text": "viven",
+   "start": 2.698291,
+   "end": 2.941916
+  },
+  {
+   "text": "en",
+   "start": 2.952541,
+   "end": 3.058457
+  },
+  {
+   "text": "el",
+   "start": 3.069083,
+   "end": 3.174999
+  },
+  {
+   "text": "mismo",
+   "start": 3.185583,
+   "end": 3.492791
+  },
+  {
+   "text": "barrio",
+   "start": 3.503375,
+   "end": 3.863541
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "como café y perro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "como",
+   "start": 0.103208,
+   "end": 0.395749
+  },
+  {
+   "text": "café",
+   "start": 0.409041,
+   "end": 0.794666
+  },
+  {
+   "text": "y",
+   "start": 0.807958,
+   "end": 0.914333
+  },
+  {
+   "text": "perro",
+   "start": 0.927666,
+   "end": 1.366499
+  }
+ ]
+}

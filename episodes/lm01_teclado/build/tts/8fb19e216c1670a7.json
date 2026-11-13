@@ -1,0 +1,46 @@
+{
+ "text": "Y si no sabe qué palabras se parecen...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "si",
+   "start": 0.208916,
+   "end": 0.346624
+  },
+  {
+   "text": "no",
+   "start": 0.357208,
+   "end": 0.484333
+  },
+  {
+   "text": "sabe",
+   "start": 0.494916,
+   "end": 0.738541
+  },
+  {
+   "text": "qué",
+   "start": 0.749166,
+   "end": 0.855082
+  },
+  {
+   "text": "palabras",
+   "start": 0.865666,
+   "end": 1.247041
+  },
+  {
+   "text": "se",
+   "start": 1.257625,
+   "end": 1.342375
+  },
+  {
+   "text": "parecen",
+   "start": 1.352958,
+   "end": 1.797874
+  }
+ ]
+}

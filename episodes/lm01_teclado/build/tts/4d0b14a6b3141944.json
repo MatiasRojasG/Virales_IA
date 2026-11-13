@@ -1,0 +1,36 @@
+{
+ "text": "Pero piensa cómo lo sabes tú.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "piensa",
+   "start": 0.283041,
+   "end": 0.622041
+  },
+  {
+   "text": "cómo",
+   "start": 0.632625,
+   "end": 0.833916
+  },
+  {
+   "text": "lo",
+   "start": 0.8445,
+   "end": 0.918666
+  },
+  {
+   "text": "sabes",
+   "start": 0.92925,
+   "end": 1.247041
+  },
+  {
+   "text": "tú",
+   "start": 1.257625,
+   "end": 1.437708
+  }
+ ]
+}
