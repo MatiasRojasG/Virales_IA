@@ -1,0 +1,66 @@
+{
+ "text": "Café tiene dieciséis números, y nadie los eligió: los ajustó el juego.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Café",
+   "start": 0.093875,
+   "end": 0.368
+  },
+  {
+   "text": "tiene",
+   "start": 0.378958,
+   "end": 0.609208
+  },
+  {
+   "text": "dieciséis",
+   "start": 0.620166,
+   "end": 1.146499
+  },
+  {
+   "text": "números",
+   "start": 1.157458,
+   "end": 1.606999
+  },
+  {
+   "text": "y",
+   "start": 1.815333,
+   "end": 1.881124
+  },
+  {
+   "text": "nadie",
+   "start": 1.892125,
+   "end": 2.188166
+  },
+  {
+   "text": "los",
+   "start": 2.199125,
+   "end": 2.341666
+  },
+  {
+   "text": "eligió",
+   "start": 2.352625,
+   "end": 2.736416
+  },
+  {
+   "text": "los",
+   "start": 2.999541,
+   "end": 3.131124
+  },
+  {
+   "text": "ajustó",
+   "start": 3.142125,
+   "end": 3.514916
+  },
+  {
+   "text": "el",
+   "start": 3.525875,
+   "end": 3.580708
+  },
+  {
+   "text": "juego",
+   "start": 3.591666,
+   "end": 3.964457
+  }
+ ]
+}

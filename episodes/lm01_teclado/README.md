@@ -1,6 +1,13 @@
 # ¿Cómo adivina tu teclado la palabra que viene? (metadato interno: modelos de lenguaje, ep. 1)
 
-**Video (v2, con más materia):** `output/lm01_teclado.mp4`: 1080×1920, 60 fps, **159 s**, −14,3 LUFS, pico −1 dBFS. Sin títulos ni banners.
+**Video (v3, corto):** `output/lm01_teclado.mp4`: 1080×1920, 60 fps, **80,5 s**, −14,6 LUFS. Voz a +14 % (2,97 palabras/s al hablar). Sin títulos ni banners.
+**Versión larga (v2, 159 s):** `output/lm01_teclado_largo_159s.mp4`, con la tabla de embeddings y la predicción detallada. Sirve de base si se quiere una segunda parte.
+
+**v3:**
+- Se mantiene lo esencial: embedding = lugar aprendido = vector (casa en (3, 2) → 16 números de «café»).
+- Se lee comparando direcciones (café–té 0,998; café–perro 0,21).
+- El teclado junta «me tomé un» y sugiere lo que apunta hacia el mismo lado.
+- Se quitaron la tabla y el interruptor que elige la fila, y la escena de conflicto aparte. Se condensaron las frases de contexto.
 
 **Ritmo (regla de narración cinematográfica):**
 - Voz a +12 %, más pausada que la de los episodios anteriores: 2,88 palabras/s al hablar y 2,45 palabras/s con las pausas.

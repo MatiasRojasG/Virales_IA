@@ -1,0 +1,56 @@
+{
+ "text": "y sugiere las palabras que apuntan hacia el mismo lado.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093875,
+   "end": 0.192541
+  },
+  {
+   "text": "sugiere",
+   "start": 0.2035,
+   "end": 0.587291
+  },
+  {
+   "text": "las",
+   "start": 0.59825,
+   "end": 0.729833
+  },
+  {
+   "text": "palabras",
+   "start": 0.740791,
+   "end": 1.157457
+  },
+  {
+   "text": "que",
+   "start": 1.168416,
+   "end": 1.256124
+  },
+  {
+   "text": "apuntan",
+   "start": 1.267125,
+   "end": 1.650916
+  },
+  {
+   "text": "hacia",
+   "start": 1.661833,
+   "end": 1.859208
+  },
+  {
+   "text": "el",
+   "start": 1.870166,
+   "end": 1.946916
+  },
+  {
+   "text": "mismo",
+   "start": 1.957875,
+   "end": 2.264875
+  },
+  {
+   "text": "lado",
+   "start": 2.275875,
+   "end": 2.604833
+  }
+ ]
+}

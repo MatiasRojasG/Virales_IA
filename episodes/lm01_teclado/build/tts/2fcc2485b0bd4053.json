@@ -1,0 +1,91 @@
+{
+ "text": "Para un computador, una palabra es solo un símbolo: un interruptor encendido en una fila de miles.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.093875,
+   "end": 0.29125
+  },
+  {
+   "text": "un",
+   "start": 0.302208,
+   "end": 0.389916
+  },
+  {
+   "text": "computador",
+   "start": 0.400875,
+   "end": 0.938166
+  },
+  {
+   "text": "una",
+   "start": 1.201333,
+   "end": 1.332916
+  },
+  {
+   "text": "palabra",
+   "start": 1.343875,
+   "end": 1.738625
+  },
+  {
+   "text": "es",
+   "start": 1.749541,
+   "end": 1.837249
+  },
+  {
+   "text": "solo",
+   "start": 1.84825,
+   "end": 2.045625
+  },
+  {
+   "text": "un",
+   "start": 2.056583,
+   "end": 2.166249
+  },
+  {
+   "text": "símbolo",
+   "start": 2.177208,
+   "end": 2.593874
+  },
+  {
+   "text": "un",
+   "start": 2.868,
+   "end": 2.966666
+  },
+  {
+   "text": "interruptor",
+   "start": 2.977625,
+   "end": 3.492958
+  },
+  {
+   "text": "encendido",
+   "start": 3.503958,
+   "end": 3.975458
+  },
+  {
+   "text": "en",
+   "start": 3.986416,
+   "end": 4.063166
+  },
+  {
+   "text": "una",
+   "start": 4.074125,
+   "end": 4.227625
+  },
+  {
+   "text": "fila",
+   "start": 4.238583,
+   "end": 4.468833
+  },
+  {
+   "text": "de",
+   "start": 4.479833,
+   "end": 4.567541
+  },
+  {
+   "text": "miles",
+   "start": 4.5785,
+   "end": 5.039041
+  }
+ ]
+}

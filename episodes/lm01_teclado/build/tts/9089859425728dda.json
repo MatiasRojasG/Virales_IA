@@ -1,0 +1,16 @@
+{
+ "text": "¿Cómo sabe?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093875,
+   "end": 0.313166
+  },
+  {
+   "text": "sabe",
+   "start": 0.324125,
+   "end": 0.685958
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "text": "Cada palabra recibe un lugar en un mapa, al azar... y con cada error, se mueve un poco.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093875,
+   "end": 0.324125
+  },
+  {
+   "text": "palabra",
+   "start": 0.335083,
+   "end": 0.685958
+  },
+  {
+   "text": "recibe",
+   "start": 0.696916,
+   "end": 1.069707
+  },
+  {
+   "text": "un",
+   "start": 1.080708,
+   "end": 1.168416
+  },
+  {
+   "text": "lugar",
+   "start": 1.179375,
+   "end": 1.420583
+  },
+  {
+   "text": "en",
+   "start": 1.431583,
+   "end": 1.519291
+  },
+  {
+   "text": "un",
+   "start": 1.53025,
+   "end": 1.639916
+  },
+  {
+   "text": "mapa",
+   "start": 1.650875,
+   "end": 1.957875
+  },
+  {
+   "text": "al",
+   "start": 2.177208,
+   "end": 2.319749
+  },
+  {
+   "text": "azar",
+   "start": 2.330708,
+   "end": 2.593874
+  },
+  {
+   "text": "y",
+   "start": 2.813166,
+   "end": 2.867999
+  },
+  {
+   "text": "con",
+   "start": 2.878958,
+   "end": 3.054416
+  },
+  {
+   "text": "cada",
+   "start": 3.065333,
+   "end": 3.295583
+  },
+  {
+   "text": "error",
+   "start": 3.306583,
+   "end": 3.569749
+  },
+  {
+   "text": "se",
+   "start": 3.821916,
+   "end": 3.942541
+  },
+  {
+   "text": "mueve",
+   "start": 3.9535,
+   "end": 4.216666
+  },
+  {
+   "text": "un",
+   "start": 4.227625,
+   "end": 4.34825
+  },
+  {
+   "text": "poco",
+   "start": 4.359208,
+   "end": 4.710083
+  }
+ ]
+}

@@ -35,7 +35,7 @@ def main():
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     data = load_data()
-    tl = Timeline(BEATS, BUILD / "tts", rate="+12%")      # narración más pausada (regla de ritmo)
+    tl = Timeline(BEATS, BUILD / "tts", rate="+14%")      # narración más pausada (regla de ritmo)
     scenes.setup(tl, data, EPISODE)
     print(f"duración: {tl.duration:.2f} s")
 

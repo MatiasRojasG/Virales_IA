@@ -1,0 +1,46 @@
+{
+ "text": "Café y té, casi en la misma dirección...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Café",
+   "start": 0.093875,
+   "end": 0.422833
+  },
+  {
+   "text": "y",
+   "start": 0.433791,
+   "end": 0.543457
+  },
+  {
+   "text": "té",
+   "start": 0.554375,
+   "end": 0.784625
+  },
+  {
+   "text": "casi",
+   "start": 1.003958,
+   "end": 1.299999
+  },
+  {
+   "text": "en",
+   "start": 1.310958,
+   "end": 1.387708
+  },
+  {
+   "text": "la",
+   "start": 1.398666,
+   "end": 1.475416
+  },
+  {
+   "text": "misma",
+   "start": 1.486416,
+   "end": 1.771499
+  },
+  {
+   "text": "dirección",
+   "start": 1.782458,
+   "end": 2.319749
+  }
+ ]
+}

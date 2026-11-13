@@ -1,0 +1,41 @@
+{
+ "text": "¿Cómo se leen? Comparando hacia dónde apuntan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093875,
+   "end": 0.313166
+  },
+  {
+   "text": "se",
+   "start": 0.324125,
+   "end": 0.44475
+  },
+  {
+   "text": "leen",
+   "start": 0.455708,
+   "end": 0.784666
+  },
+  {
+   "text": "Comparando",
+   "start": 1.546041,
+   "end": 2.050416
+  },
+  {
+   "text": "hacia",
+   "start": 2.061416,
+   "end": 2.258791
+  },
+  {
+   "text": "dónde",
+   "start": 2.26975,
+   "end": 2.489041
+  },
+  {
+   "text": "apuntan",
+   "start": 2.5,
+   "end": 2.993416
+  }
+ ]
+}

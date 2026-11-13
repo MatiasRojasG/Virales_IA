@@ -1,0 +1,71 @@
+{
+ "text": "Pero café y té aparecen rodeados de las mismas palabras: tomé, pedí, caliente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093875,
+   "end": 0.280291
+  },
+  {
+   "text": "café",
+   "start": 0.291208,
+   "end": 0.576291
+  },
+  {
+   "text": "y",
+   "start": 0.587291,
+   "end": 0.674999
+  },
+  {
+   "text": "té",
+   "start": 0.685958,
+   "end": 0.762708
+  },
+  {
+   "text": "aparecen",
+   "start": 0.773666,
+   "end": 1.190332
+  },
+  {
+   "text": "rodeados",
+   "start": 1.201333,
+   "end": 1.596083
+  },
+  {
+   "text": "de",
+   "start": 1.607,
+   "end": 1.672791
+  },
+  {
+   "text": "las",
+   "start": 1.683791,
+   "end": 1.848249
+  },
+  {
+   "text": "mismas",
+   "start": 1.859208,
+   "end": 2.199124
+  },
+  {
+   "text": "palabras",
+   "start": 2.210083,
+   "end": 2.714458
+  },
+  {
+   "text": "tomé",
+   "start": 2.966666,
+   "end": 3.273666
+  },
+  {
+   "text": "pedí",
+   "start": 3.503958,
+   "end": 3.821958
+  },
+  {
+   "text": "caliente",
+   "start": 4.074125,
+   "end": 4.5785
+  }
+ ]
+}

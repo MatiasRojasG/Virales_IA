@@ -350,6 +350,7 @@ TABLE_WORDS = ["café", "té", "mate", "perro", "gato", "pan", "queso", "parque"
 
 def tabla_scene(P, t):
     c = CUE
+    if c.get("tabla_off"): return
     a = window(t, c["tab0"] - 0.1, c["leer0"] + 0.3, 0.5, 0.4)
     if a <= 0: return
     cw, ch = 40, 52
@@ -489,7 +490,7 @@ def setup(tl, data, episode):
     c = {}
     c["s_cafe"] = T("hook", "café"); c["como"] = T("hook", "Cómo")
     c["sim0"] = T("simbolos"); c["interruptor"] = T("simbolos", "interruptor"); c["distintos"] = T("simbolos", "distintos")
-    c["perro"] = T("simbolos", "perro"); c["adivinar"] = T("conflicto", "adivinar")
+    c["perro"] = T("simbolos", "perro"); c["adivinar"] = T("simbolos", "perro", end=True) + 0.3
     c["int0"] = T("intuicion"); c["rodeados"] = T("intuicion", "rodeados"); c["tome"] = T("intuicion", "tomé")
     c["dime"] = T("intuicion", "Dime"); c["dire"] = T("intuicion", "diré")
     import experiment as X
@@ -497,18 +498,18 @@ def setup(tl, data, episode):
     c["adivinar"] = T("juego", "adivinar")
     c["jue0"] = T("juego"); c["juego"] = T("juego", "juego"); c["lugar"] = T("juego", "lugar"); c["mueve"] = T("juego", "mueve")
     c["rev0"] = T("revelacion"); c["ordenan"] = T("revelacion", "ordenan")
-    c["cat_bebida"] = T("revelacion", "bebidas"); c["cat_animal"] = T("revelacion", "animales")
-    c["cat_comida"] = T("revelacion", "comidas"); c["cat_lugar"] = T("revelacion", "lugares")
-    c["animal"] = T("revelacion", "animal")
+    c["cat_bebida"] = T("revelacion", "Bebidas"); c["cat_animal"] = T("revelacion", "Animales")
+    c["cat_comida"] = T("revelacion", "Comidas"); c["cat_lugar"] = T("revelacion", "Lugares")
+    c["animal"] = T("revelacion", "Animales")
     c["nom0"] = T("nombre"); c["emb"] = T("nombre", "embedding")
     c["vec0"] = T("vector"); c["este"] = T("vector", "este"); c["norte"] = T("vector", "norte")
-    c["vector"] = T("vector", "vector"); c["dieciseis"] = T("vector", "dieciséis"); c["ajusta"] = T("vector", "ajusta")
-    c["aplana"] = T("vector", "aplana")
-    c["tab0"] = T("tabla"); c["interr"] = T("tabla", "interruptor"); c["saca"] = T("tabla", "saca")
-    c["leer0"] = T("leer"); c["comparando"] = T("leer", "comparándolo"); c["numero"] = T("leer", "número"); c["lado"] = T("leer", "lado")
-    c["escala"] = T("leer", "escala"); c["casi"] = T("leer", "casi"); c["cero"] = T("leer", "cero", 1)
-    c["pred0"] = T("prediccion"); c["junta"] = T("prediccion", "junta"); c["cada"] = T("prediccion", "cada")
-    c["probab"] = T("prediccion", "probabilidad"); c["sug"] = T("prediccion", "sugerencias")
+    c["vector"] = T("vector", "vector"); c["dieciseis"] = T("vector", "dieciséis"); c["ajusta"] = T("vector", "ajustó")
+    c["aplana"] = 1e9
+    c["leer0"] = T("leer"); c["tab0"] = c["leer0"]; c["interr"] = c["saca"] = 1e9; c["tabla_off"] = True
+    c["comparando"] = T("leer", "Comparando"); c["numero"] = 1e9; c["lado"] = T("leer", "dirección")
+    c["escala"] = T("leer", "dirección") + 0.3; c["casi"] = T("leer", "casi"); c["cero"] = T("leer", "perro")
+    c["pred0"] = T("prediccion"); c["junta"] = T("prediccion", "junta"); c["cada"] = T("prediccion", "sugiere")
+    c["probab"] = T("prediccion", "lado"); c["sug"] = T("prediccion", "lado", end=True)
     c["cie0"] = T("cierre"); c["barrio"] = c["cie0"] + 0.2; c["anda"] = T("cierre", "anda")
     CUE = c
     CHUNKS = tl.chunks(SUB.measure, max_words=4)

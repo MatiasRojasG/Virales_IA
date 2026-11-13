@@ -1,0 +1,91 @@
+{
+ "text": "Así que le damos a la máquina miles de frases, y un juego: adivinar la palabra siguiente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.093875,
+   "end": 0.389916
+  },
+  {
+   "text": "que",
+   "start": 0.400875,
+   "end": 0.510541
+  },
+  {
+   "text": "le",
+   "start": 0.5215,
+   "end": 0.59825
+  },
+  {
+   "text": "damos",
+   "start": 0.609208,
+   "end": 0.905249
+  },
+  {
+   "text": "a",
+   "start": 0.916208,
+   "end": 0.960083
+  },
+  {
+   "text": "la",
+   "start": 0.971041,
+   "end": 1.047791
+  },
+  {
+   "text": "máquina",
+   "start": 1.058791,
+   "end": 1.431582
+  },
+  {
+   "text": "miles",
+   "start": 1.442541,
+   "end": 1.738582
+  },
+  {
+   "text": "de",
+   "start": 1.749541,
+   "end": 1.815332
+  },
+  {
+   "text": "frases",
+   "start": 1.826333,
+   "end": 2.253958
+  },
+  {
+   "text": "y",
+   "start": 2.47325,
+   "end": 2.560958
+  },
+  {
+   "text": "un",
+   "start": 2.571916,
+   "end": 2.692541
+  },
+  {
+   "text": "juego",
+   "start": 2.7035,
+   "end": 3.043416
+  },
+  {
+   "text": "adivinar",
+   "start": 3.25175,
+   "end": 3.72325
+  },
+  {
+   "text": "la",
+   "start": 3.734208,
+   "end": 3.821916
+  },
+  {
+   "text": "palabra",
+   "start": 3.832875,
+   "end": 4.18375
+  },
+  {
+   "text": "siguiente",
+   "start": 4.19475,
+   "end": 4.732041
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "No sabe qué es el café.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.093875,
+   "end": 0.269333
+  },
+  {
+   "text": "sabe",
+   "start": 0.28025,
+   "end": 0.543416
+  },
+  {
+   "text": "qué",
+   "start": 0.554375,
+   "end": 0.696916
+  },
+  {
+   "text": "es",
+   "start": 0.707875,
+   "end": 0.839458
+  },
+  {
+   "text": "el",
+   "start": 0.850458,
+   "end": 0.938166
+  },
+  {
+   "text": "café",
+   "start": 0.949125,
+   "end": 1.310958
+  }
+ ]
+}

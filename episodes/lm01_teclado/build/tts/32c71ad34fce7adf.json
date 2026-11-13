@@ -1,0 +1,26 @@
+{
+ "text": "café y perro, no.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "café",
+   "start": 0.093875,
+   "end": 0.422833
+  },
+  {
+   "text": "y",
+   "start": 0.433791,
+   "end": 0.532457
+  },
+  {
+   "text": "perro",
+   "start": 0.543416,
+   "end": 0.872374
+  },
+  {
+   "text": "no.",
+   "start": 1.124541,
+   "end": 1.376749
+  }
+ ]
+}

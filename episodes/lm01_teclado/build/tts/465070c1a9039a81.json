@@ -1,0 +1,46 @@
+{
+ "text": "y tu teclado ya sugiere: café, té, mate.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093875,
+   "end": 0.2145
+  },
+  {
+   "text": "tu",
+   "start": 0.225458,
+   "end": 0.346083
+  },
+  {
+   "text": "teclado",
+   "start": 0.357,
+   "end": 0.718833
+  },
+  {
+   "text": "ya",
+   "start": 0.729833,
+   "end": 0.861416
+  },
+  {
+   "text": "sugiere",
+   "start": 0.872375,
+   "end": 1.332916
+  },
+  {
+   "text": "café",
+   "start": 1.585083,
+   "end": 1.924999
+  },
+  {
+   "text": "té",
+   "start": 2.177208,
+   "end": 2.363624
+  },
+  {
+   "text": "mate",
+   "start": 2.62675,
+   "end": 2.966666
+  }
+ ]
+}

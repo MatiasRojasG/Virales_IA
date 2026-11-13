@@ -1,0 +1,51 @@
+{
+ "text": "Tu teclado junta los vectores de «me tomé un»...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093875,
+   "end": 0.203541
+  },
+  {
+   "text": "teclado",
+   "start": 0.214458,
+   "end": 0.598249
+  },
+  {
+   "text": "junta",
+   "start": 0.609208,
+   "end": 0.883333
+  },
+  {
+   "text": "los",
+   "start": 0.894291,
+   "end": 1.047791
+  },
+  {
+   "text": "vectores",
+   "start": 1.058791,
+   "end": 1.497374
+  },
+  {
+   "text": "de",
+   "start": 1.508333,
+   "end": 1.650874
+  },
+  {
+   "text": "me",
+   "start": 1.903083,
+   "end": 2.001749
+  },
+  {
+   "text": "tomé",
+   "start": 2.012708,
+   "end": 2.253916
+  },
+  {
+   "text": "un",
+   "start": 2.264916,
+   "end": 2.517124
+  }
+ ]
+}

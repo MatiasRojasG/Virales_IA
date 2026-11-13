@@ -1,0 +1,66 @@
+{
+ "text": "Como tu casa en un mapa: tres al este... dos al norte.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Como",
+   "start": 0.093875,
+   "end": 0.324125
+  },
+  {
+   "text": "tu",
+   "start": 0.335083,
+   "end": 0.444749
+  },
+  {
+   "text": "casa",
+   "start": 0.455708,
+   "end": 0.707916
+  },
+  {
+   "text": "en",
+   "start": 0.718875,
+   "end": 0.795625
+  },
+  {
+   "text": "un",
+   "start": 0.806583,
+   "end": 0.905249
+  },
+  {
+   "text": "mapa",
+   "start": 0.916208,
+   "end": 1.245166
+  },
+  {
+   "text": "tres",
+   "start": 1.519291,
+   "end": 1.749541
+  },
+  {
+   "text": "al",
+   "start": 1.760541,
+   "end": 1.870207
+  },
+  {
+   "text": "este",
+   "start": 1.881125,
+   "end": 2.144291
+  },
+  {
+   "text": "dos",
+   "start": 2.385541,
+   "end": 2.582916
+  },
+  {
+   "text": "al",
+   "start": 2.593875,
+   "end": 2.703541
+  },
+  {
+   "text": "norte",
+   "start": 2.714458,
+   "end": 3.098249
+  }
+ ]
+}

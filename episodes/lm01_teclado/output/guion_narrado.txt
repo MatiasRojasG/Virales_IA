@@ -1,35 +1,29 @@
-[hook] (  0.1s –   9.9s)
-Escribes: «me tomé un»... y antes de que termines, tu teclado ya sugiere: café, té, mate. ¿Cómo sabe qué palabra viene?
+[hook] (  0.1s –   7.4s)
+Escribes: «me tomé un»... y tu teclado ya sugiere: café, té, mate. ¿Cómo sabe?
 
-[simbolos] (  9.9s –  23.1s)
-Para un computador, una palabra no significa nada. Es solo un símbolo: un interruptor encendido, en una fila de miles. Así, café y té son tan distintos entre sí... como café y perro.
+[simbolos] (  7.4s –  17.2s)
+Para un computador, una palabra es solo un símbolo: un interruptor encendido en una fila de miles. Café y té son tan distintos... como café y perro.
 
-[conflicto] ( 23.1s –  27.4s)
-Y si no sabe qué palabras se parecen... no tiene cómo adivinar.
+[intuicion] ( 17.2s –  26.3s)
+Pero café y té aparecen rodeados de las mismas palabras: tomé, pedí, caliente. Dime con quién andas... y te diré quién eres.
 
-[intuicion] ( 27.4s –  39.6s)
-Pero piensa cómo lo sabes tú. Café y té aparecen rodeados de las mismas palabras: tomé, pedí, caliente. Dime con quién andas... y te diré quién eres.
+[juego] ( 26.3s –  36.8s)
+Así que le damos a la máquina miles de frases, y un juego: adivinar la palabra siguiente. Cada palabra recibe un lugar en un mapa, al azar... y con cada error, se mueve un poco.
 
-[juego] ( 39.6s –  59.1s)
-Esa es la idea. Le damos a la máquina miles de frases, y le proponemos un juego: mirar las palabras anteriores... y adivinar la siguiente. Cada palabra recibe un lugar en un mapa. Al principio, al azar. Y cada vez que se equivoca, mueve un poco esos lugares, para acertar mejor la próxima vez.
+[revelacion] ( 36.8s –  47.6s)
+Después de miles de intentos... las palabras se ordenan solas. Bebidas. Animales. Comidas. Lugares.
 
-[revelacion] ( 59.1s –  77.7s)
-Después de miles de intentos... las palabras se ordenan solas. Las bebidas, juntas. Los animales, juntos. Las comidas. Los lugares. Nadie le dijo qué era un animal. Lo descubrió por las palabras que lo rodean.
+[nombre] ( 47.6s –  49.7s)
+Ese lugar se llama embedding.
 
-[nombre] ( 77.7s –  80.3s)
-Ese lugar aprendido se llama embedding.
+[vector] ( 49.7s –  61.5s)
+Y es un vector: una lista de números que dice dónde está algo. Como tu casa en un mapa: tres al este... dos al norte. Café tiene dieciséis números, y nadie los eligió: los ajustó el juego.
 
-[vector] ( 80.3s – 110.4s)
-Pero... ¿qué es exactamente ese lugar? Piensa en el mapa de tu ciudad: para ubicar tu casa bastan dos números. Cuánto hacia el este... y cuánto hacia el norte. Una lista de números que dice dónde está algo se llama vector. El embedding de una palabra es eso: un vector. Solo que no tiene dos números... sino dieciséis. Nadie decide qué significa cada uno: los ajusta el juego, error tras error. El mapa que viste los aplana a dos, para que podamos mirarlos.
+[leer] ( 61.5s –  69.6s)
+¿Cómo se leen? Comparando hacia dónde apuntan. Café y té, casi en la misma dirección... café y perro, no.
 
-[tabla] (110.4s – 121.6s)
-Todos esos vectores viven en una tabla: una fila por cada palabra. ¿Recuerdas el interruptor encendido? Sirve justamente para eso: el interruptor de café saca la fila de café.
+[prediccion] ( 69.6s –  75.7s)
+Tu teclado junta los vectores de «me tomé un»... y sugiere las palabras que apuntan hacia el mismo lado.
 
-[leer] (121.6s – 139.2s)
-¿Y cómo se lee un vector? No número por número... sino comparándolo con otros. Si dos vectores apuntan hacia el mismo lado, las palabras se parecen. En una escala de cero a uno: café y té se parecen casi uno. Café y perro, apenas cero coma dos.
-
-[prediccion] (139.2s – 153.6s)
-Y así adivina tu teclado: junta los vectores de «me», «tomé» y «un»... y compara el resultado con el vector de cada palabra que conoce. Las que más se parecen reciben más probabilidad... y esas son las sugerencias.
-
-[cierre] (153.6s – 158.4s)
-Tu teclado no sabe qué es el café. Sabe con qué palabras anda.
+[cierre] ( 75.7s –  79.9s)
+No sabe qué es el café. Sabe con qué palabras anda.

@@ -1,0 +1,26 @@
+{
+ "text": "Bebidas. Animales. Comidas. Lugares.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Bebidas",
+   "start": 0.093875,
+   "end": 0.718875
+  },
+  {
+   "text": "Animales",
+   "start": 1.48025,
+   "end": 2.182
+  },
+  {
+   "text": "Comidas",
+   "start": 2.938583,
+   "end": 3.541666
+  },
+  {
+   "text": "Lugares",
+   "start": 4.309208,
+   "end": 4.945166
+  }
+ ]
+}

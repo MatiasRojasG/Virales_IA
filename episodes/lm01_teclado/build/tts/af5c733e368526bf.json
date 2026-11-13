@@ -1,0 +1,71 @@
+{
+ "text": "Y es un vector: una lista de números que dice dónde está algo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093875,
+   "end": 0.247375
+  },
+  {
+   "text": "es",
+   "start": 0.258333,
+   "end": 0.378958
+  },
+  {
+   "text": "un",
+   "start": 0.389916,
+   "end": 0.477624
+  },
+  {
+   "text": "vector",
+   "start": 0.488583,
+   "end": 0.828499
+  },
+  {
+   "text": "una",
+   "start": 1.091666,
+   "end": 1.212291
+  },
+  {
+   "text": "lista",
+   "start": 1.22325,
+   "end": 1.497375
+  },
+  {
+   "text": "de",
+   "start": 1.508333,
+   "end": 1.606999
+  },
+  {
+   "text": "números",
+   "start": 1.618,
+   "end": 2.023708
+  },
+  {
+   "text": "que",
+   "start": 2.034666,
+   "end": 2.133332
+  },
+  {
+   "text": "dice",
+   "start": 2.144291,
+   "end": 2.418416
+  },
+  {
+   "text": "dónde",
+   "start": 2.429375,
+   "end": 2.659625
+  },
+  {
+   "text": "está",
+   "start": 2.670625,
+   "end": 2.900875
+  },
+  {
+   "text": "algo",
+   "start": 2.911833,
+   "end": 3.218833
+  }
+ ]
+}
