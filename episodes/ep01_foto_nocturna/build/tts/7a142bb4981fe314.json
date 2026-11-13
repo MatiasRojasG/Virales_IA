@@ -1,0 +1,41 @@
+{
+ "text": "Se queda donde las fuerzas se equilibran.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093083,
+   "end": 0.297833
+  },
+  {
+   "text": "queda",
+   "start": 0.308625,
+   "end": 0.513375
+  },
+  {
+   "text": "donde",
+   "start": 0.524125,
+   "end": 0.750416
+  },
+  {
+   "text": "las",
+   "start": 0.761208,
+   "end": 0.879749
+  },
+  {
+   "text": "fuerzas",
+   "start": 0.8905,
+   "end": 1.256875
+  },
+  {
+   "text": "se",
+   "start": 1.267666,
+   "end": 1.343082
+  },
+  {
+   "text": "equilibran",
+   "start": 1.353875,
+   "end": 1.903458
+  }
+ ]
+}

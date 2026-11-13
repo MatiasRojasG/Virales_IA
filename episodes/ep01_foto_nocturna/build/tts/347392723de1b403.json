@@ -1,0 +1,36 @@
+{
+ "text": "Pero tu celular te mostró esto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.095458,
+   "end": 0.288624
+  },
+  {
+   "text": "tu",
+   "start": 0.3,
+   "end": 0.402291
+  },
+  {
+   "text": "celular",
+   "start": 0.413625,
+   "end": 0.845458
+  },
+  {
+   "text": "te",
+   "start": 0.856833,
+   "end": 0.947749
+  },
+  {
+   "text": "mostró",
+   "start": 0.959083,
+   "end": 1.322708
+  },
+  {
+   "text": "esto",
+   "start": 1.334083,
+   "end": 1.652249
+  }
+ ]
+}

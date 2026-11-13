@@ -1,0 +1,46 @@
+{
+ "text": "ese resorte se suelta... y las letras vuelven.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "ese",
+   "start": 0.093083,
+   "end": 0.340916
+  },
+  {
+   "text": "resorte",
+   "start": 0.351708,
+   "end": 0.750416
+  },
+  {
+   "text": "se",
+   "start": 0.761208,
+   "end": 0.868958
+  },
+  {
+   "text": "suelta",
+   "start": 0.87975,
+   "end": 1.278458
+  },
+  {
+   "text": "y",
+   "start": 1.50475,
+   "end": 1.580166
+  },
+  {
+   "text": "las",
+   "start": 1.590958,
+   "end": 1.795708
+  },
+  {
+   "text": "letras",
+   "start": 1.806458,
+   "end": 2.140499
+  },
+  {
+   "text": "vuelven",
+   "start": 2.151291,
+   "end": 2.539207
+  }
+ ]
+}

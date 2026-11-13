@@ -1,0 +1,36 @@
+{
+ "text": "mientras menor, más probable la foto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "mientras",
+   "start": 0.102083,
+   "end": 0.557833
+  },
+  {
+   "text": "menor",
+   "start": 0.570833,
+   "end": 0.909374
+  },
+  {
+   "text": "más",
+   "start": 1.234916,
+   "end": 1.469291
+  },
+  {
+   "text": "probable",
+   "start": 1.482291,
+   "end": 1.938041
+  },
+  {
+   "text": "la",
+   "start": 1.951041,
+   "end": 2.055207
+  },
+  {
+   "text": "foto",
+   "start": 2.06825,
+   "end": 2.471916
+  }
+ ]
+}

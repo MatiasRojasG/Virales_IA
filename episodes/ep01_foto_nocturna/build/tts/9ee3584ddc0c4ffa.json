@@ -1,0 +1,71 @@
+{
+ "text": "En una fila del letrero, si todos tiran igual, los bordes se aplanan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093083,
+   "end": 0.243958
+  },
+  {
+   "text": "una",
+   "start": 0.25475,
+   "end": 0.405625
+  },
+  {
+   "text": "fila",
+   "start": 0.416375,
+   "end": 0.631875
+  },
+  {
+   "text": "del",
+   "start": 0.642666,
+   "end": 0.761207
+  },
+  {
+   "text": "letrero",
+   "start": 0.772,
+   "end": 1.1815
+  },
+  {
+   "text": "si",
+   "start": 1.418541,
+   "end": 1.558624
+  },
+  {
+   "text": "todos",
+   "start": 1.569416,
+   "end": 1.881916
+  },
+  {
+   "text": "tiran",
+   "start": 1.892666,
+   "end": 2.129749
+  },
+  {
+   "text": "igual",
+   "start": 2.1405,
+   "end": 2.453
+  },
+  {
+   "text": "los",
+   "start": 2.722416,
+   "end": 2.851707
+  },
+  {
+   "text": "bordes",
+   "start": 2.8625,
+   "end": 3.164208
+  },
+  {
+   "text": "se",
+   "start": 3.175,
+   "end": 3.239666
+  },
+  {
+   "text": "aplanan",
+   "start": 3.250416,
+   "end": 3.702999
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "Por eso, un muro parejo sale moteado.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.095458,
+   "end": 0.254541
+  },
+  {
+   "text": "eso",
+   "start": 0.265916,
+   "end": 0.538624
+  },
+  {
+   "text": "un",
+   "start": 0.822708,
+   "end": 0.924999
+  },
+  {
+   "text": "muro",
+   "start": 0.936375,
+   "end": 1.19775
+  },
+  {
+   "text": "parejo",
+   "start": 1.209083,
+   "end": 1.561374
+  },
+  {
+   "text": "sale",
+   "start": 1.572708,
+   "end": 1.834083
+  },
+  {
+   "text": "moteado",
+   "start": 1.845458,
+   "end": 2.334083
+  }
+ ]
+}

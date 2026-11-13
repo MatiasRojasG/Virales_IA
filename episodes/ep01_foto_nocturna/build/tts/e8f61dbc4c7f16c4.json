@@ -1,0 +1,61 @@
+{
+ "text": "Su suma es la energía: mientras menor, más probable la foto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Su",
+   "start": 0.092375,
+   "end": 0.293666
+  },
+  {
+   "text": "suma",
+   "start": 0.30425,
+   "end": 0.59025
+  },
+  {
+   "text": "es",
+   "start": 0.600833,
+   "end": 0.717374
+  },
+  {
+   "text": "la",
+   "start": 0.727958,
+   "end": 0.802124
+  },
+  {
+   "text": "energía",
+   "start": 0.812708,
+   "end": 1.257624
+  },
+  {
+   "text": "mientras",
+   "start": 1.511875,
+   "end": 1.829666
+  },
+  {
+   "text": "menor",
+   "start": 1.84025,
+   "end": 2.105083
+  },
+  {
+   "text": "más",
+   "start": 2.369916,
+   "end": 2.560582
+  },
+  {
+   "text": "probable",
+   "start": 2.571166,
+   "end": 2.941916
+  },
+  {
+   "text": "la",
+   "start": 2.952541,
+   "end": 3.037291
+  },
+  {
+   "text": "foto",
+   "start": 3.047875,
+   "end": 3.386875
+  }
+ ]
+}

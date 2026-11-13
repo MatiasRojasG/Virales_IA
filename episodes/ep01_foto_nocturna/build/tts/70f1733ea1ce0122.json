@@ -1,0 +1,36 @@
+{
+ "text": "y el letrero se vuelve ilegible.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093875,
+   "end": 0.258333
+  },
+  {
+   "text": "el",
+   "start": 0.269291,
+   "end": 0.346041
+  },
+  {
+   "text": "letrero",
+   "start": 0.357,
+   "end": 0.729791
+  },
+  {
+   "text": "se",
+   "start": 0.740791,
+   "end": 0.872374
+  },
+  {
+   "text": "vuelve",
+   "start": 0.883333,
+   "end": 1.146499
+  },
+  {
+   "text": "ilegible",
+   "start": 1.157458,
+   "end": 1.716666
+  }
+ ]
+}

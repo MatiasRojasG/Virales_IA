@@ -16,7 +16,7 @@ from reelforge.ease import (clamp, lerp, lerp_c, prog, window, pulse, out_cubic,
 TL = None; D = {}; EP = {}; CHUNKS = []; KEYS = []; CUE = {}
 
 PW, PH = 360, 640                 # foto (px)
-WX, WY = 21, 561                  # punto protagonista sobre el muro (8 gotas; vecinos ≈ 2)
+WX, WY = 19, 566                  # punto protagonista sobre el muro (6 gotas; vecinos ≈ 1)
 ROW, RX0, RX1 = 438, 108, 141     # fila del letrero para los resortes
 PHOTONS = 12
 
@@ -242,12 +242,11 @@ def spotlight(P, t, cs):
 
 
 def headline(P, t, line1, line2, col2, a, s=1.0):
+    """Rótulo breve sobre la imagen (no es un título): qué estamos viendo."""
     if a <= 0: return
-    vband(P, 300, 470, 0.0, 0.75 * a); P.rect(0, 470, C.W, 580, C.BG, 0.75 * a); vband(P, 580, 680, 0.75 * a, 0.0)
-    size1 = min(92, 92 * 960 / max(1, P.text_width(line1, 92, C.FONT_BLACK)))
+    txt = {"TU CÁMARA VIO": "lo que vio la cámara", "TU CELULAR TE MOSTRÓ": "lo que te mostró el celular"}.get(line1, line1)
     with P.transform(0, 0, s, cx=540, cy=470):
-        P.text(line1, 540, 440, size1, C.WHITE, a, face=C.FONT_BLACK)
-        P.text(line2, 540, 560, 118, col2, a, face=C.FONT_BLACK, glow=0.6)
+        P.pill(txt, 540, 470, 40, col2, a)
 
 
 def screen_labels(P, t, cs):
@@ -637,7 +636,7 @@ def cierre(P, t, cs):
 def setup(tl, data, episode):
     global TL, D, EP, CHUNKS, KEYS, CUE
     TL, D, EP = tl, data, episode
-    D["levels"] = [0, 1, 2, 3, 4, 6, 8, 11, 15]
+    D["levels"] = [0, 1, 2, 3, 4, 6, 9, 13, 20]
     D["rgba"] = {k: rgba(D[k]) for k in ("noisy", "good", "blur", "clean")}
     D["rgba"]["dark"] = rgba(D["clean"] * 0.25)
     for k in D["levels"][1:]:
@@ -684,12 +683,11 @@ def setup(tl, data, episode):
     c["b0"] = T("bolita"); c["b_cam_t"] = T("bolita", "midió"); c["b_aleja"] = T("bolita", "aleja")
     c["b_vec"] = T("bolita", "vecinos"); c["b_acerca"] = T("bolita", "acercan"); c["b_eq"] = T("bolita", "equilibran")
     c["sp0"] = T("resortes"); c["sp_flat"] = T("resortes", "igual")
-    c["suelta"] = T("resortes", "suelta"); c["tension"] = T("resortes", "tensión")
-    c["probable"] = T("resortes", "probable")
-    c["calc0"] = T("calculo"); c["brillos"] = T("calculo", "brillos"); c["millones"] = T("calculo", "doce")
-    c["atomos"] = T("calculo", "átomos"); c["it0"] = T("calculo", "acomoda"); c["it_dt"] = 0.62
-    c["markov"] = T("formula", "Markov"); c["f_form"] = T("formula", "fórmula")
-    c["f_obs"] = T("formula", "observado"); c["f_dif"] = T("formula", "diferencias")
+    c["suelta"] = T("resortes", "suelta"); c["tension"] = c["probable"] = 1e9   # se dice recién en «formula»
+    c["calc0"] = T("calculo"); c["brillos"] = c["millones"] = c["atomos"] = 1e9   # (cuenta de átomos retirada)
+    c["it0"] = T("calculo", "acomoda"); c["it_dt"] = 0.5
+    c["markov"] = T("formula", "Markov"); c["f_form"] = T("formula", "tensión")
+    c["f_obs"] = c["f_form"] + 0.5; c["f_dif"] = c["f_form"] + 1.1
     c["f_en"] = T("formula", "energía"); c["f_prob"] = T("formula", "probable")
     c["u0"] = T("usos"); c["u_doc"] = T("usos", "documentos"); c["u_tum"] = T("usos", "tumores")
     c["u_sat"] = T("usos", "bosques")
@@ -752,8 +750,9 @@ def draw_frame(P, t):
     vignette(P, 0.45)
     vband(P, 0, 330, 0.85, 0.0)
     vband(P, 1230, C.H, 0.0, 0.9)
-    P.circle(C.SAFE_LEFT + 10, 262, 8, C.CYAN, 1)
-    P.text(EP["tag"], C.SAFE_LEFT + 34, 273, 28, C.WHITE, 0.85, face=C.FONT_BOLD, align="left", tracking=2)
+    if EP.get("tag"):
+        P.circle(C.SAFE_LEFT + 10, 262, 8, C.CYAN, 1)
+        P.text(EP["tag"], C.SAFE_LEFT + 34, 273, 28, C.WHITE, 0.85, face=C.FONT_BOLD, align="left", tracking=2)
     SUB.draw(P, CHUNKS, t)
     P.rect(0, C.H - 8, C.W * t / TL.duration, C.H, C.CYAN, 0.8)
 

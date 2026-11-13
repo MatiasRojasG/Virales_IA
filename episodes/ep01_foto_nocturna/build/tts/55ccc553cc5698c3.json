@@ -1,0 +1,46 @@
+{
+ "text": "La tensión de sus resortes se llama energía:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093083,
+   "end": 0.233166
+  },
+  {
+   "text": "tensión",
+   "start": 0.243958,
+   "end": 0.588791
+  },
+  {
+   "text": "de",
+   "start": 0.599583,
+   "end": 0.664249
+  },
+  {
+   "text": "sus",
+   "start": 0.675,
+   "end": 0.858208
+  },
+  {
+   "text": "resortes",
+   "start": 0.868958,
+   "end": 1.321541
+  },
+  {
+   "text": "se",
+   "start": 1.332333,
+   "end": 1.418541
+  },
+  {
+   "text": "llama",
+   "start": 1.429291,
+   "end": 1.677124
+  },
+  {
+   "text": "energía",
+   "start": 1.687916,
+   "end": 2.183624
+  }
+ ]
+}

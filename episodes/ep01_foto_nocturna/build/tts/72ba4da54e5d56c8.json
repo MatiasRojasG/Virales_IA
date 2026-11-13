@@ -1,0 +1,51 @@
+{
+ "text": "Aunque, si solo promedias, también se borran los bordes...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Aunque",
+   "start": 0.093083,
+   "end": 0.448666
+  },
+  {
+   "text": "si",
+   "start": 0.675,
+   "end": 0.793541
+  },
+  {
+   "text": "solo",
+   "start": 0.804291,
+   "end": 1.052124
+  },
+  {
+   "text": "promedias",
+   "start": 1.062916,
+   "end": 1.590916
+  },
+  {
+   "text": "también",
+   "start": 1.806458,
+   "end": 2.162041
+  },
+  {
+   "text": "se",
+   "start": 2.172833,
+   "end": 2.280583
+  },
+  {
+   "text": "borran",
+   "start": 2.291375,
+   "end": 2.560791
+  },
+  {
+   "text": "los",
+   "start": 2.571541,
+   "end": 2.711624
+  },
+  {
+   "text": "bordes",
+   "start": 2.722416,
+   "end": 3.174999
+  }
+ ]
+}

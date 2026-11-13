@@ -1,0 +1,51 @@
+{
+ "text": "Otros la unen a sus vecinos, y la acercan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Otros",
+   "start": 0.093875,
+   "end": 0.433791
+  },
+  {
+   "text": "la",
+   "start": 0.44475,
+   "end": 0.532458
+  },
+  {
+   "text": "unen",
+   "start": 0.543416,
+   "end": 0.795624
+  },
+  {
+   "text": "a",
+   "start": 0.806583,
+   "end": 0.839458
+  },
+  {
+   "text": "sus",
+   "start": 0.850458,
+   "end": 1.014916
+  },
+  {
+   "text": "vecinos",
+   "start": 1.025875,
+   "end": 1.53025
+  },
+  {
+   "text": "y",
+   "start": 1.727625,
+   "end": 1.793416
+  },
+  {
+   "text": "la",
+   "start": 1.804375,
+   "end": 1.914041
+  },
+  {
+   "text": "acercan",
+   "start": 1.925,
+   "end": 2.429375
+  }
+ ]
+}

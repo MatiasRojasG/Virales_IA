@@ -1,0 +1,26 @@
+{
+ "text": "o es puro ruido.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "o",
+   "start": 0.093083,
+   "end": 0.233166
+  },
+  {
+   "text": "es",
+   "start": 0.243958,
+   "end": 0.394833
+  },
+  {
+   "text": "puro",
+   "start": 0.405583,
+   "end": 0.642666
+  },
+  {
+   "text": "ruido",
+   "start": 0.653458,
+   "end": 1.052166
+  }
+ ]
+}

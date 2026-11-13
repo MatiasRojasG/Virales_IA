@@ -24,7 +24,7 @@ HERE = Path(__file__).parent
 OUT = HERE / "build" / "experiment"
 ROOT = HERE.parent.parent
 W, H = 360, 640
-PHOTONS = 12          # fotones que recibe un punto blanco puro (muy poca luz)
+PHOTONS = 6           # fotones que recibe un punto blanco puro (muy poca luz)
 SEED = 3
 
 
@@ -102,21 +102,29 @@ def shoot(clean, photons=PHOTONS, seed=SEED, return_counts=False):
     return (noisy, counts) if return_counts else noisy
 
 
-def mrf(y, beta, delta=None, iters=40, keep=()):
-    """Minimiza E por actualizaciones locales simultáneas. delta=None → ρ cuadrática."""
-    x = y.copy(); hist = {}
-    lum = lambda im: im.mean(axis=2)
+def mrf(y, beta, delta=None, iters=40, keep=(), R=2, sig=1.2):
+    """Minimiza E por actualizaciones locales simultáneas sobre un vecindario de (2R+1)²
+    (peso espacial gaussiano). delta=None → ρ cuadrática (resortes que nunca se sueltan);
+    con delta, el peso cae si los vecinos son muy distintos (resorte que se suelta)."""
+    x = y.copy(); hist = {}; H, W, _ = y.shape
+    offs = [(dy, dx, np.exp(-(dy * dy + dx * dx) / (2 * sig * sig)))
+            for dy in range(-R, R + 1) for dx in range(-R, R + 1) if (dy, dx) != (0, 0)]
     for it in range(1, iters + 1):
-        P = np.pad(x, ((1, 1), (1, 1), (0, 0)), mode="edge")
-        nbs = [P[:-2, 1:-1], P[2:, 1:-1], P[1:-1, :-2], P[1:-1, 2:]]
-        num = y.copy(); den = np.ones(y.shape[:2] + (1,), np.float32)
-        for nb in nbs:
+        P = np.pad(x, ((R, R), (R, R), (0, 0)), mode="edge")
+        # «qué tan distinto es el vecino» se mide sobre una guía con mediana 3×3 (respeta bordes):
+        # así un punto suelto (ruido) no puede soltar sus propios resortes y protegerse.
+        from scipy.ndimage import median_filter
+        L = median_filter(x.mean(2), size=3)
+        LP = np.pad(L, R, mode="edge")
+        num = y.copy(); den = np.ones((H, W, 1), np.float32)
+        for dy, dx, ws in offs:
+            nb = P[R + dy:R + dy + H, R + dx:R + dx + W]
             if delta is None:
-                wgt = np.ones(y.shape[:2] + (1,), np.float32)
+                w = np.full((H, W, 1), ws, np.float32)
             else:
-                dd = (lum(x) - lum(nb))[..., None]
-                wgt = 1.0 / (1.0 + (dd / delta) ** 2)        # el resorte se afloja si son muy distintos
-            num += beta * wgt * nb; den += beta * wgt
+                d = (L - LP[R + dy:R + dy + H, R + dx:R + dx + W])[..., None]
+                w = ws / (1.0 + (d / delta) ** 2)
+            num += beta * w * nb; den += beta * w
         x = num / den
         if it in keep: hist[it] = x.copy()
     return x, hist
@@ -138,7 +146,7 @@ def save(a, name):
     Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8)).save(OUT / name)
 
 
-BETA, DELTA, ITERS = 4.0, 0.10, 15
+BETA, DELTA, ITERS = 3.0, 0.08, 20
 BETA_BLUR = 60.0      # "solo promediar": vecinos con mucho peso y resortes que nunca se sueltan
 
 
@@ -146,10 +154,10 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     clean = scene()
     noisy, counts = shoot(clean, return_counts=True)
-    keep = (1, 2, 3, 4, 6, 8, 11, 15)
+    keep = (1, 2, 3, 4, 6, 9, 13, 20)
     good, hist = mrf(noisy, BETA, DELTA, ITERS, keep=keep)
-    blur, _ = mrf(noisy, BETA_BLUR, None, 120)
-    weak, _ = mrf(noisy, 0.4, DELTA, ITERS)
+    blur, _ = mrf(noisy, 8.0, None, 60, R=2, sig=1.5)
+    weak, _ = mrf(noisy, 0.4, DELTA, 8)
     np.savez_compressed(OUT / "arrays.npz", clean=clean, noisy=noisy, counts=counts, good=good, blur=blur, weak=weak,
                         **{f"it{k}": v for k, v in hist.items()})
     for a, n in [(clean, "escena.png"), (noisy, "foto_ruido.png"), (good, "restaurada.png"),

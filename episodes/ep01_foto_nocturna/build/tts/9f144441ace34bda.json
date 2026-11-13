@@ -1,0 +1,51 @@
+{
+ "text": "La foto con menos tensión es la más probable.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093875,
+   "end": 0.236416
+  },
+  {
+   "text": "foto",
+   "start": 0.247375,
+   "end": 0.488583
+  },
+  {
+   "text": "con",
+   "start": 0.499541,
+   "end": 0.642082
+  },
+  {
+   "text": "menos",
+   "start": 0.653083,
+   "end": 0.927208
+  },
+  {
+   "text": "tensión",
+   "start": 0.938166,
+   "end": 1.310957
+  },
+  {
+   "text": "es",
+   "start": 1.321916,
+   "end": 1.453499
+  },
+  {
+   "text": "la",
+   "start": 1.464458,
+   "end": 1.541208
+  },
+  {
+   "text": "más",
+   "start": 1.552208,
+   "end": 1.771499
+  },
+  {
+   "text": "probable",
+   "start": 1.782458,
+   "end": 2.242999
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "Cada punto se acomoda así, mirando a sus vecinos... y repetimos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093083,
+   "end": 0.319374
+  },
+  {
+   "text": "punto",
+   "start": 0.330166,
+   "end": 0.621124
+  },
+  {
+   "text": "se",
+   "start": 0.631916,
+   "end": 0.728916
+  },
+  {
+   "text": "acomoda",
+   "start": 0.739666,
+   "end": 1.127582
+  },
+  {
+   "text": "así",
+   "start": 1.138375,
+   "end": 1.375458
+  },
+  {
+   "text": "mirando",
+   "start": 1.634041,
+   "end": 1.957332
+  },
+  {
+   "text": "a",
+   "start": 1.968083,
+   "end": 1.989624
+  },
+  {
+   "text": "sus",
+   "start": 2.000416,
+   "end": 2.162041
+  },
+  {
+   "text": "vecinos",
+   "start": 2.172833,
+   "end": 2.657749
+  },
+  {
+   "text": "y",
+   "start": 2.8625,
+   "end": 2.948708
+  },
+  {
+   "text": "repetimos",
+   "start": 2.9595,
+   "end": 3.616833
+  }
+ ]
+}

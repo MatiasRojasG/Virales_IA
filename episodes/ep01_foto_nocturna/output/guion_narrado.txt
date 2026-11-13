@@ -1,32 +1,32 @@
-[hook] (  0.1s –   5.9s)
+[hook] (  0.1s –   6.8s)
 Tu cámara vio esto. Pero tu celular te mostró esto. ¿De dónde sacó lo que la cámara no vio?
 
-[luz] (  5.9s –  13.8s)
+[luz] (  6.8s –  15.4s)
 De noche, a cada punto del sensor le llegan apenas unas gotas de luz... y al azar. Por eso, un muro parejo sale moteado.
 
-[dificil] ( 13.8s –  18.7s)
-Y mirando un solo punto, no hay cómo saber si brilla de verdad... o es puro ruido.
+[dificil] ( 15.4s –  20.7s)
+Mirando un solo punto, no hay cómo saber si brilla de verdad... o es puro ruido.
 
-[vecinos] ( 18.7s –  24.4s)
+[vecinos] ( 20.7s –  27.0s)
 Pero lo que está al lado suele parecerse. Así que cada punto puede corregirse mirando a sus vecinos.
 
-[exceso] ( 24.4s –  30.0s)
+[exceso] ( 27.0s –  33.2s)
 Aunque, si solo promedias, también se borran los bordes... y el letrero se vuelve ilegible.
 
-[bolita] ( 30.0s –  46.6s)
-Imagina cada punto como una bolita: mientras más arriba, más brillante. Un resorte la amarra a lo que midió la cámara: si se aleja, la tira de vuelta. Otros resortes la unen a sus vecinos: si es distinta a ellos, la acercan. La bolita se queda donde las dos fuerzas se equilibran.
+[bolita] ( 33.2s –  47.8s)
+Imagina cada punto como una bolita: más arriba, más brillante. Un resorte la amarra a lo que midió la cámara: si se aleja, la tira de vuelta. Otros la unen a sus vecinos, y la acercan. Se queda donde las fuerzas se equilibran.
 
-[resortes] ( 46.6s –  62.3s)
-En una fila del letrero, si todos los resortes tiran igual, los bordes se aplanan. Pero si un vecino es demasiado distinto, seguro es otro objeto: ese resorte se suelta... y las letras vuelven. La foto con menos tensión total es la explicación más probable de lo que vio la cámara.
+[resortes] ( 47.8s –  58.6s)
+En una fila del letrero, si todos tiran igual, los bordes se aplanan. Pero si un vecino es muy distinto, es otro objeto: ese resorte se suelta... y las letras vuelven.
 
-[calculo] ( 62.3s –  74.4s)
-¿Y por qué no calcularla de una vez? Con cientos de brillos por punto y doce millones de puntos, hay más fotos posibles que átomos en el universo. Así que cada punto se acomoda mirando a sus vecinos... y repetimos.
+[calculo] ( 58.6s –  63.1s)
+Cada punto se acomoda así, mirando a sus vecinos... y repetimos.
 
-[formula] ( 74.4s –  92.3s)
-Puntos que se influyen sin que ninguno mande: eso es una red de Markov. Y los resortes tienen fórmula: el de la cámara mide cuánto te alejas de lo observado; los de los vecinos, cuánto te diferencias de ellos. Su suma es la energía... y mientras menor la energía, más probable la foto.
+[formula] ( 63.1s –  72.9s)
+Puntos que se influyen sin que ninguno mande: una red de Markov. La tensión de sus resortes se llama energía: mientras menor, más probable la foto.
 
-[usos] ( 92.3s – 100.1s)
-La misma idea rescata documentos escaneados, delimita tumores en resonancias... y clasifica bosques y ciudades en imágenes satelitales.
+[usos] ( 72.9s –  78.4s)
+La misma idea rescata documentos, delimita tumores y mapea bosques desde satélites.
 
-[cierre] (100.1s – 105.2s)
-Así que ahora ya sabes de dónde sacó tu celular lo que la cámara no vio... de sus vecinos.
+[cierre] ( 78.4s –  83.8s)
+Así que ya sabes de dónde sacó tu celular lo que la cámara no vio... de sus vecinos.

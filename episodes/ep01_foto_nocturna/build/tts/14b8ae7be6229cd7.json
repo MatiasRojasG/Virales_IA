@@ -1,0 +1,51 @@
+{
+ "text": "¿De dónde sacó lo que la cámara no vio?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.095458,
+   "end": 0.209083
+  },
+  {
+   "text": "dónde",
+   "start": 0.220458,
+   "end": 0.447749
+  },
+  {
+   "text": "sacó",
+   "start": 0.459083,
+   "end": 0.743166
+  },
+  {
+   "text": "lo",
+   "start": 0.754541,
+   "end": 0.856832
+  },
+  {
+   "text": "que",
+   "start": 0.868166,
+   "end": 0.959082
+  },
+  {
+   "text": "la",
+   "start": 0.970458,
+   "end": 1.061374
+  },
+  {
+   "text": "cámara",
+   "start": 1.072708,
+   "end": 1.424999
+  },
+  {
+   "text": "no",
+   "start": 1.436375,
+   "end": 1.584083
+  },
+  {
+   "text": "vio",
+   "start": 1.595458,
+   "end": 1.856833
+  }
+ ]
+}

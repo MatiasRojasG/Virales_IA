@@ -1,0 +1,96 @@
+{
+ "text": "Y sus resortes tienen fórmula: cuánto te alejas de lo observado, y cuánto te diferencias de tus vecinos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093875,
+   "end": 0.192541
+  },
+  {
+   "text": "sus",
+   "start": 0.2035,
+   "end": 0.411833
+  },
+  {
+   "text": "resortes",
+   "start": 0.422791,
+   "end": 0.905249
+  },
+  {
+   "text": "tienen",
+   "start": 0.916208,
+   "end": 1.179374
+  },
+  {
+   "text": "fórmula",
+   "start": 1.190333,
+   "end": 1.617958
+  },
+  {
+   "text": "cuánto",
+   "start": 1.870166,
+   "end": 2.155249
+  },
+  {
+   "text": "te",
+   "start": 2.166208,
+   "end": 2.242958
+  },
+  {
+   "text": "alejas",
+   "start": 2.253958,
+   "end": 2.593874
+  },
+  {
+   "text": "de",
+   "start": 2.604833,
+   "end": 2.670624
+  },
+  {
+   "text": "lo",
+   "start": 2.681583,
+   "end": 2.747374
+  },
+  {
+   "text": "observado",
+   "start": 2.758333,
+   "end": 3.306583
+  },
+  {
+   "text": "y",
+   "start": 3.547791,
+   "end": 3.646457
+  },
+  {
+   "text": "cuánto",
+   "start": 3.657458,
+   "end": 3.964458
+  },
+  {
+   "text": "te",
+   "start": 3.975458,
+   "end": 4.063166
+  },
+  {
+   "text": "diferencias",
+   "start": 4.074125,
+   "end": 4.622375
+  },
+  {
+   "text": "de",
+   "start": 4.633333,
+   "end": 4.721041
+  },
+  {
+   "text": "tus",
+   "start": 4.732,
+   "end": 4.896458
+  },
+  {
+   "text": "vecinos",
+   "start": 4.907458,
+   "end": 5.477624
+  }
+ ]
+}

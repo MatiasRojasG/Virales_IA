@@ -1,0 +1,46 @@
+{
+ "text": "Pero lo que está al lado suele parecerse.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093083,
+   "end": 0.265499
+  },
+  {
+   "text": "lo",
+   "start": 0.276291,
+   "end": 0.373291
+  },
+  {
+   "text": "que",
+   "start": 0.384041,
+   "end": 0.470249
+  },
+  {
+   "text": "está",
+   "start": 0.481041,
+   "end": 0.728874
+  },
+  {
+   "text": "al",
+   "start": 0.739666,
+   "end": 0.836666
+  },
+  {
+   "text": "lado",
+   "start": 0.847416,
+   "end": 1.062916
+  },
+  {
+   "text": "suele",
+   "start": 1.073708,
+   "end": 1.364666
+  },
+  {
+   "text": "parecerse",
+   "start": 1.375416,
+   "end": 1.957332
+  }
+ ]
+}

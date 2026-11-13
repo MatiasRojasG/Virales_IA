@@ -1,0 +1,56 @@
+{
+ "text": "Imagina cada punto como una bolita: más arriba, más brillante.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.093083,
+   "end": 0.577999
+  },
+  {
+   "text": "cada",
+   "start": 0.588791,
+   "end": 0.825874
+  },
+  {
+   "text": "punto",
+   "start": 0.836625,
+   "end": 1.138333
+  },
+  {
+   "text": "como",
+   "start": 1.149125,
+   "end": 1.332333
+  },
+  {
+   "text": "una",
+   "start": 1.343083,
+   "end": 1.526291
+  },
+  {
+   "text": "bolita",
+   "start": 1.537083,
+   "end": 1.914249
+  },
+  {
+   "text": "más",
+   "start": 2.172833,
+   "end": 2.356041
+  },
+  {
+   "text": "arriba",
+   "start": 2.366791,
+   "end": 2.722374
+  },
+  {
+   "text": "más",
+   "start": 2.981041,
+   "end": 3.164249
+  },
+  {
+   "text": "brillante",
+   "start": 3.175,
+   "end": 3.670708
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "text": "Puntos que se influyen sin que ninguno mande: una red de Markov.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Puntos",
+   "start": 0.095458,
+   "end": 0.459083
+  },
+  {
+   "text": "que",
+   "start": 0.470458,
+   "end": 0.561374
+  },
+  {
+   "text": "se",
+   "start": 0.572708,
+   "end": 0.663624
+  },
+  {
+   "text": "influyen",
+   "start": 0.675,
+   "end": 1.118166
+  },
+  {
+   "text": "sin",
+   "start": 1.129541,
+   "end": 1.322707
+  },
+  {
+   "text": "que",
+   "start": 1.334083,
+   "end": 1.436374
+  },
+  {
+   "text": "ninguno",
+   "start": 1.447708,
+   "end": 1.811333
+  },
+  {
+   "text": "mande",
+   "start": 1.822708,
+   "end": 2.174999
+  },
+  {
+   "text": "una",
+   "start": 2.402291,
+   "end": 2.561374
+  },
+  {
+   "text": "red",
+   "start": 2.572708,
+   "end": 2.777249
+  },
+  {
+   "text": "de",
+   "start": 2.788625,
+   "end": 2.868166
+  },
+  {
+   "text": "Markov",
+   "start": 2.879541,
+   "end": 3.277249
+  }
+ ]
+}

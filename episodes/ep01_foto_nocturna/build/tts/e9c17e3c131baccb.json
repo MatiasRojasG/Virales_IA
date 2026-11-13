@@ -1,0 +1,76 @@
+{
+ "text": "La misma idea rescata documentos, delimita tumores en resonancias y mapea bosques desde satélites.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "misma",
+   "start": 0.240666,
+   "end": 0.547874
+  },
+  {
+   "text": "idea",
+   "start": 0.558458,
+   "end": 0.802083
+  },
+  {
+   "text": "rescata",
+   "start": 0.812708,
+   "end": 1.183458
+  },
+  {
+   "text": "documentos",
+   "start": 1.194083,
+   "end": 1.797916
+  },
+  {
+   "text": "delimita",
+   "start": 2.030916,
+   "end": 2.444041
+  },
+  {
+   "text": "tumores",
+   "start": 2.454666,
+   "end": 2.878374
+  },
+  {
+   "text": "en",
+   "start": 2.889,
+   "end": 2.97375
+  },
+  {
+   "text": "resonancias",
+   "start": 2.984333,
+   "end": 3.609333
+  },
+  {
+   "text": "y",
+   "start": 3.619916,
+   "end": 3.662291
+  },
+  {
+   "text": "mapea",
+   "start": 3.672875,
+   "end": 4.00125
+  },
+  {
+   "text": "bosques",
+   "start": 4.011875,
+   "end": 4.39325
+  },
+  {
+   "text": "desde",
+   "start": 4.403833,
+   "end": 4.615708
+  },
+  {
+   "text": "satélites",
+   "start": 4.626291,
+   "end": 5.304249
+  }
+ ]
+}

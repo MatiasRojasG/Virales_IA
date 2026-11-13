@@ -1,0 +1,41 @@
+{
+ "text": "Probar todas las fotos posibles es imposible:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Probar",
+   "start": 0.093875,
+   "end": 0.433791
+  },
+  {
+   "text": "todas",
+   "start": 0.44475,
+   "end": 0.76275
+  },
+  {
+   "text": "las",
+   "start": 0.773666,
+   "end": 0.883332
+  },
+  {
+   "text": "fotos",
+   "start": 0.894291,
+   "end": 1.201291
+  },
+  {
+   "text": "posibles",
+   "start": 1.212291,
+   "end": 1.672832
+  },
+  {
+   "text": "es",
+   "start": 1.683791,
+   "end": 1.804416
+  },
+  {
+   "text": "imposible",
+   "start": 1.815333,
+   "end": 2.374541
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "text": "Así que cada punto puede corregirse mirando a sus vecinos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.095458,
+   "end": 0.368166
+  },
+  {
+   "text": "que",
+   "start": 0.379541,
+   "end": 0.504541
+  },
+  {
+   "text": "cada",
+   "start": 0.515916,
+   "end": 0.765916
+  },
+  {
+   "text": "punto",
+   "start": 0.777291,
+   "end": 1.095457
+  },
+  {
+   "text": "puede",
+   "start": 1.106833,
+   "end": 1.334124
+  },
+  {
+   "text": "corregirse",
+   "start": 1.345458,
+   "end": 1.902291
+  },
+  {
+   "text": "mirando",
+   "start": 1.913625,
+   "end": 2.265916
+  },
+  {
+   "text": "a",
+   "start": 2.277291,
+   "end": 2.2999989
+  },
+  {
+   "text": "sus",
+   "start": 2.311375,
+   "end": 2.493208
+  },
+  {
+   "text": "vecinos",
+   "start": 2.504541,
+   "end": 3.084082
+  }
+ ]
+}

@@ -17,6 +17,20 @@ Se verificó lo siguiente:
 | `scenes.py` | Toma continua: celular → muro → punto → vecinos → resortes → combinaciones → pasadas |
 | `experiment.py` | Escena nocturna, simulación de fotones y restauración con campo de Markov |
 
+## v5: reglas de ritmo y más contraste visual
+
+- **Duración y ritmo:** 84,4 s (antes 105,8). Voz a +10 % (3,2 palabras/s al hablar), con pausas largas en las revelaciones. Sin títulos ni etiquetas superiores: el titular del inicio pasó a ser un rótulo sobre la imagen («lo que vio la cámara» / «lo que te mostró el celular»).
+- **Más ruido.** El sensor recibe **6 fotones** por punto blanco (antes 12): el grano se nota mucho más.
+- **Más nitidez:**
+  - La restauración usa un vecindario de 5×5 con peso gaussiano: misma energía, con más vecinos.
+  - Los resortes se sueltan según una guía con mediana de 3×3, para que un punto aislado no se proteja a sí mismo.
+  - Parámetros: β = 3, δ = 0,08 y 20 pasadas. PSNR: foto con ruido 14,4 dB → restaurada **23,0 dB**.
+- **Guion condensado:**
+  - Se quitó la cuenta de «más fotos que átomos».
+  - Las pasadas quedan en una frase: «cada punto se acomoda así, mirando a sus vecinos… y repetimos».
+  - La fórmula se resume en una línea: la tensión de los resortes se llama energía; mientras menor, más probable la foto.
+- **Nuevo punto protagonista:** fila 566, columna 19. Recibió 6 gotas mientras su vecindario promedia 1.
+
 ## Enfoque
 
 No se explica la clase. La clase explica algo del mundo: **¿cómo puede una foto de noche salir limpia si a la cámara le faltó luz?**

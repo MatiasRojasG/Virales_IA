@@ -1,0 +1,56 @@
+{
+ "text": "Pero si un vecino es muy distinto, es otro objeto:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093083,
+   "end": 0.265499
+  },
+  {
+   "text": "si",
+   "start": 0.276291,
+   "end": 0.405582
+  },
+  {
+   "text": "un",
+   "start": 0.416375,
+   "end": 0.513375
+  },
+  {
+   "text": "vecino",
+   "start": 0.524125,
+   "end": 0.858166
+  },
+  {
+   "text": "es",
+   "start": 0.868958,
+   "end": 0.998249
+  },
+  {
+   "text": "muy",
+   "start": 1.009041,
+   "end": 1.127582
+  },
+  {
+   "text": "distinto",
+   "start": 1.138375,
+   "end": 1.634083
+  },
+  {
+   "text": "es",
+   "start": 1.838791,
+   "end": 2.011207
+  },
+  {
+   "text": "otro",
+   "start": 2.022,
+   "end": 2.205208
+  },
+  {
+   "text": "objeto",
+   "start": 2.215958,
+   "end": 2.646999
+  }
+ ]
+}
