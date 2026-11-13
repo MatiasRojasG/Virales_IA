@@ -1,0 +1,61 @@
+{
+ "text": "es una grilla de números. Cuánta luz llegó a cada punto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "es",
+   "start": 0.092375,
+   "end": 0.251291
+  },
+  {
+   "text": "una",
+   "start": 0.261875,
+   "end": 0.410166
+  },
+  {
+   "text": "grilla",
+   "start": 0.42075,
+   "end": 0.696166
+  },
+  {
+   "text": "de",
+   "start": 0.706791,
+   "end": 0.802124
+  },
+  {
+   "text": "números",
+   "start": 0.812708,
+   "end": 1.331791
+  },
+  {
+   "text": "Cuánta",
+   "start": 2.055083,
+   "end": 2.319916
+  },
+  {
+   "text": "luz",
+   "start": 2.3305,
+   "end": 2.531791
+  },
+  {
+   "text": "llegó",
+   "start": 2.542375,
+   "end": 2.764833
+  },
+  {
+   "text": "a",
+   "start": 2.775416,
+   "end": 2.817791
+  },
+  {
+   "text": "cada",
+   "start": 2.828375,
+   "end": 3.072
+  },
+  {
+   "text": "punto",
+   "start": 3.082625,
+   "end": 3.453375
+  }
+ ]
+}

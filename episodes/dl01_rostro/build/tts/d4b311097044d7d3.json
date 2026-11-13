@@ -1,0 +1,41 @@
+{
+ "text": "Te cortas el pelo, te pones lentes...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Te",
+   "start": 0.092375,
+   "end": 0.187708
+  },
+  {
+   "text": "cortas",
+   "start": 0.198291,
+   "end": 0.537291
+  },
+  {
+   "text": "el",
+   "start": 0.547875,
+   "end": 0.643208
+  },
+  {
+   "text": "pelo",
+   "start": 0.653833,
+   "end": 0.939833
+  },
+  {
+   "text": "te",
+   "start": 1.172875,
+   "end": 1.268208
+  },
+  {
+   "text": "pones",
+   "start": 1.278833,
+   "end": 1.586041
+  },
+  {
+   "text": "lentes",
+   "start": 1.596625,
+   "end": 2.062708
+  }
+ ]
+}

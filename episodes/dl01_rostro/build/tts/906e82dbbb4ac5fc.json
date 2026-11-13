@@ -1,0 +1,21 @@
+{
+ "text": "Aprendió qué mirar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Aprendió",
+   "start": 0.102083,
+   "end": 0.701041
+  },
+  {
+   "text": "qué",
+   "start": 0.714083,
+   "end": 0.831291
+  },
+  {
+   "text": "mirar",
+   "start": 0.844291,
+   "end": 1.326082
+  }
+ ]
+}

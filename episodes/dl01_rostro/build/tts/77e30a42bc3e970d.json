@@ -1,0 +1,31 @@
+{
+ "text": "¿Cómo sabe que eres tú?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "sabe",
+   "start": 0.293625,
+   "end": 0.547875
+  },
+  {
+   "text": "que",
+   "start": 0.558458,
+   "end": 0.717374
+  },
+  {
+   "text": "eres",
+   "start": 0.727958,
+   "end": 0.929249
+  },
+  {
+   "text": "tú",
+   "start": 0.939833,
+   "end": 1.130499
+  }
+ ]
+}

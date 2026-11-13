@@ -1,0 +1,66 @@
+{
+ "text": "y movemos cada peso un poquito en la dirección que lo reduce.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "movemos",
+   "start": 0.208916,
+   "end": 0.590291
+  },
+  {
+   "text": "cada",
+   "start": 0.600833,
+   "end": 0.833874
+  },
+  {
+   "text": "peso",
+   "start": 0.8445,
+   "end": 1.088125
+  },
+  {
+   "text": "un",
+   "start": 1.098708,
+   "end": 1.194041
+  },
+  {
+   "text": "poquito",
+   "start": 1.204666,
+   "end": 1.543666
+  },
+  {
+   "text": "en",
+   "start": 1.55425,
+   "end": 1.607208
+  },
+  {
+   "text": "la",
+   "start": 1.617791,
+   "end": 1.670749
+  },
+  {
+   "text": "dirección",
+   "start": 1.681375,
+   "end": 2.105083
+  },
+  {
+   "text": "que",
+   "start": 2.115666,
+   "end": 2.221582
+  },
+  {
+   "text": "lo",
+   "start": 2.232208,
+   "end": 2.306374
+  },
+  {
+   "text": "reduce",
+   "start": 2.316958,
+   "end": 2.730083
+  }
+ ]
+}

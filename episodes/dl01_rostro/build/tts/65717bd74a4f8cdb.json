@@ -1,0 +1,61 @@
+{
+ "text": "En este ejemplo, tu foto nueva se parece menos a ti...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "este",
+   "start": 0.251291,
+   "end": 0.452582
+  },
+  {
+   "text": "ejemplo",
+   "start": 0.463125,
+   "end": 0.87625
+  },
+  {
+   "text": "tu",
+   "start": 1.098708,
+   "end": 1.194041
+  },
+  {
+   "text": "foto",
+   "start": 1.204666,
+   "end": 1.458916
+  },
+  {
+   "text": "nueva",
+   "start": 1.4695,
+   "end": 1.702541
+  },
+  {
+   "text": "se",
+   "start": 1.713125,
+   "end": 1.829666
+  },
+  {
+   "text": "parece",
+   "start": 1.84025,
+   "end": 2.147458
+  },
+  {
+   "text": "menos",
+   "start": 2.158041,
+   "end": 2.465249
+  },
+  {
+   "text": "a",
+   "start": 2.475833,
+   "end": 2.528791
+  },
+  {
+   "text": "ti",
+   "start": 2.539416,
+   "end": 2.772457
+  }
+ ]
+}

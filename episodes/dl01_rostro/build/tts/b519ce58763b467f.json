@@ -1,0 +1,51 @@
+{
+ "text": "Para el celular, tu cara no es una cara:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "el",
+   "start": 0.283041,
+   "end": 0.346582
+  },
+  {
+   "text": "celular",
+   "start": 0.357208,
+   "end": 0.759749
+  },
+  {
+   "text": "tu",
+   "start": 0.982208,
+   "end": 1.088124
+  },
+  {
+   "text": "cara",
+   "start": 1.098708,
+   "end": 1.321166
+  },
+  {
+   "text": "no",
+   "start": 1.331791,
+   "end": 1.490707
+  },
+  {
+   "text": "es",
+   "start": 1.501291,
+   "end": 1.617832
+  },
+  {
+   "text": "una",
+   "start": 1.628375,
+   "end": 1.776666
+  },
+  {
+   "text": "cara",
+   "start": 1.787291,
+   "end": 2.094499
+  }
+ ]
+}

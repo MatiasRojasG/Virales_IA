@@ -1,0 +1,51 @@
+{
+ "text": "Y tu foto nueva cae justo en tu grupo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "tu",
+   "start": 0.2195,
+   "end": 0.325416
+  },
+  {
+   "text": "foto",
+   "start": 0.336,
+   "end": 0.59025
+  },
+  {
+   "text": "nueva",
+   "start": 0.600833,
+   "end": 0.855083
+  },
+  {
+   "text": "cae",
+   "start": 0.865666,
+   "end": 1.109291
+  },
+  {
+   "text": "justo",
+   "start": 1.119916,
+   "end": 1.448291
+  },
+  {
+   "text": "en",
+   "start": 1.458916,
+   "end": 1.533082
+  },
+  {
+   "text": "tu",
+   "start": 1.543625,
+   "end": 1.638958
+  },
+  {
+   "text": "grupo",
+   "start": 1.649583,
+   "end": 1.999166
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "text": "Podríamos escribir reglas a mano: medir los ojos, la nariz, la boca...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Podríamos",
+   "start": 0.092375,
+   "end": 0.526708
+  },
+  {
+   "text": "escribir",
+   "start": 0.537291,
+   "end": 0.939832
+  },
+  {
+   "text": "reglas",
+   "start": 0.950416,
+   "end": 1.278791
+  },
+  {
+   "text": "a",
+   "start": 1.289416,
+   "end": 1.331791
+  },
+  {
+   "text": "mano",
+   "start": 1.342375,
+   "end": 1.639
+  },
+  {
+   "text": "medir",
+   "start": 1.872041,
+   "end": 2.136874
+  },
+  {
+   "text": "los",
+   "start": 2.147458,
+   "end": 2.295749
+  },
+  {
+   "text": "ojos",
+   "start": 2.306375,
+   "end": 2.666541
+  },
+  {
+   "text": "la",
+   "start": 2.867791,
+   "end": 2.973707
+  },
+  {
+   "text": "nariz",
+   "start": 2.984333,
+   "end": 3.376291
+  },
+  {
+   "text": "la",
+   "start": 3.598708,
+   "end": 3.683458
+  },
+  {
+   "text": "boca",
+   "start": 3.694083,
+   "end": 4.033083
+  }
+ ]
+}

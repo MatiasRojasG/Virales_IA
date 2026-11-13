@@ -1,0 +1,61 @@
+{
+ "text": "Con los pesos adecuados, esta neurona se enciende con los bordes.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "los",
+   "start": 0.240666,
+   "end": 0.378374
+  },
+  {
+   "text": "pesos",
+   "start": 0.389,
+   "end": 0.675
+  },
+  {
+   "text": "adecuados",
+   "start": 0.685583,
+   "end": 1.183458
+  },
+  {
+   "text": "esta",
+   "start": 1.405916,
+   "end": 1.628374
+  },
+  {
+   "text": "neurona",
+   "start": 1.639,
+   "end": 2.020375
+  },
+  {
+   "text": "se",
+   "start": 2.030916,
+   "end": 2.136832
+  },
+  {
+   "text": "enciende",
+   "start": 2.147458,
+   "end": 2.549999
+  },
+  {
+   "text": "con",
+   "start": 2.560583,
+   "end": 2.687708
+  },
+  {
+   "text": "los",
+   "start": 2.698291,
+   "end": 2.835999
+  },
+  {
+   "text": "bordes",
+   "start": 2.846625,
+   "end": 3.291541
+  }
+ ]
+}

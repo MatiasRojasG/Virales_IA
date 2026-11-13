@@ -1,0 +1,36 @@
+{
+ "text": "y tu celular igual se desbloquea.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "tu",
+   "start": 0.2195,
+   "end": 0.314833
+  },
+  {
+   "text": "celular",
+   "start": 0.325416,
+   "end": 0.685582
+  },
+  {
+   "text": "igual",
+   "start": 0.696166,
+   "end": 0.971582
+  },
+  {
+   "text": "se",
+   "start": 0.982208,
+   "end": 1.098749
+  },
+  {
+   "text": "desbloquea",
+   "start": 1.109333,
+   "end": 1.702541
+  }
+ ]
+}

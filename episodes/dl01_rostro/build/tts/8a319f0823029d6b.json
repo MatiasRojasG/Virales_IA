@@ -1,0 +1,41 @@
+{
+ "text": "Su pieza básica es una neurona artificial:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Su",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "pieza",
+   "start": 0.293625,
+   "end": 0.547875
+  },
+  {
+   "text": "básica",
+   "start": 0.558458,
+   "end": 0.950416
+  },
+  {
+   "text": "es",
+   "start": 0.961,
+   "end": 1.077541
+  },
+  {
+   "text": "una",
+   "start": 1.088125,
+   "end": 1.225833
+  },
+  {
+   "text": "neurona",
+   "start": 1.236458,
+   "end": 1.628416
+  },
+  {
+   "text": "artificial",
+   "start": 1.639,
+   "end": 2.232208
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[hook] (  0.1s –   6.3s)
+Te cortas el pelo, te pones lentes... y tu celular igual se desbloquea. ¿Cómo sabe que eres tú?
+
+[pixeles] (  6.3s –  12.6s)
+Para el celular, tu cara no es una cara: es una grilla de números. Cuánta luz llegó a cada punto.
+
+[dificil] ( 12.6s –  21.8s)
+Y basta cambiar la luz o el peinado para que casi todos esos números cambien. En este ejemplo, tu foto nueva se parece menos a ti... que la foto de otra persona.
+
+[reglas] ( 21.8s –  29.8s)
+Podríamos escribir reglas a mano: medir los ojos, la nariz, la boca... pero con sombras, ángulos y lentes, las reglas se rompen.
+
+[neurona] ( 29.8s –  44.6s)
+La salida fue otra: dejar que la máquina descubra qué mirar. Su pieza básica es una neurona artificial: multiplica cada punto por un peso, suma todo, y se enciende si el resultado es alto. Con los pesos adecuados, esta neurona se enciende con los bordes.
+
+[capas] ( 44.6s –  56.4s)
+Si apilas capas de neuronas, las siguientes combinan bordes en partes: un ojo, una nariz... y las últimas, en una especie de huella de tu rostro. Muchas capas: por eso se llama aprendizaje profundo.
+
+[aprender] ( 56.4s –  72.2s)
+¿Y quién elige todos esos pesos? Nadie. Se aprenden. Le mostramos miles de fotos. Cada vez que confunde a dos personas, medimos el error... y movemos cada peso un poquito en la dirección que lo reduce. Como bajar un cerro a ciegas, paso a paso.
+
+[resultado] ( 72.2s –  79.2s)
+Al final, las huellas se ordenan por persona, aunque cambie la luz o el peinado. Y tu foto nueva cae justo en tu grupo.
+
+[cierre] ( 79.2s –  83.6s)
+Así que tu celular no memoriza una foto tuya. Aprendió qué mirar.

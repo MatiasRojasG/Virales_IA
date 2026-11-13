@@ -1,0 +1,81 @@
+{
+ "text": "Al final, las huellas se ordenan por persona, aunque cambie la luz o el peinado.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Al",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "final",
+   "start": 0.251291,
+   "end": 0.579666
+  },
+  {
+   "text": "las",
+   "start": 0.865666,
+   "end": 0.992791
+  },
+  {
+   "text": "huellas",
+   "start": 1.003375,
+   "end": 1.257625
+  },
+  {
+   "text": "se",
+   "start": 1.268208,
+   "end": 1.331749
+  },
+  {
+   "text": "ordenan",
+   "start": 1.342375,
+   "end": 1.67075
+  },
+  {
+   "text": "por",
+   "start": 1.681375,
+   "end": 1.829666
+  },
+  {
+   "text": "persona",
+   "start": 1.84025,
+   "end": 2.253375
+  },
+  {
+   "text": "aunque",
+   "start": 2.46525,
+   "end": 2.730083
+  },
+  {
+   "text": "cambie",
+   "start": 2.740666,
+   "end": 3.037291
+  },
+  {
+   "text": "la",
+   "start": 3.047875,
+   "end": 3.132625
+  },
+  {
+   "text": "luz",
+   "start": 3.143208,
+   "end": 3.376249
+  },
+  {
+   "text": "o",
+   "start": 3.386875,
+   "end": 3.439833
+  },
+  {
+   "text": "el",
+   "start": 3.450416,
+   "end": 3.524582
+  },
+  {
+   "text": "peinado",
+   "start": 3.535166,
+   "end": 3.990666
+  }
+ ]
+}

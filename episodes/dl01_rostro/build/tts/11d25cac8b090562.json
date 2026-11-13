@@ -1,0 +1,86 @@
+{
+ "text": "multiplica cada punto por un peso, suma todo, y se enciende si el resultado es alto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "multiplica",
+   "start": 0.092375,
+   "end": 0.632625
+  },
+  {
+   "text": "cada",
+   "start": 0.643208,
+   "end": 0.876249
+  },
+  {
+   "text": "punto",
+   "start": 0.886875,
+   "end": 1.1835
+  },
+  {
+   "text": "por",
+   "start": 1.194083,
+   "end": 1.331791
+  },
+  {
+   "text": "un",
+   "start": 1.342375,
+   "end": 1.448291
+  },
+  {
+   "text": "peso",
+   "start": 1.458916,
+   "end": 1.787291
+  },
+  {
+   "text": "suma",
+   "start": 2.020333,
+   "end": 2.274583
+  },
+  {
+   "text": "todo",
+   "start": 2.285166,
+   "end": 2.602957
+  },
+  {
+   "text": "y",
+   "start": 2.836,
+   "end": 2.910166
+  },
+  {
+   "text": "se",
+   "start": 2.92075,
+   "end": 3.016083
+  },
+  {
+   "text": "enciende",
+   "start": 3.026708,
+   "end": 3.397458
+  },
+  {
+   "text": "si",
+   "start": 3.408041,
+   "end": 3.535166
+  },
+  {
+   "text": "el",
+   "start": 3.54575,
+   "end": 3.619916
+  },
+  {
+   "text": "resultado",
+   "start": 3.6305,
+   "end": 4.107208
+  },
+  {
+   "text": "es",
+   "start": 4.117791,
+   "end": 4.234332
+  },
+  {
+   "text": "alto",
+   "start": 4.244916,
+   "end": 4.573291
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "La salida fue otra: dejar que la máquina descubra qué mirar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "salida",
+   "start": 0.240666,
+   "end": 0.622041
+  },
+  {
+   "text": "fue",
+   "start": 0.632625,
+   "end": 0.802125
+  },
+  {
+   "text": "otra",
+   "start": 0.812708,
+   "end": 1.088124
+  },
+  {
+   "text": "dejar",
+   "start": 1.352958,
+   "end": 1.617791
+  },
+  {
+   "text": "que",
+   "start": 1.628375,
+   "end": 1.734291
+  },
+  {
+   "text": "la",
+   "start": 1.744916,
+   "end": 1.819082
+  },
+  {
+   "text": "máquina",
+   "start": 1.829666,
+   "end": 2.179249
+  },
+  {
+   "text": "descubra",
+   "start": 2.189833,
+   "end": 2.624166
+  },
+  {
+   "text": "qué",
+   "start": 2.63475,
+   "end": 2.730083
+  },
+  {
+   "text": "mirar",
+   "start": 2.740666,
+   "end": 3.132624
+  }
+ ]
+}

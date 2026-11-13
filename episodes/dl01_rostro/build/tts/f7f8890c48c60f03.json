@@ -1,0 +1,46 @@
+{
+ "text": "Muchas capas: por eso se llama aprendizaje profundo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Muchas",
+   "start": 0.092375,
+   "end": 0.431375
+  },
+  {
+   "text": "capas",
+   "start": 0.441958,
+   "end": 0.823333
+  },
+  {
+   "text": "por",
+   "start": 1.024583,
+   "end": 1.162291
+  },
+  {
+   "text": "eso",
+   "start": 1.172875,
+   "end": 1.342375
+  },
+  {
+   "text": "se",
+   "start": 1.352958,
+   "end": 1.458874
+  },
+  {
+   "text": "llama",
+   "start": 1.4695,
+   "end": 1.734333
+  },
+  {
+   "text": "aprendizaje",
+   "start": 1.744916,
+   "end": 2.316957
+  },
+  {
+   "text": "profundo",
+   "start": 2.327541,
+   "end": 2.814832
+  }
+ ]
+}

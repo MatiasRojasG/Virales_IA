@@ -1,0 +1,61 @@
+{
+ "text": "y las últimas, en una especie de huella de tu rostro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "las",
+   "start": 0.208916,
+   "end": 0.388999
+  },
+  {
+   "text": "últimas",
+   "start": 0.399583,
+   "end": 0.855083
+  },
+  {
+   "text": "en",
+   "start": 1.04575,
+   "end": 1.172875
+  },
+  {
+   "text": "una",
+   "start": 1.183458,
+   "end": 1.299999
+  },
+  {
+   "text": "especie",
+   "start": 1.310583,
+   "end": 1.691958
+  },
+  {
+   "text": "de",
+   "start": 1.702541,
+   "end": 1.797874
+  },
+  {
+   "text": "huella",
+   "start": 1.808458,
+   "end": 2.073291
+  },
+  {
+   "text": "de",
+   "start": 2.083916,
+   "end": 2.200457
+  },
+  {
+   "text": "tu",
+   "start": 2.211,
+   "end": 2.316916
+  },
+  {
+   "text": "rostro",
+   "start": 2.327541,
+   "end": 2.740666
+  }
+ ]
+}

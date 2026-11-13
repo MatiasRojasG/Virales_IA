@@ -1,0 +1,51 @@
+{
+ "text": "Así que tu celular no memoriza una foto tuya.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "que",
+   "start": 0.357208,
+   "end": 0.473749
+  },
+  {
+   "text": "tu",
+   "start": 0.484333,
+   "end": 0.569083
+  },
+  {
+   "text": "celular",
+   "start": 0.579666,
+   "end": 0.992791
+  },
+  {
+   "text": "no",
+   "start": 1.003375,
+   "end": 1.162291
+  },
+  {
+   "text": "memoriza",
+   "start": 1.172875,
+   "end": 1.617791
+  },
+  {
+   "text": "una",
+   "start": 1.628375,
+   "end": 1.808458
+  },
+  {
+   "text": "foto",
+   "start": 1.819083,
+   "end": 2.083916
+  },
+  {
+   "text": "tuya",
+   "start": 2.0945,
+   "end": 2.444083
+  }
+ ]
+}

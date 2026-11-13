@@ -1,0 +1,51 @@
+{
+ "text": "¿Y quién elige todos esos pesos? Nadie. Se aprenden.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "quién",
+   "start": 0.2195,
+   "end": 0.410166
+  },
+  {
+   "text": "elige",
+   "start": 0.42075,
+   "end": 0.727958
+  },
+  {
+   "text": "todos",
+   "start": 0.738541,
+   "end": 1.045749
+  },
+  {
+   "text": "esos",
+   "start": 1.056375,
+   "end": 1.310625
+  },
+  {
+   "text": "pesos",
+   "start": 1.321166,
+   "end": 1.776666
+  },
+  {
+   "text": "Nadie",
+   "start": 2.510583,
+   "end": 2.955499
+  },
+  {
+   "text": "Se",
+   "start": 3.697041,
+   "end": 3.877124
+  },
+  {
+   "text": "aprenden",
+   "start": 3.887708,
+   "end": 4.364416
+  }
+ ]
+}

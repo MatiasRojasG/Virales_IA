@@ -1,0 +1,81 @@
+{
+ "text": "Y basta cambiar la luz o el peinado para que casi todos esos números cambien.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "basta",
+   "start": 0.2195,
+   "end": 0.484333
+  },
+  {
+   "text": "cambiar",
+   "start": 0.494916,
+   "end": 0.855082
+  },
+  {
+   "text": "la",
+   "start": 0.865666,
+   "end": 0.950416
+  },
+  {
+   "text": "luz",
+   "start": 0.961,
+   "end": 1.194041
+  },
+  {
+   "text": "o",
+   "start": 1.204666,
+   "end": 1.247041
+  },
+  {
+   "text": "el",
+   "start": 1.257625,
+   "end": 1.331791
+  },
+  {
+   "text": "peinado",
+   "start": 1.342375,
+   "end": 1.72375
+  },
+  {
+   "text": "para",
+   "start": 1.734333,
+   "end": 1.935624
+  },
+  {
+   "text": "que",
+   "start": 1.946166,
+   "end": 2.073291
+  },
+  {
+   "text": "casi",
+   "start": 2.083916,
+   "end": 2.380541
+  },
+  {
+   "text": "todos",
+   "start": 2.391083,
+   "end": 2.719458
+  },
+  {
+   "text": "esos",
+   "start": 2.730083,
+   "end": 3.005499
+  },
+  {
+   "text": "números",
+   "start": 3.016083,
+   "end": 3.376249
+  },
+  {
+   "text": "cambien",
+   "start": 3.386875,
+   "end": 3.8
+  }
+ ]
+}

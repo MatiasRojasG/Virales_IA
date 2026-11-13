@@ -1,0 +1,81 @@
+{
+ "text": "Si apilas capas de neuronas, las siguientes combinan bordes en partes: un ojo, una nariz...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "apilas",
+   "start": 0.293625,
+   "end": 0.643208
+  },
+  {
+   "text": "capas",
+   "start": 0.653833,
+   "end": 0.950458
+  },
+  {
+   "text": "de",
+   "start": 0.961,
+   "end": 1.024541
+  },
+  {
+   "text": "neuronas",
+   "start": 1.035166,
+   "end": 1.554249
+  },
+  {
+   "text": "las",
+   "start": 1.776708,
+   "end": 1.893249
+  },
+  {
+   "text": "siguientes",
+   "start": 1.903833,
+   "end": 2.359333
+  },
+  {
+   "text": "combinan",
+   "start": 2.369916,
+   "end": 2.783041
+  },
+  {
+   "text": "bordes",
+   "start": 2.793625,
+   "end": 3.122
+  },
+  {
+   "text": "en",
+   "start": 3.132625,
+   "end": 3.227958
+  },
+  {
+   "text": "partes",
+   "start": 3.238541,
+   "end": 3.641082
+  },
+  {
+   "text": "un",
+   "start": 3.88475,
+   "end": 3.980083
+  },
+  {
+   "text": "ojo",
+   "start": 3.990666,
+   "end": 4.276666
+  },
+  {
+   "text": "una",
+   "start": 4.467375,
+   "end": 4.647458
+  },
+  {
+   "text": "nariz",
+   "start": 4.658041,
+   "end": 5.113541
+  }
+ ]
+}

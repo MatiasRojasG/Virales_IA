@@ -1,0 +1,56 @@
+{
+ "text": "pero con sombras, ángulos y lentes, las reglas se rompen.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "con",
+   "start": 0.283041,
+   "end": 0.431332
+  },
+  {
+   "text": "sombras",
+   "start": 0.441958,
+   "end": 0.865666
+  },
+  {
+   "text": "ángulos",
+   "start": 1.04575,
+   "end": 1.437708
+  },
+  {
+   "text": "y",
+   "start": 1.448291,
+   "end": 1.490666
+  },
+  {
+   "text": "lentes",
+   "start": 1.501291,
+   "end": 1.924999
+  },
+  {
+   "text": "las",
+   "start": 2.126291,
+   "end": 2.306374
+  },
+  {
+   "text": "reglas",
+   "start": 2.316958,
+   "end": 2.602958
+  },
+  {
+   "text": "se",
+   "start": 2.613541,
+   "end": 2.708874
+  },
+  {
+   "text": "rompen",
+   "start": 2.7195,
+   "end": 3.143208
+  }
+ ]
+}

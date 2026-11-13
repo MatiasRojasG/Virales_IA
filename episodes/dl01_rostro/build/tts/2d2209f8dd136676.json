@@ -1,0 +1,81 @@
+{
+ "text": "Le mostramos miles de fotos. Cada vez que confunde a dos personas, medimos el error...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Le",
+   "start": 0.092375,
+   "end": 0.2195
+  },
+  {
+   "text": "mostramos",
+   "start": 0.230083,
+   "end": 0.717374
+  },
+  {
+   "text": "miles",
+   "start": 0.727958,
+   "end": 1.003374
+  },
+  {
+   "text": "de",
+   "start": 1.014,
+   "end": 1.077541
+  },
+  {
+   "text": "fotos",
+   "start": 1.088125,
+   "end": 1.533041
+  },
+  {
+   "text": "Cada",
+   "start": 2.256375,
+   "end": 2.457666
+  },
+  {
+   "text": "vez",
+   "start": 2.468208,
+   "end": 2.648291
+  },
+  {
+   "text": "que",
+   "start": 2.658916,
+   "end": 2.754249
+  },
+  {
+   "text": "confunde",
+   "start": 2.764833,
+   "end": 3.146208
+  },
+  {
+   "text": "a",
+   "start": 3.156791,
+   "end": 3.177957
+  },
+  {
+   "text": "dos",
+   "start": 3.188541,
+   "end": 3.368624
+  },
+  {
+   "text": "personas",
+   "start": 3.37925,
+   "end": 3.877125
+  },
+  {
+   "text": "medimos",
+   "start": 4.067791,
+   "end": 4.459749
+  },
+  {
+   "text": "el",
+   "start": 4.470333,
+   "end": 4.565666
+  },
+  {
+   "text": "error",
+   "start": 4.576291,
+   "end": 4.915291
+  }
+ ]
+}

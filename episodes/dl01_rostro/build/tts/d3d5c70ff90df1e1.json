@@ -1,0 +1,36 @@
+{
+ "text": "que la foto de otra persona.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "que",
+   "start": 0.092375,
+   "end": 0.198291
+  },
+  {
+   "text": "la",
+   "start": 0.208916,
+   "end": 0.304249
+  },
+  {
+   "text": "foto",
+   "start": 0.314833,
+   "end": 0.579666
+  },
+  {
+   "text": "de",
+   "start": 0.59025,
+   "end": 0.685583
+  },
+  {
+   "text": "otra",
+   "start": 0.696166,
+   "end": 0.929207
+  },
+  {
+   "text": "persona",
+   "start": 0.939833,
+   "end": 1.427124
+  }
+ ]
+}

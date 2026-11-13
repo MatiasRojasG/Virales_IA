@@ -1,0 +1,284 @@
+1
+00:00:00,150 --> 00:00:01,230
+Te cortas el pelo,
+
+2
+00:00:01,230 --> 00:00:02,460
+te pones lentes...
+
+3
+00:00:02,460 --> 00:00:03,350
+y tu celular igual
+
+4
+00:00:03,350 --> 00:00:04,660
+se desbloquea.
+
+5
+00:00:04,660 --> 00:00:06,389
+¿Cómo sabe que eres tú?
+
+6
+00:00:06,389 --> 00:00:07,278
+Para el celular,
+
+7
+00:00:07,278 --> 00:00:07,925
+tu cara no es
+
+8
+00:00:07,925 --> 00:00:08,681
+una cara:
+
+9
+00:00:08,681 --> 00:00:10,620
+es una grilla de números.
+
+10
+00:00:10,643 --> 00:00:11,417
+Cuánta luz llegó a
+
+11
+00:00:11,417 --> 00:00:12,682
+cada punto.
+
+12
+00:00:12,682 --> 00:00:13,550
+Y basta cambiar la
+
+13
+00:00:13,550 --> 00:00:14,324
+luz o el peinado
+
+14
+00:00:14,324 --> 00:00:15,319
+para que casi todos
+
+15
+00:00:15,319 --> 00:00:16,879
+esos números cambien.
+
+16
+00:00:16,879 --> 00:00:17,886
+En este ejemplo,
+
+17
+00:00:17,886 --> 00:00:18,627
+tu foto nueva se
+
+18
+00:00:18,627 --> 00:00:19,850
+parece menos a ti...
+
+19
+00:00:19,850 --> 00:00:20,453
+que la foto de
+
+20
+00:00:20,453 --> 00:00:21,874
+otra persona.
+
+21
+00:00:21,874 --> 00:00:23,654
+Podríamos escribir
+reglas a mano:
+
+22
+00:00:23,654 --> 00:00:24,650
+medir los ojos,
+
+23
+00:00:24,650 --> 00:00:26,155
+la nariz, la boca...
+
+24
+00:00:26,155 --> 00:00:27,108
+pero con sombras,
+
+25
+00:00:27,108 --> 00:00:28,189
+ángulos y lentes,
+
+26
+00:00:28,189 --> 00:00:29,896
+las reglas se rompen.
+
+27
+00:00:29,896 --> 00:00:31,156
+La salida fue otra:
+
+28
+00:00:31,156 --> 00:00:31,993
+dejar que la máquina
+
+29
+00:00:31,993 --> 00:00:33,426
+descubra qué mirar.
+
+30
+00:00:33,426 --> 00:00:34,422
+Su pieza básica es
+
+31
+00:00:34,422 --> 00:00:35,856
+una neurona artificial:
+
+32
+00:00:35,856 --> 00:00:37,106
+multiplica cada punto por
+
+33
+00:00:37,106 --> 00:00:38,600
+un peso, suma todo,
+
+34
+00:00:38,600 --> 00:00:39,309
+y se enciende si
+
+35
+00:00:39,309 --> 00:00:40,827
+el resultado es alto.
+
+36
+00:00:40,827 --> 00:00:42,140
+Con los pesos adecuados,
+
+37
+00:00:42,140 --> 00:00:43,295
+esta neurona se enciende
+
+38
+00:00:43,295 --> 00:00:44,666
+con los bordes.
+
+39
+00:00:44,666 --> 00:00:46,350
+Si apilas capas
+de neuronas,
+
+40
+00:00:46,350 --> 00:00:47,706
+las siguientes
+combinan bordes
+
+41
+00:00:47,706 --> 00:00:48,458
+en partes:
+
+42
+00:00:48,458 --> 00:00:49,997
+un ojo, una nariz...
+
+43
+00:00:49,997 --> 00:00:50,951
+y las últimas,
+
+44
+00:00:50,951 --> 00:00:51,713
+en una especie de
+
+45
+00:00:51,713 --> 00:00:53,135
+huella de tu rostro.
+
+46
+00:00:53,135 --> 00:00:54,068
+Muchas capas:
+
+47
+00:00:54,068 --> 00:00:54,788
+por eso se llama
+
+48
+00:00:54,788 --> 00:00:56,498
+aprendizaje profundo.
+
+49
+00:00:56,498 --> 00:00:57,462
+¿Y quién elige todos
+
+50
+00:00:57,462 --> 00:00:58,882
+esos pesos?
+
+51
+00:00:58,916 --> 00:01:00,061
+Nadie.
+
+52
+00:01:00,103 --> 00:01:01,260
+Se aprenden.
+
+53
+00:01:01,260 --> 00:01:03,401
+Le mostramos
+miles de fotos.
+
+54
+00:01:03,424 --> 00:01:04,324
+Cada vez que confunde
+
+55
+00:01:04,324 --> 00:01:05,235
+a dos personas,
+
+56
+00:01:05,235 --> 00:01:06,373
+medimos el error...
+
+57
+00:01:06,373 --> 00:01:07,379
+y movemos cada peso
+
+58
+00:01:07,379 --> 00:01:07,962
+un poquito en la
+
+59
+00:01:07,962 --> 00:01:09,451
+dirección que lo reduce.
+
+60
+00:01:09,451 --> 00:01:10,277
+Como bajar un cerro
+
+61
+00:01:10,277 --> 00:01:12,252
+a ciegas, paso a paso.
+
+62
+00:01:12,252 --> 00:01:13,427
+Al final, las huellas
+
+63
+00:01:13,427 --> 00:01:14,624
+se ordenan por persona,
+
+64
+00:01:14,624 --> 00:01:15,546
+aunque cambie la luz
+
+65
+00:01:15,546 --> 00:01:16,640
+o el peinado.
+
+66
+00:01:16,640 --> 00:01:17,413
+Y tu foto nueva
+
+67
+00:01:17,413 --> 00:01:19,237
+cae justo en tu grupo.
+
+68
+00:01:19,237 --> 00:01:20,148
+Así que tu celular
+
+69
+00:01:20,148 --> 00:01:21,978
+no memoriza
+una foto tuya.
+
+70
+00:01:21,978 --> 00:01:23,802
+Aprendió qué mirar.
