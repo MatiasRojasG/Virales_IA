@@ -1,0 +1,51 @@
+{
+ "text": "Peso positivo: «aquí quiero luz». Negativo: «aquí quiero oscuridad».",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Peso",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "positivo",
+   "start": 0.346625,
+   "end": 0.876291
+  },
+  {
+   "text": "aquí",
+   "start": 1.098708,
+   "end": 1.374124
+  },
+  {
+   "text": "quiero",
+   "start": 1.38475,
+   "end": 1.628375
+  },
+  {
+   "text": "luz",
+   "start": 1.639,
+   "end": 2.00975
+  },
+  {
+   "text": "Negativo",
+   "start": 2.733041,
+   "end": 3.294499
+  },
+  {
+   "text": "aquí",
+   "start": 3.516958,
+   "end": 3.792374
+  },
+  {
+   "text": "quiero",
+   "start": 3.802958,
+   "end": 4.025416
+  },
+  {
+   "text": "oscuridad",
+   "start": 4.036,
+   "end": 4.555083
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "text": "La última junta las partes en una lista de números: una huella de tu rostro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "última",
+   "start": 0.240666,
+   "end": 0.547874
+  },
+  {
+   "text": "junta",
+   "start": 0.558458,
+   "end": 0.833874
+  },
+  {
+   "text": "las",
+   "start": 0.8445,
+   "end": 0.992791
+  },
+  {
+   "text": "partes",
+   "start": 1.003375,
+   "end": 1.352958
+  },
+  {
+   "text": "en",
+   "start": 1.363541,
+   "end": 1.448291
+  },
+  {
+   "text": "una",
+   "start": 1.458916,
+   "end": 1.607207
+  },
+  {
+   "text": "lista",
+   "start": 1.617791,
+   "end": 1.872041
+  },
+  {
+   "text": "de",
+   "start": 1.882625,
+   "end": 1.956791
+  },
+  {
+   "text": "números",
+   "start": 1.967375,
+   "end": 2.412291
+  },
+  {
+   "text": "una",
+   "start": 2.655916,
+   "end": 2.804207
+  },
+  {
+   "text": "huella",
+   "start": 2.814833,
+   "end": 3.069083
+  },
+  {
+   "text": "de",
+   "start": 3.079666,
+   "end": 3.185582
+  },
+  {
+   "text": "tu",
+   "start": 3.196166,
+   "end": 3.302082
+  },
+  {
+   "text": "rostro",
+   "start": 3.312708,
+   "end": 3.704666
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "¿Y quién elige los pesos? Nadie. Se aprenden.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "quién",
+   "start": 0.2195,
+   "end": 0.410166
+  },
+  {
+   "text": "elige",
+   "start": 0.42075,
+   "end": 0.70675
+  },
+  {
+   "text": "los",
+   "start": 0.717375,
+   "end": 0.865666
+  },
+  {
+   "text": "pesos",
+   "start": 0.876291,
+   "end": 1.331791
+  },
+  {
+   "text": "Nadie",
+   "start": 2.065666,
+   "end": 2.510582
+  },
+  {
+   "text": "Se",
+   "start": 3.252125,
+   "end": 3.432208
+  },
+  {
+   "text": "aprenden",
+   "start": 3.442791,
+   "end": 3.919499
+  }
+ ]
+}

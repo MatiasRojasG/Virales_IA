@@ -1,6 +1,6 @@
 # Deep Learning · EP 01 — ¿Cómo sabe tu celular que eres tú?
 
-**Video:** `output/dl01_rostro.mp4`: 1080×1920, 60 fps, H.264 + AAC, **84,2 s**, −14,4 LUFS, pico −1 dBFS.
+**Video (v2):** `output/dl01_rostro.mp4`: 1080×1920, 60 fps, H.264 + AAC, **116 s**, −14,5 LUFS, pico −1 dBFS.
 Se verificó lo siguiente:
 - No hay saltos de un solo cuadro.
 - Los subtítulos van 60 ms antes de la voz.
@@ -12,6 +12,24 @@ Se verificó lo siguiente:
 | `script.py` | Guion por frases, con la cadena causal documentada |
 | `scenes.py` | Animaciones |
 | `experiment.py` | Rostros sintéticos y red neuronal entrenada desde cero con NumPy |
+
+## v2: la red neuronal, paso a paso
+
+Se reemplazó la explicación rápida de «neurona y capas» por cuatro pasos que responden qué entra, qué hace y qué sale:
+
+1. **¿Qué le entra a una neurona?** Un pedacito de la imagen. Son 9 puntos reales de la cara, junto al ojo, con su número de luz: 0,6 0,7 0,7 / 0,1 0,2 1,0 / 0,1 0,4 0,9.
+2. **Pesos.** Cada punto tiene un peso: +1 significa «aquí quiero luz», −1 «aquí quiero oscuridad» y 0 «no me importa».
+3. **Multiplica y suma.** Se ven los 9 productos.
+   - Junto al ojo la suma da **1,8**: sale un solo número y la neurona se **enciende**.
+   - En la mejilla pareja, con todos los puntos en 0,5, da **0,0** y queda **apagada**.
+4. **Barrido.** Como esos pesos buscan «oscuro → claro», es decir, un borde, al recorrer toda la cara la neurona se enciende en los bordes. Se ve cómo se va pintando el mapa.
+5. **Capas.** Una capa es un grupo de neuronas, cada una con pesos distintos (vertical, horizontal, diagonales).
+   - **Capa 1.** Recibe la luz de la imagen y entrega 4 **mapas** de bordes.
+   - **Capa 2.** Esos mapas **entran** a ella; en pantalla se ven pulsos viajando de una capa a la otra. Sus neuronas combinan bordes y entregan mapas de partes (ojo, nariz, boca).
+   - **Capa 3.** Entrega la **huella**: los 32 números reales que la red entrenada produce para esa foto.
+   - El repaso «de luz, a bordes, a partes, a huella» ilumina cada fila en orden.
+
+Los pesos de los pasos 2 a 4 son de ejemplo, para que las cuentas se entiendan. La fila de capas está rotulada como ilustración de lo que suelen aprender. La huella y el entrenamiento son reales.
 
 ## Serie propuesta (resumen «Fundamentos de Deep Learning»)
 

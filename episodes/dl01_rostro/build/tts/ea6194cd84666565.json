@@ -1,0 +1,86 @@
+{
+ "text": "La neurona le da a cada punto un peso: un número que dice cuánto le importa.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "neurona",
+   "start": 0.240666,
+   "end": 0.622041
+  },
+  {
+   "text": "le",
+   "start": 0.632625,
+   "end": 0.727958
+  },
+  {
+   "text": "da",
+   "start": 0.738541,
+   "end": 0.876249
+  },
+  {
+   "text": "a",
+   "start": 0.886875,
+   "end": 0.92925
+  },
+  {
+   "text": "cada",
+   "start": 0.939833,
+   "end": 1.172874
+  },
+  {
+   "text": "punto",
+   "start": 1.183458,
+   "end": 1.469458
+  },
+  {
+   "text": "un",
+   "start": 1.480083,
+   "end": 1.585999
+  },
+  {
+   "text": "peso",
+   "start": 1.596625,
+   "end": 1.935625
+  },
+  {
+   "text": "un",
+   "start": 2.200416,
+   "end": 2.295749
+  },
+  {
+   "text": "número",
+   "start": 2.306375,
+   "end": 2.592375
+  },
+  {
+   "text": "que",
+   "start": 2.602958,
+   "end": 2.698291
+  },
+  {
+   "text": "dice",
+   "start": 2.708916,
+   "end": 2.984332
+  },
+  {
+   "text": "cuánto",
+   "start": 2.994916,
+   "end": 3.270332
+  },
+  {
+   "text": "le",
+   "start": 3.280916,
+   "end": 3.344457
+  },
+  {
+   "text": "importa",
+   "start": 3.355083,
+   "end": 3.842374
+  }
+ ]
+}

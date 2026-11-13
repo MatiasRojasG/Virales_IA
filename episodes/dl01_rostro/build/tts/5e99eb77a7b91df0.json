@@ -1,0 +1,86 @@
+{
+ "text": "La última capa junta esas partes en una lista de números: una huella de tu rostro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "última",
+   "start": 0.240666,
+   "end": 0.547874
+  },
+  {
+   "text": "capa",
+   "start": 0.558458,
+   "end": 0.802083
+  },
+  {
+   "text": "junta",
+   "start": 0.812708,
+   "end": 1.119916
+  },
+  {
+   "text": "esas",
+   "start": 1.1305,
+   "end": 1.363541
+  },
+  {
+   "text": "partes",
+   "start": 1.374166,
+   "end": 1.723749
+  },
+  {
+   "text": "en",
+   "start": 1.734333,
+   "end": 1.819083
+  },
+  {
+   "text": "una",
+   "start": 1.829666,
+   "end": 1.977957
+  },
+  {
+   "text": "lista",
+   "start": 1.988541,
+   "end": 2.242791
+  },
+  {
+   "text": "de",
+   "start": 2.253375,
+   "end": 2.327541
+  },
+  {
+   "text": "números",
+   "start": 2.338125,
+   "end": 2.772458
+  },
+  {
+   "text": "una",
+   "start": 3.016083,
+   "end": 3.164374
+  },
+  {
+   "text": "huella",
+   "start": 3.175,
+   "end": 3.418625
+  },
+  {
+   "text": "de",
+   "start": 3.42925,
+   "end": 3.535166
+  },
+  {
+   "text": "tu",
+   "start": 3.54575,
+   "end": 3.651666
+  },
+  {
+   "text": "rostro",
+   "start": 3.662291,
+   "end": 4.054249
+  }
+ ]
+}

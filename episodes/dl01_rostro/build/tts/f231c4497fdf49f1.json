@@ -1,0 +1,46 @@
+{
+ "text": "Podríamos escribir reglas: medir ojos, nariz y boca...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Podríamos",
+   "start": 0.092375,
+   "end": 0.526708
+  },
+  {
+   "text": "escribir",
+   "start": 0.537291,
+   "end": 0.939832
+  },
+  {
+   "text": "reglas",
+   "start": 0.950416,
+   "end": 1.363541
+  },
+  {
+   "text": "medir",
+   "start": 1.55425,
+   "end": 1.829666
+  },
+  {
+   "text": "ojos",
+   "start": 1.84025,
+   "end": 2.168625
+  },
+  {
+   "text": "nariz",
+   "start": 2.359333,
+   "end": 2.730083
+  },
+  {
+   "text": "y",
+   "start": 2.740666,
+   "end": 2.783041
+  },
+  {
+   "text": "boca",
+   "start": 2.793625,
+   "end": 3.132625
+  }
+ ]
+}

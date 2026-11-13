@@ -1,0 +1,46 @@
+{
+ "text": "y movemos cada peso un poquito para reducirlo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092375,
+   "end": 0.187708
+  },
+  {
+   "text": "movemos",
+   "start": 0.198291,
+   "end": 0.579666
+  },
+  {
+   "text": "cada",
+   "start": 0.59025,
+   "end": 0.812708
+  },
+  {
+   "text": "peso",
+   "start": 0.823291,
+   "end": 1.066916
+  },
+  {
+   "text": "un",
+   "start": 1.077541,
+   "end": 1.172874
+  },
+  {
+   "text": "poquito",
+   "start": 1.183458,
+   "end": 1.543624
+  },
+  {
+   "text": "para",
+   "start": 1.55425,
+   "end": 1.734333
+  },
+  {
+   "text": "reducirlo",
+   "start": 1.744916,
+   "end": 2.295749
+  }
+ ]
+}

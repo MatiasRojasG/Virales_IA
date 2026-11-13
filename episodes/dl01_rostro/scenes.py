@@ -194,118 +194,192 @@ def reglas(P, t):
             P.text("sombras · lentes · ángulos", 540, 1236, 32, C.PINK, rompe, face=C.FONT_SEMI)
 
 
-# =============================================================== la neurona
+# =============================================================== la neurona, paso a paso
+EDGE_RC, FLAT_RC = (48, 42), (70, 70)          # pedacitos reales de la cara (fila, columna en 128×128)
+WTS = np.array([[-1, 0, 1]] * 3, float)
+
+
+def patch_at(rc):
+    g = D["gray128"]; r, c_ = rc
+    return np.round(np.array([[g[r + i * 4:r + i * 4 + 4, c_ + j * 4:c_ + j * 4 + 4].mean() for j in range(3)]
+                              for i in range(3)]), 1)
+
+
+def fmt1(v):
+    return f"{v:.1f}".replace(".", ",").replace("-", "−")
+
+
+def grid3(P, x0, y0, vals, a, cs=68, kind="luz", hi_cols=None):
+    for i in range(3):
+        for j in range(3):
+            v = vals[i, j]
+            X0, Y0 = x0 + j * cs, y0 + i * cs
+            if kind == "luz":
+                col = (v, v, v); tc = C.INK if v > 0.5 else C.WHITE; txt = fmt1(v)
+            elif kind == "peso":
+                col = C.CYAN if v > 0 else (C.VIOLET if v < 0 else C.DIM); tc = C.WHITE
+                txt = f"{int(v):+d}" if v else "0"
+            else:
+                col = C.CYAN if v > 0.05 else (C.VIOLET if v < -0.05 else C.DIM); tc = C.WHITE; txt = fmt1(v)
+            P.rect(X0 + 3, Y0 + 3, X0 + cs - 3, Y0 + cs - 3, col, a * (0.95 if kind == "luz" else 0.85), radius=8)
+            if hi_cols and j in hi_cols:
+                P.rect(X0 + 1, Y0 + 1, X0 + cs - 1, Y0 + cs - 1, C.WHITE, a * hi_cols[j], stroke=4, radius=9)
+            P.text(txt, X0 + cs / 2, Y0 + cs / 2 + 9, 24 if cs >= 60 else 16, tc, a, face=C.FONT_BOLD)
+
+
 def neurona(P, t):
     c = CUE
-    a = window(t, c["neu0"] - 0.1, c["cap0"] + 0.3, 0.5, 0.4)
+    a = window(t, c["neu0"] - 0.1, c["b0"] + 0.5, 0.5, 0.5)
     if a <= 0: return
-    g = D["gray128"]
+    # ¿pedacito del borde o de la mejilla?
+    mv = prog(t, c["s_par"] - 0.3, c["s_par"] + 0.4, in_out_cubic)
+    pe, pf = patch_at(EDGE_RC), patch_at(FLAT_RC)
+    vals = pe * (1 - mv) + pf * mv
+    rc = (lerp(EDGE_RC[0], FLAT_RC[0], mv), lerp(EDGE_RC[1], FLAT_RC[1], mv))
     with P.layer(a):
-        # cara arriba con ventana que recorre (al detectar bordes)
-        S = 380; fx0, fy0 = 540 - S / 2, 560
+        # la cara y la ventana: QUÉ ENTRA
+        S = 330; fx0, fy0 = 540 - S / 2, 545
         img(P, "gray128", fx0, fy0, fx0 + S, fy0 + S, 1)
-        # mapa de bordes que se pinta a medida que la ventana recorre
-        tb = c["bordes"]
-        scan = prog(t, tb - 0.3, tb + 2.2, lambda v: v)
-        # ventana en (r, c) del recorrido
-        if t < tb - 0.3:
-            wr, wc = 56, 40          # junto al borde del ojo
-        else:
+        cell = S / 128
+        aw = prog(t, c["n_pedacito"] - 0.3, c["n_pedacito"] + 0.2)
+        wx0, wy0 = fx0 + rc[1] * cell, fy0 + rc[0] * cell
+        P.rect(wx0, wy0, wx0 + 12 * cell, wy0 + 12 * cell, C.CYAN, aw, stroke=4, radius=3)
+        y0 = 960; cs = 78
+        xs = [40, 330, 620]
+        # puntos (luz)
+        al = prog(t, c["n_luz"] - 0.4, c["n_luz"] + 0.2)
+        if al > 0:
+            P.line(wx0 + 6 * cell, wy0 + 12 * cell, xs[0] + 1.5 * cs, y0 - 50, C.CYAN, al * 0.7, w=3)
+            P.text("ENTRA: luz", xs[0] + 1.5 * cs, y0 - 22, 26, C.WHITE, al, face=C.FONT_BOLD)
+            grid3(P, xs[0], y0, vals, al, cs, "luz")
+        # pesos
+        ap = prog(t, c["p_peso"] - 0.3, c["p_peso"] + 0.3)
+        if ap > 0:
+            P.text("×", xs[1] - 38, y0 + 1.6 * cs, 50, C.WHITE, ap, face=C.FONT_BOLD)
+            hp = pulse(t, c["p_pos"], 1.4); hn = pulse(t, c["p_neg"], 1.4)
+            grid3(P, xs[1], y0, WTS, ap, cs, "peso", hi_cols={2: hp, 0: hn})
+            P.text("pesos", xs[1] + 1.5 * cs, y0 - 22, 26, C.WHITE, ap, face=C.FONT_BOLD)
+            P.text("+ quiere luz", xs[1] + 1.5 * cs, y0 + 3 * cs + 34, 24, C.CYAN, prog(t, c["p_pos"] - 0.2, c["p_pos"] + 0.3), face=C.FONT_SEMI)
+            P.text("− quiere oscuridad", xs[1] + 1.5 * cs, y0 + 3 * cs + 64, 24, C.VIOLET, prog(t, c["p_neg"] - 0.2, c["p_neg"] + 0.3), face=C.FONT_SEMI)
+        # productos y suma
+        am = prog(t, c["s_mult"] - 0.2, c["s_mult"] + 0.4)
+        if am > 0:
+            P.text("=", xs[2] - 38, y0 + 1.6 * cs, 50, C.WHITE, am, face=C.FONT_BOLD)
+            grid3(P, xs[2], y0, vals * WTS, am, cs, "prod")
+            P.text("cada punto × su peso", xs[2] + 1.5 * cs, y0 - 22, 24, C.WHITE, am, face=C.FONT_BOLD)
+        asum = prog(t, c["s_suma"] - 0.2, c["s_suma"] + 0.3)
+        total = float((vals * WTS).sum())
+        if asum > 0:
+            P.text("suma:", xs[2] - 10, y0 + 3 * cs + 52, 30, C.WHITE, asum, face=C.FONT_SEMI, align="left")
+            P.text(fmt1(total if total > 0.04 or total < -0.04 else 0.0), xs[2] + 3 * cs, y0 + 3 * cs + 52, 40, C.WHITE, asum,
+                   face=C.FONT_BLACK, align="right")
+        # la neurona: QUÉ SALE
+        an = prog(t, c["s_solo"] - 0.3, c["s_solo"] + 0.2)
+        if an > 0:
+            nx, ny = 540, 920 - 0
+            nx, ny = 990, y0 + 1.5 * cs
+            P.arrow(xs[2] + 3 * cs + 6, ny, nx - 50, ny, C.WHITE, an, w=4, head=16)
+            on = clamp(total / 1.2) * prog(t, c["s_enc"] - 0.3, c["s_enc"] + 0.2)
+            P.circle(nx, ny, 44, C.BG2, an)
+            if on > 0.05: P.glow_circle(nx, ny, 44, C.CYAN, an * on, spread=1.9)
+            P.circle(nx, ny, 44, C.CYAN, an, stroke=4)
+            P.text("SALE:", nx, ny + 80, 24, C.WHITE, an, face=C.FONT_BOLD)
+            P.text("1 número", nx, ny + 108, 24, C.WHITE, an, face=C.FONT_BOLD)
+            st = "encendida" if on > 0.5 else "apagada"
+            P.text(st, nx, ny - 66, 26, C.CYAN if on > 0.5 else C.GRAY, an * prog(t, c["s_enc"] - 0.3, c["s_enc"] + 0.2), face=C.FONT_BOLD)
+
+
+def barrido(P, t):
+    c = CUE
+    a = window(t, c["b0"] - 0.2, c["cap0"] + 0.4, 0.5, 0.4)
+    if a <= 0: return
+    with P.layer(a):
+        S = 560; fx0, fy0 = 540 - S / 2, 600
+        img(P, "gray128", fx0, fy0, fx0 + S, fy0 + S, 1)
+        # los pesos de esta neurona como recordatorio
+        grid3(P, 70, 610, WTS, prog(t, c["b0"], c["b0"] + 0.4), 40, "peso")
+        P.text("busca:", 130, 790, 24, C.WHITE, prog(t, c["b_borde"] - 0.2, c["b_borde"] + 0.3), face=C.FONT_SEMI)
+        P.text("oscuro → claro", 130, 820, 24, C.CYAN, prog(t, c["b_borde"] - 0.2, c["b_borde"] + 0.3), face=C.FONT_BOLD)
+        scan = prog(t, c["b_pasamos"] - 0.2, c["b_pasamos"] + 2.4, lambda v: v)
+        cell = S / 128
+        if scan > 0:
             k = int(scan * 32 * 32)
             wr, wc = (k // 32) * 4, (k % 32) * 4
-        cell = S / 128
-        P.rect(fx0 + wc * cell, fy0 + wr * cell, fx0 + (wc + 12) * cell, fy0 + (wr + 12) * cell, C.CYAN, 1, stroke=4, radius=4)
-        # tres pasos: puntos × pesos → suma → se enciende
-        ab = prog(t, c["peso"] - 0.4, c["peso"] + 0.2)
-        if ab > 0:
-            yb = 1040
-            # parche de 3x3 (promedio de bloques de la ventana)
-            patch = np.array([[g[wr + i * 4:wr + i * 4 + 4, wc + j * 4:wc + j * 4 + 4].mean() for j in range(3)] for i in range(3)])
-            Wt = np.array([[-1, 0, 1]] * 3, float)
-            cs = 56
-            px0 = 120
-            for i in range(3):
-                for j in range(3):
-                    v = patch[i, j]
-                    P.rect(px0 + j * cs, yb + i * cs, px0 + (j + 1) * cs - 4, yb + (i + 1) * cs - 4, (v, v, v), ab, radius=6)
-            P.text("puntos", px0 + 1.5 * cs, yb - 18, 26, C.WHITE, ab, face=C.FONT_SEMI)
-            P.text("×", px0 + 3 * cs + 30, yb + 1.6 * cs, 50, C.WHITE, ab, face=C.FONT_BOLD)
-            wx0 = px0 + 3 * cs + 70
-            for i in range(3):
-                for j in range(3):
-                    w = Wt[i, j]
-                    col = C.CYAN if w > 0 else (C.VIOLET if w < 0 else C.DIM)
-                    P.rect(wx0 + j * cs, yb + i * cs, wx0 + (j + 1) * cs - 4, yb + (i + 1) * cs - 4, col, ab * (0.9 if w else 0.5), radius=6)
-                    P.text(f"{int(w):+d}" if w else "0", wx0 + j * cs + cs / 2 - 2, yb + i * cs + cs / 2 + 8, 22, C.WHITE, ab, face=C.FONT_BOLD)
-            P.text("pesos", wx0 + 1.5 * cs, yb - 18, 26, C.WHITE, ab, face=C.FONT_SEMI)
-            asum = prog(t, c["suma"] - 0.3, c["suma"] + 0.2)
-            val = float((patch * Wt).sum())
-            P.text("→", wx0 + 3 * cs + 34, yb + 1.6 * cs, 50, C.WHITE, asum, face=C.FONT_BOLD)
-            P.text("suma", wx0 + 3 * cs + 120, yb - 18, 26, C.WHITE, asum, face=C.FONT_SEMI)
-            P.text(f"{val:+.2f}".replace(".", ","), wx0 + 3 * cs + 120, yb + 1.6 * cs + 12, 34, C.WHITE, asum, face=C.FONT_BOLD)
-            aen = prog(t, c["enciende"] - 0.3, c["enciende"] + 0.2)
-            on = clamp(abs(val) / 0.6)
-            nx, ny = 940, yb + 1.5 * cs
-            P.text("→", 860, yb + 1.6 * cs, 50, C.WHITE, aen, face=C.FONT_BOLD)
-            P.circle(nx, ny, 46, C.BG2, aen)
-            if on > 0.05:
-                P.glow_circle(nx, ny, 46, C.CYAN, aen * on, spread=1.8)
-            P.circle(nx, ny, 46, C.CYAN, aen, stroke=4)
-            P.text("neurona", nx, ny + 84, 26, C.CYAN, aen, face=C.FONT_SEMI)
-        # mapa de bordes resultante (a la derecha de la cara no hay espacio: se superpone)
-        if t > tb - 0.3:
-            ae = prog(t, tb - 0.3, tb)
             P.c.save()
-            rows_done = scan * 128
-            P.c.clipRect(skia.Rect(fx0, fy0, fx0 + S, fy0 + S * clamp(rows_done / 128 + 4 / 128)))
-            img(P, "edge_v", fx0, fy0, fx0 + S, fy0 + S, ae)
+            P.c.clipRect(skia.Rect(fx0, fy0, fx0 + S, fy0 + S * clamp((wr + 4) / 128)))
+            img(P, "edge_v", fx0, fy0, fx0 + S, fy0 + S, 1)
             P.c.restore()
-            P.text("dónde se encendió la neurona: bordes", 540, fy0 + S + 40, 28, C.CYAN, ae, face=C.FONT_SEMI)
+            if scan < 1:
+                P.rect(fx0 + wc * cell, fy0 + wr * cell, fx0 + (wc + 12) * cell, fy0 + (wr + 12) * cell, C.CYAN, 1, stroke=4, radius=3)
+            P.text("donde se encendió la neurona", 540, fy0 + S + 40, 28, C.CYAN, prog(t, c["b_pasamos"] + 0.5, c["b_pasamos"] + 1.0),
+                   face=C.FONT_SEMI)
 
 
-# =============================================================== capas
+# =============================================================== capas: lo que sale de una entra a la siguiente
 def capas(P, t):
     c = CUE
     a = window(t, c["cap0"] - 0.1, c["apr0"] + 0.3, 0.5, 0.4)
     if a <= 0: return
+    rowy = [600, 790, 990, 1170]
+    hl = [pulse(t, c["c_luz"] + k * 0.75, 0.9) for k in range(4)]      # "de luz, a bordes, a partes, a huella"
     with P.layer(a):
-        rows = [("imagen", 600), ("bordes", 790), ("partes", 980), ("huella", 1165)]
-        # imagen
-        img(P, "gray128", 540 - 70, 600 - 70, 540 + 70, 600 + 70, 1)
-        a1 = prog(t, c["cap0"] + 0.2, c["cap0"] + 0.8)
-        xs1 = [240, 440, 640, 840]
-        for k, key in enumerate(["edge_v", "edge_h", "edge_d1", "edge_d2"]):
-            x = xs1[k]
-            P.line(540, 670, x, 730, C.VIOLET, a1 * 0.6, w=2)
-            img(P, key, x - 60, 730, x + 60, 850, a1)
-            P.rect(x - 60, 730, x + 60, 850, C.CYAN, a1 * 0.6, stroke=2, radius=4)
-        a2 = prog(t, c["partes"] - 0.3, c["partes"] + 0.4)
-        xs2 = [300, 540, 780]
-        crops = [(0.25, 0.33, 0.45, 0.53), (0.40, 0.42, 0.60, 0.62), (0.32, 0.68, 0.68, 0.86)]
-        for k, (u0, v0, u1, v1) in enumerate(crops):
-            x = xs2[k]
-            for x1_ in xs1:
-                P.line(x1_, 852, x, 918, C.VIOLET, a2 * 0.35, w=1.6)
-            img(P, "base", x - 65, 920, x + 65, 1050, a2, src=(u0 * 256, v0 * 256, u1 * 256, v1 * 256))
-            P.rect(x - 65, 920, x + 65, 1050, C.CYAN, a2 * 0.6, stroke=2, radius=4)
-        P.text("ojo", 300, 1080, 26, C.GRAY, a2, face=C.FONT_MED); P.text("nariz", 540, 1080, 26, C.GRAY, a2, face=C.FONT_MED)
-        P.text("boca", 780, 1080, 26, C.GRAY, a2, face=C.FONT_MED)
-        a3 = prog(t, c["huella"] - 0.3, c["huella"] + 0.4)
+        # fila 0: imagen
+        img(P, "gray128", 540 - 65, rowy[0] - 65, 540 + 65, rowy[0] + 65, 1)
+        P.text("imagen", 70, rowy[0] - 6, 26, C.WHITE, 1, face=C.FONT_BOLD, align="left")
+        P.text("(luz)", 70, rowy[0] + 24, 24, C.GRAY, 1, face=C.FONT_MED, align="left")
+        if hl[0] > 0: P.rect(540 - 72, rowy[0] - 72, 540 + 72, rowy[0] + 72, C.CYAN, hl[0], stroke=4, radius=6)
+        # fila 1: capa 1 = 4 neuronas, cada una con sus pesos, y sus 4 mapas de salida
+        a1 = prog(t, c["cap0"] + 0.1, c["cap0"] + 0.7)
+        xs1 = [300, 460, 620, 780]
+        pats = [np.array([[-1, 0, 1]] * 3), np.array([[-1] * 3, [0] * 3, [1] * 3]),
+                np.array([[0, 1, 1], [-1, 0, 1], [-1, -1, 0]]), np.array([[1, 1, 0], [1, 0, -1], [0, -1, -1]])]
+        maps1 = ["edge_v", "edge_h", "edge_d1", "edge_d2"]
+        out1 = prog(t, c["c_mapas"] - 0.3, c["c_mapas"] + 0.4)
+        for k, x in enumerate(xs1):
+            if a1 <= 0: break
+            P.line(540, rowy[0] + 66, x, rowy[1] - 62, C.VIOLET, a1 * 0.55, w=2)
+            # la neurona (con su patrón de pesos) se transforma en su mapa de salida
+            grid3(P, x - 30, rowy[1] - 30, pats[k], a1 * (1 - out1), 20, "peso")
+            img(P, maps1[k], x - 60, rowy[1] - 60, x + 60, rowy[1] + 60, a1 * out1)
+            P.rect(x - 60, rowy[1] - 60, x + 60, rowy[1] + 60, C.CYAN, a1 * (0.5 + hl[1]), stroke=2 + 3 * hl[1], radius=4)
+        P.text("capa 1", 70, rowy[1] - 6, 26, C.WHITE, a1, face=C.FONT_BOLD, align="left")
+        P.text("sale: bordes", 70, rowy[1] + 24, 24, C.CYAN, a1 * out1, face=C.FONT_SEMI, align="left")
+        # fila 2: los mapas ENTRAN a la capa 2 → mapas de partes
+        a2 = prog(t, c["c_entran"] - 0.2, c["c_entran"] + 0.5)
+        xs2 = [380, 540, 700]
+        flow = prog(t, c["c_entran"] - 0.2, c["c_entran"] + 1.2, lambda v: v)
+        for x in xs2:
+            for x1 in xs1:
+                P.line(x1, rowy[1] + 62, x, rowy[2] - 62, C.VIOLET, a2 * 0.35, w=1.6)
+                if 0 < flow < 1:          # pulsos que viajan de una capa a la otra
+                    u = (flow * 1.4 - (x1 - 300) / 1600) % 1
+                    P.circle(lerp(x1, x, u), lerp(rowy[1] + 62, rowy[2] - 62, u), 5, C.CYAN, a2)
+        ap = prog(t, c["c_partes"] - 0.2, c["c_partes"] + 0.5)
+        for k, (x, lab) in enumerate(zip(xs2, ["ojo", "nariz", "boca"])):
+            if a2 <= 0: break
+            P.circle(x, rowy[2], 26, C.BG2, a2 * (1 - ap)); P.circle(x, rowy[2], 26, C.VIOLET, a2 * (1 - ap), stroke=3)
+            img(P, f"part_{k}", x - 60, rowy[2] - 60, x + 60, rowy[2] + 60, a2 * ap)
+            P.rect(x - 60, rowy[2] - 60, x + 60, rowy[2] + 60, C.CYAN, a2 * (0.5 + hl[2]), stroke=2 + 3 * hl[2], radius=4)
+            P.text(lab, x, rowy[2] + 88, 24, C.GRAY, ap, face=C.FONT_MED)
+        P.text("capa 2", 70, rowy[2] - 6, 26, C.WHITE, a2, face=C.FONT_BOLD, align="left")
+        P.text("sale: partes", 70, rowy[2] + 24, 24, C.CYAN, a2 * ap, face=C.FONT_SEMI, align="left")
+        # fila 3: huella (salida real de la red entrenada para tu foto)
+        a3 = prog(t, c["c_huella"] - 0.3, c["c_huella"] + 0.4)
         if a3 > 0:
             e = D["emb_base"]; e = e / (e.max() + 1e-9)
-            n = len(e); bw = 22
-            hx0 = 540 - n * bw / 2
+            n = len(e); bw = 19
+            hx0 = 590 - n * bw / 2
             for x in xs2:
-                P.line(x, 1052, 540, 1120, C.VIOLET, a3 * 0.35, w=1.6)
+                P.line(x, rowy[2] + 62, 590, rowy[3] - 70, C.VIOLET, a3 * 0.35, w=1.6)
             for k in range(n):
-                h = 70 * e[k] * prog(t, c["huella"] + 0.02 * k, c["huella"] + 0.02 * k + 0.3)
-                P.rect(hx0 + k * bw + 2, 1200 - h, hx0 + (k + 1) * bw - 2, 1200, C.CYAN, a3, radius=3)
-            P.text("huella: 32 números que resumen tu rostro", 540, 1240, 28, C.CYAN, a3, face=C.FONT_SEMI)
-        labs = [("bordes", 790, a1), ("partes", 985, a2)]
-        for lab, y, al in labs:
-            P.text(lab, 70, y, 28, C.WHITE, al, face=C.FONT_BOLD, align="left")
+                h = 80 * e[k] * prog(t, c["c_huella"] + 0.02 * k, c["c_huella"] + 0.02 * k + 0.3)
+                P.rect(hx0 + k * bw + 2, rowy[3] + 40 - h, hx0 + (k + 1) * bw - 2, rowy[3] + 40, C.CYAN, a3, radius=3)
+            if hl[3] > 0: P.rect(hx0 - 10, rowy[3] - 50, hx0 + n * bw + 10, rowy[3] + 50, C.CYAN, hl[3], stroke=4, radius=8)
+            P.text("capa 3", 70, rowy[3] - 6, 26, C.WHITE, a3, face=C.FONT_BOLD, align="left")
+            P.text("sale: huella", 70, rowy[3] + 24, 24, C.CYAN, a3, face=C.FONT_SEMI, align="left")
         ap = prog(t, c["profundo"] - 0.3, c["profundo"] + 0.3)
-        P.pill("APRENDIZAJE PROFUNDO", 540, 560 - 40, 36, C.VIOLET, out_back(ap))
+        P.pill("APRENDIZAJE PROFUNDO", 540, 505, 36, C.VIOLET, out_back(ap))
+        P.text("ilustración de lo que suelen aprender las capas", 540, 1265, 22, C.GRAY, a, face=C.FONT_MED)
 
 
 # =============================================================== aprender de los errores
@@ -419,6 +493,14 @@ def setup(tl, data, episode):
         col = np.dstack([e * 0.0, e * 0.85, e * 1.0])
         D["rgba"][key] = rgba(col)
     D["emb_base"] = D["emb3"][0]
+    yy, xx = np.mgrid[0:64, 0:64] / 64
+    blobs = [[(0.35, 0.43), (0.65, 0.43)], [(0.49, 0.51)], [(0.5, 0.77)]]
+    g64 = np.asarray(Image.fromarray((g128 * 255).astype(np.uint8)).resize((64, 64))).astype(np.float32) / 255
+    for k, bl in enumerate(blobs):
+        m = sum(np.exp(-((xx - bx) ** 2 + (yy - by) ** 2) / (2 * 0.05 ** 2)) for bx, by in bl)
+        m = np.clip(m, 0, 1)
+        col = np.dstack([g64 * 0.18, g64 * 0.18 + m * 0.85, g64 * 0.22 + m])
+        D["rgba"][f"part_{k}"] = rgba(np.clip(col, 0, 1))
     # fotos de entrenamiento (muestras) para el flujo
     import experiment as X
     rng = np.random.default_rng(9)
@@ -434,12 +516,17 @@ def setup(tl, data, episode):
     c["dif0"] = T("dificil"); c["todos"] = T("dificil", "todos"); c["otra"] = T("dificil", "otra")
     c["reg0"] = T("reglas"); c["ojos"] = T("reglas", "ojos"); c["nariz"] = T("reglas", "nariz"); c["boca"] = T("reglas", "boca")
     c["rompen"] = T("reglas", "rompen")
-    c["neu0"] = T("neurona"); c["peso"] = T("neurona", "peso"); c["suma"] = T("neurona", "suma")
-    c["enciende"] = T("neurona", "enciende"); c["bordes"] = T("neurona", "bordes")
-    c["cap0"] = T("capas"); c["partes"] = T("capas", "partes"); c["huella"] = T("capas", "huella")
+    c["neu0"] = T("neurona"); c["n_entra"] = T("neurona", "entra"); c["n_pedacito"] = T("neurona", "pedacito")
+    c["n_luz"] = T("neurona", "luz")
+    c["p0"] = T("pesos"); c["p_peso"] = T("pesos", "peso"); c["p_pos"] = T("pesos", "positivo"); c["p_neg"] = T("pesos", "Negativo")
+    c["s_mult"] = T("suma", "Multiplica"); c["s_suma"] = T("suma", "suma"); c["s_solo"] = T("suma", "solo")
+    c["s_enc"] = T("suma", "enciende"); c["s_par"] = T("suma", "pareja")
+    c["b0"] = T("barrido"); c["b_borde"] = T("barrido", "borde"); c["b_pasamos"] = T("barrido", "pasamos")
+    c["cap0"] = T("capas"); c["c_mapas"] = T("capas", "mapas"); c["c_entran"] = T("capas", "entran")
+    c["c_partes"] = T("capas", "partes"); c["c_huella"] = T("capas", "huella"); c["c_luz"] = T("capas", "luz")
     c["profundo"] = T("capas", "profundo")
     c["apr0"] = T("aprender"); c["miles"] = T("aprender", "miles"); c["error"] = T("aprender", "error")
-    c["reduce"] = T("aprender", "reduce"); c["cerro"] = T("aprender", "cerro")
+    c["reduce"] = T("aprender", "reducirlo"); c["cerro"] = T("aprender", "cerro")
     c["res0"] = T("resultado"); c["ordenan"] = T("resultado", "ordenan"); c["nueva"] = T("resultado", "nueva")
     c["cie0"] = T("cierre"); c["mirar"] = T("cierre", "mirar")
     CUE = c
@@ -466,6 +553,7 @@ def draw_frame(P, t):
     comparar(P, t)
     reglas(P, t)
     neurona(P, t)
+    barrido(P, t)
     capas(P, t)
     aprender(P, t)
     resultado(P, t)
@@ -494,8 +582,11 @@ def sfx_cues(tl):
             (c["px0"] - 0.3, "whoosh", 0.6), (c["numeros"], "pop", 0.5), (c["dif0"], "whoosh", 0.5),
             (c["todos"], "pop_low", 0.6), (c["otra"], "thump", 0.6), (c["reg0"], "whoosh", 0.5),
             (c["ojos"], "pop", 0.4), (c["nariz"], "pop", 0.4), (c["boca"], "pop", 0.4), (c["rompen"], "pop_low", 0.7),
-            (c["neu0"], "whoosh", 0.5), (c["enciende"], "ding", 0.5), (c["bordes"], "riser", 0.4),
-            (c["cap0"], "whoosh", 0.5), (c["partes"], "pop", 0.5), (c["huella"], "pop", 0.5), (c["profundo"], "swell", 0.7),
+            (c["neu0"], "whoosh", 0.5), (c["n_luz"], "pop", 0.4), (c["p_peso"], "pop", 0.4), (c["s_mult"], "pop", 0.4),
+            (c["s_suma"], "pop", 0.5), (c["s_enc"], "ding", 0.6), (c["s_par"], "pop_low", 0.5),
+            (c["b0"], "whoosh", 0.5), (c["b_pasamos"], "riser", 0.4),
+            (c["cap0"], "whoosh", 0.5), (c["c_mapas"], "pop", 0.5), (c["c_entran"], "whoosh_down", 0.4),
+            (c["c_partes"], "pop", 0.5), (c["c_huella"], "pop", 0.5), (c["profundo"], "swell", 0.7),
             (c["apr0"], "whoosh", 0.5), (c["cerro"], "whoosh_down", 0.4),
             (c["res0"], "whoosh", 0.5), (c["ordenan"], "riser", 0.5), (c["nueva"] + 0.2, "ding", 0.8),
             (c["cie0"], "whoosh_down", 0.5), (c["cie0"] + 0.7, "ding", 0.7), (c["mirar"], "swell", 0.5)]

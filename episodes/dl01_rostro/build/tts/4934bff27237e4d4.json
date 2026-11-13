@@ -1,0 +1,71 @@
+{
+ "text": "Si la pasamos por toda la cara, se enciende justo en los bordes.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "la",
+   "start": 0.293625,
+   "end": 0.378375
+  },
+  {
+   "text": "pasamos",
+   "start": 0.389,
+   "end": 0.780958
+  },
+  {
+   "text": "por",
+   "start": 0.791541,
+   "end": 0.961041
+  },
+  {
+   "text": "toda",
+   "start": 0.971625,
+   "end": 1.1835
+  },
+  {
+   "text": "la",
+   "start": 1.194083,
+   "end": 1.278833
+  },
+  {
+   "text": "cara",
+   "start": 1.289416,
+   "end": 1.575416
+  },
+  {
+   "text": "se",
+   "start": 1.797875,
+   "end": 1.893208
+  },
+  {
+   "text": "enciende",
+   "start": 1.903833,
+   "end": 2.253416
+  },
+  {
+   "text": "justo",
+   "start": 2.264,
+   "end": 2.581791
+  },
+  {
+   "text": "en",
+   "start": 2.592375,
+   "end": 2.645333
+  },
+  {
+   "text": "los",
+   "start": 2.655916,
+   "end": 2.793624
+  },
+  {
+   "text": "bordes",
+   "start": 2.80425,
+   "end": 3.25975
+  }
+ ]
+}

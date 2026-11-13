@@ -1,0 +1,56 @@
+{
+ "text": "A cada punto le da un peso: cuánto le importa.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "A",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "cada",
+   "start": 0.2195,
+   "end": 0.452541
+  },
+  {
+   "text": "punto",
+   "start": 0.463125,
+   "end": 0.749125
+  },
+  {
+   "text": "le",
+   "start": 0.75975,
+   "end": 0.833916
+  },
+  {
+   "text": "da",
+   "start": 0.8445,
+   "end": 0.950416
+  },
+  {
+   "text": "un",
+   "start": 0.961,
+   "end": 1.077541
+  },
+  {
+   "text": "peso",
+   "start": 1.088125,
+   "end": 1.427125
+  },
+  {
+   "text": "cuánto",
+   "start": 1.639,
+   "end": 1.89325
+  },
+  {
+   "text": "le",
+   "start": 1.903833,
+   "end": 1.967374
+  },
+  {
+   "text": "importa",
+   "start": 1.977958,
+   "end": 2.454666
+  }
+ ]
+}

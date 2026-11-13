@@ -1,0 +1,56 @@
+{
+ "text": "Alto: se enciende. En una zona pareja: casi cero, apagada.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Alto",
+   "start": 0.092375,
+   "end": 0.452541
+  },
+  {
+   "text": "se",
+   "start": 0.717375,
+   "end": 0.833916
+  },
+  {
+   "text": "enciende",
+   "start": 0.8445,
+   "end": 1.321208
+  },
+  {
+   "text": "En",
+   "start": 2.0445,
+   "end": 2.192791
+  },
+  {
+   "text": "una",
+   "start": 2.203375,
+   "end": 2.341083
+  },
+  {
+   "text": "zona",
+   "start": 2.351708,
+   "end": 2.595333
+  },
+  {
+   "text": "pareja",
+   "start": 2.605916,
+   "end": 3.008457
+  },
+  {
+   "text": "casi",
+   "start": 3.262708,
+   "end": 3.516958
+  },
+  {
+   "text": "cero",
+   "start": 3.527541,
+   "end": 3.855916
+  },
+  {
+   "text": "apagada",
+   "start": 4.046625,
+   "end": 4.586875
+  }
+ ]
+}

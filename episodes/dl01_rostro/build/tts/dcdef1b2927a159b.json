@@ -1,0 +1,36 @@
+{
+ "text": "¿Qué le entra a una neurona?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Qué",
+   "start": 0.092375,
+   "end": 0.208916
+  },
+  {
+   "text": "le",
+   "start": 0.2195,
+   "end": 0.314833
+  },
+  {
+   "text": "entra",
+   "start": 0.325416,
+   "end": 0.600832
+  },
+  {
+   "text": "a",
+   "start": 0.611458,
+   "end": 0.664416
+  },
+  {
+   "text": "una",
+   "start": 0.675,
+   "end": 0.865666
+  },
+  {
+   "text": "neurona",
+   "start": 0.876291,
+   "end": 1.363582
+  }
+ ]
+}

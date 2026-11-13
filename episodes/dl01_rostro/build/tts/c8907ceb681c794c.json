@@ -1,0 +1,101 @@
+{
+ "text": "Lo que sale de la capa ya no es una foto: son mapas de dónde se encendió cada una.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Lo",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "que",
+   "start": 0.251291,
+   "end": 0.346624
+  },
+  {
+   "text": "sale",
+   "start": 0.357208,
+   "end": 0.590249
+  },
+  {
+   "text": "de",
+   "start": 0.600833,
+   "end": 0.685583
+  },
+  {
+   "text": "la",
+   "start": 0.696166,
+   "end": 0.780916
+  },
+  {
+   "text": "capa",
+   "start": 0.791541,
+   "end": 1.045791
+  },
+  {
+   "text": "ya",
+   "start": 1.056375,
+   "end": 1.194083
+  },
+  {
+   "text": "no",
+   "start": 1.204666,
+   "end": 1.321207
+  },
+  {
+   "text": "es",
+   "start": 1.331791,
+   "end": 1.448332
+  },
+  {
+   "text": "una",
+   "start": 1.458916,
+   "end": 1.596624
+  },
+  {
+   "text": "foto",
+   "start": 1.607208,
+   "end": 1.903833
+  },
+  {
+   "text": "son",
+   "start": 2.168625,
+   "end": 2.348708
+  },
+  {
+   "text": "mapas",
+   "start": 2.359333,
+   "end": 2.645333
+  },
+  {
+   "text": "de",
+   "start": 2.655916,
+   "end": 2.719457
+  },
+  {
+   "text": "dónde",
+   "start": 2.730083,
+   "end": 2.952541
+  },
+  {
+   "text": "se",
+   "start": 2.963125,
+   "end": 3.058458
+  },
+  {
+   "text": "encendió",
+   "start": 3.069083,
+   "end": 3.482208
+  },
+  {
+   "text": "cada",
+   "start": 3.492791,
+   "end": 3.736416
+  },
+  {
+   "text": "una",
+   "start": 3.747041,
+   "end": 4.054249
+  }
+ ]
+}

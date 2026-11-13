@@ -1,0 +1,81 @@
+{
+ "text": "Un pedacito de la imagen: unos pocos puntos, cada uno con su número de luz.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "pedacito",
+   "start": 0.240666,
+   "end": 0.717374
+  },
+  {
+   "text": "de",
+   "start": 0.727958,
+   "end": 0.823291
+  },
+  {
+   "text": "la",
+   "start": 0.833916,
+   "end": 0.918666
+  },
+  {
+   "text": "imagen",
+   "start": 0.92925,
+   "end": 1.331791
+  },
+  {
+   "text": "unos",
+   "start": 1.533041,
+   "end": 1.755499
+  },
+  {
+   "text": "pocos",
+   "start": 1.766083,
+   "end": 2.073291
+  },
+  {
+   "text": "puntos",
+   "start": 2.083916,
+   "end": 2.486457
+  },
+  {
+   "text": "cada",
+   "start": 2.708916,
+   "end": 2.941957
+  },
+  {
+   "text": "uno",
+   "start": 2.952541,
+   "end": 3.185582
+  },
+  {
+   "text": "con",
+   "start": 3.196166,
+   "end": 3.333874
+  },
+  {
+   "text": "su",
+   "start": 3.3445,
+   "end": 3.461041
+  },
+  {
+   "text": "número",
+   "start": 3.471625,
+   "end": 3.789416
+  },
+  {
+   "text": "de",
+   "start": 3.8,
+   "end": 3.88475
+  },
+  {
+   "text": "luz",
+   "start": 3.895333,
+   "end": 4.234333
+  }
+ ]
+}

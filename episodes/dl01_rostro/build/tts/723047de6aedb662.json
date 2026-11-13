@@ -1,0 +1,31 @@
+{
+ "text": "Uno negativo: «aquí quiero oscuridad».",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Uno",
+   "start": 0.092375,
+   "end": 0.30425
+  },
+  {
+   "text": "negativo",
+   "start": 0.314833,
+   "end": 0.812708
+  },
+  {
+   "text": "aquí",
+   "start": 1.024583,
+   "end": 1.299999
+  },
+  {
+   "text": "quiero",
+   "start": 1.310583,
+   "end": 1.533041
+  },
+  {
+   "text": "oscuridad",
+   "start": 1.543625,
+   "end": 2.062708
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "La salida: que la máquina descubra qué mirar, usando neuronas artificiales.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "salida",
+   "start": 0.240666,
+   "end": 0.643207
+  },
+  {
+   "text": "que",
+   "start": 0.886875,
+   "end": 0.982208
+  },
+  {
+   "text": "la",
+   "start": 0.992791,
+   "end": 1.077541
+  },
+  {
+   "text": "máquina",
+   "start": 1.088125,
+   "end": 1.4165
+  },
+  {
+   "text": "descubra",
+   "start": 1.427125,
+   "end": 1.84025
+  },
+  {
+   "text": "qué",
+   "start": 1.850833,
+   "end": 1.946166
+  },
+  {
+   "text": "mirar",
+   "start": 1.956791,
+   "end": 2.242791
+  },
+  {
+   "text": "usando",
+   "start": 2.475833,
+   "end": 2.804208
+  },
+  {
+   "text": "neuronas",
+   "start": 2.814833,
+   "end": 3.259749
+  },
+  {
+   "text": "artificiales",
+   "start": 3.270333,
+   "end": 4.064833
+  }
+ ]
+}

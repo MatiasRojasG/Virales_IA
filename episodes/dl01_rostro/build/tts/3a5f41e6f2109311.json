@@ -1,0 +1,41 @@
+{
+ "text": "pero con sombras y lentes, se rompen.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "pero",
+   "start": 0.092375,
+   "end": 0.272458
+  },
+  {
+   "text": "con",
+   "start": 0.283041,
+   "end": 0.431332
+  },
+  {
+   "text": "sombras",
+   "start": 0.441958,
+   "end": 0.812708
+  },
+  {
+   "text": "y",
+   "start": 0.823291,
+   "end": 0.865666
+  },
+  {
+   "text": "lentes",
+   "start": 0.876291,
+   "end": 1.257666
+  },
+  {
+   "text": "se",
+   "start": 1.437708,
+   "end": 1.596624
+  },
+  {
+   "text": "rompen",
+   "start": 1.607208,
+   "end": 2.041541
+  }
+ ]
+}

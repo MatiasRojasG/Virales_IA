@@ -1,0 +1,66 @@
+{
+ "text": "Una capa es un grupo de neuronas, cada una buscando algo distinto.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "capa",
+   "start": 0.293625,
+   "end": 0.558458
+  },
+  {
+   "text": "es",
+   "start": 0.569083,
+   "end": 0.674999
+  },
+  {
+   "text": "un",
+   "start": 0.685583,
+   "end": 0.780916
+  },
+  {
+   "text": "grupo",
+   "start": 0.791541,
+   "end": 1.035166
+  },
+  {
+   "text": "de",
+   "start": 1.04575,
+   "end": 1.119916
+  },
+  {
+   "text": "neuronas",
+   "start": 1.1305,
+   "end": 1.660166
+  },
+  {
+   "text": "cada",
+   "start": 1.872041,
+   "end": 2.094499
+  },
+  {
+   "text": "una",
+   "start": 2.105083,
+   "end": 2.263999
+  },
+  {
+   "text": "buscando",
+   "start": 2.274583,
+   "end": 2.740666
+  },
+  {
+   "text": "algo",
+   "start": 2.751291,
+   "end": 2.941957
+  },
+  {
+   "text": "distinto",
+   "start": 2.952541,
+   "end": 3.439832
+  }
+ ]
+}

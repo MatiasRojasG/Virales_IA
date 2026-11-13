@@ -1,0 +1,86 @@
+{
+ "text": "Si es alto, la neurona se enciende. En una zona pareja, da casi cero: queda apagada.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092375,
+   "end": 0.325416
+  },
+  {
+   "text": "es",
+   "start": 0.336,
+   "end": 0.473708
+  },
+  {
+   "text": "alto",
+   "start": 0.484333,
+   "end": 0.780958
+  },
+  {
+   "text": "la",
+   "start": 1.035166,
+   "end": 1.109332
+  },
+  {
+   "text": "neurona",
+   "start": 1.119916,
+   "end": 1.522457
+  },
+  {
+   "text": "se",
+   "start": 1.533041,
+   "end": 1.638957
+  },
+  {
+   "text": "enciende",
+   "start": 1.649583,
+   "end": 2.115666
+  },
+  {
+   "text": "En",
+   "start": 2.849583,
+   "end": 2.997874
+  },
+  {
+   "text": "una",
+   "start": 3.008458,
+   "end": 3.146166
+  },
+  {
+   "text": "zona",
+   "start": 3.156791,
+   "end": 3.411041
+  },
+  {
+   "text": "pareja",
+   "start": 3.421625,
+   "end": 3.781791
+  },
+  {
+   "text": "da",
+   "start": 4.046625,
+   "end": 4.141958
+  },
+  {
+   "text": "casi",
+   "start": 4.152541,
+   "end": 4.417374
+  },
+  {
+   "text": "cero",
+   "start": 4.427958,
+   "end": 4.745749
+  },
+  {
+   "text": "queda",
+   "start": 5.0,
+   "end": 5.211875
+  },
+  {
+   "text": "apagada",
+   "start": 5.222458,
+   "end": 5.709749
+  }
+ ]
+}

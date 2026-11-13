@@ -1,0 +1,61 @@
+{
+ "text": "Y esos mapas son lo que entra a la capa siguiente.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "esos",
+   "start": 0.251291,
+   "end": 0.505541
+  },
+  {
+   "text": "mapas",
+   "start": 0.516083,
+   "end": 0.791499
+  },
+  {
+   "text": "son",
+   "start": 0.802125,
+   "end": 0.92925
+  },
+  {
+   "text": "lo",
+   "start": 0.939833,
+   "end": 1.013999
+  },
+  {
+   "text": "que",
+   "start": 1.024583,
+   "end": 1.151708
+  },
+  {
+   "text": "entra",
+   "start": 1.162291,
+   "end": 1.427124
+  },
+  {
+   "text": "a",
+   "start": 1.437708,
+   "end": 1.458874
+  },
+  {
+   "text": "la",
+   "start": 1.4695,
+   "end": 1.564833
+  },
+  {
+   "text": "capa",
+   "start": 1.575416,
+   "end": 1.829666
+  },
+  {
+   "text": "siguiente",
+   "start": 1.84025,
+   "end": 2.338125
+  }
+ ]
+}

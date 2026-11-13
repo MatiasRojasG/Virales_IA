@@ -1,0 +1,71 @@
+{
+ "text": "cuyas neuronas combinan bordes y encuentran partes: un ojo, una nariz, una boca.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "cuyas",
+   "start": 0.092375,
+   "end": 0.399583
+  },
+  {
+   "text": "neuronas",
+   "start": 0.410166,
+   "end": 0.833874
+  },
+  {
+   "text": "combinan",
+   "start": 0.8445,
+   "end": 1.247041
+  },
+  {
+   "text": "bordes",
+   "start": 1.257625,
+   "end": 1.628375
+  },
+  {
+   "text": "y",
+   "start": 1.639,
+   "end": 1.670791
+  },
+  {
+   "text": "encuentran",
+   "start": 1.681375,
+   "end": 2.083916
+  },
+  {
+   "text": "partes",
+   "start": 2.0945,
+   "end": 2.497041
+  },
+  {
+   "text": "un",
+   "start": 2.761875,
+   "end": 2.857208
+  },
+  {
+   "text": "ojo",
+   "start": 2.867791,
+   "end": 3.153791
+  },
+  {
+   "text": "una",
+   "start": 3.355083,
+   "end": 3.513999
+  },
+  {
+   "text": "nariz",
+   "start": 3.524583,
+   "end": 3.874166
+  },
+  {
+   "text": "una",
+   "start": 4.096625,
+   "end": 4.22375
+  },
+  {
+   "text": "boca",
+   "start": 4.234333,
+   "end": 4.573333
+  }
+ ]
+}

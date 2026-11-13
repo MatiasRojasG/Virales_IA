@@ -1,0 +1,81 @@
+{
+ "text": "Esta neurona quiere oscuridad a la izquierda y luz a la derecha: busca un borde.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Esta",
+   "start": 0.092375,
+   "end": 0.336
+  },
+  {
+   "text": "neurona",
+   "start": 0.346625,
+   "end": 0.738583
+  },
+  {
+   "text": "quiere",
+   "start": 0.749166,
+   "end": 0.971624
+  },
+  {
+   "text": "oscuridad",
+   "start": 0.982208,
+   "end": 1.384749
+  },
+  {
+   "text": "a",
+   "start": 1.395333,
+   "end": 1.416499
+  },
+  {
+   "text": "la",
+   "start": 1.427125,
+   "end": 1.501291
+  },
+  {
+   "text": "izquierda",
+   "start": 1.511875,
+   "end": 1.967375
+  },
+  {
+   "text": "y",
+   "start": 1.977958,
+   "end": 2.030916
+  },
+  {
+   "text": "luz",
+   "start": 2.041541,
+   "end": 2.263999
+  },
+  {
+   "text": "a",
+   "start": 2.274583,
+   "end": 2.316958
+  },
+  {
+   "text": "la",
+   "start": 2.327541,
+   "end": 2.391082
+  },
+  {
+   "text": "derecha",
+   "start": 2.401708,
+   "end": 2.783083
+  },
+  {
+   "text": "busca",
+   "start": 3.047875,
+   "end": 3.333875
+  },
+  {
+   "text": "un",
+   "start": 3.3445,
+   "end": 3.461041
+  },
+  {
+   "text": "borde",
+   "start": 3.471625,
+   "end": 3.810625
+  }
+ ]
+}

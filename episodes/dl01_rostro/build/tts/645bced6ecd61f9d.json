@@ -1,0 +1,46 @@
+{
+ "text": "Y esos mapas entran a la capa siguiente,",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "esos",
+   "start": 0.251291,
+   "end": 0.505541
+  },
+  {
+   "text": "mapas",
+   "start": 0.516083,
+   "end": 0.812708
+  },
+  {
+   "text": "entran",
+   "start": 0.823291,
+   "end": 1.109291
+  },
+  {
+   "text": "a",
+   "start": 1.119916,
+   "end": 1.162291
+  },
+  {
+   "text": "la",
+   "start": 1.172875,
+   "end": 1.268208
+  },
+  {
+   "text": "capa",
+   "start": 1.278833,
+   "end": 1.533083
+  },
+  {
+   "text": "siguiente",
+   "start": 1.543625,
+   "end": 2.030916
+  }
+ ]
+}

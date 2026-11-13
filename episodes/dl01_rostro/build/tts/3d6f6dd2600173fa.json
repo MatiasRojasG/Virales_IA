@@ -1,0 +1,91 @@
+{
+ "text": "De luz a bordes, de bordes a partes, de partes a una huella. Muchas capas: aprendizaje profundo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "luz",
+   "start": 0.240666,
+   "end": 0.431332
+  },
+  {
+   "text": "a",
+   "start": 0.441958,
+   "end": 0.473749
+  },
+  {
+   "text": "bordes",
+   "start": 0.484333,
+   "end": 0.876291
+  },
+  {
+   "text": "de",
+   "start": 1.098708,
+   "end": 1.172874
+  },
+  {
+   "text": "bordes",
+   "start": 1.183458,
+   "end": 1.511833
+  },
+  {
+   "text": "a",
+   "start": 1.522458,
+   "end": 1.575416
+  },
+  {
+   "text": "partes",
+   "start": 1.586,
+   "end": 1.988541
+  },
+  {
+   "text": "de",
+   "start": 2.189833,
+   "end": 2.285166
+  },
+  {
+   "text": "partes",
+   "start": 2.29575,
+   "end": 2.677125
+  },
+  {
+   "text": "a",
+   "start": 2.687708,
+   "end": 2.740666
+  },
+  {
+   "text": "una",
+   "start": 2.751291,
+   "end": 2.952582
+  },
+  {
+   "text": "huella",
+   "start": 2.963125,
+   "end": 3.312708
+  },
+  {
+   "text": "Muchas",
+   "start": 4.036,
+   "end": 4.385583
+  },
+  {
+   "text": "capas",
+   "start": 4.396166,
+   "end": 4.809291
+  },
+  {
+   "text": "aprendizaje",
+   "start": 5.010583,
+   "end": 5.614416
+  },
+  {
+   "text": "profundo",
+   "start": 5.625,
+   "end": 6.112291
+  }
+ ]
+}

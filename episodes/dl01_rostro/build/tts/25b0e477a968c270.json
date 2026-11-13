@@ -1,0 +1,76 @@
+{
+ "text": "De luz, a bordes, a partes, a huella: por eso se llama aprendizaje profundo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "De",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "luz",
+   "start": 0.240666,
+   "end": 0.537291
+  },
+  {
+   "text": "a",
+   "start": 0.717375,
+   "end": 0.780916
+  },
+  {
+   "text": "bordes",
+   "start": 0.791541,
+   "end": 1.215249
+  },
+  {
+   "text": "a",
+   "start": 1.374166,
+   "end": 1.458916
+  },
+  {
+   "text": "partes",
+   "start": 1.4695,
+   "end": 1.925
+  },
+  {
+   "text": "a",
+   "start": 2.083916,
+   "end": 2.158082
+  },
+  {
+   "text": "huella",
+   "start": 2.168625,
+   "end": 2.518208
+  },
+  {
+   "text": "por",
+   "start": 2.772458,
+   "end": 2.910166
+  },
+  {
+   "text": "eso",
+   "start": 2.92075,
+   "end": 3.09025
+  },
+  {
+   "text": "se",
+   "start": 3.100833,
+   "end": 3.206749
+  },
+  {
+   "text": "llama",
+   "start": 3.217375,
+   "end": 3.482208
+  },
+  {
+   "text": "aprendizaje",
+   "start": 3.492791,
+   "end": 4.085999
+  },
+  {
+   "text": "profundo",
+   "start": 4.096625,
+   "end": 4.573333
+  }
+ ]
+}

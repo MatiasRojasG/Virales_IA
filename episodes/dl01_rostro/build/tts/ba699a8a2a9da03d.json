@@ -1,0 +1,41 @@
+{
+ "text": "Un peso positivo significa: «aquí quiero luz».",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.092375,
+   "end": 0.240666
+  },
+  {
+   "text": "peso",
+   "start": 0.251291,
+   "end": 0.505541
+  },
+  {
+   "text": "positivo",
+   "start": 0.516083,
+   "end": 0.960999
+  },
+  {
+   "text": "significa",
+   "start": 0.971625,
+   "end": 1.543666
+  },
+  {
+   "text": "aquí",
+   "start": 1.7555,
+   "end": 2.030916
+  },
+  {
+   "text": "quiero",
+   "start": 2.041541,
+   "end": 2.285166
+  },
+  {
+   "text": "luz",
+   "start": 2.29575,
+   "end": 2.6665
+  }
+ ]
+}

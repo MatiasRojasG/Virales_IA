@@ -1,0 +1,56 @@
+{
+ "text": "Su pieza básica es una neurona artificial. ¿Qué le entra?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Su",
+   "start": 0.092375,
+   "end": 0.283041
+  },
+  {
+   "text": "pieza",
+   "start": 0.293625,
+   "end": 0.547875
+  },
+  {
+   "text": "básica",
+   "start": 0.558458,
+   "end": 0.950416
+  },
+  {
+   "text": "es",
+   "start": 0.961,
+   "end": 1.077541
+  },
+  {
+   "text": "una",
+   "start": 1.088125,
+   "end": 1.225833
+  },
+  {
+   "text": "neurona",
+   "start": 1.236458,
+   "end": 1.638999
+  },
+  {
+   "text": "artificial",
+   "start": 1.649583,
+   "end": 2.242791
+  },
+  {
+   "text": "Qué",
+   "start": 2.966083,
+   "end": 3.082624
+  },
+  {
+   "text": "le",
+   "start": 3.093208,
+   "end": 3.230916
+  },
+  {
+   "text": "entra",
+   "start": 3.241541,
+   "end": 3.601707
+  }
+ ]
+}

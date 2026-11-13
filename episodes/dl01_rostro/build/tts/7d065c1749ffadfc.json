@@ -1,0 +1,91 @@
+{
+ "text": "Lo que sale es un solo número: qué tanto ese pedacito se parece a lo que busca.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Lo",
+   "start": 0.092375,
+   "end": 0.230083
+  },
+  {
+   "text": "que",
+   "start": 0.240666,
+   "end": 0.335999
+  },
+  {
+   "text": "sale",
+   "start": 0.346625,
+   "end": 0.622041
+  },
+  {
+   "text": "es",
+   "start": 0.632625,
+   "end": 0.749166
+  },
+  {
+   "text": "un",
+   "start": 0.75975,
+   "end": 0.855083
+  },
+  {
+   "text": "solo",
+   "start": 0.865666,
+   "end": 1.088124
+  },
+  {
+   "text": "número",
+   "start": 1.098708,
+   "end": 1.469458
+  },
+  {
+   "text": "qué",
+   "start": 1.713125,
+   "end": 1.829666
+  },
+  {
+   "text": "tanto",
+   "start": 1.84025,
+   "end": 2.12625
+  },
+  {
+   "text": "ese",
+   "start": 2.136875,
+   "end": 2.306375
+  },
+  {
+   "text": "pedacito",
+   "start": 2.316958,
+   "end": 2.793666
+  },
+  {
+   "text": "se",
+   "start": 2.80425,
+   "end": 2.931375
+  },
+  {
+   "text": "parece",
+   "start": 2.941958,
+   "end": 3.259749
+  },
+  {
+   "text": "a",
+   "start": 3.270333,
+   "end": 3.291499
+  },
+  {
+   "text": "lo",
+   "start": 3.302125,
+   "end": 3.397458
+  },
+  {
+   "text": "que",
+   "start": 3.408041,
+   "end": 3.492791
+  },
+  {
+   "text": "busca",
+   "start": 3.503375,
+   "end": 3.874125
+  }
+ ]
+}

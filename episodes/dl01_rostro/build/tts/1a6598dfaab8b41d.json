@@ -1,0 +1,51 @@
+{
+ "text": "Multiplica cada punto por su peso, y suma todo.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Multiplica",
+   "start": 0.092375,
+   "end": 0.611458
+  },
+  {
+   "text": "cada",
+   "start": 0.622041,
+   "end": 0.855082
+  },
+  {
+   "text": "punto",
+   "start": 0.865666,
+   "end": 1.151666
+  },
+  {
+   "text": "por",
+   "start": 1.162291,
+   "end": 1.299999
+  },
+  {
+   "text": "su",
+   "start": 1.310583,
+   "end": 1.405916
+  },
+  {
+   "text": "peso",
+   "start": 1.416541,
+   "end": 1.755541
+  },
+  {
+   "text": "y",
+   "start": 1.956791,
+   "end": 2.020332
+  },
+  {
+   "text": "suma",
+   "start": 2.030916,
+   "end": 2.306332
+  },
+  {
+   "text": "todo",
+   "start": 2.316958,
+   "end": 2.666541
+  }
+ ]
+}

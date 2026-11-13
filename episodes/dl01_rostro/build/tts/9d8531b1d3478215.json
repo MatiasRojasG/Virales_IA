@@ -1,0 +1,96 @@
+{
+ "text": "Sus neuronas ya no miran luz: miran bordes. Y combinándolos encuentran partes: un ojo, una nariz, una boca.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Sus",
+   "start": 0.092375,
+   "end": 0.346625
+  },
+  {
+   "text": "neuronas",
+   "start": 0.357208,
+   "end": 0.812708
+  },
+  {
+   "text": "ya",
+   "start": 0.823291,
+   "end": 0.929207
+  },
+  {
+   "text": "no",
+   "start": 0.939833,
+   "end": 1.045749
+  },
+  {
+   "text": "miran",
+   "start": 1.056375,
+   "end": 1.342375
+  },
+  {
+   "text": "luz",
+   "start": 1.352958,
+   "end": 1.628374
+  },
+  {
+   "text": "miran",
+   "start": 1.850833,
+   "end": 2.115666
+  },
+  {
+   "text": "bordes",
+   "start": 2.126291,
+   "end": 2.602999
+  },
+  {
+   "text": "Y",
+   "start": 3.326291,
+   "end": 3.432207
+  },
+  {
+   "text": "combinándolos",
+   "start": 3.442791,
+   "end": 4.067791
+  },
+  {
+   "text": "encuentran",
+   "start": 4.078375,
+   "end": 4.480916
+  },
+  {
+   "text": "partes",
+   "start": 4.491541,
+   "end": 4.894082
+  },
+  {
+   "text": "un",
+   "start": 5.148291,
+   "end": 5.243624
+  },
+  {
+   "text": "ojo",
+   "start": 5.25425,
+   "end": 5.529666
+  },
+  {
+   "text": "una",
+   "start": 5.720333,
+   "end": 5.879249
+  },
+  {
+   "text": "nariz",
+   "start": 5.889833,
+   "end": 6.239416
+  },
+  {
+   "text": "una",
+   "start": 6.461875,
+   "end": 6.589
+  },
+  {
+   "text": "boca",
+   "start": 6.599583,
+   "end": 6.938583
+  }
+ ]
+}
