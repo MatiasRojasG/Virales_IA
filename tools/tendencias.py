@@ -12,6 +12,9 @@ from pathlib import Path
 API = "https://www.googleapis.com/youtube/v3/"
 QUERIES = ["inteligencia artificial", "IA", "ChatGPT", "IA curiosidades", "robot inteligencia artificial",
            "le pregunté a la IA", "IA increíble", "Gemini IA", "IA explicado", "algoritmo"]
+QUERIES_AMPLIAS = ["IA humor", "ChatGPT gracioso", "le pedí a la IA", "IA vs humano", "la IA no sabe",
+                   "trolleando a ChatGPT", "IA se equivoca", "robot IA gracioso", "AI funny", "asked AI",
+                   "AI vs human", "IA profesor", "IA examen", "IA matemáticas", "IA dibuja", "IA predice"]
 import re
 SIGLA = re.compile(r"(?<![A-Za-z])(IA|AI|I\.A\.)(?![a-z])")            # sigla en mayúsculas («Ia» indonesio = él/ella)
 TEMA = re.compile(r"(inteligencia artificial|artificial intelligence|chat ?gpt|gemini|robot|algoritmo|red(es)? neuronal|deepfake)", re.I)
@@ -24,10 +27,10 @@ def get(endpoint, **params):
         return json.load(r)
 
 
-def buscar(horas):
+def buscar(horas, queries=None):
     desde = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=horas)).strftime("%Y-%m-%dT%H:%M:%SZ")
     ids = {}
-    for q in QUERIES:
+    for q in (queries or QUERIES):
         r = get("search", part="snippet", q=q, type="video", videoDuration="short", order="viewCount",
                 publishedAfter=desde, maxResults=25)
         for it in r.get("items", []):
@@ -48,17 +51,23 @@ def buscar(horas):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--n", type=int, default=10)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--n", type=int, default=10)
+    ap.add_argument("--dias", type=int, default=0, help="ventana fija en días (0 = 24 h, ampliando si faltan)")
+    ap.add_argument("--min-vistas", type=int, default=0)
+    ap.add_argument("--amplio", action="store_true", help="agrega búsquedas de humor y curiosidades")
     a = ap.parse_args()
-    for horas in (24, 48, 72):
-        vids = buscar(horas)
+    qs = QUERIES + (QUERIES_AMPLIAS if a.amplio else [])
+    ventanas = [a.dias * 24] if a.dias else [24, 48, 72]
+    for horas in ventanas:
+        vids = [v for v in buscar(horas, qs) if v["vistas"] >= a.min_vistas]
         if len(vids) >= a.n: break
     out = Path(__file__).resolve().parent.parent / "tendencias"; out.mkdir(exist_ok=True)
     hoy = dt.date.today().isoformat()
-    (out / f"{hoy}.json").write_text(json.dumps(vids, ensure_ascii=False, indent=1))
-    print(f"Top {a.n} videos de IA (últimas {horas} h):")
+    (out / f"{hoy}{'_amplio' if a.amplio else ''}.json").write_text(json.dumps(vids, ensure_ascii=False, indent=1))
+    print(f"Top {min(a.n, len(vids))} videos de IA (últimas {horas} h, ≥{a.min_vistas:,} vistas):".replace(",", "."))
     for k, v in enumerate(vids[:a.n], 1):
-        print(f"{k:>2}. {v['vistas']:>10,}  {v['titulo'][:70]}  · {v['canal']}".replace(",", "."))
+        print(f"{k:>2}. {v['vistas']:>11,}  {v['titulo'][:80]}  · {v['canal']}  ({v['fecha'][:10]})".replace(",", "."))
 
 
 if __name__ == "__main__":
