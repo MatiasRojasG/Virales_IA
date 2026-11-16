@@ -1,0 +1,36 @@
+{
+ "text": "Hasta que, en el intento veintiuno...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Hasta",
+   "start": 0.103208,
+   "end": 0.448958
+  },
+  {
+   "text": "que",
+   "start": 0.46225,
+   "end": 0.714916
+  },
+  {
+   "text": "en",
+   "start": 0.967541,
+   "end": 1.127124
+  },
+  {
+   "text": "el",
+   "start": 1.140416,
+   "end": 1.260082
+  },
+  {
+   "text": "intento",
+   "start": 1.273416,
+   "end": 1.765457
+  },
+  {
+   "text": "veintiuno",
+   "start": 1.778708,
+   "end": 2.377124
+  }
+ ]
+}

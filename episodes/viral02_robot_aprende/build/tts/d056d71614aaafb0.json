@@ -1,0 +1,51 @@
+{
+ "text": "Solo que en vez de dos perillas... tienen millones.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Solo",
+   "start": 0.091666,
+   "end": 0.414582
+  },
+  {
+   "text": "que",
+   "start": 0.425,
+   "end": 0.529166
+  },
+  {
+   "text": "en",
+   "start": 0.539583,
+   "end": 0.643749
+  },
+  {
+   "text": "vez",
+   "start": 0.654166,
+   "end": 0.820832
+  },
+  {
+   "text": "de",
+   "start": 0.83125,
+   "end": 0.883333
+  },
+  {
+   "text": "dos",
+   "start": 0.89375,
+   "end": 1.08125
+  },
+  {
+   "text": "perillas",
+   "start": 1.091666,
+   "end": 1.539582
+  },
+  {
+   "text": "tienen",
+   "start": 1.758333,
+   "end": 2.029166
+  },
+  {
+   "text": "millones",
+   "start": 2.039583,
+   "end": 2.591666
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "text": "solo un poquito.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "solo",
+   "start": 0.103208,
+   "end": 0.488833
+  },
+  {
+   "text": "un",
+   "start": 0.502125,
+   "end": 0.635083
+  },
+  {
+   "text": "poquito",
+   "start": 0.648416,
+   "end": 1.220207
+  }
+ ]
+}

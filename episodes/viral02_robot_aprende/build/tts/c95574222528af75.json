@@ -1,0 +1,61 @@
+{
+ "text": "Los robots que ves haciendo piruetas se cayeron muchísimas veces antes...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.091666,
+   "end": 0.289582
+  },
+  {
+   "text": "robots",
+   "start": 0.3,
+   "end": 0.633333
+  },
+  {
+   "text": "que",
+   "start": 0.64375,
+   "end": 0.7375
+  },
+  {
+   "text": "ves",
+   "start": 0.747916,
+   "end": 0.924999
+  },
+  {
+   "text": "haciendo",
+   "start": 0.935416,
+   "end": 1.258332
+  },
+  {
+   "text": "piruetas",
+   "start": 1.26875,
+   "end": 1.664583
+  },
+  {
+   "text": "se",
+   "start": 1.675,
+   "end": 1.76875
+  },
+  {
+   "text": "cayeron",
+   "start": 1.779166,
+   "end": 2.122916
+  },
+  {
+   "text": "muchísimas",
+   "start": 2.133333,
+   "end": 2.674999
+  },
+  {
+   "text": "veces",
+   "start": 2.685416,
+   "end": 2.987499
+  },
+  {
+   "text": "antes",
+   "start": 2.997916,
+   "end": 3.424999
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "Este robot quiere subir a esa plataforma...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Este",
+   "start": 0.091666,
+   "end": 0.341666
+  },
+  {
+   "text": "robot",
+   "start": 0.352083,
+   "end": 0.685416
+  },
+  {
+   "text": "quiere",
+   "start": 0.695833,
+   "end": 0.914583
+  },
+  {
+   "text": "subir",
+   "start": 0.925,
+   "end": 1.227083
+  },
+  {
+   "text": "a",
+   "start": 1.2375,
+   "end": 1.320833
+  },
+  {
+   "text": "esa",
+   "start": 1.33125,
+   "end": 1.51875
+  },
+  {
+   "text": "plataforma",
+   "start": 1.529166,
+   "end": 2.112499
+  }
+ ]
+}

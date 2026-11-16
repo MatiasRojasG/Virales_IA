@@ -1,0 +1,31 @@
+{
+ "text": "solo que en una simulación.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "solo",
+   "start": 0.103208,
+   "end": 0.502124
+  },
+  {
+   "text": "que",
+   "start": 0.515416,
+   "end": 0.648374
+  },
+  {
+   "text": "en",
+   "start": 0.661708,
+   "end": 0.781374
+  },
+  {
+   "text": "una",
+   "start": 0.794666,
+   "end": 0.980832
+  },
+  {
+   "text": "simulación",
+   "start": 0.994166,
+   "end": 1.738832
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "medir el error, ajustar un poquito... y repetir.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "medir",
+   "start": 0.091666,
+   "end": 0.404166
+  },
+  {
+   "text": "el",
+   "start": 0.414583,
+   "end": 0.508333
+  },
+  {
+   "text": "error",
+   "start": 0.51875,
+   "end": 0.779166
+  },
+  {
+   "text": "ajustar",
+   "start": 0.997916,
+   "end": 1.372916
+  },
+  {
+   "text": "un",
+   "start": 1.383333,
+   "end": 1.456249
+  },
+  {
+   "text": "poquito",
+   "start": 1.466666,
+   "end": 1.893749
+  },
+  {
+   "text": "y",
+   "start": 2.091666,
+   "end": 2.185416
+  },
+  {
+   "text": "repetir",
+   "start": 2.195833,
+   "end": 2.706249
+  }
+ ]
+}

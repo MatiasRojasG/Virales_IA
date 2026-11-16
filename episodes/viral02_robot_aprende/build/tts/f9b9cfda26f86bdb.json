@@ -1,0 +1,21 @@
+{
+ "text": "y se cae.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.091666,
+   "end": 0.185416
+  },
+  {
+   "text": "se",
+   "start": 0.195833,
+   "end": 0.352083
+  },
+  {
+   "text": "cae",
+   "start": 0.3625,
+   "end": 0.695833
+  }
+ ]
+}

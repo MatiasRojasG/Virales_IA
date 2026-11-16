@@ -1,0 +1,26 @@
+{
+ "text": "Una y otra vez...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.091666,
+   "end": 0.320832
+  },
+  {
+   "text": "y",
+   "start": 0.33125,
+   "end": 0.425
+  },
+  {
+   "text": "otra",
+   "start": 0.435416,
+   "end": 0.622916
+  },
+  {
+   "text": "vez",
+   "start": 0.633333,
+   "end": 0.977083
+  }
+ ]
+}

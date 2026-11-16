@@ -1,0 +1,31 @@
+{
+ "text": "Nadie le enseñó a saltar.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Nadie",
+   "start": 0.091666,
+   "end": 0.445832
+  },
+  {
+   "text": "le",
+   "start": 0.45625,
+   "end": 0.51875
+  },
+  {
+   "text": "enseñó",
+   "start": 0.529166,
+   "end": 0.893749
+  },
+  {
+   "text": "a",
+   "start": 0.904166,
+   "end": 0.935416
+  },
+  {
+   "text": "saltar",
+   "start": 0.945833,
+   "end": 1.404166
+  }
+ ]
+}

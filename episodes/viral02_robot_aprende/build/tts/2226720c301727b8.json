@@ -1,0 +1,21 @@
+{
+ "text": "¿Entonces cómo aprende?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.091666,
+   "end": 0.581249
+  },
+  {
+   "text": "cómo",
+   "start": 0.591666,
+   "end": 0.789582
+  },
+  {
+   "text": "aprende",
+   "start": 0.8,
+   "end": 1.20625
+  }
+ ]
+}

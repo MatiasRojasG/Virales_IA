@@ -1,0 +1,23 @@
+[hook] (  0.1s –   7.1s)
+Este robot quiere subir a esa plataforma... y se cae. Otra vez. Y otra vez.
+
+[pregunta] (  7.1s –  10.8s)
+Nadie le enseñó a saltar. ¿Entonces cómo aprende?
+
+[pista] ( 10.8s –  14.6s)
+Cada caída deja una pista: cuánto le faltó... y hacia dónde.
+
+[perillas] ( 14.6s –  19.3s)
+Con esa pista mueve dos perillas, fuerza y ángulo... solo un poquito.
+
+[repetir] ( 19.3s –  26.1s)
+Salta. Mide el error. Ajusta. Una y otra vez... y el error baja.
+
+[logra] ( 26.1s –  31.1s)
+Hasta que, en el intento veintiuno... lo logra.
+
+[redes] ( 31.1s –  40.2s)
+Así aprenden también las redes neuronales: medir el error, ajustar un poquito... y repetir. Solo que en vez de dos perillas... tienen millones.
+
+[cierre] ( 40.2s –  46.3s)
+Los robots que ves haciendo piruetas se cayeron muchísimas veces antes... solo que en una simulación.

@@ -1,0 +1,26 @@
+{
+ "text": "y el error baja.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.091666,
+   "end": 0.247916
+  },
+  {
+   "text": "el",
+   "start": 0.258333,
+   "end": 0.372916
+  },
+  {
+   "text": "error",
+   "start": 0.383333,
+   "end": 0.633333
+  },
+  {
+   "text": "baja",
+   "start": 0.64375,
+   "end": 0.997916
+  }
+ ]
+}

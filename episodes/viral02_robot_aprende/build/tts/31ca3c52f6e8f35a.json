@@ -1,0 +1,16 @@
+{
+ "text": "lo logra.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "lo",
+   "start": 0.091666,
+   "end": 0.258332
+  },
+  {
+   "text": "logra",
+   "start": 0.26875,
+   "end": 0.64375
+  }
+ ]
+}

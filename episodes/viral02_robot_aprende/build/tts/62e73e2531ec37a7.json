@@ -1,0 +1,16 @@
+{
+ "text": "Otra vez.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Otra",
+   "start": 0.091666,
+   "end": 0.352082
+  },
+  {
+   "text": "vez",
+   "start": 0.3625,
+   "end": 0.716666
+  }
+ ]
+}

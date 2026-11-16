@@ -1,0 +1,51 @@
+{
+ "text": "Con esa pista mueve dos perillas, fuerza y ángulo...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.091666,
+   "end": 0.247916
+  },
+  {
+   "text": "esa",
+   "start": 0.258333,
+   "end": 0.435416
+  },
+  {
+   "text": "pista",
+   "start": 0.445833,
+   "end": 0.716666
+  },
+  {
+   "text": "mueve",
+   "start": 0.727083,
+   "end": 0.956249
+  },
+  {
+   "text": "dos",
+   "start": 0.966666,
+   "end": 1.143749
+  },
+  {
+   "text": "perillas",
+   "start": 1.154166,
+   "end": 1.581249
+  },
+  {
+   "text": "fuerza",
+   "start": 1.789583,
+   "end": 2.133333
+  },
+  {
+   "text": "y",
+   "start": 2.14375,
+   "end": 2.2375
+  },
+  {
+   "text": "ángulo",
+   "start": 2.247916,
+   "end": 2.622916
+  }
+ ]
+}

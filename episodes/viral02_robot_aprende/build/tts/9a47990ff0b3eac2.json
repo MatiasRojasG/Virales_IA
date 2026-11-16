@@ -1,0 +1,31 @@
+{
+ "text": "Salta. Mide el error. Ajusta.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Salta",
+   "start": 0.091666,
+   "end": 0.591666
+  },
+  {
+   "text": "Mide",
+   "start": 1.302083,
+   "end": 1.593749
+  },
+  {
+   "text": "el",
+   "start": 1.604166,
+   "end": 1.697916
+  },
+  {
+   "text": "error",
+   "start": 1.708333,
+   "end": 2.062499
+  },
+  {
+   "text": "Ajusta",
+   "start": 2.78125,
+   "end": 3.302083
+  }
+ ]
+}

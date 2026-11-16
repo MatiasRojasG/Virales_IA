@@ -1,0 +1,61 @@
+{
+ "text": "Cada caída deja una pista: cuánto le faltó... y hacia dónde.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.091666,
+   "end": 0.299999
+  },
+  {
+   "text": "caída",
+   "start": 0.310416,
+   "end": 0.622916
+  },
+  {
+   "text": "deja",
+   "start": 0.633333,
+   "end": 0.893749
+  },
+  {
+   "text": "una",
+   "start": 0.904166,
+   "end": 1.070832
+  },
+  {
+   "text": "pista",
+   "start": 1.08125,
+   "end": 1.414583
+  },
+  {
+   "text": "cuánto",
+   "start": 1.622916,
+   "end": 1.872916
+  },
+  {
+   "text": "le",
+   "start": 1.883333,
+   "end": 1.956249
+  },
+  {
+   "text": "faltó",
+   "start": 1.966666,
+   "end": 2.341666
+  },
+  {
+   "text": "y",
+   "start": 2.55,
+   "end": 2.654166
+  },
+  {
+   "text": "hacia",
+   "start": 2.664583,
+   "end": 2.862499
+  },
+  {
+   "text": "dónde",
+   "start": 2.872916,
+   "end": 3.216666
+  }
+ ]
+}

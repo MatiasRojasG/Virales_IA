@@ -1,0 +1,36 @@
+{
+ "text": "Así aprenden también las redes neuronales:",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Así",
+   "start": 0.091666,
+   "end": 0.362499
+  },
+  {
+   "text": "aprenden",
+   "start": 0.372916,
+   "end": 0.747916
+  },
+  {
+   "text": "también",
+   "start": 0.758333,
+   "end": 1.070833
+  },
+  {
+   "text": "las",
+   "start": 1.08125,
+   "end": 1.227083
+  },
+  {
+   "text": "redes",
+   "start": 1.2375,
+   "end": 1.497916
+  },
+  {
+   "text": "neuronales",
+   "start": 1.508333,
+   "end": 2.164583
+  }
+ ]
+}
