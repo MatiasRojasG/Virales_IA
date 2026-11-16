@@ -275,9 +275,6 @@ def draw_frame(P, t):
     ruleta(P, t)
     histograma(P, t)
     herencia(P, t)
-    ad = window(t, c["prob0"], c["cie0"], 0.4, 0.4)
-    P.text("Probabilidades ilustrativas y simulación propia · cada modelo se comporta distinto", 540, 1330, 21,
-           C.GRAY, ad * 0.9, face=C.FONT_MED)
     vignette(P, 0.45)
     vband(P, 1250, C.H, 0.0, 0.85)
     SUB.draw(P, CHUNKS, t)

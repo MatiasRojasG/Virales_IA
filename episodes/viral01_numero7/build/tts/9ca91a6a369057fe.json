@@ -1,0 +1,36 @@
+{
+ "text": "La IA no eligió el siete.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.091666,
+   "end": 0.268749
+  },
+  {
+   "text": "IA",
+   "start": 0.279166,
+   "end": 0.477082
+  },
+  {
+   "text": "no",
+   "start": 0.4875,
+   "end": 0.622916
+  },
+  {
+   "text": "eligió",
+   "start": 0.633333,
+   "end": 0.945833
+  },
+  {
+   "text": "el",
+   "start": 0.95625,
+   "end": 1.029166
+  },
+  {
+   "text": "siete",
+   "start": 1.039583,
+   "end": 1.404166
+  }
+ ]
+}

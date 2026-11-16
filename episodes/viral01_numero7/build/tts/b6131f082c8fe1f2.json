@@ -1,0 +1,51 @@
+{
+ "text": "Si siempre eligiera el más probable, diría siete... siempre.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.091666,
+   "end": 0.289582
+  },
+  {
+   "text": "siempre",
+   "start": 0.3,
+   "end": 0.6125
+  },
+  {
+   "text": "eligiera",
+   "start": 0.622916,
+   "end": 0.956249
+  },
+  {
+   "text": "el",
+   "start": 0.966666,
+   "end": 1.039582
+  },
+  {
+   "text": "más",
+   "start": 1.05,
+   "end": 1.258333
+  },
+  {
+   "text": "probable",
+   "start": 1.26875,
+   "end": 1.654166
+  },
+  {
+   "text": "diría",
+   "start": 1.8625,
+   "end": 2.133333
+  },
+  {
+   "text": "siete",
+   "start": 2.14375,
+   "end": 2.508333
+  },
+  {
+   "text": "siempre",
+   "start": 2.7375,
+   "end": 3.164583
+  }
+ ]
+}

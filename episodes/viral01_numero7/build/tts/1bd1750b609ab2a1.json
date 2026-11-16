@@ -1,0 +1,36 @@
+{
+ "text": "Para cada número calcula una probabilidad...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.091666,
+   "end": 0.289582
+  },
+  {
+   "text": "cada",
+   "start": 0.3,
+   "end": 0.51875
+  },
+  {
+   "text": "número",
+   "start": 0.529166,
+   "end": 0.852082
+  },
+  {
+   "text": "calcula",
+   "start": 0.8625,
+   "end": 1.258333
+  },
+  {
+   "text": "una",
+   "start": 1.26875,
+   "end": 1.445833
+  },
+  {
+   "text": "probabilidad",
+   "start": 1.45625,
+   "end": 2.133333
+  }
+ ]
+}

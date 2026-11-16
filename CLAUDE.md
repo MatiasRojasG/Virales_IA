@@ -8,9 +8,13 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - El porqué va antes del cómo. Cada frase responde a la pregunta que dejó la anterior.
 - Ningún término técnico, cifra ni fórmula sin contexto. El nombre técnico se dice después de entender la idea.
 - Sin lenguaje de profesor («hoy aprenderemos», «en esta clase»), sin definiciones iniciales ni enumeraciones académicas.
-- No inventar estadísticas ni exagerar capacidades. Los ejemplos hipotéticos se rotulan en pantalla («ejemplo ilustrativo», «simulación propia», «datos simulados»).
+- No inventar estadísticas ni exagerar capacidades. **Sin notas al pie ni aclaraciones técnicas en pantalla** (nada de «simulación propia», «ejemplo ilustrativo»): la honestidad va en la narración (p. ej. «imagina…», «en este ejemplo…», «muchas veces» en vez de «siempre») y en el README del episodio.
 - Preferir simulaciones/experimentos reales ejecutados en el repo (NumPy) y distinguir resultados propios de los de la fuente.
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
+
+## Temas (flujo diario)
+- Inspirados en los **10 videos de IA más vistos del día** en YouTube (`python tools/tendencias.py`), explicados con los conceptos de las clases. Nunca copiar videos ajenos: solo el tema.
+- Formato short: 40–60 s, plantilla `episodes/viral01_numero7/`.
 
 ## Retención
 - El hook está en el cuadro 0: problema visual inmediato, sin intro ni pantalla de presentación.
@@ -20,8 +24,8 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 ## Restricciones visuales permanentes
 - **Nunca** mostrar dentro del video títulos, números de episodio, encabezados, nombres de unidades ni banners/etiquetas superiores. Títulos y numeración quedan solo como metadatos (`EPISODE` en `script.py`, README).
 - Comenzar directamente con la historia.
-- Texto en pantalla solo cuando ayuda a comprender (cifras explicadas, rótulos de simulación, etiquetas de diagramas).
-- Subtítulos y elementos importantes dentro de las zonas seguras (`reelforge/config.py`). Contenido entre y≈480 y 1300. Subtítulos en y≈1390. Notas al pie en y≈1290–1305.
+- Texto en pantalla solo cuando ayuda a comprender (cifras, etiquetas de diagramas). El video es entretenimiento visual: imágenes, figuras y movimientos suaves.
+- Subtítulos y elementos importantes dentro de las zonas seguras (`reelforge/config.py`). Contenido entre y≈480 y 1300. Subtítulos en y≈1390.
 
 ## Identidad
 - 1080×1920, 9:16, 60 fps, H.264 + AAC 48 kHz.
@@ -29,7 +33,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial, viñeta y profundidad de campo.
 
 ## Voz, subtítulos y audio
-- Edge TTS `es-MX-JorgeNeural` a +18 %, sintetizado por frase (`Ph`): silencios recortados, pausas diseñadas, `pitch="+5Hz"` en preguntas y `rate="-4%"` en énfasis.
+- Voz **siempre nativa latinoamericana**: Edge TTS `es-MX-JorgeNeural` a +18–20 % (nunca voces «Multilingual» en inglés: tienen acento gringo), sintetizado por frase (`Ph`): silencios recortados, pausas diseñadas, `pitch="+5Hz"` en preguntas y `rate="-4%"` en énfasis.
 - Subtítulos karaoke de hasta 4 palabras, con palabras clave `*así*` en cyan y alineación por palabra (sin Whisper).
 - Música procedural (`reelforge/audio.py`) con `music_kw` (arpegio desde el descubrimiento, pulso en el clímax, silencio en el suspenso). SFX discretos.
 

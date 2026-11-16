@@ -12,13 +12,13 @@ siempre la más probable: siempre 7 → por eso se usa una ruleta (muestreo) + p
 from reelforge.timeline import Beat, Ph
 
 EPISODE = {"num": 1, "slug": "viral01_numero7", "title": "¿Por qué la IA siempre dice 7?", "tag": ""}
-VOICE = "en-US-AndrewMultilingualNeural"      # voz enérgica estilo «narrador de IA» (habla español)
+VOICE = "es-MX-JorgeNeural"                  # voz nativa latinoamericana (la gringa multilingual tenía acento)
 RATE = "+20%"
 Q = "+4Hz"; SLOW = "-6%"
 
 BEATS = [
     Beat("hook", [
-        Ph("Pídele a una IA|i_a un número del uno al diez.", pause=0.35),
+        Ph("Pídele a una IA un número del uno al diez.", pause=0.35),
         Ph("Muchas veces responde... *siete*.", pause=0.5),
         Ph("¿Coincidencia?", pause=0.6, pitch=Q),
     ]),
@@ -27,7 +27,7 @@ BEATS = [
         Ph("el siete también es el *favorito*.", pause=0.5),
     ]),
     Beat("predice", [
-        Ph("Y no es casualidad. Una IA|i_a de texto no *piensa* un número.", pause=0.3),
+        Ph("Y no es casualidad. Una IA de texto no *piensa* un número.", pause=0.3),
         Ph("Adivina qué palabra viene, después de leer millones de textos escritos... por *personas*.", pause=0.5),
     ]),
     Beat("probas", [
@@ -46,7 +46,7 @@ BEATS = [
         Ph("Hay sorpresas... pero el siete sigue *ganando*.", pause=0.6),
     ]),
     Beat("cierre", [
-        Ph("La IA|i_a no eligió el siete.", pause=0.35),
+        Ph("La IA no eligió el siete.", pause=0.35),
         Ph("Lo *heredó*... de nosotros.", pause=0.7, rate=SLOW),
     ]),
 ]

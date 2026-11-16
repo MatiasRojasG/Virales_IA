@@ -1,0 +1,46 @@
+{
+ "text": "Una perilla llamada temperatura decide cuánto se arriesga.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.091666,
+   "end": 0.268749
+  },
+  {
+   "text": "perilla",
+   "start": 0.279166,
+   "end": 0.591666
+  },
+  {
+   "text": "llamada",
+   "start": 0.602083,
+   "end": 0.935416
+  },
+  {
+   "text": "temperatura",
+   "start": 0.945833,
+   "end": 1.477083
+  },
+  {
+   "text": "decide",
+   "start": 1.4875,
+   "end": 1.852083
+  },
+  {
+   "text": "cuánto",
+   "start": 1.8625,
+   "end": 2.14375
+  },
+  {
+   "text": "se",
+   "start": 2.154166,
+   "end": 2.247916
+  },
+  {
+   "text": "arriesga",
+   "start": 2.258333,
+   "end": 2.737499
+  }
+ ]
+}

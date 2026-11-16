@@ -1,0 +1,66 @@
+{
+ "text": "Y no es casualidad. Una IA de texto no piensa un número.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.091666,
+   "end": 0.206249
+  },
+  {
+   "text": "no",
+   "start": 0.216666,
+   "end": 0.404166
+  },
+  {
+   "text": "es",
+   "start": 0.414583,
+   "end": 0.529166
+  },
+  {
+   "text": "casualidad",
+   "start": 0.539583,
+   "end": 1.143749
+  },
+  {
+   "text": "Una",
+   "start": 1.854166,
+   "end": 2.062499
+  },
+  {
+   "text": "IA",
+   "start": 2.072916,
+   "end": 2.229166
+  },
+  {
+   "text": "de",
+   "start": 2.239583,
+   "end": 2.354166
+  },
+  {
+   "text": "texto",
+   "start": 2.364583,
+   "end": 2.697916
+  },
+  {
+   "text": "no",
+   "start": 2.708333,
+   "end": 2.843749
+  },
+  {
+   "text": "piensa",
+   "start": 2.854166,
+   "end": 3.177082
+  },
+  {
+   "text": "un",
+   "start": 3.1875,
+   "end": 3.28125
+  },
+  {
+   "text": "número",
+   "start": 3.291666,
+   "end": 3.677082
+  }
+ ]
+}

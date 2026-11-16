@@ -1,0 +1,26 @@
+{
+ "text": "Muchas veces responde... siete.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Muchas",
+   "start": 0.091666,
+   "end": 0.445832
+  },
+  {
+   "text": "veces",
+   "start": 0.45625,
+   "end": 0.747916
+  },
+  {
+   "text": "responde",
+   "start": 0.758333,
+   "end": 1.195833
+  },
+  {
+   "text": "siete",
+   "start": 1.414583,
+   "end": 1.799999
+  }
+ ]
+}

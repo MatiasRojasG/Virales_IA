@@ -1,0 +1,36 @@
+{
+ "text": "y el siete parte con ventaja.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.091666,
+   "end": 0.237499
+  },
+  {
+   "text": "el",
+   "start": 0.247916,
+   "end": 0.352082
+  },
+  {
+   "text": "siete",
+   "start": 0.3625,
+   "end": 0.633333
+  },
+  {
+   "text": "parte",
+   "start": 0.64375,
+   "end": 0.925
+  },
+  {
+   "text": "con",
+   "start": 0.935416,
+   "end": 1.060416
+  },
+  {
+   "text": "ventaja",
+   "start": 1.070833,
+   "end": 1.549999
+  }
+ ]
+}

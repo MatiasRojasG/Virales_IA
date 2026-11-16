@@ -1,0 +1,26 @@
+{
+ "text": "Lo heredó... de nosotros.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Lo",
+   "start": 0.103208,
+   "end": 0.302666
+  },
+  {
+   "text": "heredó",
+   "start": 0.315958,
+   "end": 0.728208
+  },
+  {
+   "text": "de",
+   "start": 1.034041,
+   "end": 1.127124
+  },
+  {
+   "text": "nosotros",
+   "start": 1.140416,
+   "end": 1.924999
+  }
+ ]
+}
