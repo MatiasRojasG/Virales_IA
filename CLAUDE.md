@@ -13,8 +13,10 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
 ## Temas (flujo diario)
-- Inspirados en los **10 videos de IA más vistos del día** en YouTube (`python tools/tendencias.py`), explicados con los conceptos de las clases. Nunca copiar videos ajenos: solo el tema.
-- Formato short: 40–60 s, plantilla `episodes/viral01_numero7/`.
+- **Cada día, 3 opciones primero, video después.** Buscar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` (videos de IA con miles o millones de vistas, humor incluido) y elegir 3 temas virales que se expliquen con las clases sin repetir episodios anteriores.
+- Para cada opción: inspiración (título y vistas), concepto de clase, guion por bloques (narración + imagen) y un storyboard de 5 fotogramas clave. Todo va en `propuestas/<fecha>/` (`propuestas.md`, `storyboard_*.png`). Se envían al usuario, que elige.
+- Con la opción elegida se produce el reel (40–60 s, plantilla `episodes/viral01_numero7/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
+- Nunca copiar videos ajenos: solo el tema.
 
 ## Retención
 - El hook está en el cuadro 0: problema visual inmediato, sin intro ni pantalla de presentación.
