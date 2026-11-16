@@ -1,0 +1,41 @@
+{
+ "text": "Hay sorpresas... pero el siete sigue ganando.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Hay",
+   "start": 0.072916,
+   "end": 0.166666
+  },
+  {
+   "text": "sorpresas",
+   "start": 0.177083,
+   "end": 0.822916
+  },
+  {
+   "text": "pero",
+   "start": 1.104166,
+   "end": 1.249999
+  },
+  {
+   "text": "el",
+   "start": 1.260416,
+   "end": 1.333332
+  },
+  {
+   "text": "siete",
+   "start": 1.333333,
+   "end": 1.604166
+  },
+  {
+   "text": "sigue",
+   "start": 1.614583,
+   "end": 1.854166
+  },
+  {
+   "text": "ganando",
+   "start": 1.854166,
+   "end": 2.291666
+  }
+ ]
+}

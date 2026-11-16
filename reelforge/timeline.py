@@ -76,6 +76,23 @@ def parse(text, beat_id):
     return toks
 
 
+def _fix_collapsed(tokens):
+    """Algunas voces (p. ej. las «Multilingual») entregan marcas de palabra amontonadas.
+    Si muchas palabras empiezan casi al mismo tiempo, se redistribuyen dentro del tramo
+    hablado en proporción a su largo (sílabas ≈ letras)."""
+    tk = [t for t in tokens if t.start >= 0]
+    if len(tk) < 3: return
+    gaps = [b.start - a.start for a, b in zip(tk, tk[1:])]
+    if sum(g < 0.05 for g in gaps) < 0.25 * len(gaps): return
+    t0, t1 = tk[0].start, max(t.end for t in tk)
+    w = [max(1, len(_norm(t.say))) + 1.5 for t in tk]
+    acc = t0
+    for t, wi in zip(tk, w):
+        d = (t1 - t0) * wi / sum(w)
+        t.start, t.end = acc, acc + d * 0.92
+        acc += d
+
+
 def _align(tokens, words, offset):
     """Asigna tiempos a tokens a partir de las WordBoundary del TTS."""
     say_words = []
@@ -94,6 +111,7 @@ def _align(tokens, words, offset):
                 tk.end = offset + w["end"]
                 p = j + 1
                 break
+    _fix_collapsed(tokens)
     # interpola tokens sin tiempo
     known = [i for i, t in enumerate(tokens) if t.start >= 0]
     for i, t in enumerate(tokens):

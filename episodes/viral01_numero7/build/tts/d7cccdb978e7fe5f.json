@@ -1,0 +1,81 @@
+{
+ "text": "Por eso muchos modelos giran una ruleta: cada número ocupa un pedazo según su probabilidad.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.083333,
+   "end": 0.197916
+  },
+  {
+   "text": "eso",
+   "start": 0.208333,
+   "end": 0.406249
+  },
+  {
+   "text": "muchos",
+   "start": 0.40625,
+   "end": 0.6875
+  },
+  {
+   "text": "modelos",
+   "start": 0.6875,
+   "end": 1.09375
+  },
+  {
+   "text": "giran",
+   "start": 1.104166,
+   "end": 1.437499
+  },
+  {
+   "text": "una",
+   "start": 1.447916,
+   "end": 1.593749
+  },
+  {
+   "text": "ruleta",
+   "start": 1.59375,
+   "end": 2.0
+  },
+  {
+   "text": "cada",
+   "start": 2.364583,
+   "end": 2.562499
+  },
+  {
+   "text": "número",
+   "start": 2.5625,
+   "end": 2.875
+  },
+  {
+   "text": "ocupa",
+   "start": 2.875,
+   "end": 3.1875
+  },
+  {
+   "text": "un",
+   "start": 3.197916,
+   "end": 3.291666
+  },
+  {
+   "text": "pedazo",
+   "start": 3.291666,
+   "end": 3.666666
+  },
+  {
+   "text": "según",
+   "start": 3.666666,
+   "end": 3.999999
+  },
+  {
+   "text": "su",
+   "start": 4.0,
+   "end": 4.104166
+  },
+  {
+   "text": "probabilidad",
+   "start": 4.104166,
+   "end": 4.760416
+  }
+ ]
+}

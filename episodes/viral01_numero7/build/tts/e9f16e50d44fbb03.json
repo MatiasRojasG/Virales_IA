@@ -1,0 +1,41 @@
+{
+ "text": "La i a no eligió el siete.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.072916,
+   "end": 0.218749
+  },
+  {
+   "text": "i",
+   "start": 0.21875,
+   "end": 0.322916
+  },
+  {
+   "text": "a",
+   "start": 0.333333,
+   "end": 0.385416
+  },
+  {
+   "text": "no",
+   "start": 0.385416,
+   "end": 0.541666
+  },
+  {
+   "text": "eligió",
+   "start": 0.541666,
+   "end": 0.927082
+  },
+  {
+   "text": "el",
+   "start": 0.927083,
+   "end": 1.010416
+  },
+  {
+   "text": "siete",
+   "start": 1.010416,
+   "end": 1.364582
+  }
+ ]
+}

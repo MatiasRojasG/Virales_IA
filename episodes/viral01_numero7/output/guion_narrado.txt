@@ -1,0 +1,23 @@
+[hook] (  0.1s –   6.6s)
+Pídele a una IA un número del uno al diez. Muchas veces responde... siete. ¿Coincidencia?
+
+[humanos] (  6.6s –  11.6s)
+Pregúntale lo mismo a la gente, y pasa algo parecido: el siete también es el favorito.
+
+[predice] ( 11.6s –  20.2s)
+Y no es casualidad. Una IA de texto no piensa un número. Adivina qué palabra viene, después de leer millones de textos escritos... por personas.
+
+[probas] ( 20.2s –  24.8s)
+Para cada número calcula una probabilidad... y el siete parte con ventaja.
+
+[greedy] ( 24.8s –  29.0s)
+Si siempre eligiera el más probable, diría siete... siempre.
+
+[ruleta] ( 29.0s –  40.1s)
+Por eso muchos modelos giran una ruleta: cada número ocupa un pedazo según su probabilidad. Una perilla llamada temperatura decide cuánto se arriesga. Giremos doscientas veces.
+
+[resultado] ( 40.1s –  43.1s)
+Hay sorpresas... pero el siete sigue ganando.
+
+[cierre] ( 43.1s –  47.7s)
+La IA no eligió el siete. Lo heredó... de nosotros.

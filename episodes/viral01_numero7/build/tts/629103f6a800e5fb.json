@@ -1,0 +1,71 @@
+{
+ "text": "Y no es casualidad. Una i a de texto no piensa un número.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.0625,
+   "end": 0.1041659
+  },
+  {
+   "text": "no",
+   "start": 0.104166,
+   "end": 0.260416
+  },
+  {
+   "text": "es",
+   "start": 0.260416,
+   "end": 0.333332
+  },
+  {
+   "text": "casualidad",
+   "start": 0.333333,
+   "end": 0.874999
+  },
+  {
+   "text": "Una",
+   "start": 1.197916,
+   "end": 1.354166
+  },
+  {
+   "text": "i",
+   "start": 1.354166,
+   "end": 1.427082
+  },
+  {
+   "text": "a",
+   "start": 1.427083,
+   "end": 1.4687489
+  },
+  {
+   "text": "de",
+   "start": 1.46875,
+   "end": 1.572916
+  },
+  {
+   "text": "texto",
+   "start": 1.572916,
+   "end": 1.885416
+  },
+  {
+   "text": "no",
+   "start": 1.895833,
+   "end": 2.052083
+  },
+  {
+   "text": "piensa",
+   "start": 2.052083,
+   "end": 2.416666
+  },
+  {
+   "text": "un",
+   "start": 2.427083,
+   "end": 2.520833
+  },
+  {
+   "text": "número",
+   "start": 2.520833,
+   "end": 2.833333
+  }
+ ]
+}

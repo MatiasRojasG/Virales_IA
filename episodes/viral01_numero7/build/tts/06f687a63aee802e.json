@@ -1,0 +1,21 @@
+{
+ "text": "Giremos doscientas veces.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Giremos",
+   "start": 0.104166,
+   "end": 0.451374
+  },
+  {
+   "text": "doscientas",
+   "start": 0.451375,
+   "end": 0.960625
+  },
+  {
+   "text": "veces",
+   "start": 0.960666,
+   "end": 1.493082
+  }
+ ]
+}

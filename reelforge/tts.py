@@ -37,7 +37,7 @@ def decode(path, sr=SR) -> np.ndarray:
     return np.frombuffer(out, np.float32).copy()
 
 
-def synthesize(text, cache_dir, voice=VOICE, rate=RATE, pitch="+0Hz", retries=4):
+def synthesize(text, cache_dir, voice=VOICE, rate=RATE, pitch="+0Hz", retries=7):
     """Devuelve (audio float32 mono 48 kHz, lista de palabras con start/end en s)."""
     cache_dir = Path(cache_dir); cache_dir.mkdir(parents=True, exist_ok=True)
     h = hashlib.sha1(f"{voice}|{rate}|{pitch}|{text}".encode()).hexdigest()[:16]
@@ -49,7 +49,7 @@ def synthesize(text, cache_dir, voice=VOICE, rate=RATE, pitch="+0Hz", retries=4)
                 words = asyncio.run(_synth(text, voice, rate, pitch, mp3)); break
             except Exception as e:  # red inestable: reintento con espera
                 if k == retries - 1: raise
-                import time; time.sleep(2 ** k)
+                import time; time.sleep(min(20, 2 ** k))
         js.write_text(json.dumps({"text": text, "voice": voice, "words": words}, ensure_ascii=False, indent=1))
     audio = decode(mp3)
     # recorta silencio inicial/final del TTS dejando un margen

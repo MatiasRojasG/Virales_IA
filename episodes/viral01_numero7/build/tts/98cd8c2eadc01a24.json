@@ -1,0 +1,56 @@
+{
+ "text": "Pregúntale lo mismo a la gente, y pasa algo parecido:",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Pregúntale",
+   "start": 0.083333,
+   "end": 0.447916
+  },
+  {
+   "text": "lo",
+   "start": 0.447916,
+   "end": 0.520832
+  },
+  {
+   "text": "mismo",
+   "start": 0.53125,
+   "end": 0.8125
+  },
+  {
+   "text": "a",
+   "start": 0.8125,
+   "end": 0.822916
+  },
+  {
+   "text": "la",
+   "start": 0.822916,
+   "end": 0.895832
+  },
+  {
+   "text": "gente",
+   "start": 0.90625,
+   "end": 1.260416
+  },
+  {
+   "text": "y",
+   "start": 1.5625,
+   "end": 1.6041659
+  },
+  {
+   "text": "pasa",
+   "start": 1.614583,
+   "end": 1.968749
+  },
+  {
+   "text": "algo",
+   "start": 1.96875,
+   "end": 2.208333
+  },
+  {
+   "text": "parecido",
+   "start": 2.21875,
+   "end": 2.729166
+  }
+ ]
+}

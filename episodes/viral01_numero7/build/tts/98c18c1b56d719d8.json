@@ -1,0 +1,36 @@
+{
+ "text": "el siete también es el favorito.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "el",
+   "start": 0.081,
+   "end": 0.185166
+  },
+  {
+   "text": "siete",
+   "start": 0.185166,
+   "end": 0.497666
+  },
+  {
+   "text": "también",
+   "start": 0.50925,
+   "end": 0.879625
+  },
+  {
+   "text": "es",
+   "start": 0.879625,
+   "end": 0.995375
+  },
+  {
+   "text": "el",
+   "start": 0.995375,
+   "end": 1.076375
+  },
+  {
+   "text": "favorito",
+   "start": 1.076375,
+   "end": 1.631916
+  }
+ ]
+}

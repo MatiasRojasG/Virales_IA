@@ -1,0 +1,61 @@
+{
+ "text": "Pídele a una i a un número del uno al diez.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Pídele",
+   "start": 0.072916,
+   "end": 0.354166
+  },
+  {
+   "text": "a",
+   "start": 0.354166,
+   "end": 0.447916
+  },
+  {
+   "text": "una",
+   "start": 0.447916,
+   "end": 0.718749
+  },
+  {
+   "text": "i",
+   "start": 0.729166,
+   "end": 0.843749
+  },
+  {
+   "text": "a",
+   "start": 0.84375,
+   "end": 0.927083
+  },
+  {
+   "text": "un",
+   "start": 0.927083,
+   "end": 1.062499
+  },
+  {
+   "text": "número",
+   "start": 1.0625,
+   "end": 1.302083
+  },
+  {
+   "text": "del",
+   "start": 1.302083,
+   "end": 1.447916
+  },
+  {
+   "text": "uno",
+   "start": 1.447916,
+   "end": 1.614582
+  },
+  {
+   "text": "al",
+   "start": 1.614583,
+   "end": 1.697916
+  },
+  {
+   "text": "diez",
+   "start": 1.708333,
+   "end": 2.135416
+  }
+ ]
+}

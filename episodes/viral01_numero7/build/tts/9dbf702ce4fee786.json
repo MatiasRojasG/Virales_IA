@@ -1,0 +1,71 @@
+{
+ "text": "Adivina qué palabra viene, después de leer millones de textos escritos... por personas.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Adivina",
+   "start": 0.081,
+   "end": 0.486083
+  },
+  {
+   "text": "qué",
+   "start": 0.486125,
+   "end": 0.659708
+  },
+  {
+   "text": "palabra",
+   "start": 0.659708,
+   "end": 1.099541
+  },
+  {
+   "text": "viene",
+   "start": 1.099541,
+   "end": 1.423624
+  },
+  {
+   "text": "después",
+   "start": 1.863416,
+   "end": 2.268499
+  },
+  {
+   "text": "de",
+   "start": 2.280083,
+   "end": 2.349541
+  },
+  {
+   "text": "leer",
+   "start": 2.361125,
+   "end": 2.604166
+  },
+  {
+   "text": "millones",
+   "start": 2.604166,
+   "end": 3.043999
+  },
+  {
+   "text": "de",
+   "start": 3.044,
+   "end": 3.125
+  },
+  {
+   "text": "textos",
+   "start": 3.136583,
+   "end": 3.518499
+  },
+  {
+   "text": "escritos",
+   "start": 3.5185,
+   "end": 4.108791
+  },
+  {
+   "text": "por",
+   "start": 4.398166,
+   "end": 4.548624
+  },
+  {
+   "text": "personas",
+   "start": 4.548625,
+   "end": 5.254625
+  }
+ ]
+}

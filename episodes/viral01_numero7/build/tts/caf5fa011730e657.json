@@ -1,0 +1,56 @@
+{
+ "text": "Pídele a una IA un número del uno al diez.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Pídele",
+   "start": 0.081,
+   "end": 0.416666
+  },
+  {
+   "text": "a",
+   "start": 0.416666,
+   "end": 0.509249
+  },
+  {
+   "text": "una",
+   "start": 0.520833,
+   "end": 0.763874
+  },
+  {
+   "text": "IA",
+   "start": 0.775458,
+   "end": 1.134249
+  },
+  {
+   "text": "un",
+   "start": 1.145833,
+   "end": 1.273166
+  },
+  {
+   "text": "número",
+   "start": 1.273166,
+   "end": 1.539374
+  },
+  {
+   "text": "del",
+   "start": 1.550916,
+   "end": 1.712957
+  },
+  {
+   "text": "uno",
+   "start": 1.724541,
+   "end": 1.898166
+  },
+  {
+   "text": "al",
+   "start": 1.898166,
+   "end": 2.002332
+  },
+  {
+   "text": "diez",
+   "start": 2.013875,
+   "end": 2.488416
+  }
+ ]
+}

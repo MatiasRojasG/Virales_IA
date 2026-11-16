@@ -1,0 +1,26 @@
+{
+ "text": "Muchas veces responde... siete.",
+ "voice": "en-US-AndrewMultilingualNeural",
+ "words": [
+  {
+   "text": "Muchas",
+   "start": 0.072916,
+   "end": 0.395832
+  },
+  {
+   "text": "veces",
+   "start": 0.395833,
+   "end": 0.739583
+  },
+  {
+   "text": "responde",
+   "start": 0.739583,
+   "end": 1.302083
+  },
+  {
+   "text": "siete",
+   "start": 1.614583,
+   "end": 2.010416
+  }
+ ]
+}
