@@ -4,4 +4,5 @@ pillow>=10
 matplotlib>=3.9      # solo mathtext (ecuaciones sin LaTeX)
 skia-python>=138     # dibujo vectorial antialiasado (requiere libegl1 libgl1 en Linux)
 edge-tts>=7.0        # voz neuronal (es-MX-JorgeNeural) (red: speech.platform.bing.com)
+certifi              # edge-tts; reelforge/tts.py le suma la CA del proxy si existe
 # Sistema: ffmpeg, tesseract-ocr, tesseract-ocr-spa (solo para el experimento del EP 01)

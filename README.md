@@ -8,31 +8,53 @@ vectoriales, simulaciones reales en Python, música procedural libre de derechos
 
 **Enfoque:** no explicamos la clase; usamos la clase para explicar el mundo (ver `docs/plan_serie.md`).
 
-**Serie actual:** Modelos gráficos no dirigidos / Redes de Markov (EPG4003, 12-nov-2026) — ver [`docs/plan_serie.md`](docs/plan_serie.md).
+**Flujo diario:** tendencias de YouTube → 3 propuestas con storyboard en `propuestas/<fecha>/` → el usuario elige →
+reel de 40–60 s → QA automático → publicación. Las reglas completas están en [`CLAUDE.md`](CLAUDE.md).
 
-| Episodio | Estado | Video |
+| Episodio | Tema | Video |
 |---|---|---|
-| 01 · ¿Cómo limpia tu celular una foto nocturna? | ✅ | [`episodes/ep01_foto_nocturna/output/`](episodes/ep01_foto_nocturna/) |
-| 02 · El documento ilegible | borrador v2 (antes del cambio de enfoque) | [`episodes/ep01_restauracion_documento/output/`](episodes/ep01_restauracion_documento/) |
-| 02–10 | guion pendiente | — |
+| viral01 · ¿Por qué la IA siempre dice 7? | muestreo y probabilidades | [`episodes/viral01_numero7/output/`](episodes/viral01_numero7/output/) |
+| viral02 · El robot que se cayó una y otra vez | descenso de gradiente (simulación real) | [`episodes/viral02_robot_aprende/output/`](episodes/viral02_robot_aprende/output/) |
+| viral03 · La IA que descartaba currículums de mujeres | sesgo en los datos de entrenamiento | [`episodes/viral03_cv_sesgo/output/`](episodes/viral03_cv_sesgo/output/) |
+
+Episodios anteriores (serie de clases): `ep01_foto_nocturna`, `dl01_rostro`, `arq01_dropout`, `lm01_teclado`, `inc01_compra_bloqueada`.
 
 ## Uso
 
 ```bash
-sudo apt-get install -y ffmpeg libegl1 libgl1 tesseract-ocr tesseract-ocr-spa
+sudo apt-get install -y ffmpeg libegl1 libgl1          # (+ tesseract-ocr tesseract-ocr-spa solo para ep01)
 pip install -r requirements.txt
 
-python episodes/ep01_foto_nocturna/build.py --stills   # cuadros de control (rápido)
-python episodes/ep01_foto_nocturna/build.py            # MP4 + SRT + guion + portada
+python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45   # temas virales de IA (YouTube API)
+
+python episodes/viral03_cv_sesgo/build.py --stills   # ritmo de la narración + cuadros de control (segundos)
+python episodes/viral03_cv_sesgo/build.py            # MP4 + SRT + guion + portada + QA (≈1–2 min)
+python episodes/viral03_cv_sesgo/build.py --qa       # solo el control de calidad
 ```
 
-Un episodio nuevo: `cp -r episodes/_plantilla episodes/ep02_redes_sin_flechas`, editar `script.py`
-(guion) y `scenes.py` (una función de dibujo por bloque), y ejecutar su `build.py`.
+Un episodio nuevo: copiar `episodes/viral03_cv_sesgo` (o `_plantilla`), editar `script.py` (guion por bloques) y
+`scenes.py` (dibujo por bloque). El `build.py` de cada episodio solo llama a `reelforge.build.main(__file__)`.
+
+### Control de calidad automático (`reelforge/qa.py`)
+
+| Medida | Criterio |
+|---|---|
+| Formato | 1080×1920, 60 fps, H.264 yuv420p, AAC 48 kHz |
+| Sonoridad | −16 a −14 LUFS, pico verdadero ≤ −1 dBTP (el build normaliza a −15 LUFS en dos pasadas) |
+| Sincronía | desfase subtítulo–voz < 100 ms, medido en cada arranque de voz tras un silencio |
+| Saltos aislados | ningún cuadro que cambie ≥ 4× más que sus vecinos (aparición sin fundido, parpadeo) |
+| Loop | diferencia media entre el primer y el último cuadro (informativa) |
+
+Resultado en `build/qa/qa.json` y `build/qa/hoja_video.png`.
+
+### Entorno cloud (Claude Code)
+El entorno `virales_ia` instala ffmpeg, skia y edge-tts, permite `speech.platform.bing.com` e inyecta la clave
+de la API de YouTube. `reelforge/tts.py` le da a edge-tts la CA del proxy (edge-tts ignora `SSL_CERT_FILE`).
 
 ## Arquitectura (`reelforge/`)
 
 ```
-script.py (Beats con texto)  ──► tts.py: Edge TTS es-CL + marcas de tiempo por palabra (caché)
+script.py (Beats con texto)  ──► tts.py: Edge TTS es-MX + marcas de tiempo por palabra (caché)
                                   │
                                   ▼
                            timeline.py: línea de tiempo, cues T(beat, "palabra"), bloques de subtítulos, SRT
@@ -42,7 +64,9 @@ scenes.py: draw(P, t) ◄───────────┤  (animaciones sinc
    │  mathtex.py: LaTeX (mathtext) → trazos vectoriales coloreables por término
    │  subtitles.py: karaoke, palabras clave en cyan, zona segura
    ▼
-render.py: 4 procesos en paralelo → ffmpeg H.264  ◄── audio.py: música procedural + SFX + ducking
+render.py: procesos en paralelo → ffmpeg H.264  ◄── audio.py: música procedural + SFX + ducking
+   │
+build.py: loudnorm −15 LUFS, SRT, portada, hoja de cuadros  ──►  qa.py: formato, LUFS, sincronía, saltos, loop
 ```
 
 Decisiones técnicas:
@@ -57,5 +81,5 @@ Decisiones técnicas:
 
 ## Identidad visual
 Fondo `#090D18` · texto blanco · cyan `#00D9FF` (destacados) · violeta `#9B5CFF` (conexiones / vecinos) ·
-rosado `#FF4D8D` solo para errores. Acabado: viñeta, profundidad de campo (desenfoque a ¼ de resolución) y cámara con zoom geométrico. Zonas seguras: contenido entre y = 240 y 1300, subtítulos en y ≈ 1390,
+rosado `#FF4D8D` solo para errores. Acabado: viñeta, profundidad de campo (desenfoque a ¼ de resolución) y cámara con zoom geométrico. Zonas seguras: contenido entre y ≈ 480 y 1300, subtítulos en y ≈ 1390,
 margen derecho libre para los botones de la plataforma.

@@ -15,7 +15,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 ## Temas (flujo diario)
 - **Cada día, 3 opciones primero, video después.** Buscar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` (videos de IA con miles o millones de vistas, humor incluido) y elegir 3 temas virales que se expliquen con las clases sin repetir episodios anteriores.
 - Para cada opción: inspiración (título y vistas), concepto de clase, guion por bloques (narración + imagen) y un storyboard de 5 fotogramas clave. Todo va en `propuestas/<fecha>/` (`propuestas.md`, `storyboard_*.png`). Se envían al usuario, que elige.
-- Con la opción elegida se produce el reel (40–60 s, plantilla `episodes/viral01_numero7/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
+- Con la opción elegida se produce el reel (40–60 s, plantilla `episodes/viral03_cv_sesgo/` con el build común) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
 - Nunca copiar videos ajenos: solo el tema.
 
 ## Retención
@@ -41,8 +41,12 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 
 ## Pipeline (no duplicar componentes)
 - Motor: `reelforge/` (draw, ease, mathtex, tts, timeline, subtitles, audio, render).
-- Cada episodio va en `episodes/<slug>/` con `script.py` (EPISODE + BEATS), `scenes.py` (setup, draw_frame, draw_cover, sfx_cues, music_kw), `build.py`, opcionalmente `experiment.py`, y `README.md`. Plantilla: copiar un episodio reciente y modificar solo lo necesario.
-- Comandos: `python episodes/<slug>/build.py --stills` (cuadros de control) y `python episodes/<slug>/build.py` (MP4 + SRT + guion + portada).
+- Build común en `reelforge/build.py` (loudnorm −15 LUFS en dos pasadas, CRF 18, hoja de cuadros) y control de calidad en `reelforge/qa.py`. El `build.py` de cada episodio solo llama a `main(__file__)`: no copiar lógica de build entre episodios.
+- Cada episodio va en `episodes/<slug>/` con `script.py` (EPISODE + BEATS, opcional VOICE/RATE), `scenes.py` (setup, draw_frame, draw_cover, sfx_cues, music_kw, CHUNKS), `build.py`, opcionalmente `experiment.py` (`main()` → `build/experiment/sim.json`, o `load()`), y `README.md`. Plantilla: copiar un episodio reciente (p. ej. `viral03_cv_sesgo`) y modificar solo lo necesario.
+- Comandos:
+  - `python episodes/<slug>/build.py --stills`: ritmo de la narración (palabras/s y pausas por bloque) + cuadros de control (`build/stills/hoja.png`, `_first`/`_last` para el loop, `_portada`).
+  - `python episodes/<slug>/build.py`: MP4 + SRT + guion + portada + QA automático.
+  - `python episodes/<slug>/build.py --qa`: repite solo el QA sobre el MP4 existente.
 
 ## Validación obligatoria (antes de renderizar)
 1. ¿Interesa a alguien sin conocimientos de IA?
@@ -54,8 +58,9 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 7. ¿Es científicamente correcto, con aclaraciones visibles?
 
 ## Control de calidad después del render
-- Hoja de cuadros clave sin solapamientos, sin «saltos aislados» (diferencia entre cuadros), desfase subtítulos–voz < 100 ms, −14 a −16 LUFS y pico −1 dBFS.
-- Commit y push a la rama de trabajo. Entregar MP4, SRT, guion, portada y código.
+- El build termina con `reelforge/qa.py`, que mide formato, −14 a −16 LUFS y pico ≤ −1 dBTP, desfase subtítulos–voz < 100 ms, «saltos aislados» (un cuadro que cambia mucho más que sus vecinos: algo que aparece de golpe sin fundido) y la diferencia primer/último cuadro (loop). Resultado en `build/qa/qa.json` y `build/qa/hoja_video.png`. Si dice REVISAR, corregir y volver a renderizar antes de entregar.
+- Revisar además a ojo la hoja de cuadros: sin solapamientos ni texto fuera de las zonas seguras.
+- Commit y push a la rama de trabajo (`build/qa/`, `build/parts/` y las mezclas quedan fuera del repo). Entregar MP4, SRT, guion, portada y código.
 
 ## Narrativa y ritmo cinematográfico (regla permanente)
 - **Contexto antes del problema.** Ningún dato, porcentaje, fórmula o término sin explicación previa. Cada frase nace de la anterior. El espectador siempre sabe qué ocurre, por qué importa y qué intentamos descubrir. Sin saltos ni cambios repentinos de tema.

@@ -13,8 +13,25 @@ VOICE = "es-MX-JorgeNeural"       # latinoamericano neutro; alternativas: es-CL-
 RATE = "+18%"
 
 
+def _trust_proxy_ca():
+    """edge-tts valida TLS solo con certifi e ignora SSL_CERT_FILE. Detrás de un proxy con CA propia
+    (sesiones cloud de Claude Code) se reemplaza su contexto SSL por uno que incluya esa CA."""
+    ca = os.environ.get("SSL_CERT_FILE") or "/root/.ccr/ca-bundle.crt"
+    if not Path(ca).exists():
+        return
+    import ssl, edge_tts.communicate as com
+    if hasattr(com, "_SSL_CTX"):
+        ctx = ssl.create_default_context(cafile=ca)
+        try:
+            import certifi; ctx.load_verify_locations(certifi.where())
+        except Exception:
+            pass
+        com._SSL_CTX = ctx
+
+
 async def _synth(text, voice, rate, pitch, mp3_path):
     import edge_tts
+    _trust_proxy_ca()
     kw = dict(rate=rate, pitch=pitch, boundary="WordBoundary")
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy:
