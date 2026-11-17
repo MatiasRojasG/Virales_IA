@@ -1,0 +1,102 @@
+{
+ "fecha": "18 NOV 2026",
+ "portada": {
+  "kicker": "NOTICIAS DE IA · 10–17 NOV",
+  "titulo": [
+   "LO QUE PASÓ",
+   "EN IA ESTA",
+   "SEMANA"
+  ],
+  "rojo": [
+   2
+  ],
+  "imagenes": [
+   "img/nvidia.jpg",
+   "img/anthropic.jpg",
+   "img/wallet.jpg",
+   "img/fed.jpg"
+  ],
+  "focos": [
+   [
+    0.45,
+    0.38
+   ],
+   [
+    0.48,
+    0.4
+   ],
+   [
+    0.55,
+    0.45
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "zooms": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "noticias": [
+  {
+   "cat": "EMPRESAS",
+   "titulo": "Jensen Huang deja Nvidia después de 33 años",
+   "texto": "El cofundador renunció el 12 de noviembre como CEO de la empresa que fabrica los chips que mueven la IA. Colette Kress, su directora financiera, asume de forma interina.",
+   "importa": "Nvidia es la empresa clave del auge de la IA: su cambio de mando sacude a todo el sector.",
+   "fuente": "Nvidia (formulario 8-K ante la SEC) y NPR · 12 nov 2026",
+   "img": "img/nvidia.jpg",
+   "foco": [
+    0.45,
+    0.39
+   ],
+   "pie": "Jensen Huang en Stanford, 2026"
+  },
+  {
+   "cat": "MERCADOS",
+   "titulo": "Anthropic, la creadora de Claude, sale a la bolsa",
+   "texto": "Cotizará en Nasdaq desde el 19 de noviembre con el símbolo ANT, a entre 70 y 78 dólares por acción. En el tope del rango, la empresa valdría unos 1,4 billones de dólares.",
+   "importa": "Cualquier persona podrá invertir en uno de los laboratorios que compiten por liderar la IA.",
+   "fuente": "CNBC · 10 y 16 nov 2026",
+   "img": "img/anthropic.jpg",
+   "foco": [
+    0.48,
+    0.4
+   ],
+   "pie": "Dario Amodei, CEO de Anthropic, en 2023"
+  },
+  {
+   "cat": "PRODUCTO",
+   "titulo": "ChatGPT ya puede pagar por ti",
+   "texto": "OpenAI lanzó ChatGPT Wallet: sus agentes compran en tu nombre sin ver el número real de tu tarjeta, y cada compra requiere tu aprobación. Por ahora, solo para usuarios Pro en EE. UU.",
+   "importa": "Es el salto de una IA que conversa a una IA que actúa con tu dinero.",
+   "fuente": "CNBC · 13 nov 2026",
+   "img": "img/wallet.jpg",
+   "foco": [
+    0.55,
+    0.42
+   ],
+   "pie": "Foto ilustrativa"
+  },
+  {
+   "cat": "SEGURIDAD",
+   "titulo": "Agentes de IA ya intentan operar en cuentas bancarias",
+   "texto": "Michael Barr, de la Reserva Federal de EE. UU., advirtió que grandes bancos detectaron agentes de IA intentando operar en cuentas de clientes sin poder verificar que ellos lo autorizaran.",
+   "importa": "Según Barr, agentes así podrían acelerar una corrida bancaria a cuestión de minutos.",
+   "fuente": "Discurso de M. Barr, Reserva Federal · 16 nov 2026",
+   "img": "img/fed.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Edificio de la Reserva Federal, Washington"
+  }
+ ],
+ "cierre": {
+  "pregunta": "¿Cuál de estas noticias te sorprendió más?",
+  "cta": "Comenta 1, 2, 3 o 4. Guarda este post y síguenos: las noticias de IA, cada semana."
+ }
+}
