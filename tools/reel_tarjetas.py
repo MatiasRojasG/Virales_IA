@@ -84,8 +84,11 @@ def tarjeta(p, base, card, k, n, lt, dur, a=1.0, dx=0.0):
             ad = prog(lt, 0.35, 0.8)
             if ad > 0:
                 s = 0.8 + 0.2 * out_back(clamp((lt - 0.35) / 0.5))
+                fs = 210
+                wd = font(fs, C.FONT_BLACK).measureText(card["dato"])
+                if wd > 900: fs = fs * 900 / wd                      # el dato siempre cabe en pantalla
                 with p.transform(0, 0, s, cx=W / 2, cy=760):
-                    p.text(card["dato"], W / 2, 830, 210, RED, ad, face=C.FONT_BLACK, glow=0.6, shadow=True)
+                    p.text(card["dato"], W / 2, 760 + fs * 0.35, fs, RED, ad, face=C.FONT_BLACK, glow=0.6, shadow=True)
         with p.transform(dx, 0):
             y = 1112
             ai = prog(lt, 0.0, 0.4)
@@ -119,7 +122,7 @@ def draw_frame(p, t):
     else:
         tarjeta(p, base, cards[k], k, n, lt, b.dur)
     if k == n - 1 and G.get("fuente"):
-        p.text("Fuente: " + G["fuente"], X0, 1330, 22, GRAY, prog(lt, 0.6, 1.0), face=C.FONT_MED, align="left")
+        p.text("Fuente: " + G["fuente"], X0, FOTO_Y0 + 48, 22, FG, 0.85 * prog(lt, 0.6, 1.0), face=C.FONT_SEMI, align="left", shadow=True)
     M.vignette(p, 0.35)
     cabecera(p, G["fecha"], k, n, frac)
     M.sub_band(p)
