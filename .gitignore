@@ -13,3 +13,5 @@ tendencias/
 episodes/viral01_numero7/build/parts/
 episodes/viral02_robot_aprende/build/parts/
 episodes/*/build/mix_raw.wav
+episodes/*/build/qa/
+episodes/*/build/drive_*.mp4

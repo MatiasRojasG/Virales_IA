@@ -376,7 +376,7 @@ def setup(tl, data, episode):
     c["producto"] = T("contexto", "producto")
     c["datos0"] = T("datos"); c["anos"] = T("datos", "diez"); c["hombres"] = T("datos", "hombres")
     c["revela0"] = T("revela"); c["conclusion"] = T("revela", "conclusión"); c["femenino"] = T("revela", "palabra")
-    c["femenino_dicho"] = T("revela", "femenino"); c["nota"] = T("revela", "nota")
+    c["femenino_dicho"] = T("revela", "femenino"); c["nota"] = T("revela", "bajaba")
     c["porque0"] = T("porque"); c["pidio"] = T("porque", "discriminar"); c["patron"] = T("porque", "patrón")
     c["final0"] = T("final"); c["corregir"] = T("final", "corregirla"); c["y2017"] = T("final", "2017")
     c["abandono"] = T("final", "abandonó"); c["reclut"] = T("final", "reclutadores"); c["solo"] = T("final", "solo")
@@ -396,7 +396,7 @@ def draw_frame(P, t):
     s_final(P, t)
     s_ensena(P, t)
     vignette(P, 0.35)
-    vband(P, 1300, C.H, 0.0, 0.8)
+    vband(P, 1300, C.H, 0.0, 0.8, rgb=K)
     SUB.draw(P, CHUNKS, t)
 
 
