@@ -1,0 +1,16 @@
+{
+ "text": "¿Una persona…",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.09425,
+   "end": 0.3155
+  },
+  {
+   "text": "persona",
+   "start": 0.326541,
+   "end": 0.868582
+  }
+ ]
+}

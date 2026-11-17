@@ -1,0 +1,76 @@
+{
+ "text": "A cada postulante le ponía de una a cinco estrellas… como a un producto.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "A",
+   "start": 0.09425,
+   "end": 0.18275
+  },
+  {
+   "text": "cada",
+   "start": 0.193791,
+   "end": 0.392916
+  },
+  {
+   "text": "postulante",
+   "start": 0.404,
+   "end": 0.946041
+  },
+  {
+   "text": "le",
+   "start": 0.957083,
+   "end": 1.056624
+  },
+  {
+   "text": "ponía",
+   "start": 1.067708,
+   "end": 1.421708
+  },
+  {
+   "text": "de",
+   "start": 1.43275,
+   "end": 1.532291
+  },
+  {
+   "text": "una",
+   "start": 1.543375,
+   "end": 1.831
+  },
+  {
+   "text": "a",
+   "start": 1.842041,
+   "end": 1.8752069
+  },
+  {
+   "text": "cinco",
+   "start": 1.886291,
+   "end": 2.173916
+  },
+  {
+   "text": "estrellas",
+   "start": 2.184958,
+   "end": 2.738041
+  },
+  {
+   "text": "como",
+   "start": 2.926125,
+   "end": 3.136291
+  },
+  {
+   "text": "a",
+   "start": 3.147333,
+   "end": 3.1804989
+  },
+  {
+   "text": "un",
+   "start": 3.191583,
+   "end": 3.346458
+  },
+  {
+   "text": "producto",
+   "start": 3.357541,
+   "end": 3.822124
+  }
+ ]
+}

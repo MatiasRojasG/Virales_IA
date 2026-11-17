@@ -1,0 +1,61 @@
+{
+ "text": "En dos mil catorce, Amazon creó una IA para revisar currículums.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.09425,
+   "end": 0.193791
+  },
+  {
+   "text": "dos",
+   "start": 0.204875,
+   "end": 0.348666
+  },
+  {
+   "text": "mil",
+   "start": 0.35975,
+   "end": 0.503541
+  },
+  {
+   "text": "catorce",
+   "start": 0.514583,
+   "end": 0.945999
+  },
+  {
+   "text": "Amazon",
+   "start": 1.2115,
+   "end": 1.653958
+  },
+  {
+   "text": "creó",
+   "start": 1.665041,
+   "end": 1.930541
+  },
+  {
+   "text": "una",
+   "start": 1.941583,
+   "end": 2.207083
+  },
+  {
+   "text": "IA",
+   "start": 2.218125,
+   "end": 2.41725
+  },
+  {
+   "text": "para",
+   "start": 2.428333,
+   "end": 2.627458
+  },
+  {
+   "text": "revisar",
+   "start": 2.6385,
+   "end": 3.047791
+  },
+  {
+   "text": "currículums",
+   "start": 3.058833,
+   "end": 3.833166
+  }
+ ]
+}

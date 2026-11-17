@@ -1,0 +1,23 @@
+[hook] (  0.1s –   5.5s)
+¿Quién leyó tu currículum? ¿Una persona… o una máquina que aprendió a descartarte?
+
+[contexto] (  5.5s –  14.0s)
+En 2014, Amazon creó una IA para revisar currículums. A cada postulante le ponía de una a cinco estrellas… como a un producto.
+
+[datos] ( 14.0s –  20.5s)
+Para aprender, le mostraron los currículums de diez años. Pero la mayoría… eran de hombres.
+
+[revela] ( 20.5s –  29.3s)
+Y la IA sacó su propia conclusión. Si aparecía la palabra femenino, como en «capitana del club de ajedrez femenino»… le bajaba la nota.
+
+[porque] ( 29.3s –  33.7s)
+Nadie le pidió discriminar. Solo copió el patrón de su pasado.
+
+[final] ( 33.7s –  40.5s)
+Amazon intentó corregirla, y en 2017 la abandonó. Sus reclutadores nunca decidieron solo con ella.
+
+[ensena] ( 40.5s –  47.2s)
+Una IA aprende de lo que le das. Si el pasado fue injusto… lo repite. Y más rápido.
+
+[cierre] ( 47.2s –  48.3s)
+Entonces…

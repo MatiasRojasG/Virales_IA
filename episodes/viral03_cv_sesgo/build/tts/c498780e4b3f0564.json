@@ -1,0 +1,51 @@
+{
+ "text": "Para aprender, le mostraron los currículums de diez años.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.098083,
+   "end": 0.266333
+  },
+  {
+   "text": "aprender",
+   "start": 0.278375,
+   "end": 0.687041
+  },
+  {
+   "text": "le",
+   "start": 1.035583,
+   "end": 1.107708
+  },
+  {
+   "text": "mostraron",
+   "start": 1.119708,
+   "end": 1.588458
+  },
+  {
+   "text": "los",
+   "start": 1.6005,
+   "end": 1.732708
+  },
+  {
+   "text": "currículums",
+   "start": 1.744708,
+   "end": 2.417791
+  },
+  {
+   "text": "de",
+   "start": 2.429791,
+   "end": 2.525957
+  },
+  {
+   "text": "diez",
+   "start": 2.538,
+   "end": 2.874541
+  },
+  {
+   "text": "años",
+   "start": 2.886541,
+   "end": 3.367291
+  }
+ ]
+}

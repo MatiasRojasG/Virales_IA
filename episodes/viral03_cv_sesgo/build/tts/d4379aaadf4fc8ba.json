@@ -1,0 +1,26 @@
+{
+ "text": "le bajaba la nota.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "le",
+   "start": 0.098083,
+   "end": 0.230291
+  },
+  {
+   "text": "bajaba",
+   "start": 0.242291,
+   "end": 0.674999
+  },
+  {
+   "text": "la",
+   "start": 0.687,
+   "end": 0.783166
+  },
+  {
+   "text": "nota",
+   "start": 0.795208,
+   "end": 1.203874
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "text": "Si el pasado fue injusto… lo repite. Y más rápido.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.09425,
+   "end": 0.249125
+  },
+  {
+   "text": "el",
+   "start": 0.260166,
+   "end": 0.359707
+  },
+  {
+   "text": "pasado",
+   "start": 0.370791,
+   "end": 0.757957
+  },
+  {
+   "text": "fue",
+   "start": 0.769041,
+   "end": 0.934957
+  },
+  {
+   "text": "injusto",
+   "start": 0.946,
+   "end": 1.465916
+  },
+  {
+   "text": "lo",
+   "start": 1.676125,
+   "end": 1.753541
+  },
+  {
+   "text": "repite",
+   "start": 1.764583,
+   "end": 2.218124
+  },
+  {
+   "text": "Y",
+   "start": 2.975666,
+   "end": 3.075207
+  },
+  {
+   "text": "más",
+   "start": 3.086291,
+   "end": 3.373916
+  },
+  {
+   "text": "rápido",
+   "start": 3.384958,
+   "end": 3.871666
+  }
+ ]
+}

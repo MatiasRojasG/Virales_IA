@@ -1,0 +1,41 @@
+{
+ "text": "Sus reclutadores nunca decidieron solo con ella.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Sus",
+   "start": 0.09425,
+   "end": 0.3155
+  },
+  {
+   "text": "reclutadores",
+   "start": 0.326541,
+   "end": 0.945999
+  },
+  {
+   "text": "nunca",
+   "start": 0.957083,
+   "end": 1.277874
+  },
+  {
+   "text": "decidieron",
+   "start": 1.288958,
+   "end": 1.819916
+  },
+  {
+   "text": "solo",
+   "start": 1.830958,
+   "end": 2.107499
+  },
+  {
+   "text": "con",
+   "start": 2.118583,
+   "end": 2.262374
+  },
+  {
+   "text": "ella",
+   "start": 2.273458,
+   "end": 2.561083
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "o una máquina que aprendió a descartarte?",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "o",
+   "start": 0.09425,
+   "end": 0.171666
+  },
+  {
+   "text": "una",
+   "start": 0.18275,
+   "end": 0.35975
+  },
+  {
+   "text": "máquina",
+   "start": 0.370791,
+   "end": 0.724791
+  },
+  {
+   "text": "que",
+   "start": 0.735833,
+   "end": 0.813249
+  },
+  {
+   "text": "aprendió",
+   "start": 0.824333,
+   "end": 1.211499
+  },
+  {
+   "text": "a",
+   "start": 1.222583,
+   "end": 1.2557489
+  },
+  {
+   "text": "descartarte",
+   "start": 1.266833,
+   "end": 1.974791
+  }
+ ]
+}

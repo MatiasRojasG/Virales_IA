@@ -1,0 +1,41 @@
+{
+ "text": "Solo copió el patrón de su pasado.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Solo",
+   "start": 0.09425,
+   "end": 0.392916
+  },
+  {
+   "text": "copió",
+   "start": 0.404,
+   "end": 0.691625
+  },
+  {
+   "text": "el",
+   "start": 0.702666,
+   "end": 0.791166
+  },
+  {
+   "text": "patrón",
+   "start": 0.802208,
+   "end": 1.145124
+  },
+  {
+   "text": "de",
+   "start": 1.156208,
+   "end": 1.222583
+  },
+  {
+   "text": "su",
+   "start": 1.233625,
+   "end": 1.34425
+  },
+  {
+   "text": "pasado",
+   "start": 1.355291,
+   "end": 1.819874
+  }
+ ]
+}

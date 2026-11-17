@@ -1,0 +1,46 @@
+{
+ "text": "Una IA aprende de lo que le das.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.09425,
+   "end": 0.348666
+  },
+  {
+   "text": "IA",
+   "start": 0.35975,
+   "end": 0.62525
+  },
+  {
+   "text": "aprende",
+   "start": 0.636291,
+   "end": 1.001332
+  },
+  {
+   "text": "de",
+   "start": 1.012375,
+   "end": 1.123
+  },
+  {
+   "text": "lo",
+   "start": 1.134083,
+   "end": 1.222583
+  },
+  {
+   "text": "que",
+   "start": 1.233625,
+   "end": 1.322125
+  },
+  {
+   "text": "le",
+   "start": 1.333166,
+   "end": 1.432707
+  },
+  {
+   "text": "das",
+   "start": 1.443791,
+   "end": 1.808832
+  }
+ ]
+}

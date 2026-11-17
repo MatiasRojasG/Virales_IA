@@ -1,0 +1,36 @@
+{
+ "text": "Pero la mayoría… eran de hombres.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.098083,
+   "end": 0.242333
+  },
+  {
+   "text": "la",
+   "start": 0.254333,
+   "end": 0.350499
+  },
+  {
+   "text": "mayoría",
+   "start": 0.3625,
+   "end": 0.939416
+  },
+  {
+   "text": "eran",
+   "start": 1.13175,
+   "end": 1.44425
+  },
+  {
+   "text": "de",
+   "start": 1.45625,
+   "end": 1.576458
+  },
+  {
+   "text": "hombres",
+   "start": 1.588458,
+   "end": 2.081249
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "text": "Si aparecía la palabra femenino, como en «capitana del club de ajedrez femenino»…",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.09425,
+   "end": 0.227
+  },
+  {
+   "text": "aparecía",
+   "start": 0.238041,
+   "end": 0.669457
+  },
+  {
+   "text": "la",
+   "start": 0.680541,
+   "end": 0.769041
+  },
+  {
+   "text": "palabra",
+   "start": 0.780083,
+   "end": 1.089833
+  },
+  {
+   "text": "femenino",
+   "start": 1.100875,
+   "end": 1.620791
+  },
+  {
+   "text": "como",
+   "start": 1.875208,
+   "end": 2.063249
+  },
+  {
+   "text": "en",
+   "start": 2.074333,
+   "end": 2.240249
+  },
+  {
+   "text": "capitana",
+   "start": 2.406208,
+   "end": 2.859749
+  },
+  {
+   "text": "del",
+   "start": 2.870791,
+   "end": 3.025666
+  },
+  {
+   "text": "club",
+   "start": 3.036708,
+   "end": 3.213708
+  },
+  {
+   "text": "de",
+   "start": 3.224791,
+   "end": 3.302207
+  },
+  {
+   "text": "ajedrez",
+   "start": 3.313291,
+   "end": 3.733624
+  },
+  {
+   "text": "femenino",
+   "start": 3.744708,
+   "end": 4.264624
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "¿Quién leyó tu currículum?",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Quién",
+   "start": 0.09425,
+   "end": 0.304416
+  },
+  {
+   "text": "leyó",
+   "start": 0.3155,
+   "end": 0.558875
+  },
+  {
+   "text": "tu",
+   "start": 0.569916,
+   "end": 0.691582
+  },
+  {
+   "text": "currículum",
+   "start": 0.702666,
+   "end": 1.266832
+  }
+ ]
+}

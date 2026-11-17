@@ -1,0 +1,56 @@
+{
+ "text": "Amazon intentó corregirla, y en dos mil diecisiete la abandonó.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Amazon",
+   "start": 0.09425,
+   "end": 0.4925
+  },
+  {
+   "text": "intentó",
+   "start": 0.503541,
+   "end": 0.846457
+  },
+  {
+   "text": "corregirla",
+   "start": 0.857541,
+   "end": 1.410624
+  },
+  {
+   "text": "y",
+   "start": 1.69825,
+   "end": 1.764625
+  },
+  {
+   "text": "en",
+   "start": 1.775666,
+   "end": 1.864166
+  },
+  {
+   "text": "dos",
+   "start": 1.875208,
+   "end": 2.018999
+  },
+  {
+   "text": "mil",
+   "start": 2.030083,
+   "end": 2.207083
+  },
+  {
+   "text": "diecisiete",
+   "start": 2.218125,
+   "end": 2.771208
+  },
+  {
+   "text": "la",
+   "start": 2.782291,
+   "end": 2.892916
+  },
+  {
+   "text": "abandonó",
+   "start": 2.904,
+   "end": 3.335416
+  }
+ ]
+}

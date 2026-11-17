@@ -1,0 +1,41 @@
+{
+ "text": "Y la IA sacó su propia conclusión.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.09425,
+   "end": 0.193791
+  },
+  {
+   "text": "la",
+   "start": 0.204875,
+   "end": 0.348666
+  },
+  {
+   "text": "IA",
+   "start": 0.35975,
+   "end": 0.592041
+  },
+  {
+   "text": "sacó",
+   "start": 0.603083,
+   "end": 0.879624
+  },
+  {
+   "text": "su",
+   "start": 0.890708,
+   "end": 1.023458
+  },
+  {
+   "text": "propia",
+   "start": 1.0345,
+   "end": 1.333166
+  },
+  {
+   "text": "conclusión",
+   "start": 1.34425,
+   "end": 1.919458
+  }
+ ]
+}

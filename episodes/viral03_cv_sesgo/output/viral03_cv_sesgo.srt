@@ -1,0 +1,136 @@
+1
+00:00:00,150 --> 00:00:01,813
+¿Quién leyó tu
+currículum?
+
+2
+00:00:01,813 --> 00:00:03,253
+¿Una persona… o una
+
+3
+00:00:03,253 --> 00:00:05,547
+máquina que aprendió
+a descartarte?
+
+4
+00:00:05,547 --> 00:00:07,395
+En 2014, Amazon creó
+
+5
+00:00:07,395 --> 00:00:09,726
+una IA para revisar
+currículums.
+
+6
+00:00:09,726 --> 00:00:10,700
+A cada postulante le
+
+7
+00:00:10,700 --> 00:00:11,518
+ponía de una a
+
+8
+00:00:11,518 --> 00:00:12,824
+cinco estrellas… como a
+
+9
+00:00:12,824 --> 00:00:14,094
+un producto.
+
+10
+00:00:14,094 --> 00:00:15,597
+Para aprender,
+le mostraron
+
+11
+00:00:15,597 --> 00:00:17,853
+los currículums
+de diez años.
+
+12
+00:00:17,853 --> 00:00:19,212
+Pero la mayoría… eran
+
+13
+00:00:19,212 --> 00:00:20,537
+de hombres.
+
+14
+00:00:20,577 --> 00:00:21,373
+Y la IA sacó
+
+15
+00:00:21,373 --> 00:00:22,942
+su propia conclusión.
+
+16
+00:00:22,942 --> 00:00:24,723
+Si aparecía la
+palabra femenino,
+
+17
+00:00:24,723 --> 00:00:25,884
+como en «capitana del
+
+18
+00:00:25,884 --> 00:00:27,502
+club de ajedrez
+femenino»…
+
+19
+00:00:27,502 --> 00:00:29,308
+le bajaba la nota.
+
+20
+00:00:29,398 --> 00:00:31,298
+Nadie le pidió discriminar.
+
+21
+00:00:31,298 --> 00:00:32,360
+Solo copió el patrón
+
+22
+00:00:32,360 --> 00:00:33,714
+de su pasado.
+
+23
+00:00:33,714 --> 00:00:35,318
+Amazon intentó
+corregirla,
+
+24
+00:00:35,318 --> 00:00:37,445
+y en 2017 la abandonó.
+
+25
+00:00:37,445 --> 00:00:39,181
+Sus reclutadores
+nunca decidieron
+
+26
+00:00:39,181 --> 00:00:40,552
+solo con ella.
+
+27
+00:00:40,552 --> 00:00:41,591
+Una IA aprende de
+
+28
+00:00:41,591 --> 00:00:42,706
+lo que le das.
+
+29
+00:00:42,706 --> 00:00:43,558
+Si el pasado fue
+
+30
+00:00:43,558 --> 00:00:45,530
+injusto… lo repite.
+
+31
+00:00:45,588 --> 00:00:47,184
+Y más rápido.
+
+32
+00:00:47,224 --> 00:00:48,587
+Entonces…

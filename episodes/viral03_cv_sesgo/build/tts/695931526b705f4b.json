@@ -1,0 +1,26 @@
+{
+ "text": "Nadie le pidió discriminar.",
+ "voice": "es-MX-DaliaNeural",
+ "words": [
+  {
+   "text": "Nadie",
+   "start": 0.09425,
+   "end": 0.481416
+  },
+  {
+   "text": "le",
+   "start": 0.492458,
+   "end": 0.603083
+  },
+  {
+   "text": "pidió",
+   "start": 0.614166,
+   "end": 0.890707
+  },
+  {
+   "text": "discriminar",
+   "start": 0.90175,
+   "end": 1.554416
+  }
+ ]
+}
