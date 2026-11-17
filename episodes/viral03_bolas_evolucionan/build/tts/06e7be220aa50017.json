@@ -1,0 +1,71 @@
+{
+ "text": "Las que giran un poco más vuelven al engranaje... y se copian más.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.092,
+   "end": 0.281083
+  },
+  {
+   "text": "que",
+   "start": 0.291583,
+   "end": 0.386124
+  },
+  {
+   "text": "giran",
+   "start": 0.396625,
+   "end": 0.68025
+  },
+  {
+   "text": "un",
+   "start": 0.69075,
+   "end": 0.795791
+  },
+  {
+   "text": "poco",
+   "start": 0.806291,
+   "end": 1.037374
+  },
+  {
+   "text": "más",
+   "start": 1.047916,
+   "end": 1.257999
+  },
+  {
+   "text": "vuelven",
+   "start": 1.2685,
+   "end": 1.552125
+  },
+  {
+   "text": "al",
+   "start": 1.562625,
+   "end": 1.657166
+  },
+  {
+   "text": "engranaje",
+   "start": 1.667666,
+   "end": 2.171874
+  },
+  {
+   "text": "y",
+   "start": 2.392416,
+   "end": 2.444957
+  },
+  {
+   "text": "se",
+   "start": 2.455458,
+   "end": 2.591999
+  },
+  {
+   "text": "copian",
+   "start": 2.602541,
+   "end": 2.938666
+  },
+  {
+   "text": "más",
+   "start": 2.949166,
+   "end": 3.306291
+  }
+ ]
+}

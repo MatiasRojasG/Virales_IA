@@ -1,0 +1,31 @@
+{
+ "text": "Las violetas casi no giran.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.092,
+   "end": 0.312583
+  },
+  {
+   "text": "violetas",
+   "start": 0.323125,
+   "end": 0.743291
+  },
+  {
+   "text": "casi",
+   "start": 0.753791,
+   "end": 1.016416
+  },
+  {
+   "text": "no",
+   "start": 1.026875,
+   "end": 1.163416
+  },
+  {
+   "text": "giran",
+   "start": 1.173958,
+   "end": 1.562624
+  }
+ ]
+}

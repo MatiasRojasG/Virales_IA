@@ -1,0 +1,46 @@
+{
+ "text": "La NASA usó uno para diseñar una antena...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.092,
+   "end": 0.228541
+  },
+  {
+   "text": "NASA",
+   "start": 0.239083,
+   "end": 0.512208
+  },
+  {
+   "text": "usó",
+   "start": 0.522708,
+   "end": 0.732791
+  },
+  {
+   "text": "uno",
+   "start": 0.743291,
+   "end": 0.974374
+  },
+  {
+   "text": "para",
+   "start": 0.984875,
+   "end": 1.142458
+  },
+  {
+   "text": "diseñar",
+   "start": 1.152958,
+   "end": 1.573124
+  },
+  {
+   "text": "una",
+   "start": 1.583625,
+   "end": 1.709666
+  },
+  {
+   "text": "antena",
+   "start": 1.720166,
+   "end": 2.140332
+  }
+ ]
+}

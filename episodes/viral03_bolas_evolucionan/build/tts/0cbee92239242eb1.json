@@ -1,0 +1,26 @@
+{
+ "text": "Y el borde rosado...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092,
+   "end": 0.228541
+  },
+  {
+   "text": "el",
+   "start": 0.239083,
+   "end": 0.333624
+  },
+  {
+   "text": "borde",
+   "start": 0.344125,
+   "end": 0.60675
+  },
+  {
+   "text": "rosado",
+   "start": 0.617208,
+   "end": 1.079374
+  }
+ ]
+}

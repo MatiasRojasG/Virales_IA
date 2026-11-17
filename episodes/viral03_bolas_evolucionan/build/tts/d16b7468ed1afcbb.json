@@ -1,0 +1,31 @@
+{
+ "text": "Dan vueltas alrededor del engranaje...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Dan",
+   "start": 0.092,
+   "end": 0.312583
+  },
+  {
+   "text": "vueltas",
+   "start": 0.323125,
+   "end": 0.65925
+  },
+  {
+   "text": "alrededor",
+   "start": 0.66975,
+   "end": 1.121416
+  },
+  {
+   "text": "del",
+   "start": 1.131916,
+   "end": 1.257957
+  },
+  {
+   "text": "engranaje",
+   "start": 1.2685,
+   "end": 1.783208
+  }
+ ]
+}

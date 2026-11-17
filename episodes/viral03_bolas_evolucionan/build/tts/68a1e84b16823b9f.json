@@ -1,0 +1,56 @@
+{
+ "text": "Copiar, cambiar un poquito y quedarse con lo que sobrevive...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Copiar",
+   "start": 0.092,
+   "end": 0.480666
+  },
+  {
+   "text": "cambiar",
+   "start": 0.71175,
+   "end": 1.016375
+  },
+  {
+   "text": "un",
+   "start": 1.026875,
+   "end": 1.100416
+  },
+  {
+   "text": "poquito",
+   "start": 1.110916,
+   "end": 1.457541
+  },
+  {
+   "text": "y",
+   "start": 1.468083,
+   "end": 1.520624
+  },
+  {
+   "text": "quedarse",
+   "start": 1.531083,
+   "end": 1.919749
+  },
+  {
+   "text": "con",
+   "start": 1.93025,
+   "end": 2.056291
+  },
+  {
+   "text": "lo",
+   "start": 2.066791,
+   "end": 2.140332
+  },
+  {
+   "text": "que",
+   "start": 2.150833,
+   "end": 2.234874
+  },
+  {
+   "text": "sobrevive",
+   "start": 2.245375,
+   "end": 2.770583
+  }
+ ]
+}

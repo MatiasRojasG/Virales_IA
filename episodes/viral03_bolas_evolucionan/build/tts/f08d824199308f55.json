@@ -1,0 +1,46 @@
+{
+ "text": "Cada vez que una bola toca el engranaje...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.092,
+   "end": 0.291583
+  },
+  {
+   "text": "vez",
+   "start": 0.302083,
+   "end": 0.470166
+  },
+  {
+   "text": "que",
+   "start": 0.480666,
+   "end": 0.575207
+  },
+  {
+   "text": "una",
+   "start": 0.585708,
+   "end": 0.743291
+  },
+  {
+   "text": "bola",
+   "start": 0.753791,
+   "end": 0.984874
+  },
+  {
+   "text": "toca",
+   "start": 0.995375,
+   "end": 1.247458
+  },
+  {
+   "text": "el",
+   "start": 1.258,
+   "end": 1.331541
+  },
+  {
+   "text": "engranaje",
+   "start": 1.342,
+   "end": 1.846208
+  }
+ ]
+}

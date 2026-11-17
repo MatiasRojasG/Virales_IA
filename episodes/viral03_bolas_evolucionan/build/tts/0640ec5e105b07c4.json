@@ -1,0 +1,46 @@
+{
+ "text": "Fíjate en algo: las copias no son perfectas.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Fíjate",
+   "start": 0.092,
+   "end": 0.491166
+  },
+  {
+   "text": "en",
+   "start": 0.501666,
+   "end": 0.585707
+  },
+  {
+   "text": "algo",
+   "start": 0.596208,
+   "end": 0.848291
+  },
+  {
+   "text": "las",
+   "start": 1.100416,
+   "end": 1.236957
+  },
+  {
+   "text": "copias",
+   "start": 1.247458,
+   "end": 1.625624
+  },
+  {
+   "text": "no",
+   "start": 1.636125,
+   "end": 1.804208
+  },
+  {
+   "text": "son",
+   "start": 1.814708,
+   "end": 1.982791
+  },
+  {
+   "text": "perfectas",
+   "start": 1.993291,
+   "end": 2.592041
+  }
+ ]
+}

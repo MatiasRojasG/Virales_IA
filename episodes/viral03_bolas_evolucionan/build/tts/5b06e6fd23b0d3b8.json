@@ -1,0 +1,31 @@
+{
+ "text": "Las que aprendieron a volver.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.102625,
+   "end": 0.339458
+  },
+  {
+   "text": "que",
+   "start": 0.352625,
+   "end": 0.457875
+  },
+  {
+   "text": "aprendieron",
+   "start": 0.471041,
+   "end": 1.063166
+  },
+  {
+   "text": "a",
+   "start": 1.076333,
+   "end": 1.102666
+  },
+  {
+   "text": "volver",
+   "start": 1.115791,
+   "end": 1.628957
+  }
+ ]
+}

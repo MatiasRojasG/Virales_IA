@@ -1,0 +1,41 @@
+{
+ "text": "Cada una nace con un pequeño cambio...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.092,
+   "end": 0.312583
+  },
+  {
+   "text": "una",
+   "start": 0.323125,
+   "end": 0.480708
+  },
+  {
+   "text": "nace",
+   "start": 0.491166,
+   "end": 0.774791
+  },
+  {
+   "text": "con",
+   "start": 0.785291,
+   "end": 0.942874
+  },
+  {
+   "text": "un",
+   "start": 0.953375,
+   "end": 1.047916
+  },
+  {
+   "text": "pequeño",
+   "start": 1.058416,
+   "end": 1.415541
+  },
+  {
+   "text": "cambio",
+   "start": 1.426041,
+   "end": 1.804207
+  }
+ ]
+}

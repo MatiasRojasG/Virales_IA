@@ -1,0 +1,36 @@
+{
+ "text": "en cuánto gira hacia el centro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "en",
+   "start": 0.102625,
+   "end": 0.273666
+  },
+  {
+   "text": "cuánto",
+   "start": 0.286833,
+   "end": 0.602624
+  },
+  {
+   "text": "gira",
+   "start": 0.615791,
+   "end": 0.997374
+  },
+  {
+   "text": "hacia",
+   "start": 1.010541,
+   "end": 1.247374
+  },
+  {
+   "text": "el",
+   "start": 1.260541,
+   "end": 1.339499
+  },
+  {
+   "text": "centro",
+   "start": 1.352625,
+   "end": 1.892083
+  }
+ ]
+}

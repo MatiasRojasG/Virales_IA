@@ -1,0 +1,26 @@
+{
+ "text": "casi todas son cyan.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "casi",
+   "start": 0.092,
+   "end": 0.375625
+  },
+  {
+   "text": "todas",
+   "start": 0.386125,
+   "end": 0.65925
+  },
+  {
+   "text": "son",
+   "start": 0.66975,
+   "end": 0.837833
+  },
+  {
+   "text": "cyan",
+   "start": 0.848333,
+   "end": 1.152958
+  }
+ ]
+}

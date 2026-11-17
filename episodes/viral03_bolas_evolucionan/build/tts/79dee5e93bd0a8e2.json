@@ -1,0 +1,36 @@
+{
+ "text": "Si toca el borde rosado... desaparece.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.092,
+   "end": 0.302083
+  },
+  {
+   "text": "toca",
+   "start": 0.312625,
+   "end": 0.543708
+  },
+  {
+   "text": "el",
+   "start": 0.554208,
+   "end": 0.617249
+  },
+  {
+   "text": "borde",
+   "start": 0.62775,
+   "end": 0.879833
+  },
+  {
+   "text": "rosado",
+   "start": 0.890333,
+   "end": 1.310499
+  },
+  {
+   "text": "desaparece",
+   "start": 1.541583,
+   "end": 2.171833
+  }
+ ]
+}

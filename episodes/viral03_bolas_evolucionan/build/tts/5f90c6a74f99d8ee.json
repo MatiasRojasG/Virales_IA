@@ -1,0 +1,16 @@
+{
+ "text": "se copia.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "se",
+   "start": 0.092,
+   "end": 0.291583
+  },
+  {
+   "text": "copia",
+   "start": 0.302083,
+   "end": 0.701249
+  }
+ ]
+}

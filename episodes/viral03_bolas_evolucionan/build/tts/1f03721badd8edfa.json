@@ -1,0 +1,31 @@
+{
+ "text": "que terminó en el espacio.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "que",
+   "start": 0.092,
+   "end": 0.207541
+  },
+  {
+   "text": "terminó",
+   "start": 0.218083,
+   "end": 0.606749
+  },
+  {
+   "text": "en",
+   "start": 0.617208,
+   "end": 0.701249
+  },
+  {
+   "text": "el",
+   "start": 0.71175,
+   "end": 0.795791
+  },
+  {
+   "text": "espacio",
+   "start": 0.806291,
+   "end": 1.236957
+  }
+ ]
+}

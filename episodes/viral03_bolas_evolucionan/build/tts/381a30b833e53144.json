@@ -1,0 +1,51 @@
+{
+ "text": "Rebotan al azar... y muchas terminan en el rosado.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Rebotan",
+   "start": 0.092,
+   "end": 0.501666
+  },
+  {
+   "text": "al",
+   "start": 0.512166,
+   "end": 0.606707
+  },
+  {
+   "text": "azar",
+   "start": 0.617208,
+   "end": 0.879833
+  },
+  {
+   "text": "y",
+   "start": 1.100416,
+   "end": 1.142416
+  },
+  {
+   "text": "muchas",
+   "start": 1.152958,
+   "end": 1.510083
+  },
+  {
+   "text": "terminan",
+   "start": 1.520583,
+   "end": 1.961749
+  },
+  {
+   "text": "en",
+   "start": 1.97225,
+   "end": 2.066791
+  },
+  {
+   "text": "el",
+   "start": 2.077291,
+   "end": 2.161332
+  },
+  {
+   "text": "rosado",
+   "start": 2.171833,
+   "end": 2.602499
+  }
+ ]
+}

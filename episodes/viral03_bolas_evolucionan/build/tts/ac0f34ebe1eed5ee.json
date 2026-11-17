@@ -1,0 +1,31 @@
+{
+ "text": "eso es un algoritmo genético.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "eso",
+   "start": 0.102625,
+   "end": 0.418416
+  },
+  {
+   "text": "es",
+   "start": 0.431583,
+   "end": 0.563166
+  },
+  {
+   "text": "un",
+   "start": 0.576333,
+   "end": 0.694749
+  },
+  {
+   "text": "algoritmo",
+   "start": 0.707875,
+   "end": 1.247333
+  },
+  {
+   "text": "genético",
+   "start": 1.260541,
+   "end": 1.944749
+  }
+ ]
+}

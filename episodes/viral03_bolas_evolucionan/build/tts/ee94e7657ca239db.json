@@ -1,0 +1,36 @@
+{
+ "text": "y nadie las programó para eso.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.092,
+   "end": 0.207541
+  },
+  {
+   "text": "nadie",
+   "start": 0.218083,
+   "end": 0.501708
+  },
+  {
+   "text": "las",
+   "start": 0.512166,
+   "end": 0.638207
+  },
+  {
+   "text": "programó",
+   "start": 0.64875,
+   "end": 1.037416
+  },
+  {
+   "text": "para",
+   "start": 1.047916,
+   "end": 1.299999
+  },
+  {
+   "text": "eso",
+   "start": 1.3105,
+   "end": 1.583625
+  }
+ ]
+}

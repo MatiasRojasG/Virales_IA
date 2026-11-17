@@ -1,0 +1,26 @@
+{
+ "text": "¿Cuáles van a sobrevivir?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cuáles",
+   "start": 0.092,
+   "end": 0.386125
+  },
+  {
+   "text": "van",
+   "start": 0.396625,
+   "end": 0.533166
+  },
+  {
+   "text": "a",
+   "start": 0.543708,
+   "end": 0.575208
+  },
+  {
+   "text": "sobrevivir",
+   "start": 0.585708,
+   "end": 1.184458
+  }
+ ]
+}

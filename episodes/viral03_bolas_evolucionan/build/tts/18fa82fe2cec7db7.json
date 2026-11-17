@@ -1,0 +1,16 @@
+{
+ "text": "¿Cuáles sobrevivieron?",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Cuáles",
+   "start": 0.092,
+   "end": 0.333583
+  },
+  {
+   "text": "sobrevivieron",
+   "start": 0.344125,
+   "end": 1.005875
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "text": "empieza a crecer.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "empieza",
+   "start": 0.102625,
+   "end": 0.69475
+  },
+  {
+   "text": "a",
+   "start": 0.707875,
+   "end": 0.7605
+  },
+  {
+   "text": "crecer",
+   "start": 0.773666,
+   "end": 1.260499
+  }
+ ]
+}

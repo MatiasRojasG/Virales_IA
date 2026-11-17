@@ -1,0 +1,21 @@
+{
+ "text": "Generación tras generación...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Generación",
+   "start": 0.101958,
+   "end": 0.799333
+  },
+  {
+   "text": "tras",
+   "start": 0.8125,
+   "end": 1.036166
+  },
+  {
+   "text": "generación",
+   "start": 1.049333,
+   "end": 1.786166
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "Y sus copias heredan ese giro.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.092,
+   "end": 0.186541
+  },
+  {
+   "text": "sus",
+   "start": 0.197041,
+   "end": 0.386124
+  },
+  {
+   "text": "copias",
+   "start": 0.396625,
+   "end": 0.74325
+  },
+  {
+   "text": "heredan",
+   "start": 0.753791,
+   "end": 1.047916
+  },
+  {
+   "text": "ese",
+   "start": 1.058416,
+   "end": 1.236999
+  },
+  {
+   "text": "giro",
+   "start": 1.247458,
+   "end": 1.594083
+  }
+ ]
+}
