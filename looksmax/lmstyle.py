@@ -114,4 +114,7 @@ def bottle(p, x, y, s=1.0, a=1.0, label="FPS 50"):
     p.rect(x - 70 * s, y - 150 * s, x + 70 * s, y + 170 * s, WHITE, a, radius=34 * s)
     p.rect(x - 34 * s, y - 210 * s, x + 34 * s, y - 145 * s, GRAY, a, radius=10 * s)
     p.rect(x - 70 * s, y - 20 * s, x + 70 * s, y + 70 * s, GOLD, a)
-    p.text(label, x, y + 40 * s, 34 * s, BLACK, a, face=C.FONT_BLACK)
+    fs = 34 * s
+    w = p.text_width(label, fs, face=C.FONT_BLACK)
+    if w > 120 * s: fs *= 120 * s / w          # la etiqueta siempre cabe en el frasco
+    p.text(label, x, y + 25 * s + fs * 0.36, fs, BLACK, a, face=C.FONT_BLACK)

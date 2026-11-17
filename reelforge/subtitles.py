@@ -14,7 +14,9 @@ def measure(s):
     return f.measureText(s) + f.measureText(" ") * 0.5 * s.count(" ")
 
 
-def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
+def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0, kw_rgb=None, bg_rgb=None):
+    """kw_rgb / bg_rgb: color de palabras clave y del contorno (por defecto, identidad de la cuenta principal)."""
+    kw_rgb = kw_rgb or C.CYAN; bg_rgb = bg_rgb or C.BG
     ch = next((c for c in chunks if c["start"] - 0.02 <= t < c["end"]), None)
     if ch is None: return
     f = font(SIZE, FACE)
@@ -36,7 +38,7 @@ def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
             ww = f.measureText(w.display)
             spoken = t >= w.start
             current = w.start <= t < max(w.end, w.start + 0.12)
-            rgb = C.CYAN if w.kw else C.WHITE
+            rgb = kw_rgb if w.kw else C.WHITE
             alpha = (1.0 if spoken else 0.42) * a_in
             pop = 1.0
             if current:
@@ -44,10 +46,10 @@ def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0):
             cx = x + ww / 2
             cv.save(); cv.translate(cx, yy - SIZE * 0.35); cv.scale(pop, pop); cv.translate(-cx, -(yy - SIZE * 0.35))
             # contorno oscuro + sombra para legibilidad sobre cualquier fondo
-            cv.drawString(w.display, x, yy + 5, f, paint(C.BG, 0.9 * alpha, blur=9))
-            cv.drawString(w.display, x, yy, f, paint(C.BG, 0.95 * alpha, stroke=10))
+            cv.drawString(w.display, x, yy + 5, f, paint(bg_rgb, 0.9 * alpha, blur=9))
+            cv.drawString(w.display, x, yy, f, paint(bg_rgb, 0.95 * alpha, stroke=10))
             if w.kw and spoken:
-                cv.drawString(w.display, x, yy, f, paint(C.CYAN, 0.45 * alpha, blur=14))
+                cv.drawString(w.display, x, yy, f, paint(kw_rgb, 0.45 * alpha, blur=14))
             cv.drawString(w.display, x, yy, f, paint(rgb, alpha))
             cv.restore()
             x += ww + sp
