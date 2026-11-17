@@ -1,0 +1,46 @@
+{
+ "text": "Siete: hidrata tu piel justo después de lavarla.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Siete",
+   "start": 0.093458,
+   "end": 0.517374
+  },
+  {
+   "text": "hidrata",
+   "start": 0.745666,
+   "end": 1.060874
+  },
+  {
+   "text": "tu",
+   "start": 1.126083,
+   "end": 1.180416
+  },
+  {
+   "text": "piel",
+   "start": 1.256541,
+   "end": 1.408707
+  },
+  {
+   "text": "justo",
+   "start": 1.430416,
+   "end": 1.745624
+  },
+  {
+   "text": "después",
+   "start": 1.767375,
+   "end": 2.104333
+  },
+  {
+   "text": "de",
+   "start": 2.126083,
+   "end": 2.180416
+  },
+  {
+   "text": "lavarla",
+   "start": 2.213041,
+   "end": 2.604332
+  }
+ ]
+}

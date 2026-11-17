@@ -1,0 +1,86 @@
+{
+ "text": "En seis semanas cambian levemente el tono de tu piel... y otros te ven más saludable.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "seis",
+   "start": 0.256541,
+   "end": 0.473916
+  },
+  {
+   "text": "semanas",
+   "start": 0.473916,
+   "end": 0.810874
+  },
+  {
+   "text": "cambian",
+   "start": 0.854333,
+   "end": 1.136958
+  },
+  {
+   "text": "levemente",
+   "start": 1.147833,
+   "end": 1.647833
+  },
+  {
+   "text": "el",
+   "start": 1.658708,
+   "end": 1.756541
+  },
+  {
+   "text": "tono",
+   "start": 1.810875,
+   "end": 1.984791
+  },
+  {
+   "text": "de",
+   "start": 2.006541,
+   "end": 2.071749
+  },
+  {
+   "text": "tu",
+   "start": 2.136958,
+   "end": 2.191291
+  },
+  {
+   "text": "piel",
+   "start": 2.256541,
+   "end": 2.484791
+  },
+  {
+   "text": "y",
+   "start": 2.669583,
+   "end": 2.756541
+  },
+  {
+   "text": "otros",
+   "start": 2.767375,
+   "end": 3.05
+  },
+  {
+   "text": "te",
+   "start": 3.093458,
+   "end": 3.147791
+  },
+  {
+   "text": "ven",
+   "start": 3.169583,
+   "end": 3.321749
+  },
+  {
+   "text": "más",
+   "start": 3.354333,
+   "end": 3.517374
+  },
+  {
+   "text": "saludable",
+   "start": 3.517375,
+   "end": 4.02825
+  }
+ ]
+}

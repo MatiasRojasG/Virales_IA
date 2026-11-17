@@ -1,0 +1,31 @@
+{
+ "text": "Dos: protector solar, cada mañana.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Dos",
+   "start": 0.095125,
+   "end": 0.453833
+  },
+  {
+   "text": "protector",
+   "start": 0.736416,
+   "end": 1.149457
+  },
+  {
+   "text": "solar",
+   "start": 1.182083,
+   "end": 1.497291
+  },
+  {
+   "text": "cada",
+   "start": 1.801625,
+   "end": 1.986416
+  },
+  {
+   "text": "mañana",
+   "start": 2.008166,
+   "end": 2.410332
+  }
+ ]
+}

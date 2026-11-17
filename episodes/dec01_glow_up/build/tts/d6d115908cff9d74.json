@@ -1,0 +1,46 @@
+{
+ "text": "Nada de esto se nota en un día...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Nada",
+   "start": 0.093458,
+   "end": 0.376083
+  },
+  {
+   "text": "de",
+   "start": 0.397833,
+   "end": 0.484791
+  },
+  {
+   "text": "esto",
+   "start": 0.560875,
+   "end": 0.756541
+  },
+  {
+   "text": "se",
+   "start": 0.789125,
+   "end": 0.886958
+  },
+  {
+   "text": "nota",
+   "start": 0.919583,
+   "end": 1.158708
+  },
+  {
+   "text": "en",
+   "start": 1.213041,
+   "end": 1.245666
+  },
+  {
+   "text": "un",
+   "start": 1.267375,
+   "end": 1.376083
+  },
+  {
+   "text": "día",
+   "start": 1.419583,
+   "end": 1.636958
+  }
+ ]
+}

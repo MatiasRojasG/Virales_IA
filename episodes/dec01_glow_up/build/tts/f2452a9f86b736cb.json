@@ -1,0 +1,66 @@
+{
+ "text": "¿Quieres verte mejor... sin filtros, sin cirugías y sin gastar una fortuna?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Quieres",
+   "start": 0.093458,
+   "end": 0.365208
+  },
+  {
+   "text": "verte",
+   "start": 0.386958,
+   "end": 0.604333
+  },
+  {
+   "text": "mejor",
+   "start": 0.626083,
+   "end": 0.919541
+  },
+  {
+   "text": "sin",
+   "start": 1.191291,
+   "end": 1.408666
+  },
+  {
+   "text": "filtros",
+   "start": 1.408708,
+   "end": 1.865249
+  },
+  {
+   "text": "sin",
+   "start": 2.07175,
+   "end": 2.267416
+  },
+  {
+   "text": "cirugías",
+   "start": 2.27825,
+   "end": 2.832583
+  },
+  {
+   "text": "y",
+   "start": 2.854333,
+   "end": 2.876083
+  },
+  {
+   "text": "sin",
+   "start": 2.908708,
+   "end": 3.039124
+  },
+  {
+   "text": "gastar",
+   "start": 3.07175,
+   "end": 3.376083
+  },
+  {
+   "text": "una",
+   "start": 3.376083,
+   "end": 3.517374
+  },
+  {
+   "text": "fortuna",
+   "start": 3.539125,
+   "end": 3.984791
+  }
+ ]
+}

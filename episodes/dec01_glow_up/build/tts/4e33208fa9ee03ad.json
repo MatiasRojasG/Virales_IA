@@ -1,0 +1,96 @@
+{
+ "text": "En un estudio, las mismas personas, tras una noche sin dormir, se vieron más cansadas y menos atractivas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "un",
+   "start": 0.234791,
+   "end": 0.321749
+  },
+  {
+   "text": "estudio",
+   "start": 0.332625,
+   "end": 0.756541
+  },
+  {
+   "text": "las",
+   "start": 1.006541,
+   "end": 1.169582
+  },
+  {
+   "text": "mismas",
+   "start": 1.191291,
+   "end": 1.463041
+  },
+  {
+   "text": "personas",
+   "start": 1.517375,
+   "end": 1.963041
+  },
+  {
+   "text": "tras",
+   "start": 2.223916,
+   "end": 2.386957
+  },
+  {
+   "text": "una",
+   "start": 2.419583,
+   "end": 2.560874
+  },
+  {
+   "text": "noche",
+   "start": 2.593458,
+   "end": 2.843458
+  },
+  {
+   "text": "sin",
+   "start": 2.865208,
+   "end": 3.006499
+  },
+  {
+   "text": "dormir",
+   "start": 3.05,
+   "end": 3.354333
+  },
+  {
+   "text": "se",
+   "start": 3.604333,
+   "end": 3.734749
+  },
+  {
+   "text": "vieron",
+   "start": 3.756541,
+   "end": 3.984791
+  },
+  {
+   "text": "más",
+   "start": 4.017375,
+   "end": 4.191291
+  },
+  {
+   "text": "cansadas",
+   "start": 4.234791,
+   "end": 4.713041
+  },
+  {
+   "text": "y",
+   "start": 4.734791,
+   "end": 4.767416
+  },
+  {
+   "text": "menos",
+   "start": 4.8,
+   "end": 5.104333
+  },
+  {
+   "text": "atractivas",
+   "start": 5.104333,
+   "end": 5.723916
+  }
+ ]
+}

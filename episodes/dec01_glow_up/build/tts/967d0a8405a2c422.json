@@ -1,0 +1,31 @@
+{
+ "text": "Pueden quedar manchas o cicatrices.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pueden",
+   "start": 0.093458,
+   "end": 0.354333
+  },
+  {
+   "text": "quedar",
+   "start": 0.354333,
+   "end": 0.582583
+  },
+  {
+   "text": "manchas",
+   "start": 0.604333,
+   "end": 1.006499
+  },
+  {
+   "text": "o",
+   "start": 1.006541,
+   "end": 1.049999
+  },
+  {
+   "text": "cicatrices",
+   "start": 1.07175,
+   "end": 1.745666
+  }
+ ]
+}

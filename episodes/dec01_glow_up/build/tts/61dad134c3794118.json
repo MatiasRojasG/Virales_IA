@@ -1,0 +1,41 @@
+{
+ "text": "Se puede... y casi todo es gratis.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "puede",
+   "start": 0.32175,
+   "end": 0.560875
+  },
+  {
+   "text": "y",
+   "start": 0.745666,
+   "end": 0.799999
+  },
+  {
+   "text": "casi",
+   "start": 0.876083,
+   "end": 1.104333
+  },
+  {
+   "text": "todo",
+   "start": 1.191291,
+   "end": 1.386957
+  },
+  {
+   "text": "es",
+   "start": 1.419583,
+   "end": 1.517416
+  },
+  {
+   "text": "gratis",
+   "start": 1.55,
+   "end": 1.995666
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "Seis: lava tu cara con un limpiador suave.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Seis",
+   "start": 0.095125,
+   "end": 0.486416
+  },
+  {
+   "text": "lava",
+   "start": 0.725541,
+   "end": 0.964666
+  },
+  {
+   "text": "tu",
+   "start": 1.04075,
+   "end": 1.095083
+  },
+  {
+   "text": "cara",
+   "start": 1.149458,
+   "end": 1.301624
+  },
+  {
+   "text": "con",
+   "start": 1.366833,
+   "end": 1.464666
+  },
+  {
+   "text": "un",
+   "start": 1.475541,
+   "end": 1.573374
+  },
+  {
+   "text": "limpiador",
+   "start": 1.58425,
+   "end": 2.008166
+  },
+  {
+   "text": "suave",
+   "start": 2.029875,
+   "end": 2.355958
+  }
+ ]
+}

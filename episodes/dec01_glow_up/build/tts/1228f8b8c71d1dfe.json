@@ -1,0 +1,46 @@
+{
+ "text": "Una cara que sonríe se percibe más atractiva.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.095125,
+   "end": 0.247291
+  },
+  {
+   "text": "cara",
+   "start": 0.3125,
+   "end": 0.453791
+  },
+  {
+   "text": "que",
+   "start": 0.519041,
+   "end": 0.584249
+  },
+  {
+   "text": "sonríe",
+   "start": 0.605958,
+   "end": 0.964666
+  },
+  {
+   "text": "se",
+   "start": 0.986416,
+   "end": 1.073374
+  },
+  {
+   "text": "percibe",
+   "start": 1.138583,
+   "end": 1.475541
+  },
+  {
+   "text": "más",
+   "start": 1.497291,
+   "end": 1.725541
+  },
+  {
+   "text": "atractiva",
+   "start": 1.725541,
+   "end": 2.247291
+  }
+ ]
+}

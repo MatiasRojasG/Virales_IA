@@ -1,0 +1,51 @@
+{
+ "text": "Estas son diez reglas que sí tienen respaldo científico.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Estas",
+   "start": 0.093458,
+   "end": 0.354333
+  },
+  {
+   "text": "son",
+   "start": 0.354333,
+   "end": 0.528249
+  },
+  {
+   "text": "diez",
+   "start": 0.57175,
+   "end": 0.734791
+  },
+  {
+   "text": "reglas",
+   "start": 0.767375,
+   "end": 1.082583
+  },
+  {
+   "text": "que",
+   "start": 1.126083,
+   "end": 1.169541
+  },
+  {
+   "text": "sí",
+   "start": 1.180416,
+   "end": 1.278249
+  },
+  {
+   "text": "tienen",
+   "start": 1.343458,
+   "end": 1.582583
+  },
+  {
+   "text": "respaldo",
+   "start": 1.582625,
+   "end": 2.006541
+  },
+  {
+   "text": "científico",
+   "start": 2.02825,
+   "end": 2.582583
+  }
+ ]
+}

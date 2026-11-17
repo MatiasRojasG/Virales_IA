@@ -1,0 +1,26 @@
+{
+ "text": "¿Verte mejor sin filtros?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Verte",
+   "start": 0.095125,
+   "end": 0.366875
+  },
+  {
+   "text": "mejor",
+   "start": 0.388583,
+   "end": 0.649458
+  },
+  {
+   "text": "sin",
+   "start": 0.682083,
+   "end": 0.877708
+  },
+  {
+   "text": "filtros",
+   "start": 0.877708,
+   "end": 1.345083
+  }
+ ]
+}

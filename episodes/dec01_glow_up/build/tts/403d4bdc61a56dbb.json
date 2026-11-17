@@ -1,0 +1,21 @@
+{
+ "text": "Diez: sé constante.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Diez",
+   "start": 0.095125,
+   "end": 0.464708
+  },
+  {
+   "text": "sé",
+   "start": 0.627708,
+   "end": 0.736416
+  },
+  {
+   "text": "constante",
+   "start": 0.801625,
+   "end": 1.3125
+  }
+ ]
+}

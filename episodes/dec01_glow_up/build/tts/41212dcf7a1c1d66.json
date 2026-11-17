@@ -1,0 +1,21 @@
+{
+ "text": "Cinco: no fumes.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cinco",
+   "start": 0.095125,
+   "end": 0.529916
+  },
+  {
+   "text": "no",
+   "start": 0.747291,
+   "end": 0.899457
+  },
+  {
+   "text": "fumes",
+   "start": 0.932083,
+   "end": 1.355999
+  }
+ ]
+}

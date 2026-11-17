@@ -1,0 +1,31 @@
+{
+ "text": "Tres: más frutas y verduras.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tres",
+   "start": 0.093458,
+   "end": 0.419541
+  },
+  {
+   "text": "más",
+   "start": 0.593458,
+   "end": 0.843458
+  },
+  {
+   "text": "frutas",
+   "start": 0.876083,
+   "end": 1.213041
+  },
+  {
+   "text": "y",
+   "start": 1.234791,
+   "end": 1.256541
+  },
+  {
+   "text": "verduras",
+   "start": 1.289125,
+   "end": 1.810875
+  }
+ ]
+}

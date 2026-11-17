@@ -1,0 +1,56 @@
+{
+ "text": "En estudios con gemelos, el que fumaba solía verse mayor.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "estudios",
+   "start": 0.213041,
+   "end": 0.604332
+  },
+  {
+   "text": "con",
+   "start": 0.636958,
+   "end": 0.756541
+  },
+  {
+   "text": "gemelos",
+   "start": 0.756541,
+   "end": 1.213082
+  },
+  {
+   "text": "el",
+   "start": 1.484791,
+   "end": 1.560874
+  },
+  {
+   "text": "que",
+   "start": 1.604333,
+   "end": 1.669541
+  },
+  {
+   "text": "fumaba",
+   "start": 1.691291,
+   "end": 2.028249
+  },
+  {
+   "text": "solía",
+   "start": 2.039125,
+   "end": 2.354333
+  },
+  {
+   "text": "verse",
+   "start": 2.386958,
+   "end": 2.636958
+  },
+  {
+   "text": "mayor",
+   "start": 2.658708,
+   "end": 3.006541
+  }
+ ]
+}

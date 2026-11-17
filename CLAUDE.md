@@ -21,6 +21,14 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Con la opción elegida se produce el reel (40–60 s; plantilla de marca: `episodes/lx01_protector_solar/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
 - Nunca copiar videos ajenos: solo el tema.
 
+## Formato decálogo (serie de stheq.ia)
+- Decálogos prácticos: cómo cuidarse, estudiar, verse mejor, hacer ejercicio, dormir, etc. El tema se elige por tendencia, comparando vistas de Shorts en español de los últimos 30 días.
+- **Excepción al arco de «una historia»:** el gancho es una pregunta con promesa («¿Quieres… sin…?») y la cifra («diez reglas»); luego vienen 10 reglas de 4–8 s, y el cierre responde la pregunta del gancho, con un llamado a guardar.
+- **Cada regla:** número hablado («Uno:»), la acción y una frase de respaldo («en un estudio…», «recomienda la OMS…»).
+- **Solo reglas con respaldo:** fuentes en el README; las simplificaciones se dicen en la narración o en el README.
+- **Visual por regla:** número grande arriba, ícono blanco animado que reacciona a la palabra clave, etiqueta corta y una fila de 10 puntos de avance. Cada regla entra por la derecha y sale por la izquierda.
+- **Plantilla:** `episodes/dec01_glow_up/`.
+
 ## Retención
 - El hook está en el cuadro 0: problema visual inmediato, sin intro ni pantalla de presentación.
 - Curiosidad progresiva, preguntas abiertas y un payoff satisfactorio. Una idea visual principal por escena.

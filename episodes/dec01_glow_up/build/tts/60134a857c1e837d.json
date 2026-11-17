@@ -1,0 +1,36 @@
+{
+ "text": "Guárdalo y empieza hoy, por una.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Guárdalo",
+   "start": 0.093458,
+   "end": 0.539124
+  },
+  {
+   "text": "y",
+   "start": 0.582625,
+   "end": 0.626083
+  },
+  {
+   "text": "empieza",
+   "start": 0.636958,
+   "end": 1.049999
+  },
+  {
+   "text": "hoy",
+   "start": 1.093458,
+   "end": 1.278249
+  },
+  {
+   "text": "por",
+   "start": 1.560875,
+   "end": 1.647833
+  },
+  {
+   "text": "una",
+   "start": 1.658708,
+   "end": 1.876083
+  }
+ ]
+}

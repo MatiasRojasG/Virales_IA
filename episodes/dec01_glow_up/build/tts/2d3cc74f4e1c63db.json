@@ -1,0 +1,76 @@
+{
+ "text": "Ciento cincuenta minutos a la semana, y fuerza dos días: eso recomienda la OMS.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ciento",
+   "start": 0.097166,
+   "end": 0.462749
+  },
+  {
+   "text": "cincuenta",
+   "start": 0.498125,
+   "end": 0.934458
+  },
+  {
+   "text": "minutos",
+   "start": 0.969791,
+   "end": 1.382541
+  },
+  {
+   "text": "a",
+   "start": 1.382541,
+   "end": 1.4297069
+  },
+  {
+   "text": "la",
+   "start": 1.4415,
+   "end": 1.524041
+  },
+  {
+   "text": "semana",
+   "start": 1.535833,
+   "end": 1.972166
+  },
+  {
+   "text": "y",
+   "start": 2.243416,
+   "end": 2.302374
+  },
+  {
+   "text": "fuerza",
+   "start": 2.33775,
+   "end": 2.667958
+  },
+  {
+   "text": "dos",
+   "start": 2.703291,
+   "end": 2.880166
+  },
+  {
+   "text": "días",
+   "start": 2.915583,
+   "end": 3.245791
+  },
+  {
+   "text": "eso",
+   "start": 3.517,
+   "end": 3.72925
+  },
+  {
+   "text": "recomienda",
+   "start": 3.752833,
+   "end": 4.295291
+  },
+  {
+   "text": "la",
+   "start": 4.307083,
+   "end": 4.424999
+  },
+  {
+   "text": "OMS",
+   "start": 4.472166,
+   "end": 5.120749
+  }
+ ]
+}

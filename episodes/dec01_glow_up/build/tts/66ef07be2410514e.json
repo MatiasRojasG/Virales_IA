@@ -1,0 +1,46 @@
+{
+ "text": "Frotar fuerte irrita más de lo que limpia.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Frotar",
+   "start": 0.093458,
+   "end": 0.430416
+  },
+  {
+   "text": "fuerte",
+   "start": 0.463041,
+   "end": 0.767374
+  },
+  {
+   "text": "irrita",
+   "start": 0.810875,
+   "end": 1.104333
+  },
+  {
+   "text": "más",
+   "start": 1.126083,
+   "end": 1.354333
+  },
+  {
+   "text": "de",
+   "start": 1.376083,
+   "end": 1.430416
+  },
+  {
+   "text": "lo",
+   "start": 1.452166,
+   "end": 1.506499
+  },
+  {
+   "text": "que",
+   "start": 1.560875,
+   "end": 1.615208
+  },
+  {
+   "text": "limpia",
+   "start": 1.636958,
+   "end": 1.995666
+  }
+ ]
+}
