@@ -67,10 +67,10 @@ def s1():
     logo = Image.open(K.LOGO); lw = 640; lh = round(logo.height * lw / logo.width)
     p.img(K.skimg(logo.resize((lw * 2, lh * 2), Image.LANCZOS)), (W - lw) / 2, 300, (W + lw) / 2, 300 + lh, nearest=False)
     y = 300 + lh + 150
-    for ln, col in [("Entiende la tecnología.", FG), ("Cuida tu mente y tu cuerpo.", RED)]:
+    for ln, col in [("La tecnología que ya", FG), ("está cambiando todo.", RED)]:
         p.text(ln, W / 2, y, 68, col, 1, face=C.FONT_BLACK); y += 82
     y += 30
-    for ln in K.wrap("Esto es lo que vas a encontrar aquí.", 34, C.FONT_MED, 820):
+    for ln in K.wrap("IA, medicina, robótica, energía y más, explicadas simple. Esto es lo que vas a encontrar aquí.", 34, C.FONT_MED, 820):
         p.text(ln, W / 2, y, 34, FG, 0.75, face=C.FONT_MED); y += 48
     p.text("Desliza", X1 - 64, 1290, 26, FG, 0.9, face=C.FONT_BOLD, align="right")
     p.arrow(X1 - 50, 1281, X1, 1281, RED, 1, w=4, head=18)
@@ -80,10 +80,9 @@ def s1():
 
 def s2():
     arr, p = base(); K.cabecera(p, FECHA)
-    telefono(p, ROOT / "episodes/lx01_protector_solar/output/portada.png", W / 2 - 170, 480, 540, rot=-5)
-    telefono(p, ROOT / "episodes/dec01_glow_up/output/portada.png", W / 2 + 170, 470, 540, rot=5)
-    bloque(p, 830, "REELS · TODOS LOS DÍAS", "Explicaciones y decálogos",
-           "Cuidado personal, estoicismo, tecnología e IA: historias que explican cómo funcionan las cosas y listas prácticas para aplicarlas. Siempre con fuente.")
+    telefono(p, ROOT / "assets/demo/reel_mock.png", W / 2, 470, 560, rot=-4)
+    bloque(p, 830, "REELS · TODOS LOS DÍAS", "Tecnología aplicada, explicada",
+           "Cómo la IA detecta enfermedades, cómo opera un robot cirujano o qué hay detrás de lo que usas cada día. En menos de un minuto y con fuente.")
     K.pie(p, "", 2, N)
     return arr
 
@@ -91,7 +90,7 @@ def s2():
 def s3():
     arr, p = base(); K.cabecera(p, FECHA)
     telefono(p, ROOT / "carruseles/2026-11-18_noticias/slides/01.jpg", W / 2, 470, 560, rot=4)
-    bloque(p, 830, "CARRUSELES · LUNES, MIÉRCOLES Y VIERNES", "Noticias de IA",
+    bloque(p, 830, "CARRUSELES · LUNES, MIÉRCOLES Y VIERNES", "Noticias de IA y tecnología",
            "Lo que pasó en las últimas 24 horas, verificado en la fuente y explicado en pocas líneas: qué pasó y por qué importa.")
     K.pie(p, "", 3, N)
     return arr
@@ -122,7 +121,7 @@ def s4():
     p.rect(X0 + 520, ly - 22, X0 + 556, ly + 12, RED, 1, radius=6)
     p.text("noticias de IA", X0 + 572, ly + 4, 28, FG, 0.85, face=C.FONT_SEMI, align="left")
     bloque(p, 830, "TU SEMANA EN STHEQ", "10 publicaciones por semana",
-           "Un reel cada día (explicación o decálogo) y tres carruseles de noticias. Siempre a la hora en que más gente está conectada.")
+           "Un reel de tecnología cada día y tres carruseles de noticias. Siempre a la hora en que más gente está conectada.")
     K.pie(p, "", 4, N)
     return arr
 
@@ -132,10 +131,10 @@ def s5():
     y = 290
     p.text("NUESTRAS REGLAS", X0, y, 26, RED, 1, face=C.FONT_BOLD, align="left", tracking=3)
     y += 30
-    reglas = [("Todo con fuente.", "Estudios, textos originales, organismos oficiales y medios verificados."),
+    reglas = [("Todo con fuente.", "Estudios, organismos oficiales y medios verificados. Siempre citados."),
               ("Nada de rumores.", "Si una noticia no se confirma en la fuente original, no se publica."),
-              ("Sin promesas milagrosas.", "Hábitos que funcionan, no atajos ni productos mágicos."),
-              ("Directo al punto.", "Lo que pasó, por qué importa y qué puedes hacer tú.")]
+              ("Sin humo.", "Tecnología real y aplicada, no promesas ni ciencia ficción."),
+              ("Directo al punto.", "Qué es, cómo funciona y por qué te importa.")]
     for i, (t, d) in enumerate(reglas):
         y += 112
         p.text(f"{i + 1:02d}", X0, y, 52, RED, 1, face=C.FONT_BLACK, align="left")
@@ -153,10 +152,10 @@ def s6():
     logo = Image.open(K.LOGO); lw = 520; lh = round(logo.height * lw / logo.width)
     p.img(K.skimg(logo.resize((lw * 2, lh * 2), Image.LANCZOS)), (W - lw) / 2, 240, (W + lw) / 2, 240 + lh, nearest=False)
     y = 240 + lh + 160
-    for ln in K.wrap("¿Sobre qué quieres el próximo reel?", 64, C.FONT_BLACK, X1 - X0 - 40):
+    for ln in K.wrap("¿Qué tecnología quieres entender primero?", 64, C.FONT_BLACK, X1 - X0 - 40):
         p.text(ln, W / 2, y, 64, FG, 1, face=C.FONT_BLACK); y += 76
     y += 20
-    ops = ["estoicismo", "piel", "IA", "dormir"]
+    ops = ["IA", "medicina", "robots", "energía"]
     f_w = [K.font(32, C.FONT_BOLD).measureText(o) + 48 for o in ops]
     tot = sum(f_w) + 16 * (len(ops) - 1); x = (W - tot) / 2
     for o, w in zip(ops, f_w):
