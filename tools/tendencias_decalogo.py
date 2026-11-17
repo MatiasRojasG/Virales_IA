@@ -1,5 +1,5 @@
 """Temas en tendencia para los reels de stheq.ia (explicaciones y decálogos): compara las vistas de
-Shorts en español por categoría (cuidado personal, estoicismo, tecnología, hábitos).
+Shorts en español por categoría de tecnología aplicada (IA, medicina, robótica, energía, espacio…).
 
 La clave NO está en el código: el entorno la agrega como encabezado a las solicitudes a
 www.googleapis.com. Uso:  python tools/tendencias_decalogo.py [--dias 30] [--top 30]
@@ -12,18 +12,14 @@ import argparse, collections, datetime as dt, json, urllib.parse, urllib.request
 
 API = "https://www.googleapis.com/youtube/v3/"
 CATEGORIAS = {
-    "verse mejor": ["cómo verse mejor", "glow up tips", "looksmaxing"],
-    "piel": ["rutina skincare", "cuidado de la piel tips"],
-    "pelo y barba": ["cuidado del cabello tips", "barba tips"],
-    "ejercicio": ["ejercicio en casa", "rutina de ejercicio principiantes", "ganar músculo tips"],
-    "dormir": ["cómo dormir mejor", "hábitos de sueño"],
-    "estudiar": ["cómo estudiar mejor", "tips para estudiar", "técnica de estudio"],
-    "alimentación": ["comer saludable tips", "hábitos alimenticios"],
-    "mente y hábitos": ["hábitos que cambiarán tu vida", "disciplina hábitos", "ansiedad tips"],
-    "productividad": ["productividad tips", "cómo dejar de procrastinar"],
-    "estoicismo": ["estoicismo", "marco aurelio", "filosofía estoica", "séneca frases"],
-    "tecnología": ["cómo funciona la tecnología", "tecnología curiosidades", "datos curiosos tecnología"],
-    "IA": ["inteligencia artificial explicada", "cómo funciona la IA"],
+    "IA aplicada": ["inteligencia artificial explicada", "cómo funciona la IA", "IA usos increíbles"],
+    "medicina y salud": ["tecnología médica", "robot cirujano", "IA medicina"],
+    "robótica": ["robots increíbles", "robot humanoide"],
+    "energía": ["energía solar tecnología", "baterías nueva tecnología", "fusión nuclear explicada"],
+    "espacio": ["tecnología espacial", "cohete reutilizable"],
+    "ciberseguridad": ["ciberseguridad tips", "estafa con inteligencia artificial", "deepfake"],
+    "día a día": ["cómo funciona el celular", "tecnología curiosidades", "datos curiosos tecnología"],
+    "autos y movilidad": ["auto eléctrico tecnología", "auto autónomo"],
 }
 
 

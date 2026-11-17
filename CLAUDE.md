@@ -1,6 +1,6 @@
 # ReelForge · stheq.ia — reglas permanentes
 
-**Una sola cuenta: stheq.ia** (antes «Detrás del Algoritmo»). Publica todos los videos: IA y tecnología, ciencia cotidiana y cuidado personal basado en evidencia (lo que antes era «looksmax»). Los episodios publicados antes de esta regla quedan como están.
+**Una sola cuenta: stheq.ia** (antes «Detrás del Algoritmo»). **Solo tecnología aplicada:** IA, medicina y salud, robótica, energía, espacio, ciberseguridad, movilidad y la tecnología del día a día. Qué es, cómo funciona y por qué le importa a la gente. Desde el 17-nov-2026 la cuenta parte de cero: los episodios anteriores (cuidado personal, decálogos, explicaciones con el estilo antiguo) quedan solo como archivo y no se publican.
 
 Las instrucciones nuevas complementan estas. Ante contradicciones, prima la instrucción explícita más reciente.
 
@@ -14,43 +14,34 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Preferir simulaciones/experimentos reales ejecutados en el repo (NumPy) y distinguir resultados propios de los de la fuente.
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
-## Flujo diario automático (YouTube Shorts + Instagram Reels de stheq.ia)
+## Flujo diario automático (Reels de Instagram + Shorts de YouTube de stheq.ia)
 **El usuario solo elige el tema; todo lo demás es automático.** Una tarea programada lo dispara cada mañana.
-- **Temas de la cuenta:** cuidado personal (piel, sueño, ejercicio, alimentación, hábitos), estoicismo y mente, tecnología e IA, ciencia cotidiana.
-- **Formatos del reel diario:**
-  - **Explicación**, el formato principal: una historia y un problema, con el arco de «Enfoque narrativo». Plantilla: `episodes/lx01_protector_solar/`.
-  - **Decálogo**: 10 reglas. Plantilla: `episodes/dec01_glow_up/`. Ver «Formato decálogo».
-1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` (mediana de vistas de Shorts en español por categoría, incluidas estoicismo, tecnología e IA). Para IA, complementar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45`.
-2. **3 ideas por día:**
-   - de **3 temas distintos**, priorizando las categorías con más vistas;
-   - al menos 2 explicaciones y como máximo 1 decálogo;
-   - rotando los temas: no repetir el tema del reel de ayer y cubrir los 4 temas a lo largo de la semana;
-   - sin repetir temas de `episodes/` ni de `propuestas/`.
-3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: formato, tema, tendencia con vistas, gancho, guion por bloques (explicación) o las 10 reglas (decálogo), y fuentes. También van `storyboard_A/B/C.png` (5 fotogramas con el estilo de marca). Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
-4. **Producción** con la plantilla del formato elegido, la validación obligatoria y el control de calidad de abajo. Explicación: 40–70 s; decálogo: 50–80 s. Commit y push.
+- **Formato único de reel: tarjetas con el diseño de los carruseles** (`tools/reel_tarjetas.py`). Cada reel es un `guion.json` con 4–7 tarjetas.
+  - Cada tarjeta lleva arriba logo, nombre, fecha y barra de avance; luego una foto en blanco y negro de Wikimedia Commons con crédito y pie, la categoría, el número, un titular, un dato grande en rojo (opcional) y la voz con subtítulos.
+  - La primera tarjeta es el gancho (problema o pregunta) y la última responde la pregunta.
+  - Duración de 40–60 s.
+  - Ejemplo del diseño: `assets/demo/reel_mock.png`.
+1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` (categorías: IA aplicada, medicina y salud, robótica, energía, espacio, ciberseguridad, día a día, autos y movilidad), complementado con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45`.
+2. **3 ideas por día** de tecnología aplicada:
+   - de 3 categorías distintas, priorizando las de más vistas;
+   - rotando: no repetir la categoría de ayer;
+   - sin repetir temas de `episodes/` ni de `propuestas/`;
+   - cada idea con fuentes reales (estudio, institución, empresa u organismo, medio de primer nivel).
+3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: categoría, tendencia con vistas, gancho, las tarjetas (titular + narración) y fuentes. También van `storyboard_A/B/C.png`: 5 tarjetas de cada idea renderizadas con `tools/reel_tarjetas.py --stills`, o un montaje equivalente. Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
+4. **Producción:**
+   - `episodes/tec<NN>_<tema>/guion.json` + `img/` (fotos con `tools/commons.py`).
+   - `python tools/reel_tarjetas.py episodes/<slug>/guion.json --stills`, revisando con Read cada cuadro.
+   - Luego `python tools/reel_tarjetas.py episodes/<slug>/guion.json`, que genera MP4, SRT, guion, portada y normaliza el volumen.
+   - Validación obligatoria y control de calidad de abajo. README con fuentes. Commit y push.
 5. **Publicación en Metricool** (marca stheticIA, `blogId 8154202`, zona America/Santiago, Instagram y YouTube conectados):
    - **Media:** `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA del commit>/episodes/<slug>/output/<slug>.mp4` (repo público; con el SHA el enlace no cambia). La portada `output/portada.png` va como `videoThumbnailUrl` solo en Instagram.
    - **Horario:** `getBestTimeToPostByNetwork` para youtube e instagram (hoy). Se elige la mejor hora de cada red que esté ≥ 30 min en el futuro y antes de las 22:00, **a ≥ 1 h de cualquier otra publicación ya programada en esa red** (revisar con `getScheduledPosts`).
    - **Dos publicaciones**, cada una a su mejor hora:
-     - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, categoría `HOWTO_STYLE` (cuidado personal), `EDUCATION` (estoicismo, ciencia) o `SCIENCE_TECHNOLOGY` (tecnología, IA), `madeForKids false`, 5–7 tags.
+     - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, `category "SCIENCE_TECHNOLOGY"`, `madeForKids false`, 5–7 tags.
      - **Instagram:** `type "REEL"`, `showReelOnFeed true`.
-   - **Texto:** gancho, el dato o la idea central con su fuente, pregunta para comentarios, «Guárdalo», y 6–8 hashtags con `#stheqia`. Sin aclaraciones técnicas.
+   - **Texto:** gancho, la idea central con su fuente, pregunta para comentarios, «Guárdalo», fuentes, créditos de fotos y 6–8 hashtags con `#stheqia`.
 6. **Confirmación:** se programa un aviso 10 min después de cada publicación. Al llegar, `getScheduledPosts` (`extendedRange true`) debe mostrar PUBLISHED, y se envían los enlaces. Si falló, se explica en 1–2 frases y qué hacer.
 - Nunca copiar videos ajenos: solo el tema.
-
-## Estoicismo (reglas de contenido)
-- **Citas solo verificadas en el texto original**, con obra y pasaje en el README (p. ej., Marco Aurelio, *Meditaciones* IV.3; Séneca, *Cartas a Lucilio* 13; Epicteto, *Enquiridión* 1). En redes circulan muchas frases falsas atribuidas a los estoicos: si no está en el texto, no se usa.
-- **Formato:** la idea se cuenta con una situación de hoy (el celular, el trabajo, una discusión) y se explica qué proponían y por qué.
-- **Psicología:** si se relaciona con ella (p. ej., la influencia del estoicismo en la terapia cognitiva), se dice con fuente.
-- **Tono:** sin autoayuda vacía ni promesas («esto cambiará tu vida»).
-
-## Formato decálogo (serie de stheq.ia)
-- Decálogos prácticos: cómo cuidarse, estudiar, verse mejor, hacer ejercicio, dormir, etc. El tema se elige por tendencia (`tools/tendencias_decalogo.py`).
-- **Excepción al arco de «una historia»:** el gancho es una pregunta con promesa («¿Quieres… sin…?») y la cifra («diez reglas»); luego vienen 10 reglas de 4–8 s, y el cierre responde la pregunta del gancho, con un llamado a guardar.
-- **Cada regla:** número hablado («Uno:»), la acción y una frase de respaldo («en un estudio…», «recomienda la OMS…»).
-- **Solo reglas con respaldo:** fuentes en el README; las simplificaciones se dicen en la narración o en el README.
-- **Visual por regla:** número grande arriba, ícono blanco animado que reacciona a la palabra clave, etiqueta corta y una fila de 10 puntos de avance. Cada regla entra por la derecha y sale por la izquierda.
-- **Plantilla:** `episodes/dec01_glow_up/`.
 
 ## Carrusel de noticias de IA y tecnología (Instagram, lunes, miércoles y viernes)
 - **Publicación directa, sin aprobación previa:** por eso la verificación es estricta.
@@ -80,8 +71,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Duración: 50–90 s sugerido, ajustable a la historia. Si no cabe, dividir en episodios.
 
 ## Restricciones visuales permanentes
-- **Única excepción de texto fijo:** el nombre de la página, `stheq.ia`, pequeño y centrado arriba (`marca.title`, y≈300, 30 px, tinta al 72 %), visible todo el video.
-- **Nunca** mostrar dentro del video títulos del episodio, números de episodio, encabezados, nombres de unidades ni banners/etiquetas. Títulos y numeración quedan solo como metadatos (`EPISODE` en `script.py`, README).
+- **Reels y carruseles comparten diseño:** logo + `stheq.ia` + fecha arriba, foto en blanco y negro con crédito, número + categoría + titular. En los reels el titular de cada tarjeta es texto de apoyo, no un título del episodio. No se muestran números de episodio ni banners ajenos a ese diseño.
 - Comenzar directamente con la historia.
 - Texto en pantalla solo cuando ayuda a comprender (cifras, etiquetas de diagramas). El video es entretenimiento visual: imágenes, figuras y movimientos suaves.
 - Subtítulos y elementos importantes dentro de las zonas seguras (`reelforge/config.py`). Contenido entre y≈480 y 1300. Subtítulos en y≈1390.
@@ -89,7 +79,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 ## Identidad (marca stheq.ia, módulo `reelforge/marca.py`)
 - 1080×1920, 9:16, 60 fps, H.264 + AAC 48 kHz.
 - **Sobria: fondo negro, letras y animaciones blancas.** Fondo #0A0A0A con halo apenas más claro y grano fino (`marca.background`). Letras, trazos y figuras en blanco #F2F2F2. Grises #9A9A9A / #4A4A4A para lo secundario.
-- **Rojo #E03131:** acento mínimo, solo para palabras clave, revelaciones y alertas.
+- **Negro, blanco y rojo:** acento #E03131 (o fucsia #FF2D78 si se decide cambiarlo en `marca.RED`), mínimo, solo para palabras clave, números, datos y alertas.
 - **Café #6B4A33 y tonos de piel:** solo cuando hace falta. Nada de cyan, violeta ni dorado.
 - **Subtítulos:** blancos con palabras clave en rojo (`SUB.draw(..., **marca.SUB_COLORS)`), sobre una banda oscura (`marca.sub_band`).
 - Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial y viñeta (`marca.vignette`).
