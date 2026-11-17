@@ -1,0 +1,46 @@
+{
+ "text": "Esa diferencia entre tu brazo y tu mano...",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "Esa",
+   "start": 0.093458,
+   "end": 0.310833
+  },
+  {
+   "text": "diferencia",
+   "start": 0.32175,
+   "end": 0.8
+  },
+  {
+   "text": "entre",
+   "start": 0.810875,
+   "end": 1.02825
+  },
+  {
+   "text": "tu",
+   "start": 1.039125,
+   "end": 1.136958
+  },
+  {
+   "text": "brazo",
+   "start": 1.147833,
+   "end": 1.419583
+  },
+  {
+   "text": "y",
+   "start": 1.430416,
+   "end": 1.484749
+  },
+  {
+   "text": "tu",
+   "start": 1.495666,
+   "end": 1.593499
+  },
+  {
+   "text": "mano",
+   "start": 1.604333,
+   "end": 1.930416
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "es cuánto sol ha recibido cada una.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "es",
+   "start": 0.102083,
+   "end": 0.310416
+  },
+  {
+   "text": "cuánto",
+   "start": 0.323458,
+   "end": 0.635958
+  },
+  {
+   "text": "sol",
+   "start": 0.648958,
+   "end": 0.909374
+  },
+  {
+   "text": "ha",
+   "start": 0.922416,
+   "end": 0.974499
+  },
+  {
+   "text": "recibido",
+   "start": 0.9875,
+   "end": 1.534375
+  },
+  {
+   "text": "cada",
+   "start": 1.547416,
+   "end": 1.833874
+  },
+  {
+   "text": "una",
+   "start": 1.846875,
+   "end": 2.198458
+  }
+ ]
+}

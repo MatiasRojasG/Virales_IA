@@ -1,0 +1,41 @@
+{
+ "text": "y la del dorso de tu mano.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "la",
+   "start": 0.213041,
+   "end": 0.310874
+  },
+  {
+   "text": "del",
+   "start": 0.32175,
+   "end": 0.495666
+  },
+  {
+   "text": "dorso",
+   "start": 0.506541,
+   "end": 0.799999
+  },
+  {
+   "text": "de",
+   "start": 0.810875,
+   "end": 0.908708
+  },
+  {
+   "text": "tu",
+   "start": 0.919583,
+   "end": 1.017416
+  },
+  {
+   "text": "mano",
+   "start": 1.02825,
+   "end": 1.354333
+  }
+ ]
+}

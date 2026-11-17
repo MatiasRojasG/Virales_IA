@@ -1,0 +1,51 @@
+{
+ "text": "En el grupo diario, la piel casi no envejeció.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "el",
+   "start": 0.256541,
+   "end": 0.354374
+  },
+  {
+   "text": "grupo",
+   "start": 0.365208,
+   "end": 0.604333
+  },
+  {
+   "text": "diario",
+   "start": 0.615208,
+   "end": 0.984791
+  },
+  {
+   "text": "la",
+   "start": 1.256541,
+   "end": 1.343499
+  },
+  {
+   "text": "piel",
+   "start": 1.354333,
+   "end": 1.593458
+  },
+  {
+   "text": "casi",
+   "start": 1.604333,
+   "end": 1.919541
+  },
+  {
+   "text": "no",
+   "start": 1.930416,
+   "end": 2.071707
+  },
+  {
+   "text": "envejeció",
+   "start": 2.082625,
+   "end": 2.647833
+  }
+ ]
+}

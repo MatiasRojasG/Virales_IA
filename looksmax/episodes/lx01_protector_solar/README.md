@@ -1,6 +1,6 @@
 # Misma edad, distinta piel (looksmax · ep. 1 · opción A de las propuestas del 17-11)
 
-**Video:** `output/lx01_protector_solar.mp4`, 1080×1920, 60 fps, H.264 + AAC 48 kHz. Las métricas de control de calidad se anotan al final.
+**Video:** `output/lx01_protector_solar.mp4`, 1080×1920, 60 fps, H.264 + AAC 48 kHz, **66,3 s**, −14,0 LUFS, pico −1,0 dBTP. Sin títulos ni banners, sin saltos aislados ni cuadros vacíos (medido cuadro a cuadro). Los subtítulos salen alineados por palabra con la voz (0–20 ms de adelanto).
 
 ## Historia
 1. **Gancho:** la piel del brazo por dentro y la del dorso de la mano tienen la misma edad. ¿Por qué una se ve más vieja?
@@ -32,3 +32,12 @@ Hughes MCB, Williams GM, Baker P, Green AC. *Sunscreen and prevention of skin ag
 > #skincare #protectorsolar #looksmaxing #cuidadodelapiel #antiedad #glowup #ciencia
 
 **Hora recomendada:** martes a jueves, entre las 19:00 y las 21:00 en la hora local de la audiencia (Latinoamérica).
+
+## Ritmo
+- **Voz:** `es-MX-JorgeNeural` a +15 %, sintetizada frase por frase.
+- **Velocidad:** 174 palabras, 3,2 palabras/s al hablar y 2,6 palabras/s contando las pausas.
+- **Cifras:** las frases con «903», «cuatro años y medio» y «24 %» van más lentas (−4 % y −8 %).
+- **Pausas:** de 0,2 a 1,0 s. Las largas caen antes y después de las revelaciones (la pregunta del gancho, la duda y el 24 %).
+- **Música:** silencio durante la duda, arpegio desde el estudio y pulso en el resultado.
+
+**Paleta:** la de la cuenta looksmax (`looksmax/lmstyle.py`). Fondo negro mate y dorado solo para destacar. Las palabras clave de los subtítulos van en dorado.

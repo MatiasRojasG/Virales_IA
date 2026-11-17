@@ -1,0 +1,46 @@
+{
+ "text": "en la cara, el cuello... y las manos.",
+ "voice": "es-MX-JorgeNeural",
+ "words": [
+  {
+   "text": "en",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "la",
+   "start": 0.256541,
+   "end": 0.332624
+  },
+  {
+   "text": "cara",
+   "start": 0.343458,
+   "end": 0.658666
+  },
+  {
+   "text": "el",
+   "start": 0.865208,
+   "end": 1.017374
+  },
+  {
+   "text": "cuello",
+   "start": 1.02825,
+   "end": 1.397833
+  },
+  {
+   "text": "y",
+   "start": 1.604333,
+   "end": 1.680416
+  },
+  {
+   "text": "las",
+   "start": 1.691291,
+   "end": 1.876082
+  },
+  {
+   "text": "manos",
+   "start": 1.886958,
+   "end": 2.332624
+  }
+ ]
+}
