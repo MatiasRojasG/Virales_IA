@@ -43,7 +43,9 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 
 ## Carrusel de noticias de IA y tecnología (Instagram, lunes, miércoles y viernes)
 - **Publicación directa, sin aprobación previa:** por eso la verificación es estricta.
-- **Selección:** 3–5 noticias de IA o tecnología de los últimos 2–5 días, de interés general.
+- **Primero la hora, después las noticias.** Se elige la hora de publicación (ver «Publicación») y la ventana de noticias son **solo las 24 h previas a esa hora**. Cada noticia debe tener fecha y hora de publicación dentro de esa ventana; se anota en `noticias.json` (`"publicada": "2026-11-18 07:30 UTC"`).
+- **Sin repetir:** se descarta cualquier noticia (o continuación sin un hecho nuevo) que ya aparezca en `carruseles/*/noticias.json`. Una actualización solo entra si trae un hecho nuevo de las últimas 24 h, y se cuenta ese hecho.
+- **Selección:** 3–5 noticias de IA o tecnología de interés general. Si en 24 h solo hay 2 sólidas, el carrusel lleva 2. Si hay menos de 2, ese día **no se publica** y se avisa al usuario.
   - Cada una se verifica en la fuente original (comunicado, filing, blog oficial, discurso) o en al menos un medio de primer nivel (Reuters, AP, Bloomberg, CNBC, NPR, The Verge, etc.).
   - Si no hay confirmación sólida, la noticia no entra.
 - **Tono:** nada de rumores, acusaciones sobre la vida privada de personas ni cifras sin fuente. Si una empresa no dio un motivo, se dice así.
@@ -51,14 +53,14 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
   - Nada de fotos de agencias o medios (derechos de autor).
   - La foto debe representar la noticia sin inducir a error. Ejemplo: no usar una pantalla con el anuncio de otra empresa.
   - Si aparece una persona, el campo `pie` dice quién es.
-- **Diseño:** `carruseles/<fecha>_noticias/noticias.json` y luego `python tools/carrusel.py <json>`.
+- **Diseño:** `carruseles/<fecha>_noticias/noticias.json` y luego `python tools/carrusel.py <json>`. El kicker de la portada es «NOTICIAS DE IA · ÚLTIMAS 24 H» y el título no dice «esta semana».
   - Salida: 1080×1350, portada, una lámina por noticia y cierre con el logo.
   - Cada lámina lleva el logo y el nombre de la cuenta, la fecha, la foto en blanco y negro, el número, la categoría, el titular, el texto, «Por qué importa» y la fuente.
   - Revisar `hoja.png` y cada lámina con Read: sin cortes, solapamientos ni faltas.
 - **Publicación:** Metricool `blogId 8154202`, solo Instagram, `instagramData.type "POST"`.
   - Media: las láminas por URL raw con el SHA del commit, en orden. `mediaAltText` con el titular de cada una.
   - Hora: la mejor del día con `getBestTimeToPostByNetwork`, ≥ 30 min en el futuro y a ≥ 1 h de otras publicaciones.
-  - Texto: gancho, una línea por noticia, pregunta, «Guarda este post», fuentes con fecha, créditos de fotos y 6–8 hashtags con `#stheqia`.
+  - Texto: «Lo que pasó en IA en las últimas 24 horas 👇», una línea por noticia, pregunta, «Guarda este post», fuentes con fecha, créditos de fotos y 6–8 hashtags con `#stheqia`.
 - **Marca:** logo en `assets/marca/` (`logo_blanco.png` para fondo negro).
 
 ## Retención
