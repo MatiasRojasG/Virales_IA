@@ -14,15 +14,27 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Preferir simulaciones/experimentos reales ejecutados en el repo (NumPy) y distinguir resultados propios de los de la fuente.
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
-## Temas (flujo diario)
-- **Cada día, 3 opciones primero, video después.** Buscar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` (videos de IA con miles o millones de vistas, humor incluido) y en tendencias de cuidado personal/looksmaxing (vidIQ, prensa). Elegir 3 temas virales, mezclando ambos mundos, que se expliquen con las clases o con estudios publicados, sin repetir episodios anteriores.
-- En cuidado personal: solo afirmaciones respaldadas por estudios (autor, revista y año en el README). Nada de consejos médicos riesgosos ni promesas de cambios físicos.
-- Para cada opción: inspiración (título y vistas), concepto de clase, guion por bloques (narración + imagen) y un storyboard de 5 fotogramas clave. Todo va en `propuestas/<fecha>/` (`propuestas.md`, `storyboard_*.png`). Se envían al usuario, que elige.
-- Con la opción elegida se produce el reel (40–60 s; plantilla de marca: `episodes/lx01_protector_solar/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
+## Flujo diario automático (YouTube Shorts + Instagram Reels de stheq.ia)
+**El usuario solo elige el tema; todo lo demás es automático.** Una tarea programada lo dispara cada mañana.
+1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` compara categorías de hábitos (verse mejor, piel, pelo, ejercicio, dormir, estudiar, alimentación, mente, productividad) por mediana de vistas de Shorts en español. Se puede complementar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` cuando un decálogo de IA calce (p. ej., «10 usos de la IA para estudiar»).
+2. **3 ideas de decálogo:**
+   - de categorías distintas, con preferencia por las de mayor mediana;
+   - sin repetir temas de `episodes/` ni de `propuestas/`;
+   - solo con reglas que tengan respaldo.
+3. **Propuestas:** en `propuestas/<fecha>/` van `propuestas.md` (por idea: tendencia con vistas, gancho y las 10 reglas con su fuente) y `storyboard_A/B/C.png` (5 fotogramas con el estilo de marca). Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
+4. **Producción** con la plantilla `episodes/dec01_glow_up/`, la validación obligatoria y el control de calidad de abajo. Duración de 50–80 s. Commit y push.
+5. **Publicación en Metricool** (marca stheticIA, `blogId 8154202`, zona America/Santiago, Instagram y YouTube conectados):
+   - **Media:** `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA del commit>/episodes/<slug>/output/<slug>.mp4` (repo público; con el SHA el enlace no cambia). La portada `output/portada.png` va como `videoThumbnailUrl` solo en Instagram.
+   - **Horario:** `getBestTimeToPostByNetwork` para youtube e instagram (hoy). Se elige la mejor hora de cada red que esté ≥ 30 min en el futuro y antes de las 22:00, **a ≥ 1 h de cualquier otra publicación ya programada** (revisar con `getScheduledPosts`).
+   - **Dos publicaciones**, cada una a su mejor hora:
+     - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, `category "HOWTO_STYLE"`, `madeForKids false`, 5–7 tags.
+     - **Instagram:** `type "REEL"`, `showReelOnFeed true`.
+   - **Texto:** gancho, «todas con respaldo científico», pregunta para comentarios, «Guárdalo», y 6–8 hashtags con `#stheqia`. Sin aclaraciones técnicas; las fuentes van en el README.
+6. **Confirmación:** se programa un aviso 10 min después de cada publicación. Al llegar, `getScheduledPosts` (`extendedRange true`) debe mostrar PUBLISHED, y se envían los enlaces. Si falló, se explica en 1–2 frases y qué hacer.
 - Nunca copiar videos ajenos: solo el tema.
 
 ## Formato decálogo (serie de stheq.ia)
-- Decálogos prácticos: cómo cuidarse, estudiar, verse mejor, hacer ejercicio, dormir, etc. El tema se elige por tendencia, comparando vistas de Shorts en español de los últimos 30 días.
+- Decálogos prácticos: cómo cuidarse, estudiar, verse mejor, hacer ejercicio, dormir, etc. El tema se elige por tendencia (`tools/tendencias_decalogo.py`).
 - **Excepción al arco de «una historia»:** el gancho es una pregunta con promesa («¿Quieres… sin…?») y la cifra («diez reglas»); luego vienen 10 reglas de 4–8 s, y el cierre responde la pregunta del gancho, con un llamado a guardar.
 - **Cada regla:** número hablado («Uno:»), la acción y una frase de respaldo («en un estudio…», «recomienda la OMS…»).
 - **Solo reglas con respaldo:** fuentes en el README; las simplificaciones se dicen en la narración o en el README.
