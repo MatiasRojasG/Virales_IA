@@ -1,0 +1,32 @@
+[hook] (  0.1s –   6.6s)
+Cada vez que una bola toca el engranaje... se copia. Si toca el borde rosado... desaparece.
+
+[pregunta] (  6.6s –   8.5s)
+¿Cuáles van a sobrevivir?
+
+[copias] (  8.5s –  16.3s)
+Fíjate en algo: las copias no son perfectas. Cada una nace con un pequeño cambio... en cuánto gira hacia el centro.
+
+[azar] ( 16.3s –  21.4s)
+Las violetas casi no giran. Rebotan al azar... y muchas terminan en el rosado.
+
+[crece] ( 21.4s –  25.0s)
+Y el borde rosado... empieza a crecer.
+
+[ventaja] ( 25.0s –  31.0s)
+Las que giran un poco más vuelven al engranaje... y se copian más. Y sus copias heredan ese giro.
+
+[suspenso] ( 31.0s –  33.7s)
+Generación tras generación...
+
+[revela] ( 33.7s –  40.3s)
+casi todas son cyan. Dan vueltas alrededor del engranaje... y nadie las programó para eso.
+
+[nombre] ( 40.3s –  46.2s)
+Copiar, cambiar un poquito y quedarse con lo que sobrevive... eso es un algoritmo genético.
+
+[real] ( 46.2s –  50.8s)
+La NASA usó uno para diseñar una antena... que terminó en el espacio.
+
+[cierre] ( 50.8s –  55.0s)
+¿Cuáles sobrevivieron? Las que aprendieron a volver.

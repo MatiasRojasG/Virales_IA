@@ -1,0 +1,155 @@
+1
+00:00:00,150 --> 00:00:00,812
+Cada vez que una
+
+2
+00:00:00,812 --> 00:00:02,394
+bola toca el engranaje...
+
+3
+00:00:02,394 --> 00:00:03,703
+se copia.
+
+4
+00:00:03,743 --> 00:00:05,193
+Si toca el borde rosado...
+
+5
+00:00:05,193 --> 00:00:06,523
+desaparece.
+
+6
+00:00:06,613 --> 00:00:08,367
+¿Cuáles van a sobrevivir?
+
+7
+00:00:08,596 --> 00:00:09,604
+Fíjate en algo:
+
+8
+00:00:09,604 --> 00:00:11,636
+las copias no
+son perfectas.
+
+9
+00:00:11,636 --> 00:00:12,497
+Cada una nace con
+
+10
+00:00:12,497 --> 00:00:13,788
+un pequeño cambio...
+
+11
+00:00:13,788 --> 00:00:14,946
+en cuánto gira hacia
+
+12
+00:00:14,946 --> 00:00:16,277
+el centro.
+
+13
+00:00:16,317 --> 00:00:18,228
+Las violetas casi no giran.
+
+14
+00:00:18,228 --> 00:00:19,236
+Rebotan al azar...
+
+15
+00:00:19,236 --> 00:00:20,213
+y muchas terminan en
+
+16
+00:00:20,213 --> 00:00:21,429
+el rosado.
+
+17
+00:00:21,429 --> 00:00:22,956
+Y el borde rosado...
+
+18
+00:00:22,956 --> 00:00:24,814
+empieza a crecer.
+
+19
+00:00:25,004 --> 00:00:25,718
+Las que giran un
+
+20
+00:00:25,718 --> 00:00:27,304
+poco más vuelven
+al engranaje...
+
+21
+00:00:27,304 --> 00:00:28,708
+y se copian más.
+
+22
+00:00:28,708 --> 00:00:29,675
+Y sus copias heredan
+
+23
+00:00:29,675 --> 00:00:30,910
+ese giro.
+
+24
+00:00:31,000 --> 00:00:33,384
+Generación tras
+generación...
+
+25
+00:00:33,774 --> 00:00:35,535
+casi todas son cyan.
+
+26
+00:00:35,625 --> 00:00:37,807
+Dan vueltas alrededor
+del engranaje...
+
+27
+00:00:37,807 --> 00:00:38,762
+y nadie las programó
+
+28
+00:00:38,762 --> 00:00:39,998
+para eso.
+
+29
+00:00:40,388 --> 00:00:41,764
+Copiar, cambiar
+un poquito
+
+30
+00:00:41,764 --> 00:00:42,447
+y quedarse con lo
+
+31
+00:00:42,447 --> 00:00:43,607
+que sobrevive...
+
+32
+00:00:43,607 --> 00:00:46,149
+eso es un
+algoritmo genético.
+
+33
+00:00:46,289 --> 00:00:47,182
+La NASA usó uno
+
+34
+00:00:47,182 --> 00:00:48,827
+para diseñar una antena...
+
+35
+00:00:48,827 --> 00:00:50,672
+que terminó
+en el espacio.
+
+36
+00:00:50,862 --> 00:00:52,416
+¿Cuáles sobrevivieron?
+
+37
+00:00:52,416 --> 00:00:54,513
+Las que aprendieron
+a volver.
