@@ -1,0 +1,26 @@
+{
+ "text": "Es usarlo cada mañana,",
+ "voice": "es-CO-SalomeNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.101541,
+   "end": 0.346374
+  },
+  {
+   "text": "usarlo",
+   "start": 0.372166,
+   "end": 0.771666
+  },
+  {
+   "text": "cada",
+   "start": 0.836083,
+   "end": 1.003624
+  },
+  {
+   "text": "mañana",
+   "start": 1.04225,
+   "end": 1.544833
+  }
+ ]
+}

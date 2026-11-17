@@ -14,9 +14,9 @@ def measure(s):
     return f.measureText(s) + f.measureText(" ") * 0.5 * s.count(" ")
 
 
-def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0, kw_rgb=None, bg_rgb=None):
-    """kw_rgb / bg_rgb: color de palabras clave y del contorno (por defecto, identidad de la cuenta principal)."""
-    kw_rgb = kw_rgb or C.CYAN; bg_rgb = bg_rgb or C.BG
+def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0, kw_rgb=None, bg_rgb=None, txt_rgb=None):
+    """kw_rgb / bg_rgb / txt_rgb: color de palabras clave, del contorno y del texto (por defecto, identidad de la cuenta principal)."""
+    kw_rgb = kw_rgb or C.CYAN; bg_rgb = bg_rgb or C.BG; txt_rgb = txt_rgb or C.WHITE
     ch = next((c for c in chunks if c["start"] - 0.02 <= t < c["end"]), None)
     if ch is None: return
     f = font(SIZE, FACE)
@@ -38,7 +38,7 @@ def draw(P, chunks, t, y=C.SUB_Y, a_global=1.0, kw_rgb=None, bg_rgb=None):
             ww = f.measureText(w.display)
             spoken = t >= w.start
             current = w.start <= t < max(w.end, w.start + 0.12)
-            rgb = kw_rgb if w.kw else C.WHITE
+            rgb = kw_rgb if w.kw else txt_rgb
             alpha = (1.0 if spoken else 0.42) * a_in
             pop = 1.0
             if current:

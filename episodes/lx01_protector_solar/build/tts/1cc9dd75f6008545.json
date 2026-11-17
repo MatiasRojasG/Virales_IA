@@ -1,0 +1,36 @@
+{
+ "text": "La diferencia no son los años...",
+ "voice": "es-CO-SalomeNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.101541,
+   "end": 0.269082
+  },
+  {
+   "text": "diferencia",
+   "start": 0.3335,
+   "end": 0.9005
+  },
+  {
+   "text": "no",
+   "start": 0.939166,
+   "end": 1.055166
+  },
+  {
+   "text": "son",
+   "start": 1.080916,
+   "end": 1.248457
+  },
+  {
+   "text": "los",
+   "start": 1.287125,
+   "end": 1.467541
+  },
+  {
+   "text": "años",
+   "start": 1.480416,
+   "end": 1.944332
+  }
+ ]
+}

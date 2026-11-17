@@ -1,4 +1,6 @@
-# ReelForge · Detrás del Algoritmo — reglas permanentes
+# ReelForge · stheq.ia — reglas permanentes
+
+**Una sola cuenta: stheq.ia** (antes «Detrás del Algoritmo»). Publica todos los videos: IA y tecnología, ciencia cotidiana y cuidado personal basado en evidencia (lo que antes era «looksmax»). Los episodios publicados antes de esta regla quedan como están.
 
 Las instrucciones nuevas complementan estas. Ante contradicciones, prima la instrucción explícita más reciente.
 
@@ -13,9 +15,10 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
 ## Temas (flujo diario)
-- **Cada día, 3 opciones primero, video después.** Buscar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` (videos de IA con miles o millones de vistas, humor incluido) y elegir 3 temas virales que se expliquen con las clases sin repetir episodios anteriores.
+- **Cada día, 3 opciones primero, video después.** Buscar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` (videos de IA con miles o millones de vistas, humor incluido) y en tendencias de cuidado personal/looksmaxing (vidIQ, prensa). Elegir 3 temas virales, mezclando ambos mundos, que se expliquen con las clases o con estudios publicados, sin repetir episodios anteriores.
+- En cuidado personal: solo afirmaciones respaldadas por estudios (autor, revista y año en el README). Nada de consejos médicos riesgosos ni promesas de cambios físicos.
 - Para cada opción: inspiración (título y vistas), concepto de clase, guion por bloques (narración + imagen) y un storyboard de 5 fotogramas clave. Todo va en `propuestas/<fecha>/` (`propuestas.md`, `storyboard_*.png`). Se envían al usuario, que elige.
-- Con la opción elegida se produce el reel (40–60 s, plantilla `episodes/viral01_numero7/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
+- Con la opción elegida se produce el reel (40–60 s; plantilla de marca: `episodes/lx01_protector_solar/`) y se entrega con el texto para publicar (gancho + hashtags, sin aclaraciones técnicas) y la hora recomendada.
 - Nunca copiar videos ajenos: solo el tema.
 
 ## Retención
@@ -24,18 +27,20 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Duración: 50–90 s sugerido, ajustable a la historia. Si no cabe, dividir en episodios.
 
 ## Restricciones visuales permanentes
-- **Nunca** mostrar dentro del video títulos, números de episodio, encabezados, nombres de unidades ni banners/etiquetas superiores. Títulos y numeración quedan solo como metadatos (`EPISODE` en `script.py`, README).
+- **Única excepción de texto fijo:** el nombre de la página, `stheq.ia`, pequeño y centrado arriba (`marca.title`, y≈300, 30 px, tinta al 72 %), visible todo el video.
+- **Nunca** mostrar dentro del video títulos del episodio, números de episodio, encabezados, nombres de unidades ni banners/etiquetas. Títulos y numeración quedan solo como metadatos (`EPISODE` en `script.py`, README).
 - Comenzar directamente con la historia.
 - Texto en pantalla solo cuando ayuda a comprender (cifras, etiquetas de diagramas). El video es entretenimiento visual: imágenes, figuras y movimientos suaves.
 - Subtítulos y elementos importantes dentro de las zonas seguras (`reelforge/config.py`). Contenido entre y≈480 y 1300. Subtítulos en y≈1390.
 
-## Identidad
+## Identidad (marca stheq.ia, módulo `reelforge/marca.py`)
 - 1080×1920, 9:16, 60 fps, H.264 + AAC 48 kHz.
-- Colores: fondo #090D18, cyan #00D9FF, violeta #9B5CFF, blanco #F5F7FA. Rosado #FF4D8D solo para errores/alertas.
-- Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial, viñeta y profundidad de campo.
+- **Blanco, negro y rojo.** Fondo blanco grisáceo #E9E8E4 con grano de papel (`marca.background`), tinta negra #141414, grises #6E6C68 / #A9A6A0, acento rojo #D62828 solo para lo importante (palabras clave, revelaciones, alertas). **Café** #6B4A33 (y tonos de piel) solo cuando hace falta. Sin cyan, violeta ni dorado.
+- Subtítulos en tinta negra con palabras clave en rojo (`SUB.draw(..., **marca.SUB_COLORS)`) sobre banda clara (`marca.sub_band`).
+- Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial, viñeta gris suave (`marca.vignette`).
 
 ## Voz, subtítulos y audio
-- Voz **siempre nativa latinoamericana**: Edge TTS `es-MX-JorgeNeural` a +18–20 % (nunca voces «Multilingual» en inglés: tienen acento gringo), sintetizado por frase (`Ph`): silencios recortados, pausas diseñadas, `pitch="+5Hz"` en preguntas y `rate="-4%"` en énfasis.
+- Voz **femenina, profunda y calmada, nativa latinoamericana**: Edge TTS `es-CO-SalomeNeural` (`marca.VOICE`), `rate="-3%"` (`marca.RATE`), tono base `pitch="-10Hz"` (`Timeline(..., pitch=marca.PITCH)`). Nunca voces «Multilingual» (acento gringo). Sintetizada por frase (`Ph`): silencios recortados, pausas diseñadas, `pitch=marca.Q` (−5 Hz) en preguntas y `rate=marca.SLOW` (−5 %) en cifras y énfasis. Ritmo objetivo ≈ 2,6–2,9 palabras/s al hablar.
 - Subtítulos karaoke de hasta 4 palabras, con palabras clave `*así*` en cyan y alineación por palabra (sin Whisper).
 - Música procedural (`reelforge/audio.py`) con `music_kw` (arpegio desde el descubrimiento, pulso en el clímax, silencio en el suspenso). SFX discretos.
 

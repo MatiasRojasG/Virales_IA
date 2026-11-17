@@ -124,7 +124,7 @@ def _align(tokens, words, offset):
 
 
 class Timeline:
-    def __init__(self, beats, cache_dir, voice=TTS.VOICE, rate=TTS.RATE, lead_in=0.1, tail=0.6):
+    def __init__(self, beats, cache_dir, voice=TTS.VOICE, rate=TTS.RATE, lead_in=0.1, tail=0.6, pitch="+0Hz"):
         self.beats = beats
         self.sr = sr = TTS.SR
         t = lead_in
@@ -135,7 +135,7 @@ class Timeline:
                 toks = parse(ph.text, b.id)
                 say = " ".join(tk.say for tk in toks)
                 audio, words = TTS.synthesize(say, cache_dir, voice=voice, rate=ph.rate or b.rate or rate,
-                                              pitch=ph.pitch or "+0Hz")
+                                              pitch=ph.pitch or pitch)
                 if words:   # recorta el silencio que agrega el TTS antes y después
                     s0 = max(0.0, words[0]["start"] - 0.05)
                     s1 = min(len(audio) / sr, words[-1]["end"] + 0.14)

@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 
 W, H, FPS = 1080, 1920, 60
-BRAND = "DETRÁS DEL ALGORITMO"
+BRAND = "stheq.ia"        # nombre de la página (antes «Detrás del Algoritmo»)
 
 # Zonas seguras para Reels/TikTok/Shorts (px). Arriba: barra de pestañas;
 # abajo: descripción y botones; derecha: columna de acciones.

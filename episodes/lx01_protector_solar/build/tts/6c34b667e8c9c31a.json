@@ -1,0 +1,76 @@
+{
+ "text": "Y durante cuatro años y medio, midieron la piel... del dorso de sus manos.",
+ "voice": "es-CO-SalomeNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.102625,
+   "end": 0.207875
+  },
+  {
+   "text": "durante",
+   "start": 0.247375,
+   "end": 0.65525
+  },
+  {
+   "text": "cuatro",
+   "start": 0.734208,
+   "end": 1.089458
+  },
+  {
+   "text": "años",
+   "start": 1.089458,
+   "end": 1.471041
+  },
+  {
+   "text": "y",
+   "start": 1.484208,
+   "end": 1.536833
+  },
+  {
+   "text": "medio",
+   "start": 1.563166,
+   "end": 1.971041
+  },
+  {
+   "text": "midieron",
+   "start": 2.273666,
+   "end": 2.707874
+  },
+  {
+   "text": "la",
+   "start": 2.734208,
+   "end": 2.826333
+  },
+  {
+   "text": "piel",
+   "start": 2.918416,
+   "end": 3.273666
+  },
+  {
+   "text": "del",
+   "start": 3.536833,
+   "end": 3.681583
+  },
+  {
+   "text": "dorso",
+   "start": 3.734208,
+   "end": 4.023666
+  },
+  {
+   "text": "de",
+   "start": 4.036833,
+   "end": 4.049999
+  },
+  {
+   "text": "sus",
+   "start": 4.089458,
+   "end": 4.286833
+  },
+  {
+   "text": "manos",
+   "start": 4.339458,
+   "end": 4.852624
+  }
+ ]
+}
