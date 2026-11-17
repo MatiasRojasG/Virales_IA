@@ -16,22 +16,33 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 
 ## Flujo diario automático (YouTube Shorts + Instagram Reels de stheq.ia)
 **El usuario solo elige el tema; todo lo demás es automático.** Una tarea programada lo dispara cada mañana.
-1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` compara categorías de hábitos (verse mejor, piel, pelo, ejercicio, dormir, estudiar, alimentación, mente, productividad) por mediana de vistas de Shorts en español. Se puede complementar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45` cuando un decálogo de IA calce (p. ej., «10 usos de la IA para estudiar»).
-2. **3 ideas de decálogo:**
-   - de categorías distintas, con preferencia por las de mayor mediana;
-   - sin repetir temas de `episodes/` ni de `propuestas/`;
-   - solo con reglas que tengan respaldo.
-3. **Propuestas:** en `propuestas/<fecha>/` van `propuestas.md` (por idea: tendencia con vistas, gancho y las 10 reglas con su fuente) y `storyboard_A/B/C.png` (5 fotogramas con el estilo de marca). Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
-4. **Producción** con la plantilla `episodes/dec01_glow_up/`, la validación obligatoria y el control de calidad de abajo. Duración de 50–80 s. Commit y push.
+- **Temas de la cuenta:** cuidado personal (piel, sueño, ejercicio, alimentación, hábitos), estoicismo y mente, tecnología e IA, ciencia cotidiana.
+- **Formatos del reel diario:**
+  - **Explicación**, el formato principal: una historia y un problema, con el arco de «Enfoque narrativo». Plantilla: `episodes/lx01_protector_solar/`.
+  - **Decálogo**: 10 reglas. Plantilla: `episodes/dec01_glow_up/`. Ver «Formato decálogo».
+1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` (mediana de vistas de Shorts en español por categoría, incluidas estoicismo, tecnología e IA). Para IA, complementar con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45`.
+2. **3 ideas por día:**
+   - de **3 temas distintos**, priorizando las categorías con más vistas;
+   - al menos 2 explicaciones y como máximo 1 decálogo;
+   - rotando los temas: no repetir el tema del reel de ayer y cubrir los 4 temas a lo largo de la semana;
+   - sin repetir temas de `episodes/` ni de `propuestas/`.
+3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: formato, tema, tendencia con vistas, gancho, guion por bloques (explicación) o las 10 reglas (decálogo), y fuentes. También van `storyboard_A/B/C.png` (5 fotogramas con el estilo de marca). Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
+4. **Producción** con la plantilla del formato elegido, la validación obligatoria y el control de calidad de abajo. Explicación: 40–70 s; decálogo: 50–80 s. Commit y push.
 5. **Publicación en Metricool** (marca stheticIA, `blogId 8154202`, zona America/Santiago, Instagram y YouTube conectados):
    - **Media:** `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA del commit>/episodes/<slug>/output/<slug>.mp4` (repo público; con el SHA el enlace no cambia). La portada `output/portada.png` va como `videoThumbnailUrl` solo en Instagram.
-   - **Horario:** `getBestTimeToPostByNetwork` para youtube e instagram (hoy). Se elige la mejor hora de cada red que esté ≥ 30 min en el futuro y antes de las 22:00, **a ≥ 1 h de cualquier otra publicación ya programada** (revisar con `getScheduledPosts`).
+   - **Horario:** `getBestTimeToPostByNetwork` para youtube e instagram (hoy). Se elige la mejor hora de cada red que esté ≥ 30 min en el futuro y antes de las 22:00, **a ≥ 1 h de cualquier otra publicación ya programada en esa red** (revisar con `getScheduledPosts`).
    - **Dos publicaciones**, cada una a su mejor hora:
-     - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, `category "HOWTO_STYLE"`, `madeForKids false`, 5–7 tags.
+     - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, categoría `HOWTO_STYLE` (cuidado personal), `EDUCATION` (estoicismo, ciencia) o `SCIENCE_TECHNOLOGY` (tecnología, IA), `madeForKids false`, 5–7 tags.
      - **Instagram:** `type "REEL"`, `showReelOnFeed true`.
-   - **Texto:** gancho, «todas con respaldo científico», pregunta para comentarios, «Guárdalo», y 6–8 hashtags con `#stheqia`. Sin aclaraciones técnicas; las fuentes van en el README.
+   - **Texto:** gancho, el dato o la idea central con su fuente, pregunta para comentarios, «Guárdalo», y 6–8 hashtags con `#stheqia`. Sin aclaraciones técnicas.
 6. **Confirmación:** se programa un aviso 10 min después de cada publicación. Al llegar, `getScheduledPosts` (`extendedRange true`) debe mostrar PUBLISHED, y se envían los enlaces. Si falló, se explica en 1–2 frases y qué hacer.
 - Nunca copiar videos ajenos: solo el tema.
+
+## Estoicismo (reglas de contenido)
+- **Citas solo verificadas en el texto original**, con obra y pasaje en el README (p. ej., Marco Aurelio, *Meditaciones* IV.3; Séneca, *Cartas a Lucilio* 13; Epicteto, *Enquiridión* 1). En redes circulan muchas frases falsas atribuidas a los estoicos: si no está en el texto, no se usa.
+- **Formato:** la idea se cuenta con una situación de hoy (el celular, el trabajo, una discusión) y se explica qué proponían y por qué.
+- **Psicología:** si se relaciona con ella (p. ej., la influencia del estoicismo en la terapia cognitiva), se dice con fuente.
+- **Tono:** sin autoayuda vacía ni promesas («esto cambiará tu vida»).
 
 ## Formato decálogo (serie de stheq.ia)
 - Decálogos prácticos: cómo cuidarse, estudiar, verse mejor, hacer ejercicio, dormir, etc. El tema se elige por tendencia (`tools/tendencias_decalogo.py`).

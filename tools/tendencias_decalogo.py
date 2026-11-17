@@ -1,8 +1,9 @@
-"""Temas de decálogo en tendencia: compara las vistas de Shorts en español por categoría de hábitos.
+"""Temas en tendencia para los reels de stheq.ia (explicaciones y decálogos): compara las vistas de
+Shorts en español por categoría (cuidado personal, estoicismo, tecnología, hábitos).
 
 La clave NO está en el código: el entorno la agrega como encabezado a las solicitudes a
 www.googleapis.com. Uso:  python tools/tendencias_decalogo.py [--dias 30] [--top 30]
-Costo: cada búsqueda = 100 unidades (límite gratis diario 10.000) → ~2.000 por ejecución.
+Costo: cada búsqueda = 100 unidades (límite gratis diario 10.000) → ~3.000 por ejecución.
 Imprime, por categoría, la mediana de vistas de sus 10 videos más vistos (la señal de tendencia)
 y la lista de los videos más vistos (solo como inspiración de tema: nunca se copia nada).
 """
@@ -20,6 +21,9 @@ CATEGORIAS = {
     "alimentación": ["comer saludable tips", "hábitos alimenticios"],
     "mente y hábitos": ["hábitos que cambiarán tu vida", "disciplina hábitos", "ansiedad tips"],
     "productividad": ["productividad tips", "cómo dejar de procrastinar"],
+    "estoicismo": ["estoicismo", "marco aurelio", "filosofía estoica", "séneca frases"],
+    "tecnología": ["cómo funciona la tecnología", "tecnología curiosidades", "datos curiosos tecnología"],
+    "IA": ["inteligencia artificial explicada", "cómo funciona la IA"],
 }
 
 
