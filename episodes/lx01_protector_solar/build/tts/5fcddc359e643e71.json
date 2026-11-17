@@ -1,0 +1,46 @@
+{
+ "text": "Y ese daño se acumula, año tras año.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "ese",
+   "start": 0.202166,
+   "end": 0.397832
+  },
+  {
+   "text": "daño",
+   "start": 0.430416,
+   "end": 0.680416
+  },
+  {
+   "text": "se",
+   "start": 0.702166,
+   "end": 0.778249
+  },
+  {
+   "text": "acumula",
+   "start": 0.77825,
+   "end": 1.289125
+  },
+  {
+   "text": "año",
+   "start": 1.473916,
+   "end": 1.680457
+  },
+  {
+   "text": "tras",
+   "start": 1.745666,
+   "end": 1.930416
+  },
+  {
+   "text": "año",
+   "start": 1.930416,
+   "end": 2.169541
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "La clave no es un protector caro.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "clave",
+   "start": 0.289125,
+   "end": 0.52825
+  },
+  {
+   "text": "no",
+   "start": 0.560875,
+   "end": 0.680458
+  },
+  {
+   "text": "es",
+   "start": 0.713041,
+   "end": 0.832624
+  },
+  {
+   "text": "un",
+   "start": 0.865208,
+   "end": 0.973916
+  },
+  {
+   "text": "protector",
+   "start": 0.973916,
+   "end": 1.354332
+  },
+  {
+   "text": "caro",
+   "start": 1.419583,
+   "end": 1.626124
+  }
+ ]
+}

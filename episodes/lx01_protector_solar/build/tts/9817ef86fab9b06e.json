@@ -1,0 +1,46 @@
+{
+ "text": "en la cara, el cuello... y las manos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "en",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "la",
+   "start": 0.223916,
+   "end": 0.299999
+  },
+  {
+   "text": "cara",
+   "start": 0.365208,
+   "end": 0.626083
+  },
+  {
+   "text": "el",
+   "start": 0.8,
+   "end": 0.897833
+  },
+  {
+   "text": "cuello",
+   "start": 0.963041,
+   "end": 1.278249
+  },
+  {
+   "text": "y",
+   "start": 1.495666,
+   "end": 1.560874
+  },
+  {
+   "text": "las",
+   "start": 1.582625,
+   "end": 1.745666
+  },
+  {
+   "text": "manos",
+   "start": 1.767375,
+   "end": 2.191291
+  }
+ ]
+}

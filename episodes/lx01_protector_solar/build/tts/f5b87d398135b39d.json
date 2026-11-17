@@ -1,0 +1,41 @@
+{
+ "text": "La mitad usó protector todos los días.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "mitad",
+   "start": 0.223916,
+   "end": 0.484791
+  },
+  {
+   "text": "usó",
+   "start": 0.495666,
+   "end": 0.669582
+  },
+  {
+   "text": "protector",
+   "start": 0.734791,
+   "end": 1.147832
+  },
+  {
+   "text": "todos",
+   "start": 1.245666,
+   "end": 1.484791
+  },
+  {
+   "text": "los",
+   "start": 1.495666,
+   "end": 1.615249
+  },
+  {
+   "text": "días",
+   "start": 1.636958,
+   "end": 1.995666
+  }
+ ]
+}

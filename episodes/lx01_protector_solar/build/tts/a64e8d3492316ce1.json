@@ -1,0 +1,46 @@
+{
+ "text": "Mira la piel de tu brazo, por dentro...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Mira",
+   "start": 0.093458,
+   "end": 0.332583
+  },
+  {
+   "text": "la",
+   "start": 0.354333,
+   "end": 0.430416
+  },
+  {
+   "text": "piel",
+   "start": 0.506541,
+   "end": 0.680457
+  },
+  {
+   "text": "de",
+   "start": 0.713041,
+   "end": 0.767374
+  },
+  {
+   "text": "tu",
+   "start": 0.832625,
+   "end": 0.886958
+  },
+  {
+   "text": "brazo",
+   "start": 0.919583,
+   "end": 1.245666
+  },
+  {
+   "text": "por",
+   "start": 1.517375,
+   "end": 1.626083
+  },
+  {
+   "text": "dentro",
+   "start": 1.658708,
+   "end": 1.973916
+  }
+ ]
+}

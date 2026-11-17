@@ -1,0 +1,36 @@
+{
+ "text": "Pero si tarda años en verse...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "si",
+   "start": 0.27825,
+   "end": 0.365208
+  },
+  {
+   "text": "tarda",
+   "start": 0.441291,
+   "end": 0.669541
+  },
+  {
+   "text": "años",
+   "start": 0.723916,
+   "end": 1.017374
+  },
+  {
+   "text": "en",
+   "start": 1.017375,
+   "end": 1.082583
+  },
+  {
+   "text": "verse",
+   "start": 1.126083,
+   "end": 1.397833
+  }
+ ]
+}

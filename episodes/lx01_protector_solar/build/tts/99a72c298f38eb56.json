@@ -1,0 +1,46 @@
+{
+ "text": "¿Entonces por qué una se ve más vieja?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.539124
+  },
+  {
+   "text": "por",
+   "start": 0.604333,
+   "end": 0.691291
+  },
+  {
+   "text": "qué",
+   "start": 0.756541,
+   "end": 0.832624
+  },
+  {
+   "text": "una",
+   "start": 0.865208,
+   "end": 1.028249
+  },
+  {
+   "text": "se",
+   "start": 1.039125,
+   "end": 1.147833
+  },
+  {
+   "text": "ve",
+   "start": 1.169583,
+   "end": 1.245666
+  },
+  {
+   "text": "más",
+   "start": 1.27825,
+   "end": 1.463041
+  },
+  {
+   "text": "vieja",
+   "start": 1.484791,
+   "end": 1.810874
+  }
+ ]
+}

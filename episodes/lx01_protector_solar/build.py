@@ -20,6 +20,20 @@ BUILD = HERE / "build"
 OUT = HERE / "output"
 
 
+def loudnorm(mp4, I=-14.5, TP=-1.0):
+    """Normaliza el audio a ≈ −14,5 LUFS y pico −1 dBTP (dos pasadas); el video se copia."""
+    f = f"loudnorm=I={I}:TP={TP}:LRA=11"
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(mp4), "-af", f + ":print_format=json", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    m = json.loads(r[r.rindex("{"):r.rindex("}") + 1])
+    f2 = (f + f":measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+          f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    tmp = mp4.with_suffix(".tmp.mp4")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4), "-c:v", "copy", "-af", f2, "-ar", "48000",
+                    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(tmp)], check=True)
+    tmp.replace(mp4)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills", action="store_true")
@@ -53,6 +67,7 @@ def main():
     mp4 = OUT / f"{slug}.mp4"
     R.render_video(scenes.draw_frame, tl.duration, mp4, wav, BUILD / "parts", workers=args.workers)
     print(f"render {time.time() - t0:.1f} s ->", mp4)
+    loudnorm(mp4)
     info = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                            "stream=codec_name,width,height,r_frame_rate,sample_rate,channels:format=duration",
                            "-of", "compact", str(mp4)], capture_output=True, text=True).stdout

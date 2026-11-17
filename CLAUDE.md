@@ -35,12 +35,14 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 
 ## Identidad (marca stheq.ia, módulo `reelforge/marca.py`)
 - 1080×1920, 9:16, 60 fps, H.264 + AAC 48 kHz.
-- **Blanco, negro y rojo.** Fondo blanco grisáceo #E9E8E4 con grano de papel (`marca.background`), tinta negra #141414, grises #6E6C68 / #A9A6A0, acento rojo #D62828 solo para lo importante (palabras clave, revelaciones, alertas). **Café** #6B4A33 (y tonos de piel) solo cuando hace falta. Sin cyan, violeta ni dorado.
-- Subtítulos en tinta negra con palabras clave en rojo (`SUB.draw(..., **marca.SUB_COLORS)`) sobre banda clara (`marca.sub_band`).
-- Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial, viñeta gris suave (`marca.vignette`).
+- **Sobria: fondo negro, letras y animaciones blancas.** Fondo #0A0A0A con halo apenas más claro y grano fino (`marca.background`). Letras, trazos y figuras en blanco #F2F2F2. Grises #9A9A9A / #4A4A4A para lo secundario.
+- **Rojo #E03131:** acento mínimo, solo para palabras clave, revelaciones y alertas.
+- **Café #6B4A33 y tonos de piel:** solo cuando hace falta. Nada de cyan, violeta ni dorado.
+- **Subtítulos:** blancos con palabras clave en rojo (`SUB.draw(..., **marca.SUB_COLORS)`), sobre una banda oscura (`marca.sub_band`).
+- Tipografía Inter (en `assets/fonts`). Motion graphics minimalistas, easing, morphing, continuidad espacial y viñeta (`marca.vignette`).
 
 ## Voz, subtítulos y audio
-- Voz **femenina, profunda y calmada, nativa latinoamericana**: Edge TTS `es-CO-SalomeNeural` (`marca.VOICE`), `rate="-3%"` (`marca.RATE`), tono base `pitch="-10Hz"` (`Timeline(..., pitch=marca.PITCH)`). Nunca voces «Multilingual» (acento gringo). Sintetizada por frase (`Ph`): silencios recortados, pausas diseñadas, `pitch=marca.Q` (−5 Hz) en preguntas y `rate=marca.SLOW` (−5 %) en cifras y énfasis. Ritmo objetivo ≈ 2,6–2,9 palabras/s al hablar.
+- Voz **femenina chilena, grave, ágil y con emoción**: Edge TTS `es-CL-CatalinaNeural` (`marca.VOICE`), `rate="+15%"` (`marca.RATE`) y tono base `pitch="-10Hz"` (`Timeline(..., pitch=marca.PITCH)`). Nunca voces «Multilingual» (acento gringo) ni la colombiana. Se sintetiza frase por frase (`Ph`), con silencios recortados y pausas diseñadas. La emoción sale de variar el tono por frase: preguntas con `pitch=marca.Q` (−3 Hz), revelaciones con `pitch=marca.WOW` (−5 Hz) y cifras o énfasis con `rate=marca.SLOW` (+6 %). Ritmo objetivo: ≈ 3,2–3,5 palabras/s al hablar.
 - Subtítulos karaoke de hasta 4 palabras, con palabras clave `*así*` en cyan y alineación por palabra (sin Whisper).
 - Música procedural (`reelforge/audio.py`) con `music_kw` (arpegio desde el descubrimiento, pulso en el clímax, silencio en el suspenso). SFX discretos.
 

@@ -1,0 +1,36 @@
+{
+ "text": "La otra mitad, solo cuando quería.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "otra",
+   "start": 0.267375,
+   "end": 0.473916
+  },
+  {
+   "text": "mitad",
+   "start": 0.495666,
+   "end": 0.832624
+  },
+  {
+   "text": "solo",
+   "start": 1.07175,
+   "end": 1.332625
+  },
+  {
+   "text": "cuando",
+   "start": 1.397833,
+   "end": 1.582624
+  },
+  {
+   "text": "quería",
+   "start": 1.636958,
+   "end": 1.941291
+  }
+ ]
+}

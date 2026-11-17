@@ -1,0 +1,46 @@
+{
+ "text": "En Australia lo probaron con novecientas tres personas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "Australia",
+   "start": 0.215083,
+   "end": 0.722166
+  },
+  {
+   "text": "lo",
+   "start": 0.74575,
+   "end": 0.8165
+  },
+  {
+   "text": "probaron",
+   "start": 0.875458,
+   "end": 1.252833
+  },
+  {
+   "text": "con",
+   "start": 1.252833,
+   "end": 1.347166
+  },
+  {
+   "text": "novecientas",
+   "start": 1.347166,
+   "end": 1.983957
+  },
+  {
+   "text": "tres",
+   "start": 2.042916,
+   "end": 2.231582
+  },
+  {
+   "text": "personas",
+   "start": 2.290583,
+   "end": 2.868416
+  }
+ ]
+}

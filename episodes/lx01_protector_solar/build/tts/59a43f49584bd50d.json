@@ -1,0 +1,41 @@
+{
+ "text": "¿cómo sabes si protegerte sirve de algo?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "cómo",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "sabes",
+   "start": 0.3,
+   "end": 0.55
+  },
+  {
+   "text": "si",
+   "start": 0.55,
+   "end": 0.626083
+  },
+  {
+   "text": "protegerte",
+   "start": 0.691291,
+   "end": 1.147832
+  },
+  {
+   "text": "sirve",
+   "start": 1.180416,
+   "end": 1.452166
+  },
+  {
+   "text": "de",
+   "start": 1.484791,
+   "end": 1.560874
+  },
+  {
+   "text": "algo",
+   "start": 1.604333,
+   "end": 1.854333
+  }
+ ]
+}

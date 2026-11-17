@@ -91,7 +91,7 @@ def skin_patch(P, x, y, r, age=0.0, a=1.0, seed=1, tone=None, ring=0.0, ring_rgb
         c.restore()
         P.circle(x, y, r, L.INK, 0.18, stroke=3)
         if ring > 0:
-            rgb = ring_rgb or L.RED
+            rgb = ring_rgb or L.INK
             P.circle(x, y, r + 10, rgb, 0.9 * ring, stroke=5)
             P.circle(x, y, r + 10, rgb, 0.25 * ring, stroke=16, blur=10)
 
@@ -99,18 +99,18 @@ def skin_patch(P, x, y, r, age=0.0, a=1.0, seed=1, tone=None, ring=0.0, ring_rgb
 # =============================================================== íconos
 def sun(P, x, y, r, a=1.0, t=0.0):
     if a <= 0: return
-    P.circle(x, y, r * 2.4, L.RED, 0.10 * a, blur=r * 0.8)
+    P.circle(x, y, r * 2.4, L.INK, 0.10 * a, blur=r * 0.8)
     for k in range(12):
         ang = k * math.pi / 6 + t * 0.35
         P.line(x + math.cos(ang) * r * 1.3, y + math.sin(ang) * r * 1.3,
-               x + math.cos(ang) * r * 1.62, y + math.sin(ang) * r * 1.62, L.RED, a, w=r * 0.13)
-    P.circle(x, y, r, L.RED, a)
+               x + math.cos(ang) * r * 1.62, y + math.sin(ang) * r * 1.62, L.INK, a, w=r * 0.13)
+    P.circle(x, y, r, L.INK, a)
 
 
 def beams(P, x0, y0, x1, y1, t, a, n=5, spread=70, rgb=None):
     """Haces de luz con trazos que avanzan (de (x0,y0) hacia (x1,y1))."""
     if a <= 0: return
-    rgb = rgb or L.RED
+    rgb = rgb or L.INK
     ang = math.atan2(y1 - y0, x1 - x0); nx, ny = -math.sin(ang), math.cos(ang)
     L_ = math.hypot(x1 - x0, y1 - y0)
     for k in range(n):
@@ -154,7 +154,7 @@ def dab(P, x, y, t, t0, a=1.0):
     fade = 1 - 0.55 * clamp((t - t0 - 0.6) / 0.8)              # el protector se esparce
     P.circle(x, y, 17 * out_back(u) * (1 + 0.5 * (1 - fade)), lerp_c(L.WHITE, L.SKIN, 0.15), 0.9 * a * fade, blur=2)
     v = clamp((t - t0) / 0.9)
-    if v < 1: P.circle(x, y, 18 + 55 * out_cubic(v), L.RED, (1 - v) * a, stroke=4)
+    if v < 1: P.circle(x, y, 18 + 55 * out_cubic(v), L.INK, (1 - v) * a, stroke=4)
 
 
 # =============================================================== 1 · lupas del inicio / cierre
@@ -173,7 +173,7 @@ def lenses_intro(P, t):
     skin_patch(P, rx, ry, rr * (1 + 0.04 * vie), 0.62, a, seed=7, ring=max(ringR, vie))
     la = a * (1 - m)
     P.text("brazo, por dentro", LX, LY + LR + 70, 36, L.INK if ringL > 0.3 else L.GRAY, la, face=C.FONT_BOLD)
-    P.text("dorso de la mano", RX, LY + LR + 70, 36, L.RED if ringR > 0.3 or vie > 0.3 else L.GRAY, la, face=C.FONT_BOLD)
+    P.text("dorso de la mano", RX, LY + LR + 70, 36, L.INK if ringR > 0.3 or vie > 0.3 else L.GRAY, la, face=C.FONT_BOLD)
     # «misma edad»
     ae = window(t, c["exact"] - 0.1, c["sol0"] + 0.4, 0.35, 0.4)
     if ae > 0:
@@ -189,7 +189,7 @@ def lenses_intro(P, t):
         beams(P, sx + 30, sy + 40, rx, ry - rr * 0.9, t, asun * 0.9, n=4, spread=60)
         sun(P, sx, sy, 50 * (0.6 + 0.4 * out_back(prog(t, c["solw"] - 0.25, c["solw"] + 0.25))), asun, t)
         # el brazo, a la sombra
-        P.circle(LX, LY, LR, L.INK, 0.2 * asun * (1 - m))
+        P.circle(LX, LY, LR, L.BG, 0.4 * asun * (1 - m))
 
 
 def lenses_end(P, t):
@@ -208,7 +208,7 @@ def lenses_end(P, t):
     if asun > 0:
         beams(P, 670, 470, RX, LY - LR * 0.9, t, asun * 0.9, n=4, spread=60)
         sun(P, 640, 440, 50 * out_back(asun), asun, t)
-        P.circle(LX, LY, LR, L.INK, 0.2 * asun)
+        P.circle(LX, LY, LR, L.BG, 0.4 * asun)
 
 
 # =============================================================== 2 · corte de piel y colágeno
@@ -261,7 +261,7 @@ def xsection(P, t):
             if not broken:
                 mx, my = (x0 + x1) / 2, (y0 + y1) / 2 + 9 * math.sin(t * 1.6 + ph)
                 w = skia.Path(); w.moveTo(x0, y0); w.quadTo(mx, my, x1, y1)
-                col = lerp_c(FIBER, L.RED, hi)
+                col = lerp_c(FIBER, L.INK, hi)
                 cv.drawPath(w, paint(col, 0.85, stroke=6))
             else:
                 k = clamp((dmg - th * 0.95) / 0.08)
@@ -290,7 +290,7 @@ def xsection(P, t):
         for k in range(n):
             xx = 290 + k * 500 / (n - 1)
             on = clamp(filled - k)
-            P.circle(xx, 1255, 8, L.RED if on > 0.5 else L.DIM, ay)
+            P.circle(xx, 1255, 8, L.INK if on > 0.5 else L.DIM, ay)
         P.text("años", 250, 1265, 30, L.GRAY, ay, face=C.FONT_BOLD, align="right")
 
 
@@ -308,7 +308,7 @@ def doubt(P, t):
         P.circle(cx, cy, r, L.CARD, 1); P.circle(cx, cy, r, L.GRAY, 1, stroke=5)
         ang = t * 9
         P.line(cx, cy, cx + 44 * math.sin(ang), cy - 44 * math.cos(ang), L.INK, 1, w=6)
-        P.line(cx, cy, cx + 28 * math.sin(ang / 12), cy - 28 * math.cos(ang / 12), L.RED, 1, w=7)
+        P.line(cx, cy, cx + 28 * math.sin(ang / 12), cy - 28 * math.cos(ang / 12), L.INK, 1, w=7)
         aq = prog(t, c["sirve"] - 0.5, c["sirve"] + 0.0)
         if aq > 0:
             P.text("?", 820, 700 + 6 * math.sin(t * 5), 170, L.RED, out_back(aq), face=C.FONT_BLACK, glow=0.6)
@@ -350,13 +350,13 @@ def study(P, t):
             # al final se contraen hacia la lupa
             cx = LX if g == 0 else RX
             x, y = lerp(x, cx + (x - cx) * LR / 230, fold), lerp(y, LY + (y - LY) * LR / 230, fold)
-            col = lerp_c(L.INK, L.RED if g == 0 else L.GRAY, d)
+            col = lerp_c(L.INK, L.INK if g == 0 else L.DIM, d)
             P.circle(x, y, 6.5 * out_back(ap), col, 0.95)
         an = window(t, c["n903"] - 0.1, c["diario"] + 0.2, 0.3, 0.4)
         P.pill("903 personas", 540, 1250, 38, L.INK, an, bg=False, fill_a=0.06)
         al = prog(t, c["diario"] + 0.2, c["diario"] + 0.6)
         ar = prog(t, c["otra"], c["otra"] + 0.4)
-        P.text("todos los días", LX, LY + 300, 36, L.RED, al, face=C.FONT_BOLD)
+        P.text("todos los días", LX, LY + 300, 36, L.INK, al, face=C.FONT_BOLD)
         P.text("cuando querían", RX, LY + 300, 36, L.GRAY, ar, face=C.FONT_BOLD)
     timebar(P, t, a_mul=1.0)
 
@@ -368,8 +368,8 @@ def timebar(P, t, a_mul=1.0):
     f = prog(t, c["anios"], c["manos"] + 0.2, lambda u: u)
     x0, x1, y = 200, 880, 545
     P.rect(x0, y - 7, x1, y + 7, L.CARD, a, radius=7)
-    P.rect(x0, y - 7, lerp(x0, x1, f), y + 7, L.RED, a, radius=7)
-    P.circle(lerp(x0, x1, f), y, 13, L.RED, a)
+    P.rect(x0, y - 7, lerp(x0, x1, f), y + 7, L.INK, a, radius=7)
+    P.circle(lerp(x0, x1, f), y, 13, L.INK, a)
     P.text("4,5 años", 540, y - 34, 34, L.INK, a, face=C.FONT_BOLD)
 
 
@@ -390,7 +390,7 @@ def result(P, t):
         for xx in (LX, RX):
             P.c.drawArc(skia.Rect(xx - r - 22, y - r - 22, xx + r + 22, y + r + 22), -90, 360 * lapse, False,
                         paint(L.INK, 0.35 * al, stroke=4))
-    P.text("todos los días", LX, y + r + 70, 36, L.RED, a, face=C.FONT_BOLD)
+    P.text("todos los días", LX, y + r + 70, 36, L.INK, a, face=C.FONT_BOLD)
     P.text("cuando querían", RX, y + r + 70, 36, L.GRAY, a, face=C.FONT_BOLD)
     ap = prog(t, c["pct"] - 0.15, c["pct"] + 0.35) * a
     if ap > 0:
@@ -491,7 +491,7 @@ def draw_cover(P, t=0.0):
     sun(P, 920, 660, 38, 1, 0.3)
     P.text("=", 540, 930, 110, L.INK, 1, face=C.FONT_BLACK)
     P.text("brazo, por dentro", LX, 900 + LR + 70, 36, L.GRAY, 1, face=C.FONT_BOLD)
-    P.text("dorso de la mano", RX, 900 + LR + 70, 36, L.RED, 1, face=C.FONT_BOLD)
+    P.text("dorso de la mano", RX, 900 + LR + 70, 36, L.INK, 1, face=C.FONT_BOLD)
     P.text("MISMA EDAD.", 540, 440, 104, L.INK, 1, face=C.FONT_BLACK)
     P.text("DISTINTA PIEL.", 540, 555, 104, L.RED, 1, face=C.FONT_BLACK, glow=0.4)
     L.vignette(P, 0.4)

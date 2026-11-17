@@ -1,0 +1,26 @@
+{
+ "text": "La hizo el sol.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "hizo",
+   "start": 0.245666,
+   "end": 0.452207
+  },
+  {
+   "text": "el",
+   "start": 0.473916,
+   "end": 0.549999
+  },
+  {
+   "text": "sol",
+   "start": 0.593458,
+   "end": 0.799999
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "La luz ultravioleta entra en la piel",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "luz",
+   "start": 0.223916,
+   "end": 0.386957
+  },
+  {
+   "text": "ultravioleta",
+   "start": 0.397833,
+   "end": 0.995666
+  },
+  {
+   "text": "entra",
+   "start": 1.017375,
+   "end": 1.202166
+  },
+  {
+   "text": "en",
+   "start": 1.213041,
+   "end": 1.234791
+  },
+  {
+   "text": "la",
+   "start": 1.256541,
+   "end": 1.321749
+  },
+  {
+   "text": "piel",
+   "start": 1.386958,
+   "end": 1.593499
+  }
+ ]
+}

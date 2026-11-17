@@ -1,0 +1,51 @@
+{
+ "text": "En el grupo diario, la piel casi no envejeció.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "el",
+   "start": 0.223916,
+   "end": 0.343499
+  },
+  {
+   "text": "grupo",
+   "start": 0.354333,
+   "end": 0.582583
+  },
+  {
+   "text": "diario",
+   "start": 0.615208,
+   "end": 0.963041
+  },
+  {
+   "text": "la",
+   "start": 1.202166,
+   "end": 1.310874
+  },
+  {
+   "text": "piel",
+   "start": 1.397833,
+   "end": 1.560874
+  },
+  {
+   "text": "casi",
+   "start": 1.626083,
+   "end": 1.886958
+  },
+  {
+   "text": "no",
+   "start": 1.919583,
+   "end": 2.017416
+  },
+  {
+   "text": "envejeció",
+   "start": 2.060875,
+   "end": 2.55
+  }
+ ]
+}

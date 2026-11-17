@@ -1,0 +1,21 @@
+{
+ "text": "aunque esté nublado,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "aunque",
+   "start": 0.093458,
+   "end": 0.332583
+  },
+  {
+   "text": "esté",
+   "start": 0.343458,
+   "end": 0.539124
+  },
+  {
+   "text": "nublado",
+   "start": 0.57175,
+   "end": 0.963041
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Tienen exactamente la misma edad.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tienen",
+   "start": 0.093458,
+   "end": 0.354333
+  },
+  {
+   "text": "exactamente",
+   "start": 0.365208,
+   "end": 1.028249
+  },
+  {
+   "text": "la",
+   "start": 1.05,
+   "end": 1.136958
+  },
+  {
+   "text": "misma",
+   "start": 1.158708,
+   "end": 1.419583
+  },
+  {
+   "text": "edad",
+   "start": 1.484791,
+   "end": 1.734791
+  }
+ ]
+}

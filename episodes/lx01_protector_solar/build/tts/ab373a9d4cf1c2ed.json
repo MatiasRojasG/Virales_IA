@@ -1,0 +1,71 @@
+{
+ "text": "y rompe de a poco el colágeno, la red que la mantiene firme.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "rompe",
+   "start": 0.191291,
+   "end": 0.506499
+  },
+  {
+   "text": "de",
+   "start": 0.52825,
+   "end": 0.593458
+  },
+  {
+   "text": "a",
+   "start": 0.626083,
+   "end": 0.680416
+  },
+  {
+   "text": "poco",
+   "start": 0.767375,
+   "end": 0.941291
+  },
+  {
+   "text": "el",
+   "start": 0.963041,
+   "end": 1.006499
+  },
+  {
+   "text": "colágeno",
+   "start": 1.060875,
+   "end": 1.52825
+  },
+  {
+   "text": "la",
+   "start": 1.767375,
+   "end": 1.897791
+  },
+  {
+   "text": "red",
+   "start": 1.919583,
+   "end": 2.093499
+  },
+  {
+   "text": "que",
+   "start": 2.158708,
+   "end": 2.213041
+  },
+  {
+   "text": "la",
+   "start": 2.245666,
+   "end": 2.310874
+  },
+  {
+   "text": "mantiene",
+   "start": 2.332625,
+   "end": 2.713041
+  },
+  {
+   "text": "firme",
+   "start": 2.734791,
+   "end": 3.049999
+  }
+ ]
+}

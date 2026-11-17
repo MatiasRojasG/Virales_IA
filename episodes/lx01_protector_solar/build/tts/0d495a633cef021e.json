@@ -1,0 +1,61 @@
+{
+ "text": "Tenían un veinticuatro por ciento menos de probabilidad de mostrar envejecimiento.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tenían",
+   "start": 0.099,
+   "end": 0.442125
+  },
+  {
+   "text": "un",
+   "start": 0.454416,
+   "end": 0.564707
+  },
+  {
+   "text": "veinticuatro",
+   "start": 0.601458,
+   "end": 1.140666
+  },
+  {
+   "text": "por",
+   "start": 1.214208,
+   "end": 1.312249
+  },
+  {
+   "text": "ciento",
+   "start": 1.33675,
+   "end": 1.667625
+  },
+  {
+   "text": "menos",
+   "start": 1.704416,
+   "end": 1.998541
+  },
+  {
+   "text": "de",
+   "start": 2.035291,
+   "end": 2.084291
+  },
+  {
+   "text": "probabilidad",
+   "start": 2.157833,
+   "end": 2.782833
+  },
+  {
+   "text": "de",
+   "start": 2.795083,
+   "end": 2.856374
+  },
+  {
+   "text": "mostrar",
+   "start": 2.893125,
+   "end": 3.297541
+  },
+  {
+   "text": "envejecimiento",
+   "start": 3.309791,
+   "end": 4.192124
+  }
+ ]
+}

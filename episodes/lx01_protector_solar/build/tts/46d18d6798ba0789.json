@@ -1,0 +1,31 @@
+{
+ "text": "no la hicieron los años.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "no",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "la",
+   "start": 0.27825,
+   "end": 0.332583
+  },
+  {
+   "text": "hicieron",
+   "start": 0.376083,
+   "end": 0.691291
+  },
+  {
+   "text": "los",
+   "start": 0.713041,
+   "end": 0.865207
+  },
+  {
+   "text": "años",
+   "start": 0.876083,
+   "end": 1.245666
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "Es usarlo cada mañana,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "usarlo",
+   "start": 0.245666,
+   "end": 0.560874
+  },
+  {
+   "text": "cada",
+   "start": 0.626083,
+   "end": 0.799999
+  },
+  {
+   "text": "mañana",
+   "start": 0.82175,
+   "end": 1.213041
+  }
+ ]
+}

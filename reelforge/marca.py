@@ -1,8 +1,8 @@
 """Identidad de marca de stheq.ia (cuenta única: IA, ciencia y cuidado personal basado en evidencia).
 
-Fondo blanco grisáceo con grano de papel, tinta negra, grises y un solo acento rojo para lo que
-importa. Café solo cuando hace falta (piel, materiales naturales). Tipografía Inter.
-Nombre de la página pequeño arriba (`title`). Voz femenina grave y calmada (`VOICE`, `RATE`, `PITCH`).
+Sobria: fondo negro, letras y animaciones blancas, grises para lo secundario. El rojo es un acento
+mínimo (palabras clave y revelaciones); el café, solo cuando hace falta (piel). Tipografía Inter.
+Nombre de la página pequeño arriba (`title`). Voz femenina chilena, grave y con energía.
 """
 import math
 import random
@@ -15,61 +15,62 @@ def hx(h): return C.hex2rgb(h)
 
 
 # ------------------------------------------------------------------ paleta
-PAPER = hx("#E9E8E4")     # fondo blanco grisáceo
-PAPER2 = hx("#F4F3F0")    # halo central, más claro
-CARD = hx("#DCDAD5")      # tarjetas, pistas, rellenos suaves
-LINE = hx("#C4C1BA")
-INK = hx("#141414")       # texto y figuras principales
-GRAY = hx("#6E6C68")
-DIM = hx("#A9A6A0")
+BG = hx("#0A0A0A")        # fondo negro
+BG2 = hx("#171717")       # halo central, apenas más claro
+CARD = hx("#1F1F1F")      # tarjetas, pistas, rellenos suaves
+LINE = hx("#2E2E2E")
+FG = hx("#F2F2F2")        # letras y animaciones (blanco)
+GRAY = hx("#9A9A9A")
+DIM = hx("#4A4A4A")
 WHITE = hx("#FFFFFF")
-RED = hx("#D62828")       # único acento: palabras clave, revelaciones, alertas
+RED = hx("#E03131")       # acento mínimo: palabras clave, revelaciones, alertas
 BROWN = hx("#6B4A33")     # café: solo cuando hace falta (piel, madera, tierra)
 SKIN = hx("#C9A27E")
 SKIN2 = hx("#A8805E")
+INK, PAPER = FG, BG       # nombres semánticos: INK = lo que se dibuja, PAPER = el fondo
 
 # ------------------------------------------------------------------ voz y nombre
-VOICE = "es-CO-SalomeNeural"   # femenina latina; la más grave de las probadas (F0 ≈ 167 Hz con −10 Hz)
-RATE = "-3%"                   # calmada (≈ 2,8 palabras/s al hablar)
+VOICE = "es-CL-CatalinaNeural" # femenina chilena (F0 ≈ 185 Hz con −10 Hz)
+RATE = "+15%"                  # ágil: ≈ 3,4 palabras/s al hablar
 PITCH = "-10Hz"                # tono base grave
-Q = "-5Hz"                     # preguntas: un poco más agudo que la base
-SLOW = "-5%"                   # frases con cifras o énfasis
+Q = "-3Hz"                     # preguntas: sube el tono (curiosidad)
+WOW = "-5Hz"                   # revelaciones: un poco más de brillo
+SLOW = "+6%"                   # cifras y énfasis: algo más lento que la base
 NAME = "stheq.ia"
 
-SUB_COLORS = dict(kw_rgb=RED, bg_rgb=PAPER, txt_rgb=INK)
+SUB_COLORS = dict(kw_rgb=RED, bg_rgb=BG, txt_rgb=FG)
 
 
 def background(p, t=0.0, glow=0.0):
     c = p.c
-    c.clear(color4(PAPER))
+    c.clear(color4(BG))
     r = 1150 + 40 * math.sin(t * 0.5)
-    sh = skia.GradientShader.MakeRadial((C.W * 0.5, C.H * 0.42), r, [color4(PAPER2, 1.0), color4(PAPER, 0.0)])
+    sh = skia.GradientShader.MakeRadial((C.W * 0.5, C.H * 0.42), r, [color4(BG2, 1.0), color4(BG, 0.0)])
     c.drawPaint(skia.Paint(Shader=sh))
     if glow > 0:
-        sh2 = skia.GradientShader.MakeRadial((C.W * 0.5, C.H * 0.45), 650, [color4(RED, 0.07 * glow), color4(PAPER, 0.0)])
+        sh2 = skia.GradientShader.MakeRadial((C.W * 0.5, C.H * 0.45), 650, [color4(FG, 0.05 * glow), color4(BG, 0.0)])
         c.drawPaint(skia.Paint(Shader=sh2))
-    # grano de papel (cambia lento: sin parpadeo)
+    # grano fino (cambia lento: sin parpadeo)
     rnd = random.Random(int(t * 8) % 5)
-    pp = paint(INK, 0.035)
-    for _ in range(320):
+    pp = paint(FG, 0.022)
+    for _ in range(260):
         c.drawCircle(rnd.uniform(0, C.W), rnd.uniform(0, C.H), 1.1, pp)
 
 
 def vignette(p, s=0.5):
-    """Viñeta suave en gris cálido (sobre fondo claro no se va a negro)."""
     sh = skia.GradientShader.MakeRadial((C.W / 2, C.H * 0.45), C.H * 0.75,
-                                        [color4(GRAY, 0.0), color4(GRAY, 0.0), color4(GRAY, 0.45 * s)], [0, 0.6, 1])
+                                        [color4(BG, 0.0), color4(BG, 0.0), color4((0, 0, 0), s)], [0, 0.55, 1])
     p.c.drawPaint(skia.Paint(Shader=sh))
 
 
 def title(p, a=1.0):
     """Nombre de la página, pequeño y arriba (debajo de la barra de la app)."""
-    p.text(NAME, C.W / 2, 300, 30, INK, 0.72 * a, face=C.FONT_BOLD, tracking=3)
+    p.text(NAME, C.W / 2, 300, 30, FG, 0.7 * a, face=C.FONT_BOLD, tracking=3)
 
 
 def sub_band(p):
-    """Banda clara detrás de los subtítulos."""
-    _vband(p, 1300, C.H, 0.0, 0.9, rgb=PAPER)
+    """Banda oscura detrás de los subtítulos."""
+    _vband(p, 1300, C.H, 0.0, 0.85, rgb=BG)
 
 
 # ------------------------------------------------------------------ figuras reutilizables
@@ -123,14 +124,13 @@ def sun(p, x, y, r, a=1.0, t=0.0):
 
 
 def moon(p, x, y, r, a=1.0):
-    p.circle(x, y, r, INK, a)
-    p.circle(x + r * 0.45, y - r * 0.25, r * 0.9, PAPER, a)
+    p.circle(x, y, r, FG, a)
+    p.circle(x + r * 0.45, y - r * 0.25, r * 0.9, BG, a)
 
 
 def bottle(p, x, y, s=1.0, a=1.0, label="FPS 50"):
     p.rect(x - 70 * s, y - 150 * s, x + 70 * s, y + 170 * s, WHITE, a, radius=34 * s)
-    p.rect(x - 70 * s, y - 150 * s, x + 70 * s, y + 170 * s, INK, 0.3 * a, stroke=3, radius=34 * s)
-    p.rect(x - 34 * s, y - 210 * s, x + 34 * s, y - 145 * s, INK, a, radius=10 * s)
+    p.rect(x - 34 * s, y - 210 * s, x + 34 * s, y - 145 * s, GRAY, a, radius=10 * s)
     p.rect(x - 70 * s, y - 20 * s, x + 70 * s, y + 70 * s, RED, a)
     fs = 34 * s
     w = p.text_width(label, fs, face=C.FONT_BLACK)

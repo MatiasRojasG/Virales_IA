@@ -1,6 +1,6 @@
 # Misma edad, distinta piel (stheq.ia · primer video con la marca nueva · opción A de las propuestas del 17-11)
 
-**Video:** `output/lx01_protector_solar.mp4`, 1080×1920, 60 fps, H.264 + AAC 48 kHz, **71,2 s**, −14,0 LUFS, pico −1,0 dBTP. Sin título del episodio ni banners (solo el nombre de la página arriba), sin saltos aislados ni cuadros vacíos (medido cuadro a cuadro). Los subtítulos salen alineados por palabra con la voz (0–20 ms de adelanto).
+**Video:** `output/lx01_protector_solar.mp4`, 1080×1920, 60 fps, H.264 + AAC 48 kHz, **62,7 s**, −14,5 LUFS, pico −2,9 dBTP. Sin título del episodio ni banners (solo el nombre de la página arriba), sin saltos aislados ni cuadros vacíos (medido cuadro a cuadro). Los subtítulos salen alineados por palabra con la voz (0–20 ms de adelanto).
 
 ## Historia
 1. **Gancho:** la piel del brazo por dentro y la del dorso de la mano tienen la misma edad. ¿Por qué una se ve más vieja?
@@ -34,13 +34,14 @@ Hughes MCB, Williams GM, Baker P, Green AC. *Sunscreen and prevention of skin ag
 **Hora recomendada:** martes a jueves, entre las 19:00 y las 21:00 en la hora local de la audiencia (Latinoamérica).
 
 ## Ritmo
-- **Voz:** `es-CO-SalomeNeural` (femenina, grave y calmada), rate −3 % y tono −10 Hz, sintetizada frase por frase.
-- **Ajustes de entonación:** preguntas a −5 Hz y frases con cifras más lentas.
-- **Velocidad:** 174 palabras, 2,9 palabras/s al hablar y 2,4 palabras/s contando las pausas.
-- **Pausas:** de 0,2 a 1,0 s. Las largas caen antes y después de las revelaciones (la pregunta del gancho, la duda y el 24 %).
+- **Voz:** `es-CL-CatalinaNeural` (femenina chilena, grave), rate +15 % y tono −10 Hz, sintetizada frase por frase.
+- **Emoción:** el tono varía por frase. Las preguntas van a −3 Hz y las revelaciones a −5 Hz («misma edad», «el sol», «casi no envejeció»). Las cifras van algo más lentas.
+- **Velocidad:** 174 palabras, 3,4 palabras/s al hablar y 2,8 palabras/s contando las pausas.
+- **Pausas:** de 0,2 a 1,0 s. Las largas caen antes y después de las revelaciones.
 - **Música:** silencio durante la duda, arpegio desde el estudio y pulso en el resultado.
 
 **Marca stheq.ia** (`reelforge/marca.py`):
-- Fondo blanco grisáceo, tinta negra y rojo solo para lo importante. Café solo en la piel.
+- Sobria: fondo negro, letras y animaciones blancas, grises para lo secundario.
+- Rojo mínimo: rayos UV, preguntas, «24 %», el tachado del precio y las palabras clave.
+- Café solo en la piel.
 - Nombre de la página pequeño arriba.
-- Subtítulos negros con las palabras clave en rojo.

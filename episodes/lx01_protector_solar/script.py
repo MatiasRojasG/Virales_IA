@@ -13,18 +13,18 @@ from reelforge import marca as M
 
 EPISODE = {"num": 1, "slug": "lx01_protector_solar", "title": "Misma edad, distinta piel", "tag": ""}
 VOICE, RATE, PITCH = M.VOICE, M.RATE, M.PITCH
-Q = M.Q; SLOW = M.SLOW; SLOWER = "-8%"
+Q = M.Q; WOW = M.WOW; SLOW = M.SLOW; SLOWER = "+2%"
 
 BEATS = [
     Beat("hook", [
         Ph("Mira la piel de tu brazo, por dentro...", pause=0.35),
         Ph("y la del *dorso* de tu mano.", pause=0.45),
-        Ph("Tienen *exactamente* la misma edad.", pause=0.5),
+        Ph("Tienen *exactamente* la misma edad.", pause=0.5, pitch=WOW),
         Ph("¿Entonces por qué una se ve más *vieja*?", pause=0.75, pitch=Q),
     ]),
     Beat("sol", [
         Ph("La diferencia no son los años...", pause=0.55),
-        Ph("es cuánto *sol* ha recibido cada una.", pause=0.6, rate=SLOW),
+        Ph("es cuánto *sol* ha recibido cada una.", pause=0.6, rate=SLOW, pitch=WOW),
     ]),
     Beat("colageno", [
         Ph("La luz *ultravioleta* entra en la piel", pause=0.2),
@@ -42,7 +42,7 @@ BEATS = [
         Ph("Y durante *cuatro años y medio*, midieron la piel... del dorso de sus manos.", pause=0.8, rate=SLOW),
     ]),
     Beat("resultado", [
-        Ph("En el grupo diario, la piel *casi no envejeció*.", pause=0.5),
+        Ph("En el grupo diario, la piel *casi no envejeció*.", pause=0.5, pitch=WOW),
         Ph("Tenían un *24%|veinticuatro_por_ciento* menos de probabilidad de mostrar envejecimiento.", pause=1.0, rate=SLOWER),
     ]),
     Beat("rutina", [
@@ -54,6 +54,6 @@ BEATS = [
     Beat("cierre", [
         Ph("Esa diferencia entre tu brazo y tu mano...", pause=0.3),
         Ph("no la hicieron los años.", pause=0.5),
-        Ph("La hizo el *sol*.", pause=0.6),
+        Ph("La hizo el *sol*.", pause=0.6, pitch=WOW),
     ]),
 ]
