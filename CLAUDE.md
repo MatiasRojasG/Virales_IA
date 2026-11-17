@@ -41,6 +41,26 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - **Visual por regla:** número grande arriba, ícono blanco animado que reacciona a la palabra clave, etiqueta corta y una fila de 10 puntos de avance. Cada regla entra por la derecha y sale por la izquierda.
 - **Plantilla:** `episodes/dec01_glow_up/`.
 
+## Carrusel de noticias de IA y tecnología (Instagram, lunes, miércoles y viernes)
+- **Publicación directa, sin aprobación previa:** por eso la verificación es estricta.
+- **Selección:** 3–5 noticias de IA o tecnología de los últimos 2–5 días, de interés general.
+  - Cada una se verifica en la fuente original (comunicado, filing, blog oficial, discurso) o en al menos un medio de primer nivel (Reuters, AP, Bloomberg, CNBC, NPR, The Verge, etc.).
+  - Si no hay confirmación sólida, la noticia no entra.
+- **Tono:** nada de rumores, acusaciones sobre la vida privada de personas ni cifras sin fuente. Si una empresa no dio un motivo, se dice así.
+- **Fotos** solo de Wikimedia Commons con licencia libre (`python tools/commons.py buscar|bajar`), con crédito en la lámina y en la descripción.
+  - Nada de fotos de agencias o medios (derechos de autor).
+  - La foto debe representar la noticia sin inducir a error. Ejemplo: no usar una pantalla con el anuncio de otra empresa.
+  - Si aparece una persona, el campo `pie` dice quién es.
+- **Diseño:** `carruseles/<fecha>_noticias/noticias.json` y luego `python tools/carrusel.py <json>`.
+  - Salida: 1080×1350, portada, una lámina por noticia y cierre con el logo.
+  - Cada lámina lleva el logo y el nombre de la cuenta, la fecha, la foto en blanco y negro, el número, la categoría, el titular, el texto, «Por qué importa» y la fuente.
+  - Revisar `hoja.png` y cada lámina con Read: sin cortes, solapamientos ni faltas.
+- **Publicación:** Metricool `blogId 8154202`, solo Instagram, `instagramData.type "POST"`.
+  - Media: las láminas por URL raw con el SHA del commit, en orden. `mediaAltText` con el titular de cada una.
+  - Hora: la mejor del día con `getBestTimeToPostByNetwork`, ≥ 30 min en el futuro y a ≥ 1 h de otras publicaciones.
+  - Texto: gancho, una línea por noticia, pregunta, «Guarda este post», fuentes con fecha, créditos de fotos y 6–8 hashtags con `#stheqia`.
+- **Marca:** logo en `assets/marca/` (`logo_blanco.png` para fondo negro).
+
 ## Retención
 - El hook está en el cuadro 0: problema visual inmediato, sin intro ni pantalla de presentación.
 - Curiosidad progresiva, preguntas abiertas y un payoff satisfactorio. Una idea visual principal por escena.
