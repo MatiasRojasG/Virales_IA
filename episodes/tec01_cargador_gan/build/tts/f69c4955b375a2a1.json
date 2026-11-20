@@ -1,0 +1,96 @@
+{
+ "text": "mientras más rápido prende y apaga, más chica puede ser la pieza más grande de adentro: el transformador.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "mientras",
+   "start": 0.093458,
+   "end": 0.452166
+  },
+  {
+   "text": "más",
+   "start": 0.473916,
+   "end": 0.604332
+  },
+  {
+   "text": "rápido",
+   "start": 0.626083,
+   "end": 0.963041
+  },
+  {
+   "text": "prende",
+   "start": 1.039125,
+   "end": 1.245666
+  },
+  {
+   "text": "y",
+   "start": 1.27825,
+   "end": 1.3
+  },
+  {
+   "text": "apaga",
+   "start": 1.310875,
+   "end": 1.669583
+  },
+  {
+   "text": "más",
+   "start": 1.886958,
+   "end": 2.082624
+  },
+  {
+   "text": "chica",
+   "start": 2.126083,
+   "end": 2.343458
+  },
+  {
+   "text": "puede",
+   "start": 2.419583,
+   "end": 2.571749
+  },
+  {
+   "text": "ser",
+   "start": 2.604333,
+   "end": 2.789124
+  },
+  {
+   "text": "la",
+   "start": 2.8,
+   "end": 2.876083
+  },
+  {
+   "text": "pieza",
+   "start": 2.952166,
+   "end": 3.180416
+  },
+  {
+   "text": "más",
+   "start": 3.202166,
+   "end": 3.419541
+  },
+  {
+   "text": "grande",
+   "start": 3.452166,
+   "end": 3.702166
+  },
+  {
+   "text": "de",
+   "start": 3.734791,
+   "end": 3.778249
+  },
+  {
+   "text": "adentro",
+   "start": 3.789125,
+   "end": 4.169541
+  },
+  {
+   "text": "el",
+   "start": 4.354333,
+   "end": 4.463041
+  },
+  {
+   "text": "transformador",
+   "start": 4.484791,
+   "end": 5.126082
+  }
+ ]
+}

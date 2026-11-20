@@ -1,0 +1,41 @@
+{
+ "text": "Estos dos cargadores entregan lo mismo: 30 watts.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Estos",
+   "start": 0.097166,
+   "end": 0.403749
+  },
+  {
+   "text": "dos",
+   "start": 0.427375,
+   "end": 0.568875
+  },
+  {
+   "text": "cargadores",
+   "start": 0.616041,
+   "end": 1.134916
+  },
+  {
+   "text": "entregan",
+   "start": 1.134916,
+   "end": 1.512291
+  },
+  {
+   "text": "lo",
+   "start": 1.547625,
+   "end": 1.606583
+  },
+  {
+   "text": "mismo",
+   "start": 1.630208,
+   "end": 2.007583
+  },
+  {
+   "text": "30 watts",
+   "start": 2.278791,
+   "end": 3.009916
+  }
+ ]
+}

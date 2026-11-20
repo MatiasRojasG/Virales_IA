@@ -1,0 +1,51 @@
+{
+ "text": "Pero uno es mucho más chico. ¿Cómo lo hace?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "uno",
+   "start": 0.310875,
+   "end": 0.506541
+  },
+  {
+   "text": "es",
+   "start": 0.539125,
+   "end": 0.647833
+  },
+  {
+   "text": "mucho",
+   "start": 0.680416,
+   "end": 0.930416
+  },
+  {
+   "text": "más",
+   "start": 0.952166,
+   "end": 1.126082
+  },
+  {
+   "text": "chico",
+   "start": 1.169583,
+   "end": 1.441333
+  },
+  {
+   "text": "Cómo",
+   "start": 2.206541,
+   "end": 2.413082
+  },
+  {
+   "text": "lo",
+   "start": 2.434791,
+   "end": 2.521749
+  },
+  {
+   "text": "hace",
+   "start": 2.543458,
+   "end": 2.793458
+  }
+ ]
+}

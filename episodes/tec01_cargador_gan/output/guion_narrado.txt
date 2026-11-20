@@ -1,0 +1,17 @@
+[t00] (  0.1s –   7.0s)
+Estos dos cargadores entregan lo mismo: 30 watts. Pero uno es mucho más chico. ¿Cómo lo hace?
+
+[t01] (  7.0s –  15.4s)
+El enchufe de tu casa entrega 220 volts. Tu celular necesita entre 5 y 20. El cargador tiene que bajarlos.
+
+[t02] ( 15.4s –  23.5s)
+Para eso, un chip prende y apaga la corriente miles de veces por segundo. En muchos cargadores comunes, unas 65.000 veces.
+
+[t03] ( 23.5s –  30.8s)
+Y aquí está el truco… mientras más rápido prende y apaga, más chica puede ser la pieza más grande de adentro: el transformador.
+
+[t04] ( 30.8s –  40.6s)
+El silicio, si va muy rápido, se calienta. El nitruro de galio pierde mucho menos energía en cada cambio… y puede pasar las 500.000 veces por segundo.
+
+[t05] ( 40.6s –  48.4s)
+Según Texas Instruments, eso achica esas piezas hasta en un 60 %. Por eso tu cargador nuevo cabe en la mano.

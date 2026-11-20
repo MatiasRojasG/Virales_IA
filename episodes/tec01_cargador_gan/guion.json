@@ -1,0 +1,155 @@
+{
+ "slug": "tec01_cargador_gan",
+ "fecha": "20 NOV 2026",
+ "fuente": "Texas Instruments · Infineon",
+ "portada": [
+  "¿POR QUÉ TU",
+  "CARGADOR ES",
+  "TAN CHICO?"
+ ],
+ "portada_rojo": [
+  2
+ ],
+ "tarjetas": [
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Misma potencia, otro tamaño",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Cargador de silicio (izq.) y de nitruro de galio (der.), ambos de 30 W",
+   "dato": "30 W",
+   "frases": [
+    {
+     "t": "Estos dos cargadores entregan *lo mismo*: 30 watts.",
+     "pausa": 0.3,
+     "lento": true
+    },
+    {
+     "t": "Pero uno es *mucho más chico*. ¿Cómo lo hace?",
+     "pausa": 0.6,
+     "tono": "Q"
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "El enchufe entrega demasiado",
+   "img": "img/enchufe.jpg",
+   "foco": [
+    0.45,
+    0.55
+   ],
+   "pie": "Cargador de celular y su enchufe",
+   "dato": "220 V → 5–20 V",
+   "frases": [
+    {
+     "t": "El enchufe de tu casa entrega *220 volts*.",
+     "pausa": 0.3,
+     "lento": true
+    },
+    {
+     "t": "Tu celular necesita entre 5 y 20. El cargador tiene que *bajarlos*.",
+     "pausa": 0.5,
+     "lento": true
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Un interruptor que nunca para",
+   "img": "img/placa.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Chip conmutador dentro de un cargador",
+   "dato": "65.000 / s",
+   "frases": [
+    {
+     "t": "Para eso, un chip prende y apaga la corriente *miles de veces por segundo*.",
+     "pausa": 0.3
+    },
+    {
+     "t": "En muchos cargadores comunes, unas *65.000 veces*.",
+     "pausa": 0.5,
+     "lento": true
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Más rápido, piezas más chicas",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.33,
+    0.45
+   ],
+   "zoom": 1.5,
+   "pie": "Cargador de silicio de 30 W",
+   "frases": [
+    {
+     "t": "Y aquí está el truco…",
+     "pausa": 0.4
+    },
+    {
+     "t": "mientras *más rápido* prende y apaga, más chica puede ser la pieza más grande de adentro: el *transformador*.",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "El material: nitruro de galio",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.7,
+    0.62
+   ],
+   "zoom": 1.7,
+   "pie": "Cargador de nitruro de galio (GaN) de 30 W",
+   "dato": "GaN",
+   "frases": [
+    {
+     "t": "El silicio, si va muy rápido, se calienta.",
+     "pausa": 0.3
+    },
+    {
+     "t": "El *nitruro de galio* pierde mucho menos energía en cada cambio…",
+     "pausa": 0.4,
+     "tono": "WOW"
+    },
+    {
+     "t": "y puede pasar las *500.000 veces por segundo*.",
+     "pausa": 0.5,
+     "lento": true
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Menos calor, menos tamaño",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Cargador de silicio (izq.) y de nitruro de galio (der.), ambos de 30 W",
+   "dato": "hasta −60 %",
+   "frases": [
+    {
+     "t": "Según Texas Instruments, eso achica esas piezas *hasta en un 60 %*.",
+     "pausa": 0.4,
+     "lento": true
+    },
+    {
+     "t": "Por eso tu cargador nuevo *cabe en la mano*.",
+     "pausa": 0.8,
+     "tono": "WOW"
+    }
+   ]
+  }
+ ]
+}

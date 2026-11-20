@@ -1,0 +1,31 @@
+{
+ "text": "Y aquí está el truco…",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "aquí",
+   "start": 0.180416,
+   "end": 0.408666
+  },
+  {
+   "text": "está",
+   "start": 0.441291,
+   "end": 0.647832
+  },
+  {
+   "text": "el",
+   "start": 0.669583,
+   "end": 0.756541
+  },
+  {
+   "text": "truco",
+   "start": 0.8,
+   "end": 1.07175
+  }
+ ]
+}

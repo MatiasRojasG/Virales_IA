@@ -1,0 +1,76 @@
+{
+ "text": "Para eso, un chip prende y apaga la corriente miles de veces por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "eso",
+   "start": 0.343458,
+   "end": 0.604333
+  },
+  {
+   "text": "un",
+   "start": 0.865208,
+   "end": 1.006499
+  },
+  {
+   "text": "chip",
+   "start": 1.017375,
+   "end": 1.169541
+  },
+  {
+   "text": "prende",
+   "start": 1.234791,
+   "end": 1.452166
+  },
+  {
+   "text": "y",
+   "start": 1.484791,
+   "end": 1.517416
+  },
+  {
+   "text": "apaga",
+   "start": 1.52825,
+   "end": 1.843458
+  },
+  {
+   "text": "la",
+   "start": 1.854333,
+   "end": 1.919541
+  },
+  {
+   "text": "corriente",
+   "start": 1.973916,
+   "end": 2.321749
+  },
+  {
+   "text": "miles",
+   "start": 2.354333,
+   "end": 2.658666
+  },
+  {
+   "text": "de",
+   "start": 2.691291,
+   "end": 2.756499
+  },
+  {
+   "text": "veces",
+   "start": 2.77825,
+   "end": 3.05
+  },
+  {
+   "text": "por",
+   "start": 3.115208,
+   "end": 3.191291
+  },
+  {
+   "text": "segundo",
+   "start": 3.223916,
+   "end": 3.615207
+  }
+ ]
+}
