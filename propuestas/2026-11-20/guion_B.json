@@ -1,0 +1,117 @@
+{
+ "slug": "sb_B",
+ "fecha": "20 NOV 2026",
+ "fuente": "1X Technologies · Engadget · The Robot Report",
+ "portada": [
+  "EL ROBOT QUE LIMPIA",
+  "¿LO MANEJA ALGUIEN?"
+ ],
+ "portada_rojo": [
+  1
+ ],
+ "tarjetas": [
+  {
+   "cat": "ROBÓTICA",
+   "titular": "Un robot para tus tareas",
+   "img": "img/b1.jpg",
+   "foco": [
+    0.3,
+    0.35
+   ],
+   "pie": "EVE, robot anterior de 1X (ex Halodi Robotics), con una ingeniera",
+   "dato": "20.000 USD",
+   "frases": [
+    {
+     "t": "Una empresa vende un robot humanoide para *ordenar tu casa*.",
+     "pausa": 0.3
+    },
+    {
+     "t": "¿Cuánto hace *solo*?",
+     "tono": "Q",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "ROBÓTICA",
+   "titular": "Tu casa es un caos",
+   "img": "img/b1.jpg",
+   "foco": [
+    0.25,
+    0.5
+   ],
+   "zoom": 1.2,
+   "pie": "EVE, robot anterior de 1X",
+   "frases": [
+    {
+     "t": "Una fábrica es ordenada. Tu casa, no.",
+     "pausa": 0.3
+    },
+    {
+     "t": "Para aprender, el robot necesita *ejemplos*.",
+     "pausa": 0.4
+    }
+   ]
+  },
+  {
+   "cat": "ROBÓTICA",
+   "titular": "El «modo experto»",
+   "img": "img/b1.jpg",
+   "foco": [
+    0.25,
+    0.25
+   ],
+   "zoom": 1.6,
+   "pie": "EVE, robot anterior de 1X",
+   "frases": [
+    {
+     "t": "Si no sabe algo, una persona de la empresa puede *manejarlo a distancia*.",
+     "tono": "WOW",
+     "pausa": 0.3
+    },
+    {
+     "t": "Siempre que tú lo autorices.",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "ROBÓTICA",
+   "titular": "Aprender mirando",
+   "img": "img/b1.jpg",
+   "foco": [
+    0.4,
+    0.6
+   ],
+   "zoom": 1.3,
+   "pie": "EVE, robot anterior de 1X",
+   "frases": [
+    {
+     "t": "Cada vez que lo guían, junta *datos* para hacerlo solo después.",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "ROBÓTICA",
+   "titular": "¿Autónomo? Todavía no",
+   "img": "img/b1.jpg",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "pie": "EVE, robot anterior de 1X, con una ingeniera",
+   "frases": [
+    {
+     "t": "Hoy aprende *con ayuda humana*…",
+     "pausa": 0.3
+    },
+    {
+     "t": "y eso tiene un precio: tu *privacidad*.",
+     "tono": "WOW",
+     "pausa": 0.5
+    }
+   ]
+  }
+ ]
+}

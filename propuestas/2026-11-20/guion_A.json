@@ -1,0 +1,124 @@
+{
+ "slug": "sb_A",
+ "fecha": "20 NOV 2026",
+ "fuente": "Texas Instruments · Infineon · USB-IF",
+ "portada": [
+  "¿POR QUÉ TU CARGADOR",
+  "ES TAN CHICO?"
+ ],
+ "portada_rojo": [
+  1
+ ],
+ "tarjetas": [
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Mismo poder, mitad de tamaño",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Cargador de silicio (izq.) y de GaN (der.), ambos de 30 W",
+   "dato": "30 W",
+   "frases": [
+    {
+     "t": "Estos dos cargadores entregan *lo mismo*.",
+     "pausa": 0.3
+    },
+    {
+     "t": "¿Por qué uno es *mucho más chico*?",
+     "tono": "Q",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "El enchufe es demasiado",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.3,
+    0.5
+   ],
+   "zoom": 1.3,
+   "pie": "Cargador de silicio de 30 W",
+   "dato": "220 V → 5–20 V",
+   "frases": [
+    {
+     "t": "Tu celular no aguanta los *220 volts* del enchufe.",
+     "lento": true,
+     "pausa": 0.3
+    },
+    {
+     "t": "El cargador tiene que bajarlos.",
+     "pausa": 0.4
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Prender y apagar, muy rápido",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.7,
+    0.6
+   ],
+   "zoom": 1.4,
+   "pie": "Cargador de GaN de 30 W",
+   "frases": [
+    {
+     "t": "Un interruptor diminuto se prende y se apaga *miles de veces por segundo*.",
+     "pausa": 0.3
+    },
+    {
+     "t": "Mientras más rápido, más chicas pueden ser sus piezas.",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "El material: nitruro de galio",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.72,
+    0.65
+   ],
+   "zoom": 1.8,
+   "pie": "Cargador de GaN de 30 W",
+   "dato": "GaN",
+   "frases": [
+    {
+     "t": "El silicio se calienta si va muy rápido.",
+     "pausa": 0.3
+    },
+    {
+     "t": "El *nitruro de galio* pierde menos energía en cada cambio.",
+     "tono": "WOW",
+     "pausa": 0.5
+    }
+   ]
+  },
+  {
+   "cat": "DÍA A DÍA",
+   "titular": "Menos calor, menos tamaño",
+   "img": "img/a1.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Cargador de silicio (izq.) y de GaN (der.), ambos de 30 W",
+   "frases": [
+    {
+     "t": "Menos calor, piezas más chicas…",
+     "pausa": 0.3
+    },
+    {
+     "t": "por eso el nuevo *cabe en tu mano*.",
+     "tono": "WOW",
+     "pausa": 0.5
+    }
+   ]
+  }
+ ]
+}
