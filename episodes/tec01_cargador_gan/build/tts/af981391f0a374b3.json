@@ -1,0 +1,31 @@
+{
+ "text": "miles de veces por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "miles",
+   "start": 0.093458,
+   "end": 0.419541
+  },
+  {
+   "text": "de",
+   "start": 0.430416,
+   "end": 0.495624
+  },
+  {
+   "text": "veces",
+   "start": 0.517375,
+   "end": 0.767375
+  },
+  {
+   "text": "por",
+   "start": 0.832625,
+   "end": 0.919583
+  },
+  {
+   "text": "segundo",
+   "start": 0.952166,
+   "end": 1.332582
+  }
+ ]
+}

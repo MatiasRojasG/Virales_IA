@@ -1,0 +1,36 @@
+{
+ "text": "mientras más rápido prende y apaga,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "mientras",
+   "start": 0.093458,
+   "end": 0.430416
+  },
+  {
+   "text": "más",
+   "start": 0.452166,
+   "end": 0.582582
+  },
+  {
+   "text": "rápido",
+   "start": 0.604333,
+   "end": 0.952166
+  },
+  {
+   "text": "prende",
+   "start": 1.02825,
+   "end": 1.267375
+  },
+  {
+   "text": "y",
+   "start": 1.3,
+   "end": 1.32175
+  },
+  {
+   "text": "apaga",
+   "start": 1.343458,
+   "end": 1.723874
+  }
+ ]
+}

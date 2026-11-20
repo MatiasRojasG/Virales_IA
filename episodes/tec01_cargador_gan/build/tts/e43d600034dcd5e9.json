@@ -1,0 +1,51 @@
+{
+ "text": "Pero el silicio, si va muy rápido, se calienta.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "el",
+   "start": 0.213041,
+   "end": 0.310874
+  },
+  {
+   "text": "silicio",
+   "start": 0.32175,
+   "end": 0.767416
+  },
+  {
+   "text": "si",
+   "start": 1.017375,
+   "end": 1.136958
+  },
+  {
+   "text": "va",
+   "start": 1.169583,
+   "end": 1.267416
+  },
+  {
+   "text": "muy",
+   "start": 1.3,
+   "end": 1.473916
+  },
+  {
+   "text": "rápido",
+   "start": 1.506541,
+   "end": 1.919582
+  },
+  {
+   "text": "se",
+   "start": 2.126083,
+   "end": 2.256499
+  },
+  {
+   "text": "calienta",
+   "start": 2.32175,
+   "end": 2.810875
+  }
+ ]
+}

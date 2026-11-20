@@ -1,0 +1,16 @@
+{
+ "text": "treinta watts.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "treinta",
+   "start": 0.097166,
+   "end": 0.439166
+  },
+  {
+   "text": "watts",
+   "start": 0.46275,
+   "end": 0.851916
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "text": "Según Texas Instruments, eso achica esas piezas hasta un sesenta por ciento.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Según",
+   "start": 0.097166,
+   "end": 0.486332
+  },
+  {
+   "text": "Texas",
+   "start": 0.509916,
+   "end": 0.804707
+  },
+  {
+   "text": "Instruments",
+   "start": 0.8165,
+   "end": 1.347166
+  },
+  {
+   "text": "eso",
+   "start": 1.618416,
+   "end": 1.783499
+  },
+  {
+   "text": "achica",
+   "start": 1.7835,
+   "end": 2.160875
+  },
+  {
+   "text": "esas",
+   "start": 2.219791,
+   "end": 2.479207
+  },
+  {
+   "text": "piezas",
+   "start": 2.561791,
+   "end": 2.927374
+  },
+  {
+   "text": "hasta",
+   "start": 2.927375,
+   "end": 3.163208
+  },
+  {
+   "text": "un",
+   "start": 3.198583,
+   "end": 3.328291
+  },
+  {
+   "text": "sesenta",
+   "start": 3.351875,
+   "end": 3.752833
+  },
+  {
+   "text": "por",
+   "start": 3.823583,
+   "end": 3.917916
+  },
+  {
+   "text": "ciento",
+   "start": 3.953291,
+   "end": 4.342457
+  }
+ ]
+}

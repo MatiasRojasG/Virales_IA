@@ -1,0 +1,31 @@
+{
+ "text": "Por eso tu cargador nuevo...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "eso",
+   "start": 0.223916,
+   "end": 0.408707
+  },
+  {
+   "text": "tu",
+   "start": 0.473916,
+   "end": 0.528249
+  },
+  {
+   "text": "cargador",
+   "start": 0.582625,
+   "end": 0.995666
+  },
+  {
+   "text": "nuevo",
+   "start": 1.017375,
+   "end": 1.310833
+  }
+ ]
+}

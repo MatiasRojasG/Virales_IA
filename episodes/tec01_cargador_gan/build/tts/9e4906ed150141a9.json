@@ -1,0 +1,31 @@
+{
+ "text": "El cargador tiene que bajarlos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "cargador",
+   "start": 0.256541,
+   "end": 0.636957
+  },
+  {
+   "text": "tiene",
+   "start": 0.723916,
+   "end": 0.919582
+  },
+  {
+   "text": "que",
+   "start": 0.973916,
+   "end": 1.028249
+  },
+  {
+   "text": "bajarlos",
+   "start": 1.05,
+   "end": 1.582625
+  }
+ ]
+}

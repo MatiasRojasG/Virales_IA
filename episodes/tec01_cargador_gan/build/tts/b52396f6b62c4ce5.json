@@ -1,0 +1,51 @@
+{
+ "text": "Para eso, un chip prende y apaga la corriente...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "eso",
+   "start": 0.332625,
+   "end": 0.604375
+  },
+  {
+   "text": "un",
+   "start": 0.854333,
+   "end": 1.017374
+  },
+  {
+   "text": "chip",
+   "start": 1.02825,
+   "end": 1.191291
+  },
+  {
+   "text": "prende",
+   "start": 1.256541,
+   "end": 1.473916
+  },
+  {
+   "text": "y",
+   "start": 1.506541,
+   "end": 1.539166
+  },
+  {
+   "text": "apaga",
+   "start": 1.55,
+   "end": 1.876083
+  },
+  {
+   "text": "la",
+   "start": 1.886958,
+   "end": 1.952166
+  },
+  {
+   "text": "corriente",
+   "start": 2.006541,
+   "end": 2.430457
+  }
+ ]
+}

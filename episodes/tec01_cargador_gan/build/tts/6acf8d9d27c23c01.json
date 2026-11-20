@@ -1,0 +1,56 @@
+{
+ "text": "más chica puede ser la pieza más grande de adentro:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "más",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "chica",
+   "start": 0.376083,
+   "end": 0.593458
+  },
+  {
+   "text": "puede",
+   "start": 0.669583,
+   "end": 0.843499
+  },
+  {
+   "text": "ser",
+   "start": 0.865208,
+   "end": 1.049999
+  },
+  {
+   "text": "la",
+   "start": 1.060875,
+   "end": 1.136958
+  },
+  {
+   "text": "pieza",
+   "start": 1.213041,
+   "end": 1.441291
+  },
+  {
+   "text": "más",
+   "start": 1.463041,
+   "end": 1.669582
+  },
+  {
+   "text": "grande",
+   "start": 1.702166,
+   "end": 1.952166
+  },
+  {
+   "text": "de",
+   "start": 1.984791,
+   "end": 2.039124
+  },
+  {
+   "text": "adentro",
+   "start": 2.05,
+   "end": 2.430416
+  }
+ ]
+}

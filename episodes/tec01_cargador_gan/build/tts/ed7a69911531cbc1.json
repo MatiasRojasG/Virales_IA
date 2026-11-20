@@ -1,0 +1,61 @@
+{
+ "text": "El nitruro de galio pierde mucho menos energía en cada cambio...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "nitruro",
+   "start": 0.245666,
+   "end": 0.560874
+  },
+  {
+   "text": "de",
+   "start": 0.582625,
+   "end": 0.647833
+  },
+  {
+   "text": "galio",
+   "start": 0.669583,
+   "end": 0.941333
+  },
+  {
+   "text": "pierde",
+   "start": 1.017375,
+   "end": 1.245625
+  },
+  {
+   "text": "mucho",
+   "start": 1.289125,
+   "end": 1.560875
+  },
+  {
+   "text": "menos",
+   "start": 1.593458,
+   "end": 1.886916
+  },
+  {
+   "text": "energía",
+   "start": 1.886958,
+   "end": 2.310874
+  },
+  {
+   "text": "en",
+   "start": 2.365208,
+   "end": 2.473916
+  },
+  {
+   "text": "cada",
+   "start": 2.484791,
+   "end": 2.669582
+  },
+  {
+   "text": "cambio",
+   "start": 2.734791,
+   "end": 3.028249
+  }
+ ]
+}

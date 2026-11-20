@@ -1,0 +1,51 @@
+{
+ "text": "En muchos cargadores, unas sesenta y cinco mil veces.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.215082
+  },
+  {
+   "text": "muchos",
+   "start": 0.250458,
+   "end": 0.568874
+  },
+  {
+   "text": "cargadores",
+   "start": 0.616041,
+   "end": 1.229249
+  },
+  {
+   "text": "unas",
+   "start": 1.500458,
+   "end": 1.700916
+  },
+  {
+   "text": "sesenta",
+   "start": 1.700958,
+   "end": 2.078333
+  },
+  {
+   "text": "y",
+   "start": 2.101875,
+   "end": 2.1254579
+  },
+  {
+   "text": "cinco",
+   "start": 2.160833,
+   "end": 2.479249
+  },
+  {
+   "text": "mil",
+   "start": 2.502833,
+   "end": 2.703291
+  },
+  {
+   "text": "veces",
+   "start": 2.726875,
+   "end": 3.175
+  }
+ ]
+}

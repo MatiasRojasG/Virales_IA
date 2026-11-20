@@ -1,0 +1,51 @@
+{
+ "text": "y puede pasar las quinientas mil veces por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.097166,
+   "end": 0.156124
+  },
+  {
+   "text": "puede",
+   "start": 0.250458,
+   "end": 0.415541
+  },
+  {
+   "text": "pasar",
+   "start": 0.486333,
+   "end": 0.757541
+  },
+  {
+   "text": "las",
+   "start": 0.769333,
+   "end": 0.899041
+  },
+  {
+   "text": "quinientas",
+   "start": 0.946208,
+   "end": 1.417916
+  },
+  {
+   "text": "mil",
+   "start": 1.4415,
+   "end": 1.606583
+  },
+  {
+   "text": "veces",
+   "start": 1.642,
+   "end": 1.948583
+  },
+  {
+   "text": "por",
+   "start": 2.019333,
+   "end": 2.113666
+  },
+  {
+   "text": "segundo",
+   "start": 2.149041,
+   "end": 2.573582
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "cabe en la mano.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "cabe",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "en",
+   "start": 0.365208,
+   "end": 0.386958
+  },
+  {
+   "text": "la",
+   "start": 0.408708,
+   "end": 0.473916
+  },
+  {
+   "text": "mano",
+   "start": 0.495666,
+   "end": 0.767416
+  }
+ ]
+}

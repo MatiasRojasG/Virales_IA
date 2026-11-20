@@ -1,0 +1,36 @@
+{
+ "text": "Estos dos cargadores entregan lo mismo:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Estos",
+   "start": 0.093458,
+   "end": 0.376083
+  },
+  {
+   "text": "dos",
+   "start": 0.397833,
+   "end": 0.539124
+  },
+  {
+   "text": "cargadores",
+   "start": 0.582625,
+   "end": 1.082625
+  },
+  {
+   "text": "entregan",
+   "start": 1.082625,
+   "end": 1.441333
+  },
+  {
+   "text": "lo",
+   "start": 1.473916,
+   "end": 1.528249
+  },
+  {
+   "text": "mismo",
+   "start": 1.55,
+   "end": 1.876083
+  }
+ ]
+}

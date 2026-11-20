@@ -16,22 +16,24 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 
 ## Flujo diario automático (Reels de Instagram + Shorts de YouTube de stheq.ia)
 **El usuario solo elige el tema; todo lo demás es automático.** Una tarea programada lo dispara cada mañana.
-- **Formato único de reel: tarjetas con el diseño de los carruseles** (`tools/reel_tarjetas.py`). Cada reel es un `guion.json` con 4–7 tarjetas.
-  - Cada tarjeta lleva arriba logo, nombre, fecha y barra de avance; luego una foto en blanco y negro de Wikimedia Commons con crédito y pie, la categoría, el número, un titular, un dato grande en rojo (opcional) y la voz con subtítulos.
-  - La primera tarjeta es el gancho (problema o pregunta) y la última responde la pregunta.
+- **Formato único de reel (desde el 20-nov-2026): motion graphics animados, dibujados por código** con el motor `reelforge/`. **Nada de fotos con zoom lento ni tarjetas estáticas** (`tools/reel_tarjetas.py` queda solo como archivo).
+  - Cada reel es un episodio `episodes/tec<NN>_<tema>/` con `script.py` (BEATS con `Ph`), `scenes.py` (animaciones propias del tema) y `build.py`. **Plantilla: `episodes/tec01_cargador_gan/`** (copiarla y cambiar solo lo necesario).
+  - Las animaciones muestran el mecanismo: objetos dibujados (aparatos, ondas, piezas, flujos, gráficos, contadores) que aparecen, se mueven, se transforman y reaccionan **en sincronía con las palabras de la voz** (`TL.t(beat, palabra)`), con easing, continuidad espacial y transiciones suaves entre escenas.
+  - Arriba, la cabecera de marca: logo + `stheq.ia` + fecha (`header()` de la plantilla). Paleta negro, blanco y rojo (`reelforge/marca.py`).
+  - Las fotos de Commons ya no son la imagen principal; solo se usan si un objeto real no se puede dibujar bien, y nunca con zoom lento como único movimiento.
+  - El cuadro 0 es el gancho (problema o pregunta) y el final responde la pregunta; idealmente el último cuadro empalma con el primero.
   - Duración de 40–60 s.
-  - Ejemplo del diseño: `assets/demo/reel_mock.png`.
 1. **Tendencias:** `python tools/tendencias_decalogo.py --dias 30` (categorías: IA aplicada, medicina y salud, robótica, energía, espacio, ciberseguridad, día a día, autos y movilidad), complementado con `python tools/tendencias.py --dias 30 --amplio --min-vistas 300000 --n 45`.
 2. **3 ideas por día** de tecnología aplicada:
    - de 3 categorías distintas, priorizando las de más vistas;
    - rotando: no repetir la categoría de ayer;
    - sin repetir temas de `episodes/` ni de `propuestas/`;
    - cada idea con fuentes reales (estudio, institución, empresa u organismo, medio de primer nivel).
-3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: categoría, tendencia con vistas, gancho, las tarjetas (titular + narración) y fuentes. También van `storyboard_A/B/C.png`: 5 tarjetas de cada idea renderizadas con `tools/reel_tarjetas.py --stills`, o un montaje equivalente. Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
+3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: categoría, tendencia con vistas, gancho, las tarjetas (titular + narración) y fuentes. También van `storyboard_A/B/C.png`: 5 fotogramas clave de cada idea, dibujados con el mismo estilo de animación (bocetos rápidos con `reelforge`: objetos, flechas, cifras), en una tira. Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
 4. **Producción:**
-   - `episodes/tec<NN>_<tema>/guion.json` + `img/` (fotos con `tools/commons.py`).
-   - `python tools/reel_tarjetas.py episodes/<slug>/guion.json --stills`, revisando con Read cada cuadro.
-   - Luego `python tools/reel_tarjetas.py episodes/<slug>/guion.json`, que genera MP4, SRT, guion, portada y normaliza el volumen.
+   - Copiar `episodes/tec01_cargador_gan/` a `episodes/tec<NN>_<tema>/` y escribir `script.py` y `scenes.py` nuevos (animaciones propias del tema, `draw_cover` con gancho grande).
+   - `python episodes/<slug>/build.py --stills` y revisar con Read una hoja con todos los cuadros (sin solapamientos, nada fuera de la zona 480–1300, animación que coincide con la voz).
+   - Luego `python episodes/<slug>/build.py`, que genera MP4, SRT, guion, portada y normaliza el volumen.
    - Validación obligatoria y control de calidad de abajo. README con fuentes. Commit y push.
 5. **Publicación en Metricool** (marca stheticIA, `blogId 8154202`, zona America/Santiago, Instagram y YouTube conectados):
    - **Media:** `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA del commit>/episodes/<slug>/output/<slug>.mp4` (repo público; con el SHA el enlace no cambia). La portada `output/portada.png` va como `videoThumbnailUrl` solo en Instagram.
@@ -74,7 +76,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Duración: 50–90 s sugerido, ajustable a la historia. Si no cabe, dividir en episodios.
 
 ## Restricciones visuales permanentes
-- **Reels y carruseles comparten diseño:** logo + `stheq.ia` + fecha arriba, foto en blanco y negro con crédito, número + categoría + titular. En los reels el titular de cada tarjeta es texto de apoyo, no un título del episodio. No se muestran números de episodio ni banners ajenos a ese diseño.
+- **Reels y carruseles comparten la marca:** logo + `stheq.ia` + fecha arriba, negro, blanco y rojo. Los carruseles llevan fotos de Commons; los reels son animaciones dibujadas. No se muestran números de episodio ni banners.
 - Comenzar directamente con la historia.
 - Texto en pantalla solo cuando ayuda a comprender (cifras, etiquetas de diagramas). El video es entretenimiento visual: imágenes, figuras y movimientos suaves.
 - Subtítulos y elementos importantes dentro de las zonas seguras (`reelforge/config.py`). Contenido entre y≈480 y 1300. Subtítulos en y≈1390.

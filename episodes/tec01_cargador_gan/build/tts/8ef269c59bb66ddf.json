@@ -1,0 +1,51 @@
+{
+ "text": "El enchufe de tu casa entrega doscientos veinte volts.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.097166,
+   "end": 0.226874
+  },
+  {
+   "text": "enchufe",
+   "start": 0.226875,
+   "end": 0.627833
+  },
+  {
+   "text": "de",
+   "start": 0.651416,
+   "end": 0.733957
+  },
+  {
+   "text": "tu",
+   "start": 0.804708,
+   "end": 0.863666
+  },
+  {
+   "text": "casa",
+   "start": 0.922625,
+   "end": 1.123083
+  },
+  {
+   "text": "entrega",
+   "start": 1.134916,
+   "end": 1.488707
+  },
+  {
+   "text": "doscientos",
+   "start": 1.51225,
+   "end": 2.054708
+  },
+  {
+   "text": "veinte",
+   "start": 2.090083,
+   "end": 2.373083
+  },
+  {
+   "text": "volts",
+   "start": 2.4085,
+   "end": 2.797666
+  }
+ ]
+}
