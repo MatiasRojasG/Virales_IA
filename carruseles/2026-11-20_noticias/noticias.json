@@ -1,0 +1,79 @@
+{
+ "fecha": "20 NOV 2026",
+ "portada": {
+  "kicker": "NOTICIAS DE IA · ÚLTIMAS 24 H",
+  "titulo": [
+   "LO QUE PASÓ",
+   "EN IA EN LAS",
+   "ÚLTIMAS 24 H"
+  ],
+  "rojo": [
+   2
+  ],
+  "imagenes": [
+   "img/anthropic.jpg",
+   "img/chip.jpg",
+   "img/capitolio.jpg",
+   "img/chip2.jpg"
+  ],
+  "focos": [
+   [
+    0.48,
+    0.4
+   ],
+   [
+    0.82,
+    0.45
+   ],
+   [
+    0.5,
+    0.55
+   ],
+   [
+    0.55,
+    0.5
+   ]
+  ],
+  "zooms": [
+   1.0,
+   2.0,
+   1.0,
+   1.0
+  ]
+ },
+ "noticias": [
+  {
+   "cat": "MERCADOS",
+   "titulo": "Anthropic sube un 17 % en su primer día en bolsa",
+   "texto": "La creadora de Claude vendió sus acciones a 83 dólares y recaudó 81.300 millones: la mayor salida a bolsa de la historia. El jueves abrió en 111,50 y cerró en 97,17 dólares, un 17 % sobre su precio inicial.",
+   "importa": "El viernes sus acciones bajaban, en una caída general de las empresas de IA: el mercado aún no se pone de acuerdo sobre cuánto vale la IA.",
+   "fuente": "CNN, NBC News y Yahoo Finance · 19 y 20 nov 2026",
+   "publicada": "2026-11-19 21:00 UTC (cierre del primer día; CNN y NBC News)",
+   "img": "img/anthropic.jpg",
+   "foco": [
+    0.48,
+    0.4
+   ],
+   "pie": "Dario Amodei, CEO de Anthropic, en 2023"
+  },
+  {
+   "cat": "CHIPS",
+   "titulo": "EE. UU. aprobó casi 880.000 chips de IA para China",
+   "texto": "Un comité de la Cámara de Representantes de EE. UU. publicó los permisos: entre diciembre de 2025 y mayo de 2026, el Gobierno aprobó más de 879.000 chips de Nvidia y AMD para empresas chinas, de 3,4 millones solicitados.",
+   "importa": "Los registros no dicen cuántos llegaron a China, y Nvidia afirma que ya no envía sus chips H200 a ese país. Es la tecnología que decide quién lidera la IA.",
+   "fuente": "Cámara de Representantes de EE. UU. y Reuters · 19 nov 2026",
+   "publicada": "2026-11-19 20:53 UTC (Reuters/Al Jazeera)",
+   "img": "img/chip.jpg",
+   "foco": [
+    0.75,
+    0.5
+   ],
+   "pie": "Tarjetas aceleradoras Nvidia H100",
+   "zoom": 1.9
+  }
+ ],
+ "cierre": {
+  "pregunta": "¿Cuál de estas noticias te sorprendió más?",
+  "cta": "Comenta 1 o 2. Guarda este post y síguenos: noticias de IA los lunes, miércoles y viernes."
+ }
+}
