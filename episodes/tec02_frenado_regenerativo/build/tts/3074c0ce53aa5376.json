@@ -1,0 +1,26 @@
+{
+ "text": "se convierte en generador.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "se",
+   "start": 0.095125,
+   "end": 0.225541
+  },
+  {
+   "text": "convierte",
+   "start": 0.29075,
+   "end": 0.714666
+  },
+  {
+   "text": "en",
+   "start": 0.725541,
+   "end": 0.801624
+  },
+  {
+   "text": "generador",
+   "start": 0.801625,
+   "end": 1.345083
+  }
+ ]
+}

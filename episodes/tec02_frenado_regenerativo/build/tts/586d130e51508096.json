@@ -1,0 +1,36 @@
+{
+ "text": "Esa corriente vuelve a la batería,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Esa",
+   "start": 0.093458,
+   "end": 0.267374
+  },
+  {
+   "text": "corriente",
+   "start": 0.332625,
+   "end": 0.702208
+  },
+  {
+   "text": "vuelve",
+   "start": 0.734791,
+   "end": 0.984791
+  },
+  {
+   "text": "a",
+   "start": 0.984791,
+   "end": 1.028249
+  },
+  {
+   "text": "la",
+   "start": 1.039125,
+   "end": 1.115208
+  },
+  {
+   "text": "batería",
+   "start": 1.136958,
+   "end": 1.582624
+  }
+ ]
+}

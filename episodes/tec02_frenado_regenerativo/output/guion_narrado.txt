@@ -1,0 +1,17 @@
+[hook] (  0.1s –   9.9s)
+Cada vez que frenas en un semáforo... tu auto pierde energía. Las pastillas aprietan el disco, y todo ese impulso se va en calor. ¿Y si se pudiera guardar?
+
+[motor] (  9.9s –  15.4s)
+En un auto eléctrico, la batería manda corriente al motor, y el motor hace girar las ruedas.
+
+[reves] ( 15.4s –  24.5s)
+Pero cuando sueltas el acelerador... ahora son las ruedas las que hacen girar al motor. Y un motor que alguien más hace girar... se convierte en generador.
+
+[vuelve] ( 24.5s –  31.3s)
+Esa corriente vuelve a la batería, y el esfuerzo de generarla frena el auto. Se llama frenado regenerativo.
+
+[dato] ( 31.3s –  47.7s)
+Funciona mejor en la ciudad, donde frenas todo el rato. Según el Departamento de Energía de Estados Unidos, ahí lo recuperado equivale a cerca de un 32% de la energía que el auto saca del enchufe. En carretera casi no frenas... y recupera mucho menos.
+
+[cierre] ( 47.7s –  57.5s)
+Los frenos de siempre siguen ahí para frenar fuerte, pero se gastan menos. Entonces, ¿la energía de ese semáforo? Una parte... vuelve a la batería.

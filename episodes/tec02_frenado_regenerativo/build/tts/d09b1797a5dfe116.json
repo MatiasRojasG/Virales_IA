@@ -1,0 +1,26 @@
+{
+ "text": "pero se gastan menos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "pero",
+   "start": 0.093458,
+   "end": 0.267374
+  },
+  {
+   "text": "se",
+   "start": 0.3,
+   "end": 0.386958
+  },
+  {
+   "text": "gastan",
+   "start": 0.408708,
+   "end": 0.713041
+  },
+  {
+   "text": "menos",
+   "start": 0.734791,
+   "end": 1.126082
+  }
+ ]
+}

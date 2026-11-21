@@ -1,0 +1,46 @@
+{
+ "text": "y todo ese impulso se va en calor.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "todo",
+   "start": 0.256541,
+   "end": 0.452207
+  },
+  {
+   "text": "ese",
+   "start": 0.484791,
+   "end": 0.626082
+  },
+  {
+   "text": "impulso",
+   "start": 0.658708,
+   "end": 1.060874
+  },
+  {
+   "text": "se",
+   "start": 1.082625,
+   "end": 1.180458
+  },
+  {
+   "text": "va",
+   "start": 1.213041,
+   "end": 1.299999
+  },
+  {
+   "text": "en",
+   "start": 1.332625,
+   "end": 1.441291
+  },
+  {
+   "text": "calor",
+   "start": 1.441291,
+   "end": 1.756499
+  }
+ ]
+}

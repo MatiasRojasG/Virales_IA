@@ -1,0 +1,56 @@
+{
+ "text": "Funciona mejor en la ciudad, donde frenas todo el rato.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Funciona",
+   "start": 0.093458,
+   "end": 0.495624
+  },
+  {
+   "text": "mejor",
+   "start": 0.517375,
+   "end": 0.77825
+  },
+  {
+   "text": "en",
+   "start": 0.77825,
+   "end": 0.843458
+  },
+  {
+   "text": "la",
+   "start": 0.854333,
+   "end": 0.930416
+  },
+  {
+   "text": "ciudad",
+   "start": 0.952166,
+   "end": 1.299999
+  },
+  {
+   "text": "donde",
+   "start": 1.582625,
+   "end": 1.767416
+  },
+  {
+   "text": "frenas",
+   "start": 1.8,
+   "end": 2.169583
+  },
+  {
+   "text": "todo",
+   "start": 2.256541,
+   "end": 2.397832
+  },
+  {
+   "text": "el",
+   "start": 2.430416,
+   "end": 2.495624
+  },
+  {
+   "text": "rato",
+   "start": 2.517375,
+   "end": 2.810833
+  }
+ ]
+}

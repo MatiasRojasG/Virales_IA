@@ -1,0 +1,51 @@
+{
+ "text": "En carretera casi no frenas... y recupera mucho menos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "carretera",
+   "start": 0.245666,
+   "end": 0.626082
+  },
+  {
+   "text": "casi",
+   "start": 0.702166,
+   "end": 0.930416
+  },
+  {
+   "text": "no",
+   "start": 0.952166,
+   "end": 1.039124
+  },
+  {
+   "text": "frenas",
+   "start": 1.07175,
+   "end": 1.473916
+  },
+  {
+   "text": "y",
+   "start": 1.713041,
+   "end": 1.767374
+  },
+  {
+   "text": "recupera",
+   "start": 1.789125,
+   "end": 2.191291
+  },
+  {
+   "text": "mucho",
+   "start": 2.223916,
+   "end": 2.495666
+  },
+  {
+   "text": "menos",
+   "start": 2.517375,
+   "end": 2.919541
+  }
+ ]
+}

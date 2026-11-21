@@ -1,0 +1,51 @@
+{
+ "text": "Los frenos de siempre siguen ahí para frenar fuerte,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "frenos",
+   "start": 0.27825,
+   "end": 0.52825
+  },
+  {
+   "text": "de",
+   "start": 0.539125,
+   "end": 0.604333
+  },
+  {
+   "text": "siempre",
+   "start": 0.626083,
+   "end": 0.919541
+  },
+  {
+   "text": "siguen",
+   "start": 0.941291,
+   "end": 1.223916
+  },
+  {
+   "text": "ahí",
+   "start": 1.223916,
+   "end": 1.386957
+  },
+  {
+   "text": "para",
+   "start": 1.463041,
+   "end": 1.604332
+  },
+  {
+   "text": "frenar",
+   "start": 1.626083,
+   "end": 1.919541
+  },
+  {
+   "text": "fuerte",
+   "start": 1.952166,
+   "end": 2.278249
+  }
+ ]
+}

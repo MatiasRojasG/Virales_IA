@@ -1,0 +1,41 @@
+{
+ "text": "y el motor hace girar las ruedas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "el",
+   "start": 0.191291,
+   "end": 0.289124
+  },
+  {
+   "text": "motor",
+   "start": 0.310875,
+   "end": 0.593458
+  },
+  {
+   "text": "hace",
+   "start": 0.593458,
+   "end": 0.778249
+  },
+  {
+   "text": "girar",
+   "start": 0.8,
+   "end": 1.136958
+  },
+  {
+   "text": "las",
+   "start": 1.147833,
+   "end": 1.256541
+  },
+  {
+   "text": "ruedas",
+   "start": 1.267375,
+   "end": 1.702166
+  }
+ ]
+}

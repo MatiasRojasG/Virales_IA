@@ -1,0 +1,56 @@
+{
+ "text": "En un auto eléctrico, la batería manda corriente al motor,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "un",
+   "start": 0.234791,
+   "end": 0.343499
+  },
+  {
+   "text": "auto",
+   "start": 0.354333,
+   "end": 0.571708
+  },
+  {
+   "text": "eléctrico",
+   "start": 0.582625,
+   "end": 1.039166
+  },
+  {
+   "text": "la",
+   "start": 1.27825,
+   "end": 1.386958
+  },
+  {
+   "text": "batería",
+   "start": 1.408708,
+   "end": 1.789124
+  },
+  {
+   "text": "manda",
+   "start": 1.810875,
+   "end": 2.07175
+  },
+  {
+   "text": "corriente",
+   "start": 2.136958,
+   "end": 2.506541
+  },
+  {
+   "text": "al",
+   "start": 2.506541,
+   "end": 2.582624
+  },
+  {
+   "text": "motor",
+   "start": 2.604333,
+   "end": 2.930416
+  }
+ ]
+}

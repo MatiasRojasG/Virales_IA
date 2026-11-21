@@ -1,0 +1,175 @@
+1
+00:00:00,150 --> 00:00:01,020
+Cada vez que frenas
+
+2
+00:00:01,020 --> 00:00:02,051
+en un semáforo...
+
+3
+00:00:02,051 --> 00:00:03,797
+tu auto pierde energía.
+
+4
+00:00:03,797 --> 00:00:05,627
+Las pastillas
+aprietan el disco,
+
+5
+00:00:05,627 --> 00:00:06,616
+y todo ese impulso
+
+6
+00:00:06,616 --> 00:00:07,930
+se va en calor.
+
+7
+00:00:07,930 --> 00:00:09,738
+¿Y si se pudiera guardar?
+
+8
+00:00:09,978 --> 00:00:11,163
+En un auto eléctrico,
+
+9
+00:00:11,163 --> 00:00:12,391
+la batería manda corriente
+
+10
+00:00:12,391 --> 00:00:13,423
+al motor, y el
+
+11
+00:00:13,423 --> 00:00:15,454
+motor hace
+girar las ruedas.
+
+12
+00:00:15,454 --> 00:00:17,572
+Pero cuando sueltas
+el acelerador...
+
+13
+00:00:17,572 --> 00:00:18,496
+ahora son las ruedas
+
+14
+00:00:18,496 --> 00:00:19,246
+las que hacen girar
+
+15
+00:00:19,246 --> 00:00:20,221
+al motor.
+
+16
+00:00:20,221 --> 00:00:20,862
+Y un motor que
+
+17
+00:00:20,862 --> 00:00:22,385
+alguien más hace girar...
+
+18
+00:00:22,385 --> 00:00:24,335
+se convierte
+en generador.
+
+19
+00:00:24,575 --> 00:00:25,521
+Esa corriente vuelve a
+
+20
+00:00:25,521 --> 00:00:26,650
+la batería, y el
+
+21
+00:00:26,650 --> 00:00:27,965
+esfuerzo de
+generarla frena
+
+22
+00:00:27,965 --> 00:00:28,964
+el auto.
+
+23
+00:00:28,964 --> 00:00:31,175
+Se llama frenado
+regenerativo.
+
+24
+00:00:31,315 --> 00:00:32,804
+Funciona mejor
+en la ciudad,
+
+25
+00:00:32,804 --> 00:00:34,572
+donde frenas todo el rato.
+
+26
+00:00:34,572 --> 00:00:35,904
+Según el
+Departamento de
+
+27
+00:00:35,904 --> 00:00:37,707
+Energía de
+Estados Unidos,
+
+28
+00:00:37,707 --> 00:00:39,028
+ahí lo recuperado
+equivale
+
+29
+00:00:39,028 --> 00:00:39,782
+a cerca de un
+
+30
+00:00:39,782 --> 00:00:42,127
+32% de la energía
+
+31
+00:00:42,127 --> 00:00:42,929
+que el auto saca
+
+32
+00:00:42,929 --> 00:00:44,185
+del enchufe.
+
+33
+00:00:44,185 --> 00:00:45,804
+En carretera
+casi no frenas...
+
+34
+00:00:45,804 --> 00:00:47,701
+y recupera mucho menos.
+
+35
+00:00:47,701 --> 00:00:48,549
+Los frenos de siempre
+
+36
+00:00:48,549 --> 00:00:50,276
+siguen ahí para
+frenar fuerte,
+
+37
+00:00:50,276 --> 00:00:51,948
+pero se gastan menos.
+
+38
+00:00:51,948 --> 00:00:53,481
+Entonces, ¿la energía de
+
+39
+00:00:53,481 --> 00:00:54,673
+ese semáforo?
+
+40
+00:00:54,673 --> 00:00:55,488
+Una parte...
+
+41
+00:00:55,488 --> 00:00:56,915
+vuelve a la batería.

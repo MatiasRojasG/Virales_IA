@@ -1,0 +1,26 @@
+{
+ "text": "Se llama frenado regenerativo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "llama",
+   "start": 0.27825,
+   "end": 0.473916
+  },
+  {
+   "text": "frenado",
+   "start": 0.495666,
+   "end": 0.897832
+  },
+  {
+   "text": "regenerativo",
+   "start": 0.919583,
+   "end": 1.604374
+  }
+ ]
+}

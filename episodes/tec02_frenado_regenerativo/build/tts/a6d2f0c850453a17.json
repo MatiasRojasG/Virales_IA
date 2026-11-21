@@ -1,0 +1,46 @@
+{
+ "text": "Según el Departamento de Energía de Estados Unidos,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Según",
+   "start": 0.097166,
+   "end": 0.450957
+  },
+  {
+   "text": "el",
+   "start": 0.46275,
+   "end": 0.568875
+  },
+  {
+   "text": "Departamento",
+   "start": 0.592458,
+   "end": 1.229249
+  },
+  {
+   "text": "de",
+   "start": 1.264625,
+   "end": 1.323583
+  },
+  {
+   "text": "Energía",
+   "start": 1.429708,
+   "end": 1.854249
+  },
+  {
+   "text": "de",
+   "start": 1.889625,
+   "end": 1.9367909
+  },
+  {
+   "text": "Estados",
+   "start": 1.983958,
+   "end": 2.408499
+  },
+  {
+   "text": "Unidos",
+   "start": 2.432083,
+   "end": 2.891999
+  }
+ ]
+}

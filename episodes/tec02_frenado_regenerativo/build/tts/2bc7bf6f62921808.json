@@ -1,0 +1,71 @@
+{
+ "text": "Los frenos de siempre siguen ahí, para frenar fuerte o detenerte del todo,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "frenos",
+   "start": 0.3,
+   "end": 0.55
+  },
+  {
+   "text": "de",
+   "start": 0.560875,
+   "end": 0.626083
+  },
+  {
+   "text": "siempre",
+   "start": 0.647833,
+   "end": 0.941291
+  },
+  {
+   "text": "siguen",
+   "start": 0.963041,
+   "end": 1.223916
+  },
+  {
+   "text": "ahí",
+   "start": 1.223916,
+   "end": 1.430457
+  },
+  {
+   "text": "para",
+   "start": 1.702166,
+   "end": 1.832582
+  },
+  {
+   "text": "frenar",
+   "start": 1.843458,
+   "end": 2.126083
+  },
+  {
+   "text": "fuerte",
+   "start": 2.158708,
+   "end": 2.506541
+  },
+  {
+   "text": "o",
+   "start": 2.539125,
+   "end": 2.593458
+  },
+  {
+   "text": "detenerte",
+   "start": 2.615208,
+   "end": 3.115208
+  },
+  {
+   "text": "del",
+   "start": 3.136958,
+   "end": 3.278249
+  },
+  {
+   "text": "todo",
+   "start": 3.332625,
+   "end": 3.582625
+  }
+ ]
+}

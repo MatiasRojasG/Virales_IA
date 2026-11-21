@@ -1,0 +1,46 @@
+{
+ "text": "Y un motor que alguien más hace girar...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "un",
+   "start": 0.191291,
+   "end": 0.278249
+  },
+  {
+   "text": "motor",
+   "start": 0.310875,
+   "end": 0.582625
+  },
+  {
+   "text": "que",
+   "start": 0.647833,
+   "end": 0.713041
+  },
+  {
+   "text": "alguien",
+   "start": 0.734791,
+   "end": 1.028249
+  },
+  {
+   "text": "más",
+   "start": 1.060875,
+   "end": 1.27825
+  },
+  {
+   "text": "hace",
+   "start": 1.27825,
+   "end": 1.430416
+  },
+  {
+   "text": "girar",
+   "start": 1.452166,
+   "end": 1.767374
+  }
+ ]
+}

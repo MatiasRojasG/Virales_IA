@@ -1,0 +1,31 @@
+{
+ "text": "¿Y si se pudiera guardar?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "si",
+   "start": 0.202166,
+   "end": 0.299999
+  },
+  {
+   "text": "se",
+   "start": 0.332625,
+   "end": 0.419583
+  },
+  {
+   "text": "pudiera",
+   "start": 0.495666,
+   "end": 0.789124
+  },
+  {
+   "text": "guardar",
+   "start": 0.810875,
+   "end": 1.202166
+  }
+ ]
+}

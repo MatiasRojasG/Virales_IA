@@ -1,0 +1,71 @@
+{
+ "text": "ahí lo recuperado equivale a cerca de un treinta y dos por ciento",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "ahí",
+   "start": 0.097166,
+   "end": 0.309416
+  },
+  {
+   "text": "lo",
+   "start": 0.344791,
+   "end": 0.439124
+  },
+  {
+   "text": "recuperado",
+   "start": 0.46275,
+   "end": 0.969833
+  },
+  {
+   "text": "equivale",
+   "start": 0.981583,
+   "end": 1.406124
+  },
+  {
+   "text": "a",
+   "start": 1.417916,
+   "end": 1.500457
+  },
+  {
+   "text": "cerca",
+   "start": 1.51225,
+   "end": 1.842458
+  },
+  {
+   "text": "de",
+   "start": 1.866041,
+   "end": 1.936791
+  },
+  {
+   "text": "un",
+   "start": 1.983958,
+   "end": 2.160833
+  },
+  {
+   "text": "treinta",
+   "start": 2.172625,
+   "end": 2.443833
+  },
+  {
+   "text": "y",
+   "start": 2.47925,
+   "end": 2.514625
+  },
+  {
+   "text": "dos",
+   "start": 2.55,
+   "end": 2.738666
+  },
+  {
+   "text": "por",
+   "start": 2.797625,
+   "end": 2.90375
+  },
+  {
+   "text": "ciento",
+   "start": 2.927375,
+   "end": 3.316541
+  }
+ ]
+}

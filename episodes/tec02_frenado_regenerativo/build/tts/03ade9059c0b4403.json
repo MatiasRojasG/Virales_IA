@@ -1,0 +1,46 @@
+{
+ "text": "Pero cuando sueltas el acelerador, pasa algo curioso:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "cuando",
+   "start": 0.3,
+   "end": 0.495666
+  },
+  {
+   "text": "sueltas",
+   "start": 0.517375,
+   "end": 0.876083
+  },
+  {
+   "text": "el",
+   "start": 0.876083,
+   "end": 0.941291
+  },
+  {
+   "text": "acelerador",
+   "start": 0.941291,
+   "end": 1.484749
+  },
+  {
+   "text": "pasa",
+   "start": 1.77825,
+   "end": 2.0065
+  },
+  {
+   "text": "algo",
+   "start": 2.060875,
+   "end": 2.245666
+  },
+  {
+   "text": "curioso",
+   "start": 2.310875,
+   "end": 2.734791
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "text": "ahora son las ruedas las que hacen girar al motor.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "ahora",
+   "start": 0.093458,
+   "end": 0.397791
+  },
+  {
+   "text": "son",
+   "start": 0.408708,
+   "end": 0.560874
+  },
+  {
+   "text": "las",
+   "start": 0.582625,
+   "end": 0.680458
+  },
+  {
+   "text": "ruedas",
+   "start": 0.691291,
+   "end": 0.995624
+  },
+  {
+   "text": "las",
+   "start": 1.017375,
+   "end": 1.147791
+  },
+  {
+   "text": "que",
+   "start": 1.191291,
+   "end": 1.245624
+  },
+  {
+   "text": "hacen",
+   "start": 1.256541,
+   "end": 1.506541
+  },
+  {
+   "text": "girar",
+   "start": 1.506541,
+   "end": 1.767374
+  },
+  {
+   "text": "al",
+   "start": 1.767375,
+   "end": 1.854333
+  },
+  {
+   "text": "motor",
+   "start": 1.876083,
+   "end": 2.202166
+  }
+ ]
+}

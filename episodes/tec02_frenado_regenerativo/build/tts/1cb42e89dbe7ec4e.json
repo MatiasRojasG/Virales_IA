@@ -1,0 +1,51 @@
+{
+ "text": "de la energía que el auto saca del enchufe.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "de",
+   "start": 0.097875,
+   "end": 0.227583
+  },
+  {
+   "text": "la",
+   "start": 0.262958,
+   "end": 0.333708
+  },
+  {
+   "text": "energía",
+   "start": 0.4045,
+   "end": 0.876208
+  },
+  {
+   "text": "que",
+   "start": 0.958708,
+   "end": 1.029458
+  },
+  {
+   "text": "el",
+   "start": 1.088458,
+   "end": 1.159208
+  },
+  {
+   "text": "auto",
+   "start": 1.159208,
+   "end": 1.418624
+  },
+  {
+   "text": "saca",
+   "start": 1.442208,
+   "end": 1.736999
+  },
+  {
+   "text": "del",
+   "start": 1.760625,
+   "end": 1.86675
+  },
+  {
+   "text": "enchufe",
+   "start": 1.86675,
+   "end": 2.326666
+  }
+ ]
+}

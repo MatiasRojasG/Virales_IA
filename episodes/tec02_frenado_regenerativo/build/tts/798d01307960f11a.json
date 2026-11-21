@@ -1,0 +1,46 @@
+{
+ "text": "y el esfuerzo de generarla frena el auto.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "el",
+   "start": 0.191291,
+   "end": 0.278249
+  },
+  {
+   "text": "esfuerzo",
+   "start": 0.289125,
+   "end": 0.680416
+  },
+  {
+   "text": "de",
+   "start": 0.702166,
+   "end": 0.767374
+  },
+  {
+   "text": "generarla",
+   "start": 0.77825,
+   "end": 1.2565
+  },
+  {
+   "text": "frena",
+   "start": 1.27825,
+   "end": 1.52825
+  },
+  {
+   "text": "el",
+   "start": 1.604333,
+   "end": 1.658666
+  },
+  {
+   "text": "auto",
+   "start": 1.669583,
+   "end": 1.963041
+  }
+ ]
+}

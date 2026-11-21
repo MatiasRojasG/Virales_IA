@@ -430,9 +430,10 @@ def draw_frame(P, t):
 
 def draw_cover(P, t=0.0):
     L.background(P, 1.0, glow=0.6)
-    road(P, 0)
-    traffic_light(P, LIGHT_X)
-    car(P, CAR_X, CAR_Y + 20, 1.0, 1, rot=0.3, glow=0.7, batt=0.75, batt_red=1.0)
+    with P.transform(0, 200):
+        road(P, 0)
+        traffic_light(P, LIGHT_X)
+        car(P, CAR_X, CAR_Y + 20, 1.0, 1, rot=0.3, glow=0.7, batt=0.75, batt_red=1.0)
     P.text("FRENA...", 540, 560, 110, L.FG, 1, face=C.FONT_BLACK)
     P.text("Y SE RECARGA", 540, 680, 100, L.RED, 1, face=C.FONT_BLACK)
     L.vignette(P, 0.4)

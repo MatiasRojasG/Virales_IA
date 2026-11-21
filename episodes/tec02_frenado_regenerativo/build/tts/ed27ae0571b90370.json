@@ -1,0 +1,31 @@
+{
+ "text": "Pero cuando sueltas el acelerador...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "cuando",
+   "start": 0.289125,
+   "end": 0.484791
+  },
+  {
+   "text": "sueltas",
+   "start": 0.506541,
+   "end": 0.908707
+  },
+  {
+   "text": "el",
+   "start": 0.908708,
+   "end": 0.973916
+  },
+  {
+   "text": "acelerador",
+   "start": 0.984791,
+   "end": 1.571749
+  }
+ ]
+}

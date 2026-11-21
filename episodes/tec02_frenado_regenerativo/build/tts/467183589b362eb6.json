@@ -1,0 +1,41 @@
+{
+ "text": "Cada vez que frenas en un semáforo...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "vez",
+   "start": 0.310875,
+   "end": 0.463041
+  },
+  {
+   "text": "que",
+   "start": 0.506541,
+   "end": 0.571749
+  },
+  {
+   "text": "frenas",
+   "start": 0.593458,
+   "end": 0.963041
+  },
+  {
+   "text": "en",
+   "start": 0.963041,
+   "end": 1.028249
+  },
+  {
+   "text": "un",
+   "start": 1.05,
+   "end": 1.158708
+  },
+  {
+   "text": "semáforo",
+   "start": 1.180416,
+   "end": 1.604332
+  }
+ ]
+}

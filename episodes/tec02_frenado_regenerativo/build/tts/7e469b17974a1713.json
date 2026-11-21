@@ -1,0 +1,31 @@
+{
+ "text": "Las pastillas aprietan el disco,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Las",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "pastillas",
+   "start": 0.3,
+   "end": 0.745666
+  },
+  {
+   "text": "aprietan",
+   "start": 0.745666,
+   "end": 1.136957
+  },
+  {
+   "text": "el",
+   "start": 1.147833,
+   "end": 1.278249
+  },
+  {
+   "text": "disco",
+   "start": 1.3,
+   "end": 1.582625
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "tu auto pierde energía.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "tu",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "auto",
+   "start": 0.213041,
+   "end": 0.441291
+  },
+  {
+   "text": "pierde",
+   "start": 0.517375,
+   "end": 0.767375
+  },
+  {
+   "text": "energía",
+   "start": 0.832625,
+   "end": 1.3
+  }
+ ]
+}
