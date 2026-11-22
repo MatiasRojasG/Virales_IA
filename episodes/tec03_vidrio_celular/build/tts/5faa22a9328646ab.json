@@ -1,0 +1,46 @@
+{
+ "text": "Un martillo... contra la pantalla de un celular.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.095125,
+   "end": 0.203833
+  },
+  {
+   "text": "martillo",
+   "start": 0.236416,
+   "end": 0.714666
+  },
+  {
+   "text": "contra",
+   "start": 0.986416,
+   "end": 1.236416
+  },
+  {
+   "text": "la",
+   "start": 1.247291,
+   "end": 1.312499
+  },
+  {
+   "text": "pantalla",
+   "start": 1.377708,
+   "end": 1.758124
+  },
+  {
+   "text": "de",
+   "start": 1.79075,
+   "end": 1.866833
+  },
+  {
+   "text": "un",
+   "start": 1.910333,
+   "end": 2.019041
+  },
+  {
+   "text": "celular",
+   "start": 2.04075,
+   "end": 2.475541
+  }
+ ]
+}

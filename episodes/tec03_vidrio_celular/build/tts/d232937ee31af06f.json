@@ -1,0 +1,26 @@
+{
+ "text": "Ahí ocurre un intercambio:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ahí",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "ocurre",
+   "start": 0.310875,
+   "end": 0.647833
+  },
+  {
+   "text": "un",
+   "start": 0.691291,
+   "end": 0.778249
+  },
+  {
+   "text": "intercambio",
+   "start": 0.8,
+   "end": 1.354333
+  }
+ ]
+}

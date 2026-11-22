@@ -1,0 +1,41 @@
+{
+ "text": "Ahora, para que una grieta se abra,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ahora",
+   "start": 0.093458,
+   "end": 0.495624
+  },
+  {
+   "text": "para",
+   "start": 0.756541,
+   "end": 0.865249
+  },
+  {
+   "text": "que",
+   "start": 0.930416,
+   "end": 0.995624
+  },
+  {
+   "text": "una",
+   "start": 1.02825,
+   "end": 1.191291
+  },
+  {
+   "text": "grieta",
+   "start": 1.234791,
+   "end": 1.539124
+  },
+  {
+   "text": "se",
+   "start": 1.560875,
+   "end": 1.669583
+  },
+  {
+   "text": "abra",
+   "start": 1.691291,
+   "end": 1.941291
+  }
+ ]
+}

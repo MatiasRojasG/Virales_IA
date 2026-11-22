@@ -1,0 +1,36 @@
+{
+ "text": "es porque su superficie está apretada.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "es",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "porque",
+   "start": 0.267375,
+   "end": 0.452166
+  },
+  {
+   "text": "su",
+   "start": 0.463041,
+   "end": 0.560874
+  },
+  {
+   "text": "superficie",
+   "start": 0.582625,
+   "end": 1.060875
+  },
+  {
+   "text": "está",
+   "start": 1.082625,
+   "end": 1.278291
+  },
+  {
+   "text": "apretada",
+   "start": 1.32175,
+   "end": 1.745666
+  }
+ ]
+}

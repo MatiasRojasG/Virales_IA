@@ -1,0 +1,46 @@
+{
+ "text": "No: una mala caída lo puede romper igual.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "una",
+   "start": 0.593458,
+   "end": 0.756499
+  },
+  {
+   "text": "mala",
+   "start": 0.789125,
+   "end": 1.0065
+  },
+  {
+   "text": "caída",
+   "start": 1.07175,
+   "end": 1.386958
+  },
+  {
+   "text": "lo",
+   "start": 1.397833,
+   "end": 1.463041
+  },
+  {
+   "text": "puede",
+   "start": 1.539125,
+   "end": 1.734791
+  },
+  {
+   "text": "romper",
+   "start": 1.767375,
+   "end": 2.05
+  },
+  {
+   "text": "igual",
+   "start": 2.060875,
+   "end": 2.365208
+  }
+ ]
+}

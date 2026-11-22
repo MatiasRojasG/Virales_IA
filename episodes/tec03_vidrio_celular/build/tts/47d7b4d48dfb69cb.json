@@ -1,0 +1,36 @@
+{
+ "text": "primero tiene que vencer ese apretón.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "primero",
+   "start": 0.093458,
+   "end": 0.408666
+  },
+  {
+   "text": "tiene",
+   "start": 0.484791,
+   "end": 0.669582
+  },
+  {
+   "text": "que",
+   "start": 0.723916,
+   "end": 0.789124
+  },
+  {
+   "text": "vencer",
+   "start": 0.810875,
+   "end": 1.115208
+  },
+  {
+   "text": "ese",
+   "start": 1.115208,
+   "end": 1.256499
+  },
+  {
+   "text": "apretón",
+   "start": 1.256541,
+   "end": 1.647832
+  }
+ ]
+}

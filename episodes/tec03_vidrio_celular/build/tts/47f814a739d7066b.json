@@ -1,0 +1,46 @@
+{
+ "text": "Todo vidrio tiene en su superficie grietas diminutas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Todo",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "vidrio",
+   "start": 0.3,
+   "end": 0.593458
+  },
+  {
+   "text": "tiene",
+   "start": 0.680416,
+   "end": 0.876082
+  },
+  {
+   "text": "en",
+   "start": 0.908708,
+   "end": 0.963041
+  },
+  {
+   "text": "su",
+   "start": 0.973916,
+   "end": 1.060874
+  },
+  {
+   "text": "superficie",
+   "start": 1.082625,
+   "end": 1.5935
+  },
+  {
+   "text": "grietas",
+   "start": 1.647833,
+   "end": 1.995666
+  },
+  {
+   "text": "diminutas",
+   "start": 2.017375,
+   "end": 2.593458
+  }
+ ]
+}

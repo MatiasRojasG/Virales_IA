@@ -1,0 +1,26 @@
+{
+ "text": "a unos cuatrocientos grados.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "a",
+   "start": 0.097166,
+   "end": 0.179707
+  },
+  {
+   "text": "unos",
+   "start": 0.215083,
+   "end": 0.439124
+  },
+  {
+   "text": "cuatrocientos",
+   "start": 0.486333,
+   "end": 1.123124
+  },
+  {
+   "text": "grados",
+   "start": 1.146708,
+   "end": 1.571249
+  }
+ ]
+}

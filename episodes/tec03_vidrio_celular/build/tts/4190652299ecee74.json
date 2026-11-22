@@ -1,0 +1,31 @@
+{
+ "text": "Se llama vidrio templado químicamente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "llama",
+   "start": 0.289125,
+   "end": 0.473916
+  },
+  {
+   "text": "vidrio",
+   "start": 0.506541,
+   "end": 0.778291
+  },
+  {
+   "text": "templado",
+   "start": 0.843458,
+   "end": 1.191291
+  },
+  {
+   "text": "químicamente",
+   "start": 1.256541,
+   "end": 1.876124
+  }
+ ]
+}

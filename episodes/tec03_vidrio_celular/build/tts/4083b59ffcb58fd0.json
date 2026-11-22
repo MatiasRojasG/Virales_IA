@@ -1,0 +1,36 @@
+{
+ "text": "Y una ventana se haría trizas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "una",
+   "start": 0.202166,
+   "end": 0.354332
+  },
+  {
+   "text": "ventana",
+   "start": 0.376083,
+   "end": 0.767374
+  },
+  {
+   "text": "se",
+   "start": 0.789125,
+   "end": 0.886958
+  },
+  {
+   "text": "haría",
+   "start": 0.886958,
+   "end": 1.115208
+  },
+  {
+   "text": "trizas",
+   "start": 1.180416,
+   "end": 1.604332
+  }
+ ]
+}

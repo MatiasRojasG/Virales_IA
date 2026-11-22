@@ -1,0 +1,41 @@
+{
+ "text": "y entran átomos más grandes de potasio.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "entran",
+   "start": 0.180416,
+   "end": 0.452166
+  },
+  {
+   "text": "átomos",
+   "start": 0.463041,
+   "end": 0.832624
+  },
+  {
+   "text": "más",
+   "start": 0.854333,
+   "end": 1.049999
+  },
+  {
+   "text": "grandes",
+   "start": 1.082625,
+   "end": 1.386958
+  },
+  {
+   "text": "de",
+   "start": 1.397833,
+   "end": 1.441291
+  },
+  {
+   "text": "potasio",
+   "start": 1.495666,
+   "end": 1.897832
+  }
+ ]
+}

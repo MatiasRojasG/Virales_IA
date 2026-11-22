@@ -1,0 +1,51 @@
+{
+ "text": "Muchas pantallas pasan por un baño de sal derretida,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Muchas",
+   "start": 0.093458,
+   "end": 0.397791
+  },
+  {
+   "text": "pantallas",
+   "start": 0.441291,
+   "end": 0.854332
+  },
+  {
+   "text": "pasan",
+   "start": 0.908708,
+   "end": 1.191291
+  },
+  {
+   "text": "por",
+   "start": 1.191291,
+   "end": 1.267374
+  },
+  {
+   "text": "un",
+   "start": 1.267375,
+   "end": 1.386958
+  },
+  {
+   "text": "baño",
+   "start": 1.419583,
+   "end": 1.615249
+  },
+  {
+   "text": "de",
+   "start": 1.636958,
+   "end": 1.713041
+  },
+  {
+   "text": "sal",
+   "start": 1.734791,
+   "end": 1.886957
+  },
+  {
+   "text": "derretida",
+   "start": 1.919583,
+   "end": 2.397833
+  }
+ ]
+}

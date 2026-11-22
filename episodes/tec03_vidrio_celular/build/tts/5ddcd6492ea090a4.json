@@ -1,0 +1,41 @@
+{
+ "text": "átomos pequeños de sodio salen del vidrio...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "átomos",
+   "start": 0.093458,
+   "end": 0.419541
+  },
+  {
+   "text": "pequeños",
+   "start": 0.473916,
+   "end": 0.832624
+  },
+  {
+   "text": "de",
+   "start": 0.865208,
+   "end": 0.919541
+  },
+  {
+   "text": "sodio",
+   "start": 0.941291,
+   "end": 1.234749
+  },
+  {
+   "text": "salen",
+   "start": 1.267375,
+   "end": 1.539125
+  },
+  {
+   "text": "del",
+   "start": 1.582625,
+   "end": 1.680458
+  },
+  {
+   "text": "vidrio",
+   "start": 1.702166,
+   "end": 2.017374
+  }
+ ]
+}

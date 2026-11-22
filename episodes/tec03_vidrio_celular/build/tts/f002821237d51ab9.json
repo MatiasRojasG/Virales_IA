@@ -1,0 +1,56 @@
+{
+ "text": "Eso le pasa a la superficie del vidrio: queda comprimida.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Eso",
+   "start": 0.093458,
+   "end": 0.310833
+  },
+  {
+   "text": "le",
+   "start": 0.332625,
+   "end": 0.397833
+  },
+  {
+   "text": "pasa",
+   "start": 0.473916,
+   "end": 0.702166
+  },
+  {
+   "text": "a",
+   "start": 0.756541,
+   "end": 0.767416
+  },
+  {
+   "text": "la",
+   "start": 0.77825,
+   "end": 0.854333
+  },
+  {
+   "text": "superficie",
+   "start": 0.865208,
+   "end": 1.354333
+  },
+  {
+   "text": "del",
+   "start": 1.376083,
+   "end": 1.495666
+  },
+  {
+   "text": "vidrio",
+   "start": 1.517375,
+   "end": 1.843458
+  },
+  {
+   "text": "queda",
+   "start": 2.126083,
+   "end": 2.289124
+  },
+  {
+   "text": "comprimida",
+   "start": 2.354333,
+   "end": 2.843458
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "¿Por qué esta aguanta?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "qué",
+   "start": 0.267375,
+   "end": 0.354333
+  },
+  {
+   "text": "esta",
+   "start": 0.365208,
+   "end": 0.539124
+  },
+  {
+   "text": "aguanta",
+   "start": 0.55,
+   "end": 0.919583
+  }
+ ]
+}

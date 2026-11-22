@@ -1,0 +1,41 @@
+{
+ "text": "y la grieta se abre... y avanza.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "la",
+   "start": 0.191291,
+   "end": 0.278249
+  },
+  {
+   "text": "grieta",
+   "start": 0.32175,
+   "end": 0.626083
+  },
+  {
+   "text": "se",
+   "start": 0.647833,
+   "end": 0.756541
+  },
+  {
+   "text": "abre",
+   "start": 0.77825,
+   "end": 1.039125
+  },
+  {
+   "text": "y",
+   "start": 1.27825,
+   "end": 1.343458
+  },
+  {
+   "text": "avanza",
+   "start": 1.354333,
+   "end": 1.767374
+  }
+ ]
+}

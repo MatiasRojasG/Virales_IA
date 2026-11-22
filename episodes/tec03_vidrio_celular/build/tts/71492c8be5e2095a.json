@@ -1,0 +1,41 @@
+{
+ "text": "Pero cuando tu celular aguanta un golpe...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "cuando",
+   "start": 0.3,
+   "end": 0.473916
+  },
+  {
+   "text": "tu",
+   "start": 0.539125,
+   "end": 0.593458
+  },
+  {
+   "text": "celular",
+   "start": 0.626083,
+   "end": 0.984791
+  },
+  {
+   "text": "aguanta",
+   "start": 0.984791,
+   "end": 1.376082
+  },
+  {
+   "text": "un",
+   "start": 1.419583,
+   "end": 1.549999
+  },
+  {
+   "text": "golpe",
+   "start": 1.560875,
+   "end": 1.865208
+  }
+ ]
+}

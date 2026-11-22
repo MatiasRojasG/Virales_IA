@@ -1,0 +1,46 @@
+{
+ "text": "Imagina un triángulo de pool lleno de bolas...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.093458,
+   "end": 0.528249
+  },
+  {
+   "text": "un",
+   "start": 0.560875,
+   "end": 0.691291
+  },
+  {
+   "text": "triángulo",
+   "start": 0.702166,
+   "end": 1.104332
+  },
+  {
+   "text": "de",
+   "start": 1.126083,
+   "end": 1.202166
+  },
+  {
+   "text": "pool",
+   "start": 1.289125,
+   "end": 1.419541
+  },
+  {
+   "text": "lleno",
+   "start": 1.463041,
+   "end": 1.669582
+  },
+  {
+   "text": "de",
+   "start": 1.691291,
+   "end": 1.756499
+  },
+  {
+   "text": "bolas",
+   "start": 1.789125,
+   "end": 2.191291
+  }
+ ]
+}

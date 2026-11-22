@@ -1,0 +1,16 @@
+{
+ "text": "¿Es irrompible?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "irrompible",
+   "start": 0.267375,
+   "end": 0.789125
+  }
+ ]
+}

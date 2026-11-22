@@ -1,0 +1,31 @@
+{
+ "text": "No caben... y quedan apretadas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "caben",
+   "start": 0.289125,
+   "end": 0.593458
+  },
+  {
+   "text": "y",
+   "start": 0.767375,
+   "end": 0.821708
+  },
+  {
+   "text": "quedan",
+   "start": 0.897833,
+   "end": 1.126083
+  },
+  {
+   "text": "apretadas",
+   "start": 1.136958,
+   "end": 1.734791
+  }
+ ]
+}

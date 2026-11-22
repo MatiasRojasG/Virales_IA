@@ -1,0 +1,41 @@
+{
+ "text": "El vidrio se rompe desde la superficie.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "vidrio",
+   "start": 0.245666,
+   "end": 0.539124
+  },
+  {
+   "text": "se",
+   "start": 0.57175,
+   "end": 0.680458
+  },
+  {
+   "text": "rompe",
+   "start": 0.713041,
+   "end": 1.006499
+  },
+  {
+   "text": "desde",
+   "start": 1.02825,
+   "end": 1.245625
+  },
+  {
+   "text": "la",
+   "start": 1.267375,
+   "end": 1.343458
+  },
+  {
+   "text": "superficie",
+   "start": 1.354333,
+   "end": 1.919541
+  }
+ ]
+}

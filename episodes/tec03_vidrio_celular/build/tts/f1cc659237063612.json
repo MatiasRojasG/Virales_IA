@@ -1,0 +1,36 @@
+{
+ "text": "Entonces, hay que proteger la superficie.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.636916
+  },
+  {
+   "text": "hay",
+   "start": 0.865208,
+   "end": 0.963041
+  },
+  {
+   "text": "que",
+   "start": 1.017375,
+   "end": 1.071708
+  },
+  {
+   "text": "proteger",
+   "start": 1.126083,
+   "end": 1.506499
+  },
+  {
+   "text": "la",
+   "start": 1.517375,
+   "end": 1.604333
+  },
+  {
+   "text": "superficie",
+   "start": 1.615208,
+   "end": 2.191291
+  }
+ ]
+}

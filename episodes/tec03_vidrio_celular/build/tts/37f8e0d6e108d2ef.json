@@ -1,0 +1,61 @@
+{
+ "text": "Cuando un golpe lo dobla, una de sus caras se estira...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuando",
+   "start": 0.093458,
+   "end": 0.354333
+  },
+  {
+   "text": "un",
+   "start": 0.376083,
+   "end": 0.506499
+  },
+  {
+   "text": "golpe",
+   "start": 0.517375,
+   "end": 0.767375
+  },
+  {
+   "text": "lo",
+   "start": 0.789125,
+   "end": 0.876083
+  },
+  {
+   "text": "dobla",
+   "start": 0.897833,
+   "end": 1.191291
+  },
+  {
+   "text": "una",
+   "start": 1.430416,
+   "end": 1.582582
+  },
+  {
+   "text": "de",
+   "start": 1.604333,
+   "end": 1.691291
+  },
+  {
+   "text": "sus",
+   "start": 1.702166,
+   "end": 1.886957
+  },
+  {
+   "text": "caras",
+   "start": 1.930416,
+   "end": 2.147791
+  },
+  {
+   "text": "se",
+   "start": 2.147833,
+   "end": 2.213041
+  },
+  {
+   "text": "estira",
+   "start": 2.223916,
+   "end": 2.582624
+  }
+ ]
+}
