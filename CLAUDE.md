@@ -15,7 +15,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
 ## Flujo diario automático (Reels de Instagram + Shorts de YouTube de stheq.ia)
-**El usuario solo elige el tema; todo lo demás es automático.** Una tarea programada lo dispara cada mañana.
+**Todo es automático (desde el 23-nov-2026): el usuario no elige ni aprueba nada.** Una tarea programada lo dispara cada mañana: elige la mejor idea, produce el reel, lo publica y avisa al usuario con el resultado.
 - **Formato único de reel (desde el 20-nov-2026): motion graphics animados, dibujados por código** con el motor `reelforge/`. **Nada de fotos con zoom lento ni tarjetas estáticas** (`tools/reel_tarjetas.py` queda solo como archivo).
   - Cada reel es un episodio `episodes/tec<NN>_<tema>/` con `script.py` (BEATS con `Ph`), `scenes.py` (animaciones propias del tema) y `build.py`. **Plantilla: `episodes/tec01_cargador_gan/`** (copiarla y cambiar solo lo necesario).
   - Las animaciones muestran el mecanismo: objetos dibujados (aparatos, ondas, piezas, flujos, gráficos, contadores) que aparecen, se mueven, se transforman y reaccionan **en sincronía con las palabras de la voz** (`TL.t(beat, palabra)`), con easing, continuidad espacial y transiciones suaves entre escenas.
@@ -29,7 +29,13 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
    - rotando: no repetir la categoría de ayer;
    - sin repetir temas de `episodes/` ni de `propuestas/`;
    - cada idea con fuentes reales (estudio, institución, empresa u organismo, medio de primer nivel).
-3. **Propuestas:** en `propuestas/<fecha>/` va `propuestas.md`, con, por idea: categoría, tendencia con vistas, gancho, las tarjetas (titular + narración) y fuentes. También van `storyboard_A/B/C.png`: 5 fotogramas clave de cada idea, dibujados con el mismo estilo de animación (bocetos rápidos con `reelforge`: objetos, flechas, cifras), en una tira. Se envían al usuario y se pregunta «¿Cuál produzco: A, B o C?». **Sin elección no se publica nada.**
+3. **Elección automática de la idea más viral:** en `propuestas/<fecha>/propuestas.md` van las 3 ideas (categoría, tendencia con vistas, gancho, escenas y fuentes) y una **puntuación de 1 a 10** por criterio:
+   - tracción de la tendencia (vistas de los videos del tema en 30 días y cuántos hay);
+   - fuerza del gancho en el cuadro 0 (curiosidad, sorpresa, algo que el espectador usa o teme);
+   - interés general (le importa a alguien sin conocimientos técnicos);
+   - potencial visual para animarlo (mecanismo claro que se puede dibujar);
+   - solidez de las fuentes (si no hay fuente sólida, la idea queda descartada).
+   Se produce la de mayor puntaje total (en empate, la de más vistas) y se anota el porqué. No se pregunta al usuario ni se espera respuesta.
 4. **Producción:**
    - Copiar `episodes/tec01_cargador_gan/` a `episodes/tec<NN>_<tema>/` y escribir `script.py` y `scenes.py` nuevos (animaciones propias del tema, `draw_cover` con gancho grande).
    - `python episodes/<slug>/build.py --stills` y revisar con Read una hoja con todos los cuadros (sin solapamientos, nada fuera de la zona 480–1300, animación que coincide con la voz).
@@ -45,7 +51,8 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 6. **Confirmación:** se programa un aviso 10 min después de cada publicación. Al llegar, `getScheduledPosts` (`extendedRange true`) debe mostrar PUBLISHED, y se envían los enlaces. Si falló, se explica en 1–2 frases y qué hacer.
 - Nunca copiar videos ajenos: solo el tema.
 
-## Carrusel de noticias de tecnología (Instagram, lunes, miércoles y viernes)
+## Carrusel de noticias de tecnología (Instagram, día por medio)
+- **Día por medio:** hay carrusel si el último `carruseles/*_noticias/` es de hace 2 días o más (p. ej. 23, 25, 27…). Se publica el mismo día que el reel, a ≥ 1 h de él en Instagram.
 - **Publicación directa, sin aprobación previa:** por eso la verificación es estricta.
 - **Primero la hora, después las noticias.** Se elige la hora de publicación (ver «Publicación») y la ventana de noticias son **solo las 24 h previas a esa hora**. Cada noticia debe haberse publicado dentro de esa ventana; se anota en `noticias.json` (`"publicada": "2026-11-18 07:30 UTC"`). Si no se ve la hora exacta, basta con que la fecha de publicación caiga dentro de la ventana y con que el hecho sea de esas 24 h (se anota solo la fecha).
 - **Sin repetir:** se descarta cualquier noticia (o continuación sin un hecho nuevo) que ya aparezca en `carruseles/*/noticias.json`. Una actualización solo entra si trae un hecho nuevo de las últimas 24 h, y se cuenta ese hecho.
