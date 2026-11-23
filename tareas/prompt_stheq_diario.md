@@ -41,7 +41,7 @@ PASO 5 – Control de calidad (sin pedir aprobación)
 PASO 6 – Publicar el reel (Metricool, blogId "8154202")
 - getScheduledPosts de hoy y getBestTimeToPostByNetwork para "youtube" e "instagram". Para cada red, la mejor hora ≥ 30 min en el futuro, antes de las 22:00 y a ≥ 1 h de otra publicación en esa red.
 - Media: `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA>/episodes/<slug>/output/<slug>.mp4` (comprueba 200 con curl).
-- DOS createScheduledPost. Comunes: autoPublish true, draft false, descendants [], firstCommentText "", hasNotReadNotes false, mediaAltText [], shortener false, smartLinkData {"ids":[]}, publicationDate {dateTime, timezone:"America/Santiago"}.
+- DOS createScheduledPost OBLIGATORIOS, siempre: Reel de Instagram y Short de YouTube (nunca solo uno; si uno falla, reintenta y avisa con el error). Comunes: autoPublish true, draft false, descendants [], firstCommentText "", hasNotReadNotes false, mediaAltText [], shortener false, smartLinkData {"ids":[]}, publicationDate {dateTime, timezone:"America/Santiago"}.
   - YouTube: providers [{"network":"youtube"}], youtubeData {"title":"<≤ 90 caracteres con #shorts>","type":"short","privacy":"public","tags":[5–7],"category":"SCIENCE_TECHNOLOGY","madeForKids":false,"isAiGeneratedContent":false}.
   - Instagram: providers [{"network":"instagram"}], videoThumbnailUrl = raw de output/portada.png con el mismo SHA, instagramData {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}.
   - text: gancho, idea central con su fuente, pregunta, «Guárdalo para no olvidarlo», fuentes y 6–8 hashtags con #stheqia.

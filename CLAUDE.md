@@ -44,7 +44,7 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 5. **Publicación en Metricool** (marca stheticIA, `blogId 8154202`, zona America/Santiago, Instagram y YouTube conectados):
    - **Media:** `https://raw.githubusercontent.com/MatiasRojasG/Virales_IA/<SHA del commit>/episodes/<slug>/output/<slug>.mp4` (repo público; con el SHA el enlace no cambia). La portada `output/portada.png` va como `videoThumbnailUrl` solo en Instagram.
    - **Horario:** `getBestTimeToPostByNetwork` para youtube e instagram (hoy). Se elige la mejor hora de cada red que esté ≥ 30 min en el futuro y antes de las 22:00, **a ≥ 1 h de cualquier otra publicación ya programada en esa red** (revisar con `getScheduledPosts`).
-   - **Dos publicaciones**, cada una a su mejor hora:
+   - **Dos publicaciones obligatorias, siempre: Reel de Instagram y Short de YouTube**, cada una a su mejor hora. Nunca se publica en una sola red; si una falla, se reintenta y se avisa al usuario con el error:
      - **YouTube:** `type "short"`, título ≤ 90 caracteres con `#shorts`, `category "SCIENCE_TECHNOLOGY"`, `madeForKids false`, 5–7 tags.
      - **Instagram:** `type "REEL"`, `showReelOnFeed true`.
    - **Texto:** gancho, la idea central con su fuente, pregunta para comentarios, «Guárdalo», fuentes, créditos de fotos y 6–8 hashtags con `#stheqia`.
