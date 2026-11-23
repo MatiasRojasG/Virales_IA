@@ -1,0 +1,21 @@
+{
+ "text": "Ese segundo importa.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "segundo",
+   "start": 0.310875,
+   "end": 0.636958
+  },
+  {
+   "text": "importa",
+   "start": 0.680416,
+   "end": 1.104332
+  }
+ ]
+}

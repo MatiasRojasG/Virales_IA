@@ -1,0 +1,36 @@
+{
+ "text": "Pero de noche... ¿cómo te ve?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "de",
+   "start": 0.3,
+   "end": 0.386958
+  },
+  {
+   "text": "noche",
+   "start": 0.419583,
+   "end": 0.713041
+  },
+  {
+   "text": "cómo",
+   "start": 0.973916,
+   "end": 1.136957
+  },
+  {
+   "text": "te",
+   "start": 1.202166,
+   "end": 1.267374
+  },
+  {
+   "text": "ve",
+   "start": 1.289125,
+   "end": 1.441291
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "No lee tu mente: mira tus párpados... y cuenta el tiempo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.093458,
+   "end": 0.267374
+  },
+  {
+   "text": "lee",
+   "start": 0.289125,
+   "end": 0.430416
+  },
+  {
+   "text": "tu",
+   "start": 0.517375,
+   "end": 0.582583
+  },
+  {
+   "text": "mente",
+   "start": 0.604333,
+   "end": 0.908666
+  },
+  {
+   "text": "mira",
+   "start": 1.158708,
+   "end": 1.365249
+  },
+  {
+   "text": "tus",
+   "start": 1.430416,
+   "end": 1.549999
+  },
+  {
+   "text": "párpados",
+   "start": 1.615208,
+   "end": 2.071749
+  },
+  {
+   "text": "y",
+   "start": 2.267375,
+   "end": 2.321708
+  },
+  {
+   "text": "cuenta",
+   "start": 2.397833,
+   "end": 2.647833
+  },
+  {
+   "text": "el",
+   "start": 2.658708,
+   "end": 2.745666
+  },
+  {
+   "text": "tiempo",
+   "start": 2.77825,
+   "end": 3.104333
+  }
+ ]
+}

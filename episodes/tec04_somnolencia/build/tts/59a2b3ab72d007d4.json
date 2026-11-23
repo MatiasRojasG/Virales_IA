@@ -1,0 +1,36 @@
+{
+ "text": "¿Tu auto se puede dar cuenta?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "auto",
+   "start": 0.191291,
+   "end": 0.441291
+  },
+  {
+   "text": "se",
+   "start": 0.463041,
+   "end": 0.539124
+  },
+  {
+   "text": "puede",
+   "start": 0.615208,
+   "end": 0.778249
+  },
+  {
+   "text": "dar",
+   "start": 0.810875,
+   "end": 0.952166
+  },
+  {
+   "text": "cuenta",
+   "start": 1.02825,
+   "end": 1.332583
+  }
+ ]
+}

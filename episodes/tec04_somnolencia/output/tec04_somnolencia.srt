@@ -1,0 +1,191 @@
+1
+00:00:00,150 --> 00:00:02,047
+Llevas horas
+manejando de noche.
+
+2
+00:00:02,047 --> 00:00:03,591
+Los párpados te pesan...
+
+3
+00:00:03,591 --> 00:00:04,504
+y cierras los ojos
+
+4
+00:00:04,504 --> 00:00:05,633
+un segundo.
+
+5
+00:00:05,633 --> 00:00:06,350
+¿Tu auto se puede
+
+6
+00:00:06,350 --> 00:00:07,462
+dar cuenta?
+
+7
+00:00:07,462 --> 00:00:09,007
+A cien kilómetros
+por hora,
+
+8
+00:00:09,007 --> 00:00:10,186
+en ese segundo avanzas
+
+9
+00:00:10,186 --> 00:00:11,885
+casi 28 metros...
+
+10
+00:00:11,885 --> 00:00:13,182
+sin ver nada.
+
+11
+00:00:13,182 --> 00:00:14,573
+En Estados
+Unidos estimaron
+
+12
+00:00:14,573 --> 00:00:16,271
+91.000 choques
+por sueño
+
+13
+00:00:16,271 --> 00:00:17,663
+en un solo año.
+
+14
+00:00:17,663 --> 00:00:18,913
+Por eso, muchos autos
+
+15
+00:00:18,913 --> 00:00:20,000
+nuevos traen una cámara
+
+16
+00:00:20,000 --> 00:00:21,353
+que mira al conductor.
+
+17
+00:00:21,353 --> 00:00:22,234
+Pero de noche...
+
+18
+00:00:22,234 --> 00:00:23,241
+¿cómo te ve?
+
+19
+00:00:23,241 --> 00:00:24,763
+Te ilumina con
+luz infrarroja:
+
+20
+00:00:24,763 --> 00:00:25,904
+invisible para ti,
+
+21
+00:00:25,904 --> 00:00:27,594
+pero no para la cámara.
+
+22
+00:00:27,594 --> 00:00:29,127
+Un parpadeo
+no le importa:
+
+23
+00:00:29,127 --> 00:00:30,099
+es rápido.
+
+24
+00:00:30,099 --> 00:00:31,839
+Busca párpados
+que bajan lento...
+
+25
+00:00:31,839 --> 00:00:33,400
+y se quedan cerrados.
+
+26
+00:00:33,400 --> 00:00:34,302
+Cuenta cuánto de cada
+
+27
+00:00:34,302 --> 00:00:35,248
+minuto pasas con los
+
+28
+00:00:35,248 --> 00:00:36,782
+ojos casi cerrados.
+
+29
+00:00:36,782 --> 00:00:37,912
+Se llama PERCLOS:
+
+30
+00:00:37,912 --> 00:00:38,738
+una de las medidas
+
+31
+00:00:38,738 --> 00:00:40,704
+más confiables
+del cansancio.
+
+32
+00:00:40,704 --> 00:00:41,987
+Si ese tiempo sube,
+
+33
+00:00:41,987 --> 00:00:43,063
+el auto te avisa:
+
+34
+00:00:43,063 --> 00:00:44,103
+descansa.
+
+35
+00:00:44,103 --> 00:00:46,532
+En Europa, desde 2026,
+
+36
+00:00:46,532 --> 00:00:47,594
+todo auto nuevo debe
+
+37
+00:00:47,594 --> 00:00:48,596
+traer una cámara que
+
+38
+00:00:48,596 --> 00:00:50,557
+vigila si te distraes.
+
+39
+00:00:50,557 --> 00:00:51,328
+¿Tu auto sabe que
+
+40
+00:00:51,328 --> 00:00:52,257
+te duermes?
+
+41
+00:00:52,257 --> 00:00:53,323
+No lee tu mente:
+
+42
+00:00:53,323 --> 00:00:54,431
+mira tus párpados...
+
+43
+00:00:54,431 --> 00:00:55,808
+y cuenta el tiempo.
+
+44
+00:00:55,808 --> 00:00:56,689
+Porque un segundo con
+
+45
+00:00:56,689 --> 00:00:57,711
+los ojos cerrados ya
+
+46
+00:00:57,711 --> 00:00:58,865
+es demasiado.

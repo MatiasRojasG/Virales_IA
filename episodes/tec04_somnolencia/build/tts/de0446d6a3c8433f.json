@@ -1,0 +1,51 @@
+{
+ "text": "A cien kilómetros por hora, avanzas casi veintiocho metros...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "A",
+   "start": 0.097166,
+   "end": 0.191499
+  },
+  {
+   "text": "cien",
+   "start": 0.203291,
+   "end": 0.498082
+  },
+  {
+   "text": "kilómetros",
+   "start": 0.498125,
+   "end": 0.993416
+  },
+  {
+   "text": "por",
+   "start": 1.064166,
+   "end": 1.146707
+  },
+  {
+   "text": "hora",
+   "start": 1.146708,
+   "end": 1.406124
+  },
+  {
+   "text": "avanzas",
+   "start": 1.630208,
+   "end": 2.078333
+  },
+  {
+   "text": "casi",
+   "start": 2.13725,
+   "end": 2.373083
+  },
+  {
+   "text": "veintiocho",
+   "start": 2.396708,
+   "end": 2.891999
+  },
+  {
+   "text": "metros",
+   "start": 2.915583,
+   "end": 3.399083
+  }
+ ]
+}

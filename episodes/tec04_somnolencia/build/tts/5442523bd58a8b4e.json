@@ -1,0 +1,36 @@
+{
+ "text": "¿Tu auto sabe que te duermes?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "auto",
+   "start": 0.191291,
+   "end": 0.430416
+  },
+  {
+   "text": "sabe",
+   "start": 0.463041,
+   "end": 0.680416
+  },
+  {
+   "text": "que",
+   "start": 0.745666,
+   "end": 0.810874
+  },
+  {
+   "text": "te",
+   "start": 0.865208,
+   "end": 0.919541
+  },
+  {
+   "text": "duermes",
+   "start": 0.952166,
+   "end": 1.354332
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "Cuenta cuánto de cada minuto pasas con los ojos casi cerrados.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuenta",
+   "start": 0.093458,
+   "end": 0.343458
+  },
+  {
+   "text": "cuánto",
+   "start": 0.408708,
+   "end": 0.636958
+  },
+  {
+   "text": "de",
+   "start": 0.658708,
+   "end": 0.723916
+  },
+  {
+   "text": "cada",
+   "start": 0.8,
+   "end": 0.963041
+  },
+  {
+   "text": "minuto",
+   "start": 0.995666,
+   "end": 1.289124
+  },
+  {
+   "text": "pasas",
+   "start": 1.365208,
+   "end": 1.636958
+  },
+  {
+   "text": "con",
+   "start": 1.680416,
+   "end": 1.756499
+  },
+  {
+   "text": "los",
+   "start": 1.789125,
+   "end": 1.941291
+  },
+  {
+   "text": "ojos",
+   "start": 1.941291,
+   "end": 2.191291
+  },
+  {
+   "text": "casi",
+   "start": 2.234791,
+   "end": 2.441332
+  },
+  {
+   "text": "cerrados",
+   "start": 2.484791,
+   "end": 2.984791
+  }
+ ]
+}

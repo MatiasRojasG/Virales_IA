@@ -1,0 +1,86 @@
+{
+ "text": "En Estados Unidos estimaron noventa y un mil choques con conductores somnolientos en un solo año.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "Estados",
+   "start": 0.215083,
+   "end": 0.627833
+  },
+  {
+   "text": "Unidos",
+   "start": 0.651416,
+   "end": 1.028791
+  },
+  {
+   "text": "estimaron",
+   "start": 1.028791,
+   "end": 1.465082
+  },
+  {
+   "text": "noventa",
+   "start": 1.465083,
+   "end": 1.807083
+  },
+  {
+   "text": "y",
+   "start": 1.830666,
+   "end": 1.8778319
+  },
+  {
+   "text": "un",
+   "start": 1.901416,
+   "end": 2.007541
+  },
+  {
+   "text": "mil",
+   "start": 2.054708,
+   "end": 2.231583
+  },
+  {
+   "text": "choques",
+   "start": 2.278791,
+   "end": 2.597207
+  },
+  {
+   "text": "con",
+   "start": 2.644333,
+   "end": 2.809416
+  },
+  {
+   "text": "conductores",
+   "start": 2.809416,
+   "end": 3.316499
+  },
+  {
+   "text": "somnolientos",
+   "start": 3.3165,
+   "end": 4.024041
+  },
+  {
+   "text": "en",
+   "start": 4.024041,
+   "end": 4.106582
+  },
+  {
+   "text": "un",
+   "start": 4.130208,
+   "end": 4.259916
+  },
+  {
+   "text": "solo",
+   "start": 4.295291,
+   "end": 4.542916
+  },
+  {
+   "text": "año",
+   "start": 4.578291,
+   "end": 4.849499
+  }
+ ]
+}

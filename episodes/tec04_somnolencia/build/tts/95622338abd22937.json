@@ -1,0 +1,36 @@
+{
+ "text": "y cierras los ojos un segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "cierras",
+   "start": 0.191291,
+   "end": 0.539124
+  },
+  {
+   "text": "los",
+   "start": 0.560875,
+   "end": 0.734791
+  },
+  {
+   "text": "ojos",
+   "start": 0.734791,
+   "end": 0.984791
+  },
+  {
+   "text": "un",
+   "start": 1.006541,
+   "end": 1.093499
+  },
+  {
+   "text": "segundo",
+   "start": 1.115208,
+   "end": 1.495624
+  }
+ ]
+}

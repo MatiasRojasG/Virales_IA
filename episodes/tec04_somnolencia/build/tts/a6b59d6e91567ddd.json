@@ -1,0 +1,21 @@
+{
+ "text": "sin ver nada.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "sin",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "ver",
+   "start": 0.343458,
+   "end": 0.495624
+  },
+  {
+   "text": "nada",
+   "start": 0.506541,
+   "end": 0.799999
+  }
+ ]
+}

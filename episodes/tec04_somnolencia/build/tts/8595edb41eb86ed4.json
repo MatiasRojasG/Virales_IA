@@ -1,0 +1,41 @@
+{
+ "text": "Un parpadeo no le importa: es rápido.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "parpadeo",
+   "start": 0.245666,
+   "end": 0.691332
+  },
+  {
+   "text": "no",
+   "start": 0.723916,
+   "end": 0.865207
+  },
+  {
+   "text": "le",
+   "start": 0.886958,
+   "end": 0.930416
+  },
+  {
+   "text": "importa",
+   "start": 0.984791,
+   "end": 1.430457
+  },
+  {
+   "text": "es",
+   "start": 1.626083,
+   "end": 1.756499
+  },
+  {
+   "text": "rápido",
+   "start": 1.77825,
+   "end": 2.158666
+  }
+ ]
+}

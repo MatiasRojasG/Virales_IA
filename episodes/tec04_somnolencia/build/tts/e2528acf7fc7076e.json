@@ -1,0 +1,71 @@
+{
+ "text": "Te ilumina con luz infrarroja: invisible para ti, pero no para la cámara.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Te",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "ilumina",
+   "start": 0.191291,
+   "end": 0.571707
+  },
+  {
+   "text": "con",
+   "start": 0.626083,
+   "end": 0.702166
+  },
+  {
+   "text": "luz",
+   "start": 0.723916,
+   "end": 0.865207
+  },
+  {
+   "text": "infrarroja",
+   "start": 0.886958,
+   "end": 1.408708
+  },
+  {
+   "text": "invisible",
+   "start": 1.615208,
+   "end": 2.060874
+  },
+  {
+   "text": "para",
+   "start": 2.126083,
+   "end": 2.267374
+  },
+  {
+   "text": "ti",
+   "start": 2.343458,
+   "end": 2.452166
+  },
+  {
+   "text": "pero",
+   "start": 2.756541,
+   "end": 2.897832
+  },
+  {
+   "text": "no",
+   "start": 2.930416,
+   "end": 3.049999
+  },
+  {
+   "text": "para",
+   "start": 3.115208,
+   "end": 3.267374
+  },
+  {
+   "text": "la",
+   "start": 3.27825,
+   "end": 3.343458
+  },
+  {
+   "text": "cámara",
+   "start": 3.408708,
+   "end": 3.756541
+  }
+ ]
+}

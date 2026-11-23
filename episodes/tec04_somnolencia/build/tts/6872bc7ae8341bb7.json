@@ -1,0 +1,51 @@
+{
+ "text": "Busca párpados que bajan lento... y se quedan cerrados.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Busca",
+   "start": 0.095125,
+   "end": 0.388583
+  },
+  {
+   "text": "párpados",
+   "start": 0.464666,
+   "end": 0.834249
+  },
+  {
+   "text": "que",
+   "start": 0.877708,
+   "end": 0.942916
+  },
+  {
+   "text": "bajan",
+   "start": 0.964666,
+   "end": 1.214666
+  },
+  {
+   "text": "lento",
+   "start": 1.236416,
+   "end": 1.562499
+  },
+  {
+   "text": "y",
+   "start": 1.83425,
+   "end": 1.888583
+  },
+  {
+   "text": "se",
+   "start": 1.921208,
+   "end": 2.019041
+  },
+  {
+   "text": "quedan",
+   "start": 2.095125,
+   "end": 2.323375
+  },
+  {
+   "text": "cerrados",
+   "start": 2.345125,
+   "end": 2.856
+  }
+ ]
+}

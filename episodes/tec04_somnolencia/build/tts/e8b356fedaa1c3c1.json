@@ -1,0 +1,56 @@
+{
+ "text": "Porque un segundo con los ojos cerrados... ya es demasiado.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Porque",
+   "start": 0.093458,
+   "end": 0.332583
+  },
+  {
+   "text": "un",
+   "start": 0.365208,
+   "end": 0.463041
+  },
+  {
+   "text": "segundo",
+   "start": 0.495666,
+   "end": 0.810874
+  },
+  {
+   "text": "con",
+   "start": 0.865208,
+   "end": 0.941291
+  },
+  {
+   "text": "los",
+   "start": 0.973916,
+   "end": 1.126082
+  },
+  {
+   "text": "ojos",
+   "start": 1.126083,
+   "end": 1.343458
+  },
+  {
+   "text": "cerrados",
+   "start": 1.343458,
+   "end": 1.789124
+  },
+  {
+   "text": "ya",
+   "start": 2.05,
+   "end": 2.147833
+  },
+  {
+   "text": "es",
+   "start": 2.213041,
+   "end": 2.289124
+  },
+  {
+   "text": "demasiado",
+   "start": 2.3,
+   "end": 2.8
+  }
+ ]
+}

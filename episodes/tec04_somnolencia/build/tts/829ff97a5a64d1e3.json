@@ -1,0 +1,26 @@
+{
+ "text": "Los párpados te pesan...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "párpados",
+   "start": 0.310875,
+   "end": 0.702166
+  },
+  {
+   "text": "te",
+   "start": 0.745666,
+   "end": 0.799999
+  },
+  {
+   "text": "pesan",
+   "start": 0.865208,
+   "end": 1.147833
+  }
+ ]
+}

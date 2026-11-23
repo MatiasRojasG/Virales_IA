@@ -1,0 +1,71 @@
+{
+ "text": "Se llama pérclos, y en los estudios fue de las medidas más confiables.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "llama",
+   "start": 0.289125,
+   "end": 0.473916
+  },
+  {
+   "text": "pérclos",
+   "start": 0.55,
+   "end": 0.973916
+  },
+  {
+   "text": "y",
+   "start": 1.234791,
+   "end": 1.310874
+  },
+  {
+   "text": "en",
+   "start": 1.310875,
+   "end": 1.376083
+  },
+  {
+   "text": "los",
+   "start": 1.397833,
+   "end": 1.539124
+  },
+  {
+   "text": "estudios",
+   "start": 1.539125,
+   "end": 1.919541
+  },
+  {
+   "text": "fue",
+   "start": 1.941291,
+   "end": 2.060874
+  },
+  {
+   "text": "de",
+   "start": 2.082625,
+   "end": 2.147833
+  },
+  {
+   "text": "las",
+   "start": 2.169583,
+   "end": 2.299999
+  },
+  {
+   "text": "medidas",
+   "start": 2.32175,
+   "end": 2.702166
+  },
+  {
+   "text": "más",
+   "start": 2.723916,
+   "end": 2.886957
+  },
+  {
+   "text": "confiables",
+   "start": 2.930416,
+   "end": 3.495624
+  }
+ ]
+}

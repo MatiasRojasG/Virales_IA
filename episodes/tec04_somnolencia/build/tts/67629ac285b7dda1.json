@@ -1,0 +1,61 @@
+{
+ "text": "Se llama pérclos: una de las medidas más confiables del cansancio.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "llama",
+   "start": 0.289125,
+   "end": 0.473916
+  },
+  {
+   "text": "pérclos",
+   "start": 0.55,
+   "end": 0.973916
+  },
+  {
+   "text": "una",
+   "start": 1.223916,
+   "end": 1.376082
+  },
+  {
+   "text": "de",
+   "start": 1.397833,
+   "end": 1.473916
+  },
+  {
+   "text": "las",
+   "start": 1.495666,
+   "end": 1.626082
+  },
+  {
+   "text": "medidas",
+   "start": 1.647833,
+   "end": 2.028249
+  },
+  {
+   "text": "más",
+   "start": 2.05,
+   "end": 2.213041
+  },
+  {
+   "text": "confiables",
+   "start": 2.256541,
+   "end": 2.713082
+  },
+  {
+   "text": "del",
+   "start": 2.745666,
+   "end": 2.843499
+  },
+  {
+   "text": "cansancio",
+   "start": 2.876083,
+   "end": 3.376083
+  }
+ ]
+}

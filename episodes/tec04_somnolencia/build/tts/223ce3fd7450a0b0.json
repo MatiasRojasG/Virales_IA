@@ -1,0 +1,66 @@
+{
+ "text": "Si ese tiempo sube, el auto te avisa y te pide descansar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.267374
+  },
+  {
+   "text": "ese",
+   "start": 0.3,
+   "end": 0.473916
+  },
+  {
+   "text": "tiempo",
+   "start": 0.55,
+   "end": 0.8
+  },
+  {
+   "text": "sube",
+   "start": 0.832625,
+   "end": 1.104375
+  },
+  {
+   "text": "el",
+   "start": 1.365208,
+   "end": 1.484791
+  },
+  {
+   "text": "auto",
+   "start": 1.495666,
+   "end": 1.734791
+  },
+  {
+   "text": "te",
+   "start": 1.8,
+   "end": 1.832625
+  },
+  {
+   "text": "avisa",
+   "start": 1.832625,
+   "end": 2.158708
+  },
+  {
+   "text": "y",
+   "start": 2.202166,
+   "end": 2.234791
+  },
+  {
+   "text": "te",
+   "start": 2.3,
+   "end": 2.365208
+  },
+  {
+   "text": "pide",
+   "start": 2.463041,
+   "end": 2.636957
+  },
+  {
+   "text": "descansar",
+   "start": 2.658708,
+   "end": 3.202166
+  }
+ ]
+}

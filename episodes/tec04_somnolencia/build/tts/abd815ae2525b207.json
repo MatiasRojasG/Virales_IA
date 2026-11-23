@@ -1,0 +1,41 @@
+{
+ "text": "Entonces, ¿tu auto sabe que te duermes?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.636916
+  },
+  {
+   "text": "tu",
+   "start": 0.908708,
+   "end": 0.973916
+  },
+  {
+   "text": "auto",
+   "start": 0.984791,
+   "end": 1.223916
+  },
+  {
+   "text": "sabe",
+   "start": 1.245666,
+   "end": 1.452207
+  },
+  {
+   "text": "que",
+   "start": 1.506541,
+   "end": 1.571749
+  },
+  {
+   "text": "te",
+   "start": 1.626083,
+   "end": 1.680416
+  },
+  {
+   "text": "duermes",
+   "start": 1.713041,
+   "end": 2.169582
+  }
+ ]
+}

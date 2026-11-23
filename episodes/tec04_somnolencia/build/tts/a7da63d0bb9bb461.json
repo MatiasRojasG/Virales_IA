@@ -1,0 +1,26 @@
+{
+ "text": "No lee tu mente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.095125,
+   "end": 0.279916
+  },
+  {
+   "text": "lee",
+   "start": 0.301625,
+   "end": 0.486416
+  },
+  {
+   "text": "tu",
+   "start": 0.573375,
+   "end": 0.638583
+  },
+  {
+   "text": "mente",
+   "start": 0.660333,
+   "end": 0.964666
+  }
+ ]
+}

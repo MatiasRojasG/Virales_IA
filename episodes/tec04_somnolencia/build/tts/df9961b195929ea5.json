@@ -1,0 +1,96 @@
+{
+ "text": "En Europa, desde dos mil veintiséis, todo auto nuevo debe traer una cámara que vigila si te distraes.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "Europa",
+   "start": 0.226875,
+   "end": 0.686791
+  },
+  {
+   "text": "desde",
+   "start": 0.958,
+   "end": 1.158458
+  },
+  {
+   "text": "dos",
+   "start": 1.193875,
+   "end": 1.347166
+  },
+  {
+   "text": "mil",
+   "start": 1.382541,
+   "end": 1.535832
+  },
+  {
+   "text": "veintiséis",
+   "start": 1.547625,
+   "end": 2.196208
+  },
+  {
+   "text": "todo",
+   "start": 2.526416,
+   "end": 2.715082
+  },
+  {
+   "text": "auto",
+   "start": 2.715083,
+   "end": 2.962708
+  },
+  {
+   "text": "nuevo",
+   "start": 2.998125,
+   "end": 3.269333
+  },
+  {
+   "text": "debe",
+   "start": 3.304708,
+   "end": 3.505166
+  },
+  {
+   "text": "traer",
+   "start": 3.58775,
+   "end": 3.847166
+  },
+  {
+   "text": "una",
+   "start": 3.858958,
+   "end": 4.024041
+  },
+  {
+   "text": "cámara",
+   "start": 4.106583,
+   "end": 4.424999
+  },
+  {
+   "text": "que",
+   "start": 4.49575,
+   "end": 4.5665
+  },
+  {
+   "text": "vigila",
+   "start": 4.590083,
+   "end": 4.991041
+  },
+  {
+   "text": "si",
+   "start": 5.014625,
+   "end": 5.132541
+  },
+  {
+   "text": "te",
+   "start": 5.203291,
+   "end": 5.262249
+  },
+  {
+   "text": "distraes",
+   "start": 5.297625,
+   "end": 5.910833
+  }
+ ]
+}

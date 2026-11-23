@@ -1,0 +1,106 @@
+{
+ "text": "En Europa, desde julio de dos mil veintiséis, todo auto nuevo debe traer una cámara que detecta si te distraes.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "Europa",
+   "start": 0.226875,
+   "end": 0.686791
+  },
+  {
+   "text": "desde",
+   "start": 0.958,
+   "end": 1.134875
+  },
+  {
+   "text": "julio",
+   "start": 1.1585,
+   "end": 1.476916
+  },
+  {
+   "text": "de",
+   "start": 1.500458,
+   "end": 1.582999
+  },
+  {
+   "text": "dos",
+   "start": 1.606583,
+   "end": 1.771666
+  },
+  {
+   "text": "mil",
+   "start": 1.807083,
+   "end": 1.960374
+  },
+  {
+   "text": "veintiséis",
+   "start": 1.972166,
+   "end": 2.608957
+  },
+  {
+   "text": "todo",
+   "start": 2.939166,
+   "end": 3.127832
+  },
+  {
+   "text": "auto",
+   "start": 3.127833,
+   "end": 3.375458
+  },
+  {
+   "text": "nuevo",
+   "start": 3.410833,
+   "end": 3.682041
+  },
+  {
+   "text": "debe",
+   "start": 3.717458,
+   "end": 3.929708
+  },
+  {
+   "text": "traer",
+   "start": 4.01225,
+   "end": 4.259875
+  },
+  {
+   "text": "una",
+   "start": 4.271708,
+   "end": 4.448583
+  },
+  {
+   "text": "cámara",
+   "start": 4.519333,
+   "end": 4.837749
+  },
+  {
+   "text": "que",
+   "start": 4.9085,
+   "end": 4.967458
+  },
+  {
+   "text": "detecta",
+   "start": 4.991041,
+   "end": 5.427374
+  },
+  {
+   "text": "si",
+   "start": 5.450958,
+   "end": 5.557083
+  },
+  {
+   "text": "te",
+   "start": 5.627833,
+   "end": 5.686791
+  },
+  {
+   "text": "distraes",
+   "start": 5.722166,
+   "end": 6.335374
+  }
+ ]
+}

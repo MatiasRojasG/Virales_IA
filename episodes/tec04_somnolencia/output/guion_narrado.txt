@@ -1,0 +1,17 @@
+[hook] (  0.1s –   7.4s)
+Llevas horas manejando de noche. Los párpados te pesan... y cierras los ojos un segundo. ¿Tu auto se puede dar cuenta?
+
+[segundo] (  7.4s –  17.6s)
+A cien kilómetros por hora, en ese segundo avanzas casi 28 metros... sin ver nada. En Estados Unidos estimaron 91.000 choques por sueño en un solo año.
+
+[camara] ( 17.6s –  27.5s)
+Por eso, muchos autos nuevos traen una cámara que mira al conductor. Pero de noche... ¿cómo te ve? Te ilumina con luz infrarroja: invisible para ti, pero no para la cámara.
+
+[parpados] ( 27.5s –  40.7s)
+Un parpadeo no le importa: es rápido. Busca párpados que bajan lento... y se quedan cerrados. Cuenta cuánto de cada minuto pasas con los ojos casi cerrados. Se llama PERCLOS: una de las medidas más confiables del cansancio.
+
+[alerta] ( 40.7s –  50.5s)
+Si ese tiempo sube, el auto te avisa: descansa. En Europa, desde 2026, todo auto nuevo debe traer una cámara que vigila si te distraes.
+
+[cierre] ( 50.5s –  59.0s)
+¿Tu auto sabe que te duermes? No lee tu mente: mira tus párpados... y cuenta el tiempo. Porque un segundo con los ojos cerrados ya es demasiado.

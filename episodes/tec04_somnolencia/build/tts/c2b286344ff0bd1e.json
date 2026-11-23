@@ -1,0 +1,66 @@
+{
+ "text": "Por eso, muchos autos nuevos traen una cámara que mira al conductor.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.463041
+  },
+  {
+   "text": "muchos",
+   "start": 0.702166,
+   "end": 1.049999
+  },
+  {
+   "text": "autos",
+   "start": 1.05,
+   "end": 1.32175
+  },
+  {
+   "text": "nuevos",
+   "start": 1.343458,
+   "end": 1.615208
+  },
+  {
+   "text": "traen",
+   "start": 1.658708,
+   "end": 1.854374
+  },
+  {
+   "text": "una",
+   "start": 1.876083,
+   "end": 2.017374
+  },
+  {
+   "text": "cámara",
+   "start": 2.082625,
+   "end": 2.36525
+  },
+  {
+   "text": "que",
+   "start": 2.430416,
+   "end": 2.495624
+  },
+  {
+   "text": "mira",
+   "start": 2.517375,
+   "end": 2.745625
+  },
+  {
+   "text": "al",
+   "start": 2.767375,
+   "end": 2.832583
+  },
+  {
+   "text": "conductor",
+   "start": 2.876083,
+   "end": 3.343458
+  }
+ ]
+}

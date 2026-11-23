@@ -1,0 +1,81 @@
+{
+ "text": "En Estados Unidos estimaron noventa y un mil choques por sueño en un solo año.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "Estados",
+   "start": 0.215083,
+   "end": 0.639624
+  },
+  {
+   "text": "Unidos",
+   "start": 0.663208,
+   "end": 1.052374
+  },
+  {
+   "text": "estimaron",
+   "start": 1.052375,
+   "end": 1.488666
+  },
+  {
+   "text": "noventa",
+   "start": 1.488666,
+   "end": 1.830666
+  },
+  {
+   "text": "y",
+   "start": 1.85425,
+   "end": 1.9014159
+  },
+  {
+   "text": "un",
+   "start": 1.925,
+   "end": 2.031125
+  },
+  {
+   "text": "mil",
+   "start": 2.078291,
+   "end": 2.255166
+  },
+  {
+   "text": "choques",
+   "start": 2.302375,
+   "end": 2.620791
+  },
+  {
+   "text": "por",
+   "start": 2.6915,
+   "end": 2.785833
+  },
+  {
+   "text": "sueño",
+   "start": 2.809416,
+   "end": 3.139624
+  },
+  {
+   "text": "en",
+   "start": 3.186791,
+   "end": 3.257541
+  },
+  {
+   "text": "un",
+   "start": 3.281125,
+   "end": 3.410833
+  },
+  {
+   "text": "solo",
+   "start": 3.446208,
+   "end": 3.693833
+  },
+  {
+   "text": "año",
+   "start": 3.717458,
+   "end": 3.988666
+  }
+ ]
+}

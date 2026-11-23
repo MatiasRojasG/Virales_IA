@@ -1,0 +1,31 @@
+{
+ "text": "Llevas horas manejando de noche.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Llevas",
+   "start": 0.095125,
+   "end": 0.442958
+  },
+  {
+   "text": "horas",
+   "start": 0.453791,
+   "end": 0.649457
+  },
+  {
+   "text": "manejando",
+   "start": 0.671208,
+   "end": 1.138583
+  },
+  {
+   "text": "de",
+   "start": 1.171208,
+   "end": 1.236416
+  },
+  {
+   "text": "noche",
+   "start": 1.269041,
+   "end": 1.551666
+  }
+ ]
+}
