@@ -1,0 +1,121 @@
+{
+ "fecha": "23 NOV 2026",
+ "portada": {
+  "kicker": "NOTICIAS DE TECNOLOGÍA · ÚLTIMAS 24 H",
+  "titulo": [
+   "LO QUE PASÓ",
+   "EN TECNOLOGÍA",
+   "EN 24 HORAS"
+  ],
+  "rojo": [
+   2
+  ],
+  "imagenes": [
+   "img/kospi.jpg",
+   "img/clayton.jpg",
+   "img/ariane.jpg",
+   "img/honor2.jpg"
+  ],
+  "focos": [
+   [
+    0.55,
+    0.3
+   ],
+   [
+    0.5,
+    0.4
+   ],
+   [
+    0.5,
+    0.5
+   ],
+   [
+    0.4,
+    0.2
+   ]
+  ],
+  "zooms": [
+   1.4,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "noticias": [
+  {
+   "cat": "MERCADOS",
+   "titulo": "La bolsa de Corea cae 3,3 % por dudas sobre la IA",
+   "texto": "El índice Kospi cerró este lunes en 4.708 puntos, su nivel más bajo desde enero. Samsung bajó 3,1 % y SK hynix 2,5 %, después de una fuerte caída de las acciones ligadas a la IA en Wall Street el viernes.",
+   "importa": "Samsung y SK hynix fabrican gran parte de la memoria que usan los centros de datos de IA. Cuando los inversionistas dudan de que la IA dé ganancias, Corea lo siente primero.",
+   "fuente": "Korea JoongAng Daily y Seoul Economic Daily · 23 nov 2026",
+   "publicada": "2026-11-23 06:30 UTC (cierre de la bolsa de Seúl)",
+   "img": "img/kospi.jpg",
+   "foco": [
+    0.55,
+    0.3
+   ],
+   "zoom": 1.4,
+   "pie": "Edificio de la Bolsa de Corea (KRX)"
+  },
+  {
+   "cat": "CIBERSEGURIDAD",
+   "titulo": "Corea investiga un hackeo a su eléctrica estatal",
+   "texto": "KEPCO informó que hackers accedieron a datos de unos 1,52 millones de personas: nombre, número de identidad, teléfono y, en algunos casos, cuenta bancaria o tarjeta. El lunes, el regulador de datos personales abrió una investigación.",
+   "importa": "Con esos datos, los estafadores pueden hacerse pasar por la empresa o por un banco. Las autoridades piden no responder solicitudes de verificación inesperadas ni abrir enlaces dudosos.",
+   "fuente": "Seoul Economic Daily, Asia Business Daily y MLex · 22 y 23 nov 2026",
+   "publicada": "2026-11-23 07:07 UTC (inicio de la investigación; Asia Business Daily)",
+   "img": "img/kepco.jpg",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "pie": "Edificio de KEPCO (2013)"
+  },
+  {
+   "cat": "INFRAESTRUCTURA",
+   "titulo": "EE. UU. advierte que vendrán más caídas de sistemas",
+   "texto": "El director de Inteligencia Nacional, Jay Clayton, dijo el domingo en televisión que habrá más interrupciones mientras empresas y Gobierno renuevan sistemas antiguos. Este mes fallaron sistemas de vuelos, bancos, el correo de Microsoft y una red de la NSA.",
+   "importa": "Según Clayton, las caídas no fueron coordinadas ni obra de otro país. No quiso comentar los reportes de ataques al FBI y al Departamento de Agricultura.",
+   "fuente": "CNN, Reuters y The Hill · 22 nov 2026",
+   "publicada": "2026-11-22 (entrevistas del domingo por la mañana en EE. UU.; Reuters 18:13 UTC)",
+   "img": "img/clayton.jpg",
+   "foco": [
+    0.5,
+    0.35
+   ],
+   "pie": "Jay Clayton"
+  },
+  {
+   "cat": "ESPACIO",
+   "titulo": "Ariane 6 frena su despegue con 36 satélites de Amazon",
+   "texto": "La cuenta regresiva en Kourou (Guayana Francesa) se detuvo este lunes por un problema técnico en los sistemas de tierra. Arianespace dice que el cohete y los satélites están seguros. El próximo intento: no antes del martes 24.",
+   "importa": "Amazon Leo, la red de internet satelital rival de Starlink, necesita poner miles de satélites en órbita. Ocho días antes, otro cohete que llevaba satélites de Amazon falló.",
+   "fuente": "Arianespace, ESA y Space.com · 23 nov 2026",
+   "publicada": "2026-11-23 ~11:30 UTC (aviso de Arianespace)",
+   "img": "img/ariane.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Plataforma de Ariane 6 en Kourou (obras, 2017)"
+  },
+  {
+   "cat": "CELULARES",
+   "titulo": "Honor lanza celulares con batería de 9.000 mAh",
+   "texto": "La serie Honor 700, presentada este lunes en Wuhan (China), trae batería de 9.000 mAh, cámara principal de 200 megapíxeles y una pequeña pantalla trasera junto a las cámaras. Parte en 3.599 yuanes.",
+   "importa": "Muchos celulares traen unos 5.000 mAh: los fabricantes chinos compiten por meter más batería en el mismo espacio. Por ahora se vende solo en China, desde el 27 de noviembre.",
+   "fuente": "Gizmochina y Gizchina · 23 nov 2026",
+   "publicada": "2026-11-23 06:30 UTC (evento de lanzamiento en Wuhan)",
+   "img": "img/honor2.jpg",
+   "foco": [
+    0.5,
+    0.12
+   ],
+   "pie": "Tienda de Honor en Shenzhen (China), 2024"
+  }
+ ],
+ "cierre": {
+  "pregunta": "¿Cuál de estas noticias te sorprendió más?",
+  "cta": "Comenta del 1 al 5. Guarda este post y síguenos: noticias de tecnología los lunes, miércoles y viernes."
+ }
+}

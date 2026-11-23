@@ -11,7 +11,7 @@ import argparse, html, json, re, urllib.parse, urllib.request
 from pathlib import Path
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = {"User-Agent": "ReelForge-carruseles/1.0 (uso editorial)"}
+UA = {"User-Agent": "stheqia-carruseles/1.0 (https://github.com/MatiasRojasG/Virales_IA)"}
 OK = re.compile(r"^(cc0|public domain|pd|cc by(-sa)? [0-9.]+|cc by(-sa)?)", re.I)
 
 
