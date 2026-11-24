@@ -14,6 +14,9 @@ Las instrucciones nuevas complementan estas. Ante contradicciones, prima la inst
 - Preferir simulaciones/experimentos reales ejecutados en el repo (NumPy) y distinguir resultados propios de los de la fuente.
 - El cierre responde la pregunta del inicio. Idealmente, el último cuadro empalma con el primero (loop).
 
+## Encargo pendiente del usuario (prima sobre la elección automática)
+- **Próximo reel (25-nov-2026): Euphoria y cómo se mueven los personajes de GTA VI.** Ver `propuestas/encargos/euphoria_gta6.md`. Ese día no se eligen 3 ideas: se produce este tema (igual se escribe `propuestas/<fecha>/propuestas.md` indicando que es encargo). Al publicarlo, borrar esta sección de CLAUDE.md en el mismo commit.
+
 ## Flujo diario automático (Reels de Instagram + Shorts de YouTube de stheq.ia)
 **Todo es automático (desde el 23-nov-2026): el usuario no elige ni aprueba nada.** Una tarea programada lo dispara cada mañana: elige la mejor idea, produce el reel, lo publica y avisa al usuario con el resultado.
 - **Formato único de reel (desde el 20-nov-2026): motion graphics animados, dibujados por código** con el motor `reelforge/`. **Nada de fotos con zoom lento ni tarjetas estáticas** (`tools/reel_tarjetas.py` queda solo como archivo).
