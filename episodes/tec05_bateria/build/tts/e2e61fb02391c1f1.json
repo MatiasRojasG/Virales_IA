@@ -1,0 +1,61 @@
+{
+ "text": "un poquito de litio se queda atrapado, en una capa delgada.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "un",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "poquito",
+   "start": 0.245666,
+   "end": 0.560874
+  },
+  {
+   "text": "de",
+   "start": 0.582625,
+   "end": 0.647833
+  },
+  {
+   "text": "litio",
+   "start": 0.669583,
+   "end": 0.941333
+  },
+  {
+   "text": "se",
+   "start": 0.963041,
+   "end": 1.060874
+  },
+  {
+   "text": "queda",
+   "start": 1.136958,
+   "end": 1.278249
+  },
+  {
+   "text": "atrapado",
+   "start": 1.310875,
+   "end": 1.767416
+  },
+  {
+   "text": "en",
+   "start": 2.017375,
+   "end": 2.115208
+  },
+  {
+   "text": "una",
+   "start": 2.147833,
+   "end": 2.299999
+  },
+  {
+   "text": "capa",
+   "start": 2.365208,
+   "end": 2.549999
+  },
+  {
+   "text": "delgada",
+   "start": 2.57175,
+   "end": 2.973916
+  }
+ ]
+}

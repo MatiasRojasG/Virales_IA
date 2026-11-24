@@ -1,0 +1,46 @@
+{
+ "text": "Por eso tu batería no muere de golpe:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "eso",
+   "start": 0.223916,
+   "end": 0.397832
+  },
+  {
+   "text": "tu",
+   "start": 0.463041,
+   "end": 0.517374
+  },
+  {
+   "text": "batería",
+   "start": 0.52825,
+   "end": 0.930416
+  },
+  {
+   "text": "no",
+   "start": 0.963041,
+   "end": 1.071749
+  },
+  {
+   "text": "muere",
+   "start": 1.093458,
+   "end": 1.343458
+  },
+  {
+   "text": "de",
+   "start": 1.376083,
+   "end": 1.452166
+  },
+  {
+   "text": "golpe",
+   "start": 1.484791,
+   "end": 1.789124
+  }
+ ]
+}

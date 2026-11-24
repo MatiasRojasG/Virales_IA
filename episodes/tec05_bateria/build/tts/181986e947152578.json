@@ -1,0 +1,71 @@
+{
+ "text": "Cuando era nuevo, tu celular llegaba a la noche con batería de sobra.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuando",
+   "start": 0.093458,
+   "end": 0.343458
+  },
+  {
+   "text": "era",
+   "start": 0.365208,
+   "end": 0.495624
+  },
+  {
+   "text": "nuevo",
+   "start": 0.52825,
+   "end": 0.832583
+  },
+  {
+   "text": "tu",
+   "start": 1.093458,
+   "end": 1.158666
+  },
+  {
+   "text": "celular",
+   "start": 1.191291,
+   "end": 1.549999
+  },
+  {
+   "text": "llegaba",
+   "start": 1.604333,
+   "end": 1.908666
+  },
+  {
+   "text": "a",
+   "start": 1.973916,
+   "end": 1.984791
+  },
+  {
+   "text": "la",
+   "start": 1.995666,
+   "end": 2.093499
+  },
+  {
+   "text": "noche",
+   "start": 2.115208,
+   "end": 2.365208
+  },
+  {
+   "text": "con",
+   "start": 2.419583,
+   "end": 2.506541
+  },
+  {
+   "text": "batería",
+   "start": 2.55,
+   "end": 2.930416
+  },
+  {
+   "text": "de",
+   "start": 2.952166,
+   "end": 3.028249
+  },
+  {
+   "text": "sobra",
+   "start": 3.07175,
+   "end": 3.376083
+  }
+ ]
+}

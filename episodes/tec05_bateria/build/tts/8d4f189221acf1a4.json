@@ -1,0 +1,36 @@
+{
+ "text": "Ahí esa capa crece más rápido.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ahí",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "esa",
+   "start": 0.332625,
+   "end": 0.506541
+  },
+  {
+   "text": "capa",
+   "start": 0.57175,
+   "end": 0.767416
+  },
+  {
+   "text": "crece",
+   "start": 0.843458,
+   "end": 1.071708
+  },
+  {
+   "text": "más",
+   "start": 1.104333,
+   "end": 1.245624
+  },
+  {
+   "text": "rápido",
+   "start": 1.27825,
+   "end": 1.658666
+  }
+ ]
+}

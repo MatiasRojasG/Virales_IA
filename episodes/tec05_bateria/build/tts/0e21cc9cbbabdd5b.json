@@ -1,0 +1,16 @@
+{
+ "text": "El calor...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "calor",
+   "start": 0.245666,
+   "end": 0.560874
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "Y ese litio ya no vuelve a trabajar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "ese",
+   "start": 0.202166,
+   "end": 0.397832
+  },
+  {
+   "text": "litio",
+   "start": 0.419583,
+   "end": 0.702208
+  },
+  {
+   "text": "ya",
+   "start": 0.767375,
+   "end": 0.854333
+  },
+  {
+   "text": "no",
+   "start": 0.886958,
+   "end": 0.952166
+  },
+  {
+   "text": "vuelve",
+   "start": 0.995666,
+   "end": 1.223916
+  },
+  {
+   "text": "a",
+   "start": 1.223916,
+   "end": 1.267374
+  },
+  {
+   "text": "trabajar",
+   "start": 1.32175,
+   "end": 1.756541
+  }
+ ]
+}

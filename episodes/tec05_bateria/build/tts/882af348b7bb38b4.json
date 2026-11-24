@@ -1,0 +1,36 @@
+{
+ "text": "Adentro de la batería hay litio.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Adentro",
+   "start": 0.093458,
+   "end": 0.473874
+  },
+  {
+   "text": "de",
+   "start": 0.495666,
+   "end": 0.560874
+  },
+  {
+   "text": "la",
+   "start": 0.582625,
+   "end": 0.647833
+  },
+  {
+   "text": "batería",
+   "start": 0.669583,
+   "end": 1.082624
+  },
+  {
+   "text": "hay",
+   "start": 1.104333,
+   "end": 1.213041
+  },
+  {
+   "text": "litio",
+   "start": 1.234791,
+   "end": 1.539124
+  }
+ ]
+}

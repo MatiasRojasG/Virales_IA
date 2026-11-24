@@ -1,0 +1,46 @@
+{
+ "text": "¿Y tú... la dejas cargando toda la noche?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "tú",
+   "start": 0.245666,
+   "end": 0.386957
+  },
+  {
+   "text": "la",
+   "start": 0.626083,
+   "end": 0.745666
+  },
+  {
+   "text": "dejas",
+   "start": 0.767375,
+   "end": 1.05
+  },
+  {
+   "text": "cargando",
+   "start": 1.093458,
+   "end": 1.473874
+  },
+  {
+   "text": "toda",
+   "start": 1.57175,
+   "end": 1.756541
+  },
+  {
+   "text": "la",
+   "start": 1.767375,
+   "end": 1.843458
+  },
+  {
+   "text": "noche",
+   "start": 1.865208,
+   "end": 2.191291
+  }
+ ]
+}

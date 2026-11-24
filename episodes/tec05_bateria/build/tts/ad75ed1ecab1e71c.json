@@ -1,0 +1,46 @@
+{
+ "text": "Cuando cargas, el litio viaja a un lado.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuando",
+   "start": 0.093458,
+   "end": 0.343458
+  },
+  {
+   "text": "cargas",
+   "start": 0.408708,
+   "end": 0.778291
+  },
+  {
+   "text": "el",
+   "start": 1.006541,
+   "end": 1.104332
+  },
+  {
+   "text": "litio",
+   "start": 1.104333,
+   "end": 1.397791
+  },
+  {
+   "text": "viaja",
+   "start": 1.430416,
+   "end": 1.810832
+  },
+  {
+   "text": "a",
+   "start": 1.82175,
+   "end": 1.8435
+  },
+  {
+   "text": "un",
+   "start": 1.886958,
+   "end": 1.973916
+  },
+  {
+   "text": "lado",
+   "start": 1.995666,
+   "end": 2.267416
+  }
+ ]
+}

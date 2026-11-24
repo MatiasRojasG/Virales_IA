@@ -1,0 +1,21 @@
+{
+ "text": "¿Qué le pasó?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Qué",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "le",
+   "start": 0.213041,
+   "end": 0.289124
+  },
+  {
+   "text": "pasó",
+   "start": 0.343458,
+   "end": 0.593458
+  }
+ ]
+}

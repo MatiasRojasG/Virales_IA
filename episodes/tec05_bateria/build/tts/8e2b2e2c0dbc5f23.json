@@ -1,0 +1,26 @@
+{
+ "text": "Pero en cada viaje...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "en",
+   "start": 0.256541,
+   "end": 0.397832
+  },
+  {
+   "text": "cada",
+   "start": 0.408708,
+   "end": 0.593499
+  },
+  {
+   "text": "viaje",
+   "start": 0.626083,
+   "end": 0.984791
+  }
+ ]
+}

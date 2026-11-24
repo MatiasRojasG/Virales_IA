@@ -1,0 +1,46 @@
+{
+ "text": "y pasar muchas horas al cien por ciento.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "pasar",
+   "start": 0.213041,
+   "end": 0.452166
+  },
+  {
+   "text": "muchas",
+   "start": 0.484791,
+   "end": 0.821749
+  },
+  {
+   "text": "horas",
+   "start": 0.832625,
+   "end": 1.07175
+  },
+  {
+   "text": "al",
+   "start": 1.07175,
+   "end": 1.169583
+  },
+  {
+   "text": "cien",
+   "start": 1.191291,
+   "end": 1.452166
+  },
+  {
+   "text": "por",
+   "start": 1.463041,
+   "end": 1.560874
+  },
+  {
+   "text": "ciento",
+   "start": 1.593458,
+   "end": 1.930416
+  }
+ ]
+}

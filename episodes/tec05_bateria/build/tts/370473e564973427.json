@@ -1,0 +1,31 @@
+{
+ "text": "Cuando usas el celular, vuelve.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuando",
+   "start": 0.093458,
+   "end": 0.376083
+  },
+  {
+   "text": "usas",
+   "start": 0.408708,
+   "end": 0.680416
+  },
+  {
+   "text": "el",
+   "start": 0.680416,
+   "end": 0.767374
+  },
+  {
+   "text": "celular",
+   "start": 0.789125,
+   "end": 1.180416
+  },
+  {
+   "text": "vuelve",
+   "start": 1.473916,
+   "end": 1.756541
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "text": "Apple diseña las baterías de sus iPhone más nuevos para conservar el ochenta por ciento de su capacidad...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Apple",
+   "start": 0.097166,
+   "end": 0.344791
+  },
+  {
+   "text": "diseña",
+   "start": 0.380208,
+   "end": 0.722208
+  },
+  {
+   "text": "las",
+   "start": 0.74575,
+   "end": 0.875458
+  },
+  {
+   "text": "baterías",
+   "start": 0.899041,
+   "end": 1.335374
+  },
+  {
+   "text": "de",
+   "start": 1.358958,
+   "end": 1.417916
+  },
+  {
+   "text": "sus",
+   "start": 1.429708,
+   "end": 1.630166
+  },
+  {
+   "text": "iPhone",
+   "start": 1.630208,
+   "end": 1.924999
+  },
+  {
+   "text": "más",
+   "start": 1.960375,
+   "end": 2.160833
+  },
+  {
+   "text": "nuevos",
+   "start": 2.196208,
+   "end": 2.526416
+  },
+  {
+   "text": "para",
+   "start": 2.585375,
+   "end": 2.703291
+  },
+  {
+   "text": "conservar",
+   "start": 2.774041,
+   "end": 3.198582
+  },
+  {
+   "text": "el",
+   "start": 3.210375,
+   "end": 3.304708
+  },
+  {
+   "text": "ochenta",
+   "start": 3.3165,
+   "end": 3.705666
+  },
+  {
+   "text": "por",
+   "start": 3.788208,
+   "end": 3.894333
+  },
+  {
+   "text": "ciento",
+   "start": 3.917916,
+   "end": 4.259916
+  },
+  {
+   "text": "de",
+   "start": 4.2835,
+   "end": 4.366041
+  },
+  {
+   "text": "su",
+   "start": 4.377833,
+   "end": 4.472166
+  },
+  {
+   "text": "capacidad",
+   "start": 4.519333,
+   "end": 5.085374
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "se encoge, de a poco.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "se",
+   "start": 0.095125,
+   "end": 0.225541
+  },
+  {
+   "text": "encoge",
+   "start": 0.225541,
+   "end": 0.682082
+  },
+  {
+   "text": "de",
+   "start": 0.953791,
+   "end": 1.008124
+  },
+  {
+   "text": "a",
+   "start": 1.029875,
+   "end": 1.084208
+  },
+  {
+   "text": "poco",
+   "start": 1.171208,
+   "end": 1.442958
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+[hook] (  0.1s –   7.8s)
+Recién comprado, tu celular llegaba a la noche con batería de sobra. Dos años después... no llega ni a la tarde. ¿Qué le pasó?
+
+[viaje] (  7.8s –  16.4s)
+Adentro de la batería hay litio. Cuando cargas, el litio viaja a un lado. Cuando usas el celular, vuelve. Ese ir y venir es tu energía.
+
+[trampa] ( 16.4s –  23.4s)
+Pero en cada viaje... un poquito de litio se queda atrapado, en una capa delgada. Y ese litio ya no vuelve a trabajar.
+
+[encoge] ( 23.4s –  29.9s)
+Menos litio que viaja es menos carga. Por eso tu batería no muere de golpe: se encoge, de a poco.
+
+[calor] ( 29.9s –  36.9s)
+¿Y qué la gasta más rápido? El calor... y pasar muchas horas al cien por ciento. Ahí esa capa crece más rápido.
+
+[dato] ( 36.9s –  45.1s)
+Los iPhone más nuevos están hechos para conservar el 80% de su capacidad... después de 1.000 cargas completas, en condiciones ideales.
+
+[limite] ( 45.1s –  51.2s)
+Por eso muchos celulares traen una opción para cargar solo hasta el 80%: menos horas al cien.
+
+[cierre] ( 51.2s –  59.2s)
+Tu batería no se echó a perder: fue perdiendo litio en el camino, un poquito cada día. ¿Y tú... la dejas cargando toda la noche?

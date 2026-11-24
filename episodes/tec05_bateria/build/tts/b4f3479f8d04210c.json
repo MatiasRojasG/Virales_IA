@@ -1,0 +1,66 @@
+{
+ "text": "Recién comprado, tu celular llegaba a la noche con batería de sobra.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Recién",
+   "start": 0.093458,
+   "end": 0.430416
+  },
+  {
+   "text": "comprado",
+   "start": 0.430416,
+   "end": 0.843457
+  },
+  {
+   "text": "tu",
+   "start": 1.093458,
+   "end": 1.158666
+  },
+  {
+   "text": "celular",
+   "start": 1.191291,
+   "end": 1.549999
+  },
+  {
+   "text": "llegaba",
+   "start": 1.604333,
+   "end": 1.908666
+  },
+  {
+   "text": "a",
+   "start": 1.973916,
+   "end": 1.984791
+  },
+  {
+   "text": "la",
+   "start": 1.995666,
+   "end": 2.093499
+  },
+  {
+   "text": "noche",
+   "start": 2.115208,
+   "end": 2.365208
+  },
+  {
+   "text": "con",
+   "start": 2.419583,
+   "end": 2.506541
+  },
+  {
+   "text": "batería",
+   "start": 2.560875,
+   "end": 2.941291
+  },
+  {
+   "text": "de",
+   "start": 2.963041,
+   "end": 3.039124
+  },
+  {
+   "text": "sobra",
+   "start": 3.082625,
+   "end": 3.386958
+  }
+ ]
+}

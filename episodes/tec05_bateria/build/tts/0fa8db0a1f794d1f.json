@@ -1,0 +1,51 @@
+{
+ "text": "Dos años después... no llega ni a la tarde.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Dos",
+   "start": 0.09675,
+   "end": 0.325
+  },
+  {
+   "text": "años",
+   "start": 0.325,
+   "end": 0.55325
+  },
+  {
+   "text": "después",
+   "start": 0.564125,
+   "end": 0.988041
+  },
+  {
+   "text": "no",
+   "start": 1.216291,
+   "end": 1.368457
+  },
+  {
+   "text": "llega",
+   "start": 1.433708,
+   "end": 1.672833
+  },
+  {
+   "text": "ni",
+   "start": 1.705416,
+   "end": 1.781499
+  },
+  {
+   "text": "a",
+   "start": 1.80325,
+   "end": 1.857583
+  },
+  {
+   "text": "la",
+   "start": 1.868458,
+   "end": 1.944541
+  },
+  {
+   "text": "tarde",
+   "start": 2.020666,
+   "end": 2.248916
+  }
+ ]
+}

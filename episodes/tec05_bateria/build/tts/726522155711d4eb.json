@@ -1,0 +1,81 @@
+{
+ "text": "Los iPhone más nuevos están hechos para conservar el ochenta por ciento de su capacidad...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.097166,
+   "end": 0.309416
+  },
+  {
+   "text": "iPhone",
+   "start": 0.309416,
+   "end": 0.568832
+  },
+  {
+   "text": "más",
+   "start": 0.592458,
+   "end": 0.781124
+  },
+  {
+   "text": "nuevos",
+   "start": 0.8165,
+   "end": 1.134916
+  },
+  {
+   "text": "están",
+   "start": 1.134916,
+   "end": 1.394332
+  },
+  {
+   "text": "hechos",
+   "start": 1.406125,
+   "end": 1.665541
+  },
+  {
+   "text": "para",
+   "start": 1.724541,
+   "end": 1.842457
+  },
+  {
+   "text": "conservar",
+   "start": 1.901416,
+   "end": 2.314166
+  },
+  {
+   "text": "el",
+   "start": 2.325958,
+   "end": 2.420291
+  },
+  {
+   "text": "ochenta",
+   "start": 2.432083,
+   "end": 2.785874
+  },
+  {
+   "text": "por",
+   "start": 2.856583,
+   "end": 2.962708
+  },
+  {
+   "text": "ciento",
+   "start": 2.986333,
+   "end": 3.316541
+  },
+  {
+   "text": "de",
+   "start": 3.340083,
+   "end": 3.422624
+  },
+  {
+   "text": "su",
+   "start": 3.434416,
+   "end": 3.528749
+  },
+  {
+   "text": "capacidad",
+   "start": 3.575958,
+   "end": 4.141999
+  }
+ ]
+}

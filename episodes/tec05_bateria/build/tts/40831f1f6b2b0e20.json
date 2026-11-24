@@ -1,0 +1,46 @@
+{
+ "text": "después de mil cargas completas, en condiciones ideales.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "después",
+   "start": 0.097166,
+   "end": 0.462749
+  },
+  {
+   "text": "de",
+   "start": 0.474541,
+   "end": 0.533499
+  },
+  {
+   "text": "mil",
+   "start": 0.568875,
+   "end": 0.733958
+  },
+  {
+   "text": "cargas",
+   "start": 0.792916,
+   "end": 1.099499
+  },
+  {
+   "text": "completas",
+   "start": 1.134916,
+   "end": 1.689166
+  },
+  {
+   "text": "en",
+   "start": 1.936791,
+   "end": 2.090082
+  },
+  {
+   "text": "condiciones",
+   "start": 2.090083,
+   "end": 2.679708
+  },
+  {
+   "text": "ideales",
+   "start": 2.703291,
+   "end": 3.222166
+  }
+ ]
+}

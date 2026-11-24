@@ -1,0 +1,36 @@
+{
+ "text": "¿Y qué la gasta más rápido?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "qué",
+   "start": 0.223916,
+   "end": 0.289124
+  },
+  {
+   "text": "la",
+   "start": 0.310875,
+   "end": 0.386958
+  },
+  {
+   "text": "gasta",
+   "start": 0.408708,
+   "end": 0.669583
+  },
+  {
+   "text": "más",
+   "start": 0.691291,
+   "end": 0.843457
+  },
+  {
+   "text": "rápido",
+   "start": 0.865208,
+   "end": 1.245624
+  }
+ ]
+}

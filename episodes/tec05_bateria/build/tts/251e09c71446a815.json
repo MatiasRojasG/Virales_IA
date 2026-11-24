@@ -1,0 +1,56 @@
+{
+ "text": "fue perdiendo litio en el camino, un poquito cada día.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "fue",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "perdiendo",
+   "start": 0.3,
+   "end": 0.669583
+  },
+  {
+   "text": "litio",
+   "start": 0.691291,
+   "end": 0.963041
+  },
+  {
+   "text": "en",
+   "start": 0.984791,
+   "end": 1.028249
+  },
+  {
+   "text": "el",
+   "start": 1.039125,
+   "end": 1.136958
+  },
+  {
+   "text": "camino",
+   "start": 1.169583,
+   "end": 1.528291
+  },
+  {
+   "text": "un",
+   "start": 1.77825,
+   "end": 1.941291
+  },
+  {
+   "text": "poquito",
+   "start": 1.952166,
+   "end": 2.278249
+  },
+  {
+   "text": "cada",
+   "start": 2.343458,
+   "end": 2.539124
+  },
+  {
+   "text": "día",
+   "start": 2.57175,
+   "end": 2.82175
+  }
+ ]
+}

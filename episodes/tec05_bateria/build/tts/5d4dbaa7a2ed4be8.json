@@ -1,0 +1,41 @@
+{
+ "text": "Tu batería no se echó a perder:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "batería",
+   "start": 0.180416,
+   "end": 0.582582
+  },
+  {
+   "text": "no",
+   "start": 0.615208,
+   "end": 0.745624
+  },
+  {
+   "text": "se",
+   "start": 0.767375,
+   "end": 0.854333
+  },
+  {
+   "text": "echó",
+   "start": 0.865208,
+   "end": 1.104333
+  },
+  {
+   "text": "a",
+   "start": 1.115208,
+   "end": 1.158666
+  },
+  {
+   "text": "perder",
+   "start": 1.234791,
+   "end": 1.582624
+  }
+ ]
+}

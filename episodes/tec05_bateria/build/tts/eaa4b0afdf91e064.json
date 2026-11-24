@@ -1,0 +1,36 @@
+{
+ "text": "Menos horas al cien, menos desgaste.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Menos",
+   "start": 0.095125,
+   "end": 0.453833
+  },
+  {
+   "text": "horas",
+   "start": 0.464666,
+   "end": 0.692916
+  },
+  {
+   "text": "al",
+   "start": 0.692916,
+   "end": 0.790749
+  },
+  {
+   "text": "cien",
+   "start": 0.8125,
+   "end": 1.08425
+  },
+  {
+   "text": "menos",
+   "start": 1.29075,
+   "end": 1.595083
+  },
+  {
+   "text": "desgaste",
+   "start": 1.605958,
+   "end": 2.040749
+  }
+ ]
+}

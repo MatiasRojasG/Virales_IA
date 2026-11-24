@@ -1,0 +1,101 @@
+{
+ "text": "Por eso muchos celulares traen una opción para cargar solo hasta el ochenta por ciento: menos horas al cien.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.097166,
+   "end": 0.226874
+  },
+  {
+   "text": "eso",
+   "start": 0.226875,
+   "end": 0.415541
+  },
+  {
+   "text": "muchos",
+   "start": 0.439166,
+   "end": 0.733957
+  },
+  {
+   "text": "celulares",
+   "start": 0.733958,
+   "end": 1.241041
+  },
+  {
+   "text": "traen",
+   "start": 1.288208,
+   "end": 1.512249
+  },
+  {
+   "text": "una",
+   "start": 1.535833,
+   "end": 1.677333
+  },
+  {
+   "text": "opción",
+   "start": 1.71275,
+   "end": 2.078333
+  },
+  {
+   "text": "para",
+   "start": 2.090083,
+   "end": 2.243374
+  },
+  {
+   "text": "cargar",
+   "start": 2.314166,
+   "end": 2.608957
+  },
+  {
+   "text": "solo",
+   "start": 2.632541,
+   "end": 2.915541
+  },
+  {
+   "text": "hasta",
+   "start": 2.915583,
+   "end": 3.127833
+  },
+  {
+   "text": "el",
+   "start": 3.175,
+   "end": 3.2221659
+  },
+  {
+   "text": "ochenta",
+   "start": 3.233958,
+   "end": 3.599541
+  },
+  {
+   "text": "por",
+   "start": 3.670291,
+   "end": 3.776416
+  },
+  {
+   "text": "ciento",
+   "start": 3.811791,
+   "end": 4.212749
+  },
+  {
+   "text": "menos",
+   "start": 4.472166,
+   "end": 4.837749
+  },
+  {
+   "text": "horas",
+   "start": 4.849541,
+   "end": 5.120749
+  },
+  {
+   "text": "al",
+   "start": 5.12075,
+   "end": 5.226875
+  },
+  {
+   "text": "cien",
+   "start": 5.250458,
+   "end": 5.509874
+  }
+ ]
+}

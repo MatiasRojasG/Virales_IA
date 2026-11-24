@@ -1,0 +1,41 @@
+{
+ "text": "Menos litio que viaja es menos carga.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Menos",
+   "start": 0.093458,
+   "end": 0.397791
+  },
+  {
+   "text": "litio",
+   "start": 0.419583,
+   "end": 0.669583
+  },
+  {
+   "text": "que",
+   "start": 0.734791,
+   "end": 0.799999
+  },
+  {
+   "text": "viaja",
+   "start": 0.832625,
+   "end": 1.147833
+  },
+  {
+   "text": "es",
+   "start": 1.158708,
+   "end": 1.267416
+  },
+  {
+   "text": "menos",
+   "start": 1.289125,
+   "end": 1.560875
+  },
+  {
+   "text": "carga",
+   "start": 1.604333,
+   "end": 1.897791
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "Ese ir y venir es tu energía.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "ir",
+   "start": 0.354333,
+   "end": 0.441291
+  },
+  {
+   "text": "y",
+   "start": 0.452166,
+   "end": 0.506499
+  },
+  {
+   "text": "venir",
+   "start": 0.539125,
+   "end": 0.810875
+  },
+  {
+   "text": "es",
+   "start": 0.82175,
+   "end": 0.930458
+  },
+  {
+   "text": "tu",
+   "start": 0.973916,
+   "end": 1.017374
+  },
+  {
+   "text": "energía",
+   "start": 1.039125,
+   "end": 1.52825
+  }
+ ]
+}
