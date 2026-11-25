@@ -1,0 +1,41 @@
+{
+ "text": "y un pequeño cerebro que los mueve.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "un",
+   "start": 0.180416,
+   "end": 0.321707
+  },
+  {
+   "text": "pequeño",
+   "start": 0.332625,
+   "end": 0.647833
+  },
+  {
+   "text": "cerebro",
+   "start": 0.680416,
+   "end": 1.006499
+  },
+  {
+   "text": "que",
+   "start": 1.060875,
+   "end": 1.115208
+  },
+  {
+   "text": "los",
+   "start": 1.136958,
+   "end": 1.256541
+  },
+  {
+   "text": "mueve",
+   "start": 1.27825,
+   "end": 1.560875
+  }
+ ]
+}

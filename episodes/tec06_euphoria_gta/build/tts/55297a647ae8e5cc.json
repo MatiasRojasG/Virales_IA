@@ -1,0 +1,41 @@
+{
+ "text": "Antes, las caídas se grababan una vez...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Antes",
+   "start": 0.093458,
+   "end": 0.463041
+  },
+  {
+   "text": "las",
+   "start": 0.702166,
+   "end": 0.843457
+  },
+  {
+   "text": "caídas",
+   "start": 0.886958,
+   "end": 1.234791
+  },
+  {
+   "text": "se",
+   "start": 1.234791,
+   "end": 1.321749
+  },
+  {
+   "text": "grababan",
+   "start": 1.354333,
+   "end": 1.713041
+  },
+  {
+   "text": "una",
+   "start": 1.734791,
+   "end": 1.886957
+  },
+  {
+   "text": "vez",
+   "start": 1.908708,
+   "end": 2.180458
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Esa técnica se llama Euphoria,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Esa",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "técnica",
+   "start": 0.365208,
+   "end": 0.734791
+  },
+  {
+   "text": "se",
+   "start": 0.745666,
+   "end": 0.843499
+  },
+  {
+   "text": "llama",
+   "start": 0.897833,
+   "end": 1.093499
+  },
+  {
+   "text": "Euphoria",
+   "start": 1.136958,
+   "end": 1.582624
+  }
+ ]
+}

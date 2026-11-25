@@ -1,0 +1,31 @@
+{
+ "text": "y se repetían siempre iguales.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "se",
+   "start": 0.180416,
+   "end": 0.289124
+  },
+  {
+   "text": "repetían",
+   "start": 0.32175,
+   "end": 0.789125
+  },
+  {
+   "text": "siempre",
+   "start": 0.810875,
+   "end": 1.104333
+  },
+  {
+   "text": "iguales",
+   "start": 1.136958,
+   "end": 1.626083
+  }
+ ]
+}

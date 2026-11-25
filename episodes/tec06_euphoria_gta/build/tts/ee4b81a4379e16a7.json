@@ -1,0 +1,41 @@
+{
+ "text": "Por eso no hay dos caídas iguales.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.419582
+  },
+  {
+   "text": "no",
+   "start": 0.452166,
+   "end": 0.593457
+  },
+  {
+   "text": "hay",
+   "start": 0.593458,
+   "end": 0.723874
+  },
+  {
+   "text": "dos",
+   "start": 0.767375,
+   "end": 0.941291
+  },
+  {
+   "text": "caídas",
+   "start": 0.984791,
+   "end": 1.386957
+  },
+  {
+   "text": "iguales",
+   "start": 1.408708,
+   "end": 1.876083
+  }
+ ]
+}

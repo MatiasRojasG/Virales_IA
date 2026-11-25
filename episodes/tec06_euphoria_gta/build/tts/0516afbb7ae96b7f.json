@@ -1,0 +1,81 @@
+{
+ "text": "y en vez de caer como un muñeco, estira los brazos y da un paso.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "en",
+   "start": 0.180416,
+   "end": 0.267374
+  },
+  {
+   "text": "vez",
+   "start": 0.332625,
+   "end": 0.452166
+  },
+  {
+   "text": "de",
+   "start": 0.452166,
+   "end": 0.506499
+  },
+  {
+   "text": "caer",
+   "start": 0.57175,
+   "end": 0.756541
+  },
+  {
+   "text": "como",
+   "start": 0.810875,
+   "end": 0.984791
+  },
+  {
+   "text": "un",
+   "start": 0.995666,
+   "end": 1.082624
+  },
+  {
+   "text": "muñeco",
+   "start": 1.115208,
+   "end": 1.495624
+  },
+  {
+   "text": "estira",
+   "start": 1.767375,
+   "end": 2.093458
+  },
+  {
+   "text": "los",
+   "start": 2.115208,
+   "end": 2.256499
+  },
+  {
+   "text": "brazos",
+   "start": 2.289125,
+   "end": 2.636958
+  },
+  {
+   "text": "y",
+   "start": 2.680416,
+   "end": 2.723874
+  },
+  {
+   "text": "da",
+   "start": 2.756541,
+   "end": 2.854374
+  },
+  {
+   "text": "un",
+   "start": 2.886958,
+   "end": 3.028249
+  },
+  {
+   "text": "paso",
+   "start": 3.039125,
+   "end": 3.32175
+  }
+ ]
+}

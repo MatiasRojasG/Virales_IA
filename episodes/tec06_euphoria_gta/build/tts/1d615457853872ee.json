@@ -1,0 +1,41 @@
+{
+ "text": "y esa caída se repite siempre igual.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "esa",
+   "start": 0.202166,
+   "end": 0.376082
+  },
+  {
+   "text": "caída",
+   "start": 0.441291,
+   "end": 0.756499
+  },
+  {
+   "text": "se",
+   "start": 0.767375,
+   "end": 0.865208
+  },
+  {
+   "text": "repite",
+   "start": 0.886958,
+   "end": 1.234791
+  },
+  {
+   "text": "siempre",
+   "start": 1.267375,
+   "end": 1.571708
+  },
+  {
+   "text": "igual",
+   "start": 1.604333,
+   "end": 1.886958
+  }
+ ]
+}

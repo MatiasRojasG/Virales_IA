@@ -1,0 +1,76 @@
+{
+ "text": "Si lo empujan, calcula en el momento dónde poner el pie para no caerse.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "lo",
+   "start": 0.267375,
+   "end": 0.310833
+  },
+  {
+   "text": "empujan",
+   "start": 0.32175,
+   "end": 0.756541
+  },
+  {
+   "text": "calcula",
+   "start": 0.984791,
+   "end": 1.343499
+  },
+  {
+   "text": "en",
+   "start": 1.376083,
+   "end": 1.430416
+  },
+  {
+   "text": "el",
+   "start": 1.441291,
+   "end": 1.528249
+  },
+  {
+   "text": "momento",
+   "start": 1.55,
+   "end": 1.941291
+  },
+  {
+   "text": "dónde",
+   "start": 1.963041,
+   "end": 2.147832
+  },
+  {
+   "text": "poner",
+   "start": 2.213041,
+   "end": 2.430416
+  },
+  {
+   "text": "el",
+   "start": 2.441291,
+   "end": 2.528249
+  },
+  {
+   "text": "pie",
+   "start": 2.604333,
+   "end": 2.723916
+  },
+  {
+   "text": "para",
+   "start": 2.8,
+   "end": 2.952166
+  },
+  {
+   "text": "no",
+   "start": 2.973916,
+   "end": 3.082624
+  },
+  {
+   "text": "caerse",
+   "start": 3.147833,
+   "end": 3.517416
+  }
+ ]
+}

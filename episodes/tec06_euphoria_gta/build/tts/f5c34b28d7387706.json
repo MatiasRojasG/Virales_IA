@@ -1,0 +1,26 @@
+{
+ "text": "¿Cómo sabe qué hacer?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093458,
+   "end": 0.310833
+  },
+  {
+   "text": "sabe",
+   "start": 0.332625,
+   "end": 0.560875
+  },
+  {
+   "text": "qué",
+   "start": 0.626083,
+   "end": 0.669541
+  },
+  {
+   "text": "hacer",
+   "start": 0.669583,
+   "end": 0.963041
+  }
+ ]
+}

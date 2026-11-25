@@ -1,0 +1,51 @@
+{
+ "text": "la calcula... como un cuerpo que no quiere caerse.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "la",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "calcula",
+   "start": 0.245666,
+   "end": 0.669582
+  },
+  {
+   "text": "como",
+   "start": 0.919583,
+   "end": 1.093458
+  },
+  {
+   "text": "un",
+   "start": 1.093458,
+   "end": 1.245624
+  },
+  {
+   "text": "cuerpo",
+   "start": 1.256541,
+   "end": 1.495666
+  },
+  {
+   "text": "que",
+   "start": 1.560875,
+   "end": 1.626083
+  },
+  {
+   "text": "no",
+   "start": 1.647833,
+   "end": 1.745666
+  },
+  {
+   "text": "quiere",
+   "start": 1.82175,
+   "end": 2.006541
+  },
+  {
+   "text": "caerse",
+   "start": 2.07175,
+   "end": 2.430458
+  }
+ ]
+}

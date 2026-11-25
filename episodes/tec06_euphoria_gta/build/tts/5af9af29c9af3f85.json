@@ -1,0 +1,61 @@
+{
+ "text": "calcula, en el momento, dónde poner el pie para no caerse.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "calcula",
+   "start": 0.093458,
+   "end": 0.571708
+  },
+  {
+   "text": "en",
+   "start": 0.789125,
+   "end": 0.886958
+  },
+  {
+   "text": "el",
+   "start": 0.897833,
+   "end": 0.984791
+  },
+  {
+   "text": "momento",
+   "start": 1.006541,
+   "end": 1.441332
+  },
+  {
+   "text": "dónde",
+   "start": 1.713041,
+   "end": 1.865207
+  },
+  {
+   "text": "poner",
+   "start": 1.930416,
+   "end": 2.136957
+  },
+  {
+   "text": "el",
+   "start": 2.147833,
+   "end": 2.245666
+  },
+  {
+   "text": "pie",
+   "start": 2.32175,
+   "end": 2.441333
+  },
+  {
+   "text": "para",
+   "start": 2.517375,
+   "end": 2.680416
+  },
+  {
+   "text": "no",
+   "start": 2.702166,
+   "end": 2.810874
+  },
+  {
+   "text": "caerse",
+   "start": 2.876083,
+   "end": 3.245666
+  }
+ ]
+}

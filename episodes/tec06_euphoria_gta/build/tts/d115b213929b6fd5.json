@@ -1,0 +1,76 @@
+{
+ "text": "En Oxford, el investigador Tórsten Rail estudiaba cómo el sistema nervioso controla el movimiento.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "Oxford",
+   "start": 0.202166,
+   "end": 0.593457
+  },
+  {
+   "text": "el",
+   "start": 0.810875,
+   "end": 0.908708
+  },
+  {
+   "text": "investigador",
+   "start": 0.919583,
+   "end": 1.419583
+  },
+  {
+   "text": "Tórsten",
+   "start": 1.506541,
+   "end": 1.843499
+  },
+  {
+   "text": "Rail",
+   "start": 1.854333,
+   "end": 2.082583
+  },
+  {
+   "text": "estudiaba",
+   "start": 2.082625,
+   "end": 2.539166
+  },
+  {
+   "text": "cómo",
+   "start": 2.604333,
+   "end": 2.745624
+  },
+  {
+   "text": "el",
+   "start": 2.767375,
+   "end": 2.843458
+  },
+  {
+   "text": "sistema",
+   "start": 2.865208,
+   "end": 3.223916
+  },
+  {
+   "text": "nervioso",
+   "start": 3.256541,
+   "end": 3.669582
+  },
+  {
+   "text": "controla",
+   "start": 3.723916,
+   "end": 4.093499
+  },
+  {
+   "text": "el",
+   "start": 4.136958,
+   "end": 4.180416
+  },
+  {
+   "text": "movimiento",
+   "start": 4.202166,
+   "end": 4.756499
+  }
+ ]
+}

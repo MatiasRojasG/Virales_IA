@@ -1,0 +1,61 @@
+{
+ "text": "La otra opción: soltar el cuerpo y dejar que caiga solo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "otra",
+   "start": 0.267375,
+   "end": 0.463041
+  },
+  {
+   "text": "opción",
+   "start": 0.484791,
+   "end": 0.821749
+  },
+  {
+   "text": "soltar",
+   "start": 1.02825,
+   "end": 1.365208
+  },
+  {
+   "text": "el",
+   "start": 1.376083,
+   "end": 1.441291
+  },
+  {
+   "text": "cuerpo",
+   "start": 1.506541,
+   "end": 1.789166
+  },
+  {
+   "text": "y",
+   "start": 1.832625,
+   "end": 1.86525
+  },
+  {
+   "text": "dejar",
+   "start": 1.897833,
+   "end": 2.147833
+  },
+  {
+   "text": "que",
+   "start": 2.213041,
+   "end": 2.278249
+  },
+  {
+   "text": "caiga",
+   "start": 2.354333,
+   "end": 2.593458
+  },
+  {
+   "text": "solo",
+   "start": 2.604333,
+   "end": 2.876083
+  }
+ ]
+}

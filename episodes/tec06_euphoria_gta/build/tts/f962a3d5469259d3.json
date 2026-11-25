@@ -1,0 +1,51 @@
+{
+ "text": "diez veces más que en ge te a cinco.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "diez",
+   "start": 0.097875,
+   "end": 0.357291
+  },
+  {
+   "text": "veces",
+   "start": 0.380916,
+   "end": 0.687499
+  },
+  {
+   "text": "más",
+   "start": 0.711083,
+   "end": 0.935124
+  },
+  {
+   "text": "que",
+   "start": 0.994083,
+   "end": 1.064833
+  },
+  {
+   "text": "en",
+   "start": 1.088458,
+   "end": 1.182791
+  },
+  {
+   "text": "ge",
+   "start": 1.182791,
+   "end": 1.312499
+  },
+  {
+   "text": "te",
+   "start": 1.395041,
+   "end": 1.4422069
+  },
+  {
+   "text": "a",
+   "start": 1.454,
+   "end": 1.512958
+  },
+  {
+   "text": "cinco",
+   "start": 1.536541,
+   "end": 1.902124
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "Su idea: un cuerpo virtual con músculos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Su",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "idea",
+   "start": 0.267375,
+   "end": 0.604333
+  },
+  {
+   "text": "un",
+   "start": 0.832625,
+   "end": 0.963041
+  },
+  {
+   "text": "cuerpo",
+   "start": 0.995666,
+   "end": 1.245666
+  },
+  {
+   "text": "virtual",
+   "start": 1.267375,
+   "end": 1.615208
+  },
+  {
+   "text": "con",
+   "start": 1.669583,
+   "end": 1.778291
+  },
+  {
+   "text": "músculos",
+   "start": 1.810875,
+   "end": 2.376083
+  }
+ ]
+}

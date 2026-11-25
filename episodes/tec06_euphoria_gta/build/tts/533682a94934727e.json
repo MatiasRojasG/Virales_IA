@@ -1,0 +1,41 @@
+{
+ "text": "Durante años, los juegos usaron movimientos grabados:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Durante",
+   "start": 0.093458,
+   "end": 0.463041
+  },
+  {
+   "text": "años",
+   "start": 0.484791,
+   "end": 0.789124
+  },
+  {
+   "text": "los",
+   "start": 1.02825,
+   "end": 1.169541
+  },
+  {
+   "text": "juegos",
+   "start": 1.180416,
+   "end": 1.495624
+  },
+  {
+   "text": "usaron",
+   "start": 1.506541,
+   "end": 1.810874
+  },
+  {
+   "text": "movimientos",
+   "start": 1.832625,
+   "end": 2.36525
+  },
+  {
+   "text": "grabados",
+   "start": 2.386958,
+   "end": 2.865208
+  }
+ ]
+}

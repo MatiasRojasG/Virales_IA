@@ -1,0 +1,71 @@
+{
+ "text": "y Rockstar la usa desde ge te a cuatro, en dos mil ocho.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.097166,
+   "end": 0.179707
+  },
+  {
+   "text": "Rockstar",
+   "start": 0.215083,
+   "end": 0.674999
+  },
+  {
+   "text": "la",
+   "start": 0.686791,
+   "end": 0.769332
+  },
+  {
+   "text": "usa",
+   "start": 0.804708,
+   "end": 1.028749
+  },
+  {
+   "text": "desde",
+   "start": 1.052375,
+   "end": 1.264625
+  },
+  {
+   "text": "ge",
+   "start": 1.276416,
+   "end": 1.394332
+  },
+  {
+   "text": "te",
+   "start": 1.476875,
+   "end": 1.5004579
+  },
+  {
+   "text": "a",
+   "start": 1.500458,
+   "end": 1.559416
+  },
+  {
+   "text": "cuatro",
+   "start": 1.642,
+   "end": 1.960416
+  },
+  {
+   "text": "en",
+   "start": 2.231583,
+   "end": 2.337708
+  },
+  {
+   "text": "dos",
+   "start": 2.396708,
+   "end": 2.549999
+  },
+  {
+   "text": "mil",
+   "start": 2.573583,
+   "end": 2.738666
+  },
+  {
+   "text": "ocho",
+   "start": 2.750458,
+   "end": 3.045249
+  }
+ ]
+}

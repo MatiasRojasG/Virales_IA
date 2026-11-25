@@ -1,0 +1,26 @@
+{
+ "text": "alguien cae una vez...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "alguien",
+   "start": 0.093458,
+   "end": 0.463041
+  },
+  {
+   "text": "cae",
+   "start": 0.473916,
+   "end": 0.658707
+  },
+  {
+   "text": "una",
+   "start": 0.691291,
+   "end": 0.854332
+  },
+  {
+   "text": "vez",
+   "start": 0.876083,
+   "end": 1.136958
+  }
+ ]
+}

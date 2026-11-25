@@ -1,0 +1,76 @@
+{
+ "text": "La otra opción era soltar el cuerpo y que la física hiciera el resto.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "otra",
+   "start": 0.267375,
+   "end": 0.463041
+  },
+  {
+   "text": "opción",
+   "start": 0.484791,
+   "end": 0.745666
+  },
+  {
+   "text": "era",
+   "start": 0.756541,
+   "end": 0.897832
+  },
+  {
+   "text": "soltar",
+   "start": 0.908708,
+   "end": 1.223916
+  },
+  {
+   "text": "el",
+   "start": 1.234791,
+   "end": 1.321749
+  },
+  {
+   "text": "cuerpo",
+   "start": 1.376083,
+   "end": 1.658708
+  },
+  {
+   "text": "y",
+   "start": 1.702166,
+   "end": 1.723916
+  },
+  {
+   "text": "que",
+   "start": 1.789125,
+   "end": 1.843458
+  },
+  {
+   "text": "la",
+   "start": 1.876083,
+   "end": 1.941291
+  },
+  {
+   "text": "física",
+   "start": 1.963041,
+   "end": 2.321749
+  },
+  {
+   "text": "hiciera",
+   "start": 2.365208,
+   "end": 2.669541
+  },
+  {
+   "text": "el",
+   "start": 2.713041,
+   "end": 2.789124
+  },
+  {
+   "text": "resto",
+   "start": 2.8,
+   "end": 3.115208
+  }
+ ]
+}

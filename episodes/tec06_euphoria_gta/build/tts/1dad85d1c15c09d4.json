@@ -1,0 +1,41 @@
+{
+ "text": "Si lo empujan, no busca una animación:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "lo",
+   "start": 0.256541,
+   "end": 0.310874
+  },
+  {
+   "text": "empujan",
+   "start": 0.332625,
+   "end": 0.8
+  },
+  {
+   "text": "no",
+   "start": 1.05,
+   "end": 1.180416
+  },
+  {
+   "text": "busca",
+   "start": 1.213041,
+   "end": 1.495666
+  },
+  {
+   "text": "una",
+   "start": 1.52825,
+   "end": 1.669541
+  },
+  {
+   "text": "animación",
+   "start": 1.713041,
+   "end": 2.223916
+  }
+ ]
+}

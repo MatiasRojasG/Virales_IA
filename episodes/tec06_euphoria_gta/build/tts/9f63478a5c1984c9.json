@@ -1,0 +1,21 @@
+{
+ "text": "simulaba algo distinto:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "simulaba",
+   "start": 0.095125,
+   "end": 0.606
+  },
+  {
+   "text": "algo",
+   "start": 0.660333,
+   "end": 0.845124
+  },
+  {
+   "text": "distinto",
+   "start": 0.877708,
+   "end": 1.323374
+  }
+ ]
+}

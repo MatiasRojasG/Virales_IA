@@ -1,0 +1,51 @@
+{
+ "text": "En la Universidad de Oxford, un investigador, Tórsten Rail,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "la",
+   "start": 0.223916,
+   "end": 0.289124
+  },
+  {
+   "text": "Universidad",
+   "start": 0.32175,
+   "end": 0.854375
+  },
+  {
+   "text": "de",
+   "start": 0.865208,
+   "end": 0.908666
+  },
+  {
+   "text": "Oxford",
+   "start": 0.930416,
+   "end": 1.321707
+  },
+  {
+   "text": "un",
+   "start": 1.57175,
+   "end": 1.658708
+  },
+  {
+   "text": "investigador",
+   "start": 1.680416,
+   "end": 2.321707
+  },
+  {
+   "text": "Tórsten",
+   "start": 2.593458,
+   "end": 2.952166
+  },
+  {
+   "text": "Rail",
+   "start": 2.963041,
+   "end": 3.223916
+  }
+ ]
+}

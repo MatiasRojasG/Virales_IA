@@ -1,0 +1,36 @@
+{
+ "text": "Empujas a un personaje de videojuego...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Empujas",
+   "start": 0.093458,
+   "end": 0.593458
+  },
+  {
+   "text": "a",
+   "start": 0.593458,
+   "end": 0.626083
+  },
+  {
+   "text": "un",
+   "start": 0.658708,
+   "end": 0.799999
+  },
+  {
+   "text": "personaje",
+   "start": 0.8,
+   "end": 1.245666
+  },
+  {
+   "text": "de",
+   "start": 1.267375,
+   "end": 1.343458
+  },
+  {
+   "text": "videojuego",
+   "start": 1.365208,
+   "end": 1.930416
+  }
+ ]
+}

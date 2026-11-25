@@ -1,0 +1,51 @@
+{
+ "text": "Pero cae como un muñeco de trapo... sin vida.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "cae",
+   "start": 0.310875,
+   "end": 0.463041
+  },
+  {
+   "text": "como",
+   "start": 0.52825,
+   "end": 0.723916
+  },
+  {
+   "text": "un",
+   "start": 0.734791,
+   "end": 0.832624
+  },
+  {
+   "text": "muñeco",
+   "start": 0.865208,
+   "end": 1.191291
+  },
+  {
+   "text": "de",
+   "start": 1.213041,
+   "end": 1.278249
+  },
+  {
+   "text": "trapo",
+   "start": 1.354333,
+   "end": 1.636958
+  },
+  {
+   "text": "sin",
+   "start": 1.854333,
+   "end": 2.028249
+  },
+  {
+   "text": "vida",
+   "start": 2.082625,
+   "end": 2.354375
+  }
+ ]
+}

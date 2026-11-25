@@ -1,0 +1,23 @@
+[hook] (  0.1s –   7.6s)
+Empujas a un personaje de videojuego... y en vez de caer como un muñeco, estira los brazos y da un paso. ¿Cómo sabe qué hacer?
+
+[grabado] (  7.6s –  12.1s)
+Antes, las caídas se grababan una vez... y se repetían siempre iguales.
+
+[trapo] ( 12.1s –  17.5s)
+La otra opción: soltar el cuerpo y dejar que caiga solo. Pero cae como un muñeco de trapo.
+
+[oxford] ( 17.5s –  22.7s)
+En Oxford, el investigador Torsten Reil estudiaba cómo el sistema nervioso controla el movimiento.
+
+[idea] ( 22.7s –  31.5s)
+Su idea: un cuerpo virtual con músculos... y un pequeño cerebro que los mueve. Si lo empujan, calcula en el momento dónde poner el pie para no caerse.
+
+[nombre] ( 31.5s –  39.2s)
+Esa técnica se llama Euphoria, y Rockstar la usa desde GTA IV, en 2008. Por eso no hay dos caídas iguales.
+
+[gta6] ( 39.2s –  47.1s)
+Según Rockstar, los peatones de GTA VI tienen además más de 600.000 animaciones, diez veces más que en GTA V.
+
+[cierre] ( 47.1s –  53.7s)
+Pero ante un empujón, el personaje no recuerda una caída: la calcula... como un cuerpo que no quiere caerse.

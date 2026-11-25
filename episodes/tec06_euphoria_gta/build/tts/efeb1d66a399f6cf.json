@@ -1,0 +1,61 @@
+{
+ "text": "Pero ante un empujón inesperado, el personaje no recuerda una caída:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "ante",
+   "start": 0.234791,
+   "end": 0.452166
+  },
+  {
+   "text": "un",
+   "start": 0.484791,
+   "end": 0.571749
+  },
+  {
+   "text": "empujón",
+   "start": 0.582625,
+   "end": 0.941333
+  },
+  {
+   "text": "inesperado",
+   "start": 0.952166,
+   "end": 1.517374
+  },
+  {
+   "text": "el",
+   "start": 1.767375,
+   "end": 1.843458
+  },
+  {
+   "text": "personaje",
+   "start": 1.908708,
+   "end": 2.354374
+  },
+  {
+   "text": "no",
+   "start": 2.386958,
+   "end": 2.517374
+  },
+  {
+   "text": "recuerda",
+   "start": 2.52825,
+   "end": 2.930416
+  },
+  {
+   "text": "una",
+   "start": 2.973916,
+   "end": 3.136957
+  },
+  {
+   "text": "caída",
+   "start": 3.191291,
+   "end": 3.571707
+  }
+ ]
+}

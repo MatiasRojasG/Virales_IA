@@ -1,0 +1,41 @@
+{
+ "text": "cómo el sistema nervioso controla el movimiento.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "cómo",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "el",
+   "start": 0.27825,
+   "end": 0.354333
+  },
+  {
+   "text": "sistema",
+   "start": 0.365208,
+   "end": 0.713041
+  },
+  {
+   "text": "nervioso",
+   "start": 0.745666,
+   "end": 1.136957
+  },
+  {
+   "text": "controla",
+   "start": 1.191291,
+   "end": 1.571707
+  },
+  {
+   "text": "el",
+   "start": 1.604333,
+   "end": 1.647791
+  },
+  {
+   "text": "movimiento",
+   "start": 1.669583,
+   "end": 2.213041
+  }
+ ]
+}
