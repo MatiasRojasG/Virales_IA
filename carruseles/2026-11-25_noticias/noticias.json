@@ -1,0 +1,122 @@
+{
+ "fecha": "25 NOV 2026",
+ "hora_publicacion": "2026-11-25 11:00 America/Santiago (14:00 UTC); ventana de noticias desde 2026-11-24 14:00 UTC",
+ "nota_imagenes": "Wikimedia Commons no respondió desde la sesión (proxy 403): las imágenes son ilustraciones dibujadas por código (dibujos.py), sin logos ni marcas.",
+ "portada": {
+  "kicker": "NOTICIAS DE TECNOLOGÍA · ÚLTIMAS 24 H",
+  "titulo": [
+   "LO QUE PASÓ",
+   "EN TECNOLOGÍA",
+   "EN 24 HORAS"
+  ],
+  "rojo": [
+   2
+  ],
+  "imagenes": [
+   "img/musica_p.jpg",
+   "img/juguete_p.jpg",
+   "img/cohete_p.jpg",
+   "img/red_p.jpg"
+  ],
+  "focos": [
+   [
+    0.5,
+    0.5
+   ],
+   [
+    0.4,
+    0.45
+   ],
+   [
+    0.5,
+    0.45
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "zooms": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "noticias": [
+  {
+   "cat": "APPS Y MÚSICA",
+   "titulo": "Tidal borrará millones de canciones hechas solo con IA",
+   "texto": "Desde el 9 de diciembre, Tidal empezará a eliminar la música generada 100 % por IA y dejará de recibirla. Dice que son 27 millones de pistas, el 6,3 % de su catálogo, y que el 96 % nunca se ha escuchado. Las canciones hechas con ayuda de IA siguen permitidas.",
+   "importa": "Según Tidal, más del 43 % de las pistas que le enviaron en los últimos 90 días eran de IA. Las plataformas reciben esta avalancha a diario y deben decidir qué hacer con ella.",
+   "fuente": "TechCrunch y anuncio de Tidal · 24 nov 2026",
+   "publicada": "2026-11-24 16:46 UTC (TechCrunch)",
+   "img": "img/musica.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "IA",
+   "titulo": "Nueva York prohíbe por cinco años los juguetes con chatbot de IA",
+   "texto": "La gobernadora Kathy Hochul firmó este martes una ley que prohíbe fabricar, distribuir y vender en el estado juguetes con chatbots de IA integrados, como peluches, muñecas o robots que conversan. Las multas llegan a 15.000 dólares por día y por infracción.",
+   "importa": "Estos juguetes pueden conversar libremente con niños pequeños. La ley rige 90 días después de la firma: no alcanza a esta Navidad.",
+   "fuente": "Gobierno del Estado de Nueva York · 24 nov 2026",
+   "publicada": "2026-11-24 (comunicado de la gobernación de Nueva York)",
+   "img": "img/juguete.jpg",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "CIBERSEGURIDAD",
+   "titulo": "Hackean una red no secreta de la CIA",
+   "texto": "La CIA y la Oficina del Director de Inteligencia Nacional de EE. UU. descubrieron una intrusión que expuso parte de su información no clasificada, según The New York Times. Afectó a una red que analiza material público. La oficina dijo que no hubo fallas en sistemas clasificados.",
+   "importa": "Todavía no se sabe qué se robó ni quién lo hizo. Se cree que también quedó expuesta información de otras agencias.",
+   "fuente": "Reuters, sobre un reportaje de The New York Times · 24 nov 2026",
+   "publicada": "2026-11-24 20:03 UTC (Reuters)",
+   "img": "img/red.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "EMPRESAS",
+   "titulo": "Un jurado de EE. UU. declara culpable a Huawei",
+   "texto": "Tras un juicio de 11 semanas en Brooklyn, Huawei fue condenada por 10 de 12 cargos, entre ellos conspirar para robar secretos comerciales, violar sanciones y engañar a bancos sobre sus negocios en Irán y Corea del Norte. Fue absuelta de los cargos de asociación ilícita y obstrucción.",
+   "importa": "Huawei, uno de los gigantes tecnológicos de China, anunció que apelará. El caso, abierto en 2019, es parte de la disputa tecnológica entre EE. UU. y China.",
+   "fuente": "CNN y The Independent · 24 y 25 nov 2026",
+   "publicada": "2026-11-24 (veredicto del jurado en Brooklyn; CNN)",
+   "img": "img/tribunal.jpg",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "ESPACIO",
+   "titulo": "Un cohete de SpaceX vuela y aterriza por 29.ª vez",
+   "texto": "Un Falcon 9 despegó este martes desde California con la misión USSF-266, una carga secreta de la Fuerza Espacial de EE. UU. Su primera etapa, que ya había volado 28 veces, aterrizó unos 8,5 minutos después en una barcaza en el Pacífico.",
+   "importa": "Volver a usar la misma etapa casi 30 veces abarata cada lanzamiento. Antes, esa parte del cohete se perdía en cada viaje.",
+   "fuente": "Space.com · 24 nov 2026",
+   "publicada": "2026-11-24 15:08 UTC (despegue)",
+   "img": "img/cohete.jpg",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "pie": "Ilustración: stheq.ia"
+  }
+ ],
+ "cierre": {
+  "pregunta": "¿Escucharías música hecha 100 % por IA?",
+  "cta": "Comenta sí o no. Guarda este post y síguenos: noticias de tecnología día por medio."
+ }
+}

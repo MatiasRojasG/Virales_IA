@@ -138,7 +138,7 @@ def noticia(spec, nt, i, base, k, n):
     degradado(p, ih - 300, ih + 2, 0.0, 1.0)
     cabecera(p, spec["fecha"])
     cr = credito(base / nt["img"])
-    if nt.get("pie"): cr = nt["pie"] + "  ·  " + cr
+    if nt.get("pie"): cr = nt["pie"] + ("  ·  " + cr if cr else "")
     if cr: p.text(cr, X1, ih - 18, 18, FG, 0.55, face=C.FONT_MED, align="right")
     # número + categoría
     y = ih + 64
