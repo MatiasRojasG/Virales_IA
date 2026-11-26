@@ -1,0 +1,41 @@
+{
+ "text": "Ocho caracteres mezclando mayúsculas, números y símbolos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ocho",
+   "start": 0.097166,
+   "end": 0.309416
+  },
+  {
+   "text": "caracteres",
+   "start": 0.368416,
+   "end": 0.840124
+  },
+  {
+   "text": "mezclando",
+   "start": 0.863666,
+   "end": 1.299999
+  },
+  {
+   "text": "mayúsculas",
+   "start": 1.311791,
+   "end": 1.995749
+  },
+  {
+   "text": "números",
+   "start": 2.243416,
+   "end": 2.715124
+  },
+  {
+   "text": "y",
+   "start": 2.738666,
+   "end": 2.7622489
+  },
+  {
+   "text": "símbolos",
+   "start": 2.809416,
+   "end": 3.387249
+  }
+ ]
+}

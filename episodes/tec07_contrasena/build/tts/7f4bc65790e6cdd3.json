@@ -1,0 +1,26 @@
+{
+ "text": "Pero hay una trampa.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "hay",
+   "start": 0.256541,
+   "end": 0.365249
+  },
+  {
+   "text": "una",
+   "start": 0.397833,
+   "end": 0.539124
+  },
+  {
+   "text": "trampa",
+   "start": 0.604333,
+   "end": 0.930416
+  }
+ ]
+}

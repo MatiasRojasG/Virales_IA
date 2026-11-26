@@ -1,0 +1,21 @@
+{
+ "text": "la prueban primero...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "la",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "prueban",
+   "start": 0.289125,
+   "end": 0.604333
+  },
+  {
+   "text": "primero",
+   "start": 0.604333,
+   "end": 0.952166
+  }
+ ]
+}

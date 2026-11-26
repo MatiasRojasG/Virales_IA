@@ -1,0 +1,21 @@
+{
+ "text": "unas dos semanas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "unas",
+   "start": 0.097166,
+   "end": 0.332999
+  },
+  {
+   "text": "dos",
+   "start": 0.368416,
+   "end": 0.509916
+  },
+  {
+   "text": "semanas",
+   "start": 0.509916,
+   "end": 1.028791
+  }
+ ]
+}

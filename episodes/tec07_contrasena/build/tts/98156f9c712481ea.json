@@ -1,0 +1,16 @@
+{
+ "text": "¿Por qué?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "qué",
+   "start": 0.267375,
+   "end": 0.397791
+  }
+ ]
+}

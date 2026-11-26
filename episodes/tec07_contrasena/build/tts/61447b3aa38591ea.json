@@ -1,0 +1,46 @@
+{
+ "text": "y por casi cien con todo el teclado.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.097166,
+   "end": 0.156124
+  },
+  {
+   "text": "por",
+   "start": 0.238666,
+   "end": 0.356582
+  },
+  {
+   "text": "casi",
+   "start": 0.439166,
+   "end": 0.663207
+  },
+  {
+   "text": "cien",
+   "start": 0.698583,
+   "end": 0.993374
+  },
+  {
+   "text": "con",
+   "start": 0.993416,
+   "end": 1.193874
+  },
+  {
+   "text": "todo",
+   "start": 1.241041,
+   "end": 1.417916
+  },
+  {
+   "text": "el",
+   "start": 1.4415,
+   "end": 1.524041
+  },
+  {
+   "text": "teclado",
+   "start": 1.559416,
+   "end": 1.960374
+  }
+ ]
+}

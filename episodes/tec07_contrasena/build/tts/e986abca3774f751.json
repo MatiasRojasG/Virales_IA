@@ -1,0 +1,31 @@
+{
+ "text": "ciento treinta y dos años.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "ciento",
+   "start": 0.097166,
+   "end": 0.474541
+  },
+  {
+   "text": "treinta",
+   "start": 0.545291,
+   "end": 0.816499
+  },
+  {
+   "text": "y",
+   "start": 0.851875,
+   "end": 0.8754579
+  },
+  {
+   "text": "dos",
+   "start": 0.910833,
+   "end": 1.134874
+  },
+  {
+   "text": "años",
+   "start": 1.146708,
+   "end": 1.547666
+  }
+ ]
+}

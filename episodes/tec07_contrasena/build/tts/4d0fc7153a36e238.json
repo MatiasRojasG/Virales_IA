@@ -1,0 +1,26 @@
+{
+ "text": "por veintiséis con minúsculas,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "por",
+   "start": 0.097166,
+   "end": 0.238666
+  },
+  {
+   "text": "veintiséis",
+   "start": 0.274041,
+   "end": 0.781124
+  },
+  {
+   "text": "con",
+   "start": 0.828291,
+   "end": 0.934416
+  },
+  {
+   "text": "minúsculas",
+   "start": 0.958,
+   "end": 1.641958
+  }
+ ]
+}

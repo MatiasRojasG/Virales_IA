@@ -1,0 +1,51 @@
+{
+ "text": "roban la lista completa de contraseñas de un sitio.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "roban",
+   "start": 0.095125,
+   "end": 0.37775
+  },
+  {
+   "text": "la",
+   "start": 0.410333,
+   "end": 0.486416
+  },
+  {
+   "text": "lista",
+   "start": 0.497291,
+   "end": 0.758166
+  },
+  {
+   "text": "completa",
+   "start": 0.8125,
+   "end": 1.203791
+  },
+  {
+   "text": "de",
+   "start": 1.225541,
+   "end": 1.290749
+  },
+  {
+   "text": "contraseñas",
+   "start": 1.345125,
+   "end": 1.899458
+  },
+  {
+   "text": "de",
+   "start": 1.932083,
+   "end": 1.975541
+  },
+  {
+   "text": "un",
+   "start": 2.019041,
+   "end": 2.127749
+  },
+  {
+   "text": "sitio",
+   "start": 2.160333,
+   "end": 2.475541
+  }
+ ]
+}

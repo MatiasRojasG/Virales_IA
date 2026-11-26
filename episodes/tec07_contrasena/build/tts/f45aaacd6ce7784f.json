@@ -1,0 +1,41 @@
+{
+ "text": "Ocho caracteres con mayúsculas, números y símbolos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ocho",
+   "start": 0.097166,
+   "end": 0.309416
+  },
+  {
+   "text": "caracteres",
+   "start": 0.368416,
+   "end": 0.851916
+  },
+  {
+   "text": "con",
+   "start": 0.899041,
+   "end": 1.005166
+  },
+  {
+   "text": "mayúsculas",
+   "start": 1.028791,
+   "end": 1.700957
+  },
+  {
+   "text": "números",
+   "start": 1.960375,
+   "end": 2.432083
+  },
+  {
+   "text": "y",
+   "start": 2.455666,
+   "end": 2.4792489
+  },
+  {
+   "text": "símbolos",
+   "start": 2.526416,
+   "end": 3.116041
+  }
+ ]
+}

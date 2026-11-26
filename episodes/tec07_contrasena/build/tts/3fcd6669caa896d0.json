@@ -1,0 +1,31 @@
+{
+ "text": "al tercer intento, te bloquea.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "al",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "tercer",
+   "start": 0.27825,
+   "end": 0.55
+  },
+  {
+   "text": "intento",
+   "start": 0.560875,
+   "end": 1.006541
+  },
+  {
+   "text": "te",
+   "start": 1.223916,
+   "end": 1.278249
+  },
+  {
+   "text": "bloquea",
+   "start": 1.310875,
+   "end": 1.691291
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "Una empresa de seguridad lo midió con dieciséis de esas tarjetas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.097875,
+   "end": 0.239375
+  },
+  {
+   "text": "empresa",
+   "start": 0.251166,
+   "end": 0.604957
+  },
+  {
+   "text": "de",
+   "start": 0.628541,
+   "end": 0.711082
+  },
+  {
+   "text": "seguridad",
+   "start": 0.722875,
+   "end": 1.229958
+  },
+  {
+   "text": "lo",
+   "start": 1.253541,
+   "end": 1.324291
+  },
+  {
+   "text": "midió",
+   "start": 1.347875,
+   "end": 1.5955
+  },
+  {
+   "text": "con",
+   "start": 1.6545,
+   "end": 1.760625
+  },
+  {
+   "text": "dieciséis",
+   "start": 1.807791,
+   "end": 2.362041
+  },
+  {
+   "text": "de",
+   "start": 2.409208,
+   "end": 2.479958
+  },
+  {
+   "text": "esas",
+   "start": 2.586083,
+   "end": 2.810124
+  },
+  {
+   "text": "tarjetas",
+   "start": 2.869083,
+   "end": 3.494083
+  }
+ ]
+}

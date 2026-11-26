@@ -1,0 +1,41 @@
+{
+ "text": "Cada carácter que agregas multiplica las opciones:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "carácter",
+   "start": 0.343458,
+   "end": 0.734749
+  },
+  {
+   "text": "que",
+   "start": 0.810875,
+   "end": 0.843458
+  },
+  {
+   "text": "agregas",
+   "start": 0.843458,
+   "end": 1.202166
+  },
+  {
+   "text": "multiplica",
+   "start": 1.223916,
+   "end": 1.691291
+  },
+  {
+   "text": "las",
+   "start": 1.702166,
+   "end": 1.865207
+  },
+  {
+   "text": "opciones",
+   "start": 1.876083,
+   "end": 2.397833
+  }
+ ]
+}

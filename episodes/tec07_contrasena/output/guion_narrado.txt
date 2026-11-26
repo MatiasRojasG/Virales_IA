@@ -1,0 +1,26 @@
+[hook] (  0.1s –   4.3s)
+Tu contraseña tiene ocho letras. ¿Cuánto tarda alguien en adivinarla?
+
+[bloqueo] (  4.3s –   8.4s)
+Probar una por una en la página no sirve: al tercer intento, te bloquea.
+
+[robo] (  8.4s –  15.2s)
+Por eso roban la lista completa de claves de un sitio. Viene guardada como huellas: códigos revueltos que no se pueden deshacer.
+
+[imitar] ( 15.2s –  21.6s)
+Pero sí se pueden imitar: inventan una clave, sacan su huella y comparan. ¿Coincide? La encontraron.
+
+[gpu] ( 21.6s –  25.5s)
+Con tarjetas de video, prueban más de cien mil claves por segundo.
+
+[cifras] ( 25.5s –  36.3s)
+Una empresa de seguridad lo midió: ocho minúsculas al azar... dos semanas. Ocho caracteres con mayúsculas, números y símbolos... 132 años.
+
+[porque] ( 36.3s –  43.6s)
+¿Por qué? Cada carácter extra multiplica las opciones: por 26 con minúsculas, por casi 100 con todo el teclado.
+
+[trampa] ( 43.6s –  49.2s)
+Pero si tu clave es predecible, o ya se filtró, la prueban primero... y cae en segundos.
+
+[cierre] ( 49.2s –  55.3s)
+Entonces, ¿cuánto tarda? Depende menos de lo rara que se vea, y más de lo larga y al azar que sea.

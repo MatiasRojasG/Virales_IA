@@ -1,0 +1,16 @@
+{
+ "text": "La encontraron.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "encontraron",
+   "start": 0.180416,
+   "end": 0.778249
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "text": "Por eso roban la lista completa de claves de un sitio.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.386957
+  },
+  {
+   "text": "roban",
+   "start": 0.419583,
+   "end": 0.647833
+  },
+  {
+   "text": "la",
+   "start": 0.669583,
+   "end": 0.745666
+  },
+  {
+   "text": "lista",
+   "start": 0.756541,
+   "end": 1.017416
+  },
+  {
+   "text": "completa",
+   "start": 1.07175,
+   "end": 1.452166
+  },
+  {
+   "text": "de",
+   "start": 1.473916,
+   "end": 1.539124
+  },
+  {
+   "text": "claves",
+   "start": 1.604333,
+   "end": 1.908666
+  },
+  {
+   "text": "de",
+   "start": 1.930416,
+   "end": 1.973874
+  },
+  {
+   "text": "un",
+   "start": 2.017375,
+   "end": 2.126083
+  },
+  {
+   "text": "sitio",
+   "start": 2.158708,
+   "end": 2.473916
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "¿Por qué tanta diferencia?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "qué",
+   "start": 0.256541,
+   "end": 0.321749
+  },
+  {
+   "text": "tanta",
+   "start": 0.386958,
+   "end": 0.604333
+  },
+  {
+   "text": "diferencia",
+   "start": 0.626083,
+   "end": 1.136958
+  }
+ ]
+}

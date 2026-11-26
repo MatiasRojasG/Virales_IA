@@ -1,0 +1,81 @@
+{
+ "text": "cada clave está guardada como una huella, un código revuelto que no se puede deshacer.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "cada",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "clave",
+   "start": 0.343458,
+   "end": 0.549999
+  },
+  {
+   "text": "está",
+   "start": 0.57175,
+   "end": 0.756541
+  },
+  {
+   "text": "guardada",
+   "start": 0.789125,
+   "end": 1.126083
+  },
+  {
+   "text": "como",
+   "start": 1.191291,
+   "end": 1.365207
+  },
+  {
+   "text": "una",
+   "start": 1.386958,
+   "end": 1.549999
+  },
+  {
+   "text": "huella",
+   "start": 1.593458,
+   "end": 1.886916
+  },
+  {
+   "text": "un",
+   "start": 2.136958,
+   "end": 2.310874
+  },
+  {
+   "text": "código",
+   "start": 2.332625,
+   "end": 2.647833
+  },
+  {
+   "text": "revuelto",
+   "start": 2.669583,
+   "end": 3.060874
+  },
+  {
+   "text": "que",
+   "start": 3.115208,
+   "end": 3.180416
+  },
+  {
+   "text": "no",
+   "start": 3.202166,
+   "end": 3.354332
+  },
+  {
+   "text": "se",
+   "start": 3.376083,
+   "end": 3.463041
+  },
+  {
+   "text": "puede",
+   "start": 3.539125,
+   "end": 3.723916
+  },
+  {
+   "text": "deshacer",
+   "start": 3.745666,
+   "end": 4.234791
+  }
+ ]
+}

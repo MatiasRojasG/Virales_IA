@@ -1,0 +1,66 @@
+{
+ "text": "Con tarjetas de video, prueban más de cien mil claves por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.097166,
+   "end": 0.274041
+  },
+  {
+   "text": "tarjetas",
+   "start": 0.285833,
+   "end": 0.698583
+  },
+  {
+   "text": "de",
+   "start": 0.722166,
+   "end": 0.781124
+  },
+  {
+   "text": "video",
+   "start": 0.804708,
+   "end": 1.111291
+  },
+  {
+   "text": "prueban",
+   "start": 1.406125,
+   "end": 1.689125
+  },
+  {
+   "text": "más",
+   "start": 1.71275,
+   "end": 1.925
+  },
+  {
+   "text": "de",
+   "start": 1.936791,
+   "end": 2.007541
+  },
+  {
+   "text": "cien",
+   "start": 2.042916,
+   "end": 2.266957
+  },
+  {
+   "text": "mil",
+   "start": 2.302375,
+   "end": 2.467458
+  },
+  {
+   "text": "claves",
+   "start": 2.526416,
+   "end": 2.809416
+  },
+  {
+   "text": "por",
+   "start": 2.868416,
+   "end": 2.950957
+  },
+  {
+   "text": "segundo",
+   "start": 2.986333,
+   "end": 3.399083
+  }
+ ]
+}

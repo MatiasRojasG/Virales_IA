@@ -1,0 +1,46 @@
+{
+ "text": "inventan una clave, sacan su huella y comparan.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "inventan",
+   "start": 0.093458,
+   "end": 0.528249
+  },
+  {
+   "text": "una",
+   "start": 0.539125,
+   "end": 0.680416
+  },
+  {
+   "text": "clave",
+   "start": 0.745666,
+   "end": 1.039124
+  },
+  {
+   "text": "sacan",
+   "start": 1.289125,
+   "end": 1.626083
+  },
+  {
+   "text": "su",
+   "start": 1.647833,
+   "end": 1.745666
+  },
+  {
+   "text": "huella",
+   "start": 1.789125,
+   "end": 2.0065
+  },
+  {
+   "text": "y",
+   "start": 2.05,
+   "end": 2.07175
+  },
+  {
+   "text": "comparan",
+   "start": 2.126083,
+   "end": 2.549999
+  }
+ ]
+}

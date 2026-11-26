@@ -1,0 +1,31 @@
+{
+ "text": "Pero sí se pueden imitar:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.267374
+  },
+  {
+   "text": "sí",
+   "start": 0.3,
+   "end": 0.386958
+  },
+  {
+   "text": "se",
+   "start": 0.419583,
+   "end": 0.506541
+  },
+  {
+   "text": "pueden",
+   "start": 0.593458,
+   "end": 0.789124
+  },
+  {
+   "text": "imitar",
+   "start": 0.82175,
+   "end": 1.191333
+  }
+ ]
+}

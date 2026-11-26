@@ -1,0 +1,21 @@
+{
+ "text": "Entonces, ¿cuánto tarda?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.647791
+  },
+  {
+   "text": "cuánto",
+   "start": 0.886958,
+   "end": 1.104333
+  },
+  {
+   "text": "tarda",
+   "start": 1.180416,
+   "end": 1.463041
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Por eso hacen otra cosa...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.430416
+  },
+  {
+   "text": "hacen",
+   "start": 0.452166,
+   "end": 0.702166
+  },
+  {
+   "text": "otra",
+   "start": 0.713041,
+   "end": 0.908707
+  },
+  {
+   "text": "cosa",
+   "start": 0.973916,
+   "end": 1.245666
+  }
+ ]
+}

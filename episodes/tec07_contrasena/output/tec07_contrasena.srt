@@ -1,0 +1,179 @@
+1
+00:00:00,150 --> 00:00:02,138
+Tu contraseña
+tiene ocho letras.
+
+2
+00:00:02,138 --> 00:00:04,304
+¿Cuánto tarda
+alguien en adivinarla?
+
+3
+00:00:04,304 --> 00:00:05,087
+Probar una por una
+
+4
+00:00:05,087 --> 00:00:06,353
+en la página no sirve:
+
+5
+00:00:06,353 --> 00:00:07,484
+al tercer intento,
+
+6
+00:00:07,484 --> 00:00:08,441
+te bloquea.
+
+7
+00:00:08,441 --> 00:00:09,104
+Por eso roban la
+
+8
+00:00:09,104 --> 00:00:10,278
+lista completa de claves
+
+9
+00:00:10,278 --> 00:00:11,211
+de un sitio.
+
+10
+00:00:11,211 --> 00:00:12,744
+Viene guardada
+como huellas:
+
+11
+00:00:12,744 --> 00:00:13,853
+códigos revueltos que no
+
+12
+00:00:13,853 --> 00:00:15,262
+se pueden deshacer.
+
+13
+00:00:15,262 --> 00:00:16,750
+Pero sí se pueden imitar:
+
+14
+00:00:16,750 --> 00:00:17,946
+inventan una clave,
+
+15
+00:00:17,946 --> 00:00:19,547
+sacan su huella
+y comparan.
+
+16
+00:00:19,547 --> 00:00:20,387
+¿Coincide?
+
+17
+00:00:20,387 --> 00:00:21,611
+La encontraron.
+
+18
+00:00:21,611 --> 00:00:22,920
+Con tarjetas de video,
+
+19
+00:00:22,920 --> 00:00:23,817
+prueban más de cien
+
+20
+00:00:23,817 --> 00:00:25,503
+mil claves por segundo.
+
+21
+00:00:25,503 --> 00:00:26,623
+Una empresa
+de seguridad
+
+22
+00:00:26,623 --> 00:00:27,411
+lo midió:
+
+23
+00:00:27,411 --> 00:00:29,124
+ocho minúsculas al azar...
+
+24
+00:00:29,124 --> 00:00:30,469
+dos semanas.
+
+25
+00:00:30,469 --> 00:00:32,332
+Ocho caracteres
+con mayúsculas,
+
+26
+00:00:32,332 --> 00:00:34,128
+números y símbolos...
+
+27
+00:00:34,128 --> 00:00:36,279
+132 años.
+
+28
+00:00:36,369 --> 00:00:37,063
+¿Por qué?
+
+29
+00:00:37,063 --> 00:00:38,519
+Cada carácter
+extra multiplica
+
+30
+00:00:38,519 --> 00:00:39,544
+las opciones:
+
+31
+00:00:39,544 --> 00:00:41,399
+por 26 con minúsculas,
+
+32
+00:00:41,399 --> 00:00:42,401
+por casi 100 con
+
+33
+00:00:42,401 --> 00:00:43,699
+todo el teclado.
+
+34
+00:00:43,699 --> 00:00:44,362
+Pero si tu clave
+
+35
+00:00:44,362 --> 00:00:45,503
+es predecible, o ya
+
+36
+00:00:45,503 --> 00:00:47,540
+se filtró, la
+prueban primero...
+
+37
+00:00:47,540 --> 00:00:49,229
+y cae en segundos.
+
+38
+00:00:49,269 --> 00:00:51,029
+Entonces, ¿cuánto tarda?
+
+39
+00:00:51,029 --> 00:00:51,899
+Depende menos de lo
+
+40
+00:00:51,899 --> 00:00:52,967
+rara que se vea,
+
+41
+00:00:52,967 --> 00:00:53,456
+y más de lo
+
+42
+00:00:53,456 --> 00:00:54,271
+larga y al azar
+
+43
+00:00:54,271 --> 00:00:55,241
+que sea.

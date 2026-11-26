@@ -1,0 +1,31 @@
+{
+ "text": "Tu contraseña tiene ocho letras.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "contraseña",
+   "start": 0.202166,
+   "end": 0.713041
+  },
+  {
+   "text": "tiene",
+   "start": 0.8,
+   "end": 0.995666
+  },
+  {
+   "text": "ocho",
+   "start": 1.039125,
+   "end": 1.234791
+  },
+  {
+   "text": "letras",
+   "start": 1.256541,
+   "end": 1.691332
+  }
+ ]
+}

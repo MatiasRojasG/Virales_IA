@@ -1,0 +1,36 @@
+{
+ "text": "Cada carácter extra multiplica las opciones:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "carácter",
+   "start": 0.354333,
+   "end": 0.734749
+  },
+  {
+   "text": "extra",
+   "start": 0.745666,
+   "end": 1.017416
+  },
+  {
+   "text": "multiplica",
+   "start": 1.05,
+   "end": 1.539125
+  },
+  {
+   "text": "las",
+   "start": 1.55,
+   "end": 1.713041
+  },
+  {
+   "text": "opciones",
+   "start": 1.723916,
+   "end": 2.234791
+  }
+ ]
+}

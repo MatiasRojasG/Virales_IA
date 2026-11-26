@@ -1,0 +1,61 @@
+{
+ "text": "Viene guardada como huellas: códigos revueltos que no se pueden deshacer.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Viene",
+   "start": 0.093458,
+   "end": 0.343458
+  },
+  {
+   "text": "guardada",
+   "start": 0.376083,
+   "end": 0.734791
+  },
+  {
+   "text": "como",
+   "start": 0.8,
+   "end": 0.963041
+  },
+  {
+   "text": "huellas",
+   "start": 1.006541,
+   "end": 1.365249
+  },
+  {
+   "text": "códigos",
+   "start": 1.626083,
+   "end": 1.952166
+  },
+  {
+   "text": "revueltos",
+   "start": 1.963041,
+   "end": 2.419582
+  },
+  {
+   "text": "que",
+   "start": 2.473916,
+   "end": 2.539124
+  },
+  {
+   "text": "no",
+   "start": 2.560875,
+   "end": 2.713041
+  },
+  {
+   "text": "se",
+   "start": 2.734791,
+   "end": 2.821749
+  },
+  {
+   "text": "pueden",
+   "start": 2.897833,
+   "end": 3.104374
+  },
+  {
+   "text": "deshacer",
+   "start": 3.147833,
+   "end": 3.604374
+  }
+ ]
+}

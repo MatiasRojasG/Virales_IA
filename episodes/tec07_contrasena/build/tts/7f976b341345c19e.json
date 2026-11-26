@@ -1,0 +1,26 @@
+{
+ "text": "Ocho minúsculas al azar...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ocho",
+   "start": 0.097166,
+   "end": 0.321207
+  },
+  {
+   "text": "minúsculas",
+   "start": 0.344791,
+   "end": 0.946207
+  },
+  {
+   "text": "al",
+   "start": 0.946208,
+   "end": 1.028749
+  },
+  {
+   "text": "azar",
+   "start": 1.040583,
+   "end": 1.370791
+  }
+ ]
+}

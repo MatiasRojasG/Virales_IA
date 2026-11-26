@@ -1,0 +1,56 @@
+{
+ "text": "Pero si tu clave es predecible, o ya se filtró,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "si",
+   "start": 0.267375,
+   "end": 0.343458
+  },
+  {
+   "text": "tu",
+   "start": 0.408708,
+   "end": 0.463041
+  },
+  {
+   "text": "clave",
+   "start": 0.517375,
+   "end": 0.73475
+  },
+  {
+   "text": "es",
+   "start": 0.756541,
+   "end": 0.832624
+  },
+  {
+   "text": "predecible",
+   "start": 0.886958,
+   "end": 1.419583
+  },
+  {
+   "text": "o",
+   "start": 1.658708,
+   "end": 1.723916
+  },
+  {
+   "text": "ya",
+   "start": 1.77825,
+   "end": 1.886958
+  },
+  {
+   "text": "se",
+   "start": 1.897833,
+   "end": 1.995666
+  },
+  {
+   "text": "filtró",
+   "start": 2.017375,
+   "end": 2.376083
+  }
+ ]
+}

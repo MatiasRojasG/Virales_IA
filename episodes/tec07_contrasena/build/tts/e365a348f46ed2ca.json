@@ -1,0 +1,66 @@
+{
+ "text": "Y lo hacen con tarjetas de video, las mismas de los videojuegos,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "lo",
+   "start": 0.191291,
+   "end": 0.289124
+  },
+  {
+   "text": "hacen",
+   "start": 0.3,
+   "end": 0.57175
+  },
+  {
+   "text": "con",
+   "start": 0.57175,
+   "end": 0.723916
+  },
+  {
+   "text": "tarjetas",
+   "start": 0.723916,
+   "end": 1.104332
+  },
+  {
+   "text": "de",
+   "start": 1.126083,
+   "end": 1.180416
+  },
+  {
+   "text": "video",
+   "start": 1.202166,
+   "end": 1.484791
+  },
+  {
+   "text": "las",
+   "start": 1.745666,
+   "end": 1.919582
+  },
+  {
+   "text": "mismas",
+   "start": 1.941291,
+   "end": 2.245624
+  },
+  {
+   "text": "de",
+   "start": 2.267375,
+   "end": 2.321708
+  },
+  {
+   "text": "los",
+   "start": 2.343458,
+   "end": 2.484749
+  },
+  {
+   "text": "videojuegos",
+   "start": 2.506541,
+   "end": 3.180457
+  }
+ ]
+}

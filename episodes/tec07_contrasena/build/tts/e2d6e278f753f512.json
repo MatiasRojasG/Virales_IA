@@ -1,0 +1,46 @@
+{
+ "text": "probando más de cien mil claves por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "probando",
+   "start": 0.097166,
+   "end": 0.486332
+  },
+  {
+   "text": "más",
+   "start": 0.509916,
+   "end": 0.722166
+  },
+  {
+   "text": "de",
+   "start": 0.733958,
+   "end": 0.804708
+  },
+  {
+   "text": "cien",
+   "start": 0.840083,
+   "end": 1.064124
+  },
+  {
+   "text": "mil",
+   "start": 1.08775,
+   "end": 1.252833
+  },
+  {
+   "text": "claves",
+   "start": 1.311791,
+   "end": 1.594791
+  },
+  {
+   "text": "por",
+   "start": 1.653791,
+   "end": 1.736332
+  },
+  {
+   "text": "segundo",
+   "start": 1.771708,
+   "end": 2.196249
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "y cae en segundos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "cae",
+   "start": 0.234791,
+   "end": 0.430457
+  },
+  {
+   "text": "en",
+   "start": 0.452166,
+   "end": 0.528249
+  },
+  {
+   "text": "segundos",
+   "start": 0.55,
+   "end": 1.082625
+  }
+ ]
+}

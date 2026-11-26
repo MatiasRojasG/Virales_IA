@@ -1,0 +1,61 @@
+{
+ "text": "Una frase larga, o un gestor que la invente por ti.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "frase",
+   "start": 0.27825,
+   "end": 0.55
+  },
+  {
+   "text": "larga",
+   "start": 0.57175,
+   "end": 0.908708
+  },
+  {
+   "text": "o",
+   "start": 1.158708,
+   "end": 1.223916
+  },
+  {
+   "text": "un",
+   "start": 1.234791,
+   "end": 1.354332
+  },
+  {
+   "text": "gestor",
+   "start": 1.354333,
+   "end": 1.680416
+  },
+  {
+   "text": "que",
+   "start": 1.745666,
+   "end": 1.799999
+  },
+  {
+   "text": "la",
+   "start": 1.82175,
+   "end": 1.854375
+  },
+  {
+   "text": "invente",
+   "start": 1.908708,
+   "end": 2.223916
+  },
+  {
+   "text": "por",
+   "start": 2.289125,
+   "end": 2.376083
+  },
+  {
+   "text": "ti",
+   "start": 2.452166,
+   "end": 2.549999
+  }
+ ]
+}

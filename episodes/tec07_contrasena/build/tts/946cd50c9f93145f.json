@@ -1,0 +1,31 @@
+{
+ "text": "Pero no viene en letras:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "no",
+   "start": 0.289125,
+   "end": 0.419541
+  },
+  {
+   "text": "viene",
+   "start": 0.452166,
+   "end": 0.680416
+  },
+  {
+   "text": "en",
+   "start": 0.756541,
+   "end": 0.778291
+  },
+  {
+   "text": "letras",
+   "start": 0.789125,
+   "end": 1.213041
+  }
+ ]
+}

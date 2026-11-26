@@ -1,0 +1,41 @@
+{
+ "text": "Lo que sí se puede es imitarla.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Lo",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "que",
+   "start": 0.256541,
+   "end": 0.321749
+  },
+  {
+   "text": "sí",
+   "start": 0.343458,
+   "end": 0.441291
+  },
+  {
+   "text": "se",
+   "start": 0.473916,
+   "end": 0.560874
+  },
+  {
+   "text": "puede",
+   "start": 0.647833,
+   "end": 0.832624
+  },
+  {
+   "text": "es",
+   "start": 0.897833,
+   "end": 1.017416
+  },
+  {
+   "text": "imitarla",
+   "start": 1.039125,
+   "end": 1.517375
+  }
+ ]
+}

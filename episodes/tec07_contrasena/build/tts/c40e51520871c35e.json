@@ -1,0 +1,46 @@
+{
+ "text": "Depende menos de lo rara que se vea,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Depende",
+   "start": 0.093458,
+   "end": 0.452166
+  },
+  {
+   "text": "menos",
+   "start": 0.484791,
+   "end": 0.756541
+  },
+  {
+   "text": "de",
+   "start": 0.77825,
+   "end": 0.832583
+  },
+  {
+   "text": "lo",
+   "start": 0.854333,
+   "end": 0.941291
+  },
+  {
+   "text": "rara",
+   "start": 0.963041,
+   "end": 1.169582
+  },
+  {
+   "text": "que",
+   "start": 1.234791,
+   "end": 1.299999
+  },
+  {
+   "text": "se",
+   "start": 1.32175,
+   "end": 1.419583
+  },
+  {
+   "text": "vea",
+   "start": 1.441291,
+   "end": 1.691291
+  }
+ ]
+}

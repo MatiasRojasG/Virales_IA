@@ -1,0 +1,31 @@
+{
+ "text": "¿Cuánto tarda alguien en adivinarla?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cuánto",
+   "start": 0.093458,
+   "end": 0.354333
+  },
+  {
+   "text": "tarda",
+   "start": 0.430416,
+   "end": 0.658666
+  },
+  {
+   "text": "alguien",
+   "start": 0.713041,
+   "end": 0.984791
+  },
+  {
+   "text": "en",
+   "start": 0.995666,
+   "end": 1.082624
+  },
+  {
+   "text": "adivinarla",
+   "start": 1.093458,
+   "end": 1.669541
+  }
+ ]
+}

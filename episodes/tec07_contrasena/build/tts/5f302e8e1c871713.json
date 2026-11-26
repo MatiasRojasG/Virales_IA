@@ -1,0 +1,56 @@
+{
+ "text": "y más de lo larga y al azar que sea.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "más",
+   "start": 0.202166,
+   "end": 0.397832
+  },
+  {
+   "text": "de",
+   "start": 0.408708,
+   "end": 0.463041
+  },
+  {
+   "text": "lo",
+   "start": 0.484791,
+   "end": 0.560874
+  },
+  {
+   "text": "larga",
+   "start": 0.582625,
+   "end": 0.897833
+  },
+  {
+   "text": "y",
+   "start": 0.930416,
+   "end": 0.984749
+  },
+  {
+   "text": "al",
+   "start": 0.995666,
+   "end": 1.093457
+  },
+  {
+   "text": "azar",
+   "start": 1.093458,
+   "end": 1.332583
+  },
+  {
+   "text": "que",
+   "start": 1.397833,
+   "end": 1.463041
+  },
+  {
+   "text": "sea",
+   "start": 1.495666,
+   "end": 1.767416
+  }
+ ]
+}
