@@ -1,0 +1,51 @@
+{
+ "text": "Ahora repite eso millones de veces, en todas direcciones.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ahora",
+   "start": 0.093458,
+   "end": 0.386916
+  },
+  {
+   "text": "repite",
+   "start": 0.408708,
+   "end": 0.767416
+  },
+  {
+   "text": "eso",
+   "start": 0.854333,
+   "end": 1.006499
+  },
+  {
+   "text": "millones",
+   "start": 1.02825,
+   "end": 1.397833
+  },
+  {
+   "text": "de",
+   "start": 1.430416,
+   "end": 1.495624
+  },
+  {
+   "text": "veces",
+   "start": 1.517375,
+   "end": 1.876083
+  },
+  {
+   "text": "en",
+   "start": 2.07175,
+   "end": 2.234791
+  },
+  {
+   "text": "todas",
+   "start": 2.27825,
+   "end": 2.5065
+  },
+  {
+   "text": "direcciones",
+   "start": 2.52825,
+   "end": 3.158666
+  }
+ ]
+}

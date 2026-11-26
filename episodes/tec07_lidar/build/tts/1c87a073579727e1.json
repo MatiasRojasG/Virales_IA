@@ -1,0 +1,31 @@
+{
+ "text": "Alguien vestido de negro cruza.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Alguien",
+   "start": 0.093458,
+   "end": 0.386916
+  },
+  {
+   "text": "vestido",
+   "start": 0.419583,
+   "end": 0.778291
+  },
+  {
+   "text": "de",
+   "start": 0.8,
+   "end": 0.876083
+  },
+  {
+   "text": "negro",
+   "start": 0.908708,
+   "end": 1.147833
+  },
+  {
+   "text": "cruza",
+   "start": 1.213041,
+   "end": 1.528249
+  }
+ ]
+}

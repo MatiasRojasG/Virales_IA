@@ -1,0 +1,56 @@
+{
+ "text": "Y no trabaja solo: lo combina con cámaras y radar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "no",
+   "start": 0.191291,
+   "end": 0.299999
+  },
+  {
+   "text": "trabaja",
+   "start": 0.365208,
+   "end": 0.713041
+  },
+  {
+   "text": "solo",
+   "start": 0.734791,
+   "end": 1.028249
+  },
+  {
+   "text": "lo",
+   "start": 1.256541,
+   "end": 1.343499
+  },
+  {
+   "text": "combina",
+   "start": 1.397833,
+   "end": 1.723916
+  },
+  {
+   "text": "con",
+   "start": 1.77825,
+   "end": 1.963041
+  },
+  {
+   "text": "cámaras",
+   "start": 1.973916,
+   "end": 2.354332
+  },
+  {
+   "text": "y",
+   "start": 2.376083,
+   "end": 2.397833
+  },
+  {
+   "text": "radar",
+   "start": 2.430416,
+   "end": 2.767374
+  }
+ ]
+}

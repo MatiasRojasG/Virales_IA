@@ -1,0 +1,56 @@
+{
+ "text": "Una cámara, de noche, ve casi lo mismo que tú:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Una",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "cámara",
+   "start": 0.3,
+   "end": 0.647833
+  },
+  {
+   "text": "de",
+   "start": 0.908708,
+   "end": 0.963041
+  },
+  {
+   "text": "noche",
+   "start": 0.995666,
+   "end": 1.343499
+  },
+  {
+   "text": "ve",
+   "start": 1.636958,
+   "end": 1.691291
+  },
+  {
+   "text": "casi",
+   "start": 1.77825,
+   "end": 2.017375
+  },
+  {
+   "text": "lo",
+   "start": 2.039125,
+   "end": 2.126083
+  },
+  {
+   "text": "mismo",
+   "start": 2.147833,
+   "end": 2.430458
+  },
+  {
+   "text": "que",
+   "start": 2.484791,
+   "end": 2.549999
+  },
+  {
+   "text": "tú",
+   "start": 2.626083,
+   "end": 2.723916
+  }
+ ]
+}

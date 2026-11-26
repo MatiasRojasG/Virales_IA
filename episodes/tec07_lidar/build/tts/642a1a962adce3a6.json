@@ -1,0 +1,41 @@
+{
+ "text": "Si el rebote vuelve en doscientas milmillonésimas...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.097166,
+   "end": 0.262249
+  },
+  {
+   "text": "el",
+   "start": 0.285833,
+   "end": 0.391958
+  },
+  {
+   "text": "rebote",
+   "start": 0.415583,
+   "end": 0.722166
+  },
+  {
+   "text": "vuelve",
+   "start": 0.757541,
+   "end": 1.064124
+  },
+  {
+   "text": "en",
+   "start": 1.111333,
+   "end": 1.1584989
+  },
+  {
+   "text": "doscientas",
+   "start": 1.205666,
+   "end": 1.700957
+  },
+  {
+   "text": "milmillonésimas",
+   "start": 1.724541,
+   "end": 2.585374
+  }
+ ]
+}

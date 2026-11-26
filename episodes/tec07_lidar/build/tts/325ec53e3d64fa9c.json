@@ -1,0 +1,21 @@
+{
+ "text": "¿Cómo lo ve?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093458,
+   "end": 0.299999
+  },
+  {
+   "text": "lo",
+   "start": 0.32175,
+   "end": 0.408708
+  },
+  {
+   "text": "ve",
+   "start": 0.430416,
+   "end": 0.593457
+  }
+ ]
+}

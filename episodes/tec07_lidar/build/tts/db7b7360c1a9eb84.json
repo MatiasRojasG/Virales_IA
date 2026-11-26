@@ -1,0 +1,16 @@
+{
+ "text": "muy poco.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "muy",
+   "start": 0.09675,
+   "end": 0.314125
+  },
+  {
+   "text": "poco",
+   "start": 0.390208,
+   "end": 0.672833
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "Por eso el auto trae su propia luz.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "eso",
+   "start": 0.223916,
+   "end": 0.397832
+  },
+  {
+   "text": "el",
+   "start": 0.419583,
+   "end": 0.495666
+  },
+  {
+   "text": "auto",
+   "start": 0.506541,
+   "end": 0.734791
+  },
+  {
+   "text": "trae",
+   "start": 0.810875,
+   "end": 0.973916
+  },
+  {
+   "text": "su",
+   "start": 0.995666,
+   "end": 1.093499
+  },
+  {
+   "text": "propia",
+   "start": 1.158708,
+   "end": 1.419583
+  },
+  {
+   "text": "luz",
+   "start": 1.430416,
+   "end": 1.702166
+  }
+ ]
+}

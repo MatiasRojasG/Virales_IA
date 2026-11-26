@@ -1,0 +1,51 @@
+{
+ "text": "¿Cómo ve en la oscuridad, sin nadie al volante?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "ve",
+   "start": 0.310875,
+   "end": 0.408708
+  },
+  {
+   "text": "en",
+   "start": 0.430416,
+   "end": 0.473874
+  },
+  {
+   "text": "la",
+   "start": 0.495666,
+   "end": 0.539124
+  },
+  {
+   "text": "oscuridad",
+   "start": 0.560875,
+   "end": 1.039125
+  },
+  {
+   "text": "sin",
+   "start": 1.267375,
+   "end": 1.452166
+  },
+  {
+   "text": "nadie",
+   "start": 1.463041,
+   "end": 1.713041
+  },
+  {
+   "text": "al",
+   "start": 1.723916,
+   "end": 1.789124
+  },
+  {
+   "text": "volante",
+   "start": 1.82175,
+   "end": 2.223916
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "text": "Según Waymo, la empresa de robotaxis, su lidar mide todo alrededor del auto...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Según",
+   "start": 0.097166,
+   "end": 0.474541
+  },
+  {
+   "text": "Waymo",
+   "start": 0.521708,
+   "end": 0.875499
+  },
+  {
+   "text": "la",
+   "start": 1.123125,
+   "end": 1.205666
+  },
+  {
+   "text": "empresa",
+   "start": 1.241041,
+   "end": 1.606624
+  },
+  {
+   "text": "de",
+   "start": 1.630208,
+   "end": 1.712749
+  },
+  {
+   "text": "robotaxis",
+   "start": 1.748125,
+   "end": 2.396708
+  },
+  {
+   "text": "su",
+   "start": 2.656125,
+   "end": 2.797625
+  },
+  {
+   "text": "lidar",
+   "start": 2.821208,
+   "end": 3.092416
+  },
+  {
+   "text": "mide",
+   "start": 3.127833,
+   "end": 3.399041
+  },
+  {
+   "text": "todo",
+   "start": 3.517,
+   "end": 3.717458
+  },
+  {
+   "text": "alrededor",
+   "start": 3.72925,
+   "end": 4.236333
+  },
+  {
+   "text": "del",
+   "start": 4.2835,
+   "end": 4.413208
+  },
+  {
+   "text": "auto",
+   "start": 4.425,
+   "end": 4.755208
+  }
+ ]
+}

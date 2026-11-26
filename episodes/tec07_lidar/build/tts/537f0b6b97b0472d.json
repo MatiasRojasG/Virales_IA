@@ -1,0 +1,26 @@
+{
+ "text": "Eso es el lidar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Eso",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "es",
+   "start": 0.365208,
+   "end": 0.495624
+  },
+  {
+   "text": "el",
+   "start": 0.495666,
+   "end": 0.549999
+  },
+  {
+   "text": "lidar",
+   "start": 0.560875,
+   "end": 0.897833
+  }
+ ]
+}

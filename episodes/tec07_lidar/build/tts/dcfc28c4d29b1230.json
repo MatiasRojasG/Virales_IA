@@ -1,0 +1,31 @@
+{
+ "text": "Cada rebote es un punto...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cada",
+   "start": 0.093458,
+   "end": 0.299999
+  },
+  {
+   "text": "rebote",
+   "start": 0.32175,
+   "end": 0.680458
+  },
+  {
+   "text": "es",
+   "start": 0.734791,
+   "end": 0.832624
+  },
+  {
+   "text": "un",
+   "start": 0.854333,
+   "end": 0.984749
+  },
+  {
+   "text": "punto",
+   "start": 0.995666,
+   "end": 1.278291
+  }
+ ]
+}

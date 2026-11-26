@@ -1,0 +1,36 @@
+{
+ "text": "y mide cuánto tarda en volver.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "mide",
+   "start": 0.191291,
+   "end": 0.408666
+  },
+  {
+   "text": "cuánto",
+   "start": 0.484791,
+   "end": 0.723916
+  },
+  {
+   "text": "tarda",
+   "start": 0.8,
+   "end": 1.02825
+  },
+  {
+   "text": "en",
+   "start": 1.060875,
+   "end": 1.104333
+  },
+  {
+   "text": "volver",
+   "start": 1.147833,
+   "end": 1.495666
+  }
+ ]
+}

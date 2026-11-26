@@ -1,0 +1,51 @@
+{
+ "text": "hasta unos trescientos metros. De día... o de noche.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "hasta",
+   "start": 0.097166,
+   "end": 0.356582
+  },
+  {
+   "text": "unos",
+   "start": 0.403791,
+   "end": 0.651416
+  },
+  {
+   "text": "trescientos",
+   "start": 0.686791,
+   "end": 1.229249
+  },
+  {
+   "text": "metros",
+   "start": 1.252833,
+   "end": 1.689166
+  },
+  {
+   "text": "De",
+   "start": 2.536791,
+   "end": 2.666499
+  },
+  {
+   "text": "día",
+   "start": 2.701875,
+   "end": 2.984875
+  },
+  {
+   "text": "o",
+   "start": 3.232541,
+   "end": 3.303291
+  },
+  {
+   "text": "de",
+   "start": 3.338666,
+   "end": 3.432999
+  },
+  {
+   "text": "noche",
+   "start": 3.468416,
+   "end": 3.798624
+  }
+ ]
+}

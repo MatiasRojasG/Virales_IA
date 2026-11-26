@@ -1,0 +1,31 @@
+{
+ "text": "¿Tú te subirías a uno?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tú",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "te",
+   "start": 0.223916,
+   "end": 0.278249
+  },
+  {
+   "text": "subirías",
+   "start": 0.3,
+   "end": 0.789125
+  },
+  {
+   "text": "a",
+   "start": 0.789125,
+   "end": 0.843458
+  },
+  {
+   "text": "uno",
+   "start": 0.886958,
+   "end": 1.115208
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "text": "Dos de la mañana. Un auto avanza por la calle...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Dos",
+   "start": 0.09675,
+   "end": 0.314125
+  },
+  {
+   "text": "de",
+   "start": 0.325,
+   "end": 0.379333
+  },
+  {
+   "text": "la",
+   "start": 0.401083,
+   "end": 0.466291
+  },
+  {
+   "text": "mañana",
+   "start": 0.488041,
+   "end": 0.868457
+  },
+  {
+   "text": "Un",
+   "start": 1.652166,
+   "end": 1.760874
+  },
+  {
+   "text": "auto",
+   "start": 1.782625,
+   "end": 2.0
+  },
+  {
+   "text": "avanza",
+   "start": 2.0,
+   "end": 2.293458
+  },
+  {
+   "text": "por",
+   "start": 2.358708,
+   "end": 2.456541
+  },
+  {
+   "text": "la",
+   "start": 2.47825,
+   "end": 2.532583
+  },
+  {
+   "text": "calle",
+   "start": 2.586958,
+   "end": 2.836958
+  }
+ ]
+}

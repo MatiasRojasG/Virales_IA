@@ -1,0 +1,86 @@
+{
+ "text": "Waymo, la empresa de robotaxis, dice que su lidar mide distancias alrededor de todo el auto...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Waymo",
+   "start": 0.097875,
+   "end": 0.522416
+  },
+  {
+   "text": "la",
+   "start": 0.75825,
+   "end": 0.840791
+  },
+  {
+   "text": "empresa",
+   "start": 0.876166,
+   "end": 1.241749
+  },
+  {
+   "text": "de",
+   "start": 1.265333,
+   "end": 1.347874
+  },
+  {
+   "text": "robotaxis",
+   "start": 1.38325,
+   "end": 2.00825
+  },
+  {
+   "text": "dice",
+   "start": 2.326666,
+   "end": 2.515332
+  },
+  {
+   "text": "que",
+   "start": 2.574291,
+   "end": 2.633249
+  },
+  {
+   "text": "su",
+   "start": 2.656833,
+   "end": 2.774749
+  },
+  {
+   "text": "lidar",
+   "start": 2.798333,
+   "end": 3.081333
+  },
+  {
+   "text": "mide",
+   "start": 3.11675,
+   "end": 3.352583
+  },
+  {
+   "text": "distancias",
+   "start": 3.387958,
+   "end": 3.953999
+  },
+  {
+   "text": "alrededor",
+   "start": 3.954,
+   "end": 4.461083
+  },
+  {
+   "text": "de",
+   "start": 4.50825,
+   "end": 4.602583
+  },
+  {
+   "text": "todo",
+   "start": 4.708708,
+   "end": 4.885583
+  },
+  {
+   "text": "el",
+   "start": 4.921,
+   "end": 4.979958
+  },
+  {
+   "text": "auto",
+   "start": 4.99175,
+   "end": 5.33375
+  }
+ ]
+}

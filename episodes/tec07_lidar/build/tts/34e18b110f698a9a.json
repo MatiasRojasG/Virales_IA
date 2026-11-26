@@ -1,0 +1,61 @@
+{
+ "text": "La luz avanza unos treinta centímetros en una milmillonésima de segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.097166,
+   "end": 0.215082
+  },
+  {
+   "text": "luz",
+   "start": 0.238666,
+   "end": 0.403749
+  },
+  {
+   "text": "avanza",
+   "start": 0.403791,
+   "end": 0.757582
+  },
+  {
+   "text": "unos",
+   "start": 0.804708,
+   "end": 1.028749
+  },
+  {
+   "text": "treinta",
+   "start": 1.064166,
+   "end": 1.358957
+  },
+  {
+   "text": "centímetros",
+   "start": 1.37075,
+   "end": 2.042916
+  },
+  {
+   "text": "en",
+   "start": 2.042916,
+   "end": 2.125457
+  },
+  {
+   "text": "una",
+   "start": 2.149041,
+   "end": 2.302332
+  },
+  {
+   "text": "milmillonésima",
+   "start": 2.33775,
+   "end": 3.068875
+  },
+  {
+   "text": "de",
+   "start": 3.092458,
+   "end": 3.163208
+  },
+  {
+   "text": "segundo",
+   "start": 3.198583,
+   "end": 3.646708
+  }
+ ]
+}

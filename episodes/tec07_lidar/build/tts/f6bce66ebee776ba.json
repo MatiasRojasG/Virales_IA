@@ -1,0 +1,51 @@
+{
+ "text": "Lanza un pulso de láser, invisible para tus ojos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Lanza",
+   "start": 0.093458,
+   "end": 0.419541
+  },
+  {
+   "text": "un",
+   "start": 0.452166,
+   "end": 0.604332
+  },
+  {
+   "text": "pulso",
+   "start": 0.615208,
+   "end": 0.865208
+  },
+  {
+   "text": "de",
+   "start": 0.886958,
+   "end": 0.952166
+  },
+  {
+   "text": "láser",
+   "start": 0.973916,
+   "end": 1.289124
+  },
+  {
+   "text": "invisible",
+   "start": 1.55,
+   "end": 2.017375
+  },
+  {
+   "text": "para",
+   "start": 2.093458,
+   "end": 2.245624
+  },
+  {
+   "text": "tus",
+   "start": 2.310875,
+   "end": 2.463041
+  },
+  {
+   "text": "ojos",
+   "start": 2.463041,
+   "end": 2.832624
+  }
+ ]
+}

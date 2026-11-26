@@ -1,0 +1,56 @@
+{
+ "text": "No espera la luz: la lanza... y mide el eco.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "No",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "espera",
+   "start": 0.27825,
+   "end": 0.593458
+  },
+  {
+   "text": "la",
+   "start": 0.615208,
+   "end": 0.702166
+  },
+  {
+   "text": "luz",
+   "start": 0.723916,
+   "end": 0.995666
+  },
+  {
+   "text": "la",
+   "start": 1.191291,
+   "end": 1.310874
+  },
+  {
+   "text": "lanza",
+   "start": 1.32175,
+   "end": 1.713041
+  },
+  {
+   "text": "y",
+   "start": 1.886958,
+   "end": 1.963041
+  },
+  {
+   "text": "mide",
+   "start": 1.984791,
+   "end": 2.234791
+  },
+  {
+   "text": "el",
+   "start": 2.3,
+   "end": 2.354333
+  },
+  {
+   "text": "eco",
+   "start": 2.365208,
+   "end": 2.626083
+  }
+ ]
+}

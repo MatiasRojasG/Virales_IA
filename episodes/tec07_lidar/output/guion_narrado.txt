@@ -1,0 +1,23 @@
+[hook] (  0.1s –   8.1s)
+Dos de la mañana. Un auto avanza por la calle... y no hay nadie al volante. Alguien vestido de negro cruza. ¿Cómo lo ve?
+
+[oscuro] (  8.1s –  12.3s)
+Una cámara, de noche, ve casi lo mismo que tú: muy poco.
+
+[pulso] ( 12.3s –  19.5s)
+Por eso el auto trae su propia luz. Lanza un pulso de láser, invisible para tus ojos... y mide cuánto tarda en volver.
+
+[tiempo] ( 19.5s –  28.8s)
+La luz avanza unos 30 centímetros en una milmillonésima de segundo. Si el rebote vuelve en 200 milmillonésimas... la persona está a 30 metros.
+
+[nube] ( 28.8s –  39.2s)
+Ahora repite eso millones de veces, en todas direcciones. Cada rebote es un punto... y los puntos, juntos, dibujan la forma de una persona. Eso es el lidar.
+
+[dato] ( 39.2s –  48.5s)
+Según Waymo, la empresa de robotaxis, su lidar mide todo alrededor del auto... hasta unos 300 metros. De día... o de noche.
+
+[equipo] ( 48.5s –  51.9s)
+Y no trabaja solo: lo combina con cámaras y radar.
+
+[cierre] ( 51.9s –  59.2s)
+¿Cómo ve en la oscuridad, sin nadie al volante? No espera la luz: la lanza... y mide el eco. ¿Tú te subirías a uno?

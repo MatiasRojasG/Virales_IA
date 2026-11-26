@@ -1,0 +1,36 @@
+{
+ "text": "y no hay nadie al volante.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "no",
+   "start": 0.191291,
+   "end": 0.343457
+  },
+  {
+   "text": "hay",
+   "start": 0.343458,
+   "end": 0.473874
+  },
+  {
+   "text": "nadie",
+   "start": 0.495666,
+   "end": 0.778249
+  },
+  {
+   "text": "al",
+   "start": 0.77825,
+   "end": 0.843458
+  },
+  {
+   "text": "volante",
+   "start": 0.876083,
+   "end": 1.289124
+  }
+ ]
+}
