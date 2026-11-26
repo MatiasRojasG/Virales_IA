@@ -1,29 +1,26 @@
 # Propuestas stheq.ia · 2026-11-26 (jueves)
 
-Flujo automático (CLAUDE.md, desde el 23-nov): 3 ideas, puntaje y se produce la de mayor puntaje. Ayer (tec06) fue **videojuegos / día a día**, así que hoy no se usa esa categoría. Hoy no hay carrusel de noticias (el último fue el 25-nov; toca el 27).
+**Tendencias:** hoy fallaron las dos fuentes automáticas: `tools/tendencias_decalogo.py` y `tools/tendencias.py` devolvieron HTTP 403 (API de YouTube) y vidIQ no tiene créditos. Se usan las mediciones más recientes del repo (30 días, corridas del 22–24 nov): mediana top 10 por categoría — día a día 2,23 M; autos 1,82 M; robótica 1,23 M; ciberseguridad 0,56 M; energía 0,49 M; medicina 0,24 M (máx. 18,0 M); espacio 0,19 M — y los videos del tema más vistos del 24-nov («I bought every product from AI scam ads», 13,5 M; «Are These People Real or AI?», 44,3 M). Ayer (tec06, Euphoria) fue **videojuegos / día a día**: hoy no se repite. Jueves: no hay carrusel (el último es del 25-nov). Temas ya usados o propuestos se descartan (CAPTCHA, robot cirujano, WhatsApp, deepfakes, estafas con anuncios, etc.). Solo se toma el tema; nunca se copia nada.
 
-Tendencias (`tools/tendencias_decalogo.py --dias 30`, Shorts en español, mediana del top 10): autos y movilidad 2,28 M · día a día 1,95 M · robótica 1,23 M · energía 0,47 M · ciberseguridad 0,40 M · espacio 0,25 M · medicina 0,24 M · IA aplicada 0,16 M.
+## A · CIBERSEGURIDAD — «¿Cuánto tarda alguien en adivinar tu contraseña?» ✅ ELEGIDA
+- Tendencia: ciberseguridad y estafas (0,56 M de mediana; «I bought every product from AI scam ads», 13,5 M). La pregunta «¿cuánto tarda un hacker en descifrar mi contraseña?» se repite cada año cuando sale la tabla de Hive Systems.
+- Gancho: una clave de 8 letras en pantalla y un contador de intentos que se dispara. ¿Cuánto aguanta?
+- Escenas: 1) clave de 8 letras + contador · 2) en la página no se puede: te bloquea al tercer intento · 3) roban la lista completa, guardada como «huellas» (hash) · 4) la huella no se deshace, pero se imita: inventar, sacar huella, comparar · 5) tarjetas de video de videojuegos, más de cien mil intentos por segundo · 6) 8 minúsculas al azar: ~2 semanas · 7) 8 caracteres mezclados: 132 años · 8) por qué: cada carácter multiplica las opciones (×26 / ×≈95) · 9) la trampa: si es predecible o se filtró, cae en segundos · 10) respuesta: importa lo larga y al azar que sea; frase larga o gestor de contraseñas.
+- Fuentes: Hive Systems, «The 2026 Password Table» (14-jul-2026; 16 × RTX 5090, bcrypt costo 10, 138.675 intentos/s; 8 minúsculas ≈ 2 semanas; 8 mezclados 132 años; claves comunes, filtradas o reutilizadas «can fall instantly»; recomienda gestor de contraseñas y frase larga) — https://www.hivesystems.com/blog/are-your-passwords-in-the-green ; comunicado PR Newswire 14-jul-2026; Carrier Management 14-jul-2026.
+- Puntuación: tracción 8 · gancho 10 · interés general 10 · potencial visual 9 · fuentes 9 = **46**
 
-## A · AUTOS Y MOVILIDAD — «¿Cómo ve de noche un auto sin conductor?» ✅ ELEGIDA (tec07_lidar)
-- Tendencia: «Toyota Built a Self-Driving Car for 5-Year-Olds» (10,5 M), «Self-Driving Car with My Mum» (2,3 M), «Even the Cop Was Confused by This Self-Driving Car» (2,0 M), «O carro continua dirigindo sozinho quando o motorista dorme» (3,2 M).
-- Gancho: 2 de la mañana, un auto sin nadie al volante y alguien vestido de negro cruza. ¿Cómo lo ve?
-- Escenas: calle de noche desde arriba + lupa con el asiento vacío · visor de cámara casi negro · pulso láser de ida y vuelta · 30 cm por milmillonésima de segundo, 200 milmillonésimas = 30 m · barrido de 360° y nube de puntos (raycasting propio con NumPy) · la persona dibujada con puntos · círculo de 300 m (según Waymo), de día o de noche · lidar + cámaras + radar · cierre: no espera la luz, la lanza y mide el eco.
-- Aprende: cómo el lidar mide distancias con el tiempo de vuelo de la luz y arma una imagen 3D sin necesitar luz ambiente.
-- Fuentes: Waymo, soporte «A suite of sensors means safer rides, safer roads» (360°, hasta 300 m); Waymo, «The Waymo Driver Handbook: Perception» (oct-2021: millones de pulsos en todas direcciones, todas las condiciones de luz); Waymo, «Meet the 6th-generation Waymo Driver» (ago-2024: 13 cámaras, 4 lidar, 6 radar); velocidad de la luz (cálculo propio).
-- Puntaje: tracción 9 · gancho 9 · interés general 8 · potencial visual 10 · fuentes 9 = **45**
+## B · MEDICINA Y SALUD — «¿Cómo sabe tu reloj cuántas veces late tu corazón?»
+- Tendencia: medicina y salud (máx. 18,0 M en 30 días) y relojes inteligentes en día a día.
+- Gancho: el reloj no toca tu corazón… y aun así cuenta cada latido.
+- Escenas: luz verde que entra en la muñeca · la sangre absorbe verde · con cada latido hay más sangre y vuelve menos luz · la onda que sube y baja = pulso · por qué falla si el reloj está suelto.
+- Fuentes: Apple, «Monitor your heart rate with Apple Watch» (support.apple.com/HT204666: LED verdes y fotodiodos, fotopletismografía); Macworld/iMore sobre la explicación de Apple.
+- Puntuación: tracción 7 · gancho 9 · interés 9 · visual 9 · fuentes 9 = **43**
 
-## B · ROBÓTICA — «El robot que dispara láser a los salmones»
-- Tendencia: «Norway Deploys 2.000 AI Laser Robots to Protect Salmon» (3,5 M).
-- Gancho: en Noruega, bajo el agua, un robot dispara un láser a un salmón… para salvarlo. ¿Qué apunta?
-- Escenas: jaula de salmones · piojo de mar pegado a la piel · dos cámaras ven pasar al pez · la IA lo detecta y predice su trayectoria · espejos móviles apuntan · pulso verde: el piojo oscuro absorbe, la escama brillante refleja · cuántos equipos hay · advertencia: el Instituto Veterinario noruego registró reportes de cataratas en sitios con láser.
-- Fuentes: IEEE Spectrum; Business Norway; Research Council of Norway (Forskningsrådet); Laser Focus World; Instituto Veterinario de Noruega (Fish Health Report).
-- Puntaje: tracción 7 · gancho 9 · interés general 7 · potencial visual 9 · fuentes 8 = **40**
+## C · ESPACIO — «Tu celular necesita a Einstein para no perderse»
+- Tendencia: espacio (0,19 M de mediana), GPS en día a día.
+- Gancho: el GPS te ubica a metros… pero sin una corrección de Einstein se equivocaría kilómetros por día.
+- Escenas: satélites que mandan la hora · el celular mide cuánto tarda cada señal · los relojes arriba se adelantan ≈ 38 µs por día · eso son ≈ 10 km de error diario · se corrigen desde fábrica.
+- Fuentes: Penn State GEOG 862 «The Satellite Clock»; Ashby, «Relativity in the Global Positioning System» (Living Reviews in Relativity); Smithsonian «Time and Navigation».
+- Puntuación: tracción 6 · gancho 8 · interés 8 · visual 8 · fuentes 9 = **39**
 
-## C · ENERGÍA — «Pusieron paneles solares en el desierto… y volvió el pasto»
-- Tendencia: «A China cobriu montanhas com painéis solares» (7,9 M).
-- Gancho: un desierto, millones de paneles, y unos años después… ovejas pastando debajo. ¿Qué pasó?
-- Escenas: suelo seco y viento · sombra de los paneles: menos evaporación y menos viento · el agua de lavado se infiltra · brota pasto · el pasto tapa los paneles · llegan las ovejas · advertencia: no sirve en todos los desiertos.
-- Fuentes: China Daily y People's Daily (parque de Talatan, Qinghai; cifras de monitoreo locales); estudio en Environmental Research Letters (2025) citado por medios — por verificar en la fuente.
-- Puntaje: tracción 7 · gancho 8 · interés general 7 · potencial visual 7 · fuentes 6 = **35**
-
-**Elección:** A (mayor puntaje; categoría con más vistas en 30 días y mecanismo muy visual que se puede dibujar paso a paso). Solo se toma el tema de las tendencias; no se copia nada.
+**Elección:** A (46 puntos): pregunta que todos se hacen sobre algo que usan cada día, mecanismo dibujable (contador de combinaciones que explota, huellas que se comparan) y una fuente medida y fechada (Hive Systems 2026). Cifras de la fuente; la multiplicación ×26 / ×95 es aritmética propia.
