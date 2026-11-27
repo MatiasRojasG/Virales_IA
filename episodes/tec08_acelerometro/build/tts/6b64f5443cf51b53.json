@@ -1,0 +1,31 @@
+{
+ "text": "y el sensor marca cero.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.097166,
+   "end": 0.179707
+  },
+  {
+   "text": "el",
+   "start": 0.1915,
+   "end": 0.321208
+  },
+  {
+   "text": "sensor",
+   "start": 0.344791,
+   "end": 0.686791
+  },
+  {
+   "text": "marca",
+   "start": 0.722166,
+   "end": 1.052374
+  },
+  {
+   "text": "cero",
+   "start": 1.075958,
+   "end": 1.358958
+  }
+ ]
+}

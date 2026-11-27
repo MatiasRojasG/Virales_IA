@@ -1,0 +1,36 @@
+{
+ "text": "¿Cómo sabe dónde está el suelo?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093458,
+   "end": 0.289124
+  },
+  {
+   "text": "sabe",
+   "start": 0.310875,
+   "end": 0.55
+  },
+  {
+   "text": "dónde",
+   "start": 0.582625,
+   "end": 0.8
+  },
+  {
+   "text": "está",
+   "start": 0.810875,
+   "end": 0.995666
+  },
+  {
+   "text": "el",
+   "start": 1.017375,
+   "end": 1.082583
+  },
+  {
+   "text": "suelo",
+   "start": 1.104333,
+   "end": 1.386958
+  }
+ ]
+}

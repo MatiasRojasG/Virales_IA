@@ -1,0 +1,26 @@
+{
+ "text": "Pero no tiene ojos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "no",
+   "start": 0.289125,
+   "end": 0.397833
+  },
+  {
+   "text": "tiene",
+   "start": 0.473916,
+   "end": 0.669582
+  },
+  {
+   "text": "ojos",
+   "start": 0.723916,
+   "end": 1.104332
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "y la pantalla gira.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "la",
+   "start": 0.169583,
+   "end": 0.256541
+  },
+  {
+   "text": "pantalla",
+   "start": 0.310875,
+   "end": 0.680458
+  },
+  {
+   "text": "gira",
+   "start": 0.713041,
+   "end": 0.995666
+  }
+ ]
+}

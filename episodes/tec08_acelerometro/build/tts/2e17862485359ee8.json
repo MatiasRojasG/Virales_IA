@@ -1,0 +1,36 @@
+{
+ "text": "La gravedad la tira hacia abajo...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "gravedad",
+   "start": 0.223916,
+   "end": 0.604332
+  },
+  {
+   "text": "la",
+   "start": 0.626083,
+   "end": 0.702166
+  },
+  {
+   "text": "tira",
+   "start": 0.789125,
+   "end": 0.984791
+  },
+  {
+   "text": "hacia",
+   "start": 1.017375,
+   "end": 1.191291
+  },
+  {
+   "text": "abajo",
+   "start": 1.213041,
+   "end": 1.517374
+  }
+ ]
+}

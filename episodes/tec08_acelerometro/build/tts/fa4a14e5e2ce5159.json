@@ -1,0 +1,46 @@
+{
+ "text": "Al caminar, la pesa rebota en cada paso,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Al",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "caminar",
+   "start": 0.267375,
+   "end": 0.636958
+  },
+  {
+   "text": "la",
+   "start": 0.919583,
+   "end": 1.039166
+  },
+  {
+   "text": "pesa",
+   "start": 1.126083,
+   "end": 1.321749
+  },
+  {
+   "text": "rebota",
+   "start": 1.343458,
+   "end": 1.680416
+  },
+  {
+   "text": "en",
+   "start": 1.691291,
+   "end": 1.821707
+  },
+  {
+   "text": "cada",
+   "start": 1.82175,
+   "end": 1.995666
+  },
+  {
+   "text": "paso",
+   "start": 2.07175,
+   "end": 2.332625
+  }
+ ]
+}

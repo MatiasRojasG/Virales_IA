@@ -1,0 +1,36 @@
+{
+ "text": "Siente hacia dónde cae una pesita...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Siente",
+   "start": 0.093458,
+   "end": 0.473874
+  },
+  {
+   "text": "hacia",
+   "start": 0.484791,
+   "end": 0.702166
+  },
+  {
+   "text": "dónde",
+   "start": 0.734791,
+   "end": 0.941332
+  },
+  {
+   "text": "cae",
+   "start": 1.017375,
+   "end": 1.180416
+  },
+  {
+   "text": "una",
+   "start": 1.213041,
+   "end": 1.354332
+  },
+  {
+   "text": "pesita",
+   "start": 1.408708,
+   "end": 1.778291
+  }
+ ]
+}

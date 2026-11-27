@@ -1,0 +1,66 @@
+{
+ "text": "Pegados a la pesa hay dedos de silicio, frente a otros fijos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pegados",
+   "start": 0.093458,
+   "end": 0.495624
+  },
+  {
+   "text": "a",
+   "start": 0.495666,
+   "end": 0.539124
+  },
+  {
+   "text": "la",
+   "start": 0.55,
+   "end": 0.626083
+  },
+  {
+   "text": "pesa",
+   "start": 0.702166,
+   "end": 0.930416
+  },
+  {
+   "text": "hay",
+   "start": 0.963041,
+   "end": 1.071749
+  },
+  {
+   "text": "dedos",
+   "start": 1.115208,
+   "end": 1.365208
+  },
+  {
+   "text": "de",
+   "start": 1.376083,
+   "end": 1.441291
+  },
+  {
+   "text": "silicio",
+   "start": 1.463041,
+   "end": 1.908707
+  },
+  {
+   "text": "frente",
+   "start": 2.158708,
+   "end": 2.441291
+  },
+  {
+   "text": "a",
+   "start": 2.441291,
+   "end": 2.517374
+  },
+  {
+   "text": "otros",
+   "start": 2.560875,
+   "end": 2.8435
+  },
+  {
+   "text": "fijos",
+   "start": 2.865208,
+   "end": 3.267374
+  }
+ ]
+}

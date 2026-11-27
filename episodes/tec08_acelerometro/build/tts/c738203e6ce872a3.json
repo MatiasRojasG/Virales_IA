@@ -1,0 +1,41 @@
+{
+ "text": "y los resortes se estiran un poquito.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "los",
+   "start": 0.169583,
+   "end": 0.278291
+  },
+  {
+   "text": "resortes",
+   "start": 0.310875,
+   "end": 0.713041
+  },
+  {
+   "text": "se",
+   "start": 0.713041,
+   "end": 0.789124
+  },
+  {
+   "text": "estiran",
+   "start": 0.789125,
+   "end": 1.136958
+  },
+  {
+   "text": "un",
+   "start": 1.147833,
+   "end": 1.289124
+  },
+  {
+   "text": "poquito",
+   "start": 1.289125,
+   "end": 1.658708
+  }
+ ]
+}

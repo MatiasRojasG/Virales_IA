@@ -1,0 +1,46 @@
+{
+ "text": "Giras tu celular... y la pantalla gira contigo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Giras",
+   "start": 0.095125,
+   "end": 0.399458
+  },
+  {
+   "text": "tu",
+   "start": 0.453791,
+   "end": 0.508124
+  },
+  {
+   "text": "celular",
+   "start": 0.54075,
+   "end": 0.932041
+  },
+  {
+   "text": "y",
+   "start": 1.214666,
+   "end": 1.268999
+  },
+  {
+   "text": "la",
+   "start": 1.29075,
+   "end": 1.366833
+  },
+  {
+   "text": "pantalla",
+   "start": 1.421208,
+   "end": 1.801624
+  },
+  {
+   "text": "gira",
+   "start": 1.83425,
+   "end": 2.051625
+  },
+  {
+   "text": "contigo",
+   "start": 2.105958,
+   "end": 2.518999
+  }
+ ]
+}

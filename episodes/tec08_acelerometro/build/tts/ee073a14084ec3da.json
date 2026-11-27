@@ -1,0 +1,41 @@
+{
+ "text": "Es una pesita diminuta, colgada de resortes.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Es",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "una",
+   "start": 0.245666,
+   "end": 0.365249
+  },
+  {
+   "text": "pesita",
+   "start": 0.430416,
+   "end": 0.723874
+  },
+  {
+   "text": "diminuta",
+   "start": 0.745666,
+   "end": 1.234791
+  },
+  {
+   "text": "colgada",
+   "start": 1.473916,
+   "end": 1.854332
+  },
+  {
+   "text": "de",
+   "start": 1.865208,
+   "end": 1.952166
+  },
+  {
+   "text": "resortes",
+   "start": 1.973916,
+   "end": 2.560874
+  }
+ ]
+}

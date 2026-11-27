@@ -1,0 +1,31 @@
+{
+ "text": "Hay pesitas para tres direcciones.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Hay",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "pesitas",
+   "start": 0.27825,
+   "end": 0.647833
+  },
+  {
+   "text": "para",
+   "start": 0.702166,
+   "end": 0.832582
+  },
+  {
+   "text": "tres",
+   "start": 0.908708,
+   "end": 1.082624
+  },
+  {
+   "text": "direcciones",
+   "start": 1.093458,
+   "end": 1.734749
+  }
+ ]
+}

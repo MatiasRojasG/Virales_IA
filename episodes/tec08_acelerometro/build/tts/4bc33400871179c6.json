@@ -1,0 +1,51 @@
+{
+ "text": "Adentro hay un chip de un par de milímetros,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Adentro",
+   "start": 0.097166,
+   "end": 0.533499
+  },
+  {
+   "text": "hay",
+   "start": 0.5335,
+   "end": 0.663208
+  },
+  {
+   "text": "un",
+   "start": 0.698583,
+   "end": 0.851874
+  },
+  {
+   "text": "chip",
+   "start": 0.863666,
+   "end": 1.064124
+  },
+  {
+   "text": "de",
+   "start": 1.134916,
+   "end": 1.205666
+  },
+  {
+   "text": "un",
+   "start": 1.241041,
+   "end": 1.406124
+  },
+  {
+   "text": "par",
+   "start": 1.417916,
+   "end": 1.559416
+  },
+  {
+   "text": "de",
+   "start": 1.594791,
+   "end": 1.677332
+  },
+  {
+   "text": "milímetros",
+   "start": 1.700958,
+   "end": 2.396708
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "que cuelga de resortes.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "que",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "cuelga",
+   "start": 0.267375,
+   "end": 0.52825
+  },
+  {
+   "text": "de",
+   "start": 0.55,
+   "end": 0.626083
+  },
+  {
+   "text": "resortes",
+   "start": 0.647833,
+   "end": 1.223916
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "y la carga eléctrica entre ellos cambia.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "la",
+   "start": 0.169583,
+   "end": 0.256541
+  },
+  {
+   "text": "carga",
+   "start": 0.32175,
+   "end": 0.528291
+  },
+  {
+   "text": "eléctrica",
+   "start": 0.57175,
+   "end": 0.995666
+  },
+  {
+   "text": "entre",
+   "start": 1.017375,
+   "end": 1.180416
+  },
+  {
+   "text": "ellos",
+   "start": 1.245666,
+   "end": 1.495666
+  },
+  {
+   "text": "cambia",
+   "start": 1.539125,
+   "end": 1.843458
+  }
+ ]
+}

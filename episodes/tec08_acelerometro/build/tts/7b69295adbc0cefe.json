@@ -1,0 +1,46 @@
+{
+ "text": "y en él, una pieza que se mueve.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "en",
+   "start": 0.191291,
+   "end": 0.278249
+  },
+  {
+   "text": "él",
+   "start": 0.289125,
+   "end": 0.484791
+  },
+  {
+   "text": "una",
+   "start": 0.702166,
+   "end": 0.854332
+  },
+  {
+   "text": "pieza",
+   "start": 0.930416,
+   "end": 1.147791
+  },
+  {
+   "text": "que",
+   "start": 1.213041,
+   "end": 1.267374
+  },
+  {
+   "text": "se",
+   "start": 1.289125,
+   "end": 1.365208
+  },
+  {
+   "text": "mueve",
+   "start": 1.386958,
+   "end": 1.658708
+  }
+ ]
+}

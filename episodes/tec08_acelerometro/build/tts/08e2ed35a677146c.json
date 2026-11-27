@@ -1,0 +1,41 @@
+{
+ "text": "Entonces, ¿cómo sabe dónde está el suelo?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.647791
+  },
+  {
+   "text": "cómo",
+   "start": 0.886958,
+   "end": 1.071749
+  },
+  {
+   "text": "sabe",
+   "start": 1.093458,
+   "end": 1.321708
+  },
+  {
+   "text": "dónde",
+   "start": 1.343458,
+   "end": 1.549999
+  },
+  {
+   "text": "está",
+   "start": 1.560875,
+   "end": 1.756541
+  },
+  {
+   "text": "el",
+   "start": 1.77825,
+   "end": 1.843458
+  },
+  {
+   "text": "suelo",
+   "start": 1.865208,
+   "end": 2.158666
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Mientras cae, la pesa flota...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Mientras",
+   "start": 0.093458,
+   "end": 0.430416
+  },
+  {
+   "text": "cae",
+   "start": 0.473916,
+   "end": 0.713041
+  },
+  {
+   "text": "la",
+   "start": 0.930416,
+   "end": 1.049999
+  },
+  {
+   "text": "pesa",
+   "start": 1.126083,
+   "end": 1.289124
+  },
+  {
+   "text": "flota",
+   "start": 1.32175,
+   "end": 1.669583
+  }
+ ]
+}

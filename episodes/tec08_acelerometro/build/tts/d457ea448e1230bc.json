@@ -1,0 +1,36 @@
+{
+ "text": "y así puede contar tus pasos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "así",
+   "start": 0.180416,
+   "end": 0.376082
+  },
+  {
+   "text": "puede",
+   "start": 0.463041,
+   "end": 0.626082
+  },
+  {
+   "text": "contar",
+   "start": 0.680416,
+   "end": 0.973874
+  },
+  {
+   "text": "tus",
+   "start": 1.05,
+   "end": 1.158708
+  },
+  {
+   "text": "pasos",
+   "start": 1.223916,
+   "end": 1.615207
+  }
+ ]
+}

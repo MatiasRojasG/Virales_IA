@@ -1,0 +1,56 @@
+{
+ "text": "Si inclinas el celular, la gravedad tira hacia otro lado...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "inclinas",
+   "start": 0.256541,
+   "end": 0.669582
+  },
+  {
+   "text": "el",
+   "start": 0.669583,
+   "end": 0.756541
+  },
+  {
+   "text": "celular",
+   "start": 0.77825,
+   "end": 1.158666
+  },
+  {
+   "text": "la",
+   "start": 1.430416,
+   "end": 1.539124
+  },
+  {
+   "text": "gravedad",
+   "start": 1.57175,
+   "end": 1.941333
+  },
+  {
+   "text": "tira",
+   "start": 2.006541,
+   "end": 2.223916
+  },
+  {
+   "text": "hacia",
+   "start": 2.267375,
+   "end": 2.463041
+  },
+  {
+   "text": "otro",
+   "start": 2.506541,
+   "end": 2.723916
+  },
+  {
+   "text": "lado",
+   "start": 2.745666,
+   "end": 3.006541
+  }
+ ]
+}
