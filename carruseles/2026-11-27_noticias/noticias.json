@@ -1,0 +1,85 @@
+{
+ "fecha": "27 NOV 2026",
+ "hora_publicacion": "2026-11-27 11:00 America/Santiago (14:00 UTC); ventana de noticias desde 2026-11-26 14:00 UTC.",
+ "nota_imagenes": "Wikimedia Commons no respondió desde la sesión (proxy 403): las imágenes son ilustraciones dibujadas por código (dibujos.py), sin logos ni marcas.",
+ "portada": {
+  "kicker": "NOTICIAS DE TECNOLOGÍA · ÚLTIMAS 24 H",
+  "titulo": ["LO QUE PASÓ", "EN TECNOLOGÍA", "EN 24 HORAS"],
+  "rojo": [2],
+  "imagenes": ["img/fifa_p.jpg", "img/cripto_p.jpg", "img/cohete_p.jpg", "img/memoria_p.jpg"],
+  "focos": [[0.5, 0.5], [0.5, 0.5], [0.4, 0.5], [0.5, 0.5]],
+  "zooms": [1.0, 1.0, 1.0, 1.0]
+ },
+ "noticias": [
+  {
+   "cat": "CIBERSEGURIDAD",
+   "titulo": "La FIFA confirma que sufrió un ciberataque",
+   "texto": "La FIFA dijo este jueves que un ciberataque criminal logró acceder a un «conjunto limitado» de información personal y de negocios. Trabaja con las autoridades, incluida la policía. No dijo cuándo ocurrió ni qué datos se llevaron.",
+   "importa": "Un grupo que se hace llamar Handsome Boy Hacking Club publicó capturas en X y pareció atribuírselo. La FIFA no ha confirmado quién fue ni a cuántas personas afecta.",
+   "fuente": "AP (vía SecurityWeek) · 26 nov 2026",
+   "publicada": "2026-11-26 17:06 UTC (AP en SecurityWeek)",
+   "img": "img/fifa.jpg",
+   "foco": [0.5, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "CRIPTO",
+   "titulo": "Lavan más de 600 millones del mayor robo cripto",
+   "texto": "Del robo de 6.300 millones de dólares a Binance del 29 de octubre, más de 600 millones ya pasaron por THORChain, un servicio para cambiar criptomonedas entre redes, según Chainalysis y Elliptic. Unos 2.850 millones quedaron congelados.",
+   "importa": "EE. UU. culpa a hackers de Corea del Norte, que lo niega. El FBI pidió a quienes operan THORChain bloquear esas transacciones.",
+   "fuente": "Reuters · 26 nov 2026",
+   "publicada": "2026-11-26 15:51 UTC (Reuters)",
+   "img": "img/cripto.jpg",
+   "foco": [0.5, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "ESPACIO",
+   "titulo": "Rocket Lab llega a 101 misiones con su cohete Electron",
+   "texto": "Un Electron despegó desde Nueva Zelanda y dejó a 569 km de altura un satélite de radar StriX de la empresa japonesa Synspective, el 14.º que lanza para ella. Fue el lanzamiento número 22 de Electron en 2026.",
+   "importa": "Un satélite de radar puede observar la Tierra de noche y a través de las nubes. Los cohetes pequeños permiten lanzarlos uno a uno, cuando el cliente lo necesita.",
+   "fuente": "Rocket Lab y Space.com · 27 nov 2026",
+   "publicada": "2026-11-27 01:38 UTC (comunicado de Rocket Lab; despegue 00:15 UTC)",
+   "img": "img/cohete.jpg",
+   "foco": [0.4, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "ESPACIO",
+   "titulo": "México pide que SpaceX tenga permiso para usar su cielo",
+   "texto": "La presidenta Claudia Sheinbaum dijo que los cohetes de SpaceX lanzados desde Texas usan parte del espacio aéreo mexicano y necesitan aprobación de su autoridad de aviación. Buscará una reunión con EE. UU. y no descarta pedir que la base se traslade.",
+   "importa": "Desde el 17 de noviembre, la Profepa recoge restos en Playa Bagdad, cerca de Matamoros, y evaluará si sanciona a SpaceX. La empresa dice que no se halló una relación clara con sus operaciones.",
+   "fuente": "Infobae y TeslaNorth · 26 nov 2026",
+   "publicada": "2026-11-26 (conferencia de Sheinbaum; Infobae)",
+   "img": "img/frontera.jpg",
+   "foco": [0.5, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "CHIPS",
+   "titulo": "Huawei prepara una memoria para IA con el doble de conexiones",
+   "texto": "Según Bloomberg, investigadores de Huawei mostrarán en febrero, en un congreso en San Francisco, un diseño de memoria HBM, la memoria ultrarrápida de los chips de IA, con el doble de densidad de pines de datos que los que fabrican Samsung y SK Hynix.",
+   "importa": "Samsung, SK Hynix y Micron no pueden vender esta memoria a clientes chinos. Aún no está claro cuándo podría fabricarla Huawei.",
+   "fuente": "Bloomberg (vía TNW) · 26 nov 2026",
+   "publicada": "2026-11-26 18:28 UTC (TNW, sobre Bloomberg)",
+   "img": "img/memoria.jpg",
+   "foco": [0.5, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  },
+  {
+   "cat": "IA",
+   "titulo": "Canadá suma 700 millones para que sus pymes usen IA",
+   "texto": "El gobierno de Canadá agregó 700 millones de dólares canadienses a su fondo que ayuda a pequeñas y medianas empresas a pagar la potencia de cálculo que necesita la IA. El fondo llega así a 1.000 millones. La primera convocatoria nueva es para salud.",
+   "importa": "Entrenar y usar IA exige computadores muy caros. Hasta ahora el fondo comprometió más de 118 millones para 89 empresas.",
+   "fuente": "Gobierno de Canadá · 26 nov 2026",
+   "publicada": "2026-11-26 (comunicado de ISED, Toronto)",
+   "img": "img/servidores.jpg",
+   "foco": [0.5, 0.5],
+   "pie": "Ilustración: stheq.ia"
+  }
+ ],
+ "cierre": {
+  "pregunta": "¿Cuál de estas noticias te sorprendió más?",
+  "cta": "Comenta el número. Guarda este post y síguenos: noticias de tecnología día por medio."
+ }
+}
