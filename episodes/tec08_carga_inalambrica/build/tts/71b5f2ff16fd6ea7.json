@@ -1,0 +1,46 @@
+{
+ "text": "Pero su corriente cambia de sentido, sin parar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.097166,
+   "end": 0.250457
+  },
+  {
+   "text": "su",
+   "start": 0.274041,
+   "end": 0.356582
+  },
+  {
+   "text": "corriente",
+   "start": 0.415583,
+   "end": 0.804749
+  },
+  {
+   "text": "cambia",
+   "start": 0.875458,
+   "end": 1.158458
+  },
+  {
+   "text": "de",
+   "start": 1.182083,
+   "end": 1.264624
+  },
+  {
+   "text": "sentido",
+   "start": 1.288208,
+   "end": 1.759916
+  },
+  {
+   "text": "sin",
+   "start": 2.007541,
+   "end": 2.231582
+  },
+  {
+   "text": "parar",
+   "start": 2.243416,
+   "end": 2.549999
+  }
+ ]
+}

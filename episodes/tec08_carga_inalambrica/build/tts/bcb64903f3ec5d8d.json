@@ -1,0 +1,41 @@
+{
+ "text": "¿Y por qué a veces carga lento?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "por",
+   "start": 0.245666,
+   "end": 0.343499
+  },
+  {
+   "text": "qué",
+   "start": 0.419583,
+   "end": 0.484791
+  },
+  {
+   "text": "a",
+   "start": 0.495666,
+   "end": 0.560874
+  },
+  {
+   "text": "veces",
+   "start": 0.582625,
+   "end": 0.854375
+  },
+  {
+   "text": "carga",
+   "start": 0.897833,
+   "end": 1.136958
+  },
+  {
+   "text": "lento",
+   "start": 1.158708,
+   "end": 1.473916
+  }
+ ]
+}

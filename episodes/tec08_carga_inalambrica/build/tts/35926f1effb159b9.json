@@ -1,0 +1,26 @@
+{
+ "text": "para que se apague.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "para",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "que",
+   "start": 0.3,
+   "end": 0.365208
+  },
+  {
+   "text": "se",
+   "start": 0.376083,
+   "end": 0.441291
+  },
+  {
+   "text": "apague",
+   "start": 0.441291,
+   "end": 0.778249
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "como un imán que se mueve... sin moverse.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "como",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "un",
+   "start": 0.332625,
+   "end": 0.430458
+  },
+  {
+   "text": "imán",
+   "start": 0.452166,
+   "end": 0.745624
+  },
+  {
+   "text": "que",
+   "start": 0.756541,
+   "end": 0.821749
+  },
+  {
+   "text": "se",
+   "start": 0.843458,
+   "end": 0.941291
+  },
+  {
+   "text": "mueve",
+   "start": 0.973916,
+   "end": 1.278249
+  },
+  {
+   "text": "sin",
+   "start": 1.463041,
+   "end": 1.636957
+  },
+  {
+   "text": "moverse",
+   "start": 1.669583,
+   "end": 2.071749
+  }
+ ]
+}

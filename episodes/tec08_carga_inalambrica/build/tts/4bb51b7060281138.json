@@ -1,0 +1,56 @@
+{
+ "text": "Por eso los cargadores nuevos traen imanes que lo centran.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.397832
+  },
+  {
+   "text": "los",
+   "start": 0.419583,
+   "end": 0.528291
+  },
+  {
+   "text": "cargadores",
+   "start": 0.57175,
+   "end": 1.039125
+  },
+  {
+   "text": "nuevos",
+   "start": 1.060875,
+   "end": 1.3435
+  },
+  {
+   "text": "traen",
+   "start": 1.386958,
+   "end": 1.582624
+  },
+  {
+   "text": "imanes",
+   "start": 1.615208,
+   "end": 1.963041
+  },
+  {
+   "text": "que",
+   "start": 2.006541,
+   "end": 2.060874
+  },
+  {
+   "text": "lo",
+   "start": 2.082625,
+   "end": 2.158708
+  },
+  {
+   "text": "centran",
+   "start": 2.191291,
+   "end": 2.571707
+  }
+ ]
+}

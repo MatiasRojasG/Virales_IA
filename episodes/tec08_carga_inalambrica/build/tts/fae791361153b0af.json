@@ -1,0 +1,51 @@
+{
+ "text": "Su campo magnético crece, se apaga y se invierte:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Su",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "campo",
+   "start": 0.3,
+   "end": 0.52825
+  },
+  {
+   "text": "magnético",
+   "start": 0.55,
+   "end": 1.02825
+  },
+  {
+   "text": "crece",
+   "start": 1.082625,
+   "end": 1.397833
+  },
+  {
+   "text": "se",
+   "start": 1.658708,
+   "end": 1.767374
+  },
+  {
+   "text": "apaga",
+   "start": 1.767375,
+   "end": 2.136958
+  },
+  {
+   "text": "y",
+   "start": 2.169583,
+   "end": 2.213041
+  },
+  {
+   "text": "se",
+   "start": 2.245666,
+   "end": 2.321749
+  },
+  {
+   "text": "invierte",
+   "start": 2.376083,
+   "end": 2.767374
+  }
+ ]
+}

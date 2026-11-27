@@ -1,0 +1,36 @@
+{
+ "text": "Aquí hay aire y plástico. ¿Entonces?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Aquí",
+   "start": 0.093458,
+   "end": 0.365208
+  },
+  {
+   "text": "hay",
+   "start": 0.386958,
+   "end": 0.560874
+  },
+  {
+   "text": "aire",
+   "start": 0.57175,
+   "end": 0.8
+  },
+  {
+   "text": "y",
+   "start": 0.832625,
+   "end": 0.854375
+  },
+  {
+   "text": "plástico",
+   "start": 0.930416,
+   "end": 1.354332
+  },
+  {
+   "text": "Entonces",
+   "start": 2.130416,
+   "end": 2.717374
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Entonces, ¿cómo cruza el aire?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.669541
+  },
+  {
+   "text": "cómo",
+   "start": 0.897833,
+   "end": 1.060874
+  },
+  {
+   "text": "cruza",
+   "start": 1.126083,
+   "end": 1.354333
+  },
+  {
+   "text": "el",
+   "start": 1.397833,
+   "end": 1.473916
+  },
+  {
+   "text": "aire",
+   "start": 1.484791,
+   "end": 1.745666
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "Adentro hay dos bobinas de cobre:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Adentro",
+   "start": 0.093458,
+   "end": 0.517374
+  },
+  {
+   "text": "hay",
+   "start": 0.52825,
+   "end": 0.647833
+  },
+  {
+   "text": "dos",
+   "start": 0.691291,
+   "end": 0.865207
+  },
+  {
+   "text": "bobinas",
+   "start": 0.886958,
+   "end": 1.234791
+  },
+  {
+   "text": "de",
+   "start": 1.245666,
+   "end": 1.299999
+  },
+  {
+   "text": "cobre",
+   "start": 1.365208,
+   "end": 1.615208
+  }
+ ]
+}

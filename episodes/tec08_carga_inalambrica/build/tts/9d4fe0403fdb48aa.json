@@ -1,0 +1,71 @@
+{
+ "text": "Y el celular le avisa a la base cuando la batería se llena,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "el",
+   "start": 0.180416,
+   "end": 0.289124
+  },
+  {
+   "text": "celular",
+   "start": 0.310875,
+   "end": 0.680458
+  },
+  {
+   "text": "le",
+   "start": 0.691291,
+   "end": 0.756499
+  },
+  {
+   "text": "avisa",
+   "start": 0.756541,
+   "end": 1.060874
+  },
+  {
+   "text": "a",
+   "start": 1.115208,
+   "end": 1.126083
+  },
+  {
+   "text": "la",
+   "start": 1.136958,
+   "end": 1.213041
+  },
+  {
+   "text": "base",
+   "start": 1.234791,
+   "end": 1.452166
+  },
+  {
+   "text": "cuando",
+   "start": 1.517375,
+   "end": 1.713041
+  },
+  {
+   "text": "la",
+   "start": 1.734791,
+   "end": 1.799999
+  },
+  {
+   "text": "batería",
+   "start": 1.82175,
+   "end": 2.234791
+  },
+  {
+   "text": "se",
+   "start": 2.256541,
+   "end": 2.354374
+  },
+  {
+   "text": "llena",
+   "start": 2.408708,
+   "end": 2.691333
+  }
+ ]
+}

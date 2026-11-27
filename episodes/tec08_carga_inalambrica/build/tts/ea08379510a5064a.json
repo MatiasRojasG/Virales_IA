@@ -1,0 +1,51 @@
+{
+ "text": "una en la base y otra en el celular.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "una",
+   "start": 0.095125,
+   "end": 0.258166
+  },
+  {
+   "text": "en",
+   "start": 0.29075,
+   "end": 0.334208
+  },
+  {
+   "text": "la",
+   "start": 0.355958,
+   "end": 0.432041
+  },
+  {
+   "text": "base",
+   "start": 0.453791,
+   "end": 0.703791
+  },
+  {
+   "text": "y",
+   "start": 0.736416,
+   "end": 0.801624
+  },
+  {
+   "text": "otra",
+   "start": 0.823375,
+   "end": 1.04075
+  },
+  {
+   "text": "en",
+   "start": 1.0625,
+   "end": 1.105958
+  },
+  {
+   "text": "el",
+   "start": 1.116833,
+   "end": 1.225541
+  },
+  {
+   "text": "celular",
+   "start": 1.236416,
+   "end": 1.649457
+  }
+ ]
+}

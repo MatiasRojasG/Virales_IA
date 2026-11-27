@@ -1,0 +1,41 @@
+{
+ "text": "un imán que se mueve... sin moverse.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "un",
+   "start": 0.095125,
+   "end": 0.192958
+  },
+  {
+   "text": "imán",
+   "start": 0.214666,
+   "end": 0.518999
+  },
+  {
+   "text": "que",
+   "start": 0.529875,
+   "end": 0.595083
+  },
+  {
+   "text": "se",
+   "start": 0.616833,
+   "end": 0.714666
+  },
+  {
+   "text": "mueve",
+   "start": 0.747291,
+   "end": 1.051624
+  },
+  {
+   "text": "sin",
+   "start": 1.258166,
+   "end": 1.432082
+  },
+  {
+   "text": "moverse",
+   "start": 1.453791,
+   "end": 1.845082
+  }
+ ]
+}

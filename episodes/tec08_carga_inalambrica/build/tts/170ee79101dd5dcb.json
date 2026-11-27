@@ -1,0 +1,56 @@
+{
+ "text": "Ese campo cruza el aire, atraviesa la bobina del celular...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Ese",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "campo",
+   "start": 0.354333,
+   "end": 0.582583
+  },
+  {
+   "text": "cruza",
+   "start": 0.647833,
+   "end": 0.876083
+  },
+  {
+   "text": "el",
+   "start": 0.908708,
+   "end": 0.973916
+  },
+  {
+   "text": "aire",
+   "start": 0.973916,
+   "end": 1.234791
+  },
+  {
+   "text": "atraviesa",
+   "start": 1.495666,
+   "end": 1.984791
+  },
+  {
+   "text": "la",
+   "start": 1.995666,
+   "end": 2.071749
+  },
+  {
+   "text": "bobina",
+   "start": 2.093458,
+   "end": 2.419541
+  },
+  {
+   "text": "del",
+   "start": 2.441291,
+   "end": 2.560874
+  },
+  {
+   "text": "celular",
+   "start": 2.582625,
+   "end": 3.017416
+  }
+ ]
+}

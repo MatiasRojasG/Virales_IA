@@ -1,0 +1,41 @@
+{
+ "text": "En la base no se mueve nada.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "la",
+   "start": 0.213041,
+   "end": 0.299999
+  },
+  {
+   "text": "base",
+   "start": 0.32175,
+   "end": 0.560875
+  },
+  {
+   "text": "no",
+   "start": 0.593458,
+   "end": 0.713041
+  },
+  {
+   "text": "se",
+   "start": 0.734791,
+   "end": 0.832624
+  },
+  {
+   "text": "mueve",
+   "start": 0.865208,
+   "end": 1.093458
+  },
+  {
+   "text": "nada",
+   "start": 1.126083,
+   "end": 1.408708
+  }
+ ]
+}

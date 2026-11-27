@@ -1,0 +1,16 @@
+{
+ "text": "aparece corriente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "aparece",
+   "start": 0.093458,
+   "end": 0.506499
+  },
+  {
+   "text": "corriente",
+   "start": 0.560875,
+   "end": 0.984791
+  }
+ ]
+}
