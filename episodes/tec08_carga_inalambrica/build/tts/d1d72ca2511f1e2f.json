@@ -1,0 +1,36 @@
+{
+ "text": "La pista está en un imán.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "pista",
+   "start": 0.3,
+   "end": 0.517375
+  },
+  {
+   "text": "está",
+   "start": 0.52825,
+   "end": 0.734791
+  },
+  {
+   "text": "en",
+   "start": 0.767375,
+   "end": 0.810833
+  },
+  {
+   "text": "un",
+   "start": 0.832625,
+   "end": 0.930458
+  },
+  {
+   "text": "imán",
+   "start": 0.952166,
+   "end": 1.213041
+  }
+ ]
+}

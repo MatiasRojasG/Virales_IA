@@ -1,0 +1,51 @@
+{
+ "text": "Si lo acercas y lo alejas de una bobina...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "lo",
+   "start": 0.256541,
+   "end": 0.310874
+  },
+  {
+   "text": "acercas",
+   "start": 0.310875,
+   "end": 0.756541
+  },
+  {
+   "text": "y",
+   "start": 0.77825,
+   "end": 0.810875
+  },
+  {
+   "text": "lo",
+   "start": 0.832625,
+   "end": 0.897833
+  },
+  {
+   "text": "alejas",
+   "start": 0.897833,
+   "end": 1.267416
+  },
+  {
+   "text": "de",
+   "start": 1.289125,
+   "end": 1.343458
+  },
+  {
+   "text": "una",
+   "start": 1.386958,
+   "end": 1.528249
+  },
+  {
+   "text": "bobina",
+   "start": 1.55,
+   "end": 1.941291
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "que tu celular vuelve a convertir en corriente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "que",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "tu",
+   "start": 0.245666,
+   "end": 0.310874
+  },
+  {
+   "text": "celular",
+   "start": 0.343458,
+   "end": 0.723874
+  },
+  {
+   "text": "vuelve",
+   "start": 0.756541,
+   "end": 1.006541
+  },
+  {
+   "text": "a",
+   "start": 1.006541,
+   "end": 1.049999
+  },
+  {
+   "text": "convertir",
+   "start": 1.115208,
+   "end": 1.506499
+  },
+  {
+   "text": "en",
+   "start": 1.506541,
+   "end": 1.647832
+  },
+  {
+   "text": "corriente",
+   "start": 1.647833,
+   "end": 2.082624
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "text": "Como un campo magnético que va y viene...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Como",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "un",
+   "start": 0.332625,
+   "end": 0.484791
+  },
+  {
+   "text": "campo",
+   "start": 0.495666,
+   "end": 0.734791
+  },
+  {
+   "text": "magnético",
+   "start": 0.756541,
+   "end": 1.289166
+  },
+  {
+   "text": "que",
+   "start": 1.354333,
+   "end": 1.419541
+  },
+  {
+   "text": "va",
+   "start": 1.452166,
+   "end": 1.549999
+  },
+  {
+   "text": "y",
+   "start": 1.593458,
+   "end": 1.626083
+  },
+  {
+   "text": "viene",
+   "start": 1.658708,
+   "end": 1.963041
+  }
+ ]
+}

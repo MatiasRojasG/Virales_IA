@@ -1,0 +1,26 @@
+{
+ "text": "y ahí crea corriente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "ahí",
+   "start": 0.191291,
+   "end": 0.376082
+  },
+  {
+   "text": "crea",
+   "start": 0.463041,
+   "end": 0.647832
+  },
+  {
+   "text": "corriente",
+   "start": 0.713041,
+   "end": 1.136957
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "Se llama inducción magnética.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "llama",
+   "start": 0.27825,
+   "end": 0.463041
+  },
+  {
+   "text": "inducción",
+   "start": 0.495666,
+   "end": 0.908707
+  },
+  {
+   "text": "magnética",
+   "start": 0.930416,
+   "end": 1.463041
+  }
+ ]
+}

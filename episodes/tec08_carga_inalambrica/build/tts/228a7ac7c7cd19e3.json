@@ -1,0 +1,46 @@
+{
+ "text": "Entonces, ¿cómo pasa la energía por el aire?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.647791
+  },
+  {
+   "text": "cómo",
+   "start": 0.897833,
+   "end": 1.060874
+  },
+  {
+   "text": "pasa",
+   "start": 1.136958,
+   "end": 1.343499
+  },
+  {
+   "text": "la",
+   "start": 1.354333,
+   "end": 1.419541
+  },
+  {
+   "text": "energía",
+   "start": 1.463041,
+   "end": 1.854332
+  },
+  {
+   "text": "por",
+   "start": 1.930416,
+   "end": 2.017374
+  },
+  {
+   "text": "el",
+   "start": 2.039125,
+   "end": 2.136958
+  },
+  {
+   "text": "aire",
+   "start": 2.147833,
+   "end": 2.397833
+  }
+ ]
+}

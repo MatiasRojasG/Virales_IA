@@ -1,0 +1,51 @@
+{
+ "text": "y que tu celular convierte otra vez en corriente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "que",
+   "start": 0.223916,
+   "end": 0.289124
+  },
+  {
+   "text": "tu",
+   "start": 0.354333,
+   "end": 0.408666
+  },
+  {
+   "text": "celular",
+   "start": 0.441291,
+   "end": 0.778249
+  },
+  {
+   "text": "convierte",
+   "start": 0.843458,
+   "end": 1.289124
+  },
+  {
+   "text": "otra",
+   "start": 1.310875,
+   "end": 1.52825
+  },
+  {
+   "text": "vez",
+   "start": 1.55,
+   "end": 1.734791
+  },
+  {
+   "text": "en",
+   "start": 1.734791,
+   "end": 1.854332
+  },
+  {
+   "text": "corriente",
+   "start": 1.854333,
+   "end": 2.289124
+  }
+ ]
+}

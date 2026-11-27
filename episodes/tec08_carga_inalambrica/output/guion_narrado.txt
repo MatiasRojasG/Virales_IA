@@ -1,0 +1,26 @@
+[hook] (  0.1s –   6.0s)
+Dejas el celular encima... y se carga. Sin cable. ¿Cómo pasa la energía por el aire?
+
+[dentro] (  6.0s –  11.1s)
+Adentro hay dos bobinas de cobre: una en la base y otra en el celular. Y no se tocan.
+
+[problema] ( 11.1s –  16.4s)
+Pero la corriente necesita un camino de metal. Aquí hay aire. ¿Entonces?
+
+[iman] ( 16.4s –  21.9s)
+La pista está en un imán. Si lo acercas y lo alejas de una bobina... aparece corriente.
+
+[truco] ( 21.9s –  31.9s)
+En la base no se mueve nada. Pero su corriente cambia de sentido, sin parar. Y su campo magnético crece, se apaga y se invierte: un imán que se mueve... sin moverse.
+
+[induccion] ( 31.9s –  38.8s)
+Ese campo cruza el aire, atraviesa la bobina del celular... y ahí crea corriente. Se llama inducción magnética.
+
+[centrar] ( 38.8s –  46.9s)
+¿Y por qué a veces carga lento? Si queda corrido, parte del campo no pasa por la bobina. Por eso los cargadores nuevos traen imanes que lo centran.
+
+[habla] ( 46.9s –  51.0s)
+Y el celular le avisa a la base cuando la batería se llena, para que se apague.
+
+[cierre] ( 51.0s –  58.0s)
+Entonces, ¿cómo cruza el aire? Como un campo magnético que va y viene... que tu celular vuelve a convertir en corriente.

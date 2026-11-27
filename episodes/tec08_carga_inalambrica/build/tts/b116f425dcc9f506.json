@@ -1,0 +1,61 @@
+{
+ "text": "El truco: su corriente cambia de sentido muchísimas veces por segundo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.097166,
+   "end": 0.250457
+  },
+  {
+   "text": "truco",
+   "start": 0.297625,
+   "end": 0.592416
+  },
+  {
+   "text": "su",
+   "start": 0.828291,
+   "end": 0.946207
+  },
+  {
+   "text": "corriente",
+   "start": 1.005208,
+   "end": 1.394374
+  },
+  {
+   "text": "cambia",
+   "start": 1.465083,
+   "end": 1.736291
+  },
+  {
+   "text": "de",
+   "start": 1.759916,
+   "end": 1.842457
+  },
+  {
+   "text": "sentido",
+   "start": 1.866041,
+   "end": 2.290582
+  },
+  {
+   "text": "muchísimas",
+   "start": 2.314166,
+   "end": 2.927374
+  },
+  {
+   "text": "veces",
+   "start": 2.950958,
+   "end": 3.245749
+  },
+  {
+   "text": "por",
+   "start": 3.3165,
+   "end": 3.410833
+  },
+  {
+   "text": "segundo",
+   "start": 3.446208,
+   "end": 3.870749
+  }
+ ]
+}

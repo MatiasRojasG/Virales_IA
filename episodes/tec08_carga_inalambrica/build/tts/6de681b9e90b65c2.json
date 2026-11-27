@@ -1,0 +1,46 @@
+{
+ "text": "Pero la corriente necesita un camino de metal.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "la",
+   "start": 0.267375,
+   "end": 0.343458
+  },
+  {
+   "text": "corriente",
+   "start": 0.408708,
+   "end": 0.789124
+  },
+  {
+   "text": "necesita",
+   "start": 0.82175,
+   "end": 1.289125
+  },
+  {
+   "text": "un",
+   "start": 1.32175,
+   "end": 1.463041
+  },
+  {
+   "text": "camino",
+   "start": 1.463041,
+   "end": 1.767374
+  },
+  {
+   "text": "de",
+   "start": 1.8,
+   "end": 1.865208
+  },
+  {
+   "text": "metal",
+   "start": 1.886958,
+   "end": 2.213041
+  }
+ ]
+}

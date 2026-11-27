@@ -1,0 +1,196 @@
+1
+00:00:00,150 --> 00:00:01,585
+Dejas el celular encima...
+
+2
+00:00:01,585 --> 00:00:02,579
+y se carga.
+
+3
+00:00:02,579 --> 00:00:03,812
+Sin cable.
+
+4
+00:00:03,897 --> 00:00:04,941
+¿Cómo pasa la energía
+
+5
+00:00:04,941 --> 00:00:06,015
+por el aire?
+
+6
+00:00:06,015 --> 00:00:07,167
+Adentro hay dos bobinas
+
+7
+00:00:07,167 --> 00:00:07,877
+de cobre:
+
+8
+00:00:07,877 --> 00:00:08,518
+una en la base
+
+9
+00:00:08,518 --> 00:00:09,821
+y otra en el celular.
+
+10
+00:00:09,821 --> 00:00:11,100
+Y no se tocan.
+
+11
+00:00:11,100 --> 00:00:12,329
+Pero la corriente necesita
+
+12
+00:00:12,329 --> 00:00:13,610
+un camino de metal.
+
+13
+00:00:13,610 --> 00:00:15,071
+Aquí hay aire.
+
+14
+00:00:15,156 --> 00:00:16,433
+¿Entonces?
+
+15
+00:00:16,433 --> 00:00:17,172
+La pista está en
+
+16
+00:00:17,172 --> 00:00:17,943
+un imán.
+
+17
+00:00:17,943 --> 00:00:18,682
+Si lo acercas y
+
+18
+00:00:18,682 --> 00:00:20,281
+lo alejas de una bobina...
+
+19
+00:00:20,281 --> 00:00:21,872
+aparece corriente.
+
+20
+00:00:21,962 --> 00:00:22,603
+En la base no
+
+21
+00:00:22,603 --> 00:00:23,617
+se mueve nada.
+
+22
+00:00:23,617 --> 00:00:24,702
+Pero su corriente cambia
+
+23
+00:00:24,702 --> 00:00:26,460
+de sentido, sin parar.
+
+24
+00:00:26,460 --> 00:00:28,080
+Y su campo
+magnético crece,
+
+25
+00:00:28,080 --> 00:00:29,557
+se apaga y se invierte:
+
+26
+00:00:29,557 --> 00:00:30,720
+un imán que se mueve...
+
+27
+00:00:30,720 --> 00:00:31,946
+sin moverse.
+
+28
+00:00:31,946 --> 00:00:33,349
+Ese campo cruza el aire,
+
+29
+00:00:33,349 --> 00:00:35,210
+atraviesa la bobina
+del celular...
+
+30
+00:00:35,210 --> 00:00:36,694
+y ahí crea corriente.
+
+31
+00:00:36,694 --> 00:00:38,764
+Se llama inducción
+magnética.
+
+32
+00:00:38,854 --> 00:00:39,343
+¿Y por qué a
+
+33
+00:00:39,343 --> 00:00:40,624
+veces carga lento?
+
+34
+00:00:40,624 --> 00:00:41,765
+Si queda corrido,
+
+35
+00:00:41,765 --> 00:00:42,689
+parte del campo no
+
+36
+00:00:42,689 --> 00:00:43,916
+pasa por la bobina.
+
+37
+00:00:43,916 --> 00:00:44,884
+Por eso los cargadores
+
+38
+00:00:44,884 --> 00:00:45,905
+nuevos traen imanes que
+
+39
+00:00:45,905 --> 00:00:46,934
+lo centran.
+
+40
+00:00:46,934 --> 00:00:47,597
+Y el celular le
+
+41
+00:00:47,597 --> 00:00:48,358
+avisa a la base
+
+42
+00:00:48,358 --> 00:00:49,842
+cuando la batería se llena,
+
+43
+00:00:49,842 --> 00:00:51,067
+para que se apague.
+
+44
+00:00:51,067 --> 00:00:53,109
+Entonces, ¿cómo
+cruza el aire?
+
+45
+00:00:53,109 --> 00:00:54,370
+Como un campo
+magnético
+
+46
+00:00:54,370 --> 00:00:55,319
+que va y viene...
+
+47
+00:00:55,319 --> 00:00:56,232
+que tu celular vuelve
+
+48
+00:00:56,232 --> 00:00:57,908
+a convertir en corriente.

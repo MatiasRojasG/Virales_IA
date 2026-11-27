@@ -1,0 +1,61 @@
+{
+ "text": "Si queda corrido, parte del campo no pasa por la bobina.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "queda",
+   "start": 0.3,
+   "end": 0.473916
+  },
+  {
+   "text": "corrido",
+   "start": 0.539125,
+   "end": 0.919541
+  },
+  {
+   "text": "parte",
+   "start": 1.234791,
+   "end": 1.484791
+  },
+  {
+   "text": "del",
+   "start": 1.506541,
+   "end": 1.626124
+  },
+  {
+   "text": "campo",
+   "start": 1.669583,
+   "end": 1.941333
+  },
+  {
+   "text": "no",
+   "start": 1.973916,
+   "end": 2.082624
+  },
+  {
+   "text": "pasa",
+   "start": 2.158708,
+   "end": 2.354374
+  },
+  {
+   "text": "por",
+   "start": 2.419583,
+   "end": 2.517416
+  },
+  {
+   "text": "la",
+   "start": 2.539125,
+   "end": 2.593458
+  },
+  {
+   "text": "bobina",
+   "start": 2.615208,
+   "end": 2.995624
+  }
+ ]
+}

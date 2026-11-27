@@ -1,0 +1,26 @@
+{
+ "text": "Y no se tocan.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "no",
+   "start": 0.180416,
+   "end": 0.321707
+  },
+  {
+   "text": "se",
+   "start": 0.354333,
+   "end": 0.441291
+  },
+  {
+   "text": "tocan",
+   "start": 0.506541,
+   "end": 0.832624
+  }
+ ]
+}
