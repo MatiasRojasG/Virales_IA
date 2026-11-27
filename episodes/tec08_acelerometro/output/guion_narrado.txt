@@ -1,0 +1,23 @@
+[hook] (  0.1s –   6.4s)
+Giras tu celular... y la pantalla gira contigo. Pero no tiene ojos. ¿Cómo sabe dónde está el suelo?
+
+[adentro] (  6.4s –  11.3s)
+Adentro hay un chip de un par de milímetros, y en él, una pieza que se mueve.
+
+[resortes] ( 11.3s –  18.3s)
+Es una pesita diminuta, colgada de resortes. La gravedad la tira hacia abajo... y los resortes se estiran un poquito.
+
+[dedos] ( 18.3s –  29.2s)
+Pegados a la pesa hay dedos de silicio, frente a otros fijos. Si la pesa baja, unos se acercan y otros se alejan, y la carga eléctrica entre ellos cambia. Así el chip mide cuánto se movió.
+
+[ejes] ( 29.2s –  37.6s)
+Hay pesitas para tres direcciones. Si inclinas el celular, la gravedad tira hacia otro lado... se mueve otra pesa, y la pantalla gira.
+
+[pasos] ( 37.6s –  42.4s)
+Al caminar, la pesa rebota en cada paso, y así puede contar tus pasos.
+
+[caida] ( 42.4s –  47.7s)
+¿Y si se te cae? Mientras cae, la pesa flota... y el sensor marca cero.
+
+[cierre] ( 47.7s –  54.1s)
+Entonces, ¿cómo sabe dónde está el suelo? Siente hacia dónde cae una pesita... que cuelga de resortes.

@@ -1,0 +1,174 @@
+1
+00:00:00,150 --> 00:00:01,270
+Giras tu celular...
+
+2
+00:00:01,270 --> 00:00:03,064
+y la pantalla gira contigo.
+
+3
+00:00:03,064 --> 00:00:04,465
+Pero no tiene ojos.
+
+4
+00:00:04,465 --> 00:00:05,389
+¿Cómo sabe dónde está
+
+5
+00:00:05,389 --> 00:00:06,458
+el suelo?
+
+6
+00:00:06,498 --> 00:00:07,536
+Adentro hay un chip
+
+7
+00:00:07,536 --> 00:00:09,138
+de un par de milímetros,
+
+8
+00:00:09,138 --> 00:00:09,746
+y en él,
+
+9
+00:00:09,746 --> 00:00:11,393
+una pieza que se mueve.
+
+10
+00:00:11,393 --> 00:00:12,773
+Es una pesita diminuta,
+
+11
+00:00:12,773 --> 00:00:14,350
+colgada de resortes.
+
+12
+00:00:14,350 --> 00:00:15,274
+La gravedad la tira
+
+13
+00:00:15,274 --> 00:00:16,164
+hacia abajo...
+
+14
+00:00:16,164 --> 00:00:16,860
+y los resortes se
+
+15
+00:00:16,860 --> 00:00:18,320
+estiran un poquito.
+
+16
+00:00:18,320 --> 00:00:19,189
+Pegados a la pesa
+
+17
+00:00:19,189 --> 00:00:20,385
+hay dedos de silicio,
+
+18
+00:00:20,385 --> 00:00:21,934
+frente a otros fijos.
+
+19
+00:00:21,934 --> 00:00:23,020
+Si la pesa baja,
+
+20
+00:00:23,020 --> 00:00:23,770
+unos se acercan y
+
+21
+00:00:23,770 --> 00:00:24,871
+otros se alejan,
+
+22
+00:00:24,871 --> 00:00:25,795
+y la carga eléctrica
+
+23
+00:00:25,795 --> 00:00:27,061
+entre ellos cambia.
+
+24
+00:00:27,061 --> 00:00:28,018
+Así el chip mide
+
+25
+00:00:28,018 --> 00:00:29,288
+cuánto se movió.
+
+26
+00:00:29,288 --> 00:00:31,370
+Hay pesitas para
+tres direcciones.
+
+27
+00:00:31,370 --> 00:00:32,707
+Si inclinas el celular,
+
+28
+00:00:32,707 --> 00:00:33,783
+la gravedad tira hacia
+
+29
+00:00:33,783 --> 00:00:34,673
+otro lado...
+
+30
+00:00:34,673 --> 00:00:36,002
+se mueve otra pesa,
+
+31
+00:00:36,002 --> 00:00:37,604
+y la pantalla gira.
+
+32
+00:00:37,694 --> 00:00:38,944
+Al caminar, la pesa
+
+33
+00:00:38,944 --> 00:00:40,273
+rebota en cada paso,
+
+34
+00:00:40,273 --> 00:00:41,230
+y así puede contar
+
+35
+00:00:41,230 --> 00:00:42,435
+tus pasos.
+
+36
+00:00:42,435 --> 00:00:43,675
+¿Y si se te cae?
+
+37
+00:00:43,675 --> 00:00:45,741
+Mientras cae,
+la pesa flota...
+
+38
+00:00:45,741 --> 00:00:47,703
+y el sensor marca cero.
+
+39
+00:00:47,793 --> 00:00:49,260
+Entonces, ¿cómo
+sabe dónde
+
+40
+00:00:49,260 --> 00:00:50,248
+está el suelo?
+
+41
+00:00:50,248 --> 00:00:51,368
+Siente hacia dónde cae
+
+42
+00:00:51,368 --> 00:00:52,323
+una pesita...
+
+43
+00:00:52,323 --> 00:00:54,053
+que cuelga de resortes.
