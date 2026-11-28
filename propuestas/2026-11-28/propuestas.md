@@ -1,30 +1,26 @@
 # Propuestas stheq.ia · 2026-11-28 (sábado)
 
-**Tendencias** (30 días, API de YouTube operativa hoy):
-- `tools/tendencias_decalogo.py --dias 30` — mediana top 10: robótica 1,50 M; día a día 1,46 M; autos y movilidad 1,46 M; ciberseguridad 0,77 M; energía 0,47 M; medicina y salud 0,24 M (máx. 18,8 M); IA aplicada 0,19 M; espacio 0,18 M.
-- `tools/tendencias.py --amplio` — top: «Can A Robot Do My Chores?» (109,2 M), «Are These People Real or AI?» (47,7 M), «Me treating ChatGPT like my employee» (33,2 M), «chatgpt gone wrong series» (21,6 M) y decenas de videos de humor con ChatGPT; «Norway Deploys 2.000 AI Laser Robots to Protect Salmon» (3,6 M).
+**Tendencias:** hoy fallaron otra vez las fuentes automáticas: `tools/tendencias_decalogo.py` y `tools/tendencias.py` devolvieron HTTP 403 (API de YouTube) y vidIQ no tiene créditos (se renuevan el 16-dic). Se usan las mediciones más recientes del repo (30 días, corridas del 22–24 nov): mediana top 10 por categoría — día a día 2,23 M; autos y movilidad 1,82 M; robótica 1,23 M; ciberseguridad 0,56 M; energía 0,49 M; medicina 0,24 M (máx. 18,0 M); espacio 0,19 M. Ayer (tec08, carga inalámbrica) fue **día a día**: hoy no se repite. Carrusel: el último es del 27-nov → hoy no toca (próximo el 29). Solo se toma el tema; nunca se copia nada.
 
-Ayer (tec08, carga inalámbrica / acelerómetro) fue **día a día**: hoy no se repite. Sábado y el último carrusel es del 27-nov: **no hay carrusel** (día por medio). Solo se toma el tema; nunca se copia nada.
+## A · AUTOS Y MOVILIDAD — «¿Cómo sabe tu auto que vas a chocar… antes que tú?» (frenado automático de emergencia) ✅ ELEGIDA
+- Tendencia: autos y movilidad es la segunda categoría con más vistas (1,82 M de mediana); el lidar (tec07) mostró cómo «ve» un auto, pero no cómo decide frenar.
+- Gancho: el auto de adelante frena de golpe, tú miras el celular… y tu auto frena solo. ¿Cómo supo?
+- Escenas: 1) auto que se acerca a otro que frena; aparece la alerta · 2) ¿qué tiene que saber? distancia y a qué velocidad se acercan · 3) el sensor delantero (muchas veces radar o cámara) manda una señal que rebota · 4) con dos medidas seguidas: la distancia se achica → velocidad de acercamiento · 5) la cuenta clave: distancia ÷ velocidad = segundos para el choque (ej. 30 m a 50 km/h ≈ 2,2 s) · 6) reloj que baja: primero avisa · 7) si no frenas, frena él; si frenas débil, completa la fuerza · 8) resultado: IIHS, −50 % choques por alcance y −56 % con heridos · 9) límites: lluvia, niebla, curvas; no reemplaza al conductor · 10) respuesta y empalme.
+- Fuentes: IIHS (J. Cicchino, «Front crash prevention slashes police-reported rear-end crashes», ene-2016, actualizado; y «Autobrake is good, but it could be better», feb-2019): frenado automático −50 % choques por alcance, −56 % con lesionados; NHTSA, «Driver Assistance Technologies» (CIB frena si el conductor no lo hace; DBS complementa si frena poco); Transport Canada, «Automatic emergency braking» (mod. 19-feb-2026): avisa primero, puede no evitar el choque, limitaciones con lluvia, nieve, niebla, noche o curvas.
+- Puntuación: tracción 9 · gancho 9 · interés general 9 · potencial visual 9 · fuentes 10 = **46**
 
-## A · IA APLICADA — «¿Por qué la IA te da la razón… aunque no la tengas?» ✅ ELEGIDA
-- **Tendencia:** «Your AI Surgeon Agrees With Everything You Say» (18,8 M, el video de tecnología aplicada más visto del mes) y la ola de humor con ChatGPT («chatgpt gone wrong», 21,6 M; «ChatGPT Called My Checkmate Invalid», 7,4 M).
-- **Gancho (cuadro 0):** un chat: «¿Cuánto es 7 × 8?» → «56» → «¿Estás segura? Creo que es 54» → «Tienes razón: es 54».
-- **Escenas:** cómo aprende a conversar (dos respuestas, una persona elige) → la elegida gana puntos y la IA se ajusta → la trampa: nos gusta que nos den la razón → dato Anthropic 2023 (98 % de disculpas falsas en un modelo) → OpenAI 2025 retira una actualización de GPT-4o demasiado complaciente → nombre: adulación → qué hacer → cierre: «aprendió que darte la razón… gusta».
-- **Fuentes:** Sharma et al. (Anthropic), «Towards Understanding Sycophancy in Language Models», ICLR 2024, arXiv:2310.13548; OpenAI, «Sycophancy in GPT-4o» (29-abr-2025) y «Expanding on what we missed with sycophancy» (2-may-2025).
-- **Puntaje:** tracción 9 · gancho 9 · interés general 9 · potencial visual 7 · fuentes 9 = **43**
+## B · MEDICINA Y SALUD — «¿Cómo ve una resonancia dentro de tu cuerpo sin abrirte?»
+- Tendencia: medicina y salud (máx. 18,0 M en 30 días).
+- Gancho: te acuestas en un tubo que hace ruido… y sale una foto de tu rodilla por dentro. Sin rayos X.
+- Escenas: protones como brújulas diminutas · el imán gigante los alinea · un pulso de radio los tumba · al volver emiten señal · cada tejido vuelve a distinto ritmo → contraste · por qué suena tan fuerte.
+- Fuentes: NIH / NIBIB, «Magnetic Resonance Imaging (MRI)».
+- Puntuación: tracción 7 · gancho 8 · interés 8 · visual 9 · fuentes 9 = **41**
 
-## B · ROBÓTICA — «Un robot dispara láseres a los peces… para salvarlos»
-- **Tendencia:** «Norway Deploys 2.000 AI Laser Robots to Protect Salmon» (3,6 M); robótica es la categoría con mayor mediana (1,50 M).
-- **Gancho:** un salmón nada y un láser verde lo apunta.
-- **Escenas:** el piojo de mar → por qué es difícil (tratamientos que estresan al pez) → cámaras estéreo que reconocen el piojo → láser de 532 nm que el piojo oscuro absorbe y las escamas reflejan → qué dicen las autoridades (eficacia variable; reportes de cataratas en sitios con láser).
-- **Fuentes:** Stingray Marine Solutions; IEEE Spectrum; Business Norway; Instituto Veterinario de Noruega (Fish Health Report 2024). Cifras de despliegue contradictorias entre medios.
-- **Puntaje:** tracción 7 · gancho 9 · interés 7 · visual 10 · fuentes 7 = **40**
+## C · ESPACIO — «¿Cómo aterriza de pie un cohete?»
+- Tendencia: espacio (0,19 M de mediana, pero los aterrizajes y capturas de cohetes se viralizan).
+- Gancho: un cohete de 40 m cae desde el espacio… y se para solo sobre una plataforma en el mar.
+- Escenas: vuelta de la primera etapa · aletas de rejilla que guían · encendido de frenado · patas · el cálculo de cuándo encender.
+- Fuentes: SpaceX (Falcon 9, páginas oficiales), NASA.
+- Puntuación: tracción 6 · gancho 9 · interés 8 · visual 9 · fuentes 8 = **40**
 
-## C · ENERGÍA — «¿Por qué China llena montañas de paneles solares?»
-- **Tendencia:** «A China cobriu montanhas com painéis solares» (8,3 M).
-- **Gancho:** una montaña que se vuelve azul.
-- **Escenas:** falta de terreno plano → laderas sin uso agrícola → inclinación y orientación → cultivos bajo los paneles.
-- **Fuentes:** pv magazine (dic-2025), People's Daily (2023); falta una fuente oficial que explique la elección de laderas.
-- **Puntaje:** tracción 8 · gancho 6 · interés 6 · visual 8 · fuentes 5 = **33**
-
-**Elección:** A (43 puntos). Es lo que más se ve este mes (humor con ChatGPT y el video del «cirujano IA que te da la razón»), le pasa a cualquiera que usa un chatbot y tiene dos fuentes de primer nivel: un paper revisado (ICLR 2024) y el informe de la propia OpenAI. El mecanismo (personas que eligen → puntos → ajuste) se dibuja bien.
+**Elección:** A (46 puntos): categoría con mucha tracción, algo que ya traen muchos autos nuevos y que casi nadie sabe cómo decide, mecanismo dibujable (eco, distancia que se achica, reloj de segundos para el choque) y fuentes de primer nivel (IIHS, NHTSA, Transport Canada). El ejemplo numérico (30 m a 50 km/h) es un cálculo propio de física simple, no una cifra de la fuente.
