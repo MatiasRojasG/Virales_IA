@@ -1,0 +1,41 @@
+{
+ "text": "Por lo que tarda, sabe la distancia.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "lo",
+   "start": 0.213041,
+   "end": 0.267374
+  },
+  {
+   "text": "que",
+   "start": 0.32175,
+   "end": 0.386958
+  },
+  {
+   "text": "tarda",
+   "start": 0.452166,
+   "end": 0.756499
+  },
+  {
+   "text": "sabe",
+   "start": 0.984791,
+   "end": 1.234791
+  },
+  {
+   "text": "la",
+   "start": 1.256541,
+   "end": 1.332624
+  },
+  {
+   "text": "distancia",
+   "start": 1.354333,
+   "end": 1.865208
+  }
+ ]
+}

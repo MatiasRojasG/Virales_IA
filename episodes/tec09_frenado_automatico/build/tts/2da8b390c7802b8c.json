@@ -1,0 +1,46 @@
+{
+ "text": "Imagina treinta metros, a cincuenta kilómetros por hora:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Imagina",
+   "start": 0.097166,
+   "end": 0.568874
+  },
+  {
+   "text": "treinta",
+   "start": 0.639625,
+   "end": 0.922625
+  },
+  {
+   "text": "metros",
+   "start": 0.946208,
+   "end": 1.382541
+  },
+  {
+   "text": "a",
+   "start": 1.653791,
+   "end": 1.724541
+  },
+  {
+   "text": "cincuenta",
+   "start": 1.736333,
+   "end": 2.208041
+  },
+  {
+   "text": "kilómetros",
+   "start": 2.278791,
+   "end": 2.809457
+  },
+  {
+   "text": "por",
+   "start": 2.880208,
+   "end": 2.974541
+  },
+  {
+   "text": "hora",
+   "start": 2.986333,
+   "end": 3.222166
+  }
+ ]
+}

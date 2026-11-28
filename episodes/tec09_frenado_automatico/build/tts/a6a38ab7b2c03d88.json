@@ -1,0 +1,56 @@
+{
+ "text": "Lanza una señal, rebota en el otro auto... y vuelve.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Lanza",
+   "start": 0.093458,
+   "end": 0.441291
+  },
+  {
+   "text": "una",
+   "start": 0.473916,
+   "end": 0.636957
+  },
+  {
+   "text": "señal",
+   "start": 0.647833,
+   "end": 1.028249
+  },
+  {
+   "text": "rebota",
+   "start": 1.3,
+   "end": 1.647833
+  },
+  {
+   "text": "en",
+   "start": 1.691291,
+   "end": 1.745624
+  },
+  {
+   "text": "el",
+   "start": 1.767375,
+   "end": 1.876083
+  },
+  {
+   "text": "otro",
+   "start": 1.886958,
+   "end": 2.115208
+  },
+  {
+   "text": "auto",
+   "start": 2.115208,
+   "end": 2.441291
+  },
+  {
+   "text": "y",
+   "start": 2.636958,
+   "end": 2.691291
+  },
+  {
+   "text": "vuelve",
+   "start": 2.723916,
+   "end": 3.049999
+  }
+ ]
+}

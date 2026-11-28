@@ -1,0 +1,31 @@
+{
+ "text": "y frenó antes que tú.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "frenó",
+   "start": 0.180416,
+   "end": 0.484749
+  },
+  {
+   "text": "antes",
+   "start": 0.495666,
+   "end": 0.778291
+  },
+  {
+   "text": "que",
+   "start": 0.82175,
+   "end": 0.886958
+  },
+  {
+   "text": "tú",
+   "start": 0.952166,
+   "end": 1.049999
+  }
+ ]
+}

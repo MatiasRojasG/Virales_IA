@@ -1,0 +1,31 @@
+{
+ "text": "distancia, dividida por esa rapidez...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "distancia",
+   "start": 0.097166,
+   "end": 0.745749
+  },
+  {
+   "text": "dividida",
+   "start": 1.040583,
+   "end": 1.476916
+  },
+  {
+   "text": "por",
+   "start": 1.559416,
+   "end": 1.653749
+  },
+  {
+   "text": "esa",
+   "start": 1.665583,
+   "end": 1.866041
+  },
+  {
+   "text": "rapidez",
+   "start": 1.901416,
+   "end": 2.432082
+  }
+ ]
+}

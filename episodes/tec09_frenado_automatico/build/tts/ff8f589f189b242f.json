@@ -1,0 +1,31 @@
+{
+ "text": "Pero tu auto frena solo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "tu",
+   "start": 0.32175,
+   "end": 0.397833
+  },
+  {
+   "text": "auto",
+   "start": 0.408708,
+   "end": 0.636958
+  },
+  {
+   "text": "frena",
+   "start": 0.658708,
+   "end": 0.930458
+  },
+  {
+   "text": "solo",
+   "start": 0.952166,
+   "end": 1.223916
+  }
+ ]
+}

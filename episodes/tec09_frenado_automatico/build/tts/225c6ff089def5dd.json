@@ -1,0 +1,41 @@
+{
+ "text": "El instituto IIHS, en Estados Unidos, vio",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "instituto",
+   "start": 0.245666,
+   "end": 0.745666
+  },
+  {
+   "text": "IIHS",
+   "start": 0.789125,
+   "end": 1.484791
+  },
+  {
+   "text": "en",
+   "start": 1.734791,
+   "end": 1.832624
+  },
+  {
+   "text": "Estados",
+   "start": 1.843458,
+   "end": 2.234749
+  },
+  {
+   "text": "Unidos",
+   "start": 2.256541,
+   "end": 2.647832
+  },
+  {
+   "text": "vio",
+   "start": 2.876083,
+   "end": 3.049999
+  }
+ ]
+}

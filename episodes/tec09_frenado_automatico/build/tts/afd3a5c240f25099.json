@@ -1,0 +1,56 @@
+{
+ "text": "Por eso lleva un sensor adelante, muchas veces un radar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "eso",
+   "start": 0.213041,
+   "end": 0.397832
+  },
+  {
+   "text": "lleva",
+   "start": 0.452166,
+   "end": 0.636957
+  },
+  {
+   "text": "un",
+   "start": 0.669583,
+   "end": 0.767416
+  },
+  {
+   "text": "sensor",
+   "start": 0.789125,
+   "end": 1.082583
+  },
+  {
+   "text": "adelante",
+   "start": 1.082625,
+   "end": 1.57175
+  },
+  {
+   "text": "muchas",
+   "start": 1.843458,
+   "end": 2.191291
+  },
+  {
+   "text": "veces",
+   "start": 2.213041,
+   "end": 2.495666
+  },
+  {
+   "text": "un",
+   "start": 2.517375,
+   "end": 2.604333
+  },
+  {
+   "text": "radar",
+   "start": 2.615208,
+   "end": 2.941291
+  }
+ ]
+}

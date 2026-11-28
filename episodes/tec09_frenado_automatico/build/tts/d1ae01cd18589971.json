@@ -1,0 +1,21 @@
+{
+ "text": "Primero te avisa.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Primero",
+   "start": 0.093458,
+   "end": 0.430416
+  },
+  {
+   "text": "te",
+   "start": 0.495666,
+   "end": 0.528249
+  },
+  {
+   "text": "avisa",
+   "start": 0.52825,
+   "end": 0.865208
+  }
+ ]
+}

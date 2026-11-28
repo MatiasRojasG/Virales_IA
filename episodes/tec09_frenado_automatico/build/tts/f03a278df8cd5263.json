@@ -1,0 +1,36 @@
+{
+ "text": "Quedan poco más de dos segundos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Quedan",
+   "start": 0.093458,
+   "end": 0.386916
+  },
+  {
+   "text": "poco",
+   "start": 0.397833,
+   "end": 0.604374
+  },
+  {
+   "text": "más",
+   "start": 0.626083,
+   "end": 0.843458
+  },
+  {
+   "text": "de",
+   "start": 0.865208,
+   "end": 0.930416
+  },
+  {
+   "text": "dos",
+   "start": 0.963041,
+   "end": 1.115207
+  },
+  {
+   "text": "segundos",
+   "start": 1.115208,
+   "end": 1.636958
+  }
+ ]
+}

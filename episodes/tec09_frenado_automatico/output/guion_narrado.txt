@@ -1,0 +1,29 @@
+[hook] (  0.1s –   6.9s)
+El auto de adelante frena de golpe... y tú vas mirando el celular. Tu auto frena solo. ¿Cómo supo que ibas a chocar?
+
+[saber] (  6.9s –  12.5s)
+Necesita saber dos cosas: a qué distancia está el otro auto, y qué tan rápido se acercan.
+
+[eco] ( 12.5s –  19.7s)
+Un sensor adelante, muchas veces un radar, lanza una señal que rebota... y vuelve. Por lo que tarda, sabe la distancia.
+
+[rapidez] ( 19.7s –  23.1s)
+Mide otra vez: si se achica, se están acercando.
+
+[cuenta] ( 23.1s –  29.0s)
+Y la cuenta clave: distancia, dividida por esa rapidez... da los segundos para el choque.
+
+[ejemplo] ( 29.0s –  34.5s)
+Imagina treinta metros, a cincuenta kilómetros por hora: poco más de dos segundos.
+
+[actua] ( 34.5s –  40.5s)
+Primero te avisa. Si no reaccionas... frena él. Y si frenas suave, pone la fuerza que falta.
+
+[resultado] ( 40.5s –  47.5s)
+¿Sirve? El instituto IIHS, en Estados Unidos, vio que reduce a la mitad los choques por alcance.
+
+[limite] ( 47.5s –  52.7s)
+Con lluvia fuerte, niebla o en curvas, puede fallar: el que maneja sigues siendo tú.
+
+[cierre] ( 52.7s –  57.3s)
+¿Cómo supo? Midió, calculó los segundos... y frenó antes que tú.

@@ -1,0 +1,26 @@
+{
+ "text": "Midió, calculó los segundos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Midió",
+   "start": 0.093458,
+   "end": 0.473874
+  },
+  {
+   "text": "calculó",
+   "start": 0.745666,
+   "end": 1.104374
+  },
+  {
+   "text": "los",
+   "start": 1.126083,
+   "end": 1.245666
+  },
+  {
+   "text": "segundos",
+   "start": 1.245666,
+   "end": 1.745666
+  }
+ ]
+}

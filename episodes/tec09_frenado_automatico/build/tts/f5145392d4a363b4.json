@@ -1,0 +1,46 @@
+{
+ "text": "Si la distancia se achica, se están acercando.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.234749
+  },
+  {
+   "text": "la",
+   "start": 0.256541,
+   "end": 0.332624
+  },
+  {
+   "text": "distancia",
+   "start": 0.354333,
+   "end": 0.799999
+  },
+  {
+   "text": "se",
+   "start": 0.82175,
+   "end": 0.886958
+  },
+  {
+   "text": "achica",
+   "start": 0.886958,
+   "end": 1.310874
+  },
+  {
+   "text": "se",
+   "start": 1.55,
+   "end": 1.658708
+  },
+  {
+   "text": "están",
+   "start": 1.658708,
+   "end": 1.919583
+  },
+  {
+   "text": "acercando",
+   "start": 1.930416,
+   "end": 2.463041
+  }
+ ]
+}

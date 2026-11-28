@@ -1,0 +1,36 @@
+{
+ "text": "Midió la distancia, calculó los segundos...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Midió",
+   "start": 0.093458,
+   "end": 0.376083
+  },
+  {
+   "text": "la",
+   "start": 0.397833,
+   "end": 0.463041
+  },
+  {
+   "text": "distancia",
+   "start": 0.484791,
+   "end": 1.028249
+  },
+  {
+   "text": "calculó",
+   "start": 1.27825,
+   "end": 1.626083
+  },
+  {
+   "text": "los",
+   "start": 1.647833,
+   "end": 1.767374
+  },
+  {
+   "text": "segundos",
+   "start": 1.767375,
+   "end": 2.27825
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "text": "El auto de adelante frena de golpe...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "auto",
+   "start": 0.234791,
+   "end": 0.463041
+  },
+  {
+   "text": "de",
+   "start": 0.484791,
+   "end": 0.539124
+  },
+  {
+   "text": "adelante",
+   "start": 0.539125,
+   "end": 0.952166
+  },
+  {
+   "text": "frena",
+   "start": 0.973916,
+   "end": 1.245666
+  },
+  {
+   "text": "de",
+   "start": 1.267375,
+   "end": 1.343458
+  },
+  {
+   "text": "golpe",
+   "start": 1.376083,
+   "end": 1.691291
+  }
+ ]
+}

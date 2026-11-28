@@ -1,0 +1,31 @@
+{
+ "text": "poco más de dos segundos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "poco",
+   "start": 0.093458,
+   "end": 0.310833
+  },
+  {
+   "text": "más",
+   "start": 0.332625,
+   "end": 0.55
+  },
+  {
+   "text": "de",
+   "start": 0.57175,
+   "end": 0.636958
+  },
+  {
+   "text": "dos",
+   "start": 0.669583,
+   "end": 0.821749
+  },
+  {
+   "text": "segundos",
+   "start": 0.82175,
+   "end": 1.3435
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "text": "Tu auto frena solo.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Tu",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "auto",
+   "start": 0.213041,
+   "end": 0.463041
+  },
+  {
+   "text": "frena",
+   "start": 0.484791,
+   "end": 0.745666
+  },
+  {
+   "text": "solo",
+   "start": 0.756541,
+   "end": 1.028291
+  }
+ ]
+}

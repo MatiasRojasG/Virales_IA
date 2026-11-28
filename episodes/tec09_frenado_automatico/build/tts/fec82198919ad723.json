@@ -1,0 +1,36 @@
+{
+ "text": "Un instante después, mide otra vez.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "instante",
+   "start": 0.213041,
+   "end": 0.636957
+  },
+  {
+   "text": "después",
+   "start": 0.658708,
+   "end": 1.082624
+  },
+  {
+   "text": "mide",
+   "start": 1.32175,
+   "end": 1.5935
+  },
+  {
+   "text": "otra",
+   "start": 1.615208,
+   "end": 1.832583
+  },
+  {
+   "text": "vez",
+   "start": 1.854333,
+   "end": 2.126083
+  }
+ ]
+}

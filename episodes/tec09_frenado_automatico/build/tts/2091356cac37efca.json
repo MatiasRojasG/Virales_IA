@@ -1,0 +1,61 @@
+{
+ "text": "Y si frenas muy suave, le pone la fuerza que falta.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "si",
+   "start": 0.191291,
+   "end": 0.289124
+  },
+  {
+   "text": "frenas",
+   "start": 0.32175,
+   "end": 0.636958
+  },
+  {
+   "text": "muy",
+   "start": 0.658708,
+   "end": 0.789124
+  },
+  {
+   "text": "suave",
+   "start": 0.82175,
+   "end": 1.158708
+  },
+  {
+   "text": "le",
+   "start": 1.397833,
+   "end": 1.495666
+  },
+  {
+   "text": "pone",
+   "start": 1.582625,
+   "end": 1.756541
+  },
+  {
+   "text": "la",
+   "start": 1.789125,
+   "end": 1.865208
+  },
+  {
+   "text": "fuerza",
+   "start": 1.886958,
+   "end": 2.180416
+  },
+  {
+   "text": "que",
+   "start": 2.234791,
+   "end": 2.299999
+  },
+  {
+   "text": "falta",
+   "start": 2.32175,
+   "end": 2.680458
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "text": "Para decidir, necesita saber dos cosas:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Para",
+   "start": 0.093458,
+   "end": 0.278249
+  },
+  {
+   "text": "decidir",
+   "start": 0.3,
+   "end": 0.713041
+  },
+  {
+   "text": "necesita",
+   "start": 0.984791,
+   "end": 1.495666
+  },
+  {
+   "text": "saber",
+   "start": 1.517375,
+   "end": 1.77825
+  },
+  {
+   "text": "dos",
+   "start": 1.82175,
+   "end": 1.995666
+  },
+  {
+   "text": "cosas",
+   "start": 2.039125,
+   "end": 2.419541
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "text": "que reduce a la mitad los choques por alcance.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "que",
+   "start": 0.097166,
+   "end": 0.191499
+  },
+  {
+   "text": "reduce",
+   "start": 0.226875,
+   "end": 0.60425
+  },
+  {
+   "text": "a",
+   "start": 0.60425,
+   "end": 0.6514159
+  },
+  {
+   "text": "la",
+   "start": 0.675,
+   "end": 0.757541
+  },
+  {
+   "text": "mitad",
+   "start": 0.781125,
+   "end": 1.087708
+  },
+  {
+   "text": "los",
+   "start": 1.111333,
+   "end": 1.252833
+  },
+  {
+   "text": "choques",
+   "start": 1.311791,
+   "end": 1.618374
+  },
+  {
+   "text": "por",
+   "start": 1.689166,
+   "end": 1.771707
+  },
+  {
+   "text": "alcance",
+   "start": 1.7835,
+   "end": 2.243416
+  }
+ ]
+}

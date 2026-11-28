@@ -1,0 +1,36 @@
+{
+ "text": "y qué tan rápido se acercan.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "qué",
+   "start": 0.213041,
+   "end": 0.278249
+  },
+  {
+   "text": "tan",
+   "start": 0.354333,
+   "end": 0.506499
+  },
+  {
+   "text": "rápido",
+   "start": 0.517375,
+   "end": 0.908666
+  },
+  {
+   "text": "se",
+   "start": 0.930416,
+   "end": 1.006499
+  },
+  {
+   "text": "acercan",
+   "start": 1.006541,
+   "end": 1.452207
+  }
+ ]
+}

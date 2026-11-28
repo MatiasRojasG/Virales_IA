@@ -1,0 +1,31 @@
+{
+ "text": "Con margen, primero te avisa.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Con",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "margen",
+   "start": 0.267375,
+   "end": 0.669541
+  },
+  {
+   "text": "primero",
+   "start": 0.952166,
+   "end": 1.278249
+  },
+  {
+   "text": "te",
+   "start": 1.343458,
+   "end": 1.376083
+  },
+  {
+   "text": "avisa",
+   "start": 1.376083,
+   "end": 1.713041
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "text": "Pero con lluvia fuerte, niebla o en curvas, puede fallar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pero",
+   "start": 0.093458,
+   "end": 0.223874
+  },
+  {
+   "text": "con",
+   "start": 0.289125,
+   "end": 0.408708
+  },
+  {
+   "text": "lluvia",
+   "start": 0.441291,
+   "end": 0.669541
+  },
+  {
+   "text": "fuerte",
+   "start": 0.691291,
+   "end": 1.060874
+  },
+  {
+   "text": "niebla",
+   "start": 1.310875,
+   "end": 1.680458
+  },
+  {
+   "text": "o",
+   "start": 1.713041,
+   "end": 1.767374
+  },
+  {
+   "text": "en",
+   "start": 1.789125,
+   "end": 1.930416
+  },
+  {
+   "text": "curvas",
+   "start": 1.941291,
+   "end": 2.321707
+  },
+  {
+   "text": "puede",
+   "start": 2.560875,
+   "end": 2.745666
+  },
+  {
+   "text": "fallar",
+   "start": 2.767375,
+   "end": 3.147791
+  }
+ ]
+}

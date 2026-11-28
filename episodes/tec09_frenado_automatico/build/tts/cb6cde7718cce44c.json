@@ -1,0 +1,31 @@
+{
+ "text": "Si no reaccionas... frena él.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.093458,
+   "end": 0.256499
+  },
+  {
+   "text": "no",
+   "start": 0.27825,
+   "end": 0.397833
+  },
+  {
+   "text": "reaccionas",
+   "start": 0.419583,
+   "end": 1.017416
+  },
+  {
+   "text": "frena",
+   "start": 1.245666,
+   "end": 1.539124
+  },
+  {
+   "text": "él",
+   "start": 1.615208,
+   "end": 1.745624
+  }
+ ]
+}

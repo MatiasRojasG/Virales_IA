@@ -1,0 +1,41 @@
+{
+ "text": "Un sensor adelante, muchas veces un radar,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.095125,
+   "end": 0.203833
+  },
+  {
+   "text": "sensor",
+   "start": 0.236416,
+   "end": 0.540749
+  },
+  {
+   "text": "adelante",
+   "start": 0.54075,
+   "end": 1.04075
+  },
+  {
+   "text": "muchas",
+   "start": 1.29075,
+   "end": 1.638583
+  },
+  {
+   "text": "veces",
+   "start": 1.660333,
+   "end": 1.953791
+  },
+  {
+   "text": "un",
+   "start": 1.975541,
+   "end": 2.062499
+  },
+  {
+   "text": "radar",
+   "start": 2.073375,
+   "end": 2.399458
+  }
+ ]
+}

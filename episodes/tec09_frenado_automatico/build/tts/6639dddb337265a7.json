@@ -1,0 +1,36 @@
+{
+ "text": "da los segundos para el choque.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "da",
+   "start": 0.095125,
+   "end": 0.236416
+  },
+  {
+   "text": "los",
+   "start": 0.258166,
+   "end": 0.366832
+  },
+  {
+   "text": "segundos",
+   "start": 0.366833,
+   "end": 0.768999
+  },
+  {
+   "text": "para",
+   "start": 0.83425,
+   "end": 0.942958
+  },
+  {
+   "text": "el",
+   "start": 0.964666,
+   "end": 1.062499
+  },
+  {
+   "text": "choque",
+   "start": 1.08425,
+   "end": 1.356
+  }
+ ]
+}

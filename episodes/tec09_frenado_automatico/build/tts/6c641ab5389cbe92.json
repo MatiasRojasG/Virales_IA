@@ -1,0 +1,41 @@
+{
+ "text": "lanza una señal que rebota... y vuelve.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "lanza",
+   "start": 0.093458,
+   "end": 0.452166
+  },
+  {
+   "text": "una",
+   "start": 0.484791,
+   "end": 0.647832
+  },
+  {
+   "text": "señal",
+   "start": 0.658708,
+   "end": 0.973916
+  },
+  {
+   "text": "que",
+   "start": 1.017375,
+   "end": 1.082583
+  },
+  {
+   "text": "rebota",
+   "start": 1.104333,
+   "end": 1.517374
+  },
+  {
+   "text": "y",
+   "start": 1.702166,
+   "end": 1.756499
+  },
+  {
+   "text": "vuelve",
+   "start": 1.789125,
+   "end": 2.115208
+  }
+ ]
+}

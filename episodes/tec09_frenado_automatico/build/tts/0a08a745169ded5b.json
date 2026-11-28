@@ -1,0 +1,36 @@
+{
+ "text": "y tú vas mirando el celular.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.136916
+  },
+  {
+   "text": "tú",
+   "start": 0.213041,
+   "end": 0.278249
+  },
+  {
+   "text": "vas",
+   "start": 0.310875,
+   "end": 0.484791
+  },
+  {
+   "text": "mirando",
+   "start": 0.506541,
+   "end": 0.843499
+  },
+  {
+   "text": "el",
+   "start": 0.854333,
+   "end": 0.930416
+  },
+  {
+   "text": "celular",
+   "start": 0.952166,
+   "end": 1.354332
+  }
+ ]
+}

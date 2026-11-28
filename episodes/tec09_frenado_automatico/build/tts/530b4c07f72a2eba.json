@@ -1,0 +1,36 @@
+{
+ "text": "El que maneja... sigues siendo tú.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "que",
+   "start": 0.267375,
+   "end": 0.332583
+  },
+  {
+   "text": "maneja",
+   "start": 0.354333,
+   "end": 0.778249
+  },
+  {
+   "text": "sigues",
+   "start": 0.984791,
+   "end": 1.299999
+  },
+  {
+   "text": "siendo",
+   "start": 1.3,
+   "end": 1.582625
+  },
+  {
+   "text": "tú",
+   "start": 1.658708,
+   "end": 1.756541
+  }
+ ]
+}

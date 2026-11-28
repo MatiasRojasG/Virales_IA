@@ -1,0 +1,51 @@
+{
+ "text": "Mide otra vez: si se achica, se están acercando.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Mide",
+   "start": 0.093458,
+   "end": 0.376083
+  },
+  {
+   "text": "otra",
+   "start": 0.397833,
+   "end": 0.604374
+  },
+  {
+   "text": "vez",
+   "start": 0.626083,
+   "end": 0.897833
+  },
+  {
+   "text": "si",
+   "start": 1.115208,
+   "end": 1.223916
+  },
+  {
+   "text": "se",
+   "start": 1.267375,
+   "end": 1.332583
+  },
+  {
+   "text": "achica",
+   "start": 1.332625,
+   "end": 1.778291
+  },
+  {
+   "text": "se",
+   "start": 2.006541,
+   "end": 2.115207
+  },
+  {
+   "text": "están",
+   "start": 2.115208,
+   "end": 2.376083
+  },
+  {
+   "text": "acercando",
+   "start": 2.386958,
+   "end": 2.919583
+  }
+ ]
+}

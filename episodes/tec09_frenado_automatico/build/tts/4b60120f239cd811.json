@@ -1,0 +1,41 @@
+{
+ "text": "a qué distancia está el otro auto,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "a",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "qué",
+   "start": 0.223916,
+   "end": 0.289124
+  },
+  {
+   "text": "distancia",
+   "start": 0.310875,
+   "end": 0.745666
+  },
+  {
+   "text": "está",
+   "start": 0.77825,
+   "end": 0.984791
+  },
+  {
+   "text": "el",
+   "start": 1.02825,
+   "end": 1.104333
+  },
+  {
+   "text": "otro",
+   "start": 1.115208,
+   "end": 1.343458
+  },
+  {
+   "text": "auto",
+   "start": 1.354333,
+   "end": 1.636958
+  }
+ ]
+}

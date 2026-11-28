@@ -1,0 +1,41 @@
+{
+ "text": "En Estados Unidos, el instituto IIHS encontró",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "Estados",
+   "start": 0.223916,
+   "end": 0.604332
+  },
+  {
+   "text": "Unidos",
+   "start": 0.626083,
+   "end": 1.017374
+  },
+  {
+   "text": "el",
+   "start": 1.289125,
+   "end": 1.386958
+  },
+  {
+   "text": "instituto",
+   "start": 1.408708,
+   "end": 1.908708
+  },
+  {
+   "text": "IIHS",
+   "start": 1.952166,
+   "end": 2.571749
+  },
+  {
+   "text": "encontró",
+   "start": 2.582625,
+   "end": 2.973916
+  }
+ ]
+}

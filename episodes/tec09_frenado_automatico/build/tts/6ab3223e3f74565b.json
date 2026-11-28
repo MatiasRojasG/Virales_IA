@@ -1,0 +1,51 @@
+{
+ "text": "Por lo que tarda en volver, sabe la distancia.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "lo",
+   "start": 0.223916,
+   "end": 0.278249
+  },
+  {
+   "text": "que",
+   "start": 0.332625,
+   "end": 0.397833
+  },
+  {
+   "text": "tarda",
+   "start": 0.473916,
+   "end": 0.691291
+  },
+  {
+   "text": "en",
+   "start": 0.702166,
+   "end": 0.745624
+  },
+  {
+   "text": "volver",
+   "start": 0.789125,
+   "end": 1.093458
+  },
+  {
+   "text": "sabe",
+   "start": 1.365208,
+   "end": 1.636958
+  },
+  {
+   "text": "la",
+   "start": 1.658708,
+   "end": 1.734791
+  },
+  {
+   "text": "distancia",
+   "start": 1.756541,
+   "end": 2.256541
+  }
+ ]
+}

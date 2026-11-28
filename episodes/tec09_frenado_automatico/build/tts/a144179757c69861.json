@@ -1,0 +1,31 @@
+{
+ "text": "Y ahora, la cuenta clave:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "ahora",
+   "start": 0.169583,
+   "end": 0.539166
+  },
+  {
+   "text": "la",
+   "start": 0.756541,
+   "end": 0.865249
+  },
+  {
+   "text": "cuenta",
+   "start": 0.941291,
+   "end": 1.158666
+  },
+  {
+   "text": "clave",
+   "start": 1.213041,
+   "end": 1.473916
+  }
+ ]
+}

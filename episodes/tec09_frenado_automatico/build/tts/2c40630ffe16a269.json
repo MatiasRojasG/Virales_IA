@@ -1,0 +1,51 @@
+{
+ "text": "Y si frenas suave, pone la fuerza que falta.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "si",
+   "start": 0.202166,
+   "end": 0.299999
+  },
+  {
+   "text": "frenas",
+   "start": 0.332625,
+   "end": 0.604333
+  },
+  {
+   "text": "suave",
+   "start": 0.604333,
+   "end": 0.919541
+  },
+  {
+   "text": "pone",
+   "start": 1.180416,
+   "end": 1.354332
+  },
+  {
+   "text": "la",
+   "start": 1.386958,
+   "end": 1.463041
+  },
+  {
+   "text": "fuerza",
+   "start": 1.484791,
+   "end": 1.778249
+  },
+  {
+   "text": "que",
+   "start": 1.832625,
+   "end": 1.897833
+  },
+  {
+   "text": "falta",
+   "start": 1.919583,
+   "end": 2.278291
+  }
+ ]
+}

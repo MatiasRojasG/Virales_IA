@@ -1,0 +1,16 @@
+{
+ "text": "¿Cómo supo?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Cómo",
+   "start": 0.093458,
+   "end": 0.310833
+  },
+  {
+   "text": "supo",
+   "start": 0.332625,
+   "end": 0.647833
+  }
+ ]
+}
