@@ -1,0 +1,56 @@
+{
+ "text": "A las personas nos gusta que nos den la razón.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "A",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "las",
+   "start": 0.180416,
+   "end": 0.299999
+  },
+  {
+   "text": "personas",
+   "start": 0.354333,
+   "end": 0.723916
+  },
+  {
+   "text": "nos",
+   "start": 0.745666,
+   "end": 0.886957
+  },
+  {
+   "text": "gusta",
+   "start": 0.908708,
+   "end": 1.169583
+  },
+  {
+   "text": "que",
+   "start": 1.223916,
+   "end": 1.289124
+  },
+  {
+   "text": "nos",
+   "start": 1.310875,
+   "end": 1.430458
+  },
+  {
+   "text": "den",
+   "start": 1.463041,
+   "end": 1.539124
+  },
+  {
+   "text": "la",
+   "start": 1.560875,
+   "end": 1.647833
+  },
+  {
+   "text": "razón",
+   "start": 1.658708,
+   "end": 1.995666
+  }
+ ]
+}

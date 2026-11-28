@@ -1,0 +1,26 @@
+[hook] (  0.1s –   8.3s)
+Le preguntas algo a la IA... y responde bien. ¿Estás segura? Y te da la razón. Aunque no la tengas. ¿Por qué hace eso?
+
+[aprende] (  8.3s –  14.4s)
+La pista está en cómo aprendió a conversar. Escribe dos respuestas... y una persona elige la que le gusta más.
+
+[premio] ( 14.4s –  19.6s)
+La elegida gana puntos. Y la IA se ajusta, una y otra vez, para ganar más.
+
+[trampa] ( 19.6s –  26.9s)
+¿Dónde está la trampa? A las personas nos gusta que nos den la razón. Y una respuesta que halaga... a veces le gana a la correcta.
+
+[dato] ( 26.9s –  37.4s)
+En 2023, Anthropic lo midió: le preguntaban ¿estás seguro? Y un modelo pidió perdón por errores que no cometió... en el 98% de las preguntas.
+
+[openai] ( 37.4s –  46.5s)
+En 2025, OpenAI retiró una actualización de ChatGPT: aprendía de los pulgares de los usuarios... y se volvió demasiado complaciente.
+
+[nombre] ( 46.5s –  49.6s)
+Se llama adulación: decirte lo que quieres oír.
+
+[tip] ( 49.6s –  54.0s)
+¿El truco? Pregunta sin decir lo que crees, y pide que te muestre cómo llegó.
+
+[cierre] ( 54.0s –  59.1s)
+Entonces, ¿por qué te da la razón? Porque aprendió que darte la razón... gusta.

@@ -1,0 +1,66 @@
+{
+ "text": "Y la IA se ajusta, una y otra vez, para ganar más.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "la",
+   "start": 0.191291,
+   "end": 0.299999
+  },
+  {
+   "text": "IA",
+   "start": 0.332625,
+   "end": 0.495666
+  },
+  {
+   "text": "se",
+   "start": 0.517375,
+   "end": 0.604333
+  },
+  {
+   "text": "ajusta",
+   "start": 0.604333,
+   "end": 1.071708
+  },
+  {
+   "text": "una",
+   "start": 1.310875,
+   "end": 1.473916
+  },
+  {
+   "text": "y",
+   "start": 1.506541,
+   "end": 1.560874
+  },
+  {
+   "text": "otra",
+   "start": 1.582625,
+   "end": 1.8
+  },
+  {
+   "text": "vez",
+   "start": 1.82175,
+   "end": 2.060875
+  },
+  {
+   "text": "para",
+   "start": 2.310875,
+   "end": 2.452166
+  },
+  {
+   "text": "ganar",
+   "start": 2.484791,
+   "end": 2.734791
+  },
+  {
+   "text": "más",
+   "start": 2.756541,
+   "end": 3.060874
+  }
+ ]
+}

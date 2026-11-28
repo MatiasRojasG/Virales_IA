@@ -1,0 +1,36 @@
+{
+ "text": "Porque aprendió que darte la razón...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Porque",
+   "start": 0.093458,
+   "end": 0.321708
+  },
+  {
+   "text": "aprendió",
+   "start": 0.32175,
+   "end": 0.680458
+  },
+  {
+   "text": "que",
+   "start": 0.745666,
+   "end": 0.810874
+  },
+  {
+   "text": "darte",
+   "start": 0.843458,
+   "end": 1.115208
+  },
+  {
+   "text": "la",
+   "start": 1.136958,
+   "end": 1.223916
+  },
+  {
+   "text": "razón",
+   "start": 1.245666,
+   "end": 1.582624
+  }
+ ]
+}

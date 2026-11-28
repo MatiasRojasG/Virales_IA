@@ -1,0 +1,31 @@
+{
+ "text": "decirte lo que quieres oír.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "decirte",
+   "start": 0.09675,
+   "end": 0.531541
+  },
+  {
+   "text": "lo",
+   "start": 0.55325,
+   "end": 0.629333
+  },
+  {
+   "text": "que",
+   "start": 0.683708,
+   "end": 0.748916
+  },
+  {
+   "text": "quieres",
+   "start": 0.814125,
+   "end": 1.064125
+  },
+  {
+   "text": "oír",
+   "start": 1.064125,
+   "end": 1.314125
+  }
+ ]
+}

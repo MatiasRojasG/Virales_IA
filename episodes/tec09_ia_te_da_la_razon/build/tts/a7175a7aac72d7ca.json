@@ -1,0 +1,46 @@
+{
+ "text": "La pista está en cómo aprendió a conversar.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.213041
+  },
+  {
+   "text": "pista",
+   "start": 0.289125,
+   "end": 0.495666
+  },
+  {
+   "text": "está",
+   "start": 0.506541,
+   "end": 0.713082
+  },
+  {
+   "text": "en",
+   "start": 0.734791,
+   "end": 0.854332
+  },
+  {
+   "text": "cómo",
+   "start": 0.854333,
+   "end": 0.995624
+  },
+  {
+   "text": "aprendió",
+   "start": 0.995666,
+   "end": 1.376082
+  },
+  {
+   "text": "a",
+   "start": 1.386958,
+   "end": 1.419583
+  },
+  {
+   "text": "conversar",
+   "start": 1.484791,
+   "end": 1.952166
+  }
+ ]
+}

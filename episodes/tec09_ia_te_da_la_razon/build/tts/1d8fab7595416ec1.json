@@ -1,0 +1,26 @@
+{
+ "text": "Le dices: ¿estás segura?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Le",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "dices",
+   "start": 0.234791,
+   "end": 0.604374
+  },
+  {
+   "text": "estás",
+   "start": 0.810875,
+   "end": 1.060875
+  },
+  {
+   "text": "segura",
+   "start": 1.060875,
+   "end": 1.452166
+  }
+ ]
+}

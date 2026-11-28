@@ -1,0 +1,16 @@
+{
+ "text": "¿Estás segura?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Estás",
+   "start": 0.093458,
+   "end": 0.386916
+  },
+  {
+   "text": "segura",
+   "start": 0.386958,
+   "end": 0.756541
+  }
+ ]
+}

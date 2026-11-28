@@ -1,0 +1,21 @@
+{
+ "text": "Escribe dos respuestas...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Escribe",
+   "start": 0.093458,
+   "end": 0.463041
+  },
+  {
+   "text": "dos",
+   "start": 0.495666,
+   "end": 0.626082
+  },
+  {
+   "text": "respuestas",
+   "start": 0.647833,
+   "end": 1.234791
+  }
+ ]
+}

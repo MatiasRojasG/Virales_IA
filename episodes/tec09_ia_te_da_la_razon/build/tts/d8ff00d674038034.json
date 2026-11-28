@@ -1,0 +1,51 @@
+{
+ "text": "y una persona elige la que le gusta más.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.095125,
+   "end": 0.171208
+  },
+  {
+   "text": "una",
+   "start": 0.192916,
+   "end": 0.334207
+  },
+  {
+   "text": "persona",
+   "start": 0.399458,
+   "end": 0.714666
+  },
+  {
+   "text": "elige",
+   "start": 0.779875,
+   "end": 1.04075
+  },
+  {
+   "text": "la",
+   "start": 1.0625,
+   "end": 1.138583
+  },
+  {
+   "text": "que",
+   "start": 1.203791,
+   "end": 1.258124
+  },
+  {
+   "text": "le",
+   "start": 1.279875,
+   "end": 1.355958
+  },
+  {
+   "text": "gusta",
+   "start": 1.388583,
+   "end": 1.660333
+  },
+  {
+   "text": "más",
+   "start": 1.682083,
+   "end": 1.964708
+  }
+ ]
+}

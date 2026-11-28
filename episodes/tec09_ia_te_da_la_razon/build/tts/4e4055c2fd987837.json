@@ -1,0 +1,26 @@
+{
+ "text": "¿Por qué hace eso?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Por",
+   "start": 0.093458,
+   "end": 0.202166
+  },
+  {
+   "text": "qué",
+   "start": 0.267375,
+   "end": 0.376083
+  },
+  {
+   "text": "hace",
+   "start": 0.386958,
+   "end": 0.582624
+  },
+  {
+   "text": "eso",
+   "start": 0.626083,
+   "end": 0.843458
+  }
+ ]
+}

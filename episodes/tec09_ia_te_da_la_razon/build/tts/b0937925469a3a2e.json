@@ -1,0 +1,56 @@
+{
+ "text": "y pídele que te muestre cómo llegó a la respuesta.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "pídele",
+   "start": 0.234791,
+   "end": 0.506541
+  },
+  {
+   "text": "que",
+   "start": 0.560875,
+   "end": 0.626083
+  },
+  {
+   "text": "te",
+   "start": 0.691291,
+   "end": 0.734749
+  },
+  {
+   "text": "muestre",
+   "start": 0.767375,
+   "end": 1.082583
+  },
+  {
+   "text": "cómo",
+   "start": 1.136958,
+   "end": 1.299999
+  },
+  {
+   "text": "llegó",
+   "start": 1.354333,
+   "end": 1.582583
+  },
+  {
+   "text": "a",
+   "start": 1.593458,
+   "end": 1.658666
+  },
+  {
+   "text": "la",
+   "start": 1.669583,
+   "end": 1.756541
+  },
+  {
+   "text": "respuesta",
+   "start": 1.767375,
+   "end": 2.2565
+  }
+ ]
+}

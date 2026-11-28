@@ -1,0 +1,21 @@
+{
+ "text": "Se llama adulación:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Se",
+   "start": 0.095125,
+   "end": 0.247291
+  },
+  {
+   "text": "llama",
+   "start": 0.29075,
+   "end": 0.497291
+  },
+  {
+   "text": "adulación",
+   "start": 0.54075,
+   "end": 1.051625
+  }
+ ]
+}

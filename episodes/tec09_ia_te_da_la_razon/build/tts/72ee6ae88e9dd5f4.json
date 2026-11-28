@@ -1,0 +1,46 @@
+{
+ "text": "aprendía también de los pulgares de los usuarios...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "aprendía",
+   "start": 0.093458,
+   "end": 0.506499
+  },
+  {
+   "text": "también",
+   "start": 0.582625,
+   "end": 0.854375
+  },
+  {
+   "text": "de",
+   "start": 0.886958,
+   "end": 0.930416
+  },
+  {
+   "text": "los",
+   "start": 0.952166,
+   "end": 1.060874
+  },
+  {
+   "text": "pulgares",
+   "start": 1.126083,
+   "end": 1.495666
+  },
+  {
+   "text": "de",
+   "start": 1.517375,
+   "end": 1.560833
+  },
+  {
+   "text": "los",
+   "start": 1.582625,
+   "end": 1.723916
+  },
+  {
+   "text": "usuarios",
+   "start": 1.734791,
+   "end": 2.256541
+  }
+ ]
+}

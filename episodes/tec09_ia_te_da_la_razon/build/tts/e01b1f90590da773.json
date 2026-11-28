@@ -1,0 +1,51 @@
+{
+ "text": "Y te da la razón. Aunque no la tengas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "te",
+   "start": 0.234791,
+   "end": 0.310874
+  },
+  {
+   "text": "da",
+   "start": 0.332625,
+   "end": 0.430458
+  },
+  {
+   "text": "la",
+   "start": 0.441291,
+   "end": 0.528249
+  },
+  {
+   "text": "razón",
+   "start": 0.55,
+   "end": 0.897833
+  },
+  {
+   "text": "Aunque",
+   "start": 1.663041,
+   "end": 1.913041
+  },
+  {
+   "text": "no",
+   "start": 1.934791,
+   "end": 2.054374
+  },
+  {
+   "text": "la",
+   "start": 2.076083,
+   "end": 2.152166
+  },
+  {
+   "text": "tengas",
+   "start": 2.22825,
+   "end": 2.630416
+  }
+ ]
+}

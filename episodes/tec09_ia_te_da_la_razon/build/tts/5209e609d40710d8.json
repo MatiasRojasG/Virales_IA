@@ -1,0 +1,71 @@
+{
+ "text": "Y una respuesta que te halaga... a veces le gana a la correcta.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.169541
+  },
+  {
+   "text": "una",
+   "start": 0.202166,
+   "end": 0.354332
+  },
+  {
+   "text": "respuesta",
+   "start": 0.376083,
+   "end": 0.810874
+  },
+  {
+   "text": "que",
+   "start": 0.865208,
+   "end": 0.919541
+  },
+  {
+   "text": "te",
+   "start": 0.984791,
+   "end": 1.006541
+  },
+  {
+   "text": "halaga",
+   "start": 1.006541,
+   "end": 1.343499
+  },
+  {
+   "text": "a",
+   "start": 1.57175,
+   "end": 1.647833
+  },
+  {
+   "text": "veces",
+   "start": 1.680416,
+   "end": 1.952166
+  },
+  {
+   "text": "le",
+   "start": 1.973916,
+   "end": 2.049999
+  },
+  {
+   "text": "gana",
+   "start": 2.082625,
+   "end": 2.310875
+  },
+  {
+   "text": "a",
+   "start": 2.376083,
+   "end": 2.397833
+  },
+  {
+   "text": "la",
+   "start": 2.408708,
+   "end": 2.473916
+  },
+  {
+   "text": "correcta",
+   "start": 2.539125,
+   "end": 2.952166
+  }
+ ]
+}

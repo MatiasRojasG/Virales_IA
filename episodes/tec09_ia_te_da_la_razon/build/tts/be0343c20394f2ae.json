@@ -1,0 +1,41 @@
+{
+ "text": "Entonces, ¿por qué te da la razón?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Entonces",
+   "start": 0.093458,
+   "end": 0.636916
+  },
+  {
+   "text": "por",
+   "start": 0.876083,
+   "end": 0.963041
+  },
+  {
+   "text": "qué",
+   "start": 1.017375,
+   "end": 1.071708
+  },
+  {
+   "text": "te",
+   "start": 1.136958,
+   "end": 1.202166
+  },
+  {
+   "text": "da",
+   "start": 1.213041,
+   "end": 1.310874
+  },
+  {
+   "text": "la",
+   "start": 1.32175,
+   "end": 1.408708
+  },
+  {
+   "text": "razón",
+   "start": 1.430416,
+   "end": 1.767374
+  }
+ ]
+}

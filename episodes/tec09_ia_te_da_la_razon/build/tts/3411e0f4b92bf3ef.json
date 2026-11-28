@@ -1,0 +1,41 @@
+{
+ "text": "y pide que te muestre cómo llegó.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.158666
+  },
+  {
+   "text": "pide",
+   "start": 0.234791,
+   "end": 0.397832
+  },
+  {
+   "text": "que",
+   "start": 0.452166,
+   "end": 0.517374
+  },
+  {
+   "text": "te",
+   "start": 0.582625,
+   "end": 0.626083
+  },
+  {
+   "text": "muestre",
+   "start": 0.658708,
+   "end": 0.973916
+  },
+  {
+   "text": "cómo",
+   "start": 1.02825,
+   "end": 1.191291
+  },
+  {
+   "text": "llegó",
+   "start": 1.234791,
+   "end": 1.463041
+  }
+ ]
+}

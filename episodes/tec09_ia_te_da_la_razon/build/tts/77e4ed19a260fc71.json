@@ -1,0 +1,76 @@
+{
+ "text": "Y uno de los modelos pidió perdón por un error que no había cometido...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "uno",
+   "start": 0.202166,
+   "end": 0.365207
+  },
+  {
+   "text": "de",
+   "start": 0.376083,
+   "end": 0.452166
+  },
+  {
+   "text": "los",
+   "start": 0.473916,
+   "end": 0.582624
+  },
+  {
+   "text": "modelos",
+   "start": 0.604333,
+   "end": 0.952166
+  },
+  {
+   "text": "pidió",
+   "start": 1.006541,
+   "end": 1.202207
+  },
+  {
+   "text": "perdón",
+   "start": 1.267375,
+   "end": 1.571708
+  },
+  {
+   "text": "por",
+   "start": 1.582625,
+   "end": 1.680416
+  },
+  {
+   "text": "un",
+   "start": 1.680416,
+   "end": 1.789124
+  },
+  {
+   "text": "error",
+   "start": 1.8,
+   "end": 2.07175
+  },
+  {
+   "text": "que",
+   "start": 2.136958,
+   "end": 2.213041
+  },
+  {
+   "text": "no",
+   "start": 2.245666,
+   "end": 2.386957
+  },
+  {
+   "text": "había",
+   "start": 2.386958,
+   "end": 2.626083
+  },
+  {
+   "text": "cometido",
+   "start": 2.680416,
+   "end": 3.147791
+  }
+ ]
+}

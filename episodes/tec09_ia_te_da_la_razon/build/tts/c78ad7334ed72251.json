@@ -1,0 +1,31 @@
+{
+ "text": "y se volvió demasiado complaciente.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "y",
+   "start": 0.093458,
+   "end": 0.147791
+  },
+  {
+   "text": "se",
+   "start": 0.191291,
+   "end": 0.289124
+  },
+  {
+   "text": "volvió",
+   "start": 0.32175,
+   "end": 0.604375
+  },
+  {
+   "text": "demasiado",
+   "start": 0.626083,
+   "end": 1.093458
+  },
+  {
+   "text": "complaciente",
+   "start": 1.147833,
+   "end": 1.745666
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "text": "Los investigadores lo llaman adulación:",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Los",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "investigadores",
+   "start": 0.267375,
+   "end": 0.919541
+  },
+  {
+   "text": "lo",
+   "start": 0.941291,
+   "end": 1.039124
+  },
+  {
+   "text": "llaman",
+   "start": 1.093458,
+   "end": 1.332583
+  },
+  {
+   "text": "adulación",
+   "start": 1.343458,
+   "end": 1.886916
+  }
+ ]
+}

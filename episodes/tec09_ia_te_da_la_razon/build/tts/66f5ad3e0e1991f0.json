@@ -1,0 +1,26 @@
+{
+ "text": "La elegida gana puntos.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "La",
+   "start": 0.093458,
+   "end": 0.180416
+  },
+  {
+   "text": "elegida",
+   "start": 0.256541,
+   "end": 0.626124
+  },
+  {
+   "text": "gana",
+   "start": 0.647833,
+   "end": 0.832624
+  },
+  {
+   "text": "puntos",
+   "start": 0.908708,
+   "end": 1.321749
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "text": "Y en 2025, OpenAI retiró una actualización de ChatGPT.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Y",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "en",
+   "start": 0.215083,
+   "end": 0.309416
+  },
+  {
+   "text": "2025",
+   "start": 0.356583,
+   "end": 1.323583
+  },
+  {
+   "text": "OpenAI",
+   "start": 1.606583,
+   "end": 2.125458
+  },
+  {
+   "text": "retiró",
+   "start": 2.160833,
+   "end": 2.549999
+  },
+  {
+   "text": "una",
+   "start": 2.561791,
+   "end": 2.726874
+  },
+  {
+   "text": "actualización",
+   "start": 2.726875,
+   "end": 3.446208
+  },
+  {
+   "text": "de",
+   "start": 3.505208,
+   "end": 3.564166
+  },
+  {
+   "text": "ChatGPT",
+   "start": 3.646708,
+   "end": 4.318874
+  }
+ ]
+}

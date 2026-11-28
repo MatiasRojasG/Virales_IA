@@ -1,0 +1,61 @@
+{
+ "text": "Había empezado a aprender también de los pulgares de los usuarios...",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Había",
+   "start": 0.093458,
+   "end": 0.343458
+  },
+  {
+   "text": "empezado",
+   "start": 0.376083,
+   "end": 0.789124
+  },
+  {
+   "text": "a",
+   "start": 0.789125,
+   "end": 0.82175
+  },
+  {
+   "text": "aprender",
+   "start": 0.876083,
+   "end": 1.223916
+  },
+  {
+   "text": "también",
+   "start": 1.289125,
+   "end": 1.57175
+  },
+  {
+   "text": "de",
+   "start": 1.604333,
+   "end": 1.647791
+  },
+  {
+   "text": "los",
+   "start": 1.669583,
+   "end": 1.778291
+  },
+  {
+   "text": "pulgares",
+   "start": 1.843458,
+   "end": 2.213041
+  },
+  {
+   "text": "de",
+   "start": 2.234791,
+   "end": 2.289124
+  },
+  {
+   "text": "los",
+   "start": 2.310875,
+   "end": 2.452166
+  },
+  {
+   "text": "usuarios",
+   "start": 2.463041,
+   "end": 2.984791
+  }
+ ]
+}

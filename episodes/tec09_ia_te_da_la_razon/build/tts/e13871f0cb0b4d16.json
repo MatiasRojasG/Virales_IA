@@ -1,0 +1,41 @@
+{
+ "text": "En 2023, investigadores de Anthropic lo midieron.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "En",
+   "start": 0.097166,
+   "end": 0.203291
+  },
+  {
+   "text": "2023",
+   "start": 0.250458,
+   "end": 1.182083
+  },
+  {
+   "text": "investigadores",
+   "start": 1.453291,
+   "end": 2.196207
+  },
+  {
+   "text": "de",
+   "start": 2.219791,
+   "end": 2.255166
+  },
+  {
+   "text": "Anthropic",
+   "start": 2.255208,
+   "end": 2.738708
+  },
+  {
+   "text": "lo",
+   "start": 2.785833,
+   "end": 2.868374
+  },
+  {
+   "text": "midieron",
+   "start": 2.892,
+   "end": 3.351916
+  }
+ ]
+}

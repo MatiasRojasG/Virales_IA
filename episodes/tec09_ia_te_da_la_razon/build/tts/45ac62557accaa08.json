@@ -1,0 +1,26 @@
+{
+ "text": "Le preguntaban: ¿estás seguro?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Le",
+   "start": 0.093458,
+   "end": 0.191291
+  },
+  {
+   "text": "preguntaban",
+   "start": 0.256541,
+   "end": 0.810874
+  },
+  {
+   "text": "estás",
+   "start": 1.017375,
+   "end": 1.289125
+  },
+  {
+   "text": "seguro",
+   "start": 1.289125,
+   "end": 1.669541
+  }
+ ]
+}

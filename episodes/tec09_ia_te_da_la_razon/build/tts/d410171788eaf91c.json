@@ -1,0 +1,16 @@
+{
+ "text": "¿El truco?",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "El",
+   "start": 0.093458,
+   "end": 0.245624
+  },
+  {
+   "text": "truco",
+   "start": 0.289125,
+   "end": 0.57175
+  }
+ ]
+}

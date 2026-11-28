@@ -1,0 +1,56 @@
+{
+ "text": "en el noventa y ocho por ciento de las preguntas.",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "en",
+   "start": 0.097166,
+   "end": 0.215082
+  },
+  {
+   "text": "el",
+   "start": 0.226875,
+   "end": 0.344791
+  },
+  {
+   "text": "noventa",
+   "start": 0.356583,
+   "end": 0.698583
+  },
+  {
+   "text": "y",
+   "start": 0.722166,
+   "end": 0.7693319
+  },
+  {
+   "text": "ocho",
+   "start": 0.792916,
+   "end": 0.969791
+  },
+  {
+   "text": "por",
+   "start": 1.040583,
+   "end": 1.134916
+  },
+  {
+   "text": "ciento",
+   "start": 1.1585,
+   "end": 1.488708
+  },
+  {
+   "text": "de",
+   "start": 1.51225,
+   "end": 1.594791
+  },
+  {
+   "text": "las",
+   "start": 1.618416,
+   "end": 1.736332
+  },
+  {
+   "text": "preguntas",
+   "start": 1.795291,
+   "end": 2.373124
+  }
+ ]
+}

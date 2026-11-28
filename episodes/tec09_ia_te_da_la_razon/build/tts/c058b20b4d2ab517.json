@@ -1,0 +1,36 @@
+{
+ "text": "Pregunta sin decir lo que crees,",
+ "voice": "es-CL-CatalinaNeural",
+ "words": [
+  {
+   "text": "Pregunta",
+   "start": 0.093458,
+   "end": 0.473874
+  },
+  {
+   "text": "sin",
+   "start": 0.495666,
+   "end": 0.636957
+  },
+  {
+   "text": "decir",
+   "start": 0.669583,
+   "end": 0.941333
+  },
+  {
+   "text": "lo",
+   "start": 0.952166,
+   "end": 1.017374
+  },
+  {
+   "text": "que",
+   "start": 1.07175,
+   "end": 1.136958
+  },
+  {
+   "text": "crees",
+   "start": 1.191291,
+   "end": 1.549999
+  }
+ ]
+}
